@@ -27,6 +27,7 @@ The resulting CONLLUs are converted to UD (with the caveats above and below) usi
 # POS-and-feature caveats 
 ## To be fixed when a UD decree is passed
 DET vs PRON vs ADJ, lemmatization of _mycket_ and friends https://github.com/UniversalDependencies/docs/issues/1083
+
 Marking (de)verbal features on participles: https://github.com/UniversalDependencies/docs/issues/1088
 
 ## To be fixed when converting syntax
