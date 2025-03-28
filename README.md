@@ -1,16 +1,27 @@
 # What this is
 
-Ongoing work on converting the Eukalyptus corpus to Universal dependencies, carried out by Sasha Berdicevkis at Språkbanken Text, GU. This repo contains the conversion scripts and the current conversion results. Purposes: 1) to create a new Swedish UD corpus; 2) to give the Eukalyptus corpus a new life; 3) to contribute to the harmonization of the Swedish UD treebanks; 4) ultimately, to train a UD model that would add UD annotation to all Språkbanken's corpora.
+Ongoing work on converting the Eukalyptus corpus to Universal dependencies, carried out by Sasha Berdicevkis at Språkbanken Text, GU. This repo contains the conversion scripts and the current conversion results. Purposes: 
+
+1) to create a new Swedish UD corpus; 
+
+2) to give the Eukalyptus corpus a new life; 
+
+3) to contribute to the harmonization of the Swedish UD treebanks; 
+
+4) ultimately, to train a UD model that would add UD annotation to all Språkbanken's corpora.
+
 Thanks to everybody who contributed to the conversion process, especially Gerlof Bouma, Joakim Nivre, Lars Ahrenberg, Arianna Masciolini, Lars Borin, Yvonne Adesam.
 
 # Current stage
 
-As of 2025-03-28: the conversion of POS, features, metadata and MISC is more or less complete (see caveats below). Lemmatization has been somewhat harmonized to match the UD practice better, but that's difficult, because UD does not have any lemmatization guidelines, and the practice for Swedish is not entirely consistent. Syntax has not been converted at all (see below). I have not done anything with tokenization, and I don't think I will (the differences seem to be minor).
+As of 2025-03-28: the conversion of POS, features, metadata and MISC is more or less complete (see caveats below). Lemmatization has been somewhat harmonized to match the UD practice better, but that's difficult, because UD does not have any lemmatization guidelines, and the practice for Swedish is not entirely consistent. Syntax has not been converted at all (well, see below). I have not done anything with tokenization, and I don't think I will (the differences seem to be minor).
+
 Next step: syntax.
 
 # How the conversion works
 
 The Eukalyptus xml files are converted to CONLL-U format (eukxmk_to_conllu.rb). When doing that, I also convert the Eukalyptus trees to dependency trees (so in some sense, the syntax has already been partially converted), but not UD trees. Moreover, I do not check whether the resulting trees are valid (I think in most cases they are, but not always). (Would it have been more efficient to convert using an existing TIGER-to-UD script? Perhaps, but too late for that). Note that the source xml files are ahead of the 1.0.0 version, since we corrected some errors in the process.
+
 The resulting CONLLUs are converted to UD (with the caveats above and below) using eukconllu_to_ud.rb. This script is more or less documented and should be readable.
 
 # POS-and-feature caveats 
