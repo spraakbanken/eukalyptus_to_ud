@@ -21,6 +21,12 @@ elsif mode == "list_pos"
 end
 
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
+@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"nsubj:pass","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","HD"=>"dep","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"}
+#Look into: AN, EF, EO, ES, KL, ME, OA, PH, RA:advcl?, OP+SP. Heads and dependents, clauses, previous conversion, coordination
+# Not listed: "DF"=>"discourse" (parataxis?), IV: always aux?, "JF", MD, --: root, punct, not inherited
+
+
+
 @ordnums = ["första", "fjortonde", "andra", "25:e", "tredje", "fjärde", "femte", "sjätte", "sjunde", "nionde", "elfte", "tolfte", "trettonde", "femtonde", "sextonde", "sjuttonde", "artonde", "nittonde", "700:e", "tionde", "åttonde", "III"] #"annan"
 
 #TODO1: more ordnum lemmas (generate? or split and analyze?)
@@ -176,6 +182,19 @@ def getinfofromsentence(sentence,id)
     misc = sentence[id]["misc"]
     return form,lemma,pos,msd,msd2,head,deprel,enhdep,misc
 end
+
+def convert_syntax(sentence, sent_id)
+    heads = {}
+    deprels = {}
+
+    sentence.each_pair do |id,senthash|
+        deprel = denthash["deprel"]
+        #START WITH HASH
+    end
+
+    return heads, deprels
+end
+
 
 def convert(id, sentence, sent_id)
     #STDERR.puts "convert: #{sentence}"
@@ -481,6 +500,7 @@ end
 
 output = []
 sentence = {}
+sentence_pos_converted = {}
 sent_id = ""
 dtlist = []
 inputfile.each_line do |line|
@@ -549,25 +569,34 @@ inputfile.each_line do |line|
             sentence = sentence2.clone
             #STDERR.puts "#{sentence}"
 
+            sentence_pos_converted = sentence.clone
             sentence.each_pair do |id,senthash|
                 upos, feats, lemma = convert(id, sentence, sent_id)
                 line3 = [id, senthash["form"], lemma, upos, "_", feats, senthash["head"], senthash["deprel"], senthash["enhdep"], senthash["misc"]].join("\t")
                 output << line3
 
-                    if list_out_pos
-                        if senthash["lemma"] != "_"
-                            lemma_per_pos2[upos] << senthash["lemma"]
-                        else
-                            lemma_per_pos2[upos] << senthash["form"]
-                        end
+                sentence_pos_converted[id]["lemma"] = lemma
+                sentence_pos_converted[id]["upos"] = upos
+                sentence_pos_converted[id]["feats"] = feats
+
+
+                if list_out_pos
+                    if senthash["lemma"] != "_"
+                        lemma_per_pos2[upos] << senthash["lemma"]
+                    else
+                        lemma_per_pos2[upos] << senthash["form"]
                     end
                 end
+            end
+
+            heads, deprels = convert_syntax(sentence_pos_converted, sent_id)
             
             
             outputfile.puts output
             outputfile.puts ""
             output = []
             sentence = {}
+            sentence_pos_converted = {}
         end
     end
 end
