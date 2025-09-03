@@ -1,0 +1,13 @@
+# newdoc id = Arbt_Fackfientlig
+# sent_id = Arbt_Fackfientlig.8
+# text = Själv hymlar inte Jörgen Bach om sina åsikter.
+1001	Själv	själv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1002	SP		
+1002	hymlar	hymla	VB	-.-.-	VB.IND.AKT.PRS	0	--		
+1003	inte	inte	AB	-.-.-	AB.-.-	1002	MD		
+1004	Jörgen	Jörgen	EN	-.-.-	EN.-	1002	SB		
+1005	Bach	Bach	EN	-.-.-	EN.-	1004	ME		
+1006	om	om	PE	-.-.-	PE.-	1002	MD		
+1007	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	1008	DT		
+1008	åsikter	åsikt	NN	-.-.-	NN.UTR.PLU.IND	1006	OO		SpaceAfter=No
+1009	.	_	SY	-.-.-	SY.DEL	1002	--		
+

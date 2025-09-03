@@ -1,0 +1,8 @@
+# sent_id = Blog_160886-12847738.2
+# text = Han älskar den!! ^^
+1	Han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj		
+2	älskar	älska	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		
+3	den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	obj		SpaceAfter=No
+4	!!	!!	PUNCT	_	_	2			
+5	^^	^^	SYM	_	_	2			
+

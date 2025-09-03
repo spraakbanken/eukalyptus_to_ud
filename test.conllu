@@ -1,0 +1,8 @@
+# sent_id = Blog_160886-12847738.2
+# text = Han älskar den!! ^^
+1001	Han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1002	SB		
+1002	älskar	älska	VB	-.-.-	VB.IND.AKT.PRS	0	--		
+1003	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1002	OO		SpaceAfter=No
+1004	!!	_	SY	-.-.-	SY.DEL	1002	--		
+1005	^^	_	SY	-.-.-	SY.SYM	1002	--		
+

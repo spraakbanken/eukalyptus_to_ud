@@ -266,6 +266,52 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
 end
 
 
+def go_up(reversed_tree,id,passed_nodes)
+    #STDERR.puts id
+    if id == 0
+        
+        return
+    else
+        head = reversed_tree[id]
+        passed_nodes << id
+        
+
+        if head == 0 or @safe_nodes.include?(id)
+            return
+        elsif head.nil? #preventing disconnected branches
+            @status = "disconnected"
+            return
+        elsif passed_nodes.include?(head) #preventing cycles
+            @status = "cycle"
+            return
+        else
+            @safe_nodes << id
+            go_up(reversed_tree,head,passed_nodes)
+        end
+    end
+end
+
+def check_reversed_tree(reversed_tree)
+    nheads = reversed_tree.select{|key, value| value == 0 }.keys.length
+    @status = "ok"
+    @safe_nodes = []
+    reversed_tree.keys.each do |node|
+        #STDERR.puts "going up"
+        if !@safe_nodes.include?(node)
+            go_up(reversed_tree,node,[])
+            @safe_nodes.uniq!
+        end
+    end
+
+    if nheads == 1 and @status == "ok"
+        status = 0 
+    else
+        status = 1
+    end
+    return [status,nheads,@status]
+end
+
+
 PATH = "C:\\Sasha\\D\\DGU\\Repos\\Eukalyptus-dev\\Annotations\\"
 #PATH = "C:\\Sasha\\D\\DGU\\SBX_resources\\Eukalyptus-1.0.0\\Annotations\\"
 #PATH = "D:\\DGU\\SBX_resources\\Eukalyptus\\Eukalyptus-1.0.0\\Annotations\\"
@@ -274,9 +320,22 @@ PATH = "C:\\Sasha\\D\\DGU\\Repos\\Eukalyptus-dev\\Annotations\\"
 
 #filename = ARGV[0]
 #outputfile = File.open("#{filename}.conllu","w:utf-8")
+
 outputfile = File.open("eukalyptus_all.conllu","w:utf-8")
 filenames = ["Eukalyptus_Blogg","Eukalyptus_Europarl","Eukalyptus_Nyhetstext","Eukalyptus_Romaner","Eukalyptus_Wikipedia"]
+
+tree_error_file = File.open("ill-formed_trees.txt","w:utf-8")
+
+#outputfile = File.open("test0.conllu","w:utf-8")
+#filenames = ["test0"]
+
+
 excluded_sents = {}
+n_processed_sents = 0
+n_wrong_trees = 0
+
+
+
 filenames.each do |filename|
     
     STDERR.puts "Parsing xml..."
@@ -458,14 +517,23 @@ filenames.each do |filename|
     
                     outputfile.puts "#{nodeid_to_integer(sent_id,term_id)}\t#{info["word"]}\t#{info["lemma"]}\t#{info["pos"]}\t#{info["msd2"]}\t#{info["msd"]}\t#{head}\t#{deprel}\t#{secdep}\t#{misc}"
                 end
-    #STDERR.    puts @reversed_tree
+                #STDERR.puts @reversed_tree
                 #STDERR.puts @reversed_labels
+                
                 #abort
                 
                 outputfile.puts ""
+                status, nheads, detailed_status = check_reversed_tree(@reversed_tree)
+                if status != 0 
+                    tree_error_file.puts "#{sent_id}\t#{nheads}\t#{detailed_status}"
+                end
+
+                n_wrong_trees += status
+                n_processed_sents += 1
             end
         end
     
     
     end
 end
+STDERR.puts "Excluded sentences: #{excluded_sents.keys.length}. Processed sentences: #{n_processed_sents}. Invalid trees: #{n_wrong_trees}"

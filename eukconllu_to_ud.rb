@@ -7,7 +7,8 @@ inputfile = File.open("#{filename}.conllu","r:utf-8")
 
 if mode == "convert"
     
-    outputfile = File.open("#{filename}_ud.conllu","w:utf-8")
+    outputfile_pos = File.open("#{filename}_ud_pos.conllu","w:utf-8")
+    outputfile_syntax = File.open("#{filename}_ud.conllu","w:utf-8")
 elsif mode == "list_pos"
     ref_pos = ARGV[1]
     if ref_pos == "??"
@@ -22,9 +23,11 @@ end
 
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
 @matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"nsubj:pass","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","HD"=>"dep","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"}
-#Look into: AN, EF, EO, ES, KL, ME, OA, PH, RA:advcl?, OP+SP. Heads and dependents, clauses, previous conversion, coordination
+#Major: Heads and dependents, clauses vs non-clauses, previous conversion (MWE), coordination. Go from UD relations
+# Fix ill-formed trees
+#Look into: AN, EF, EO, ES, KL, ME, OA, PH, RA:advcl?, OP+SP. 
 # Not listed: "DF"=>"discourse" (parataxis?), IV: always aux?, "JF", MD, --: root, punct, not inherited
-
+## punctuation assignment
 
 
 @ordnums = ["första", "fjortonde", "andra", "25:e", "tredje", "fjärde", "femte", "sjätte", "sjunde", "nionde", "elfte", "tolfte", "trettonde", "femtonde", "sextonde", "sjuttonde", "artonde", "nittonde", "700:e", "tionde", "åttonde", "III"] #"annan"
@@ -184,15 +187,35 @@ def getinfofromsentence(sentence,id)
 end
 
 def convert_syntax(sentence, sent_id)
-    heads = {}
-    deprels = {}
+    uheads = {}
+    udeprels = {}
 
     sentence.each_pair do |id,senthash|
-        deprel = denthash["deprel"]
+        deprel = senthash["deprel"]
+        head = senthash["head"]
+        pos = senthash["pos"]
+        if head.nil?
+            head = 0
+        end
+
+        if !@matchdeprels[deprel].nil?
+            udeprels[id] = @matchdeprels[deprel]
+        end
+        if head == 0
+            udeprels[id] = "root"
+        end
+        if pos == "PUNCT"
+            udeprels[id] = "punct"
+        end
+        
+        uheads[id] = head
+        
+
+
         #START WITH HASH
     end
 
-    return heads, deprels
+    return uheads, udeprels
 end
 
 
@@ -499,6 +522,7 @@ end
 
 
 output = []
+output_synt = []
 sentence = {}
 sentence_pos_converted = {}
 sent_id = ""
@@ -509,6 +533,7 @@ inputfile.each_line do |line|
         if line1[0] == "#"
             if mode == "convert"
                 output << line1
+                #output_synt << line
             end
             if line1.include?("sent_id")
                 sent_id = line1.split(" = ")[1]
@@ -589,12 +614,29 @@ inputfile.each_line do |line|
                 end
             end
 
-            heads, deprels = convert_syntax(sentence_pos_converted, sent_id)
+            uheads, udeprels = convert_syntax(sentence_pos_converted, sent_id)
+            #STDERR.puts "#{uheads}"
+            #STDERR.puts "#{udeprels}"
+
+            output.each do |outputline|
+                outputline1 = outputline.strip
+                if outputline1[0] == "#"
+                    output_synt << outputline1
+                else
+                    outputline2 = outputline1.split("\t")
+                    id = outputline2[0].to_i
+                    outputline_synt = [id, outputline2[1], outputline2[2], outputline2[3], outputline2[4], outputline2[5], uheads[id],udeprels[id],outputline2[8],outputline2[9]].join("\t")
+                    output_synt << outputline_synt
+                end
+            end
             
+            outputfile_pos.puts output
+            outputfile_pos.puts ""
+            outputfile_syntax.puts output_synt
+            outputfile_syntax.puts ""
             
-            outputfile.puts output
-            outputfile.puts ""
             output = []
+            output_synt = []
             sentence = {}
             sentence_pos_converted = {}
         end
