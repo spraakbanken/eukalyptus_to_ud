@@ -321,13 +321,17 @@ PATH = "C:\\Sasha\\D\\DGU\\Repos\\Eukalyptus-dev\\Annotations\\"
 #filename = ARGV[0]
 #outputfile = File.open("#{filename}.conllu","w:utf-8")
 
-outputfile = File.open("eukalyptus_all.conllu","w:utf-8")
-filenames = ["Eukalyptus_Blogg","Eukalyptus_Europarl","Eukalyptus_Nyhetstext","Eukalyptus_Romaner","Eukalyptus_Wikipedia"]
 
-tree_error_file = File.open("ill-formed_trees.txt","w:utf-8")
 
-#outputfile = File.open("test0.conllu","w:utf-8")
-#filenames = ["test0"]
+if !ARGV[1].nil?
+    outputfile = File.open("test0.conllu","w:utf-8")
+    filenames = ["test0"]
+    tree_error_file = File.open("ill-formed_trees_test.txt","w:utf-8")
+else
+    outputfile = File.open("eukalyptus_all.conllu","w:utf-8")
+    filenames = ["Eukalyptus_Blogg","Eukalyptus_Europarl","Eukalyptus_Nyhetstext","Eukalyptus_Romaner","Eukalyptus_Wikipedia"]
+    tree_error_file = File.open("ill-formed_trees.txt","w:utf-8")
+end
 
 
 excluded_sents = {}
@@ -431,6 +435,7 @@ filenames.each do |filename|
                 #    
                 #end
                 #STDERR.puts ""
+                if verbose then STDERR.puts "Dealing with MWEs" end
                 deal_with_mwes(primary_tree, "#{sent_id}.0", phrases, term_ids, words, verbose)
                 #@primary_tree.each_pair do |key,value|
                 #    STDERR.puts "#{key},#{value},#{@primary_labels[key]}"
@@ -444,6 +449,7 @@ filenames.each do |filename|
                 primary_tree = @primary_tree.clone
                 primary_labels = @primary_labels.clone
                 #abort
+                if verbose then STDERR.puts "Processing the primary tree" end
                 process_primary_tree(primary_tree, primary_labels, "#{sent_id}.0", term_ids, phrases, 0, sent_id,"",verbose)
                 secondary_tree.each_pair do |nt, towardsarray|
                     seclabelarray = secondary_labels[nt]
