@@ -180,6 +180,20 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
         if verbose then STDERR.puts "  Current_id: #{current_id} Head: #{head}" end
         #if verbose then STDERR.puts "Next level: #{next_level}" end
 
+        if cat == "Top"
+            terminalsonly = 1
+            next_level.each do |node|
+                if !term_ids.include?(node)
+                    terminalsonly = 0
+                    break
+                end
+            end
+            @n_only_terminals_on_top += terminalsonly
+            if terminalsonly == 1 and next_level.length > 1
+                STDOUT.puts sent_id
+            end
+        end
+
         next_level.each.with_index do |node,nodeindex|
             if verbose then STDERR.puts "  Current_id: #{current_id}. Terminal run. Node: #{node}" end
             if term_ids.include?(node)
@@ -236,6 +250,9 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 process_primary_tree(primary_tree, primary_labels, node, term_ids, phrases, root, sent_id, phraselabel,verbose)
             end
         end
+
+
+
         if verbose then STDERR.puts "    Current_id: #{current_id}. Going up" end
         break
     end 
@@ -336,6 +353,7 @@ end
 
 excluded_sents = {}
 n_processed_sents = 0
+@n_only_terminals_on_top = 0
 n_wrong_trees = 0
 
 
@@ -543,3 +561,4 @@ filenames.each do |filename|
     end
 end
 STDERR.puts "Excluded sentences: #{excluded_sents.keys.length}. Processed sentences: #{n_processed_sents}. Invalid trees: #{n_wrong_trees}"
+STDERR.puts @n_only_terminals_on_top
