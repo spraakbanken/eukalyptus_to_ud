@@ -24,7 +24,8 @@ end
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
 @matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"nsubj:pass","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","HD"=>"dep","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"}
 #Major: Heads and dependents, clauses vs non-clauses, previous conversion (MWE), coordination. Go from UD relations
-# Fix ill-formed trees
+#Do a split?
+# Fix ill-formed trees (double-check that old ones got fixed correcty? Check MWEs)
 #Look into: AN, EF, EO, ES, KL, ME, OA, PH, RA:advcl?, OP+SP. 
 # Not listed: "DF"=>"discourse" (parataxis?), IV: always aux?, "JF", MD, --: root, punct, not inherited
 ## punctuation assignment
