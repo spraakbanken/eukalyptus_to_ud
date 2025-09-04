@@ -113,7 +113,7 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose)
     end
 end
 
-def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phrases, root, sent_id, phraselabel,verbose)
+def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phrases, root, sent_id, phraselabel,verbose,words)
     #current_id = "#{sent_id}.0"
     #root = 0
     cat = phrases[current_id]
@@ -121,6 +121,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
     #gets
     if verbose then STDERR.puts "Current_id: #{current_id}" end
     #STDERR.puts "*** #{primary_tree["Romn_Lundqvist-Ingentobak.20.5"]} ***"
+    onlyterminalsontop = false    
 
     until false == true do
         next_level = primary_tree[current_id]
@@ -175,34 +176,59 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 end
             end
         end
-        @head_by_nt[current_id] = head.clone
-        if verbose then STDERR.puts "  Current_id: #{current_id} Root: #{root}" end
-        if verbose then STDERR.puts "  Current_id: #{current_id} Head: #{head}" end
-        #if verbose then STDERR.puts "Next level: #{next_level}" end
+        
 
-        if cat == "Top"
+        if cat == "Top" and next_level.length > 1
             terminalsonly = 1
+            nonsymbols = 0
+            the_nonsymbol = nil
+            #if next_level.length > 1
+                
             next_level.each do |node|
                 if !term_ids.include?(node)
                     terminalsonly = 0
                     break
                 end
+                if words[node]["pos"] != "SY"
+                    nonsymbols += 1
+                    the_nonsymbol = node.clone
+                end
             end
-            @n_only_terminals_on_top += terminalsonly
-            if terminalsonly == 1 and next_level.length > 1
-                STDOUT.puts sent_id
+            
+
+            #end
+            
+            if terminalsonly == 1 
+                if nonsymbols == 1
+                    head = the_nonsymbol.clone
+                    onlyterminalsontop = true
+                elsif nonsymbols == 0
+                    head = term_ids[0].clone
+                    onlyterminalsontop = true
+                else #nonsymbols != 1 #and next_level.length > 1
+                    @n_only_terminals_on_top += terminalsonly
+                    STDOUT.puts "#{sent_id}\t#{nonsymbols}"
+                end
             end
         end
+
+        @head_by_nt[current_id] = head.clone
+        if verbose then STDERR.puts "  Current_id: #{current_id} Root: #{root}" end
+        if verbose then STDERR.puts "  Current_id: #{current_id} Head: #{head}" end
+        #if verbose then STDERR.puts "Next level: #{next_level}" end
+
 
         next_level.each.with_index do |node,nodeindex|
             if verbose then STDERR.puts "  Current_id: #{current_id}. Terminal run. Node: #{node}" end
             if term_ids.include?(node)
-                if verbose then STDERR.puts "    Current_id: #{current_id}. Node: #{node}. Terminal node" end
-                if cat == "Top" #head.nil?#root == 0
+                if verbose then STDERR.puts "    head == root Current_id: #{current_id}. Node: #{node}. Terminal node" end
+                if cat == "Top" and onlyterminalsontop == false #and head == root #head.nil?#root == 0
                     if verbose then STDERR.puts "    Current_id: #{current_id}. Terminal under 0" end
                     #@reversed_tree[node] = root
+                    
                     @reversed_labels[node] = labels[nodeindex]
                     @underoldroot[node] = true
+                    
                 else
                     #if verbose then STDERR.puts "    Current_id: #{current_id}. Terminal not under 0" end
                     
@@ -247,7 +273,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 #    root = next_level[head_label_index].gsub("#{sent_id}.","").to_i
                 #end
                 if verbose then STDERR.puts "    Current_id: #{current_id}. Going down. Root #{root}" end
-                process_primary_tree(primary_tree, primary_labels, node, term_ids, phrases, root, sent_id, phraselabel,verbose)
+                process_primary_tree(primary_tree, primary_labels, node, term_ids, phrases, root, sent_id, phraselabel,verbose,words)
             end
         end
 
@@ -468,7 +494,7 @@ filenames.each do |filename|
                 primary_labels = @primary_labels.clone
                 #abort
                 if verbose then STDERR.puts "Processing the primary tree" end
-                process_primary_tree(primary_tree, primary_labels, "#{sent_id}.0", term_ids, phrases, 0, sent_id,"",verbose)
+                process_primary_tree(primary_tree, primary_labels, "#{sent_id}.0", term_ids, phrases, 0, sent_id,"",verbose, words)
                 secondary_tree.each_pair do |nt, towardsarray|
                     seclabelarray = secondary_labels[nt]
     		    
