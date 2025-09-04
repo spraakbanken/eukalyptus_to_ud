@@ -135,6 +135,91 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
         if cat == "Top"
             #root = 0
             if verbose then STDERR.puts "Current_id: #{current_id} Cat: #{cat}" end
+
+            if next_level.length > 1
+                if verbose then STDERR.puts "Current_id: #{current_id} Several nodes under Top. Check if they all are terminal" end
+    
+                nonterminals = 0
+
+                next_level.each do |node|
+                    if !term_ids.include?(node)
+                        nonterminals += 1
+                    end
+                end
+                if nonterminals > 1
+                    @nsents_several_nonterminals_on_top += 1
+                    STDOUT.puts "#{sent_id}\t#{nonterminals}"
+                end
+
+                terminalsonly = 1
+                
+                nonsymbols = 0
+                the_nonsymbol = nil
+                #if next_level.length > 1
+                    
+                next_level.each do |node|
+                    if !term_ids.include?(node)
+                        if verbose then STDERR.puts "Current_id: #{current_id} There is a non-terminal node #{node}, we are fine" end
+    
+                        terminalsonly = 0
+                        break
+                    end
+                    if words[node]["pos"] != "SY"
+                        nonsymbols += 1
+                        the_nonsymbol = node.clone
+                    end
+                end
+                
+    
+                #end
+                
+                if terminalsonly == 1 
+                    if verbose then STDERR.puts "Current_id: #{current_id} All nodes under Top are terminal, we have to assign a head" end
+    
+                    if nonsymbols == 1
+                        if verbose then STDERR.puts "Current_id: #{current_id} There is only one node which is not a SY, choose it as a head" end
+    
+                        head = the_nonsymbol.clone
+                        onlyterminalsontop = true
+                    elsif nonsymbols == 0
+                        if verbose then STDERR.puts "Current_id: #{current_id} There are no nodes which are not a SY, choose the first node as a head" end
+    
+                        head = term_ids[0].clone
+                        onlyterminalsontop = true
+                    else #nonsymbols != 1 #and next_level.length > 1
+                        if verbose then STDERR.puts "Current_id: #{current_id} There are more than one nodes which are not a SY, currently no heuristics to choose a head. STDOUT an exception" end
+
+=begin
+                        if verbose then STDERR.puts "Current_id: #{current_id} Checking if there are several KoPs" en
+                        possible_heads_from_kops = []
+                        next_level.each.with_index do |node, nodeindex|
+                            if !term_ids.include?(node)
+                                next_level_cat = phrases[node]
+                                
+
+                                if next_level_cat == "KoP"
+                                    next_level_labels = primary_labels[node]
+                                    if !labels.index("HD").nil?
+                                        possible_heads_from_kops << labels.index("HD")
+                                    elsif !labels.index("PH").nil?
+                                        possible_heads_from_kops << labels.index("PH")
+                                    end
+                                end
+                                
+                                #STDERR.puts "Current_id: #{current_id} FIRST NODE AS HEAD #{head}"
+                                break
+                            end
+                        end
+                        if possible_heads_from_kops.length > 0
+                            head = possible_heads_from_kops.length.sort[0]
+                        end
+=end                        
+                        @n_only_terminals_on_top += terminalsonly
+                        #STDOUT.puts "#{sent_id}\t#{nonsymbols}"
+                        #end
+                    end
+                end
+            end
         else
             if verbose then STDERR.puts "Current_id: #{current_id} Cat: #{cat}" end
             head_label_index = labels.index("HD") 
@@ -168,6 +253,8 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         break
                     end
                 end
+                
+
                 if head_label_index.nil?
                     if verbose then STDERR.puts "Current_id: #{current_id} No first node found. Assigning root #{root} as head" end
                     head = root.clone
@@ -178,39 +265,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
         end
         
 
-        if cat == "Top" and next_level.length > 1
-            terminalsonly = 1
-            nonsymbols = 0
-            the_nonsymbol = nil
-            #if next_level.length > 1
-                
-            next_level.each do |node|
-                if !term_ids.include?(node)
-                    terminalsonly = 0
-                    break
-                end
-                if words[node]["pos"] != "SY"
-                    nonsymbols += 1
-                    the_nonsymbol = node.clone
-                end
-            end
-            
 
-            #end
-            
-            if terminalsonly == 1 
-                if nonsymbols == 1
-                    head = the_nonsymbol.clone
-                    onlyterminalsontop = true
-                elsif nonsymbols == 0
-                    head = term_ids[0].clone
-                    onlyterminalsontop = true
-                else #nonsymbols != 1 #and next_level.length > 1
-                    @n_only_terminals_on_top += terminalsonly
-                    STDOUT.puts "#{sent_id}\t#{nonsymbols}"
-                end
-            end
-        end
 
         @head_by_nt[current_id] = head.clone
         if verbose then STDERR.puts "  Current_id: #{current_id} Root: #{root}" end
@@ -379,6 +434,7 @@ end
 
 excluded_sents = {}
 n_processed_sents = 0
+@nsents_several_nonterminals_on_top = 0
 @n_only_terminals_on_top = 0
 n_wrong_trees = 0
 
@@ -588,3 +644,4 @@ filenames.each do |filename|
 end
 STDERR.puts "Excluded sentences: #{excluded_sents.keys.length}. Processed sentences: #{n_processed_sents}. Invalid trees: #{n_wrong_trees}"
 STDERR.puts @n_only_terminals_on_top
+STDERR.puts @nsents_several_nonterminals_on_top
