@@ -41,6 +41,21 @@ def nodeid_to_integer(sent_id,node_id)
     return id
 end
 
+def reassign_mwe_heads(mwe,head,term_ids,primary_tree,node)
+    mwe.each.with_index do |mwenode, mwenodeindex|
+        if mwenode != head
+            if term_ids.include?(mwenode)
+                @reversed_tree[mwenode] = head #next_level[head_label_index]
+                @reversed_labels[mwenode] = @primary_labels[node][mwenodeindex]
+            else
+                reassign_mwe_heads(primary_tree[mwenode],head,term_ids,primary_tree,node)
+            end
+        end
+    end                          
+end
+                                
+
+
 def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose, sent_id)
     if verbose then STDERR.puts "New method" end
     until false == true do
@@ -92,9 +107,13 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose, 
                         #@reversed_labels[head] = @primary_labels[node].clone
                         #@primary_tree[head] = []
                         #change labels, too
+                        if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal MWE Reassigning heads" end                            
+                        reassign_mwe_heads(mwe,head,term_ids,primary_tree,node)
+=begin
                         mwe.each.with_index do |mwenode, mwenodeindex|
                             if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal MWE Reassigning heads" end
-                                
+                            
+
                             if mwenode != head
                                 #@primary_tree[head] << mwenode
                                 if term_ids.include?(mwenode)
@@ -117,6 +136,7 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose, 
                                 end
                             end
                         end
+=end
                     else
                         head = mwe[0].clone
                         if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal MWE Analyzable. Head: #{head}" end

@@ -1909,7 +1909,7 @@ Blog_160886-11338497.20.1001	^^	_	SY	-.-.-	SY.SYM	1001	--
 1002	blir	bli	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1003	de	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1002	SB		
 1004	inget	ingen	PO	-.-.-	PO.IND.SIN.NEU.-.-	1006	DT		
-1005	Let´s	_	UO	-.-.-	UO.-	1006			
+1005	Let´s	_	UO	-.-.-	UO.-	1006	ME		
 1006	Dance	_	UO	-.-.-	UO.-	1002	ES	1002:ES|1005:ME	SpaceAfter=No
 1007	,,	_	SY	-.-.-	SY.DEL	1002	--		
 1008	tråkigt	tråkig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	DF		SpaceAfter=No
@@ -9392,7 +9392,7 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 # newdoc id = Blog_26224-3679819
 # sent_id = Blog_26224-3679819.1
 # text = There Is a light that never goes out med The Smiths.
-1001	There	_	UO	-.-.-	UO.-	1002			
+1001	There	_	UO	-.-.-	UO.-	1002	ME		
 1002	Is	_	UO	-.-.-	UO.-	0	--	0:--|1001:ME	
 1003	a	_	UO	-.-.-	UO.-	1002	ME	1002:ME|1001:ME	
 1004	light	_	UO	-.-.-	UO.-	1002	ME	1002:ME|1001:ME	
@@ -9401,7 +9401,7 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1007	goes	_	UO	-.-.-	UO.-	1002	ME	1002:ME|1001:ME	
 1008	out	_	UO	-.-.-	UO.-	1002	ME	1002:ME|1001:ME	
 1009	med	med	PE	-.-.-	PE.-	1002	MD		
-1010	The	_	UO	-.-.-	UO.-	1011			
+1010	The	_	UO	-.-.-	UO.-	1011	ME		
 1011	Smiths	Smiths	EN	-.-.-	EN.-	1009	OO	1009:OO|1010:ME	SpaceAfter=No
 1012	.	_	SY	-.-.-	SY.DEL	1002	--		
 
@@ -13979,7 +13979,7 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1004	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1003	SB	1003:SB|1006:SB	
 1005	tidigare	tidig	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1003	MD		
 1006	läst	läsa	VB	-.-.-	VB.SPM.AKT.-	1003	IV		
-1007	Norwegian	_	UO	-.-.-	UO.-	1008			
+1007	Norwegian	_	UO	-.-.-	UO.-	1008	ME		
 1008	wood	_	UO	-.-.-	UO.-	1006	OO	1006:OO|1007:ME	SpaceAfter=No
 1009	,	_	SY	-.-.-	SY.DEL	1015	--		
 1010	som	som	SU	-.-.-	SU.-	1008	MD		
@@ -31747,7 +31747,7 @@ Eupa_00-01-17.290.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 
 # sent_id = Eupa_00-01-17.372
 # text = För en stund sedan talade Vatanen om låga temperaturer, inte bara om 20 minusgrader utan om 40 minusgrader.
-1001	För	för	PE	-.-.-	PE.-	1004			
+1001	För	för	PE	-.-.-	PE.-	1004	ME		
 1002	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1003	DT	1003:DT|1001:ME	
 1003	stund	stund	NN	-.-.-	NN.UTR.SIN.IND	1004	OO	1004:OO|1001:ME	
 1004	sedan	sedan	PE	-.-.-	PE.-	1005	MD	1005:MD|1001:ME	
@@ -38913,9 +38913,9 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1015	känt	känd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1014	SP		
 1016	som	som	SU	-.-.-	SU.-	1015	MD		
 1017	"	_	SY	-.-.-	SY.DEL	1005	--		SpaceAfter=No
-1018	valuta	valuta	NN	-.-.-	NN.UTR.SIN.IND	1022			
-1019	för	för	PE	-.-.-	PE.-	9999			
-1020	pengarna	pengar	NN	-.-.-	NN.UTR.PLU.DEF	9999			SpaceAfter=No
+1018	valuta	valuta	NN	-.-.-	NN.UTR.SIN.IND	1022	ME		
+1019	för	för	PE	-.-.-	PE.-	1022	ME		
+1020	pengarna	pengar	NN	-.-.-	NN.UTR.PLU.DEF	1022	ME		SpaceAfter=No
 1021	"	_	SY	-.-.-	SY.DEL	1005	--		SpaceAfter=No
 1022	indikatorer	indikator	NN	-.-.-	NN.UTR.PLU.IND	1016	OO		
 1023	under	under	PE	-.-.-	PE.-	1015	MD		
@@ -56506,7 +56506,7 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 1001	Anders	Anders	EN	-.-.-	EN.-	1003	SB		
 1002	Borg	Borg	EN	-.-.-	EN.-	1001	ME		
 1003	beskrev	beskriva	VB	-.-.-	VB.IND.AKT.PRT	0	--		
-1004	för	för	PE	-.-.-	PE.-	1008			
+1004	för	för	PE	-.-.-	PE.-	1008	ME		
 1005	inte	inte	AB	-.-.-	AB.-.-	1007	MD		
 1006	så	så	AB	-.-.-	AB.-.-	1007	MD		
 1007	länge	länge	AB	-.-.-	AB.POS.-	1008	OO	1008:OO|1004:ME	
@@ -67675,7 +67675,7 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1004	barnpsykiater	barn<psykiater	NN	-.-.-	NN.UTR.SIN.IND	1001	AN		
 1005	vid	vid	PE	-.-.-	PE.-	1004	MD		
 1006	Gaza	Gaza	EN	-.-.-	EN.-	1005	OO		
-1007	Mental	_	UO	-.-.-	UO.-	1006			
+1007	Mental	_	UO	-.-.-	UO.-	1006	ME		
 1008	Health	_	UO	-.-.-	UO.-	1007	ME		
 1009	Programme	_	UO	-.-.-	UO.-	1007	ME		SpaceAfter=No
 1010	,	_	SY	-.-.-	SY.DEL	1011	--		
@@ -70892,7 +70892,7 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1003	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1004	ruttnat	ruttna	VB	-.-.-	VB.SPM.AKT.-	1003	IV		
 1005	bort	bort	AB	-.-.-	AB.-.-	1004	PL		
-1006	för	för	PE	-.-.-	PE.-	1008			
+1006	för	för	PE	-.-.-	PE.-	1008	ME		
 1007	länge	länge	AB	-.-.-	AB.POS.-	1008	OO	1008:OO|1006:ME	
 1008	sen	sen	AB	-.-.-	AB.-.-	1003	MD	1003:MD|1006:ME	SpaceAfter=No
 1009	.	_	SY	-.-.-	SY.DEL	1003	--		
@@ -71802,7 +71802,7 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1004	Bock	Bock	EN	-.-.-	EN.-	1003	AN		
 1005	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1006	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1005	SB	1005:SB|1010:SB	
-1007	för	för	PE	-.-.-	PE.-	1009			
+1007	för	för	PE	-.-.-	PE.-	1009	ME		
 1008	länge	länge	AB	-.-.-	AB.POS.-	1009	OO	1009:OO|1007:ME	
 1009	sen	sen	AB	-.-.-	AB.-.-	1005	MD	1005:MD|1007:ME	
 1010	sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1005	IV		
@@ -81568,7 +81568,7 @@ Romn_Holmsen-Polynesiskpassad.70.1015	!	_	SY	-.-.-	SY.DEL	1007	--
 # sent_id = Romn_Holmsen-Polynesiskpassad.102
 # text = —För inte så länge sen tittade jag på en båt med diverse last från Ljusterö.
 1001	—	_	SY	-.-.-	SY.DEL	1007	--		SpaceAfter=No
-1002	För	för	PE	-.-.-	PE.-	1006			
+1002	För	för	PE	-.-.-	PE.-	1006	ME		
 1003	inte	inte	AB	-.-.-	AB.-.-	1005	MD		
 1004	så	så	AB	-.-.-	AB.-.-	1005	MD		
 1005	länge	länge	AB	-.-.-	AB.POS.-	1006	OO	1006:OO|1002:ME	
@@ -85567,7 +85567,7 @@ Romn_Holmsen-Polynesiskpassad.360.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1007	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1009	DT		
 1008	flygande	flygande	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1009	MD		
 1009	molnen	moln	NN	-.-.-	NN.NEU.PLU.DEF	1005	AN		
-1010	för	för	PE	-.-.-	PE.-	1012			
+1010	för	för	PE	-.-.-	PE.-	1012	ME		
 1011	länge	länge	AB	-.-.-	AB.POS.-	1012	OO	1012:OO|1010:ME	
 1012	sedan	sedan	PE	-.-.-	PE.-	1009	MD	1009:MD|1010:ME	SpaceAfter=No
 1013	,	_	SY	-.-.-	SY.DEL	1016	--		
@@ -96759,7 +96759,7 @@ Wiki_HarryPotter.53.1006	.	_	SY	-.-.-	SY.DEL	1009	--
 1002	första	första	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	1003	MD		
 1003	boken	bok	NN	-.-.-	NN.UTR.SIN.DEF	1012	SB	1012:SB|1021:	SpaceAfter=No
 1004	,	_	SY	-.-.-	SY.DEL	1028	--		
-1005	Harry	Harry	EN	-.-.-	EN.-	1006			
+1005	Harry	Harry	EN	-.-.-	EN.-	1006	ME		
 1006	Potter	Potter	EN	-.-.-	EN.-	1007	KL	1007:KL|1005:ME	
 1007	och	och	KO	-.-.-	KO.-	1003	AN	1003:AN|1005:ME	
 1008	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	1010	DT	1010:DT|1005:ME	
@@ -96934,7 +96934,7 @@ Wiki_HarryPotter.53.1006	.	_	SY	-.-.-	SY.DEL	1009	--
 1010	boken	bok	NN	-.-.-	NN.UTR.SIN.DEF	1007	OO		
 1011	i	i	PE	-.-.-	PE.-	1010	MD		
 1012	serien	serie	NN	-.-.-	NN.UTR.SIN.DEF	1011	OO		
-1013	Harry	Harry	EN	-.-.-	EN.-	1015			
+1013	Harry	Harry	EN	-.-.-	EN.-	1015	ME		
 1014	Potter	Potter	EN	-.-.-	EN.-	1013	ME		
 1015	and	_	UO	-.-.-	UO.-	1012	AN		
 1016	the	_	UO	-.-.-	UO.-	1015	ME		
@@ -97173,7 +97173,7 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1008	roll	roll	NN	-.-.-	NN.UTR.SIN.IND	1005	OO		
 1009	i	i	PE	-.-.-	PE.-	1005	OA		
 1010	boken	bok	NN	-.-.-	NN.UTR.SIN.DEF	1009	OO		
-1011	Harry	Harry	EN	-.-.-	EN.-	1012			
+1011	Harry	Harry	EN	-.-.-	EN.-	1012	ME		
 1012	Potter	Potter	EN	-.-.-	EN.-	1013	KL	1013:KL|1011:ME	
 1013	och	och	KO	-.-.-	KO.-	1010	AN	1010:AN|1011:ME	
 1014	Dödsrelikerna	döds|relik	NN	-.-.-	NN.UTR.PLU.DEF	1013	KL	1013:KL|1011:ME	SpaceAfter=No
@@ -97190,7 +97190,7 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1025	svenska	svensk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1026	MD		
 1026	översättningen	översättning	NN	-.-.-	NN.UTR.SIN.DEF	1023	OO		
 1027	av	av	PE	-.-.-	PE.-	1026	MD		
-1028	Harry	Harry	EN	-.-.-	EN.-	1029			
+1028	Harry	Harry	EN	-.-.-	EN.-	1029	ME		
 1029	Potter	Potter	EN	-.-.-	EN.-	1030	KL	1030:KL|1028:ME	
 1030	och	och	KO	-.-.-	KO.-	1027	OO	1027:OO|1028:ME	
 1031	Dödsrelikerna	döds|relik	NN	-.-.-	NN.UTR.PLU.DEF	1030	KL	1030:KL|1028:ME	
@@ -97200,7 +97200,7 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1035	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1037	DT		
 1036	svenska	svensk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1037	MD		
 1037	titeln	titel	NN	-.-.-	NN.UTR.SIN.DEF	1034	OO		
-1038	Barden	bard	NN	-.-.-	NN.UTR.SIN.DEF	1039			
+1038	Barden	bard	NN	-.-.-	NN.UTR.SIN.DEF	1039	ME		
 1039	Bagges	Bagge	EN	-.GEN.-	EN.-	1040	DT	1040:DT|1038:ME	
 1040	berättelser	berättelse	NN	-.-.-	NN.UTR.PLU.IND	1037	AN	1037:AN|1038:ME	SpaceAfter=No
 1041	.	_	SY	-.-.-	SY.DEL	1022	--		
@@ -97291,7 +97291,7 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1002	sjätte	sjätte	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1003	MD		
 1003	filmen	film	NN	-.-.-	NN.UTR.SIN.DEF	1010	SB		
 1004	(	_	SY	-.-.-	SY.DEL	1010	--		SpaceAfter=No
-1005	Harry	Harry	EN	-.-.-	EN.-	1006			
+1005	Harry	Harry	EN	-.-.-	EN.-	1006	ME		
 1006	Potter	Potter	EN	-.-.-	EN.-	1007	KL	1007:KL|1005:ME	
 1007	och	och	KO	-.-.-	KO.-	1003	AN	1003:AN|1005:ME	
 1008	Halvblodsprinsen	halv|blods|prins	NN	-.-.-	NN.UTR.SIN.DEF	1007	KL	1007:KL|1005:ME	SpaceAfter=No
@@ -97409,7 +97409,7 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1021	,	_	SY	-.-.-	SY.DEL	1005	--		
 1022	till	till	PE	-.-.-	PE.-	1020	DF		
 1023	exempel	exempel	NN	-.-.-	NN.NEU.SIN.IND	1022	OO	1022:OO|1022:ME	
-1024	Harry	Harry	EN	-.-.-	EN.-	1025			
+1024	Harry	Harry	EN	-.-.-	EN.-	1025	ME		
 1025	Potter	Potter	EN	-.-.-	EN.-	1026	KL	1026:KL|1024:ME	
 1026	och	och	KO	-.-.-	KO.-	1020	HD	1020:HD|1024:ME	
 1027	fången	fånge	NN	-.-.-	NN.UTR.SIN.DEF	1026	KL	1026:KL|1024:ME	
@@ -97468,7 +97468,7 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1002	femte	femte	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1003	MD		
 1003	filmen	film	NN	-.-.-	NN.UTR.SIN.DEF	1010	SB		SpaceAfter=No
 1004	,	_	SY	-.-.-	SY.DEL	1010	--		
-1005	Harry	Harry	EN	-.-.-	EN.-	1006			
+1005	Harry	Harry	EN	-.-.-	EN.-	1006	ME		
 1006	Potter	Potter	EN	-.-.-	EN.-	1007	KL	1007:KL|1005:ME	
 1007	och	och	KO	-.-.-	KO.-	1003	AN	1003:AN|1005:ME	
 1008	Fenixorden	Fenix|orden	NN	-.-.-	NN.UTR.SIN.DEF	1007	KL	1007:KL|1005:ME	SpaceAfter=No
@@ -97495,7 +97495,7 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1011	sjätte	sjätte	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1012	MD		
 1012	filmen	film	NN	-.-.-	NN.UTR.SIN.DEF	1009	OO		SpaceAfter=No
 1013	,	_	SY	-.-.-	SY.DEL	1003	--		
-1014	Harry	Harry	EN	-.-.-	EN.-	1015			
+1014	Harry	Harry	EN	-.-.-	EN.-	1015	ME		
 1015	Potter	Potter	EN	-.-.-	EN.-	1016	KL	1016:KL|1014:ME	
 1016	och	och	KO	-.-.-	KO.-	1012	AN	1012:AN|1014:ME	
 1017	Halvblodsprinsen	halv|blods|prins	NN	-.-.-	NN.UTR.SIN.DEF	1016	KL	1016:KL|1014:ME	SpaceAfter=No
@@ -98487,21 +98487,21 @@ Wiki_HarryPotter.123.1004	.	_	SY	-.-.-	SY.DEL	1003	--
 1007	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1008	utgivits	utge	VB	-.-.-	VB.SPM.SFO.-	1007	IV		SpaceAfter=No
 1009	,	_	SY	-.-.-	SY.DEL	1007	--		
-1010	Barry	Barry	EN	-.-.-	EN.-	1011			
+1010	Barry	Barry	EN	-.-.-	EN.-	1011	ME		
 1011	Trotter	Trotter	EN	-.-.-	EN.-	1012	KL	1012:KL|1010:ME	
 1012	och	och	KO	-.-.-	KO.-	1023	KL	1023:KL|1010:ME	
 1013	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1015	DT	1015:DT|1010:ME	
 1014	skamlösa	skamlös	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1015	MD	1015:MD|1010:ME	
 1015	parodin	parodi	NN	-.-.-	NN.UTR.SIN.DEF	1012	KL	1012:KL|1010:ME	SpaceAfter=No
 1016	,	_	SY	-.-.-	SY.DEL	1007	--		
-1017	Barry	Barry	EN	-.-.-	EN.-	1018			
+1017	Barry	Barry	EN	-.-.-	EN.-	1018	ME		
 1018	Trotter	Trotter	EN	-.-.-	EN.-	1019	KL	1019:KL|1017:ME	
 1019	och	och	KO	-.-.-	KO.-	1023	KL	1023:KL|1017:ME	
 1020	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1022	DT	1022:DT|1017:ME	
 1021	onödiga	onödig	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1022	MD	1022:MD|1017:ME	
 1022	uppföljaren	uppföljare	NN	-.-.-	NN.UTR.SIN.DEF	1019	KL	1019:KL|1017:ME	
 1023	samt	samt	KO	-.-.-	KO.-	1002	AN		
-1024	Barry	Barry	EN	-.-.-	EN.-	1026			
+1024	Barry	Barry	EN	-.-.-	EN.-	1026	ME		
 1025	Trotter	Trotter	EN	-.-.-	EN.-	1024	ME		
 1026	and	_	UO	-.-.-	UO.-	1023	KL		
 1027	the	_	UO	-.-.-	UO.-	1026	ME		
@@ -98827,7 +98827,7 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 
 # sent_id = Wiki_Saganomringenfilm.7
 # text = För länge sedan smiddes maktens ringar på order av Sauron.
-1001	För	för	PE	-.-.-	PE.-	1003			
+1001	För	för	PE	-.-.-	PE.-	1003	ME		
 1002	länge	länge	AB	-.-.-	AB.POS.-	1003	OO	1003:OO|1001:ME	
 1003	sedan	sedan	AB	-	AB.-.-	1004	MD	1004:MD|1001:ME	
 1004	smiddes	smida	VB	-.-.-	VB.IND.SFO.PRT	0	--		
@@ -110903,7 +110903,7 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 # text = I ett för länge sedan försvunnet torftigt litet statarkök var det som undret skedde, och sen den dagen finns i världen inget annat kök".
 1001	I	i	PE	-.-.-	PE.-	1010	SP	1010:SP|1014:	
 1002	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1009	DT		
-1003	för	för	PE	-.-.-	PE.-	1005			
+1003	för	för	PE	-.-.-	PE.-	1005	ME		
 1004	länge	länge	AB	-.-.-	AB.POS.-	1005	OO	1005:OO|1003:ME	
 1005	sedan	sedan	PE	-.-.-	PE.-	1006	MD	1006:MD|1003:ME	
 1006	försvunnet	försvunnen	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1009	MD		
