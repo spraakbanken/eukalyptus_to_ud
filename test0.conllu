@@ -1,13 +1,13 @@
 # newdoc id = Arbt_Fackfientlig
-# sent_id = Arbt_Fackfientlig.8
-# text = Själv hymlar inte Jörgen Bach om sina åsikter.
-1001	Själv	själv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1002	SP		
-1002	hymlar	hymla	VB	-.-.-	VB.IND.AKT.PRS	0	--		
-1003	inte	inte	AB	-.-.-	AB.-.-	1002	MD		
-1004	Jörgen	Jörgen	EN	-.-.-	EN.-	1002	SB		
-1005	Bach	Bach	EN	-.-.-	EN.-	1004	ME		
-1006	om	om	PE	-.-.-	PE.-	1002	MD		
-1007	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	1008	DT		
-1008	åsikter	åsikt	NN	-.-.-	NN.UTR.PLU.IND	1006	OO		SpaceAfter=No
-1009	.	_	SY	-.-.-	SY.DEL	1002	--		
+# sent_id = Romn_Lundqvist-Ingentobak.160
+# text = Men det har ruttnat bort för länge sen.
+1001	Men	men	KO	-.-.-	KO.-	1003	DF		
+1002	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1003	SB	1003:SB|1004:SB	
+1003	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
+1004	ruttnat	ruttna	VB	-.-.-	VB.SPM.AKT.-	1003	IV		
+1005	bort	bort	AB	-.-.-	AB.-.-	1004	PL		
+1006	för	för	PE	-.-.-	PE.-	1008			
+1007	länge	länge	AB	-.-.-	AB.POS.-	1008	OO	1008:OO|1006:ME	
+1008	sen	sen	AB	-.-.-	AB.-.-	1003	MD	1003:MD|1006:ME	SpaceAfter=No
+1009	.	_	SY	-.-.-	SY.DEL	1003	--		
 

@@ -663,12 +663,12 @@ Blog_160886-11338599.12.1001	^^	_	SY	-.-.-	SY.SYM	1015	--
 
 # sent_id = Blog_160886-11338599.15
 # text = ♥ ♥ ♥ Gotta go...
-1001	♥	_	SY	-.-.-	SY.SYM	1004	--		
-1002	♥	_	SY	-.-.-	SY.SYM	1004	--		
-1003	♥	_	SY	-.-.-	SY.SYM	1004	--		
-1004	Gotta	_	UO	-.-.-	UO.-	0			
-1005	go	_	UO	-.-.-	UO.-	1004	ME		SpaceAfter=No
-1006	...	_	SY	-.-.-	SY.DEL	1004	--		
+1001	♥	_	SY	-.-.-	SY.SYM	1005	--		
+1002	♥	_	SY	-.-.-	SY.SYM	1005	--		
+1003	♥	_	SY	-.-.-	SY.SYM	1005	--		
+1004	Gotta	_	UO	-.-.-	UO.-	1005	ME		
+1005	go	_	UO	-.-.-	UO.-	0			SpaceAfter=No
+1006	...	_	SY	-.-.-	SY.DEL	1005	--		
 
 # newdoc id = Blog_160886-11338557
 # sent_id = Blog_160886-11338557.1
@@ -989,8 +989,8 @@ Blog_160886-11338557.16.1001	:D	_	SY	-.-.-	SY.SYM	1003	--
 1001	Jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1002	SB	1002:SB|1003:SB	
 1002	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1003	haft	ha	VB	-.-.-	VB.SPM.AKT.-	1002	IV		
-1004	fullt	full	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1003	OO		
-1005	upp	upp	AB	-.-.-	AB.-.-	1004	ME		SpaceAfter=No
+1004	fullt	full	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1005	ME		
+1005	upp	upp	AB	-.-.-	AB.-.-	1003	OO		SpaceAfter=No
 1006	,	_	SY	-.-.-	SY.DEL	1002	--		
 1007	samt	samt	KO	-.-.-	KO.-	1002	DF		
 1008	att	att	SU	-.-.-	SU.-	1002	DF		
@@ -1667,8 +1667,8 @@ Blog_160886-11338497.14.1055	var	vara	VB	-.-.-	VB.IND.AKT.PRT	Blog_160886-113384
 Blog_160886-11338497.14.1056	pigg	pigg	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	Blog_160886-11338497.14.1057	KL		
 Blog_160886-11338497.14.1057	och	och	KO	-.-.-	KO.-	Blog_160886-11338497.14.1055	SP		
 Blog_160886-11338497.14.1058	glad	glad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	Blog_160886-11338497.14.1057	KL		
-Blog_160886-11338497.14.1059	i	i	PE	-.-.-	PE.-	Blog_160886-11338497.14.1058	MD		
-Blog_160886-11338497.14.1060	morse	morse	NN	-.-.-	NN.NEU.SIN.IND	Blog_160886-11338497.14.1059	ME		SpaceAfter=No
+Blog_160886-11338497.14.1059	i	i	PE	-.-.-	PE.-	Blog_160886-11338497.14.1060	ME		
+Blog_160886-11338497.14.1060	morse	morse	NN	-.-.-	NN.NEU.SIN.IND	Blog_160886-11338497.14.1058	MD		SpaceAfter=No
 Blog_160886-11338497.14.1061	.	_	SY	-.-.-	SY.DEL	0	--		
 
 # sent_id = Blog_160886-11338497.15
@@ -1893,10 +1893,10 @@ Blog_160886-11338497.20.1001	^^	_	SY	-.-.-	SY.SYM	1001	--
 1011	när	när	AB	-.-.-	AB.-.FRL	1008	MD		
 1012	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1013	SB		
 1013	handlar	handla	VB	-.-.-	VB.IND.AKT.PRS	1011	MD		
-1014	i	i	PE	-.-.-	PE.-	1008	MD		
-1015	fall	fall	NN	-.-.-	NN.NEU.SIN.IND	1014	ME		
+1014	i	i	PE	-.-.-	PE.-	1015	ME		
+1015	fall	fall	NN	-.-.-	NN.NEU.SIN.IND	1008	MD		
 1016	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1017	SB	1017:SB|1018:SB	
-1017	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	1014	OO		
+1017	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	1015	OO		
 1018	behövas	behöva	VB	-.-.-	VB.INF.SFO.-	1017	IV		
 1019	+	_	SY	-.-.-	SY.SYM	1009	OO		
 1020	lite	litet	PO	-.-.-	PO.IND.SIN.NEU.-.-	1021	DT		
@@ -1909,8 +1909,8 @@ Blog_160886-11338497.20.1001	^^	_	SY	-.-.-	SY.SYM	1001	--
 1002	blir	bli	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1003	de	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1002	SB		
 1004	inget	ingen	PO	-.-.-	PO.IND.SIN.NEU.-.-	1006	DT		
-1005	Let´s	_	UO	-.-.-	UO.-	9999			
-1006	Dance	_	UO	-.-.-	UO.-	1002	ES	1002:ES|9999:ME	SpaceAfter=No
+1005	Let´s	_	UO	-.-.-	UO.-	1006			
+1006	Dance	_	UO	-.-.-	UO.-	1002	ES	1002:ES|1005:ME	SpaceAfter=No
 1007	,,	_	SY	-.-.-	SY.DEL	1002	--		
 1008	tråkigt	tråkig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	DF		SpaceAfter=No
 1009	..	_	SY	-.-.-	SY.DEL	1002	--		
@@ -2223,8 +2223,8 @@ Blog_160886-11338497.20.1001	^^	_	SY	-.-.-	SY.SYM	1001	--
 # text = Vi får helt enkelt ta bussen o Marcus har jätteont.
 1001	Vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1002	SB	1002:SB|1005:SB	
 1002	får	få	VB	-.-.-	VB.IND.AKT.PRS	1007	KL		
-1003	helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	MD		
-1004	enkelt	enkel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1003	ME		
+1003	helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1004	ME		
+1004	enkelt	enkel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	MD		
 1005	ta	ta	VB	-.-.-	VB.INF.AKT.-	1002	IV		
 1006	bussen	buss	NN	-.-.-	NN.UTR.SIN.DEF	1005	OO		
 1007	o	och	KO	-.-.-	KO.-	0	--		
@@ -2235,8 +2235,8 @@ Blog_160886-11338497.20.1001	^^	_	SY	-.-.-	SY.SYM	1001	--
 
 # sent_id = Blog_188519-10179826.9
 # text = Helt plötsligt har han blivit liten så han går väl i 1;an o han blir väldigt mammig o vill inte att jag ska gå iväg från honom, utan jag måste stanna vid hans sida.
-1001	Helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1003	MD		
-1002	plötsligt	plötslig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1001	ME		
+1001	Helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	ME		
+1002	plötsligt	plötslig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1003	MD		
 1003	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1007	KL		
 1004	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1003	SB	1003:SB|1005:SB	
 1005	blivit	bli	VB	-.-.-	VB.SPM.AKT.-	1003	IV		
@@ -2594,8 +2594,8 @@ Blog_160886-11338497.20.1001	^^	_	SY	-.-.-	SY.SYM	1001	--
 
 # sent_id = Blog_188519-10179826.23
 # text = Helt plötsligt stöter vi på Marcus pappa, då hade han kommit dit med någon kompis till honom.
-1001	Helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1003	MD		
-1002	plötsligt	plötslig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1001	ME		
+1001	Helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	ME		
+1002	plötsligt	plötslig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1003	MD		
 1003	stöter	stöta	VB	-.-.-	VB.IND.AKT.PRS	1010	--		
 1004	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1003	SB		
 1005	på	på	PE	-.-.-	PE.-	1003	PL	1003:PL|1003:ME	
@@ -2936,15 +2936,15 @@ Blog_160886-11338497.20.1001	^^	_	SY	-.-.-	SY.SYM	1001	--
 1004	inte	inte	AB	-.-.-	AB.-.-	1002	MD		
 1005	kloka	klok	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1002	SP		SpaceAfter=No
 1006	,,,	_	SY	-.-.-	SY.DEL	1002	--		
-1007	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1008	SB	1008:SB|1015:SB|1013:SB|1012:SB	
-1008	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	1013	KL	1013:KL|1013:HD	
-1009	väl	väl	AB	-.-.-	AB.-.-	1008	MD	1008:MD|1013:MD	
+1007	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1008	SB	1008:SB|1015:SB|1014:SB|1012:SB	
+1008	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	1014	KL	1014:KL|1014:HD	
+1009	väl	väl	AB	-.-.-	AB.-.-	1008	MD	1008:MD|1014:MD	
 1010	ändå	ändå	AB	-.-.-	AB.-.-	1008	MD		
 1011	inte	inte	AB	-.-.-	AB.-.-	1008	MD		
 1012	dricka	dricka	VB	-.-.-	VB.INF.AKT.-	1008	IV		
-1013	än	än	AB	-.-.-	AB.-.-	1002	--		
-1014	mindre	liten	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1013	ME		
-1015	äta	äta	VB	-.-.-	VB.INF.AKT.-	1013	IV		
+1013	än	än	AB	-.-.-	AB.-.-	1014	ME		
+1014	mindre	liten	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1002	--		
+1015	äta	äta	VB	-.-.-	VB.INF.AKT.-	1014	IV		
 1016	när	när	AB	-.-.-	AB.-.FRL	1015	MD	1015:MD|1018:MD|1012:	
 1017	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1018	SB	1018:SB|1019:SB	
 1018	behöver	behöva	VB	-.-.-	VB.IND.AKT.PRS	1016	OO		
@@ -4227,9 +4227,9 @@ Blog_160886-11338497.20.1001	^^	_	SY	-.-.-	SY.SYM	1001	--
 
 # sent_id = Blog_188519-10542620.40
 # text = Tack o lov va detta ännu en hemsk mardröm.
-1001	Tack	tack	NN	-.-.-	NN.NEU.SIN.IND	1004	DF		
-1002	o	och	KO	-.-.-	KO.-	1001	ME		
-1003	lov	lov	NN	-.-.-	NN.NEU.SIN.IND	1001	ME		
+1001	Tack	tack	NN	-.-.-	NN.NEU.SIN.IND	1003	ME		
+1002	o	och	KO	-.-.-	KO.-	1003	ME		
+1003	lov	lov	NN	-.-.-	NN.NEU.SIN.IND	1004	DF		
 1004	va	vara	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1005	detta	denna	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1004	SB		
 1006	ännu	ännu	AB	-.-.-	AB.-.-	1004	MD		
@@ -4464,8 +4464,8 @@ Blog_160886-11338497.20.1001	^^	_	SY	-.-.-	SY.SYM	1001	--
 
 # sent_id = Blog_13263-999427.3
 # text = Sen dess har jag tänkt att jag skulle köpa ett paket.
-1001	Sen	sen	PE	-.-.-	PE.-	1003	MD		
-1002	dess	den	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.PSS.-	1001	ME		
+1001	Sen	sen	PE	-.-.-	PE.-	1002	ME		
+1002	dess	den	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.PSS.-	1003	MD		
 1003	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1004	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1003	SB	1003:SB|1005:SB	
 1005	tänkt	tänka	VB	-.-.-	VB.SPM.AKT.-	1003	IV		
@@ -5114,8 +5114,8 @@ Blog_13263-48997.6.1007	.	_	SY	-.-.-	SY.DEL	Blog_13263-48997.6.1002	--
 1012	upp	upp	AB	-.-.-	AB.-.-	1010	PL		
 1013	ur	ur	PE	-.-.-	PE.-	1010	MD		
 1014	sängen	säng	NN	-.-.-	NN.UTR.SIN.DEF	1013	OO		
-1015	i	i	PE	-.-.-	PE.-	1010	MD		
-1016	morse	morse	NN	-.-.-	NN.UTR.SIN.IND	1015	ME		SpaceAfter=No
+1015	i	i	PE	-.-.-	PE.-	1016	ME		
+1016	morse	morse	NN	-.-.-	NN.UTR.SIN.IND	1010	MD		SpaceAfter=No
 1017	.	_	SY	-.-.-	SY.DEL	1005	--		
 
 # sent_id = Blog_13263-637462.4
@@ -5431,10 +5431,10 @@ Blog_13263-48997.6.1007	.	_	SY	-.-.-	SY.DEL	Blog_13263-48997.6.1002	--
 1011	A-trak‘s	A-trak	EN	-.GEN.-	EN.-	1014	DT		
 1014	album	album	NN	-.-.-	NN.NEU.SIN.IND	1021	KL		
 1015	”	_	SY	-.-.-	SY.DEL	1006	--		SpaceAfter=No
-1016	Dirty	_	UO	-.-.-	UO.-	1014	AN		
-1017	South	_	UO	-.-.-	UO.-	1016	ME		
-1018	Dance	_	UO	-.-.-	UO.-	1016	ME		
-1019	2	två	NU	-.-.-	NU.-	1016	ME		SpaceAfter=No
+1016	Dirty	_	UO	-.-.-	UO.-	1019	ME		
+1017	South	_	UO	-.-.-	UO.-	1019	ME		
+1018	Dance	_	UO	-.-.-	UO.-	1019	ME		
+1019	2	två	NU	-.-.-	NU.-	1014	AN		SpaceAfter=No
 1020	”	_	SY	-.-.-	SY.DEL	1006	--		
 1021	och	och	KO	-.-.-	KO.-	1010	SP		
 1022	speciellt	speciell	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1023	MD		
@@ -5902,9 +5902,9 @@ Blog_13263-48997.6.1007	.	_	SY	-.-.-	SY.DEL	Blog_13263-48997.6.1002	--
 1008	och	och	KO	-.-.-	KO.-	0	--		
 1009	soffan	soffa	NN	-.-.-	NN.UTR.SIN.DEF	1010	SB		
 1010	känns	känna	VB	-.-.-	VB.IND.SFO.PRS	1008	KL		
-1011	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1014	MD		
-1012	och	och	KO	-.-.-	KO.-	1011	ME		
-1013	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1011	ME		
+1011	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1013	ME		
+1012	och	och	KO	-.-.-	KO.-	1013	ME		
+1013	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1014	MD		
 1014	lockande	lockande	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1010	OA		SpaceAfter=No
 1015	.	_	SY	-.-.-	SY.DEL	1008	--		
 
@@ -5978,9 +5978,9 @@ Blog_13263-48997.6.1007	.	_	SY	-.-.-	SY.DEL	Blog_13263-48997.6.1002	--
 1010	häromdagen	häromdagen	AB	-.-.-	AB.-.-	1011	MD		
 1011	såg	se	VB	-.-.-	VB.IND.AKT.PRT	1009	KL		
 1012	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1011	SB		
-1013	till	till	PE	-.-.-	PE.-	1011	MD		
-1014	och	och	KO	-.-.-	KO.-	1013	ME		
-1015	med	med	PE	-.-.-	PE.-	1013	ME		
+1013	till	till	PE	-.-.-	PE.-	1015	ME		
+1014	och	och	KO	-.-.-	KO.-	1015	ME		
+1015	med	med	PE	-.-.-	PE.-	1011	MD		
 1016	lite	litet	PO	-.-.-	PO.IND.SIN.NEU.-.-	1011	OO		
 1017	av	av	PE	-.-.-	PE.-	1016	MD		
 1018	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1019	DT		
@@ -6127,8 +6127,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1006	ny	ny	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1007	MD		
 1007	mash-up	_	UO	-.-.-	UO.-	1004	OO		
 1008	med	med	PE	-.-.-	PE.-	1007	MD		
-1009	2010	tvåtusentio	NU	-.-.-	NU.-	1012	DT		
-1010	års	år	NN	-.GEN.-	NN.NEU.SIN.IND	1009	ME		
+1009	2010	tvåtusentio	NU	-.-.-	NU.-	1010	ME		
+1010	års	år	NN	-.GEN.-	NN.NEU.SIN.IND	1012	DT		
 1011	största	stor	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	1012	MD		
 1012	hits	hit	NN	-.-.-	NN.UTR.PLU.IND	1008	OO		
 1013	(	_	SY	-.-.-	SY.DEL	1003	--		SpaceAfter=No
@@ -6212,8 +6212,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1002	vaknade	vakna	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1003	vid	vid	PE	-.-.-	PE.-	1002	MD		
 1004	fyra	fyra	NU	-.-.-	NU.-	1003	OO		
-1005	i	i	PE	-.-.-	PE.-	1003	AN		
-1006	morse	morse	NN	-.-.-	NN.UTR.SIN.IND	1005	ME		
+1005	i	i	PE	-.-.-	PE.-	1006	ME		
+1006	morse	morse	NN	-.-.-	NN.UTR.SIN.IND	1003	AN		
 1007	av	av	PE	-.-.-	PE.-	1002	MD		
 1008	att	att	SU	-.-.-	SU.-	1007	OO		
 1009	febern	feber	NN	-.-.-	NN.UTR.SIN.DEF	1010	SB		
@@ -6609,8 +6609,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1003	släckte	släcka	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1004	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1003	SB		
 1005	lampan	lampa	NN	-.-.-	NN.UTR.SIN.DEF	1003	OO		
-1006	i	i	PE	-.-.-	PE.-	1003	MD		
-1007	morse	morse	NN	-.-.-	NN.UTR/NEU.SIN/PLU.IND/DEF	1006	ME		SpaceAfter=No
+1006	i	i	PE	-.-.-	PE.-	1007	ME		
+1007	morse	morse	NN	-.-.-	NN.UTR/NEU.SIN/PLU.IND/DEF	1003	MD		SpaceAfter=No
 1008	.	_	SY	-.-.-	SY.DEL	1003	--		
 
 # sent_id = Blog_13263-513530.3
@@ -6642,8 +6642,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1007	tidigt	tidig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1003	MD		
 1008	igår	igår	AB	-.-.-	AB.-.-	1003	MD		
 1009	…	_	SY	-.-.-	SY.DEL	1003	--		
-1010	som	som	SU	-.-.-	SU.-	1014	DF		
-1011	sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1010	ME		
+1010	som	som	SU	-.-.-	SU.-	1011	ME		
+1011	sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1014	DF		
 1012	…	_	SY	-.-.-	SY.DEL	1003	--		
 1013	febern	feber	NN	-.-.-	NN.UTR.SIN.DEF	1014	SB		
 1014	försvann	försvinna	VB	-.-.-	VB.IND.AKT.PRT	1015	KL		
@@ -7035,10 +7035,10 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1012	att	att	SU	-.-.-	SU.-	1008	OO		
 1013	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1014	SB		
 1014	var	vara	VB	-.-.-	VB.IND.AKT.PRT	1012	OO		
-1015	Bring	_	UO	-.-.-	UO.-	1014	SP		
-1016	Me	_	UO	-.-.-	UO.-	1015	ME		
-1017	The	_	UO	-.-.-	UO.-	1015	ME		
-1018	Horizon	_	UO	-.-.-	UO.-	1015	ME		
+1015	Bring	_	UO	-.-.-	UO.-	1018	ME		
+1016	Me	_	UO	-.-.-	UO.-	1018	ME		
+1017	The	_	UO	-.-.-	UO.-	1018	ME		
+1018	Horizon	_	UO	-.-.-	UO.-	1014	SP		
 1019	som	som	SU	-.-.-	SU.-	1014	EF		
 1020	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	1019	OO		
 1021	spela	spela	VB	-.-.-	VB.INF.AKT.-	1020	IV		SpaceAfter=No
@@ -7062,8 +7062,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1014	bandet	band	NN	-.-.-	NN.NEU.SIN.DEF	1015	SB		
 1015	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	1013	MD		
 1016	på	på	PE	-.-.-	PE.-	1015	RA		
-1017	metal	_	UO	-.-.-	UO.-	1016	OO		
-1018	town	_	UO	-.-.-	UO.-	1017	ME		
+1017	metal	_	UO	-.-.-	UO.-	1018	ME		
+1018	town	_	UO	-.-.-	UO.-	1016	OO		
 1019	för	för	PE	-.-.-	PE.-	1015	MD		
 1020a	två	två	NU	-.-.-	NU.-	1020b	KL		SpaceAfter=No
 1020b	-	_	SY	-.-.-	SY.DEL	1021	DT		SpaceAfter=No
@@ -7523,10 +7523,10 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1014	och	och	KO	-.-.-	KO.-	1009	OO		
 1015	kompisar	kompis	NN	-.-.-	NN.UTR.PLU.IND	1014	SP		
 1016	med	med	PE	-.-.-	PE.-	1015	MD		
-1017	Bring	_	UO	-.-.-	UO.-	1016	OO		
-1018	Me	_	UO	-.-.-	UO.-	1017	ME		
-1019	The	_	UO	-.-.-	UO.-	1017	ME		
-1020	Horizon	_	UO	-.-.-	UO.-	1017	ME		SpaceAfter=No
+1017	Bring	_	UO	-.-.-	UO.-	1020	ME		
+1018	Me	_	UO	-.-.-	UO.-	1020	ME		
+1019	The	_	UO	-.-.-	UO.-	1020	ME		
+1020	Horizon	_	UO	-.-.-	UO.-	1016	OO		SpaceAfter=No
 1021	.	_	SY	-.-.-	SY.DEL	1005	--		
 
 # sent_id = Blog_12325-1398819.28
@@ -7591,9 +7591,9 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1013	så	så	AB	-.-.-	AB.-.-	1014	MD		
 1014	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1015	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1014	SB		
-1016	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1019	MD		
-1017	eller	eller	KO	-.-.-	KO.-	1016	ME		
-1018	mindre	liten	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1016	ME		
+1016	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1018	ME		
+1017	eller	eller	KO	-.-.-	KO.-	1018	ME		
+1018	mindre	liten	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1019	MD		
 1019	meningslös	meningslös	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	SP		SpaceAfter=No
 1019a	.	_	SY	-.-.-	SY.DEL	1014	--		SpaceAfter=No
 
@@ -7731,8 +7731,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1001	Han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1002	SB		
 1002	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1003	på	på	PE	-.-.-	PE.-	1002	OA		
-1004	Getaway	_	UO	-.-.-	UO.-	1003	OO		
-1005	Rock	rock	NN	-.-.-	NN.UTR.SIN.IND	1004	ME		
+1004	Getaway	_	UO	-.-.-	UO.-	1005	ME		
+1005	Rock	rock	NN	-.-.-	NN.UTR.SIN.IND	1003	OO		
 1006	istället	istället	AB	-.-.-	AB.-.-	1002	MD		SpaceAfter=No
 1007	.	_	SY	-.-.-	SY.DEL	1002	--		
 
@@ -7786,8 +7786,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1008	,	_	SY	-.-.-	SY.DEL	1002	--		
 1009	även	även	AB	-.-.-	AB.-.-	1010	MD		
 1010	om	om	SU	-.-.-	SU.-	1002	MD	1002:MD|1009:ME	
-1011	In	_	UO	-.-.-	UO.-	1013	KL		
-1012	Flames	_	UO	-.-.-	UO.-	1011	ME		
+1011	In	_	UO	-.-.-	UO.-	1012	ME		
+1012	Flames	_	UO	-.-.-	UO.-	1013	KL		
 1013	och	och	KO	-.-.-	KO.-	1017	SB		
 1014	Mustasch	Mustasch	EN	-.-.-	EN.-	1013	KL		
 1015	faktiskt	faktisk	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1016	MD		
@@ -7820,10 +7820,10 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1005	Tips	tips	NN	-.-.-	NN.NEU.SIN.IND	1003	SB	1003:SB|1004:ME	
 1006	debutalbumet	debutalbum	NN	-.-.-	NN.NEU.SIN.DEF	1003	SP		
 1007	från	från	PE	-.-.-	PE.-	1006	MD		
-1008	Ghost	_	UO	-.-.-	UO.-	1007	OO		
-1009	Brigade	_	UO	-.-.-	UO.-	1008	ME		SpaceAfter=No
+1008	Ghost	_	UO	-.-.-	UO.-	1009	ME		
+1009	Brigade	_	UO	-.-.-	UO.-	1007	OO		SpaceAfter=No
 1010	,	_	SY	-.-.-	SY.DEL	1003	--		
-1011	vilka	vilken	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.FRL	1008	MD	1008:MD|1013:OO	
+1011	vilka	vilken	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.FRL	1009	MD	1009:MD|1013:OO	
 1012	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1013	SB		
 1013	upptäckte	upptäcka	VB	-.-.-	VB.IND.AKT.PRT	1011	OO		
 1014	genom	genom	PE	-.-.-	PE.-	1013	MD		
@@ -7854,8 +7854,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1034	album	album	NN	-.-.-	NN.NEU.SIN.IND	1031	OO		
 1035	(	_	SY	-.-.-	SY.DEL	1019	--		SpaceAfter=No
 1036	"	_	SY	-.-.-	SY.DEL	1019	--		SpaceAfter=No
-1037	Blue	_	UO	-.-.-	UO.-	1034	AN		
-1038	Record	_	UO	-.-.-	UO.-	1037	ME		SpaceAfter=No
+1037	Blue	_	UO	-.-.-	UO.-	1038	ME		
+1038	Record	_	UO	-.-.-	UO.-	1034	AN		SpaceAfter=No
 1039	"	_	SY	-.-.-	SY.DEL	1019	--		SpaceAfter=No
 1040	)	_	SY	-.-.-	SY.DEL	1019	--		SpaceAfter=No
 1041	.	_	SY	-.-.-	SY.DEL	1019	--		SpaceAfter=No
@@ -7960,8 +7960,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1021	tydligare	tydlig	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1020	SP		
 1022	på	på	PE	-.-.-	PE.-	1021	MD		
 1023	"	_	SY	-.-.-	SY.DEL	1031	--		SpaceAfter=No
-1024	Red	_	UO	-.-.-	UO.-	1022	OO		
-1025	Album	_	UO	-.-.-	UO.-	1024	ME		SpaceAfter=No
+1024	Red	_	UO	-.-.-	UO.-	1025	ME		
+1025	Album	_	UO	-.-.-	UO.-	1022	OO		SpaceAfter=No
 1026	"	_	SY	-.-.-	SY.DEL	1031	--		
 1027	än	än	SU	-.-.-	SU.-	1021	JF		
 1028	på	på	PE	-.-.-	PE.-	1027	OO		
@@ -7976,10 +7976,10 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1032b	Faktum	faktum	NN	-.-.-	NN.NEU.SIN.IND	1033	SB		
 1033	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1034	att	att	SU	-.-.-	SU.-	1033	SP		
-1035	just	just	AB	-.-.-	AB.-.-	1037	MD		
+1035	just	just	AB	-.-.-	AB.-.-	1038	MD		
 1036	"	_	SY	-.-.-	SY.DEL	1033	--		SpaceAfter=No
-1037	Red	_	UO	-.-.-	UO.-	1040	SB		
-1038	Album	_	UO	-.-.-	UO.-	1037	ME		SpaceAfter=No
+1037	Red	_	UO	-.-.-	UO.-	1038	ME		
+1038	Album	_	UO	-.-.-	UO.-	1040	SB		SpaceAfter=No
 1039	"	_	SY	-.-.-	SY.DEL	1033	--		
 1040	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1034	OO		
 1041	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1044	DT		
@@ -7994,9 +7994,9 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1050	ofta	ofta	AB	-.-.-	AB.POS.-	1047	OO		SpaceAfter=No
 1051	,	_	SY	-.-.-	SY.DEL	1033	--		
 1052	men	men	KO	-.-.-	KO.-	1045	OO		
-1053	i	i	PE	-.-.-	PE.-	1057	MD		
-1054	stort	stor	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1053	ME		
-1055	sett	sedd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1053	ME		
+1053	i	i	PE	-.-.-	PE.-	1055	ME		
+1054	stort	stor	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1055	ME		
+1055	sett	sedd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1057	MD		
 1056	aldrig	aldrig	AB	-.-.-	AB.-.-	1057	MD		
 1057	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	1052	KL		
 1058	plocka	plocka	VB	-.-.-	VB.INF.AKT.-	1057	IV		
@@ -8201,8 +8201,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1012	veckorna	vecka	NN	-.-.-	NN.UTR.PLU.DEF	1013	MD		
 1013	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1009	OO		
 1014	varit	vara	VB	-.-.-	VB.SPM.AKT.-	1013	IV		
-1015	rent	ren	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1018	MD		
-1016	av	av	PE	-.-.-	PE.-	1015	ME		
+1015	rent	ren	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1016	ME		
+1016	av	av	PE	-.-.-	PE.-	1018	MD		
 1017	löjeväckande	löjeväckande	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1018	MD		
 1018	usel	usel	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	SP		
 1019	så	så	AB	-.-.-	AB.-.-	1020	MD		
@@ -8621,14 +8621,14 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1008	från	från	PE	-.-.-	PE.-	1007	MD		
 1009	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1010	DT		
 1010	resan	resa	NN	-.-.-	NN.UTR.SIN.DEF	1008	OO		
-1011	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	1014	KL	1014:KL|1014:HD	
-1012	här	här	AB	-.-.-	AB.-.-	1011	RA	1011:RA|1014:RA	SpaceAfter=No
+1011	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	1015	KL	1015:KL|1015:HD	
+1012	här	här	AB	-.-.-	AB.-.-	1011	RA	1011:RA|1015:RA	SpaceAfter=No
 1013	,	_	SY	-.-.-	SY.DEL	1003	--		
-1014	likväl	likväl	AB	-.-.-	AB.-.-	1003	--		
-1015	som	som	SU	-.-.-	SU.-	1014	ME		
+1014	likväl	likväl	AB	-.-.-	AB.-.-	1015	ME		
+1015	som	som	SU	-.-.-	SU.-	1003	--		
 1016	lite	litet	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	1017	DT	1017:DT|1019:DT	
 1017	bilder	bild	NN	-.-.-	NN.UTR.PLU.IND	1018	KL		
-1018	och	och	KO	-.-.-	KO.-	1014	SB		
+1018	och	och	KO	-.-.-	KO.-	1015	SB		
 1019	info	info	NN	-.-.-	NN.UTR.SIN.IND	1018	KL		
 1020	om	om	PE	-.-.-	PE.-	1019	MD		
 1021	spelningarna	spelning	NN	-.-.-	NN.UTR.PLU.DEF	1020	OO		
@@ -9392,17 +9392,17 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 # newdoc id = Blog_26224-3679819
 # sent_id = Blog_26224-3679819.1
 # text = There Is a light that never goes out med The Smiths.
-1001	There	_	UO	-.-.-	UO.-	9999			
-1002	Is	_	UO	-.-.-	UO.-	0	--	0:--|9999:ME	
-1003	a	_	UO	-.-.-	UO.-	1002	ME	1002:ME|9999:ME	
-1004	light	_	UO	-.-.-	UO.-	1002	ME	1002:ME|9999:ME	
-1005	that	_	UO	-.-.-	UO.-	1002	ME	1002:ME|9999:ME	
-1006	never	_	UO	-.-.-	UO.-	1002	ME	1002:ME|9999:ME	
-1007	goes	_	UO	-.-.-	UO.-	1002	ME	1002:ME|9999:ME	
-1008	out	_	UO	-.-.-	UO.-	1002	ME	1002:ME|9999:ME	
+1001	There	_	UO	-.-.-	UO.-	1002			
+1002	Is	_	UO	-.-.-	UO.-	0	--	0:--|1001:ME	
+1003	a	_	UO	-.-.-	UO.-	1002	ME	1002:ME|1001:ME	
+1004	light	_	UO	-.-.-	UO.-	1002	ME	1002:ME|1001:ME	
+1005	that	_	UO	-.-.-	UO.-	1002	ME	1002:ME|1001:ME	
+1006	never	_	UO	-.-.-	UO.-	1002	ME	1002:ME|1001:ME	
+1007	goes	_	UO	-.-.-	UO.-	1002	ME	1002:ME|1001:ME	
+1008	out	_	UO	-.-.-	UO.-	1002	ME	1002:ME|1001:ME	
 1009	med	med	PE	-.-.-	PE.-	1002	MD		
-1010	The	_	UO	-.-.-	UO.-	1009	OO		
-1011	Smiths	Smiths	EN	-.-.-	EN.-	1	ME	1:ME|1010:ME	SpaceAfter=No
+1010	The	_	UO	-.-.-	UO.-	1011			
+1011	Smiths	Smiths	EN	-.-.-	EN.-	1009	OO	1009:OO|1010:ME	SpaceAfter=No
 1012	.	_	SY	-.-.-	SY.DEL	1002	--		
 
 # sent_id = Blog_26224-3679819.2
@@ -9893,8 +9893,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 
 # sent_id = Blog_265827-14454547.14
 # text = Team Sportia faktiskt!
-1001	Team	_	UO		UO.-	0	--		
-1002	Sportia	_	UO	-.-.-	UO.-	1001	ME		
+1001	Team	_	UO		UO.-	1002	ME		
+1002	Sportia	_	UO	-.-.-	UO.-	0	--		
 1003	faktiskt	faktisk	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	0	--		SpaceAfter=No
 1004	!	_	SY	-.-.-	SY.DEL	0	--		
 
@@ -10652,8 +10652,8 @@ Blog_13263-596973.3.1003	.	_	SY	-.-.-	SY.DEL	Blog_13263-596973.3.1001	--
 1008	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1009	SB		
 1009	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1007	KL		
 1010	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1014	DT		
-1011	sån	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	MD		
-1012	här	här	AB	-.-.-	AB.-.-	1011	ME		
+1011	sån	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1012	ME		
+1012	här	här	AB	-.-.-	AB.-.-	1014	MD		
 1013	varm	varm	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	MD		
 1014	ärtpåse	ärt|påse	NN	-.-.-	NN.UTR.SIN.IND	1009	OO		
 1015	över	över	PE	-.-.-	PE.-	1009	MD		SpaceAfter=No
@@ -11124,8 +11124,8 @@ Blog_265827-15106309.7.1012	........	_	SY	-.-.-	SY.DEL	1002	--
 1011	ut	ut	AB	-.-.-	AB.-.-	1010	PL	1010:PL|1010:ME	
 1012	så	så	AB	-.-.-	AB.-.-	1010	OA		
 1013	där	där	AB		AB.-.-	1012	ME		
-1014	på	på	PE	-.-.-	PE.-	1010	MD		
-1015	riktigt	riktig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1014	ME		SpaceAfter=No
+1014	på	på	PE	-.-.-	PE.-	1015	ME		
+1015	riktigt	riktig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1010	MD		SpaceAfter=No
 1016	.	_	SY	-.-.-	SY.DEL	1002	--		
 
 # sent_id = Blog_265827-14454566.3
@@ -11745,8 +11745,8 @@ Blog_265827-14701534.6.1001	)	_	SY	-.-.-	SY.DEL	1003	--
 # sent_id = Blog_265827-14454804.9
 # text = Och till sist två skivor bröd.
 1001	Och	och	KO	-.-.-	KO.-	1005	DF		
-1002	till	till	PE	-.-.-	PE.-	1005	MD		
-1003	sist	sist	AJ	-.-.-	AJ.SUV.SIN/PLU.IND.UTR/NEU.-	1002	ME		
+1002	till	till	PE	-.-.-	PE.-	1003	ME		
+1003	sist	sist	AJ	-.-.-	AJ.SUV.SIN/PLU.IND.UTR/NEU.-	1005	MD		
 1004	två	två	NU	-.-.-	NU.-	1005	DT		
 1005	skivor	skiva	NN	-.-.-	NN.UTR.PLU.IND	0	--		
 1006	bröd	bröd	NN	-.-.-	NN.NEU.SIN.IND	1005	MD		SpaceAfter=No
@@ -11933,8 +11933,8 @@ Blog_265827-14922303.3.1006	.	_	SY	-.-.-	SY.DEL	1006	--
 1002	som	som	SU	-.-.-	SU.-	1001	SP		
 1003	dom	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	1002	OO		
 1004	från	från	PE	-.-.-	PE.-	1003	MD		
-1005	Espresso	espresso	NN	-.-.-	NN.UTR.SIN.IND	1004	OO		
-1006	house	_	UO	-.-.-	UO.-	1005	ME		
+1005	Espresso	espresso	NN	-.-.-	NN.UTR.SIN.IND	1006	ME		
+1006	house	_	UO	-.-.-	UO.-	1004	OO		
 1007	(	_	SY	-.-.-	SY.DEL	1001	--		SpaceAfter=No
 1008	typ	typ	AB	-.-.-	AB.-.-	1010	MD		
 1009	lite	litet	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	1010	MD		
@@ -12464,11 +12464,11 @@ Blog_265827-14922303.3.1006	.	_	SY	-.-.-	SY.DEL	1006	--
 
 # sent_id = Blog_265827-14844246.10
 # text = Red hot chili peppers.
-1001	Red	_	UO	-.-.-	UO.-	0			
-1002	hot	_	UO	-.-.-	UO.-	1001	ME		
-1003	chili	_	UO	-.-.-	UO.-	1001	ME		
-1004	peppers	_	UO	-.-.-	UO.-	1001	ME		SpaceAfter=No
-1005	.	_	SY	-.-.-	SY.DEL	1001	--		
+1001	Red	_	UO	-.-.-	UO.-	1004	ME		
+1002	hot	_	UO	-.-.-	UO.-	1004	ME		
+1003	chili	_	UO	-.-.-	UO.-	1004	ME		
+1004	peppers	_	UO	-.-.-	UO.-	0			SpaceAfter=No
+1005	.	_	SY	-.-.-	SY.DEL	1004	--		
 
 # sent_id = Blog_265827-14844246.11
 # text = Det var ett äventyr.
@@ -12723,9 +12723,9 @@ Blog_265827-14922303.3.1006	.	_	SY	-.-.-	SY.DEL	1006	--
 1002	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1012	KL		
 1003	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1002	SB	1002:SB|1004:SB	
 1004	använt	använda	VB	-.-.-	VB.SPM.AKT.-	1002	IV		
-1005	Clinique	_	UO	-.-.-	UO.-	1004	OO		
-1006	Even	_	UO	-.-.-	UO.-	1005	ME		
-1007	Better	_	UO	-.-.-	UO.-	1005	ME		
+1005	Clinique	_	UO	-.-.-	UO.-	1007	ME		
+1006	Even	_	UO	-.-.-	UO.-	1007	ME		
+1007	Better	_	UO	-.-.-	UO.-	1004	OO		
 1008	i	i	PE	-.-.-	PE.-	1004	MD		
 1009	några	någon	PO		PO.IND.PLU.UTR/NEU.-.-	1010	DT		
 1010	veckor	vecka	NN	-.-.-	NN.UTR.PLU.IND	1008	OO		
@@ -12932,9 +12932,9 @@ Blog_265827-14922303.3.1006	.	_	SY	-.-.-	SY.DEL	1006	--
 
 # sent_id = Blog_265827-15106306.13
 # text = Peeling Pure Calmille, Yves-Rocher.
-1001	Peeling	_	UO	-.-.-	UO.-	0	--		
-1002	Pure	_	UO	-.-.-	UO.-	1001	ME		
-1003	Calmille	_	UO	-.-.-	UO.-	1001	ME		SpaceAfter=No
+1001	Peeling	_	UO	-.-.-	UO.-	1003	ME		
+1002	Pure	_	UO	-.-.-	UO.-	1003	ME		
+1003	Calmille	_	UO	-.-.-	UO.-	0	--		SpaceAfter=No
 1004	,	_	SY	-.-.-	SY.DEL	0	--		
 1005	Yves-Rocher	Yves-Rocher	EN	-.-.-	EN.-	0	--		SpaceAfter=No
 1006	.	_	SY	-.-.-	SY.DEL	0	--		SpaceAfter=No
@@ -12944,9 +12944,9 @@ Blog_265827-14922303.3.1006	.	_	SY	-.-.-	SY.DEL	1006	--
 1001	se	_	UO	-.-.-	UO.-	1003	--		
 1002	99	nittionio	NU	-.-.-	NU.-	1003	DT		SpaceAfter=No
 1003	:-	_	SY	-.-.-	SY.SYM	0	--		
-1004	Clinique	_	UO	-.-.-	UO.-	1003	--		
-1005	Even	_	UO	-.-.-	UO.-	1004	ME		
-1006	Better	_	UO	-.-.-	UO.-	1004	ME		SpaceAfter=No
+1004	Clinique	_	UO	-.-.-	UO.-	1006	ME		
+1005	Even	_	UO	-.-.-	UO.-	1006	ME		
+1006	Better	_	UO	-.-.-	UO.-	1003	--		SpaceAfter=No
 1007	,	_	SY	-.-.-	SY.DEL	1003	--		
 1008	Kicks.se	Kicks.se	EN	-.-.-	EN.-	1003	--		
 1009	485	fyrahundraåttiofem	NU	-.-.-	NU.-	1010	DT		SpaceAfter=No
@@ -12985,15 +12985,15 @@ Blog_265827-14922303.3.1006	.	_	SY	-.-.-	SY.DEL	1006	--
 1009	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	1008	IO		
 1010	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1011	DT	1011:DT|1017:DT	
 1011	avsnitt	avsnitt	NN	-.-.-	NN.NEU.SIN.IND	1016	KL	1016:KL|1017:HD	
-1012	Once	_	UO	-.-.-	UO.-	1011	AN		
-1013	upon	_	UO		UO.-	1012	ME		
-1014	a	_	UO		UO.-	1012	ME		
-1015	time	_	UO		UO.-	1012	ME		
+1012	Once	_	UO	-.-.-	UO.-	1015	ME		
+1013	upon	_	UO		UO.-	1015	ME		
+1014	a	_	UO		UO.-	1015	ME		
+1015	time	_	UO		UO.-	1011	AN		
 1016	och	och	KO	-.-.-	KO.-	1008	OO		
 1017	kanske	kanske	AB	-.-.-	AB.-.-	1016	KL		
-1018	Pretty	_	UO		UO.-	1017	AN		
-1019	Little	_	UO		UO.-	1018	ME		
-1020	Liars	_	UO		UO.-	1018	ME		
+1018	Pretty	_	UO		UO.-	1020	ME		
+1019	Little	_	UO		UO.-	1020	ME		
+1020	Liars	_	UO		UO.-	1017	AN		
 1021	innan	innan	SU	-.-.-	SU.-	1008	MD		
 1022	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1023	SB		
 1023	tar	ta	VB	-.-.-	VB.IND.AKT.PRS	1021	OO		
@@ -13736,8 +13736,8 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1018	”	_	SY	-.-.-	SY.DEL	1020	--		
 1019	Jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1020	SB		
 1020	tror	tro	VB	-.-.-	VB.IND.AKT.PRS	0	--		
-1021	ärligt	ärlig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1020	MD		
-1022	talat	tala	VB	-.-.-	VB.SPM.AKT.-	1021	ME		
+1021	ärligt	ärlig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1022	ME		
+1022	talat	tala	VB	-.-.-	VB.SPM.AKT.-	1020	MD		
 1023	inte	inte	AB	-.-.-	AB.-.-	1020	MD		
 1024	att	att	SU	-.-.-	SU.-	1020	OO		
 1025	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1026	SB		
@@ -13979,8 +13979,8 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1004	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1003	SB	1003:SB|1006:SB	
 1005	tidigare	tidig	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1003	MD		
 1006	läst	läsa	VB	-.-.-	VB.SPM.AKT.-	1003	IV		
-1007	Norwegian	_	UO	-.-.-	UO.-	9999			
-1008	wood	_	UO	-.-.-	UO.-	1006	OO	1006:OO|9999:ME	SpaceAfter=No
+1007	Norwegian	_	UO	-.-.-	UO.-	1008			
+1008	wood	_	UO	-.-.-	UO.-	1006	OO	1006:OO|1007:ME	SpaceAfter=No
 1009	,	_	SY	-.-.-	SY.DEL	1015	--		
 1010	som	som	SU	-.-.-	SU.-	1008	MD		
 1011	verkligen	verkligen	AB	-.-.-	AB.-.-	1012	MD		
@@ -14342,9 +14342,9 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1004	ganska	ganska	AB	-.-.-	AB.-.-	1005	MD		
 1005	innehållslöst	innehållslös	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	OA		
 1006	och	och	KO	-.-.-	KO.-	0	--		
-1007	till	till	PE	-.-.-	PE.-	1013	MD		
-1008	och	och	KO	-.-.-	KO.-	1007	ME		
-1009	med	med	PE	-.-.-	PE.-	1007	ME		
+1007	till	till	PE	-.-.-	PE.-	1009	ME		
+1008	och	och	KO	-.-.-	KO.-	1009	ME		
+1009	med	med	PE	-.-.-	PE.-	1013	MD		
 1010	att	att	SU	-.-.-	SU.-	1013	SB	1013:SB|1014:	
 1011	ha	ha	VB	-.-.-	VB.INF.AKT.-	1010	OO		
 1012	drömmar	dröm	NN	-.-.-	NN.UTR.PLU.IND	1011	OO		
@@ -14798,9 +14798,9 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1020	och	och	KO	-.-.-	KO.-	1003	PH		
 1021	hur	hur	AB	-.-.-	AB.-.FRL	1003	KL	1003:KL|1026:MD	
 1022	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1026	SB		
-1023	till	till	PE	-.-.-	PE.-	1026	MD		
-1024	och	och	KO	-.-.-	KO.-	1023	ME		
-1025	med	med	PE	-.-.-	PE.-	1023	ME		
+1023	till	till	PE	-.-.-	PE.-	1025	ME		
+1024	och	och	KO	-.-.-	KO.-	1025	ME		
+1025	med	med	PE	-.-.-	PE.-	1026	MD		
 1026	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1021	OO		
 1027	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1031	DT		
 1028	“	_	SY	-.-.-	SY.DEL	1042	--		SpaceAfter=No
@@ -14913,9 +14913,9 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1001	Originalets	original	NN	-.GEN.-	NN.NEU.SIN.DEF	1002	DT		
 1002	titel	titel	NN	-.-.-	NN.UTR.SIN.IND	0	--		SpaceAfter=No
 1003	:	_	SY	-.-.-	SY.DEL	1002	--		
-1004	The	_	UO	-.-.-	UO.-	1002	AN		
-1005	Secret	_	UO	-.-.-	UO.-	1004	ME		
-1006	History	_	UO	-.-.-	UO.-	1004	ME		SpaceAfter=No
+1004	The	_	UO	-.-.-	UO.-	1006	ME		
+1005	Secret	_	UO	-.-.-	UO.-	1006	ME		
+1006	History	_	UO	-.-.-	UO.-	1002	AN		SpaceAfter=No
 1007	.	_	SY	-.-.-	SY.DEL	1002	--		
 
 # sent_id = Blog_6843-3465275.11
@@ -15150,8 +15150,8 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1019	och	och	KO	-.-.-	KO.-	1008	AN		
 1020	Snö	snö	NN	-.-.-	NN.UTR.SIN.IND	1019	KL		
 1021	av	av	PE	-.-.-	PE.-	1020	MD		
-1022	Orhan	Orhan	EN	-.-.-	EN.-	1021	OO		
-1023	Pamuk	Pamuk	EN	-.-.-	EN.-	1022	ME		SpaceAfter=No
+1022	Orhan	Orhan	EN	-.-.-	EN.-	1023	ME		
+1023	Pamuk	Pamuk	EN	-.-.-	EN.-	1021	OO		SpaceAfter=No
 1024	.	_	SY	-.-.-	SY.DEL	1005	--		
 
 # sent_id = Blog_6843-2767923.2
@@ -15309,9 +15309,9 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1004	kollegor	kollega	NN	-.-.-	NN.UTR.PLU.IND	1002	OO		
 1005	kallar	kalla	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1006	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1005	OO		
-1007	till	till	PE	-.-.-	PE.-	1005	MD		
-1008	och	och	KO	-.-.-	KO.-	1007	ME		
-1009	med	med	PE	-.-.-	PE.-	1007	ME		
+1007	till	till	PE	-.-.-	PE.-	1009	ME		
+1008	och	och	KO	-.-.-	KO.-	1009	ME		
+1009	med	med	PE	-.-.-	PE.-	1005	MD		
 1010	för	för	PE	-.-.-	PE.-	1005	OA		
 1011	“	_	SY	-.-.-	SY.DEL	1005	--		SpaceAfter=No
 1012	latläsning	lat|läsning	NN	-.-.-	NN.UTR.SIN.IND	1010	OO		SpaceAfter=No
@@ -15553,8 +15553,8 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1025	kallade	kallad	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1026	MD	1026:MD|1024:ME|1023:ME	
 1026	liv	liv	NN	-.-.-	NN.NEU.SIN.IND	1022	HD	1022:HD|1023:ME|1027:	
 1027	möter	möta	VB	-.-.-	VB.IND.AKT.PRS	1022	MD		
-1028	Twin	_	UO	-.-.-	UO.-	1027	OO		
-1029	Peaks	_	UO	-.-.-	UO.-	1028	ME		
+1028	Twin	_	UO	-.-.-	UO.-	1029	ME		
+1029	Peaks	_	UO	-.-.-	UO.-	1027	OO		
 1030	–	_	SY	-.-.-	SY.DEL	1008	--		
 1031	fast	fast	KO	-.-.-	KO.-	1010	OO		
 1032	utan	utan	PE	-.-.-	PE.-	1031	MD		
@@ -16608,16 +16608,16 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1009	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1010	SB		
 1010	kände	känna	VB	-.-.-	VB.IND.AKT.PRT	1008	OO		
 1011	mej	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	1010	OO	1010:OO|1010:ME	
-1012	i	i	PE	-.-.-	PE.-	1010	MD		
-1013	morse	morse	NN	-.-.-	NN.UTR.SIN.IND	1012	ME		
+1012	i	i	PE	-.-.-	PE.-	1013	ME		
+1013	morse	morse	NN	-.-.-	NN.UTR.SIN.IND	1010	MD		
 1014	under	under	PE	-.-.-	PE.-	1004	MD		
 1015	resten	rest	NN	-.-.-	NN.UTR.SIN.DEF	1014	OO		
 1016	av	av	PE	-.-.-	PE.-	1015	MD		
 1017	dagen	dag	NN	-.-.-	NN.UTR.SIN.DEF	1016	OO		SpaceAfter=No
 1018	,	_	SY	-.-.-	SY.DEL	1002	--		
-1019	tack	tack	NN	-.-.-	NN.NEU.SIN.IND	1002	DF		
-1020	å	och	KO	-.-.-	KO.-	1019	ME		
-1021	lov	lov	NN	-.-.-	NN.NEU.SIN.IND	1019	ME		SpaceAfter=No
+1019	tack	tack	NN	-.-.-	NN.NEU.SIN.IND	1021	ME		
+1020	å	och	KO	-.-.-	KO.-	1021	ME		
+1021	lov	lov	NN	-.-.-	NN.NEU.SIN.IND	1002	DF		SpaceAfter=No
 1022	.	_	SY	-.-.-	SY.DEL	1002	--		
 
 # sent_id = Blog_5089-12282516.13
@@ -17023,15 +17023,15 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1005	å	och	KO	-.-.-	KO.-	1003	OO		
 1006	Elin	Elin	EN	-.-.-	EN.-	1005	KL		SpaceAfter=No
 1007	)	_	SY	-.-.-	SY.DEL	1001	--		
-1008	Love	_	UO	-.-.-	UO.-	1013	KL		
-1009	my	_	UO	-.-.-	UO.-	1008	ME		
-1010	way-	_	UO	-.-.-	UO.-	1008	ME		
-1011	säsong	säsong	NN	-.-.-	NN.UTR.SIN.IND	1008	AN		
+1008	Love	_	UO	-.-.-	UO.-	1010	ME		
+1009	my	_	UO	-.-.-	UO.-	1010	ME		
+1010	way-	_	UO	-.-.-	UO.-	1013	KL		
+1011	säsong	säsong	NN	-.-.-	NN.UTR.SIN.IND	1010	AN		
 1012	1	ett	NU	-.-.-	NU.-	1011	AN		
 1013	å	och	KO	-.-.-	KO.-	1001	--		
 1014	tränings-linnen	tränings|linne	NN	-.-.-	NN.NEU.PLU.IND	1013	KL		SpaceAfter=No
 1015	(	_	SY	-.-.-	SY.DEL	1001	--		SpaceAfter=No
-1016	från	från	PE	-.-.-	PE.-	1014	MD	1014:MD|1008:	
+1016	från	från	PE	-.-.-	PE.-	1014	MD	1014:MD|1010:	
 1017	Stina	Stina	EN	-.-.-	EN.-	1020	KL		SpaceAfter=No
 1018	,	_	SY	-.-.-	SY.DEL	1001	--		
 1019	Daniel	Daniel	EN	-.-.-	EN.-	1020	KL		
@@ -17059,8 +17059,8 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1041	+	_	SY	-.-.-	SY.SYM	1046	KL		SpaceAfter=No
 1042	scrub	scrub	NN	-.-.-	NN.UTR.SIN.IND	1041	KL		
 1043	från	från	PE	-.-.-	PE.-	1042	MD	1042:MD|1040:	
-1044	Body	_	UO	-.-.-	UO.-	1043	OO		
-1045	shop	_	UO	-.-.-	UO.-	1044	ME		
+1044	Body	_	UO	-.-.-	UO.-	1045	ME		
+1045	shop	_	UO	-.-.-	UO.-	1043	OO		
 1046	å	och	KO	-.-.-	KO.-	1001	--		
 1047	små	liten	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1048	MD		
 1048	pajformar	paj|form	NN	-.-.-	NN.UTR.PLU.IND	1046	KL		
@@ -17497,9 +17497,9 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1014	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1015	DT		
 1015	mössinköp	möss|inköp	NN	-.-.-	NN.NEU.SIN.IND	1012	KL		
 1016	på	på	PE	-.-.-	PE.-	1015	MD		
-1017	Bus	bus	NN	-.-.-	NN.NEU.SIN.IND	1016	OO		
-1018	och	och	KO	-.-.-	KO.-	1017	ME		
-1019	rackartyg	rackartyg	NN	-.-.-	NN.NEU.SIN.IND	1017	ME		SpaceAfter=No
+1017	Bus	bus	NN	-.-.-	NN.NEU.SIN.IND	1019	ME		
+1018	och	och	KO	-.-.-	KO.-	1019	ME		
+1019	rackartyg	rackartyg	NN	-.-.-	NN.NEU.SIN.IND	1016	OO		SpaceAfter=No
 1020	.	_	SY	-.-.-	SY.DEL	1002	--		
 
 # sent_id = Blog_5089-9240616.4
@@ -17871,9 +17871,9 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 
 # sent_id = Blog_5089-9240616.21
 # text = Tack å lov har jag världens bästa mamma som skulle handla bröd på väg hem från jobbet å som kunde rädda mej ur det låsta läget.
-1001	Tack	tack	NN	-.-.-	NN.NEU.SIN.IND	1004	DF		
-1002	å	och	KO	-.-.-	KO.-	1001	ME		
-1003	lov	lov	NN	-.-.-	NN.NEU.SIN.IND	1001	ME		
+1001	Tack	tack	NN	-.-.-	NN.NEU.SIN.IND	1003	ME		
+1002	å	och	KO	-.-.-	KO.-	1003	ME		
+1003	lov	lov	NN	-.-.-	NN.NEU.SIN.IND	1004	DF		
 1004	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1005	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1004	SB		
 1006	världens	värld	NN	-.GEN.-	NN.UTR.SIN.DEF	1008	DT		
@@ -18390,8 +18390,8 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 # text = Viggo åkte i förväg på pulka med Stina, jag å Leo gick upp i hopp om att den lille grabben skulle sova en bra stund(det gjorde han inte utan vaknade när vi kom innanför dörren..)
 1001	Viggo	Viggo	EN	-.-.-	EN.-	1002	SB		
 1002	åkte	åka	VB	-.-.-	VB.IND.AKT.PRT	1013	--		
-1003	i	i	PE	-.-.-	PE.-	1002	MD		
-1004	förväg	förväg	NN	-.-.-	NN.UTR.SIN.IND	1003	ME		
+1003	i	i	PE	-.-.-	PE.-	1004	ME		
+1004	förväg	förväg	NN	-.-.-	NN.UTR.SIN.IND	1002	MD		
 1005	på	på	PE	-.-.-	PE.-	1002	MD		
 1006	pulka	pulka	NN	-.-.-	NN.UTR.SIN.IND	1005	OO		
 1007	med	med	PE	-.-.-	PE.-	1002	MD		
@@ -18586,9 +18586,9 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 # text = Tomten kom till å med. :D
 1001	Tomten	Tomten	EN	-.-.-	EN.-	1002	SB		
 1002	kom	komma	VB	-.-.-	VB.IND.AKT.PRT	0	--		
-1003	till	till	PE	-.-.-	PE.-	1002	MD		
-1004	å	och	KO	-.-.-	KO.-	1003	ME		
-1005	med	med	PE	-.-.-	PE.-	1003	ME		SpaceAfter=No
+1003	till	till	PE	-.-.-	PE.-	1005	ME		
+1004	å	och	KO	-.-.-	KO.-	1005	ME		
+1005	med	med	PE	-.-.-	PE.-	1002	MD		SpaceAfter=No
 1006	.	_	SY	-.-.-	SY.DEL	1002	--		
 1007	:D	_	SY	-.-.-	SY.SYM	1002	--		
 
@@ -18944,14 +18944,14 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 
 # sent_id = Blog_5089-62681.31
 # text = Som sagt i väg i morron kväll med, men sen blir det lugna kvällar resten av veckan...
-1001	Som	som	SU	-.-.-	SU.-	1010	KL		
-1002	sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1001	ME		
-1003	i	i	PE	-.-.-	PE.-	1001	PL		
+1001	Som	som	SU	-.-.-	SU.-	1002	ME		
+1002	sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1010	KL		
+1003	i	i	PE	-.-.-	PE.-	1002	PL		
 1004	väg	väg	NN	-.-.-	NN.UTR.SIN.IND	1003	OO	1003:OO|1003:ME	
-1005	i	i	PE	-.-.-	PE.-	1001	MD		
-1006	morron	morron	NN	-.-.-	NN.UTR.SIN.IND	1005	ME		
-1007	kväll	kväll	NN	-.-.-	NN.UTR.SIN.IND	1005	ME		
-1008	med	med	AB	-.-.-	AB.-.-	1001	MD		SpaceAfter=No
+1005	i	i	PE	-.-.-	PE.-	1007	ME		
+1006	morron	morron	NN	-.-.-	NN.UTR.SIN.IND	1007	ME		
+1007	kväll	kväll	NN	-.-.-	NN.UTR.SIN.IND	1002	MD		
+1008	med	med	AB	-.-.-	AB.-.-	1002	MD		SpaceAfter=No
 1009	,	_	SY	-.-.-	SY.DEL	1010	--		
 1010	men	men	KO	-.-.-	KO.-	0	--		
 1011	sen	sen	AB	-.-.-	AB.-.-	1012	MD		
@@ -19531,13 +19531,13 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1004	leta	leta	VB	-.-.-	VB.INF.AKT.-	1002	IV		
 1005	anledningar	anledning	NN	-.-.-	NN.UTR.PLU.IND	1004	OO		
 1006	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1009	DT		
-1007	sådan	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1009	MD		
-1008	här	här	AB	-.-.-	AB.-.FRL	1007	ME		
+1007	sådan	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1008	ME		
+1008	här	här	AB	-.-.-	AB.-.FRL	1009	MD		
 1009	dag	dag	NN	-.-.-	NN.UTR.SIN.IND	1004	MD		SpaceAfter=No
 1010	,	_	SY	-.-.-	SY.DEL	1011	--		
 1011	utan	utan	KO	-.-.-	KO.-	0	--		
-1012	inom	inom	PE	-.-.-	PE.-	1014	MD		
-1013	kort	kort	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1012	ME		
+1012	inom	inom	PE	-.-.-	PE.-	1013	ME		
+1013	kort	kort	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1014	MD		
 1014	ger	ge	VB	-.-.-	VB.IND.AKT.PRS	1011	KL		
 1015	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1014	SB		
 1016	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	1014	OO	1014:OO|1014:ME	
@@ -19753,8 +19753,8 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1020	valresultatet	valresultat	NN	-.-.-	NN.NEU.SIN.DEF	1017	OO		
 1021	i	i	PE	-.-.-	PE.-	1020	MD		
 1022	september	september	NN	-.-.-	NN.UTR.SIN.IND	1021	OO		
-1023	i	i	PE	-.-.-	PE.-	1021	AN		
-1024	fjol	fjol	NN	-.-.-	NN.UTR/NEU.SIN/PLU.IND/DEF	1023	ME		SpaceAfter=No
+1023	i	i	PE	-.-.-	PE.-	1024	ME		
+1024	fjol	fjol	NN	-.-.-	NN.UTR/NEU.SIN/PLU.IND/DEF	1021	AN		SpaceAfter=No
 1025	.	_	SY	-.-.-	SY.DEL	1003	--		
 
 # sent_id = Blog_9154-6336623.7
@@ -21383,13 +21383,13 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1010	,	_	SY	-.-.-	SY.DEL	1003	--		
 1011	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1012	SB		
 1012	ringde	ringa	VB	-.-.-	VB.IND.AKT.PRT	1003	--		
-1013	i	i	PE	-.-.-	PE.-	1012	MD		
-1014	morse	morse	NN	-.-.-	NN.UTR.SIN.IND	1013	ME		
+1013	i	i	PE	-.-.-	PE.-	1014	ME		
+1014	morse	morse	NN	-.-.-	NN.UTR.SIN.IND	1012	MD		
 1015	ang	angående	PE	FKN.-.-	PE.-	1012	OA		
-1016	ju	ju	AB	-.-.-	AB.-.-	1023	DF		
-1017	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1016	ME		
+1016	ju	ju	AB	-.-.-	AB.-.-	1017	ME		
+1017	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1023	DF		
 1018	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1019	SB		
-1019	rör	röra	VB	-.-.-	VB.IND.AKT.PRS	1016	OO		
+1019	rör	röra	VB	-.-.-	VB.IND.AKT.PRS	1017	OO		
 1020	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	1019	OO	1019:OO|1019:ME	
 1021	ju	ju	AB	-.-.-	AB.-.-	1022	MD		
 1022	ondare	ond	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1023	OO		
@@ -21459,9 +21459,9 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1033	sluta	sluta	VB	-.-.-	VB.INF.AKT.-	1031	IV		
 1034	med	med	PE	-.-.-	PE.-	1033	MD		
 1035	sockret	socker	NN	-.-.-	NN.NEU.SIN.DEF	1034	OO		
-1036	helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1033	MD		
-1037	och	och	KO	-.-.-	KO.-	1036	ME		
-1038	hållet	hållen	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1036	ME		SpaceAfter=No
+1036	helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1038	ME		
+1037	och	och	KO	-.-.-	KO.-	1038	ME		
+1038	hållet	hållen	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1033	MD		SpaceAfter=No
 1039	,	_	SY	-.-.-	SY.DEL	1049	--		
 1040	vilket	vilken	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	1041	SB	1041:SB|1042:SB	
 1041	kommer	komma	VB	-.-.-	VB.IND.AKT.PRS	1031	DF		
@@ -21469,8 +21469,8 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1043	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	1042	OO		
 1044	till	till	PE	-.-.-	PE.-	1042	OA		
 1045	vansinne	vansinne	NN	-.-.-	NN.NEU.SIN.IND	1044	OO		
-1046	men	men	KO	-.-.-	KO.-	1049	DF		
-1047	men	men	KO	-.-.-	KO.-	1046	ME		
+1046	men	men	KO	-.-.-	KO.-	1047	ME		
+1047	men	men	KO	-.-.-	KO.-	1049	DF		
 1048	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	1049	OO		
 1049	gör	göra	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1050	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1049	SB		
@@ -21869,9 +21869,9 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 # sent_id = Blog_54523-9491151.5
 # text = Och i lördags morse gjort jag det sista sen bakade kvällens efterrätt medans maken och barnen åkte handla.
 1001	Och	och	KO	-.-.-	KO.-	1010	--		
-1002	i	i	PE	-.-.-	PE.-	1001	MD		
-1003	lördags	lördag	NN	-.GEN.-	NN.UTR.SIN.IND	1002	ME		
-1004	morse	morse	NN	-.-.-	NN.UTR.SIN.IND	1002	ME		
+1002	i	i	PE	-.-.-	PE.-	1004	ME		
+1003	lördags	lördag	NN	-.GEN.-	NN.UTR.SIN.IND	1004	ME		
+1004	morse	morse	NN	-.-.-	NN.UTR.SIN.IND	1001	MD		
 1005	gjort	göra	VB	-.-.-	VB.IND.AKT.PRT	1001	IV		CorrectForm=gjorde
 1006	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1001	SB	1001:SB|1005:SB	
 1007	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1008	DT		
@@ -22913,8 +22913,8 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 # text = Jag vill på nytt önska er ett gott nytt år och jag hoppas att ni haft en trevlig semester.
 1001	Jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1002	SB	1002:SB|1005:SB	
 1002	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	1011	KL		
-1003	på	på	PE	-.-.-	PE.-	1002	MD		
-1004	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1003	ME		
+1003	på	på	PE	-.-.-	PE.-	1004	ME		
+1004	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	MD		
 1005	önska	önska	VB	-.-.-	VB.INF.AKT.-	1002	IV		
 1006	er	er	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	1005	IO		
 1007	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1010	DT		
@@ -23671,8 +23671,8 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1007	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1008	SB	1008:SB|1009:SB	
 1008	skall	skola	VB	-.-.-	VB.IND.AKT.PRS	1006	OO		
 1009	åtalas	åtala	VB	-.-.-	VB.INF.SFO.-	1008	IV		
-1010	på	på	PE	-.-.-	PE.-	1009	MD		
-1011	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1010	ME		
+1010	på	på	PE	-.-.-	PE.-	1011	ME		
+1011	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1009	MD		
 1012	i	i	PE	-.-.-	PE.-	1013	KL		
 1013	och	och	KO	-.-.-	KO.-	1009	MD	1009:MD|1012:ME	
 1014	med	med	PE	-.-.-	PE.-	1013	KL	1013:KL|1012:ME	
@@ -23943,8 +23943,8 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1001	Jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1002	SB	1002:SB|1007:SB|1006:SB	
 1002	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1003	således	således	AB	-.-.-	AB.-.-	1002	MD		
-1004	på	på	PE	-.-.-	PE.-	1002	MD		
-1005	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1004	ME		
+1004	på	på	PE	-.-.-	PE.-	1005	ME		
+1005	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	MD		
 1006	vilja	vilja	VB	-.-.-	VB.INF.AKT.-	1002	IV		
 1007	be	be	VB	-.-.-	VB.INF.AKT.-	1006	IV		
 1008	er	er	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	1007	OO	1007:OO|1010:SB	
@@ -24819,8 +24819,8 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1024	;	_	SY	-.-.-	SY.DEL	1037	--		
 1025	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1026	SB		
 1026	röstade	rösta	VB	-.-.-	VB.IND.AKT.PRT	1037	KL		
-1027	på	på	PE	-.-.-	PE.-	1026	MD		
-1028	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1027	ME		
+1027	på	på	PE	-.-.-	PE.-	1028	ME		
+1028	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1026	MD		
 1029	om	om	PE	-.-.-	PE.-	1026	OA		
 1030	detta	denna	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1029	OO		
 1031	under	under	PE	-.-.-	PE.-	1026	MD		
@@ -26131,10 +26131,10 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1019	för	för	PE	-.-.-	PE.-	1018	OA	1018:OA|1016:	
 1020	denna	denna	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1021	DT		
 1021	debatt	debatt	NN	-.-.-	NN.UTR.SIN.IND	1019	OO		
-1022	när	när	AB	-.-.-	AB.-.FRL	1015	MD		
-1023	än	än	AB	-.-.-	AB.-.-	1022	ME		
+1022	när	när	AB	-.-.-	AB.-.FRL	1023	ME		
+1023	än	än	AB	-.-.-	AB.-.-	1015	MD		
 1024	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1025	SB	1025:SB|1026:SB	
-1025	må	må	VB	-.-.-	VB.KON.AKT.PRS	1022	OO		
+1025	må	må	VB	-.-.-	VB.KON.AKT.PRS	1023	OO		
 1026	vara	vara	VB	-.-.-	VB.INF.AKT.-	1025	IV		SpaceAfter=No
 1027	,	_	SY	-.-.-	SY.DEL	1003	--		
 1028	att	att	SU	-.-.-	SU.-	1010	AN		
@@ -26264,8 +26264,8 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1010	socialistiska	socialistisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1011	MD		
 1011	gruppen	grupp	NN	-.-.-	NN.UTR.SIN.DEF	1008	OO		
 1012	att	att	SU	-.-.-	SU.-	1007	MD		
-1013	på	på	PE	-.-.-	PE.-	1015	MD		
-1014	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1013	ME		
+1013	på	på	PE	-.-.-	PE.-	1014	ME		
+1014	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1015	MD		
 1015	föra	föra	VB	-.-.-	VB.INF.AKT.-	1012	OO		
 1016	upp	upp	AB	-.-.-	AB.-.-	1015	PL	1015:PL|1015:ME	
 1017	kommissionens	kommission	NN	-.GEN.-	NN.UTR.SIN.DEF	1018	DT		
@@ -27134,8 +27134,8 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1004	ta	ta	VB	-.-.-	VB.INF.AKT.-	1002	IV		
 1005	upp	upp	AB	-.-.-	AB.-.-	1004	PL	1004:PL|1004:ME	
 1006	debatten	debatt	NN	-.-.-	NN.UTR.SIN.DEF	1004	OO		
-1007	på	på	PE	-.-.-	PE.-	1004	MD		
-1008	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1007	ME		SpaceAfter=No
+1007	på	på	PE	-.-.-	PE.-	1008	ME		
+1008	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1004	MD		SpaceAfter=No
 1009	,	_	SY	-.-.-	SY.DEL	1010	--		
 1010	men	men	KO	-.-.-	KO.-	0	--		
 1011	även	även	AB	-.-.-	AB.-.-	1013	MD		
@@ -27394,8 +27394,8 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1001	Det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1002	SP		
 1002	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1003	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1002	SB		
-1004	för	för	PE	-.-.-	PE.-	1002	MD		
-1005	övrigt	övrig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1004	ME		
+1004	för	för	PE	-.-.-	PE.-	1005	ME		
+1005	övrigt	övrig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	MD		
 1006	alltid	alltid	AB	-.-.-	AB.-.-	1002	MD		SpaceAfter=No
 1007	.	_	SY	-.-.-	SY.DEL	1002	--		
 
@@ -28779,17 +28779,17 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1024	större	stor	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1025	MD		
 1025	uppmärksamhet	uppmärksamhet	NN	-.-.-	NN.UTR.SIN.IND	1022	OO		SpaceAfter=No
 1026	,	_	SY	-.-.-	SY.DEL	1008	--		
-1027	vare	vara	VB	-.-.-	VB.KON.AKT.PRS	1022	MD		
-1028	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1027	ME		
+1027	vare	vara	VB	-.-.-	VB.KON.AKT.PRS	1028	ME		
+1028	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1022	MD		
 1029	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1030	SB		
-1030	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	1027	OO		
+1030	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	1028	OO		
 1031	på	på	PE	-.-.-	PE.-	1037	KL		
 1032	vägar	väg	NN	-.-.-	NN.UTR.PLU.IND	1031	OO		SpaceAfter=No
 1033	,	_	SY	-.-.-	SY.DEL	1008	--		
 1034	på	på	PE	-.-.-	PE.-	1037	KL		
 1035	inre	inre	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1036	MD		
 1036	vattenvägar	vattenväg	NN	-.-.-	NN.UTR.PLU.IND	1034	OO		
-1037	eller	eller	KO	-.-.-	KO.-	1030	OO	1030:OO|1027:ME	
+1037	eller	eller	KO	-.-.-	KO.-	1030	OO	1030:OO|1028:ME	
 1038	på	på	PE	-.-.-	PE.-	1037	KL		
 1039	havet	hav	NN	-.-.-	NN.NEU.SIN.DEF	1038	OO		SpaceAfter=No
 1040	.	_	SY	-.-.-	SY.DEL	1008	--		
@@ -29188,8 +29188,8 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1002	gemensamma	gemensam	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1003	MD		
 1003	ståndpunkten	ståndpunkt	NN	-.-.-	NN.UTR.SIN.DEF	1004	SB		
 1004	inbegriper	inbegripa	VB	-.-.-	VB.IND.AKT.PRS	1020	KL		
-1005	praktiskt	praktisk	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1004	MD		
-1006	taget	tagen	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1005	ME		
+1005	praktiskt	praktisk	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1006	ME		
+1006	taget	tagen	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1004	MD		
 1007	alla	all	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	1008	DT		
 1008	ändringsförslag	ändringsförslag	NN	-.-.-	NN.NEU.PLU.IND	1004	OO	1004:OO|1011:SB|1010:SB	
 1009	som	som	SU	-.-.-	SU.-	1008	MD		
@@ -29324,9 +29324,9 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1015	som	som	SU	-.-.-	SU.-	1014	MD		
 1016	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	1015	OO		
 1017	förbättras	förbättra	VB	-.-.-	VB.INF.SFO.-	1016	IV		
-1018	dag	dag	NN	-.-.-	NN.UTR.SIN.IND	1017	MD		
-1019	för	för	PE	-.-.-	PE.-	1018	ME		
-1020	dag	dag	NN	-.-.-	NN.UTR.SIN.IND	1018	ME		SpaceAfter=No
+1018	dag	dag	NN	-.-.-	NN.UTR.SIN.IND	1020	ME		
+1019	för	för	PE	-.-.-	PE.-	1020	ME		
+1020	dag	dag	NN	-.-.-	NN.UTR.SIN.IND	1017	MD		SpaceAfter=No
 1021	.	_	SY	-.-.-	SY.DEL	1012	--		
 
 # sent_id = Eupa_00-01-17.278
@@ -29353,8 +29353,8 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1020	,	_	SY	-.-.-	SY.DEL	1004	--		
 1021	och	och	KO	-.-.-	KO.-	1010	MD		
 1022	som	som	SU	-.-.-	SU.-	1021	KL		
-1023	utan	utan	PE	-.-.-	PE.-	1025	MD		
-1024	tvekan	tvekan	NN	-.-.-	NN.UTR.SIN.IND	1023	ME		
+1023	utan	utan	PE	-.-.-	PE.-	1024	ME		
+1024	tvekan	tvekan	NN	-.-.-	NN.UTR.SIN.IND	1025	MD		
 1025	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1022	OO		
 1026	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1029	DT		
 1027	mycket	mycket	PO	-.-.-	PO.IND.SIN.NEU.-.-	1028	MD		
@@ -29561,8 +29561,8 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 # text = Låt oss i stället ta oss an frågan utanför sådana situationer som inte utgör annat än ett bevis på hur brådskande det är med en effektiv lösning på denna typ av problem.
 1001	Låt	låta	VB	-.-.-	VB.IMP.AKT.-	0	--		
 1002	oss	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	1001	OO		
-1003	i	i	PE	-.-.-	PE.-	1001	MD		
-1004	stället	ställe	NN	-.-.-	NN.NEU.SIN.DEF	1003	ME		
+1003	i	i	PE	-.-.-	PE.-	1004	ME		
+1004	stället	ställe	NN	-.-.-	NN.NEU.SIN.DEF	1001	MD		
 1005	ta	ta	VB	-.-.-	VB.INF.AKT.-	1001	OO		
 1006	oss	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	1005	ME		
 1007	an	an	AB	-.-.-	AB.-.-	1005	ME		
@@ -29610,10 +29610,10 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1013	medverkat	medverka	VB	-.-.-	VB.SPM.AKT.-	1012	IV		
 1014	och	och	KO	-.-.-	KO.-	1009	OO		
 1015	då	då	AB	-.-.-	AB.-.-	1014	DF		
-1016	i	i	PE	-.-.-	PE.-	1014	KL		
-1017	synnerhet	synnerhet	NN	-.-.-	NN.UTR.SIN.IND	1016	ME		
+1016	i	i	PE	-.-.-	PE.-	1017	ME		
+1017	synnerhet	synnerhet	NN	-.-.-	NN.UTR.SIN.IND	1014	KL		
 1018	föredragande	föredragande	NN	-.-.-	NN.UTR.SIN.IND	1019	MD		
-1019	Koch	Koch	EN	-.-.-	EN.-	1016	HD		SpaceAfter=No
+1019	Koch	Koch	EN	-.-.-	EN.-	1017	HD		SpaceAfter=No
 1020	.	_	SY	-.-.-	SY.DEL	1002	--		
 
 # sent_id = Eupa_00-01-17.288
@@ -29861,8 +29861,8 @@ Eupa_00-01-17.290.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 # sent_id = Eupa_00-01-17.299
 # text = Om Europeiska unionen avstår från att gripa in skulle detta tvinga medlemsstaterna att ändra sina inhemska rättsliga bestämmelser för en kort period, nämligen tills CEN:s arbete har slutförts, vilket drar med sig onödiga kostnader och förvirring.
 1001	Om	om	SU	-.-.-	SU.-	1009	MD		
-1002	Europeiska	europeisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1004	SB		
-1003	unionen	union	NN	-.-.-	NN.UTR.SIN.DEF	1002	ME		
+1002	Europeiska	europeisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1003	ME		
+1003	unionen	union	NN	-.-.-	NN.UTR.SIN.DEF	1004	SB		
 1004	avstår	avstå	VB	-.-.-	VB.IND.AKT.PRS	1001	OO		
 1005	från	från	PE	-.-.-	PE.-	1004	OA		
 1006	att	att	SU	-.-.-	SU.-	1005	OO		
@@ -29974,10 +29974,10 @@ Eupa_00-01-17.290.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1042	nationella	nationell	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1043	MD		
 1043	bestämmelser	bestämmelse	NN	-.-.-	NN.UTR.PLU.IND	1039	OO		SpaceAfter=No
 1044	,	_	SY	-.-.-	SY.DEL	1021	--		
-1045	särskilt	särskild	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1046	MD		
-1046	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	1043	MD		
-1047	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	1046	ME		
-1048	transport	transport	NN	-.-.-	NN.UTR.SIN.IND	1046	OO		
+1045	särskilt	särskild	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1047	MD		
+1046	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	1047	ME		
+1047	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	1043	MD		
+1048	transport	transport	NN	-.-.-	NN.UTR.SIN.IND	1047	OO		
 1049	av	av	PE	-.-.-	PE.-	1048	MD		
 1050	mycket	mycket	PO	-.-.-	PO.IND.SIN.NEU.-.-	1051	MD		
 1051	ringa	ringa	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1052	MD		
@@ -30183,8 +30183,8 @@ Eupa_00-01-17.290.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1008	skärpta	skärpt	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1009	MD		
 1009	krav	krav	NN	-.-.-	NN.NEU.PLU.IND	1007	OO		SpaceAfter=No
 1010	,	_	SY	-.-.-	SY.DEL	1004	--		
-1011	framför	framför	PE	-.-.-	PE.-	1013	MD		
-1012	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1011	ME		
+1011	framför	framför	PE	-.-.-	PE.-	1012	ME		
+1012	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1013	MD		
 1013	för	för	PE	-.-.-	PE.-	1009	KL		
 1014	vakuumtankar	vakuum|tank	NN	-.-.-	NN.UTR.PLU.IND	1013	OO		SpaceAfter=No
 1015	,	_	SY	-.-.-	SY.DEL	1004	--		
@@ -30371,9 +30371,9 @@ Eupa_00-01-17.290.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1008	nu	nu	AB	-.-.-	AB.-.-	1007	MD		
 1009	eftersom	eftersom	SU	-.-.-	SU.-	1002	MD		
 1010	medlemsstaterna	medlemsstat	NN	-.-.-	NN.UTR.PLU.DEF	1014	SB	1014:SB|1015:SB	
-1011	i	i	PE	-.-.-	PE.-	1014	MD		
-1012	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1011	ME		
-1013	fall	fall	NN	-.-.-	NN.NEU.SIN.IND	1011	ME		
+1011	i	i	PE	-.-.-	PE.-	1013	ME		
+1012	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1013	ME		
+1013	fall	fall	NN	-.-.-	NN.NEU.SIN.IND	1014	MD		
 1014	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	1009	OO		
 1015	tvingas	tvinga	VB	-.-.-	VB.INF.SFO.-	1014	IV		
 1016	att	att	SU	-.-.-	SU.-	1015	OO		
@@ -30454,10 +30454,10 @@ Eupa_00-01-17.290.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1014	till	till	PE	-.-.-	PE.-	1004	MD		
 1015	kollegan	kollega	NN	-.-.-	NN.UTR.SIN.DEF	1022	DT		
 1016	Kochs	Koch	EN	-.GEN.-	EN.-	1015	AN		
-1017	i	i	PE	-.-.-	PE.-	1021	MD		
-1018	och	och	KO	-.-.-	KO.-	1017	ME		
-1019	för	för	PE	-.-.-	PE.-	1017	ME		
-1020	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1017	ME		
+1017	i	i	PE	-.-.-	PE.-	1020	ME		
+1018	och	och	KO	-.-.-	KO.-	1020	ME		
+1019	för	för	PE	-.-.-	PE.-	1020	ME		
+1020	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1021	MD		
 1021	utmärkta	utmärkt	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1022	MD		
 1022	betänkande	betänkande	NN	-.-.-	NN.NEU.SIN.IND	1014	OO		SpaceAfter=No
 1023	.	_	SY	-.-.-	SY.DEL	1002	--		
@@ -30680,10 +30680,10 @@ Eupa_00-01-17.290.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1004	här	här	AB	-.-.-	AB.-.-	1003	MD		
 1005	i dag	idag	AB	-.-.-	AB.-.-	1003	MD		
 1007	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
-1008	i	i	PE	-.-.-	PE.-	1007	MD		
-1009	grund	grund	NN	-.-.-	NN.UTR.SIN.IND	1008	ME		
-1010	och	och	KO	-.-.-	KO.-	1008	ME		
-1011	botten	botten	NN	-.-.-	NN.UTR.SIN.IND	1008	ME		
+1008	i	i	PE	-.-.-	PE.-	1011	ME		
+1009	grund	grund	NN	-.-.-	NN.UTR.SIN.IND	1011	ME		
+1010	och	och	KO	-.-.-	KO.-	1011	ME		
+1011	botten	botten	NN	-.-.-	NN.UTR.SIN.IND	1007	MD		
 1012	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1013	DT		
 1013	irritationsmoment	irritationsmoment	NN	-.-.-	NN.NEU.SIN.IND	1007	SP		SpaceAfter=No
 1014	.	_	SY	-.-.-	SY.DEL	1007	--		
@@ -30911,8 +30911,8 @@ Eupa_00-01-17.290.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1019	kyla	kyla	NN	-.-.-	NN.UTR.SIN.IND	1015	KL		
 1020	-	_	SY	-.-.-	SY.DEL	1002	--		
 1021	och	och	KO	-.-.-	KO.-	1006	RA		
-1022	framför	framför	PE	-.-.-	PE.-	1024	MD		
-1023	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1022	ME		
+1022	framför	framför	PE	-.-.-	PE.-	1023	ME		
+1023	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1024	MD		
 1024	i	i	PE	-.-.-	PE.-	1021	KL		
 1025	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	1027	DT		
 1026	trånga	trång	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1027	MD		
@@ -31657,10 +31657,10 @@ Eupa_00-01-17.290.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1014	betänkandet	betänkande	NN	-.-.-	NN.NEU.SIN.DEF	1011	OO		SpaceAfter=No
 1015	,	_	SY	-.-.-	SY.DEL	1002	--		
 1016	som	som	SU	-.-.-	SU.-	1010	MD		
-1017	på	på	PE	-.-.-	PE.-	1021	MD		
-1018	sätt	sätt	NN	-.-.-	NN.NEU.SIN.IND	1017	ME		
-1019	och	och	KO	-.-.-	KO.-	1017	ME		
-1020	vis	vis	NN	-.-.-	NN.NEU.SIN.IND	1017	ME		
+1017	på	på	PE	-.-.-	PE.-	1020	ME		
+1018	sätt	sätt	NN	-.-.-	NN.NEU.SIN.IND	1020	ME		
+1019	och	och	KO	-.-.-	KO.-	1020	ME		
+1020	vis	vis	NN	-.-.-	NN.NEU.SIN.IND	1021	MD		
 1021	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1016	OO		
 1022	blivit	bli	VB	-.-.-	VB.SPM.AKT.-	1021	IV		
 1023	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1024	DT		
@@ -31685,10 +31685,10 @@ Eupa_00-01-17.290.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1002	beklagar	beklaga	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1003	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1002	SB		
 1004	att	att	SU	-.-.-	SU.-	1002	OO		
-1005	Europeiska	europeisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1011	SB	1011:SB|1012:	
-1006	standardiseringskommittén	standardiserings|kommitté	NN	-.-.-	NN.UTR.SIN.DEF	1005	ME		
+1005	Europeiska	europeisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1006	ME		
+1006	standardiseringskommittén	standardiserings|kommitté	NN	-.-.-	NN.UTR.SIN.DEF	1011	SB	1011:SB|1012:	
 1007	(	_	SY	-.-.-	SY.DEL	1002	--		SpaceAfter=No
-1008	CEN	CEN	EN	-.-.-	EN.-	1005	AN		SpaceAfter=No
+1008	CEN	CEN	EN	-.-.-	EN.-	1006	AN		SpaceAfter=No
 1009	)	_	SY	-.-.-	SY.DEL	1002	--		
 1010	inte	inte	AB	-.-.-	AB.-.-	1011	MD		
 1011	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1004	OO		
@@ -31747,10 +31747,10 @@ Eupa_00-01-17.290.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 
 # sent_id = Eupa_00-01-17.372
 # text = För en stund sedan talade Vatanen om låga temperaturer, inte bara om 20 minusgrader utan om 40 minusgrader.
-1001	För	för	PE	-.-.-	PE.-	9999			
-1002	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1003	DT	1003:DT|9999:ME	
-1003	stund	stund	NN	-.-.-	NN.UTR.SIN.IND	1004	OO	1004:OO|9999:ME	
-1004	sedan	sedan	PE	-.-.-	PE.-	1005	MD	1005:MD|9999:ME	
+1001	För	för	PE	-.-.-	PE.-	1004			
+1002	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1003	DT	1003:DT|1001:ME	
+1003	stund	stund	NN	-.-.-	NN.UTR.SIN.IND	1004	OO	1004:OO|1001:ME	
+1004	sedan	sedan	PE	-.-.-	PE.-	1005	MD	1005:MD|1001:ME	
 1005	talade	tala	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1006	Vatanen	Vatanen	EN	-.-.-	EN.-	1005	SB		
 1007	om	om	PE	-.-.-	PE.-	1005	MD		
@@ -33382,8 +33382,8 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1014	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1013	IV		CorrectForm=ha
 1015	gömts	gömma	VB	-.-.-	VB.SPM.SFO.-	1014	IV		
 1016	i	i	PE	-.-.-	PE.-	1015	MD		
-1017	Förenade	förenad	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1019	DT		
-1018	kungarikets	kungarike	NN	-.GEN.-	NN.NEU.SIN.DEF	1017	ME		
+1017	Förenade	förenad	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1018	ME		
+1018	kungarikets	kungarike	NN	-.GEN.-	NN.NEU.SIN.DEF	1019	DT		
 1019	siffror	siffra	NN	-.-.-	NN.UTR.PLU.IND	1016	OO		SpaceAfter=No
 1020	.	_	SY	-.-.-	SY.DEL	1002	--		
 
@@ -34098,8 +34098,8 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1023	kommer	komma	VB	-.-.-	VB.IND.AKT.PRS	1013	OO		
 1024	att	att	SU	-.-.-	SU.-	1023	IV		
 1025	träda	trä	VB	-.-.-	VB.INF.AKT.-	1024	OO		
-1026	i	i	PE	-.-.-	PE.-	1025	PL		
-1027	kraft	kraft	NN	-.-.-	NN.UTR.SIN.IND	1026	ME		
+1026	i	i	PE	-.-.-	PE.-	1027	ME		
+1027	kraft	kraft	NN	-.-.-	NN.UTR.SIN.IND	1025	PL		
 1028	för	för	PE	-.-.-	PE.-	1025	MD		
 1029	första	första	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	1030	DT		
 1030	gången	gång	NN	-.-.-	NN.UTR.SIN.DEF	1028	OO		
@@ -34500,9 +34500,9 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1013	vara	vara	VB	-.-.-	VB.INF.AKT.-	1012	OO		
 1014	viktigt	viktig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1013	SP		SpaceAfter=No
 1015	,	_	SY	-.-.-	SY.DEL	1010	--		
-1016	inte	inte	AB	-.-.-	AB.-.-	1014	OA		
-1017	bara	bara	AB	-.-.-	AB.-.-	1016	ME		
-1018	för	för	PE	-.-.-	PE.-	1016	KL		
+1016	inte	inte	AB	-.-.-	AB.-.-	1017	ME		
+1017	bara	bara	AB	-.-.-	AB.-.-	1014	OA		
+1018	för	för	PE	-.-.-	PE.-	1017	KL		
 1019	att	att	SU	-.-.-	SU.-	1018	OO		
 1020	undvika	undvika	VB	-.-.-	VB.INF.AKT.-	1019	OO		
 1021	att	att	SU	-.-.-	SU.-	1030	KL		
@@ -34520,9 +34520,9 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1033	spökstäder	spökstad	NN	-.-.-	NN.UTR.PLU.IND	1034	SB		
 1034	uppkommer	uppkomma	VB	-.-.-	VB.IND.AKT.PRS	1031	OO		SpaceAfter=No
 1035	,	_	SY	-.-.-	SY.DEL	1010	--		
-1036	utan	utan	KO	-.-.-	KO.-	1016	PH		
+1036	utan	utan	KO	-.-.-	KO.-	1017	PH		
 1037	även	även	AB	-.-.-	AB.-.-	1036	ME		
-1038	för	för	PE	-.-.-	PE.-	1016	KL		
+1038	för	för	PE	-.-.-	PE.-	1017	KL		
 1039	att	att	SU	-.-.-	SU.-	1038	OO		
 1040	jordbrukarna	jordbrukare	NN	-.-.-	NN.UTR.PLU.DEF	1041	SB		
 1041	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1039	OO		
@@ -35853,9 +35853,9 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1005	detaljerade	detaljerad	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1006	MD		
 1006	frågor	fråga	NN	-.-.-	NN.UTR.PLU.IND	1007	KL		
 1007	och	och	KO	-.-.-	KO.-	1004	OO		
-1008	till	till	PE	-.-.-	PE.-	1011	MD		
-1009	och	och	KO	-.-.-	KO.-	1008	ME		
-1010	med	med	PE	-.-.-	PE.-	1008	ME		
+1008	till	till	PE	-.-.-	PE.-	1010	ME		
+1009	och	och	KO	-.-.-	KO.-	1010	ME		
+1010	med	med	PE	-.-.-	PE.-	1011	MD		
 1011	sådant	sådan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1007	KL	1007:KL|1014:SB|1013:SB	
 1012	som	som	SU	-.-.-	SU.-	1011	JF		
 1013	redan	redan	AB	-.-.-	AB.-.-	1012	OO		
@@ -37642,10 +37642,10 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 # text = Under den en och en halv minut jag har till mitt förfogande skulle jag till att börja med vilja lyckönska kollegan Schroedter.
 1001	Under	under	PE	-.-.-	PE.-	1013	MD		
 1002	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1007	DT		
-1003	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1007	MD		
-1004	och	och	KO	-.-.-	KO.-	1003	ME		
-1005	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1003	ME		
-1006	halv	halv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1003	ME		
+1003	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1006	ME		
+1004	och	och	KO	-.-.-	KO.-	1006	ME		
+1005	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1006	ME		
+1006	halv	halv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1007	MD		
 1007	minut	minut	NN	-.-.-	NN.UTR.SIN.IND	1001	OO		
 1008	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1009	SB		
 1009	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1007	MD		
@@ -37698,10 +37698,10 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1030	att	att	SU	-.-.-	SU.-	1029	OO		
 1031	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1032	SB		
 1032	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1030	OO		
-1033	tack	tack	NN	-.-.-	NN.NEU.SIN.IND	1032	MD		
-1034	vare	vara	VB	-.-.-	VB.KON.AKT.PRS	1033	ME		
+1033	tack	tack	NN	-.-.-	NN.NEU.SIN.IND	1034	ME		
+1034	vare	vara	VB	-.-.-	VB.KON.AKT.PRS	1032	MD		
 1035	hennes	hon	PO	-.GEN.-	PO.DEF.SIN.UTR.OBJ.-	1036	DT		
-1036	tillgänglighet	tillgänglighet	NN	-.-.-	NN.UTR.SIN.IND	1033	OO		
+1036	tillgänglighet	tillgänglighet	NN	-.-.-	NN.UTR.SIN.IND	1034	OO		
 1037	som	som	SU	-.-.-	SU.-	1032	OA		
 1038	betänkandet	betänkande	NN	-.-.-	NN.NEU.SIN.DEF	1037	OO	1037:OO|1039:SB	
 1039	blivit	bli	VB	-.-.-	VB.SPM.AKT.-	1038	IV		
@@ -37800,8 +37800,8 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 # text = Jag skulle kort sagt vilja säga att vi går in i en förvaltningsperiod för programplaneringen 2000-2006, som inte får vara en rutinperiod, av den enkla anledningen att vi står inför två stora utmaningar.
 1001	Jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1002	SB	1002:SB|1006:SB|1005:SB	
 1002	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	0	--		
-1003	kort	kort	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	MD		
-1004	sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1003	ME		
+1003	kort	kort	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1004	ME		
+1004	sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1002	MD		
 1005	vilja	vilja	VB	-.-.-	VB.INF.AKT.-	1002	IV		
 1006	säga	säga	VB	-.-.-	VB.INF.AKT.-	1005	IV		
 1007	att	att	SU	-.-.-	SU.-	1006	OO		
@@ -38616,10 +38616,10 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1026	kampen	kamp	NN	-.-.-	NN.UTR.SIN.DEF	1023	KL		
 1027	mot	mot	PE	-.-.-	PE.-	1026	MD		
 1028	arbetslösheten	arbetslöshet	NN	-.-.-	NN.UTR.SIN.DEF	1027	OO		
-1029	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	1028	MD		
-1030	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	1029	ME		
+1029	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	1030	ME		
+1030	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	1028	MD		
 1031	kvinnor	kvinna	NN	-.-.-	NN.UTR.PLU.IND	1032	KL		
-1032	och	och	KO	-.-.-	KO.-	1029	OO		
+1032	och	och	KO	-.-.-	KO.-	1030	OO		
 1033	ungdomar	ungdom	NN	-.-.-	NN.UTR.PLU.IND	1032	KL		SpaceAfter=No
 1034	.	_	SY	-.-.-	SY.DEL	1001	--		
 
@@ -38674,13 +38674,13 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1041	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1042	DT		
 1042	del	del	NN	-.-.-	NN.UTR.SIN.IND	1040	OO		
 1043	av	av	PE	-.-.-	PE.-	1042	MD		
-1044	Förenade	förenad	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1043	OO		
-1045	kungariket	kungarike	NN	-.-.-	NN.NEU.SIN.DEF	1044	ME		SpaceAfter=No
+1044	Förenade	förenad	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1045	ME		
+1045	kungariket	kungarike	NN	-.-.-	NN.NEU.SIN.DEF	1043	OO		SpaceAfter=No
 1046	,	_	SY	-.-.-	SY.DEL	1008	--		
-1047	West	_	UO	-.-.-	UO.-	1044	AN		
-1048	Midlands	_	UO	-.-.-	UO.-	1047	ME		SpaceAfter=No
+1047	West	_	UO	-.-.-	UO.-	1048	ME		
+1048	Midlands	_	UO	-.-.-	UO.-	1045	AN		SpaceAfter=No
 1049	,	_	SY	-.-.-	SY.DEL	1008	--		
-1050	som	som	SU	-.-.-	SU.-	1044	MD		
+1050	som	som	SU	-.-.-	SU.-	1045	MD		
 1051	hittills	hittills	AB	-.-.-	AB.-.-	1050	OO		
 1052	dragit	dra	VB	-.-.-	VB.SPM.AKT.-	1051	IV		
 1053	nytta	nytta	NN	-.-.-	NN.UTR.SIN.IND	1052	PL	1052:PL|1052:ME	
@@ -38913,7 +38913,7 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1015	känt	känd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1014	SP		
 1016	som	som	SU	-.-.-	SU.-	1015	MD		
 1017	"	_	SY	-.-.-	SY.DEL	1005	--		SpaceAfter=No
-1018	valuta	valuta	NN	-.-.-	NN.UTR.SIN.IND	9999			
+1018	valuta	valuta	NN	-.-.-	NN.UTR.SIN.IND	1022			
 1019	för	för	PE	-.-.-	PE.-	9999			
 1020	pengarna	pengar	NN	-.-.-	NN.UTR.PLU.DEF	9999			SpaceAfter=No
 1021	"	_	SY	-.-.-	SY.DEL	1005	--		SpaceAfter=No
@@ -41227,12 +41227,12 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 # text = Och eftersom flera av er på nytt betonat något som föreföll vara bortglömt skall jag tillägga de regionala ekonomierna i de europeiska regioner som hindras av det faktum att de ligger långt bort, vare sig det gäller perifera områden, öregionerna eller, naturligtvis, de yttersta randområdena som ligger allra längst bort.
 1001	Och	och	KO	-.-.-	KO.-	1014	DF		
 1002	eftersom	eftersom	SU	-.-.-	SU.-	1014	MD		
-1003	flera	flera	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1006	SB		
+1003	flera	flera	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1007	SB		
 1004	av	av	PE	-.-.-	PE.-	1003	MD		
 1005	er	er	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	1004	OO		
-1006	på	på	PE	-.-.-	PE.-	1002	OO		
-1007	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1006	ME		
-1008	betonat	betona	VB	-.-.-	VB.SPM.AKT.-	1006	IV		
+1006	på	på	PE	-.-.-	PE.-	1007	ME		
+1007	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	OO		
+1008	betonat	betona	VB	-.-.-	VB.SPM.AKT.-	1007	IV		
 1009	något	någon	PO	-.-.-	PO.IND.SIN.NEU.-.-	1008	OO	1008:OO|1012:SB|1011:SB	
 1010	som	som	SU	-.-.-	SU.-	1009	MD		
 1011	föreföll	förefalla	VB	-.-.-	VB.IND.AKT.PRT	1010	OO		
@@ -41259,8 +41259,8 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1032	långt	lång	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1033	MD		
 1033	bort	bort	AB	-.-.-	AB.-.-	1031	RA		SpaceAfter=No
 1034	,	_	SY	-.-.-	SY.DEL	1014	--		
-1035	vare	vara	VB	-.-.-	VB.KON.AKT.PRS	1038	MD		
-1036	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1035	ME		
+1035	vare	vara	VB	-.-.-	VB.KON.AKT.PRS	1036	ME		
+1036	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1038	MD		
 1037	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1038	SB	1038:SB|1045:SB|1042:SB	
 1038	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	1043	KL	1043:KL|1045:HD|1042:HD	
 1039	perifera	perifer	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1040	MD		
@@ -41940,8 +41940,8 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1077	lokal	lokal	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1078	MD		
 1078	intelligens	intelligens	NN	-.-.-	NN.UTR.SIN.IND	1076	OO		SpaceAfter=No
 1079	,	_	SY	-.-.-	SY.DEL	1074	--		
-1080	vare	vara	VB	-.-.-	VB.KON.AKT.PRS	1083	MD		
-1081	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1080	ME		
+1080	vare	vara	VB	-.-.-	VB.KON.AKT.PRS	1081	ME		
+1081	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1083	MD		
 1082	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1083	SB		
 1083	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	1074	MD		
 1084	inom	inom	PE	-.-.-	PE.-	1083	OA		
@@ -42551,8 +42551,8 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 # text = Jag hade för övrigt tillfälle att säga det till samtliga ministrar med ansvar för stadspolitiken vid ett möte i Tammerfors.
 1001	Jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1002	SB		
 1002	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	0	--		
-1003	för	för	PE	-.-.-	PE.-	1002	MD		
-1004	övrigt	övrig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1003	ME		
+1003	för	för	PE	-.-.-	PE.-	1004	ME		
+1004	övrigt	övrig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	MD		
 1005	tillfälle	tillfälle	NN	-.-.-	NN.NEU.SIN.IND	1002	OO		
 1006	att	att	SU	-.-.-	SU.-	1005	MD		
 1007	säga	säga	VB	-.-.-	VB.INF.AKT.-	1006	OO		
@@ -42781,8 +42781,8 @@ Eupa_00-01-17.745.1034	.	_	SY	-.-.-	SY.DEL	Eupa_00-01-17.745.1004	--
 1008	till	till	PE	-.-.-	PE.-	1007	OA		
 1009	Savary	Savary	EN	-.-.-	EN.-	1008	OO		
 1010	att	att	SU	-.-.-	SU.-	1007	OO		
-1011	i	i	PE	-.-.-	PE.-	1013	MD		
-1012	morgon	morgon	NN	-.-.-	NN.UTR.SIN.IND	1011	ME		
+1011	i	i	PE	-.-.-	PE.-	1012	ME		
+1012	morgon	morgon	NN	-.-.-	NN.UTR.SIN.IND	1013	MD		
 1013	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1010	OO		
 1014	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1013	SB		
 1015	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1017	DT		
@@ -42800,8 +42800,8 @@ Eupa_00-01-17.745.1034	.	_	SY	-.-.-	SY.DEL	Eupa_00-01-17.745.1004	--
 1027	Österrike	Österrike	EN	-.-.-	EN.-	1028	KL		
 1028	och	och	KO	-.-.-	KO.-	1024	OO		
 1029	Tyskland	Tyskland	EN	-.-.-	EN.-	1028	KL		
-1030	framför	framför	PE	-.-.-	PE.-	1034	MD		
-1031	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1030	ME		
+1030	framför	framför	PE	-.-.-	PE.-	1031	ME		
+1031	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1034	MD		
 1032	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	1034	DT		
 1033	senaste	sen	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	1034	MD		
 1034	veckorna	vecka	NN	-.-.-	NN.UTR.PLU.DEF	1024	MD		SpaceAfter=No
@@ -43202,8 +43202,8 @@ Eupa_00-01-17.745.1034	.	_	SY	-.-.-	SY.DEL	Eupa_00-01-17.745.1004	--
 1032	ekonomiska	ekonomisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1031	KL		
 1033	situationen	situation	NN	-.-.-	NN.UTR.SIN.DEF	1028	OO		
 1034	i	i	PE	-.-.-	PE.-	1033	MD		
-1035	Europeiska	europeisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1037	DT		
-1036	unionens	union	NN	-.GEN.-	NN.UTR.SIN.DEF	1035	ME		
+1035	Europeiska	europeisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1036	ME		
+1036	unionens	union	NN	-.GEN.-	NN.UTR.SIN.DEF	1037	DT		
 1037	regioner	region	NN	-.-.-	NN.UTR.PLU.IND	1034	OO		
 1038	[	_	SY	-.-.-	SY.DEL	1005	--		SpaceAfter=No
 1039	SEK	_	UO	-.-.-	UO.-	1045	ME		SpaceAfter=No
@@ -43298,8 +43298,8 @@ Eupa_00-01-17.745.1034	.	_	SY	-.-.-	SY.DEL	Eupa_00-01-17.745.1004	--
 1007	mätt	mätt	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1005	MD		
 1008	i	i	PE	-.-.-	PE.-	1007	MD		
 1009	bruttonationalinkomst	brutto<national<inkomst	NN	-.-.-	NN.UTR.SIN.IND	1008	OO		
-1010	per	per	PE	-.-.-	PE.-	1009	MD		
-1011	capita	_	UO	-.-.-	UO.-	1010	ME		
+1010	per	per	PE	-.-.-	PE.-	1011	ME		
+1011	capita	_	UO	-.-.-	UO.-	1009	MD		
 1012	-	_	SY	-.-.-	SY.DEL	1002	--		
 1013	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1016	KL		
 1014	ägt	äga	VB	-.-.-	VB.SPM.AKT.-	1013	IV		
@@ -44054,8 +44054,8 @@ Eupa_00-01-17.781.1003	.	_	SY	-.-.-	SY.DEL	1005	--
 1040	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	1041	DT		
 1041	åtgärder	åtgärd	NN	-.-.-	NN.UTR.PLU.IND	1039	OO	1039:OO|1047:SB|1045:SB	
 1042	som	som	SU	-.-.-	SU.-	1041	MD		
-1043	inom	inom	PE	-.-.-	PE.-	1045	MD		
-1044	kort	kort	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1043	ME		
+1043	inom	inom	PE	-.-.-	PE.-	1044	ME		
+1044	kort	kort	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1045	MD		
 1045	kommer	komma	VB	-.-.-	VB.IND.AKT.PRS	1042	OO		
 1046	att	att	SU	-.-.-	SU.-	1045	IV		
 1047	antas	anta	VB	-.-.-	VB.INF.SFO.-	1046	OO		
@@ -45897,8 +45897,8 @@ Regr_254764.9.1004	.	_	SY	-.-.-	SY.DEL	1008	--
 1027	ta	ta	VB	-.-.-	VB.IND.AKT.PRS	1026	IV		
 1028	fram	fram	AB	-.-.-	AB.-.-	1027	PL	1027:PL|1027:ME	
 1029	innan	innan	PE	-.-.-	PE.-	1027	MD		
-1030	2015	tvåtusenfemton	NU	-.-.-	NU.-	1032	DT		
-1031	års	år	NN	-.GEN.-	NN.NEU.SIN.IND	1030	ME		
+1030	2015	tvåtusenfemton	NU	-.-.-	NU.-	1031	ME		
+1031	års	år	NN	-.GEN.-	NN.NEU.SIN.IND	1032	DT		
 1032	slut	slut	NN	-.-.-	NN.NEU.SIN.IND	1029	OO		SpaceAfter=No
 1033	.	_	SY	-.-.-	SY.DEL	1003	--		
 
@@ -46371,10 +46371,10 @@ Regr_254764.9.1004	.	_	SY	-.-.-	SY.DEL	1008	--
 1029	sitter	sitta	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1030	Digisam	Digisam	EN	-.-.-	EN.-	1029	SB		
 1031	på	på	PE	-.-.-	PE.-	1029	RA		
-1032	Espresso	espresso	NN	-.-.-	NN.UTR.SIN.IND	1031	OO		
-1033	House	_	UO	-.-.-	UO.-	1032	ME		
-1034	Konserthuset	konserthus	NN	-.-.-	NN.NEU.SIN.DEF	1032	AN		
-1035	vid	vid	PE	-.-.-	PE.-	1032	MD		
+1032	Espresso	espresso	NN	-.-.-	NN.UTR.SIN.IND	1033	ME		
+1033	House	_	UO	-.-.-	UO.-	1031	OO		
+1034	Konserthuset	konserthus	NN	-.-.-	NN.NEU.SIN.DEF	1033	AN		
+1035	vid	vid	PE	-.-.-	PE.-	1033	MD		
 1036	Hötorget	Hötorget	EN	-.-.-	EN.-	1035	OO		SpaceAfter=No
 1037	,	_	SY	-.-.-	SY.DEL	1029	--		
 1038	mellan	mellan	PE	-.-.-	PE.-	1029	MD		
@@ -46986,8 +46986,8 @@ Regr_254764.9.1004	.	_	SY	-.-.-	SY.DEL	1008	--
 # text = Vi gjorde som sagt bedömningen att det kunde bli stökigt och mobiliserade extra för det.
 1001	Vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1002	SB	1002:SB|1012:SB	
 1002	gjorde	göra	VB	-.-.-	VB.IND.AKT.PRT	1011	KL		
-1003	som	som	SU	-.-.-	SU.-	1002	MD		
-1004	sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1003	ME		
+1003	som	som	SU	-.-.-	SU.-	1004	ME		
+1004	sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1002	MD		
 1005	bedömningen	bedömning	NN	-.-.-	NN.UTR.SIN.DEF	1002	OO		
 1006	att	att	SU	-.-.-	SU.-	1005	MD		
 1007	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1008	SB	1008:SB|1009:SB	
@@ -47174,8 +47174,8 @@ Regr_254764.9.1004	.	_	SY	-.-.-	SY.DEL	1008	--
 1005	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1007	DT		
 1006	lokala	lokal	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1007	MD		
 1007	uppstickarkartellen	uppstickar|kartell	NN	-.-.-	NN.UTR.SIN.DEF	1004	OO		
-1008	Guerreros	_	UO	-.-.-	UO.-	1007	AN		
-1009	unidos	_	UO	-.-.-	UO.-	1008	ME		SpaceAfter=No
+1008	Guerreros	_	UO	-.-.-	UO.-	1009	ME		
+1009	unidos	_	UO	-.-.-	UO.-	1007	AN		SpaceAfter=No
 1010	,	_	SY	-.-.-	SY.DEL	1011	--		
 1011	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1012	under	under	PE	-.-.-	PE.-	1011	MD		
@@ -47234,8 +47234,8 @@ Regr_254764.9.1004	.	_	SY	-.-.-	SY.DEL	1008	--
 1020	Murillo	Murillo	EN	-.-.-	EN.-	1019	AN		
 1021	Karams	Karam	EN	-.GEN.-	EN.-	1020	ME		
 1022	presskonferens	presskonferens	NN	-.-.-	NN.UTR.SIN.IND	1016	OO		
-1023	i	i	PE	-.-.-	PE.-	1016	AN		
-1024	fredags	fredag	NN	-.-.-	NN.UTR.SIN.IND	1023	ME		SpaceAfter=No
+1023	i	i	PE	-.-.-	PE.-	1024	ME		
+1024	fredags	fredag	NN	-.-.-	NN.UTR.SIN.IND	1016	AN		SpaceAfter=No
 1025	.	_	SY	-.-.-	SY.DEL	1003	--		
 
 # sent_id = Arbt_Vrede.6
@@ -47337,8 +47337,8 @@ Regr_254764.9.1004	.	_	SY	-.-.-	SY.DEL	1008	--
 1009	många	mången	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1011	DT		
 1010	andra	andra	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1011	MD		
 1011	mexikaner	mexikan	NN	-.-.-	NN.UTR.PLU.IND	1008	OO		
-1012	runt	runt	PE	-.-.-	PE.-	1014	MD		
-1013	om	om	PE	-.-.-	PE.-	1012	ME		
+1012	runt	runt	PE	-.-.-	PE.-	1013	ME		
+1013	om	om	PE	-.-.-	PE.-	1014	MD		
 1014	i	i	PE	-.-.-	PE.-	1011	MD		
 1015	landet	land	NN	-.-.-	NN.NEU.SIN.DEF	1014	OO		SpaceAfter=No
 1016	,	_	SY	-.-.-	SY.DEL	1022	--		
@@ -47462,13 +47462,13 @@ Regr_254764.9.1004	.	_	SY	-.-.-	SY.DEL	1008	--
 1026	och	och	KO	-.-.-	KO.-	0	--		
 1027	demonstranter	demonstrant	NN	-.-.-	NN.UTR.PLU.IND	1028	SB	1028:SB|1031:SB	
 1028	försökte	försöka	VB	-.-.-	VB.IND.AKT.PRT	1026	KL		
-1029	i	i	PE	-.-.-	PE.-	1028	MD		
-1030	lördags	lördag	NN	-.-.-	NN.UTR.SIN.IND	1029	ME		
+1029	i	i	PE	-.-.-	PE.-	1030	ME		
+1030	lördags	lördag	NN	-.-.-	NN.UTR.SIN.IND	1028	MD		
 1031	storma	storma	VB	-.-.-	VB.INF.AKT.-	1028	IV		
 1032	presidentpalatset	president|palats	NN	-.-.-	NN.NEU.SIN.DEF	1031	OO		
 1033	i	i	PE	-.-.-	PE.-	1032	MD		
-1034	Mexico	_	UO	-.-.-	UO.-	1033	OO		
-1035	City	_	UO	-.-.-	UO.-	1034	ME		SpaceAfter=No
+1034	Mexico	_	UO	-.-.-	UO.-	1035	ME		
+1035	City	_	UO	-.-.-	UO.-	1033	OO		SpaceAfter=No
 1036	.	_	SY	-.-.-	SY.DEL	1026	--		
 
 # sent_id = Arbt_Vrede.14
@@ -47528,8 +47528,8 @@ Regr_254764.9.1004	.	_	SY	-.-.-	SY.DEL	1008	--
 1002	onsdagen	onsdag	NN	-.-.-	NN.UTR.SIN.DEF	1001	OO		
 1003	rapporterade	rapportera	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1004	tidningen	tidning	NN	-.-.-	NN.UTR.SIN.DEF	1003	SB		
-1005	La	_	UO	-.-.-	UO.-	1004	AN		
-1006	Tercera	_	UO	-.-.-	UO.-	1005	ME		
+1005	La	_	UO	-.-.-	UO.-	1006	ME		
+1006	Tercera	_	UO	-.-.-	UO.-	1004	AN		
 1007	att	att	SU	-.-.-	SU.-	1003	OO		
 1008	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1009	DT		
 1009	grupp	grupp	NN	-.-.-	NN.UTR.SIN.IND	1007	SB	1007:SB|1022:	
@@ -49323,8 +49323,8 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1004	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1006	DT		
 1005	ukrainsk	ukrainsk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1006	MD		
 1006	soldat	soldat	NN	-.-.-	NN.UTR.SIN.IND	1003	SB		
-1007	till	till	PE	-.-.-	PE.-	1003	MD		
-1008	döds	död	NN	-.-.-	NN.UTR.SIN.IND	1007	ME		
+1007	till	till	PE	-.-.-	PE.-	1008	ME		
+1008	döds	död	NN	-.-.-	NN.UTR.SIN.IND	1003	MD		
 1009	när	när	AB	-.-.-	AB.-.FRL	1003	OO	1003:OO|1014:MD	
 1010	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1011	DT		
 1011	militärbas	militärbas	NN	-.-.-	NN.UTR.SIN.IND	1014	SB		
@@ -51415,8 +51415,8 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1004	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1005	också	också	AB	-.-.-	AB.-.-	1004	MD		
 1006	att	att	SU	-.-.-	SU.-	1004	SB		
-1007	Collections	_	UO	-.-.-	UO.-	1009	KL		
-1008	Trust	_	UO	-.-.-	UO.-	1007	ME		
+1007	Collections	_	UO	-.-.-	UO.-	1008	ME		
+1008	Trust	_	UO	-.-.-	UO.-	1009	KL		
 1009	och	och	KO	-.-.-	KO.-	1012	SB	1012:SB|1013:	
 1010	CIDOC-CRM	CIDOC-CRM	EN	-.-.-	EN.-	1009	KL		
 1011	nyligen	nyligen	AB	-.-.-	AB.-.-	1012	MD		
@@ -51599,10 +51599,10 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1024	sitter	sitta	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1025	Digisam	Digisam	EN	-.-.-	EN.-	1024	SB		
 1026	på	på	PE	-.-.-	PE.-	1024	RA		
-1027	Espresso	espresso	NN	-.-.-	NN.UTR.SIN.IND	1026	OO		
-1028	House	_	UO	-.-.-	UO.-	1027	ME		
-1029	Konserthuset	konserthus	NN	-.-.-	NN.NEU.SIN.DEF	1027	ME		
-1030	vid	vid	PE	-.-.-	PE.-	1027	MD		
+1027	Espresso	espresso	NN	-.-.-	NN.UTR.SIN.IND	1029	ME		
+1028	House	_	UO	-.-.-	UO.-	1029	ME		
+1029	Konserthuset	konserthus	NN	-.-.-	NN.NEU.SIN.DEF	1026	OO		
+1030	vid	vid	PE	-.-.-	PE.-	1029	MD		
 1031	Hötorget	Hötorget	EN	-.-.-	EN.-	1030	OO		SpaceAfter=No
 1032	,	_	SY	-.-.-	SY.DEL	1024	--		
 1033	mellan	mellan	PE	-.-.-	PE.-	1024	MD		
@@ -51757,11 +51757,11 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1007	och	och	KO	-.-.-	KO.-	0	--		
 1008	sjöng	sjunga	VB	-.-.-	VB.IND.AKT.PRT	1007	KL		
 1009	”	_	SY	-.-.-	SY.DEL	1007	--		SpaceAfter=No
-1010	We	_	UO	-.-.-	UO.-	1008	OO		
-1011	shall	_	UO	-.-.-	UO.-	1010	ME		
-1012	not	_	UO	-.-.-	UO.-	1010	ME		
-1013	be	_	UO	-.-.-	UO.-	1010	ME		
-1014	moved	_	UO	-.-.-	UO.-	1010	ME		SpaceAfter=No
+1010	We	_	UO	-.-.-	UO.-	1014	ME		
+1011	shall	_	UO	-.-.-	UO.-	1014	ME		
+1012	not	_	UO	-.-.-	UO.-	1014	ME		
+1013	be	_	UO	-.-.-	UO.-	1014	ME		
+1014	moved	_	UO	-.-.-	UO.-	1008	OO		SpaceAfter=No
 1015	”	_	SY	-.-.-	SY.DEL	1007	--		SpaceAfter=No
 1016	.	_	SY	-.-.-	SY.DEL	1007	--		
 
@@ -51793,8 +51793,8 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1024	18-åringen	arton<åring	NN	-.-.-	NN.UTR.SIN.DEF	1021	OO		SpaceAfter=No
 1025	,	_	SY	-.-.-	SY.DEL	1016	--		
 1026	till	till	PE	-.-.-	PE.-	1016	MD		
-1027	The	_	UO	-.-.-	UO.-	1026	OO		
-1028	Guardian	_	UO	-.-.-	UO.-	1027	ME		SpaceAfter=No
+1027	The	_	UO	-.-.-	UO.-	1028	ME		
+1028	Guardian	_	UO	-.-.-	UO.-	1026	OO		SpaceAfter=No
 1029	.	_	SY	-.-.-	SY.DEL	1016	--		
 
 # sent_id = Arbt_Kraftigaprotester.7
@@ -51985,8 +51985,8 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1007	Michael	Michael	EN	-.-.-	EN.-	1009	SB		
 1008	Brown	Brown	EN	-.-.-	EN.-	1007	ME		
 1009	sköts	skjuta	VB	-.-.-	VB.IND.SFO.PRT	1005	OO		
-1010	till	till	PE	-.-.-	PE.-	1009	MD		
-1011	döds	död	NN	-.-.-	NN.UTR.SIN.IND	1010	ME		SpaceAfter=No
+1010	till	till	PE	-.-.-	PE.-	1011	ME		
+1011	döds	död	NN	-.-.-	NN.UTR.SIN.IND	1009	MD		SpaceAfter=No
 1012	.	_	SY	-.-.-	SY.DEL	1002	--		
 
 # sent_id = Arbt_Kraftigaprotester.17
@@ -52187,9 +52187,9 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1002	enligt	enligt	PE	-.-.-	PE.-	1019	MD		
 1003	rapporten	rapport	NN	-.-.-	NN.UTR.SIN.DEF	1002	OO		
 1004	”	_	SY	-.-.-	SY.DEL	1019	--		SpaceAfter=No
-1005	Operation	_	UO	-.-.-	UO.-	1003	AN		
-1006	Ghetto	_	UO	-.-.-	UO.-	1005	ME		
-1007	Storm	_	UO	-.-.-	UO.-	1005	ME		SpaceAfter=No
+1005	Operation	_	UO	-.-.-	UO.-	1007	ME		
+1006	Ghetto	_	UO	-.-.-	UO.-	1007	ME		
+1007	Storm	_	UO	-.-.-	UO.-	1003	AN		SpaceAfter=No
 1008	”	_	SY	-.-.-	SY.DEL	1019	--		SpaceAfter=No
 1009	,	_	SY	-.-.-	SY.DEL	1019	--		
 1010	i	i	PE	-.-.-	PE.-	1003	PH	1003:PH|1013:	
@@ -52205,8 +52205,8 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1020	136	etthundratrettiosex	NU	-.-.-	NU.-	1022	DT		
 1021	obeväpnade	obeväpnad	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1022	MD		
 1022	afroamerikaner	afroamerikan	NN	-.-.-	NN.UTR.PLU.IND	1019	SB		
-1023	till	till	PE	-.-.-	PE.-	1019	SP		
-1024	döds	död	NN	-.-.-	NN.UTR.SIN.IND	1023	ME		
+1023	till	till	PE	-.-.-	PE.-	1024	ME		
+1024	döds	död	NN	-.-.-	NN.UTR.SIN.IND	1019	SP		
 1025	av	av	PE	-.-.-	PE.-	1019	AG		
 1026	polis	polis	NN	-.-.-	NN.UTR.SIN.IND	1029	KL		SpaceAfter=No
 1027	,	_	SY	-.-.-	SY.DEL	1019	--		
@@ -52233,14 +52233,14 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1012	afroamerikansk	afroamerikansk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	MD		
 1013	ung	ung	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	MD		
 1014	man	man	NN	-.-.-	NN.UTR.SIN.IND	1009	SB		
-1015	till	till	PE	-.-.-	PE.-	1009	SP		
-1016	döds	död	NN	-.-.-	NN.UTR.SIN.IND	1015	ME		
+1015	till	till	PE	-.-.-	PE.-	1016	ME		
+1016	döds	död	NN	-.-.-	NN.UTR.SIN.IND	1009	SP		
 1017	i	i	PE	-.-.-	PE.-	1009	--		
 1018	av	av	PE	-.-.-	PE.-	1009	AG		
 1019	polis	polis	NN	-.-.-	NN.UTR.SIN.IND	1018	OO		
 1020	i	i	PE	-.-.-	PE.-	1009	RA		
-1021	Los	_	UO	-.-.-	UO.-	1020	OO		
-1022	Angeles	_	UO	-.-.-	UO.-	1021	ME		SpaceAfter=No
+1021	Los	_	UO	-.-.-	UO.-	1022	ME		
+1022	Angeles	_	UO	-.-.-	UO.-	1020	OO		SpaceAfter=No
 1023	.	_	SY	-.-.-	SY.DEL	1009	--		
 
 # sent_id = Arbt_Kraftigaprotester.27
@@ -52378,8 +52378,8 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1010	förra	förra	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1011	MD		
 1011	året	år	NN	-.-.-	NN.NEU.SIN.DEF	1012	MD		
 1012	sköts	skjuta	VB	-.-.-	VB.IND.SFO.PRT	1009	OO		
-1013	till	till	PE	-.-.-	PE.-	1012	SP		
-1014	döds	död	NN	-.-.-	NN.UTR.SIN.IND	1013	ME		
+1013	till	till	PE	-.-.-	PE.-	1014	ME		
+1014	döds	död	NN	-.-.-	NN.UTR.SIN.IND	1012	SP		
 1015	av	av	PE	-.-.-	PE.-	1012	AG		
 1016	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1017	DT		
 1017	säkerhetsvakt	säkerhetsvakt	NN	-.-.-	NN.UTR.SIN.IND	1015	OO		
@@ -52391,8 +52391,8 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1023	både	både	KO	-.-.-	KO.-	1022	SB	1022:SB|1029:	
 1024	FBI	FBI	EN	-.-.-	EN.-	1023	KL		
 1025	och	och	KO	-.-.-	KO.-	1023	ME		
-1026	St	_	UO	-.-.-	UO.-	1028	DT		
-1027	Louis	_	UO	-.GEN.-	UO.-	1026	ME		
+1026	St	_	UO	-.-.-	UO.-	1027	ME		
+1027	Louis	_	UO	-.GEN.-	UO.-	1028	DT		
 1028	poliskår	poliskår	NN	-.-.-	NN.UTR.SIN.IND	1023	KL		
 1029	tillkännagivit	tillkännage	VB	-.-.-	VB.SPM.AKT.-	1022	IV		
 1030	att	att	SU	-.-.-	SU.-	1029	OO		
@@ -52618,8 +52618,8 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 # sent_id = Regr_255096.9
 # text = - I somras lämnade fler elever än någonsin tidigare nionde klass utan att ha behörighet till gymnasiets nationella program.
 1001	-	_	SY	-.-.-	SY.DEL	1004	--		
-1002	I	i	PE	-.-.-	PE.-	1004	MD		
-1003	somras	sommer	NN	-.-.-	NN.UTR.SIN.IND	1002	ME		
+1002	I	i	PE	-.-.-	PE.-	1003	ME		
+1003	somras	sommer	NN	-.-.-	NN.UTR.SIN.IND	1004	MD		
 1004	lämnade	lämna	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1005	fler	mången	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1006	DT		
 1006	elever	elev	NN	-.-.-	NN.UTR.PLU.IND	1004	SB		
@@ -52845,8 +52845,8 @@ Regr_255053.16.1003	.	_	SY	-.-.-	SY.DEL	1003	--
 1009	grund-	grund|skola	NN	-.-.ESM	NN.UTR.SIN.DEF	1010	KL		
 1010	och	och	KO	-.-.-	KO.-	1005	OO		
 1011	gymnasieskolan	gymnasie|skola	NN	-.-.-	NN.UTR.SIN.DEF	1010	KL		
-1012	Helsingin	_	UO	-.-.-	UO.-	1011	AN		
-1013	normaalilyseo	_	UO	-.-.-	UO.-	1012	ME		
+1012	Helsingin	_	UO	-.-.-	UO.-	1013	ME		
+1013	normaalilyseo	_	UO	-.-.-	UO.-	1011	AN		
 1014	i	i	PE	-.-.-	PE.-	1011	MD	1011:MD|1009:	
 1015	Helsingfors	Helsingfors	EN	-.-.-	EN.-	1014	OO		
 1016	under	under	PE	-.-.-	PE.-	1005	MD		
@@ -55099,8 +55099,8 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 1011	under	under	PE	-.-.-	PE.-	1009	MD		
 1012	ledning	ledning	NN	-.-.-	NN.UTR.SIN.IND	1011	OO		
 1013	av	av	PE	-.-.-	PE.-	1012	MD		
-1014	Collections	_	UO	-.-.-	UO.-	1013	OO		
-1015	trust	_	UO	-.-.-	UO.-	1014	ME		
+1014	Collections	_	UO	-.-.-	UO.-	1015	ME		
+1015	trust	_	UO	-.-.-	UO.-	1013	OO		
 1016	och	och	KO	-.-.-	KO.-	0	--		
 1017	används	använda	VB	-.-.-	VB.IND.SFO.PRS	1016	KL		
 1018	i	i	PE	-.-.-	PE.-	1017	RA		
@@ -55930,8 +55930,8 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 1007	Dagens	dag	NN	-.GEN.-	NN.UTR.SIN.DEF	1008	DT		
 1008	Nyheter	nyhet	NN	-.-.-	NN.UTR.PLU.IND	1006	OO	1006:OO|1007:ME	
 1009	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	0	--		
-1010	bland	bland	PE	-.-.-	PE.-	1009	MD		
-1011	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1010	ME		
+1010	bland	bland	PE	-.-.-	PE.-	1011	ME		
+1011	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1009	MD		
 1012	Attendo	Attendo	EN	-.-.-	EN.-	1015	KL		SpaceAfter=No
 1013	,	_	SY	-.-.-	SY.DEL	1009	--		
 1014	Ambea	Ambea	EN	-.-.-	EN.-	1015	KL		
@@ -55993,8 +55993,8 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 1018	än	än	SU	-.-.-	SU.-	1017	JF		
 1019	inom	inom	PE	-.-.-	PE.-	1018	OO		
 1020	näringslivet	näringsliv	NN	-.-.-	NN.NEU.SIN.DEF	1019	OO		
-1021	i	i	PE	-.-.-	PE.-	1020	MD		
-1022	stort	stor	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1021	ME		SpaceAfter=No
+1021	i	i	PE	-.-.-	PE.-	1022	ME		
+1022	stort	stor	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1020	MD		SpaceAfter=No
 1023	,	_	SY	-.-.-	SY.DEL	1024	--		
 1024	säger	säga	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1025	Börje	Börje	EN	-.-.-	EN.-	1024	SB		
@@ -56415,8 +56415,8 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 
 # sent_id = Arbt_Vardbolag.20
 # text = Inom kort kommer även ett förslag på nya regler från Företagsskattekommittén, som är tillsatt av regeringen för att se över beskattningen av bolag.
-1001	Inom	inom	PE	-.-.-	PE.-	1003	MD		
-1002	kort	kort	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1001	ME		
+1001	Inom	inom	PE	-.-.-	PE.-	1002	ME		
+1002	kort	kort	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1003	MD		
 1003	kommer	komma	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1004	även	även	AB	-.-.-	AB.-.-	1003	MD		
 1005	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1006	DT		
@@ -56506,11 +56506,11 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 1001	Anders	Anders	EN	-.-.-	EN.-	1003	SB		
 1002	Borg	Borg	EN	-.-.-	EN.-	1001	ME		
 1003	beskrev	beskriva	VB	-.-.-	VB.IND.AKT.PRT	0	--		
-1004	för	för	PE	-.-.-	PE.-	9999			
+1004	för	för	PE	-.-.-	PE.-	1008			
 1005	inte	inte	AB	-.-.-	AB.-.-	1007	MD		
 1006	så	så	AB	-.-.-	AB.-.-	1007	MD		
-1007	länge	länge	AB	-.-.-	AB.POS.-	1008	OO	1008:OO|9999:ME	
-1008	sedan	sedan	PE	-.-.-	PE.-	1003	MD	1003:MD|9999:ME	
+1007	länge	länge	AB	-.-.-	AB.POS.-	1008	OO	1008:OO|1004:ME	
+1008	sedan	sedan	PE	-.-.-	PE.-	1003	MD	1003:MD|1004:ME	
 1009	att	att	SU	-.-.-	SU.-	1003	OO		
 1010	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	1011	DT		
 1011	regler	regel	NN	-.-.-	NN.UTR.PLU.IND	1016	SB	1016:SB|1014:SB	
@@ -56996,8 +56996,8 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 1011	Stockholm	Stockholm	EN	-.-.-	EN.-	1010	OO		
 1012	och	och	KO	-.-.-	KO.-	0	--		
 1013	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1012	KL		
-1014	bland	bland	PE	-.-.-	PE.-	1013	MD		
-1015	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1014	ME		
+1014	bland	bland	PE	-.-.-	PE.-	1015	ME		
+1015	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1013	MD		
 1016	forskat	forska	VB	-.-.-	VB.SPM.AKT.-	1013	IV		
 1017	om	om	PE	-.-.-	PE.-	1016	MD		
 1018	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1020	DT		
@@ -57148,13 +57148,13 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 1032	i	i	PE	-.-.-	PE.-	1031	MD		
 1033	Sverige	Sverige	EN	-.-.-	EN.-	1032	OO		
 1034	då	då	SU	-.-.-	SU.-	1031	MD		
-1035	bland	bland	PE	-.-.-	PE.-	1042	MD		
-1036	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1035	ME		
+1035	bland	bland	PE	-.-.-	PE.-	1036	ME		
+1036	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1042	MD		
 1037	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1039	DT		
 1038	sovjetiska	sovjetisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1039	MD		
 1039	ubåten	ubåt	NN	-.-.-	NN.UTR.SIN.DEF	1042	SB		
-1040	U	u	NN	-.-.-	NN.NEU.SIN.IND	1039	AN		
-1041	137	etthundratrettiosju	NU	-.-.-	NU.-	1040	ME		
+1040	U	u	NN	-.-.-	NN.NEU.SIN.IND	1041	ME		
+1041	137	etthundratrettiosju	NU	-.-.-	NU.-	1039	AN		
 1042	gick	gå	VB	-.-.-	VB.IND.AKT.PRT	1034	OO		
 1043	på	på	PE	-.-.-	PE.-	1042	OA		
 1044	grund	grund	NN	-.-.-	NN.NEU.SIN.IND	1043	OO		
@@ -57176,8 +57176,8 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 1008	Stockholm	Stockholm	EN	-.-.-	EN.-	1007	OO		
 1009	och	och	KO	-.-.-	KO.-	0	--		
 1010	forskar	forska	VB	-.-.-	VB.IND.AKT.PRS	1009	KL		
-1011	bland	bland	PE	-.-.-	PE.-	1010	MD		
-1012	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1011	ME		
+1011	bland	bland	PE	-.-.-	PE.-	1012	ME		
+1012	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1010	MD		
 1013	om	om	PE	-.-.-	PE.-	1010	MD		
 1014	Rysslands	Ryssland	EN	-.GEN.-	EN.-	1016	DT		
 1015	framtida	framtida	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1016	MD		
@@ -57317,8 +57317,8 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 # text = Han förklarar bland annat att den ryska förnekelsen över eventuell inbladning kan vara en del i en väl uttänkt operation.
 1001	Han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1002	SB		
 1002	förklarar	förklara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
-1003	bland	bland	PE	-.-.-	PE.-	1002	MD		
-1004	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1003	ME		
+1003	bland	bland	PE	-.-.-	PE.-	1004	ME		
+1004	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	MD		
 1005	att	att	SU	-.-.-	SU.-	1002	OO		
 1006	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1008	DT		
 1007	ryska	rysk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1008	MD		
@@ -58482,8 +58482,8 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 
 # sent_id = Arbt_Sundsvallssyndikalister.2
 # text = I fredags hölls huvudförhandlingen i Arbetsdomstolen där tre anställda vid Sundsvall Energis värmeverk stämde arbetsköparen för brott mot studieledighetslagen.
-1001	I	i	PE	-.-.-	PE.-	1003	MD		
-1002	fredags	fredag	NN	-.-.-	NN.UTR.SIN.IND	1001	ME		
+1001	I	i	PE	-.-.-	PE.-	1002	ME		
+1002	fredags	fredag	NN	-.-.-	NN.UTR.SIN.IND	1003	MD		
 1003	hölls	hålla	VB	-.-.-	VB.IND.SFO.PRT	0	--		
 1004	huvudförhandlingen	huvudförhandling	NN	-.-.-	NN.UTR.SIN.DEF	1003	SB		
 1005	i	i	PE	-.-.-	PE.-	1003	RA		
@@ -60418,11 +60418,11 @@ Regr_255926.9.1002	:	_	SY	-.-.-	SY.DEL	1003	--
 # sent_id = Arbt_Vansterpartiets.45
 # text = Men så länge borgerliga politiker vägrar att ta ansvar för Bildts affärer kan han fortsätta med dem.
 1001	Men	men	KO	-.-.-	KO.-	1013	DF		
-1002	så	så	AB	-.-.-	AB.-.-	1013	MD		
-1003	länge	länge	AB	-.-.-	AB.POS.-	1002	ME		
+1002	så	så	AB	-.-.-	AB.-.-	1003	ME		
+1003	länge	länge	AB	-.-.-	AB.POS.-	1013	MD		
 1004	borgerliga	borgerlig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1005	MD		
 1005	politiker	politiker	NN	-.-.-	NN.UTR.PLU.IND	1006	MD		
-1006	vägrar	vägra	VB	-.-.-	VB.IND.AKT.PRS	1002	OO		
+1006	vägrar	vägra	VB	-.-.-	VB.IND.AKT.PRS	1003	OO		
 1007	att	att	SU	-.-.-	SU.-	1006	OO		
 1008	ta	ta	VB	-.-.-	VB.INF.AKT.-	1007	OO		
 1009	ansvar	ansvar	NN	-.-.-	NN.NEU.SIN.IND	1008	OO	1008:OO|1008:ME	
@@ -61132,8 +61132,8 @@ Regr_255193.14.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 
 # sent_id = Regr_255706.17
 # text = I bland uppstår behov av att ändra tidigare beslut om rättigheter.
-1001	I	i	PE	-.-.-	PE.-	1003	MD		
-1002	bland	bland	PE	-.-.-	PE.-	1001	ME		
+1001	I	i	PE	-.-.-	PE.-	1002	ME		
+1002	bland	bland	PE	-.-.-	PE.-	1003	MD		
 1003	uppstår	uppstå	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1004	behov	behov	NN	-.-.-	NN.NEU.PLU.IND	1003	SB		
 1005	av	av	PE	-.-.-	PE.-	1004	MD		
@@ -61951,10 +61951,10 @@ Regr_255193.14.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1029	sitter	sitta	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1030	Digisam	Digisam	EN	-.-.-	EN.-	1029	SB		
 1031	på	på	PE	-.-.-	PE.-	1029	RA		
-1032	Espresso	espresso	NN	-.-.-	NN.UTR.SIN.IND	1031	OO		
-1033	House	_	UO	-.-.-	UO.-	1032	ME		
-1034	Konserthuset	konserthus	NN	-.-.-	NN.NEU.SIN.DEF	1032	AN		
-1035	vid	vid	PE	-.-.-	PE.-	1032	MD		
+1032	Espresso	espresso	NN	-.-.-	NN.UTR.SIN.IND	1033	ME		
+1033	House	_	UO	-.-.-	UO.-	1031	OO		
+1034	Konserthuset	konserthus	NN	-.-.-	NN.NEU.SIN.DEF	1033	AN		
+1035	vid	vid	PE	-.-.-	PE.-	1033	MD		
 1036	Hötorget	Hötorget	EN	-.-.-	EN.-	1035	OO		SpaceAfter=No
 1037	,	_	SY	-.-.-	SY.DEL	1029	--		
 1038	mellan	mellan	PE	-.-.-	PE.-	1029	MD		
@@ -62443,8 +62443,8 @@ Regr_255193.14.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1005	internationell	internationell	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1006	MD		
 1006	konvention	konvention	NN	-.-.-	NN.UTR.SIN.IND	1003	OO		SpaceAfter=No
 1007	,	_	SY	-.-.-	SY.DEL	1002	--		
-1008	2002	tvåtusentvå	NU	-.-.-	NU.-	1010	DT		
-1009	års	år	NN	-.GEN.-	NN.NEU.SIN.IND	1008	ME		
+1008	2002	tvåtusentvå	NU	-.-.-	NU.-	1009	ME		
+1009	års	år	NN	-.GEN.-	NN.NEU.SIN.IND	1010	DT		
 1010	Atenkonvention	Aten<konvention	NN	-.-.-	NN.UTR.SIN.IND	1006	AN		SpaceAfter=No
 1011	.	_	SY	-.-.-	SY.DEL	1002	--		
 
@@ -62661,8 +62661,8 @@ Regr_255193.14.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1009	att	att	SU	-.-.-	SU.-	1008	OO		
 1010	Sverige	Sverige	EN	-.-.-	EN.-	1011	SB		
 1011	tillträder	tillträda	VB	-.-.-	VB.IND.AKT.PRS	1009	OO		
-1012	2002	tvåtusentvå	NU	-.-.-	NU.-	1014	DT		
-1013	års	år	NN	-.GEN.-	NN.NEU.SIN.IND	1012	ME		
+1012	2002	tvåtusentvå	NU	-.-.-	NU.-	1013	ME		
+1013	års	år	NN	-.GEN.-	NN.NEU.SIN.IND	1014	DT		
 1014	Atenkonvention	Aten<konvention	NN	-.-.-	NN.UTR.SIN.IND	1011	OO		SpaceAfter=No
 1015	.	_	SY	-.-.-	SY.DEL	1002	--		
 
@@ -64436,11 +64436,11 @@ Regr_255193.14.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 # text = När säkerhetsföretaget Commuter Security Group, CSG, tog över verksamheten 2003 förklarade SL, efter hård kritik, att de endast skulle använda sig av synliga och uniformerade väktare i kollektivtrafiken.
 1001	När	när	AB	-.-.-	AB.-.FRL	1013	MD	1013:MD|1009:MD	
 1002	säkerhetsföretaget	säkerhets|företag	NN	-.-.-	NN.NEU.SIN.DEF	1009	SB		
-1003	Commuter	_	UO	-.-.-	UO.-	1002	AN		
-1004	Security	_	UO	-.-.-	UO.-	1003	ME		
-1005	Group	_	UO	-.-.-	UO.-	1003	ME		SpaceAfter=No
+1003	Commuter	_	UO	-.-.-	UO.-	1005	ME		
+1004	Security	_	UO	-.-.-	UO.-	1005	ME		
+1005	Group	_	UO	-.-.-	UO.-	1002	AN		SpaceAfter=No
 1006	,	_	SY	-.-.-	SY.DEL	1013	--		
-1007	CSG	CSG	EN	-.-.-	EN.-	1003	AN		SpaceAfter=No
+1007	CSG	CSG	EN	-.-.-	EN.-	1005	AN		SpaceAfter=No
 1008	,	_	SY	-.-.-	SY.DEL	1013	--		
 1009	tog	ta	VB	-.-.-	VB.IND.AKT.PRT	1001	OO		
 1010	över	över	PE	-.-.-	PE.-	1009	PL	1009:PL|1009:ME	
@@ -64504,8 +64504,8 @@ Regr_255193.14.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1032	väktarverksamheten	väktar|verksamhet	NN	-.-.-	NN.UTR.SIN.DEF	1034	SB		
 1033	fortfarande	fortfarande	AB	-.-.-	AB.-.-	1034	MD		
 1034	pågår	pågå	VB	-.-.-	VB.IND.AKT.PRS	1029	OO		
-1035	för	för	PE	-.-.-	PE.-	1034	MD		
-1036	fullt	full	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1035	ME		SpaceAfter=No
+1035	för	för	PE	-.-.-	PE.-	1036	ME		
+1036	fullt	full	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1034	MD		SpaceAfter=No
 1037	.	_	SY	-.-.-	SY.DEL	1008	--		
 
 # sent_id = Arbt_Olagligjakt.8
@@ -64579,8 +64579,8 @@ Regr_255193.14.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1010	,	_	SY	-.-.-	SY.DEL	1005	--		
 1011	där	där	SU	-.-.-	SU.-	1009	MD		
 1012	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1015	SB		
-1013	bland	bland	PE	-.-.-	PE.-	1015	MD		
-1014	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1013	ME		
+1013	bland	bland	PE	-.-.-	PE.-	1014	ME		
+1014	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1015	MD		
 1015	framkommer	framkomma	VB	-.-.-	VB.IND.AKT.PRS	1011	OO		
 1016	att	att	SU	-.-.-	SU.-	1015	ES		
 1017	civilklädda	civilklädd	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1018	MD		
@@ -65353,8 +65353,8 @@ Regr_255193.14.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1015	Alby	Alby	EN	-.-.-	EN.-	1016	SB		
 1016	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1009	AN	1009:AN|1015:ME	
 1017	inte	inte	AB	-.-.-	AB.-.-	1016	MD	1016:MD|1015:ME	
-1018	till	till	PE	-.-.-	PE.-	1016	SP	1016:SP|1015:ME	
-1019	salu	salu	NN	-.-.-	NN.UTR.SIN.IND	1018	ME	1018:ME|1015:ME	SpaceAfter=No
+1018	till	till	PE	-.-.-	PE.-	1019	ME	1019:ME|1015:ME	
+1019	salu	salu	NN	-.-.-	NN.UTR.SIN.IND	1016	SP	1016:SP|1015:ME	SpaceAfter=No
 1020	”	_	SY	-.-.-	SY.DEL	1004	--		SpaceAfter=No
 1021	.	_	SY	-.-.-	SY.DEL	1004	--		
 
@@ -65686,9 +65686,9 @@ Regr_255193.14.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1005	med	med	PE	-.-.-	PE.-	1004	MD		
 1006	krav	krav	NN	-.-.-	NN.NEU.PLU.IND	1005	OO		
 1007	på	på	PE	-.-.-	PE.-	1006	MD		
-1008	tre	tre	NU	-.-.-	NU.-	1007	OO		
-1009	gånger	gång	NN	-.-.-	NN.UTR.PLU.IND	1008	ME		
-1010	hyran	hyra	NN	-.-.-	NN.UTR.SIN.DEF	1008	ME		SpaceAfter=No
+1008	tre	tre	NU	-.-.-	NU.-	1010	ME		
+1009	gånger	gång	NN	-.-.-	NN.UTR.PLU.IND	1010	ME		
+1010	hyran	hyra	NN	-.-.-	NN.UTR.SIN.DEF	1007	OO		SpaceAfter=No
 1011	.	_	SY	-.-.-	SY.DEL	1002	--		
 
 # sent_id = Arbt_Iandrahand.23
@@ -65853,9 +65853,9 @@ Regr_255193.14.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 
 # sent_id = Arbt_Iandrahand.31
 # text = Nabila Abdul Fattah säger sig inte heller kunna göra en bedömning om amnestiprojektet i slutändan blir något bra.
-1001	Nabila	Nabila	EN	-.-.-	EN.-	1004	SB		
-1002	Abdul	Abdul	EN	-.-.-	EN.-	1001	ME		
-1003	Fattah	Fattah	EN	-.-.-	EN.-	1001	ME		
+1001	Nabila	Nabila	EN	-.-.-	EN.-	1003	ME		
+1002	Abdul	Abdul	EN	-.-.-	EN.-	1003	ME		
+1003	Fattah	Fattah	EN	-.-.-	EN.-	1004	SB		
 1004	säger	säga	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1005	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1004	OO	1004:OO|1004:ME|1009:SB|1008:SB	
 1006	inte	inte	AB	-.-.-	AB.-.-	1008	MD		
@@ -65973,8 +65973,8 @@ Regr_255193.14.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1004	och	och	KO	-.-.-	KO.-	1006	SB		
 1005	antirasister	anti<rasist	NN	-.-.-	NN.UTR.PLU.IND	1004	KL		
 1006	samlades	samla	VB	-.-.-	VB.IND.SFO.PRT	0	--		
-1007	i	i	PE	-.-.-	PE.-	1006	MD		
-1008	söndags	söndag	NN	-.-.-	NN.UTR.SIN.IND	1007	ME		
+1007	i	i	PE	-.-.-	PE.-	1008	ME		
+1008	söndags	söndag	NN	-.-.-	NN.UTR.SIN.IND	1006	MD		
 1009	på	på	PE	-.-.-	PE.-	1006	RA		
 1010	torget	torg	NN	-.-.-	NN.NEU.SIN.DEF	1009	OO		
 1011	i	i	PE	-.-.-	PE.-	1010	MD		
@@ -67675,9 +67675,9 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1004	barnpsykiater	barn<psykiater	NN	-.-.-	NN.UTR.SIN.IND	1001	AN		
 1005	vid	vid	PE	-.-.-	PE.-	1004	MD		
 1006	Gaza	Gaza	EN	-.-.-	EN.-	1005	OO		
-1007	Mental	_	UO	-.-.-	UO.-	9999			
-1008	Health	_	UO	-.-.-	UO.-	9999			
-1009	Programme	_	UO	-.-.-	UO.-	9999			SpaceAfter=No
+1007	Mental	_	UO	-.-.-	UO.-	1006			
+1008	Health	_	UO	-.-.-	UO.-	1007	ME		
+1009	Programme	_	UO	-.-.-	UO.-	1007	ME		SpaceAfter=No
 1010	,	_	SY	-.-.-	SY.DEL	1011	--		
 1011	varnar	varna	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1012	för	för	PE	-.-.-	PE.-	1011	MD		
@@ -67801,8 +67801,8 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1018	,	_	SY	-.-.-	SY.DEL	1015	--		
 1019	generalsekreterare	generalsekreterare	NN	-.-.-	NN.UTR.SIN.IND	1016	AN		
 1020	för	för	PE	-.-.-	PE.-	1019	MD		
-1021	Rädda	rädda	VB	-.-.-	VB.IMP.AKT.-	1020	OO		
-1022	Barnen	barn	NN	-.-.-	NN.NEU.PLU.DEF	1021	ME		
+1021	Rädda	rädda	VB	-.-.-	VB.IMP.AKT.-	1022	ME		
+1022	Barnen	barn	NN	-.-.-	NN.NEU.PLU.DEF	1020	OO		
 1023	i	i	PE	-.-.-	PE.-	1015	MD		
 1024	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1025	DT		
 1025	pressmeddelande	pressmeddelande	NN	-.-.-	NN.NEU.SIN.IND	1023	OO		SpaceAfter=No
@@ -67814,8 +67814,8 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1002	utan	utan	PE	-.-.-	PE.-	1001	MD	1001:MD|1001:ME	
 1003	gränser	gräns	NN	-.-.-	NN.UTR.PLU.IND	1002	OO	1002:OO|1001:ME	
 1004	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
-1005	bland	bland	PE	-.-.-	PE.-	1008	MD		
-1006	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1005	ME		
+1005	bland	bland	PE	-.-.-	PE.-	1006	ME		
+1006	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1008	MD		
 1007	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1008	DT		
 1008	kirurgteam	kirurg|team	NN	-.-.-	NN.NEU.SIN.IND	1004	OO		
 1009	på	på	PE	-.-.-	PE.-	1004	RA		
@@ -67985,8 +67985,8 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1015	i	i	PE	-.-.-	PE.-	1014	MD		
 1016	allvarliga	allvarlig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1017	MD		
 1017	arbetsplatsolyckor	arbetsplatsolycka	NN	-.-.-	NN.UTR.PLU.IND	1015	OO		
-1018	runt	runt	PE	-.-.-	PE.-	1020	MD		
-1019	om	om	PE	-.-.-	PE.-	1018	ME		
+1018	runt	runt	PE	-.-.-	PE.-	1019	ME		
+1019	om	om	PE	-.-.-	PE.-	1020	MD		
 1020	i	i	PE	-.-.-	PE.-	1017	MD		
 1021	landet	land	NN	-.-.-	NN.NEU.SIN.DEF	1020	OO		SpaceAfter=No
 1022	.	_	SY	-.-.-	SY.DEL	1006	--		
@@ -69444,10 +69444,10 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1015	ställa	ställa	VB	-.-.-	VB.INF.AKT.-	1014	KL		
 1016	för	för	PE	-.-.-	PE.-	1015	MD	1015:MD|1013:	
 1017	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1020	DT		
-1018	sådan	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1020	MD		
-1019	där	där	AB	-.-.-	AB.-.-	1018	ME		
+1018	sådan	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1019	ME		
+1019	där	där	AB	-.-.-	AB.-.-	1020	MD		
 1020	herre	herre	NN	-.-.-	NN.UTR.SIN.IND	1016	OO	1016:OO|1023:SB|1024:SB	
-1021	som	som	SU	-.-.-	SU.-	1018	JF		
+1021	som	som	SU	-.-.-	SU.-	1019	JF		
 1022	aldrig	aldrig	AB	-.-.-	AB.-.-	1023	MD		
 1023	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	1021	OO		
 1024	ta	ta	VB	-.-.-	VB.INF.AKT.-	1023	IV		
@@ -69489,9 +69489,9 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1009	ångande	ångande	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1010	MD		
 1010	middagshettan	middags|hetta	NN	-.-.-	NN.UTR.SIN.DEF	1007	OO		SpaceAfter=No
 1011	,	_	SY	-.-.-	SY.DEL	1027	--		
-1012	till	till	PE	-.-.-	PE.-	1015	MD		
-1013	på	på	PE	-.-.-	PE.-	1012	ME		
-1014	köpet	köp	NN	-.-.-	NN.NEU.SIN.DEF	1012	ME		
+1012	till	till	PE	-.-.-	PE.-	1014	ME		
+1013	på	på	PE	-.-.-	PE.-	1014	ME		
+1014	köpet	köp	NN	-.-.-	NN.NEU.SIN.DEF	1015	MD		
 1015	iförd	iförd	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1004	SP		
 1016	högkragad	högkragad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1025	MD		SpaceAfter=No
 1017	,	_	SY	-.-.-	SY.DEL	1027	--		
@@ -70892,9 +70892,9 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1003	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1004	ruttnat	ruttna	VB	-.-.-	VB.SPM.AKT.-	1003	IV		
 1005	bort	bort	AB	-.-.-	AB.-.-	1004	PL		
-1006	för	för	PE	-.-.-	PE.-	1007	HD		
-1007	länge	länge	AB	-.-.-	AB.POS.-	1003	MD	1003:MD|1006:ME	
-1008	sen	sen	AB	-.-.-	AB.-.-	6	ME	6:ME|1006:ME	SpaceAfter=No
+1006	för	för	PE	-.-.-	PE.-	1008			
+1007	länge	länge	AB	-.-.-	AB.POS.-	1008	OO	1008:OO|1006:ME	
+1008	sen	sen	AB	-.-.-	AB.-.-	1003	MD	1003:MD|1006:ME	SpaceAfter=No
 1009	.	_	SY	-.-.-	SY.DEL	1003	--		
 
 # sent_id = Romn_Lundqvist-Ingentobak.162
@@ -71802,9 +71802,9 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1004	Bock	Bock	EN	-.-.-	EN.-	1003	AN		
 1005	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1006	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1005	SB	1005:SB|1010:SB	
-1007	för	för	PE	-.-.-	PE.-	1008	HD		
-1008	länge	länge	AB	-.-.-	AB.POS.-	1005	MD	1005:MD|1007:ME	
-1009	sen	sen	AB	-.-.-	AB.-.-	6	ME	6:ME|1007:ME	
+1007	för	för	PE	-.-.-	PE.-	1009			
+1008	länge	länge	AB	-.-.-	AB.POS.-	1009	OO	1009:OO|1007:ME	
+1009	sen	sen	AB	-.-.-	AB.-.-	1005	MD	1005:MD|1007:ME	
 1010	sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1005	IV		
 1011	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1012	DT		
 1012	sista	sista	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	1010	OO	1010:OO|1015:OO	
@@ -71982,9 +71982,9 @@ Regr_255701.15.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 # sent_id = Romn_Lundqvist-Ingentobak.229
 # text = — Låt gå för hedendomen, försöker Barthel avbryta, men vad sederna beträffar vet jag inte om de är sämre här än i Staterna
 1001	—	_	SY	-.-.-	SY.DEL	1011	--		
-1002	Låt	låta	VB	-.-.-	VB.IMP.AKT.-	1007	DF		
-1003	gå	gå	VB	-.-.-	VB.INF.AKT.-	1002	ME		
-1004	för	för	PE	-.-.-	PE.-	1002	MD		
+1002	Låt	låta	VB	-.-.-	VB.IMP.AKT.-	1003	ME		
+1003	gå	gå	VB	-.-.-	VB.INF.AKT.-	1007	DF		
+1004	för	för	PE	-.-.-	PE.-	1003	MD		
 1005	hedendomen	hedendom	NN	-.-.-	NN.UTR.SIN.DEF	1004	OO		SpaceAfter=No
 1006	,	_	SY	-.-.-	SY.DEL	1011	--		
 1007	försöker	försöka	VB	-.-.-	VB.IND.AKT.PRS	1011	KL		
@@ -73533,8 +73533,8 @@ Romn_Lundqvist-Ingentobak.286.1003	.	_	SY	-.-.-	SY.DEL	Romn_Lundqvist-Ingentobak
 1002	Han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1003	SB		
 1003	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1004	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1007	DT		
-1005	sån	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1007	MD		
-1006	där	där	AB	-.-.-	AB.-.-	1005	ME		
+1005	sån	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1006	ME		
+1006	där	där	AB	-.-.-	AB.-.-	1007	MD		
 1007	missionär	missionär	NN	-.-.-	NN.UTR.SIN.IND	1003	SP		SpaceAfter=No
 1008	,	_	SY	-.-.-	SY.DEL	1003	--		
 1009	du	du	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1010	SB		
@@ -73544,9 +73544,9 @@ Romn_Lundqvist-Ingentobak.286.1003	.	_	SY	-.-.-	SY.DEL	Romn_Lundqvist-Ingentobak
 # sent_id = Romn_Lundqvist-Ingentobak.344
 # text = En sån där som ska döpa papuas och sätta byxor på dom.
 1001	En	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	0	--		
-1002	sån	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1001	PH		
-1003	där	där	AB	-.-.-	AB.-.-	1002	ME		
-1004	som	som	SU	-.-.-	SU.-	1002	JF		
+1002	sån	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1003	ME		
+1003	där	där	AB	-.-.-	AB.-.-	1001	PH		
+1004	som	som	SU	-.-.-	SU.-	1003	JF		
 1005	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	1004	OO		
 1006	döpa	döpa	VB	-.-.-	VB.INF.AKT.-	1008	KL		
 1007	papuas	papua	NN	-.-.-	NN.UTR.PLU.IND	1006	OO		
@@ -74519,8 +74519,8 @@ Romn_Lundqvist-Ingentobak.386.1020	.	_	SY	-.-.-	SY.DEL	Romn_Lundqvist-Ingentobak
 # text = Mona hasar i väg på sina bara fötter.
 1001	Mona	Mona	EN	-.-.-	EN.-	1002	SB		
 1002	hasar	hasa	VB	-.-.-	VB.IND.AKT.PRS	0	--		
-1003	i	i	PE	-.-.-	PE.-	1002	PL		
-1004	väg	väg	NN	-.-.-	NN.UTR.SIN.IND	1003	ME		
+1003	i	i	PE	-.-.-	PE.-	1004	ME		
+1004	väg	väg	NN	-.-.-	NN.UTR.SIN.IND	1002	PL		
 1005	på	på	PE	-.-.-	PE.-	1002	MD		
 1006	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	1008	DT		
 1007	bara	bar	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1008	MD		
@@ -76372,12 +76372,12 @@ Romn_Lundqvist-Ingentobak.386.1020	.	_	SY	-.-.-	SY.DEL	Romn_Lundqvist-Ingentobak
 1005	ställning	ställning	NN	-.-.-	NN.UTR.SIN.IND	1002	OO		
 1006	bland	bland	PE	-.-.-	PE.-	1005	MD		
 1007	alla	all	PO	-.-.-	PO.DEF.PLU.UTR/NEU.-.-	1006	OO		
-1008	tack	tack	NN	-.-.-	NN.NEU.SIN.IND	1002	MD		
-1009	vare	vara	VB	-.-.-	VB.KON.AKT.PRS	1008	ME		
+1008	tack	tack	NN	-.-.-	NN.NEU.SIN.IND	1009	ME		
+1009	vare	vara	VB	-.-.-	VB.KON.AKT.PRS	1002	MD		
 1010	Tage	Tage	EN	-.-.-	EN.-	1013	DT		
 1011	Bengtssons	Bengtsson	EN	-.GEN.-	EN.-	1010	ME		
 1012	goda	god	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1013	MD		
-1013	ord	ord	NN	-.-.-	NN.NEU.PLU.IND	1008	OO		
+1013	ord	ord	NN	-.-.-	NN.NEU.PLU.IND	1009	OO		
 1014	om	om	PE	-.-.-	PE.-	1013	MD		
 1015	henne	hon	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	1014	OO		SpaceAfter=No
 1016	.	_	SY	-.-.-	SY.DEL	1002	--		
@@ -78715,8 +78715,8 @@ Romn_Bjelvehammar-TageBengtsson.165.1015	.	_	SY	-.-.-	SY.DEL	Romn_Bjelvehammar-T
 1004	enstaka	enstaka	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1005	MD		
 1005	objekt	objekt	NN	-.-.-	NN.NEU.PLU.IND	1003	OO	1003:OO|1015:OO|1013:OO	
 1006	i	i	PE	-.-.-	PE.-	1003	OA		
-1007	Tage	Tage	EN	-.-.-	EN.-	1009	DT		
-1008	Bengtssons	Bengtsson	EN	-.GEN.-	EN.-	1007	ME		
+1007	Tage	Tage	EN	-.-.-	EN.-	1008	ME		
+1008	Bengtssons	Bengtsson	EN	-.GEN.-	EN.-	1009	DT		
 1009	samlingar	samling	NN	-.-.-	NN.UTR.PLU.IND	1006	OO		
 1010	som	som	SU	-.-.-	SU.-	1005	MD		
 1011	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1013	SB	1013:SB|1015:SB	
@@ -79196,8 +79196,8 @@ Romn_Bjelvehammar-TageBengtsson.165.1015	.	_	SY	-.-.-	SY.DEL	Romn_Bjelvehammar-T
 1001	Resa	resa	VB	-.-.-	VB.INF.AKT.-	1002	SB		
 1002	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1011	KL		
 1003	inte	inte	AB	-.-.-	AB.-.-	1002	MD		
-1004	Tage	Tage	EN	-.-.-	EN.-	1009	DT		
-1005	Bengtssons	Bengtsson	EN	-.GEN.-	EN.-	1004	ME		
+1004	Tage	Tage	EN	-.-.-	EN.-	1005	ME		
+1005	Bengtssons	Bengtsson	EN	-.GEN.-	EN.-	1009	DT		
 1006	starka	stark	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1007	KL		
 1007	och	och	KO	-.-.-	KO.-	1009	MD		
 1008	utvecklade	utvecklad	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1007	KL		
@@ -79846,8 +79846,8 @@ Romn_Bjelvehammar-TageBengtsson.165.1015	.	_	SY	-.-.-	SY.DEL	Romn_Bjelvehammar-T
 1012	och	och	KO	-.-.-	KO.-	1010	OO		
 1013	hela	hela	VB	-.-.-	VB.INF.AKT.-	1012	KL		
 1014	dem	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	1013	OO	1013:OO|1011:OO	
-1015	på	på	PE	-.-.-	PE.-	1013	MD		
-1016	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1015	ME		SpaceAfter=No
+1015	på	på	PE	-.-.-	PE.-	1016	ME		
+1016	nytt	ny	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1013	MD		SpaceAfter=No
 1017	,	_	SY	-.-.-	SY.DEL	1021	--		
 1018	ingen	ingen	PO	-.-.-	PO.IND.SIN.UTR.-.-	1021	SB		
 1019	på	på	PE	-.-.-	PE.-	1018	MD		
@@ -80410,8 +80410,8 @@ Romn_Bjelvehammar-TageBengtsson.165.1015	.	_	SY	-.-.-	SY.DEL	Romn_Bjelvehammar-T
 1020	inte	inte	AB	-.-.-	AB.-.-	1019	MD		
 1021	sett	se	VB	-.-.-	VB.SPM.AKT.-	1019	IV		
 1022	dem	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	1021	OO		
-1023	sen	sen	PE	-.-.-	PE.-	1019	MD		
-1024	dess	den	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.PSS.-	1023	ME		SpaceAfter=No
+1023	sen	sen	PE	-.-.-	PE.-	1024	ME		
+1024	dess	den	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.PSS.-	1019	MD		SpaceAfter=No
 1025	.	_	SY	-.-.-	SY.DEL	1002	--		
 
 # sent_id = Romn_Holmsen-Polynesiskpassad.23
@@ -81371,10 +81371,10 @@ Romn_Holmsen-Polynesiskpassad.70.1015	!	_	SY	-.-.-	SY.DEL	1007	--
 1019	och	och	KO	-.-.-	KO.-	0	--		
 1020	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1021	SB		
 1021	var	vara	VB	-.-.-	VB.IND.AKT.PRT	1019	KL		
-1022	med	med	PE	-.-.-	PE.-	1021	SP		
-1023	nöd	nöd	NN	-.-.-	NN.UTR.SIN.IND	1022	ME		
-1024	och	och	KO	-.-.-	KO.-	1022	ME		
-1025	näppe	näppe	NN	-.-.-	NN.UTR/NEU.SIN/PLU.IND/DEF	1022	ME		
+1022	med	med	PE	-.-.-	PE.-	1025	ME		
+1023	nöd	nöd	NN	-.-.-	NN.UTR.SIN.IND	1025	ME		
+1024	och	och	KO	-.-.-	KO.-	1025	ME		
+1025	näppe	näppe	NN	-.-.-	NN.UTR/NEU.SIN/PLU.IND/DEF	1021	SP		
 1026	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1027	SB	1027:SB|1028:SB	
 1027	lyckades	lyckas	VB	-.-.-	VB.IND.SFO.PRT	1021	EF		
 1028	göra	göra	VB	-.-.-	VB.INF.AKT.-	1027	IV		
@@ -81436,8 +81436,8 @@ Romn_Holmsen-Polynesiskpassad.70.1015	!	_	SY	-.-.-	SY.DEL	1007	--
 1002	kände	känna	VB	-.-.-	VB.IND.AKT.PRT	1007	KL		
 1003	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	1002	OO	1002:OO|1002:ME	
 1004	illa	illa	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	OP		
-1005	till	till	PE	-.-.-	PE.-	1004	MD		
-1006	mods	mod	NN	-.-.-	NN.NEU.SIN.IND	1005	ME		
+1005	till	till	PE	-.-.-	PE.-	1006	ME		
+1006	mods	mod	NN	-.-.-	NN.NEU.SIN.IND	1004	MD		
 1007	och	och	KO	-.-.-	KO.-	0	--		
 1008	ansåg	anse	VB	-.-.-	VB.IND.AKT.PRT	1007	KL		
 1009	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1008	OO		
@@ -81568,11 +81568,11 @@ Romn_Holmsen-Polynesiskpassad.70.1015	!	_	SY	-.-.-	SY.DEL	1007	--
 # sent_id = Romn_Holmsen-Polynesiskpassad.102
 # text = —För inte så länge sen tittade jag på en båt med diverse last från Ljusterö.
 1001	—	_	SY	-.-.-	SY.DEL	1007	--		SpaceAfter=No
-1002	För	för	PE	-.-.-	PE.-	9999			
+1002	För	för	PE	-.-.-	PE.-	1006			
 1003	inte	inte	AB	-.-.-	AB.-.-	1005	MD		
 1004	så	så	AB	-.-.-	AB.-.-	1005	MD		
-1005	länge	länge	AB	-.-.-	AB.POS.-	1006	OO	1006:OO|9999:ME	
-1006	sen	sen	PE	-.-.-	PE.-	1007	MD	1007:MD|9999:ME	
+1005	länge	länge	AB	-.-.-	AB.POS.-	1006	OO	1006:OO|1002:ME	
+1006	sen	sen	PE	-.-.-	PE.-	1007	MD	1007:MD|1002:ME	
 1007	tittade	titta	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1008	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1007	SB		
 1009	på	på	PE	-.-.-	PE.-	1007	MD		
@@ -82984,8 +82984,8 @@ Romn_Holmsen-Polynesiskpassad.123.1017	.	_	SY	-.-.-	SY.DEL	Romn_Holmsen-Polynesi
 1012	närheten	närhet	NN	-.-.-	NN.UTR.SIN.DEF	1011	OO	1011:OO|1011:ME	
 1013	av	av	PE	-.-.-	PE.-	1006	RA		
 1014	ön	ö	NN	-.-.-	NN.UTR.SIN.DEF	1013	MD		
-1015	Santa	_	UO	-.-.-	UO.-	1014	AN		
-1016	Cruz	_	UO	-.-.-	UO.-	1015	ME		
+1015	Santa	_	UO	-.-.-	UO.-	1016	ME		
+1016	Cruz	_	UO	-.-.-	UO.-	1014	AN		
 1017	och	och	KO	-.-.-	KO.-	0	--		
 1018	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1019	SB		
 1019	kallade	kalla	VB	-.-.-	VB.IND.AKT.PRT	1017	KL		
@@ -83192,8 +83192,8 @@ Romn_Holmsen-Polynesiskpassad.123.1017	.	_	SY	-.-.-	SY.DEL	Romn_Holmsen-Polynesi
 1009	Bougainvilles	Bougainville	EN	-.GEN.-	EN.-	1010	DT		
 1010	staty	staty	NN	-.-.-	NN.UTR.SIN.IND	1011	KL		
 1011	till	till	PE	-.-.-	PE.-	1008	OO		
-1012	Messagerie	_	UO	-.-.-	UO.-	1014	DT		
-1013	Maritimes	_	UO	-.GEN.-	UO.-	1012	ME		
+1012	Messagerie	_	UO	-.-.-	UO.-	1013	ME		
+1013	Maritimes	_	UO	-.GEN.-	UO.-	1014	DT		
 1014	landningsplats	landningsplats	NN	-.-.-	NN.UTR.SIN.IND	1011	KL		SpaceAfter=No
 1015	.	_	SY	-.-.-	SY.DEL	1006	--		
 
@@ -83498,9 +83498,9 @@ Romn_Holmsen-Polynesiskpassad.123.1017	.	_	SY	-.-.-	SY.DEL	Romn_Holmsen-Polynesi
 1012	var	vara	VB	-.-.-	VB.IND.AKT.PRT	1010	OO		
 1013	tokig	tokig	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1012	SP		
 1014	--	_	SY	-.-.-	SY.DEL	1008	--		
-1015	till	till	PE	-.-.-	PE.-	1018	MD		
-1016	och	och	KO	-.-.-	KO.-	1015	ME		
-1017	med	med	PE	-.-.-	PE.-	1015	ME		
+1015	till	till	PE	-.-.-	PE.-	1017	ME		
+1016	och	och	KO	-.-.-	KO.-	1017	ME		
+1017	med	med	PE	-.-.-	PE.-	1018	MD		
 1018	sen	sen	SU	-.-.-	SU.-	1010	MD		
 1019	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1018	OO	1018:OO|1020:SB	
 1020	betalat	betala	VB	-.-.-	VB.SPM.AKT.-	1019	IV		
@@ -84891,8 +84891,8 @@ Romn_Holmsen-Polynesiskpassad.272.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1003	och	och	KO	-.-.-	KO.-	0	--		
 1004	skiljas	skilja	VB	-.-.-	VB.IND.AKT.PRS	1003	KL		
 1005	—	_	SY	-.-.-	SY.DEL	1003	--		
-1006	till	till	PE	-.-.-	PE.-	1008	KL		
-1007	sjöss	sjö	NN	-.-.-	NN.UTR.SIN.IND	1006	ME		
+1006	till	till	PE	-.-.-	PE.-	1007	ME		
+1007	sjöss	sjö	NN	-.-.-	NN.UTR.SIN.IND	1008	KL		
 1008	och	och	KO	-.-.-	KO.-	1004	RA	1004:RA|1002:	
 1009	här	här	AB	-.-.-	AB.-.-	1008	KL		
 1010	inne	inne	AB	-.-.-	AB.-.-	1011	MD		
@@ -85567,9 +85567,9 @@ Romn_Holmsen-Polynesiskpassad.360.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1007	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1009	DT		
 1008	flygande	flygande	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1009	MD		
 1009	molnen	moln	NN	-.-.-	NN.NEU.PLU.DEF	1005	AN		
-1010	för	för	PE	-.-.-	PE.-	9999			
-1011	länge	länge	AB	-.-.-	AB.POS.-	1012	OO	1012:OO|9999:ME	
-1012	sedan	sedan	PE	-.-.-	PE.-	1009	MD	1009:MD|9999:ME	SpaceAfter=No
+1010	för	för	PE	-.-.-	PE.-	1012			
+1011	länge	länge	AB	-.-.-	AB.POS.-	1012	OO	1012:OO|1010:ME	
+1012	sedan	sedan	PE	-.-.-	PE.-	1009	MD	1009:MD|1010:ME	SpaceAfter=No
 1013	,	_	SY	-.-.-	SY.DEL	1016	--		
 1014	viskade	viska	VB	-.-.-	VB.IND.AKT.PRT	1016	KL		
 1015	Reri	Reri	EN	-.-.-	EN.-	1014	SB	1014:SB|1017:SB	
@@ -85679,8 +85679,8 @@ Romn_Holmsen-Polynesiskpassad.385.1021	.	_	SY	-.-.-	SY.DEL	1008	--
 
 # sent_id = Romn_Holmsen-Polynesiskpassad.388
 # text = Runt om reste sig fjällen mot skyn.
-1001	Runt	runt	PE	-.-.-	PE.-	1003	RA		
-1002	om	om	PE	-.-.-	PE.-	1001	ME		
+1001	Runt	runt	PE	-.-.-	PE.-	1002	ME		
+1002	om	om	PE	-.-.-	PE.-	1003	RA		
 1003	reste	resa	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1004	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1003	OO	1003:OO|1003:ME	
 1005	fjällen	fjäll	NN	-.-.-	NN.NEU.PLU.DEF	1003	SB		
@@ -88260,9 +88260,9 @@ Romn_Strand-Pagarna.110.1005	.	_	SY	-.-.-	SY.DEL	1004	--
 
 # sent_id = Romn_Strand-Pagarna.200
 # text = Sagt och gjort pågarna rörde ihop en ny hårolja och samma kväll sov Sture sött i fru Perssons nattmössa med den nya håroljan i håret.
-1001	Sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1005	DF		
-1002	och	och	KO	-.-.-	KO.-	1001	ME		
-1003	gjort	göra	VB	-.-.-	VB.SPM.AKT.-	1001	ME		
+1001	Sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1003	ME		
+1002	och	och	KO	-.-.-	KO.-	1003	ME		
+1003	gjort	göra	VB	-.-.-	VB.SPM.AKT.-	1005	DF		
 1004	pågarna	påg	NN	-.-.-	NN.UTR.PLU.DEF	1005	SB		
 1005	rörde	röra	VB	-.-.-	VB.IND.AKT.PRT	1010	KL		
 1006	ihop	ihop	AB	-.-.-	AB.-.-	1005	PL	1005:PL|1005:ME	
@@ -89049,9 +89049,9 @@ Romn_Strand-Pagarna.238.1018	.	_	SY	-.-.-	SY.DEL	Romn_Strand-Pagarna.238.1008	--
 
 # sent_id = Romn_Strand-Pagarna.263
 # text = Sagt och gjort pågarna cyklade upp till Klara och bad att få titta på hennes lyckopendel.
-1001	Sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1005	DF		
-1002	och	och	KO	-.-.-	KO.-	1001	ME		
-1003	gjort	göra	VB	-.-.-	VB.SPM.AKT.-	1001	ME		
+1001	Sagt	säga	VB	-.-.-	VB.SPM.AKT.-	1003	ME		
+1002	och	och	KO	-.-.-	KO.-	1003	ME		
+1003	gjort	göra	VB	-.-.-	VB.SPM.AKT.-	1005	DF		
 1004	pågarna	påg	NN	-.-.-	NN.UTR.PLU.DEF	1005	SB	1005:SB|1010:SB	
 1005	cyklade	cykla	VB	-.-.-	VB.IND.AKT.PRT	1009	KL		
 1006	upp	upp	AB	-.-.-	AB.-.-	1005	PL		
@@ -89566,8 +89566,8 @@ Romn_Strand-Pagarna.238.1018	.	_	SY	-.-.-	SY.DEL	Romn_Strand-Pagarna.238.1008	--
 
 # sent_id = Romn_Strand-Pagarna.295
 # text = Hugo hade också tänkt på en enkel fästanordning på cykelns pakethållare och till och med klippt till ett vaxdukshölje, som skydd för otjänligt väder.
-1001	Hugo	Hugo	EN	-.-.-	EN.-	1002	SB	1002:SB|1016:SB|1004:SB|1013:SB	
-1002	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	1012	KL	1012:KL|1013:HD	
+1001	Hugo	Hugo	EN	-.-.-	EN.-	1002	SB	1002:SB|1016:SB|1004:SB|1015:SB	
+1002	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	1012	KL	1012:KL|1015:HD	
 1003	också	också	AB	-.-.-	AB.-.-	1002	MD		
 1004	tänkt	tänka	VB	-.-.-	VB.SPM.AKT.-	1002	IV		
 1005	på	på	PE	-.-.-	PE.-	1004	OA		
@@ -89578,10 +89578,10 @@ Romn_Strand-Pagarna.238.1018	.	_	SY	-.-.-	SY.DEL	Romn_Strand-Pagarna.238.1008	--
 1010	cykelns	cykel	NN	-.GEN.-	NN.UTR.SIN.DEF	1011	DT		
 1011	pakethållare	pakethållare	NN	-.-.-	NN.UTR.SIN.IND	1009	OO		
 1012	och	och	KO	-.-.-	KO.-	0	--		
-1013	till	till	PE	-.-.-	PE.-	1012	KL		
-1014	och	och	KO	-.-.-	KO.-	1013	ME		
-1015	med	med	PE	-.-.-	PE.-	1013	ME		
-1016	klippt	klippa	VB	-.-.-	VB.SPM.AKT.-	1013	IV		
+1013	till	till	PE	-.-.-	PE.-	1015	ME		
+1014	och	och	KO	-.-.-	KO.-	1015	ME		
+1015	med	med	PE	-.-.-	PE.-	1012	KL		
+1016	klippt	klippa	VB	-.-.-	VB.SPM.AKT.-	1015	IV		
 1017	till	till	PE	-.-.-	PE.-	1016	PL	1016:PL|1016:ME	
 1018	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1019	DT		
 1019	vaxdukshölje	vaxduks|hölje	NN	-.-.-	NN.NEU.SIN.IND	1016	OO		SpaceAfter=No
@@ -90338,8 +90338,8 @@ Romn_Strand-Pagarna.238.1018	.	_	SY	-.-.-	SY.DEL	Romn_Strand-Pagarna.238.1008	--
 1016	som	som	SU	-.-.-	SU.-	1013	MD		
 1017	råkade	råka	VB	-.-.-	VB.IND.AKT.PRT	1016	OO		
 1018	vara	vara	VB	-.-.-	VB.INF.AKT.-	1017	IV		
-1019	till	till	PE	-.-.-	PE.-	1018	SP		
-1020	hands	hand	NN	-.-.-	NN.UTR.SIN.IND	1019	ME		SpaceAfter=No
+1019	till	till	PE	-.-.-	PE.-	1020	ME		
+1020	hands	hand	NN	-.-.-	NN.UTR.SIN.IND	1018	SP		SpaceAfter=No
 1021	.	_	SY	-.-.-	SY.DEL	1008	--		
 
 # sent_id = Romn_Strand-Pagarna.347
@@ -90830,9 +90830,9 @@ Romn_Strand-Pagarna.238.1018	.	_	SY	-.-.-	SY.DEL	Romn_Strand-Pagarna.238.1008	--
 1033	fraser	fras	NN	-.-.-	NN.UTR.PLU.IND	1032	OA		
 1034	på	på	PE	-.-.-	PE.-	1033	MD		
 1035	latin	latin	NN	-.-.-	NN.NEU.SIN.IND	1034	OO		
-1036	Pater	_	UO	-.-.-	UO.-	1033	AN		
-1037	Noster	_	UO	-.-.-	UO.-	1036	ME		
-1038	osv	och så vidare	AB	FKN.-.-	AB.-.-	1036	DF		SpaceAfter=No
+1036	Pater	_	UO	-.-.-	UO.-	1037	ME		
+1037	Noster	_	UO	-.-.-	UO.-	1033	AN		
+1038	osv	och så vidare	AB	FKN.-.-	AB.-.-	1037	DF		SpaceAfter=No
 1039	.	_	SY	-.-.-	SY.DEL	1004	--		
 
 # sent_id = Romn_Strand-Pagarna.379
@@ -92126,8 +92126,8 @@ Romn_Strand-Pagarna.238.1018	.	_	SY	-.-.-	SY.DEL	Romn_Strand-Pagarna.238.1008	--
 1012	precis	precis	AB	-.-.-	AB.-.-	1011	MD		
 1013	satt	sätta	VB	-.-.-	VB.SPM.AKT.-	1011	IV		
 1014	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1013	OO	1013:OO|1013:ME	
-1015	till	till	PE	-.-.-	PE.-	1013	RA		
-1016	bords	bord	NN	-.-.-	NN.NEU.SIN.IND	1015	ME		
+1015	till	till	PE	-.-.-	PE.-	1016	ME		
+1016	bords	bord	NN	-.-.-	NN.NEU.SIN.IND	1013	RA		
 1017	för	för	PE	-.-.-	PE.-	1013	MD		
 1018	att	att	SU	-.-.-	SU.-	1017	OO		
 1019	äta	äta	VB	-.-.-	VB.INF.AKT.-	1018	OO		
@@ -92551,13 +92551,13 @@ Romn_Strand-Pagarna.238.1018	.	_	SY	-.-.-	SY.DEL	Romn_Strand-Pagarna.238.1008	--
 1005	storsäljare	storsäljare	NN	-.-.-	NN.UTR.SIN.IND	1003	SP		SpaceAfter=No
 1006	,	_	SY	-.-.-	SY.DEL	1007	--		
 1007	och	och	KO	-.-.-	KO.-	0	--		
-1008	inom	inom	PE	-.-.-	PE.-	1010	MD		
-1009	kort	kort	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1008	ME		
+1008	inom	inom	PE	-.-.-	PE.-	1009	ME		
+1009	kort	kort	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1010	MD		
 1010	blev	bli	VB	-.-.-	VB.IND.AKT.PRT	1007	KL		
 1011	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1010	SB		
-1012	till	till	PE	-.-.-	PE.-	1010	MD		
-1013	och	och	KO	-.-.-	KO.-	1012	ME		
-1014	med	med	PE	-.-.-	PE.-	1012	ME		
+1012	till	till	PE	-.-.-	PE.-	1014	ME		
+1013	och	och	KO	-.-.-	KO.-	1014	ME		
+1014	med	med	PE	-.-.-	PE.-	1010	MD		
 1015	populärt	populär	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1010	SP		
 1016	att	att	SU	-.-.-	SU.-	1010	ES		
 1017	försöka	försöka	VB	-.-.-	VB.INF.AKT.-	1016	OO		
@@ -94352,9 +94352,9 @@ Romn_Strand-Pagarna.238.1018	.	_	SY	-.-.-	SY.DEL	Romn_Strand-Pagarna.238.1008	--
 1019	namnet	namn	NN	-.-.-	NN.NEU.SIN.DEF	1016	OO		
 1020	CAT-1	CAT-1	EN	-.-.-	EN.-	1019	AN		
 1021	(	_	SY	-.-.-	SY.DEL	1016	--		SpaceAfter=No
-1022	Capsule	_	UO	-.-.-	UO.-	1019	AN		
-1023	Ariane	_	UO	-.-.-	UO.-	1022	ME		
-1024	Technologique	_	UO	-.-.-	UO.-	1022	ME		SpaceAfter=No
+1022	Capsule	_	UO	-.-.-	UO.-	1024	ME		
+1023	Ariane	_	UO	-.-.-	UO.-	1024	ME		
+1024	Technologique	_	UO	-.-.-	UO.-	1019	AN		SpaceAfter=No
 1025	)	_	SY	-.-.-	SY.DEL	1016	--		SpaceAfter=No
 1026	.	_	SY	-.-.-	SY.DEL	1016	--		
 
@@ -94765,11 +94765,11 @@ Romn_Strand-Pagarna.238.1018	.	_	SY	-.-.-	SY.DEL	Romn_Strand-Pagarna.238.1008	--
 1004	ledsen	ledsen	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1002	SP		SpaceAfter=No
 1005	,	_	SY	-.-.-	SY.DEL	1006	--		
 1006	utan	utan	KO	-.-.-	KO.-	0	--		
-1007	antingen	antingen	KO	-.-.-	KO.-	1006	KL		
+1007	antingen	antingen	KO	-.-.-	KO.-	1010	ME		
 1008	bara	bara	AB	-.-.-	AB.-.-	1009	MD	1009:MD|1011:MD	
-1009	glad	glad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1007	KL		
-1010	eller	eller	KO	-.-.-	KO.-	1007	ME		
-1011	arg	arg	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1007	KL		
+1009	glad	glad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1010	KL		
+1010	eller	eller	KO	-.-.-	KO.-	1006	KL		
+1011	arg	arg	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1010	KL		
 1012	(	_	SY	-.-.-	SY.DEL	1006	--		SpaceAfter=No
 1013	när	när	AB	-.-.-	AB.-.FRL	1018	MD	1018:MD|1015:MD	
 1014	hon	hon	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1015	SB		
@@ -96130,8 +96130,8 @@ Wiki_HarryPotter.9.1006	C.S.	C.S.	EN	-.-.-	EN.-	Wiki_HarryPotter.10.1003	DT
 1007	framgångar	framgång	NN	-.-.-	NN.UTR.PLU.IND	1005	KL	1005:KL|1004:HD	
 1008	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1009	stationen	station	NN	-.-.-	NN.UTR.SIN.DEF	1008	SB		
-1010	King's	_	UO	-.-.-	UO.-	1009	AN		
-1011	Cross	_	UO	-.-.-	UO.-	1010	ME		
+1010	King's	_	UO	-.-.-	UO.-	1011	ME		
+1011	Cross	_	UO	-.-.-	UO.-	1009	AN		
 1014	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1016	DT		
 1015	permanent	permanent	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1016	MD		
 1016	skylt	skylt	NN	-.-.-	NN.UTR.SIN.IND	1008	OO		
@@ -96207,9 +96207,9 @@ Wiki_HarryPotter.9.1006	C.S.	C.S.	EN	-.-.-	EN.-	Wiki_HarryPotter.10.1003	DT
 1012	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1019	DT		
 1013	komplicerad	komplicerad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	KL		
 1014	men	men	KO	-.-.-	KO.-	1019	MD		
-1015	i	i	PE	-.-.-	PE.-	1018	MD		
-1016	stort	stor	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1015	ME		
-1017	sett	sedd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1015	ME		
+1015	i	i	PE	-.-.-	PE.-	1017	ME		
+1016	stort	stor	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1017	ME		
+1017	sett	sedd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1018	MD		
 1018	sömlös	söm|lös	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	KL		
 1019	intrig	intrig	NN	-.-.-	NN.UTR.SIN.IND	1011	OO		
 1020	som	som	SU	-.-.-	SU.-	1019	MD		
@@ -96307,9 +96307,9 @@ Wiki_HarryPotter.9.1006	C.S.	C.S.	EN	-.-.-	EN.-	Wiki_HarryPotter.10.1003	DT
 1015	gott	god	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1016	KL		
 1016	och	och	KO	-.-.-	KO.-	1014	OO		
 1017	ont	ond	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1016	KL		
-1018	i	i	PE	-.-.-	PE.-	1021	MD		
-1019	stort	stor	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1018	ME		
-1020	sett	sedd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1018	ME		
+1018	i	i	PE	-.-.-	PE.-	1020	ME		
+1019	stort	stor	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1020	ME		
+1020	sett	sedd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1021	MD		
 1021	svartvit	svartvit	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1012	SP		SpaceAfter=No
 1022	.	_	SY	-.-.-	SY.DEL	1012	--		
 
@@ -96759,12 +96759,12 @@ Wiki_HarryPotter.53.1006	.	_	SY	-.-.-	SY.DEL	1009	--
 1002	första	första	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	1003	MD		
 1003	boken	bok	NN	-.-.-	NN.UTR.SIN.DEF	1012	SB	1012:SB|1021:	SpaceAfter=No
 1004	,	_	SY	-.-.-	SY.DEL	1028	--		
-1005	Harry	Harry	EN	-.-.-	EN.-	9999			
-1006	Potter	Potter	EN	-.-.-	EN.-	1007	KL	1007:KL|9999:ME	
-1007	och	och	KO	-.-.-	KO.-	1003	AN	1003:AN|9999:ME	
-1008	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	1010	DT	1010:DT|9999:ME	
-1009	vises	vis	AJ	-.GEN.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1010	MD	1010:MD|9999:ME	
-1010	sten	sten	NN	-.-.-	NN.UTR.SIN.IND	1007	KL	1007:KL|9999:ME	SpaceAfter=No
+1005	Harry	Harry	EN	-.-.-	EN.-	1006			
+1006	Potter	Potter	EN	-.-.-	EN.-	1007	KL	1007:KL|1005:ME	
+1007	och	och	KO	-.-.-	KO.-	1003	AN	1003:AN|1005:ME	
+1008	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	1010	DT	1010:DT|1005:ME	
+1009	vises	vis	AJ	-.GEN.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1010	MD	1010:MD|1005:ME	
+1010	sten	sten	NN	-.-.-	NN.UTR.SIN.IND	1007	KL	1007:KL|1005:ME	SpaceAfter=No
 1011	,	_	SY	-.-.-	SY.DEL	1028	--		
 1012	fick	få	VB	-.-.-	VB.IND.AKT.PRT	1020	KL		
 1013	halvbra	halvbra	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1014	MD		
@@ -96934,8 +96934,8 @@ Wiki_HarryPotter.53.1006	.	_	SY	-.-.-	SY.DEL	1009	--
 1010	boken	bok	NN	-.-.-	NN.UTR.SIN.DEF	1007	OO		
 1011	i	i	PE	-.-.-	PE.-	1010	MD		
 1012	serien	serie	NN	-.-.-	NN.UTR.SIN.DEF	1011	OO		
-1013	Harry	Harry	EN	-.-.-	EN.-	9999			
-1014	Potter	Potter	EN	-.-.-	EN.-	9999			
+1013	Harry	Harry	EN	-.-.-	EN.-	1015			
+1014	Potter	Potter	EN	-.-.-	EN.-	1013	ME		
 1015	and	_	UO	-.-.-	UO.-	1012	AN		
 1016	the	_	UO	-.-.-	UO.-	1015	ME		
 1017	Deathly	_	UO	-.-.-	UO.-	1015	ME		
@@ -97099,11 +97099,11 @@ Wiki_HarryPotter.69.1003	böcker	bok	NN	-.-.-	NN.UTR.PLU.IND	1002	OO
 Wiki_HarryPotter.69.1004	till	till	PE	-.-.-	PE.-	Wiki_HarryPotter.69.1003	MD		
 Wiki_HarryPotter.69.1005	förmån	förmån	NN	-.-.-	NN.UTR.SIN.IND	Wiki_HarryPotter.69.1004	OO		
 Wiki_HarryPotter.69.1006	för	för	PE	-.-.-	PE.-	Wiki_HarryPotter.69.1005	MD		
-Wiki_HarryPotter.69.1007	Comic	_	UO	-.-.-	UO.-	Wiki_HarryPotter.69.1006	OO		
-Wiki_HarryPotter.69.1008	relief	_	UO	-.-.-	UO.-	Wiki_HarryPotter.69.1007	ME		SpaceAfter=No
+Wiki_HarryPotter.69.1007	Comic	_	UO	-.-.-	UO.-	Wiki_HarryPotter.69.1008	ME		
+Wiki_HarryPotter.69.1008	relief	_	UO	-.-.-	UO.-	Wiki_HarryPotter.69.1006	OO		SpaceAfter=No
 Wiki_HarryPotter.69.1009	,	_	SY	-.-.-	SY.DEL	1002	--		
 Wiki_HarryPotter.69.1010	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	Wiki_HarryPotter.69.1011	DT		
-Wiki_HarryPotter.69.1011	välgörenhetsorganisation	välgörenhetsorganisation	NN	-.-.-	NN.UTR.SIN.IND	Wiki_HarryPotter.69.1007	AN		SpaceAfter=No
+Wiki_HarryPotter.69.1011	välgörenhetsorganisation	välgörenhetsorganisation	NN	-.-.-	NN.UTR.SIN.IND	Wiki_HarryPotter.69.1008	AN		SpaceAfter=No
 Wiki_HarryPotter.69.1012	,	_	SY	-.-.-	SY.DEL	1002	--		
 Wiki_HarryPotter.69.1013	under	under	PE	-.-.-	PE.-	Wiki_HarryPotter.69.1011	MD		
 Wiki_HarryPotter.69.1014	två	två	NU	-.-.-	NU.-	Wiki_HarryPotter.69.1016	DT		
@@ -97173,10 +97173,10 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1008	roll	roll	NN	-.-.-	NN.UTR.SIN.IND	1005	OO		
 1009	i	i	PE	-.-.-	PE.-	1005	OA		
 1010	boken	bok	NN	-.-.-	NN.UTR.SIN.DEF	1009	OO		
-1011	Harry	Harry	EN	-.-.-	EN.-	9999			
-1012	Potter	Potter	EN	-.-.-	EN.-	1013	KL	1013:KL|9999:ME	
-1013	och	och	KO	-.-.-	KO.-	1010	AN	1010:AN|9999:ME	
-1014	Dödsrelikerna	döds|relik	NN	-.-.-	NN.UTR.PLU.DEF	1013	KL	1013:KL|9999:ME	SpaceAfter=No
+1011	Harry	Harry	EN	-.-.-	EN.-	1012			
+1012	Potter	Potter	EN	-.-.-	EN.-	1013	KL	1013:KL|1011:ME	
+1013	och	och	KO	-.-.-	KO.-	1010	AN	1010:AN|1011:ME	
+1014	Dödsrelikerna	döds|relik	NN	-.-.-	NN.UTR.PLU.DEF	1013	KL	1013:KL|1011:ME	SpaceAfter=No
 1015	,	_	SY	-.-.-	SY.DEL	1022	--		
 1016	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1022	KL		
 1017	inte	inte	AB	-.-.-	AB.-.-	1016	MD		
@@ -97190,19 +97190,19 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1025	svenska	svensk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1026	MD		
 1026	översättningen	översättning	NN	-.-.-	NN.UTR.SIN.DEF	1023	OO		
 1027	av	av	PE	-.-.-	PE.-	1026	MD		
-1028	Harry	Harry	EN	-.-.-	EN.-	9999			
-1029	Potter	Potter	EN	-.-.-	EN.-	1030	KL	1030:KL|9999:ME	
-1030	och	och	KO	-.-.-	KO.-	1027	OO	1027:OO|9999:ME	
-1031	Dödsrelikerna	döds|relik	NN	-.-.-	NN.UTR.PLU.DEF	1030	KL	1030:KL|9999:ME	
+1028	Harry	Harry	EN	-.-.-	EN.-	1029			
+1029	Potter	Potter	EN	-.-.-	EN.-	1030	KL	1030:KL|1028:ME	
+1030	och	och	KO	-.-.-	KO.-	1027	OO	1027:OO|1028:ME	
+1031	Dödsrelikerna	döds|relik	NN	-.-.-	NN.UTR.PLU.DEF	1030	KL	1030:KL|1028:ME	
 1032	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1022	KL		
 1033	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1032	SB	1032:SB|1034:SB	
 1034	fått	få	VB	-.-.-	VB.SPM.AKT.-	1032	IV		
 1035	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1037	DT		
 1036	svenska	svensk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1037	MD		
 1037	titeln	titel	NN	-.-.-	NN.UTR.SIN.DEF	1034	OO		
-1038	Barden	bard	NN	-.-.-	NN.UTR.SIN.DEF	9999			
-1039	Bagges	Bagge	EN	-.GEN.-	EN.-	1040	DT	1040:DT|9999:ME	
-1040	berättelser	berättelse	NN	-.-.-	NN.UTR.PLU.IND	1037	AN	1037:AN|9999:ME	SpaceAfter=No
+1038	Barden	bard	NN	-.-.-	NN.UTR.SIN.DEF	1039			
+1039	Bagges	Bagge	EN	-.GEN.-	EN.-	1040	DT	1040:DT|1038:ME	
+1040	berättelser	berättelse	NN	-.-.-	NN.UTR.PLU.IND	1037	AN	1037:AN|1038:ME	SpaceAfter=No
 1041	.	_	SY	-.-.-	SY.DEL	1022	--		
 
 # sent_id = Wiki_HarryPotter.74
@@ -97291,10 +97291,10 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1002	sjätte	sjätte	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1003	MD		
 1003	filmen	film	NN	-.-.-	NN.UTR.SIN.DEF	1010	SB		
 1004	(	_	SY	-.-.-	SY.DEL	1010	--		SpaceAfter=No
-1005	Harry	Harry	EN	-.-.-	EN.-	9999			
-1006	Potter	Potter	EN	-.-.-	EN.-	1007	KL	1007:KL|9999:ME	
-1007	och	och	KO	-.-.-	KO.-	1003	AN	1003:AN|9999:ME	
-1008	Halvblodsprinsen	halv|blods|prins	NN	-.-.-	NN.UTR.SIN.DEF	1007	KL	1007:KL|9999:ME	SpaceAfter=No
+1005	Harry	Harry	EN	-.-.-	EN.-	1006			
+1006	Potter	Potter	EN	-.-.-	EN.-	1007	KL	1007:KL|1005:ME	
+1007	och	och	KO	-.-.-	KO.-	1003	AN	1003:AN|1005:ME	
+1008	Halvblodsprinsen	halv|blods|prins	NN	-.-.-	NN.UTR.SIN.DEF	1007	KL	1007:KL|1005:ME	SpaceAfter=No
 1009	)	_	SY	-.-.-	SY.DEL	1010	--		
 1010	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1011	biopremiär	biopremiär	NN	-.-.-	NN.UTR.SIN.IND	1010	OO		
@@ -97409,12 +97409,12 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1021	,	_	SY	-.-.-	SY.DEL	1005	--		
 1022	till	till	PE	-.-.-	PE.-	1020	DF		
 1023	exempel	exempel	NN	-.-.-	NN.NEU.SIN.IND	1022	OO	1022:OO|1022:ME	
-1024	Harry	Harry	EN	-.-.-	EN.-	9999			
-1025	Potter	Potter	EN	-.-.-	EN.-	1026	KL	1026:KL|9999:ME	
-1026	och	och	KO	-.-.-	KO.-	1020	HD	1020:HD|9999:ME	
-1027	fången	fånge	NN	-.-.-	NN.UTR.SIN.DEF	1026	KL	1026:KL|9999:ME	
-1028	från	från	PE	-.-.-	PE.-	1027	MD	1027:MD|9999:ME	
-1029	Azkaban	Azkaban	EN	-.-.-	EN.-	1028	OO	1028:OO|9999:ME	SpaceAfter=No
+1024	Harry	Harry	EN	-.-.-	EN.-	1025			
+1025	Potter	Potter	EN	-.-.-	EN.-	1026	KL	1026:KL|1024:ME	
+1026	och	och	KO	-.-.-	KO.-	1020	HD	1020:HD|1024:ME	
+1027	fången	fånge	NN	-.-.-	NN.UTR.SIN.DEF	1026	KL	1026:KL|1024:ME	
+1028	från	från	PE	-.-.-	PE.-	1027	MD	1027:MD|1024:ME	
+1029	Azkaban	Azkaban	EN	-.-.-	EN.-	1028	OO	1028:OO|1024:ME	SpaceAfter=No
 1030	,	_	SY	-.-.-	SY.DEL	1005	--		
 1031	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1016	OO		
 1032	kraftigt	kraftig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1033	MD		
@@ -97468,10 +97468,10 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1002	femte	femte	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1003	MD		
 1003	filmen	film	NN	-.-.-	NN.UTR.SIN.DEF	1010	SB		SpaceAfter=No
 1004	,	_	SY	-.-.-	SY.DEL	1010	--		
-1005	Harry	Harry	EN	-.-.-	EN.-	9999			
-1006	Potter	Potter	EN	-.-.-	EN.-	1007	KL	1007:KL|9999:ME	
-1007	och	och	KO	-.-.-	KO.-	1003	AN	1003:AN|9999:ME	
-1008	Fenixorden	Fenix|orden	NN	-.-.-	NN.UTR.SIN.DEF	1007	KL	1007:KL|9999:ME	SpaceAfter=No
+1005	Harry	Harry	EN	-.-.-	EN.-	1006			
+1006	Potter	Potter	EN	-.-.-	EN.-	1007	KL	1007:KL|1005:ME	
+1007	och	och	KO	-.-.-	KO.-	1003	AN	1003:AN|1005:ME	
+1008	Fenixorden	Fenix|orden	NN	-.-.-	NN.UTR.SIN.DEF	1007	KL	1007:KL|1005:ME	SpaceAfter=No
 1009	,	_	SY	-.-.-	SY.DEL	1010	--		
 1010	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1011	manus	manus	NN	-.-.-	NN.NEU.SIN.IND	1010	OO		
@@ -97495,8 +97495,8 @@ Wiki_HarryPotter.69.1017	.	_	SY	-.-.-	SY.DEL	1002	--
 1011	sjätte	sjätte	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1012	MD		
 1012	filmen	film	NN	-.-.-	NN.UTR.SIN.DEF	1009	OO		SpaceAfter=No
 1013	,	_	SY	-.-.-	SY.DEL	1003	--		
-1014	Harry	Harry	EN	-.-.-	EN.-	1016	KL		
-1015	Potter	Potter	EN	-.-.-	EN.-	3	ME	3:ME|1014:ME	
+1014	Harry	Harry	EN	-.-.-	EN.-	1015			
+1015	Potter	Potter	EN	-.-.-	EN.-	1016	KL	1016:KL|1014:ME	
 1016	och	och	KO	-.-.-	KO.-	1012	AN	1012:AN|1014:ME	
 1017	Halvblodsprinsen	halv|blods|prins	NN	-.-.-	NN.UTR.SIN.DEF	1016	KL	1016:KL|1014:ME	SpaceAfter=No
 1018	.	_	SY	-.-.-	SY.DEL	1003	--		
@@ -97666,8 +97666,8 @@ Wiki_HarryPotter.89.1024	.	_	SY	-.-.-	SY.DEL	Wiki_HarryPotter.89.1001	--
 
 # sent_id = Wiki_HarryPotter.93
 # text = Wizard Rock uppfanns ursprungligen i Massachusetts i och med skapandet av bandet Harry and the Potters, men det har vuxit internationellt.
-1001	Wizard	_	UO	-.-.-	UO.-	1003	SB		
-1002	Rock	rock	NN	-.-.-	NN.UTR.SIN.IND	1001	ME		
+1001	Wizard	_	UO	-.-.-	UO.-	1002	ME		
+1002	Rock	rock	NN	-.-.-	NN.UTR.SIN.IND	1003	SB		
 1003	uppfanns	uppfinna	VB	-.-.-	VB.IND.SFO.PRT	1018	KL		
 1004	ursprungligen	ursprungligen	AB	-.-.-	AB.-.-	1003	MD		
 1005	i	i	PE	-.-.-	PE.-	1003	RA		
@@ -97692,8 +97692,8 @@ Wiki_HarryPotter.89.1024	.	_	SY	-.-.-	SY.DEL	Wiki_HarryPotter.89.1001	--
 
 # sent_id = Wiki_HarryPotter.94
 # text = Wizard rock omfamnar en gör-det-själv-etik – många band producerar själva sina skivor och distribuerar dem via sociala nätverk som till exempel Youtube.
-1001	Wizard	_	UO	-.-.-	UO.-	1003	SB		
-1002	rock	rock	NN	-.-.-	NN.UTR.SIN.IND	1001	ME		
+1001	Wizard	_	UO	-.-.-	UO.-	1002	ME		
+1002	rock	rock	NN	-.-.-	NN.UTR.SIN.IND	1003	SB		
 1003	omfamnar	omfamna	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1004	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1005	DT		
 1005	gör-det-själv-etik	gör|det|själv|etik	NN	-.-.-	NN.UTR.SIN.IND	1003	OO		
@@ -97804,9 +97804,9 @@ Wiki_HarryPotter.98.1016	.	_	SY	-.-.-	SY.DEL	Wiki_HarryPotter.98.1002	--
 1017	inspirerad	inspirerad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1016	SP		
 1018	att	att	SU	-.-.-	SU.-	1017	OO		
 1019	använda	använda	VB	-.-.-	VB.INF.AKT.-	1018	OO		
-1020	Kings	_	UO	-.-.-	UO.-	1019	OO		
-1021	Cross	_	UO	-.-.-	UO.-	1020	ME		
-1022	Station	_	UO	-.-.-	UO.-	1020	ME		
+1020	Kings	_	UO	-.-.-	UO.-	1022	ME		
+1021	Cross	_	UO	-.-.-	UO.-	1022	ME		
+1022	Station	_	UO	-.-.-	UO.-	1019	OO		
 1023	i	i	PE	-.-.-	PE.-	1019	MD		
 1024	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	1025	DT		
 1025	böcker	bok	NN	-.-.-	NN.UTR.PLU.IND	1023	OO		
@@ -97845,8 +97845,8 @@ Wiki_HarryPotter.98.1016	.	_	SY	-.-.-	SY.DEL	Wiki_HarryPotter.98.1002	--
 1002	religiösa	religiös	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1003	MD		
 1003	grupper	grupp	NN	-.-.-	NN.UTR.PLU.IND	1010	SB	1010:SB|1011:	SpaceAfter=No
 1004	,	_	SY	-.-.-	SY.DEL	1010	--		
-1005	framför	framför	PE	-.-.-	PE.-	1007	MD		
-1006	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1005	ME		
+1005	framför	framför	PE	-.-.-	PE.-	1006	ME		
+1006	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1007	MD		
 1007	i	i	PE	-.-.-	PE.-	1003	MD		
 1008	USA	USA	EN	-.-.-	EN.-	1007	OO		SpaceAfter=No
 1009	,	_	SY	-.-.-	SY.DEL	1010	--		
@@ -97867,9 +97867,9 @@ Wiki_HarryPotter.98.1016	.	_	SY	-.-.-	SY.DEL	Wiki_HarryPotter.98.1002	--
 
 # sent_id = Wiki_HarryPotter.103
 # text = Å andra sidan har andra religiösa grupper hyllat böckerna för deras skildringar av ont och gott.
-1001	Å	å	PE	-.-.-	PE.-	1004	MD		
-1002	andra	andra	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1001	ME		
-1003	sidan	sida	NN	-.-.-	NN.UTR.SIN.DEF	1001	ME		
+1001	Å	å	PE	-.-.-	PE.-	1003	ME		
+1002	andra	andra	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1003	ME		
+1003	sidan	sida	NN	-.-.-	NN.UTR.SIN.DEF	1004	MD		
 1004	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1005	andra	andra	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1007	DT		
 1006	religiösa	religiös	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1007	MD		
@@ -98487,22 +98487,22 @@ Wiki_HarryPotter.123.1004	.	_	SY	-.-.-	SY.DEL	1003	--
 1007	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1008	utgivits	utge	VB	-.-.-	VB.SPM.SFO.-	1007	IV		SpaceAfter=No
 1009	,	_	SY	-.-.-	SY.DEL	1007	--		
-1010	Barry	Barry	EN	-.-.-	EN.-	9999			
-1011	Trotter	Trotter	EN	-.-.-	EN.-	1012	KL	1012:KL|9999:ME	
-1012	och	och	KO	-.-.-	KO.-	1023	KL	1023:KL|9999:ME	
-1013	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1015	DT	1015:DT|9999:ME	
-1014	skamlösa	skamlös	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1015	MD	1015:MD|9999:ME	
-1015	parodin	parodi	NN	-.-.-	NN.UTR.SIN.DEF	1012	KL	1012:KL|9999:ME	SpaceAfter=No
+1010	Barry	Barry	EN	-.-.-	EN.-	1011			
+1011	Trotter	Trotter	EN	-.-.-	EN.-	1012	KL	1012:KL|1010:ME	
+1012	och	och	KO	-.-.-	KO.-	1023	KL	1023:KL|1010:ME	
+1013	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1015	DT	1015:DT|1010:ME	
+1014	skamlösa	skamlös	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1015	MD	1015:MD|1010:ME	
+1015	parodin	parodi	NN	-.-.-	NN.UTR.SIN.DEF	1012	KL	1012:KL|1010:ME	SpaceAfter=No
 1016	,	_	SY	-.-.-	SY.DEL	1007	--		
-1017	Barry	Barry	EN	-.-.-	EN.-	9999			
-1018	Trotter	Trotter	EN	-.-.-	EN.-	1019	KL	1019:KL|9999:ME	
-1019	och	och	KO	-.-.-	KO.-	1023	KL	1023:KL|9999:ME	
-1020	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1022	DT	1022:DT|9999:ME	
-1021	onödiga	onödig	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1022	MD	1022:MD|9999:ME	
-1022	uppföljaren	uppföljare	NN	-.-.-	NN.UTR.SIN.DEF	1019	KL	1019:KL|9999:ME	
+1017	Barry	Barry	EN	-.-.-	EN.-	1018			
+1018	Trotter	Trotter	EN	-.-.-	EN.-	1019	KL	1019:KL|1017:ME	
+1019	och	och	KO	-.-.-	KO.-	1023	KL	1023:KL|1017:ME	
+1020	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1022	DT	1022:DT|1017:ME	
+1021	onödiga	onödig	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1022	MD	1022:MD|1017:ME	
+1022	uppföljaren	uppföljare	NN	-.-.-	NN.UTR.SIN.DEF	1019	KL	1019:KL|1017:ME	
 1023	samt	samt	KO	-.-.-	KO.-	1002	AN		
-1024	Barry	Barry	EN	-.-.-	EN.-	9999			
-1025	Trotter	Trotter	EN	-.-.-	EN.-	9999			
+1024	Barry	Barry	EN	-.-.-	EN.-	1026			
+1025	Trotter	Trotter	EN	-.-.-	EN.-	1024	ME		
 1026	and	_	UO	-.-.-	UO.-	1023	KL		
 1027	the	_	UO	-.-.-	UO.-	1026	ME		
 1028	dead	_	UO	-.-.-	UO.-	1026	ME		
@@ -98528,20 +98528,20 @@ Wiki_HarryPotter.123.1004	.	_	SY	-.-.-	SY.DEL	1003	--
 1009	Harry	Harry	EN	-.-.-	EN.-	1008	OO		
 1010	Potter	Potter	EN	-.-.-	EN.-	1009	ME		SpaceAfter=No
 1011	,	_	SY	-.-.-	SY.DEL	1003	--		
-1012	The	_	UO	-.-.-	UO.-	1007	AN		
-1013	Potter	_	UO	-.-.-	UO.-	1012	ME		
-1014	Puppet	_	UO	-.-.-	UO.-	1012	ME		
-1015	Pals	_	UO	-.-.-	UO.-	1012	ME		SpaceAfter=No
+1012	The	_	UO	-.-.-	UO.-	1015	ME		
+1013	Potter	_	UO	-.-.-	UO.-	1015	ME		
+1014	Puppet	_	UO	-.-.-	UO.-	1015	ME		
+1015	Pals	_	UO	-.-.-	UO.-	1007	AN		SpaceAfter=No
 1016	.	_	SY	-.-.-	SY.DEL	1003	--		
 
 # sent_id = Wiki_HarryPotter.128
 # text = I avsnittet Treehouse of Horror XII av amerikanska animerade tv-serien Simpsons måste Harry Potter slåss mot onde Lord Montymort (Montgomery Burns).
 1001	I	i	PE	-.-.-	PE.-	1012	MD		
 1002	avsnittet	avsnitt	NN	-.-.-	NN.NEU.SIN.DEF	1001	OO		
-1003	Treehouse	_	UO	-.-.-	UO.-	1002	AN		
-1004	of	_	UO	-.-.-	UO.-	1003	ME		
-1005	Horror	_	UO	-.-.-	UO.-	1003	ME		
-1006	XII	tolv	NU	-.-.-	NU.-	1003	ME		
+1003	Treehouse	_	UO	-.-.-	UO.-	1006	ME		
+1004	of	_	UO	-.-.-	UO.-	1006	ME		
+1005	Horror	_	UO	-.-.-	UO.-	1006	ME		
+1006	XII	tolv	NU	-.-.-	NU.-	1002	AN		
 1007	av	av	PE	-.-.-	PE.-	1002	MD		
 1008	amerikanska	amerikansk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1010	MD		
 1009	animerade	animerad	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1010	MD		
@@ -98572,12 +98572,12 @@ Wiki_HarryPotter.123.1004	.	_	SY	-.-.-	SY.DEL	1003	--
 1007	scener	scen	NN	-.-.-	NN.UTR.PLU.IND	1006	MD		
 1008	i	i	PE	-.-.-	PE.-	1006	MD		
 1009	filmerna	film	NN	-.-.-	NN.UTR.PLU.DEF	1008	OO		
-1010	Epic	_	UO	-.-.-	UO.-	1012	KL		
-1011	Movie	_	UO	-.-.-	UO.-	1010	ME		
+1010	Epic	_	UO	-.-.-	UO.-	1011	ME		
+1011	Movie	_	UO	-.-.-	UO.-	1012	KL		
 1012	och	och	KO	-.-.-	KO.-	1009	AN		
-1013	Scary	_	UO	-.-.-	UO.-	1012	KL		
-1014	Movie	_	UO	-.-.-	UO.-	1013	ME		
-1015	2	två	NU	-.-.-	NU.-	1013	ME		SpaceAfter=No
+1013	Scary	_	UO	-.-.-	UO.-	1015	ME		
+1014	Movie	_	UO	-.-.-	UO.-	1015	ME		
+1015	2	två	NU	-.-.-	NU.-	1012	KL		SpaceAfter=No
 1016	.	_	SY	-.-.-	SY.DEL	1003	--		
 
 # sent_id = Wiki_HarryPotter.130
@@ -98737,17 +98737,17 @@ Wiki_HarryPotter.123.1004	.	_	SY	-.-.-	SY.DEL	1003	--
 1006	(	_	SY	-.-.-	SY.DEL	1009	--		SpaceAfter=No
 1006a	engelska	engelska	NN	-.-.-	NN.UTR.SIN.IND	1009	--		SpaceAfter=No
 1006b	:	_	SY	-.-.-	SY.DEL	1009	--		
-1006c	The	_	UO	-.-.-	UO.-	1009	--		
-1006d	Lord	_	UO	-.-.-	UO.-	1006c	ME		
-1006e	of	_	UO	-.-.-	UO.-	1006c	ME		
-1006f	the	_	UO	-.-.-	UO.-	1006c	ME		
-1006g	Rings	_	UO	-.-.-	UO.-	1006c	ME		SpaceAfter=No
-1006h	:	_	SY	-.-.-	SY.DEL	1006c	ME		
-1006i	The	_	UO	-.-.-	UO.-	1006c	ME		
-1006j	Fellowship	_	UO	-.-.-	UO.-	1006c	ME		
-1006k	of	_	UO	-.-.-	UO.-	1006c	ME		
-1006l	the	_	UO	-.-.-	UO.-	1006c	ME		
-1006m	Ring	_	UO	-.-.-	UO.-	1006c	ME		SpaceAfter=No
+1006c	The	_	UO	-.-.-	UO.-	1006m	ME		
+1006d	Lord	_	UO	-.-.-	UO.-	1006m	ME		
+1006e	of	_	UO	-.-.-	UO.-	1006m	ME		
+1006f	the	_	UO	-.-.-	UO.-	1006m	ME		
+1006g	Rings	_	UO	-.-.-	UO.-	1006m	ME		SpaceAfter=No
+1006h	:	_	SY	-.-.-	SY.DEL	1006m	ME		
+1006i	The	_	UO	-.-.-	UO.-	1006m	ME		
+1006j	Fellowship	_	UO	-.-.-	UO.-	1006m	ME		
+1006k	of	_	UO	-.-.-	UO.-	1006m	ME		
+1006l	the	_	UO	-.-.-	UO.-	1006m	ME		
+1006m	Ring	_	UO	-.-.-	UO.-	1009	--		SpaceAfter=No
 1007	)	_	SY	-.-.-	SY.DEL	1009	--		SpaceAfter=No
 1008	,	_	SY	-.-.-	SY.DEL	1009	--		
 1009	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
@@ -98827,9 +98827,9 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 
 # sent_id = Wiki_Saganomringenfilm.7
 # text = För länge sedan smiddes maktens ringar på order av Sauron.
-1001	För	för	PE	-.-.-	PE.-	1002	HD		
-1002	länge	länge	AB	-.-.-	AB.POS.-	1004	MD	1004:MD|1001:ME	
-1003	sedan	sedan	AB	-	AB.-.-	9	ME	9:ME|1001:ME	
+1001	För	för	PE	-.-.-	PE.-	1003			
+1002	länge	länge	AB	-.-.-	AB.POS.-	1003	OO	1003:OO|1001:ME	
+1003	sedan	sedan	AB	-	AB.-.-	1004	MD	1004:MD|1001:ME	
 1004	smiddes	smida	VB	-.-.-	VB.IND.SFO.PRT	0	--		
 1005	maktens	makt	NN	-.GEN.-	NN.UTR.SIN.DEF	1006	MD		
 1006	ringar	ring	NN	-.-.-	NN.UTR.PLU.IND	1004	SB		
@@ -100135,8 +100135,8 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1018	4	fyra	NU	-.-.-	NU.-	1019	DT		
 1019	Oscar	Oscar	EN	-.-.-	EN.-	1017	OO		
 1020	för	för	PE	-.-.-	PE.-	1019	MD		
-1021	bland	bland	PE	-.-.-	PE.-	1024	MD		
-1022	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1021	ME		
+1021	bland	bland	PE	-.-.-	PE.-	1022	ME		
+1022	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1024	MD		
 1023	bästa	bra	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	1024	MD		
 1024	specialeffekter	specialeffekt	NN	-.-.-	NN.UTR.PLU.IND	1020	OO		SpaceAfter=No
 1025	.	_	SY	-.-.-	SY.DEL	1011	--		
@@ -101307,14 +101307,14 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1014	området	område	NN	-.-.-	NN.NEU.SIN.DEF	1013	OO		
 1015	ända	ända	AB	-.-.-	AB.-.-	1016	MD		
 1016	till	till	PE	-.-.-	PE.-	1013	MD	1013:MD|1015:ME	
-1017	Fish	_	UO	-.-.-	UO.-	1016	OO		
-1018	River	_	UO	-.-.-	UO.-	1017	ME		
+1017	Fish	_	UO	-.-.-	UO.-	1018	ME		
+1018	River	_	UO	-.-.-	UO.-	1016	OO		
 1019	(	_	SY	-.-.-	SY.DEL	1003	--		SpaceAfter=No
-1020	Rio	_	UO	-.-.-	UO.-	1017	AN		
-1021	do	_	UO	-.-.-	UO.-	1020	ME		
-1022	Infante	_	UO	-.-.-	UO.-	1020	ME		SpaceAfter=No
+1020	Rio	_	UO	-.-.-	UO.-	1022	ME		
+1021	do	_	UO	-.-.-	UO.-	1022	ME		
+1022	Infante	_	UO	-.-.-	UO.-	1018	AN		SpaceAfter=No
 1023	)	_	SY	-.-.-	SY.DEL	1003	--		
-1024	i	i	PE	-.-.-	PE.-	1017	MD		
+1024	i	i	PE	-.-.-	PE.-	1018	MD		
 1025	dagens	dag	NN	-.GEN.-	NN.UTR.SIN.DEF	1026	DT		
 1026	Sydafrika	Sydafrika	EN	-.-.-	EN.-	1024	OO		SpaceAfter=No
 1027	,	_	SY	-.-.-	SY.DEL	1003	--		
@@ -101349,8 +101349,8 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1016	Indien	Indien	EN	-.-.-	EN.-	1017	SB	1017:SB|1018:SB	
 1017	kunde	kunna	VB	-.-.-	VB.IND.AKT.PRT	1015	OO		
 1018	nås	nå	VB	-.-.-	VB.INF.SFO.-	1017	IV		
-1019	till	till	PE	-.-.-	PE.-	1018	RA		
-1020	sjöss	sjö	NN	-.-.-	NN.UTR.SIN.IND	1019	ME		
+1019	till	till	PE	-.-.-	PE.-	1020	ME		
+1020	sjöss	sjö	NN	-.-.-	NN.UTR.SIN.IND	1018	RA		
 1021	från	från	PE	-.-.-	PE.-	1018	RA		
 1022	Atlanten	Atlanten	EN	-.-.-	EN.-	1021	OO		SpaceAfter=No
 1023	.	_	SY	-.-.-	SY.DEL	1002	--		
@@ -101566,12 +101566,12 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1003	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1004	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1003	SB	1003:SB|1005:SB	
 1005	passerat	passera	VB	-.-.-	VB.SPM.AKT.-	1003	IV		
-1006	White	_	UO	-.-.-	UO.-	1005	OO		
-1007	River	_	UO	-.-.-	UO.-	1006	ME		
-1008	i	i	PE	-.-.-	PE.-	1006	MD		
+1006	White	_	UO	-.-.-	UO.-	1007	ME		
+1007	River	_	UO	-.-.-	UO.-	1005	OO		
+1008	i	i	PE	-.-.-	PE.-	1007	MD		
 1009	Sydafrika	Sydafrika	EN	-.-.-	EN.-	1008	OO		SpaceAfter=No
 1010	,	_	SY	-.-.-	SY.DEL	1003	--		
-1011	där	där	SU	-.-.-	SU.-	1006	MD	1006:MD|1013:RA|1017:RA	
+1011	där	där	SU	-.-.-	SU.-	1007	MD	1007:MD|1013:RA|1017:RA	
 1012	Dias	Dias	EN	-.-.-	EN.-	1013	SB	1013:SB|1018:SB|1014:SB|1017:SB	
 1013	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	1017	KL	1017:KL|1017:HD	
 1014	vänt	vända	VB	-.-.-	VB.SPM.AKT.-	1013	IV		
@@ -102151,8 +102151,8 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1013	)	_	SY	-.-.-	SY.DEL	1027	--		
 1014	kust	kust	NN	-.-.-	NN.UTR.SIN.IND	1019	SB		SpaceAfter=No
 1015	,	_	SY	-.-.-	SY.DEL	1027	--		
-1016	Contra	_	UO	-.-.-	UO.-	1014	AN		
-1017	Costa	_	UO	-.-.-	UO.-	1016	ME		SpaceAfter=No
+1016	Contra	_	UO	-.-.-	UO.-	1017	ME		
+1017	Costa	_	UO	-.-.-	UO.-	1014	AN		SpaceAfter=No
 1018	,	_	SY	-.-.-	SY.DEL	1027	--		
 1019	var	vara	VB	-.-.-	VB.IND.AKT.PRT	1008	OO		
 1020	väsentlig	väsentlig	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1019	SP		
@@ -102404,9 +102404,9 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1041	,	_	SY	-.-.-	SY.DEL	0	--		
 1042	och	och	KO	-.-.-	KO.-	1030	PH		
 1043	erövrade	erövra	VB	-.-.-	VB.IND.AKT.PRT	1030	KL		
-1044	i	i	PE	-.-.-	PE.-	1043	MD		
-1045	stort	stor	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1044	ME		
-1046	sett	sedd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1044	ME		
+1044	i	i	PE	-.-.-	PE.-	1046	ME		
+1045	stort	stor	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1046	ME		
+1046	sett	sedd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1043	MD		
 1047	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1048	DT		
 1048	staden	stad	NN	-.-.-	NN.UTR.SIN.DEF	1043	OO		SpaceAfter=No
 1049	.	_	SY	-.-.-	SY.DEL	0	--		
@@ -102474,9 +102474,9 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1007	över	över	PE	-.-.-	PE.-	1006	MD	1006:MD|1004:	
 1008	Vidigueira	Vidigueira	EN	-.-.-	EN.-	1009	KL		
 1009	och	och	KO	-.-.-	KO.-	1007	OO		
-1010	Vila	_	UO	-.-.-	UO.-	1009	KL		
-1011	dos	_	UO	-.-.-	UO.-	1010	ME		
-1012	Frades	_	UO	-.-.-	UO.-	1010	ME		SpaceAfter=No
+1010	Vila	_	UO	-.-.-	UO.-	1012	ME		
+1011	dos	_	UO	-.-.-	UO.-	1012	ME		
+1012	Frades	_	UO	-.-.-	UO.-	1009	KL		SpaceAfter=No
 1013	.	_	SY	-.-.-	SY.DEL	1002	--		
 
 # sent_id = Wiki_VascodaGama.72
@@ -103169,8 +103169,8 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1006	anledning	anledning	NN	-.-.-	NN.UTR.SIN.IND	1004	OO		
 1007	sin	sin	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	1008	DT		
 1008	film	film	NN	-.-.-	NN.UTR.SIN.IND	1003	OO		
-1009	Help	_	UO	-.-.-	UO.-	1008	AN		SpaceAfter=No
-1010	!	_	SY	-.-.-	SY.DEL	1009	ME		
+1009	Help	_	UO	-.-.-	UO.-	1010	ME		SpaceAfter=No
+1010	!	_	SY	-.-.-	SY.DEL	1008	AN		
 Wiki_Symaskin.18.1001	till	till	PE	-.-.-	PE.-	1003	OA		
 Wiki_Symaskin.18.1002	Elias	Elias	EN	-.-.-	EN.-	Wiki_Symaskin.18.1001	OO		
 Wiki_Symaskin.18.1003	Howe	Howe	EN	-.-.-	EN.-	Wiki_Symaskin.18.1002	ME		
@@ -105614,8 +105614,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1008	i	i	PE	-.-.-	PE.-	1007	MD		
 1009	trafik	trafik	NN	-.-.-	NN.UTR.SIN.IND	1008	OO		
 1010	både	både	KO	-.-.-	KO.-	1009	MD		
-1011	till	till	PE	-.-.-	PE.-	1010	KL		
-1012	sjöss	sjö	NN	-.-.-	NN.UTR/NEU.SIN/PLU.IND/DEF	1011	ME		
+1011	till	till	PE	-.-.-	PE.-	1012	ME		
+1012	sjöss	sjö	NN	-.-.-	NN.UTR/NEU.SIN/PLU.IND/DEF	1010	KL		
 1013	och	och	KO	-.-.-	KO.-	1010	ME		
 1014	på	på	PE	-.-.-	PE.-	1010	KL		
 1015	land	land	NN	-.-.-	NN.NEU.SIN.IND	1014	OO		SpaceAfter=No
@@ -105985,8 +105985,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1010b	,	_	SY	-.-.-	SY.DEL	1004	--		
 1011	halofenomen	halofenomen	NN	-.-.-	NN.NEU.PLU.IND	1012	KL		
 1012	och	och	KO	-.-.-	KO.-	1004	SB		
-1013	fata	_	UO	-.-.-	UO.-	1012	KL		
-1014	morgana	_	UO	-.-.-	UO.-	1013	ME		SpaceAfter=No
+1013	fata	_	UO	-.-.-	UO.-	1014	ME		
+1014	morgana	_	UO	-.-.-	UO.-	1012	KL		SpaceAfter=No
 1015	.	_	SY	-.-.-	SY.DEL	1004	--		
 
 # sent_id = Wiki_Vader.102
@@ -107512,10 +107512,10 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1007	56,7	femtiosex komma sju	NU	-.-.-	NU.-	1008	DT		
 1008	°C	_	SY	-.-.-	SY.SYM	1006	SP		
 1009	i	i	PE	-.-.-	PE.-	1006	RA		
-1010	Death	_	UO	-.-.-	UO.-	1009	OO		
-1011	Valley	_	UO	-.-.-	UO.-	1010	ME		SpaceAfter=No
+1010	Death	_	UO	-.-.-	UO.-	1011	ME		
+1011	Valley	_	UO	-.-.-	UO.-	1009	OO		SpaceAfter=No
 1012	,	_	SY	-.-.-	SY.DEL	1006	--		
-1013	USA	USA	EN	-.-.-	EN.-	1010	AN		
+1013	USA	USA	EN	-.-.-	EN.-	1011	AN		
 1014	10	tionde	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1015	DT		
 1015	juli	juli	NN	-.-.-	NN.UTR.SIN.IND	1006	MD	1006:MD|1014:ME	
 1016	1913	ettusenniohundratretton	NU	-.-.-	NU.-	1015	MD	1015:MD|1014:ME	SpaceAfter=No
@@ -108136,10 +108136,10 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1004	första	första	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	1005	MD		
 1005	världskriget	världskrig	NN	-.-.-	NN.NEU.SIN.DEF	1003	OO	1003:OO|1004:ME	
 1006	i	i	PE	-.-.-	PE.-	1002	OA		
-1007	Royal	_	UO	-.-.-	UO.-	1006	OO		
-1008	Army	_	UO	-.-.-	UO.-	1007	ME		
-1009	Medical	_	UO	-.-.-	UO.-	1007	ME		
-1010	Corps	_	UO	-.-.-	UO.-	1007	ME		SpaceAfter=No
+1007	Royal	_	UO	-.-.-	UO.-	1010	ME		
+1008	Army	_	UO	-.-.-	UO.-	1010	ME		
+1009	Medical	_	UO	-.-.-	UO.-	1010	ME		
+1010	Corps	_	UO	-.-.-	UO.-	1006	OO		SpaceAfter=No
 1011	,	_	SY	-.-.-	SY.DEL	1012	--		
 1012	men	men	KO	-.-.-	KO.-	0	--		
 1013	bedrev	bedriva	VB	-.-.-	VB.IND.AKT.PRT	1012	KL		
@@ -108373,8 +108373,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1002	valdes	välja	VB	-.-.-	VB.IND.SFO.PRT	1008	KL		
 1003	in	in	AB	-.-.-	AB.-.-	1002	PL	1002:PL|1002:ME	
 1004	i	i	PE	-.-.-	PE.-	1002	MD		
-1005	Royal	_	UO	-.-.-	UO.-	1004	OO		
-1006	Society	_	UO	-.-.-	UO.-	1005	ME		
+1005	Royal	_	UO	-.-.-	UO.-	1006	ME		
+1006	Society	_	UO	-.-.-	UO.-	1004	OO		
 1007	1944	ettusenniohundrafyrtiofyra	NU	-.-.-	NU.-	1002	MD		
 1008	och	och	KO	-.-.-	KO.-	0	--		
 1009	adlades	adla	VB	-.-.-	VB.IND.SFO.PRT	1008	KL		
@@ -108432,8 +108432,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1008	/	_	SY	-.-.-	SY.DEL	1005	SP		SpaceAfter=No
 1009	äventyrsroman	äventyrsroman	NN	-.-.-	NN.UTR.SIN.IND	1008	KL	1008:KL|1014:SB	
 1010	av	av	PE	-.-.-	PE.-	1009	MD	1009:MD|1007:	
-1011	Astrid	Astrid	EN	-.-.-	EN.-	1010	OO		
-1012	Lindgren	Lindgren	EN	-.-.-	EN.-	1011	ME		
+1011	Astrid	Astrid	EN	-.-.-	EN.-	1012	ME		
+1012	Lindgren	Lindgren	EN	-.-.-	EN.-	1010	OO		
 1013	som	som	SU	-.-.-	SU.-	1009	MD	1009:MD|1007:	
 1014	handlar	handla	VB	-.-.-	VB.IND.AKT.PRS	1013	OO		
 1015	om	om	PE	-.-.-	PE.-	1014	OA		
@@ -109638,8 +109638,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 
 # sent_id = Wiki_MiominMio.61
 # text = Till slut kommer de fram till en svart ödslig sjö och över den kretsar svarta fåglar som skriker sorgsna skrik.
-1001	Till	till	PE	-.-.-	PE.-	1003	MD		
-1002	slut	slut	NN	-.-.-	NN.NEU.SIN.IND	1001	ME		
+1001	Till	till	PE	-.-.-	PE.-	1002	ME		
+1002	slut	slut	NN	-.-.-	NN.NEU.SIN.IND	1003	MD		
 1003	kommer	komma	VB	-.-.-	VB.IND.AKT.PRS	1011	KL		
 1004	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1003	SB		
 1005	fram	fram	AB	-.-.-	AB.-.-	1003	PL		
@@ -109807,9 +109807,9 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1009	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	1008	OO		
 1010	två	två	NU	-.-.-	NU.-	1009	DT		
 1011	men	men	KO	-.-.-	KO.-	0	--		
-1012	till	till	PE	-.-.-	PE.-	1016	MD		
-1013	och	och	KO	-.-.-	KO.-	1012	ME		
-1014	med	med	PE	-.-.-	PE.-	1012	ME		
+1012	till	till	PE	-.-.-	PE.-	1014	ME		
+1013	och	och	KO	-.-.-	KO.-	1014	ME		
+1014	med	med	PE	-.-.-	PE.-	1016	MD		
 1015	naturen	natur	NN	-.-.-	NN.UTR.SIN.DEF	1016	SB		
 1016	hatar	hata	VB	-.-.-	VB.IND.AKT.PRS	1011	KL		
 1017	riddar	riddar	NN	-.-.-	NN.UTR.SIN.IND	1016	OO		
@@ -110903,9 +110903,9 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 # text = I ett för länge sedan försvunnet torftigt litet statarkök var det som undret skedde, och sen den dagen finns i världen inget annat kök".
 1001	I	i	PE	-.-.-	PE.-	1010	SP	1010:SP|1014:	
 1002	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	1009	DT		
-1003	för	för	PE	-.-.-	PE.-	9999			
-1004	länge	länge	AB	-.-.-	AB.POS.-	1005	OO	1005:OO|9999:ME	
-1005	sedan	sedan	PE	-.-.-	PE.-	1006	MD	1006:MD|9999:ME	
+1003	för	för	PE	-.-.-	PE.-	1005			
+1004	länge	länge	AB	-.-.-	AB.POS.-	1005	OO	1005:OO|1003:ME	
+1005	sedan	sedan	PE	-.-.-	PE.-	1006	MD	1006:MD|1003:ME	
 1006	försvunnet	försvunnen	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1009	MD		
 1007	torftigt	torftig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1009	MD		
 1008	litet	liten	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1009	MD		
@@ -111018,8 +111018,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1029	och	och	KO	-.-.-	KO.-	1017	AN		
 1030	böckerna	bok	NN	-.-.-	NN.UTR.PLU.DEF	1029	KL		
 1031	om	om	PE	-.-.-	PE.-	1030	MD		
-1032	Kalle	Kalle	EN	-.-.-	EN.-	1031	OO		
-1033	Blomkvist	Blomkvist	EN	-.-.-	EN.-	1032	ME		SpaceAfter=No
+1032	Kalle	Kalle	EN	-.-.-	EN.-	1033	ME		
+1033	Blomkvist	Blomkvist	EN	-.-.-	EN.-	1031	OO		SpaceAfter=No
 1034	.	_	SY	-.-.-	SY.DEL	1005	--		
 
 # sent_id = Wiki_MiominMio.124
@@ -111236,11 +111236,11 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 # text = Boken är Astrid Lindgrens första high fantasy-roman.
 1001	Boken	bok	NN	-.-.-	NN.UTR.SIN.DEF	1002	SB		
 1002	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
-1003	Astrid	Astrid	EN	-.-.-	EN.-	1006	DT		
+1003	Astrid	Astrid	EN	-.-.-	EN.-	1007	DT		
 1004	Lindgrens	Lindgren	EN	-.GEN.-	EN.-	1003	ME		
-1005	första	första	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	1006	MD		
-1006	high	_	UO	-.-.-	UO.-	1002	SP		
-1007	fantasy-roman	fantasy|roman	NN	-.-.-	NN.UTR.SIN.IND	1006	ME		SpaceAfter=No
+1005	första	första	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	1007	MD		
+1006	high	_	UO	-.-.-	UO.-	1007	ME		
+1007	fantasy-roman	fantasy|roman	NN	-.-.-	NN.UTR.SIN.IND	1002	SP		SpaceAfter=No
 1008	.	_	SY	-.-.-	SY.DEL	1002	--		
 
 # sent_id = Wiki_MiominMio.137
@@ -111528,8 +111528,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1024	ängars	äng	NN	-.GEN.-	NN.UTR.PLU.IND	1025	DT	1025:DT|1023:ME	
 1025	ö	ö	NN	-.-.-	NN.UTR.SIN.IND	1022	OO	1022:OO|1023:ME	
 1026	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
-1027	Landet	land	NN	-.-.-	NN.NEU.SIN.DEF	1026	SP		
-1028	Utanför	utanför	AB	-.-.-	AB.-.-	1027	ME		SpaceAfter=No
+1027	Landet	land	NN	-.-.-	NN.NEU.SIN.DEF	1028	ME		
+1028	Utanför	utanför	AB	-.-.-	AB.-.-	1026	SP		SpaceAfter=No
 1029	.	_	SY	-.-.-	SY.DEL	1026	--		
 
 # sent_id = Wiki_MiominMio.148
@@ -111636,8 +111636,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1005	mästerverk	mästerverk	NN	-.-.-	NN.NEU.SIN.IND	1002	AN		SpaceAfter=No
 1006	"	_	SY	-.-.-	SY.DEL	1016	--		
 1007	jämförde	jämföra	VB	-.-.-	VB.IND.AKT.PRT	1016	KL		
-1008	Sydsvenska	sydsvensk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1010	DT		
-1009	Dagbladets	dagblad	NN	-.GEN.-	NN.NEU.SIN.DEF	1008	ME		
+1008	Sydsvenska	sydsvensk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1009	ME		
+1009	Dagbladets	dagblad	NN	-.GEN.-	NN.NEU.SIN.DEF	1010	DT		
 1010	recensent	recensent	NN	-.-.-	NN.UTR.SIN.IND	1007	SB	1007:SB|1017:	
 1011	Daniel	Daniel	EN	-.-.-	EN.-	1010	AN		
 1012	Hjort	Hjort	EN	-.-.-	EN.-	1011	ME		
@@ -111765,10 +111765,10 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1012	Nordisk	nordisk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1013	ME		
 1013	Tonefilm	Tonefilm	EN	-.-.-	EN.-	1020	KL		SpaceAfter=No
 1014	,	_	SY	-.-.-	SY.DEL	1002	--		
-1015	Svensk	svensk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1020	KL		
-1016	Filmindustri	filmindustri	NN	-.-.-	NN.UTR.SIN.IND	1015	ME		
+1015	Svensk	svensk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1016	ME		
+1016	Filmindustri	filmindustri	NN	-.-.-	NN.UTR.SIN.IND	1020	KL		
 1017	(	_	SY	-.-.-	SY.DEL	1002	--		SpaceAfter=No
-1018	SF	SF	EN	-.-.-	EN.-	1015	AN		SpaceAfter=No
+1018	SF	SF	EN	-.-.-	EN.-	1016	AN		SpaceAfter=No
 1019	)	_	SY	-.-.-	SY.DEL	1002	--		
 1020	och	och	KO	-.-.-	KO.-	1011	OO		
 1021	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1023	DT		
@@ -112220,8 +112220,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1008	Chevrolet	Chevrolet	EN	-.-.-	EN.-	1005	OO		
 1009	Impala	Impala	EN	-.-.-	EN.-	1008	ME		
 1010	av	av	PE	-.-.-	PE.-	1008	MD		
-1011	1964	ettusenniohundrasextiofyra	NU	-.-.-	NU.-	1013	DT		
-1012	års	år	NN	-.GEN.-	NN.NEU.SIN.IND	1011	ME		
+1011	1964	ettusenniohundrasextiofyra	NU	-.-.-	NU.-	1012	ME		
+1012	års	år	NN	-.GEN.-	NN.NEU.SIN.IND	1013	DT		
 1013	modell	modell	NN	-.-.-	NN.UTR.SIN.IND	1010	OO		SpaceAfter=No
 1014	.	_	SY	-.-.-	SY.DEL	1002	--		
 
@@ -112629,9 +112629,9 @@ Wiki_Jonssonligan.16.1011	.	_	SY	-.-.-	SY.DEL	Wiki_Jonssonligan.16.1005	--
 1005	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1007	DT		
 1006	danska	dansk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1007	MD		
 1007	filmen	film	NN	-.-.-	NN.UTR.SIN.DEF	1003	SB	1003:SB|1014:SB	
-1008	Olsen-banden	_	UO	-.-.-	UO.-	1007	AN		
-1009	på	_	UO	-.-.-	UO.-	1008	ME		
-1010	spanden	_	UO	-.-.-	UO.-	1008	ME		
+1008	Olsen-banden	_	UO	-.-.-	UO.-	1010	ME		
+1009	på	_	UO	-.-.-	UO.-	1010	ME		
+1010	spanden	_	UO	-.-.-	UO.-	1007	AN		
 1011	som	som	SU	-.-.-	SU.-	1007	MD		
 1012	året	år	NN	-.-.-	NN.NEU.SIN.DEF	1014	MD		
 1013	efter	efter	AB	-.-.-	AB.-.-	1012	MD		
@@ -112784,9 +112784,9 @@ Wiki_Jonssonligan.16.1011	.	_	SY	-.-.-	SY.DEL	Wiki_Jonssonligan.16.1005	--
 1010	,	_	SY	-.-.-	SY.DEL	1011	--		
 1011	utspelar	utspela	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 1012	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1011	OO	1011:OO|1011:ME	
-1013	till	till	PE	-.-.-	PE.-	1011	MD		
-1014	och	och	KO	-.-.-	KO.-	1013	ME		
-1015	med	med	PE	-.-.-	PE.-	1013	ME		
+1013	till	till	PE	-.-.-	PE.-	1015	ME		
+1014	och	och	KO	-.-.-	KO.-	1015	ME		
+1015	med	med	PE	-.-.-	PE.-	1011	MD		
 1016	i	i	PE	-.-.-	PE.-	1011	OA		
 1017	nutid	nutid	NN	-.-.-	NN.UTR.SIN.IND	1016	OO		SpaceAfter=No
 1018	.	_	SY	-.-.-	SY.DEL	1011	--		
@@ -113065,8 +113065,8 @@ Wiki_Jonssonligan.16.1011	.	_	SY	-.-.-	SY.DEL	Wiki_Jonssonligan.16.1005	--
 1016	och	och	KO	-.-.-	KO.-	1009	AN		
 1017	Jönssonligan	Jönssonligan	EN	-.-.-	EN.-	1018	SB		
 1018	går	gå	VB	-.-.-	VB.IND.AKT.PRS	1016	KL	1016:KL|1017:ME	
-1019	på	på	PE	-.-.-	PE.-	1018	MD	1018:MD|1017:ME	
-1020	djupet	djup	NN	-.-.-	NN.NEU.SIN.DEF	1019	ME	1019:ME|1017:ME	SpaceAfter=No
+1019	på	på	PE	-.-.-	PE.-	1020	ME	1020:ME|1017:ME	
+1020	djupet	djup	NN	-.-.-	NN.NEU.SIN.DEF	1018	MD	1018:MD|1017:ME	SpaceAfter=No
 1021	.	_	SY	-.-.-	SY.DEL	1003	--		
 
 # sent_id = Wiki_Jonssonligan.48
@@ -114307,9 +114307,9 @@ Wiki_Jonssonligan.16.1011	.	_	SY	-.-.-	SY.DEL	Wiki_Jonssonligan.16.1005	--
 1001	Makten	makt	NN	-.-.-	NN.UTR.SIN.DEF	1002	SB		
 1002	gled	glida	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 1003	sedan	sedan	AB	-.-.-	AB.-.-	1002	MD		
-1004	undan	undan	PE	-.-.-	PE.-	1002	MD		
-1005	för	för	PE	-.-.-	PE.-	1004	ME		
-1006	undan	undan	PE	-.-.-	PE.-	1004	ME		
+1004	undan	undan	PE	-.-.-	PE.-	1006	ME		
+1005	för	för	PE	-.-.-	PE.-	1006	ME		
+1006	undan	undan	PE	-.-.-	PE.-	1002	MD		
 1007	över	över	PE	-.-.-	PE.-	1002	PL	1002:PL|1002:ME	
 1008	i	i	PE	-.-.-	PE.-	1002	MD		
 1009	kungens	kung	NN	-.GEN.-	NN.UTR.SIN.DEF	1010	DT		
@@ -114628,8 +114628,8 @@ Wiki_Jonssonligan.16.1011	.	_	SY	-.-.-	SY.DEL	Wiki_Jonssonligan.16.1005	--
 1010	krav	krav	NN	-.-.-	NN.NEU.SIN.IND	1017	SB		
 1011	på	på	PE	-.-.-	PE.-	1010	MD		
 1012	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1016	DT		
-1013	i	i	PE	-.-.-	PE.-	1015	MD		
-1014	praktiken	praktik	NN	-.-.-	NN.UTR.SIN.DEF	1013	ME		
+1013	i	i	PE	-.-.-	PE.-	1014	ME		
+1014	praktiken	praktik	NN	-.-.-	NN.UTR.SIN.DEF	1015	MD		
 1015	allmän	allmän	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1016	MD		
 1016	rösträtt	rösträtt	NN	-.-.-	NN.UTR.SIN.IND	1011	OO		
 1017	fördes	föra	VB	-.-.-	VB.IND.SFO.PRT	1009	OO		
@@ -114758,14 +114758,14 @@ Wiki_Jonssonligan.16.1011	.	_	SY	-.-.-	SY.DEL	Wiki_Jonssonligan.16.1005	--
 1014	var	vara	VB	-.-.-	VB.IND.AKT.PRT	1012	OO		
 1015	graderad	graderad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	SP		
 1016	(	_	SY	-.-.-	SY.DEL	1011	--		SpaceAfter=No
-1017	ju	ju	AB	-.-.-	AB.-.-	1025	OO		
+1017	ju	ju	AB	-.-.-	AB.-.-	1022	ME		
 1018	större	stor	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1019	MD	1019:MD|1021:MD	
 1019	förmögenhet	förmögenhet	NN	-.-.-	NN.UTR.SIN.IND	1020	KL		SpaceAfter=No
-1020	/	_	SY	-.-.-	SY.DEL	1017	KL		SpaceAfter=No
+1020	/	_	SY	-.-.-	SY.DEL	1022	KL		SpaceAfter=No
 1021	inkomst	inkomst	NN	-.-.-	NN.UTR.SIN.IND	1020	KL		
-1022	desto	desto	AB	-.-.-	AB.-.-	1017	ME		
+1022	desto	desto	AB	-.-.-	AB.-.-	1025	OO		
 1023	fler	mången	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1024	MD		
-1024	röster	röst	NN	-.-.-	NN.UTR.PLU.IND	1017	KL		
+1024	röster	röst	NN	-.-.-	NN.UTR.PLU.IND	1022	KL		
 1025	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	1014	DF		
 1026	väljaren	väljare	NN	-.-.-	NN.UTR.SIN.DEF	1025	SB		SpaceAfter=No
 1027	)	_	SY	-.-.-	SY.DEL	1011	--		

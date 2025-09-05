@@ -25,7 +25,7 @@ end
 @matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"nsubj:pass","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","HD"=>"dep","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"}
 #Major: Heads and dependents, clauses vs non-clauses, previous conversion (MWE), coordination. Go from UD relations
 #Do a split?
-# Fix ill-formed trees (double-check that old ones got fixed correcty? Check MWEs)
+# Fix ill-formed trees 1) wait for Gerlof; 2) disconnected+MWE 3) rest 4) KoP and head assignment? 5)double-check that old ones got fixed correcty
 #Look into: AN, EF, EO, ES, KL, ME, OA, PH, RA:advcl?, OP+SP. 
 # Not listed: "DF"=>"discourse" (parataxis?), IV: always aux?, "JF", MD, --: root, punct, not inherited
 ## punctuation assignment

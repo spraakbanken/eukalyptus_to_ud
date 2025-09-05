@@ -22,7 +22,7 @@ require 'io/console'
 
 
 verbose = ARGV[0]
-if verbose.nil?
+if verbose.nil? or verbose == "false"
     verbose = false
 end
 
@@ -41,7 +41,7 @@ def nodeid_to_integer(sent_id,node_id)
     return id
 end
 
-def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose)
+def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose, sent_id)
     if verbose then STDERR.puts "New method" end
     until false == true do
         next_level = primary_tree[current_id]
@@ -71,8 +71,17 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose)
                             end
                         end
                         if head.nil? #assign head even if there was no pos match
-                            head = mwe[0].clone
-                            if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal MWE Non-analyzable No real head found #{head}" end
+                            mwe.each do |mwenode|
+                                if term_ids.include?(mwenode)
+                                    head = mwenode.clone
+                                end
+                            end
+                            if head.nil?
+                                STDERR.puts "ERROR ERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERROR MWE head not found!"
+                            end
+
+                            #head = mwe[0].clone
+                            if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal MWE Non-analyzable No real head found, taking the leftmost terminal node as head #{head}" end
                         end
                         
                         if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal MWE Restructuring the tree" end
@@ -88,23 +97,41 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose)
                                 
                             if mwenode != head
                                 #@primary_tree[head] << mwenode
-                                @reversed_tree[mwenode] = head #next_level[head_label_index]
-                                #@reversed_labels[mwenode] = "HD-#{cat}"
-                                @reversed_labels[mwenode] = @primary_labels[node][mwenodeindex]
+                                if term_ids.include?(mwenode)
+                                    @reversed_tree[mwenode] = head #next_level[head_label_index]
+                                    #@reversed_labels[mwenode] = "HD-#{cat}"
+                                    @reversed_labels[mwenode] = @primary_labels[node][mwenodeindex]
+                                else
+                                    nodesundermwe = primary_tree[mwenode]
+                                    nodesundermwe.each.with_index do |nodesundermwenode, nodesundermwenodeindex|
+                                        if term_ids.include?(nodesundermwenode)
+                                            @reversed_tree[nodesundermwenode] = head #next_level[head_label_index]
+                                            #@reversed_labels[mwenode] = "HD-#{cat}"
+                                            @reversed_labels[nodesundermwenode] = @primary_labels[nodesundermwenode][nodesundermwenodeindex]
+                                        else
+                                            for i in 1..10
+                                                STDERR.puts "RECURSION required #{sent_id}"
+                                            end
+                                        end
+                                    end
+                                end
                             end
                         end
                     else
-                        if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal MWE Analyzable" end
                         head = mwe[0].clone
+                        if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal MWE Analyzable. Head: #{head}" end
                     end
                     @primary_tree[current_id][nodeindex] = head.clone
                     @primary_tree.delete(node)
+                    if verbose then STDERR.puts "#{@primary_tree}" end
+                    if verbose then STDERR.puts "#{@reversed_tree}" end
                     @mwes_replaced[node] = head.clone
                 else
                     if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal Usual" end
                     #STDIN.getch
-                    deal_with_mwes(primary_tree, node, phrases, term_ids, words, verbose)
+                    
                 end
+                deal_with_mwes(primary_tree, node, phrases, term_ids, words, verbose, sent_id)
                 
             end
         end
@@ -140,15 +167,17 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 if verbose then STDERR.puts "Current_id: #{current_id} Several nodes under Top. Check if they all are terminal" end
     
                 nonterminals = 0
+                nonterminal_cats = []
 
                 next_level.each do |node|
                     if !term_ids.include?(node)
                         nonterminals += 1
+                        nonterminal_cats << phrases[node]
                     end
                 end
                 if nonterminals > 1
                     @nsents_several_nonterminals_on_top += 1
-                    STDOUT.puts "#{sent_id}\t#{nonterminals}"
+                    #STDOUT.puts "#{sent_id}\t#{nonterminals}\t#{nonterminal_cats.uniq}\t#{nonterminal_cats}"
                 end
 
                 terminalsonly = 1
@@ -162,11 +191,12 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         if verbose then STDERR.puts "Current_id: #{current_id} There is a non-terminal node #{node}, we are fine" end
     
                         terminalsonly = 0
-                        break
-                    end
-                    if words[node]["pos"] != "SY"
-                        nonsymbols += 1
-                        the_nonsymbol = node.clone
+                        #break
+                    else
+                        if words[node]["pos"] != "SY"
+                            nonsymbols += 1
+                            the_nonsymbol = node.clone
+                        end
                     end
                 end
                 
@@ -217,6 +247,11 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         @n_only_terminals_on_top += terminalsonly
                         #STDOUT.puts "#{sent_id}\t#{nonsymbols}"
                         #end
+                    end
+                else
+                    if nonsymbols > 0
+                        #Sentences where there are non-terminals on top, but also non-SY terminals
+                        #STDOUT.puts "#{sent_id}\t#{nonsymbols}"
                     end
                 end
             end
@@ -536,7 +571,7 @@ filenames.each do |filename|
                 #end
                 #STDERR.puts ""
                 if verbose then STDERR.puts "Dealing with MWEs" end
-                deal_with_mwes(primary_tree, "#{sent_id}.0", phrases, term_ids, words, verbose)
+                deal_with_mwes(primary_tree, "#{sent_id}.0", phrases, term_ids, words, verbose, sent_id)
                 #@primary_tree.each_pair do |key,value|
                 #    STDERR.puts "#{key},#{value},#{@primary_labels[key]}"
                 #    
@@ -597,6 +632,7 @@ filenames.each do |filename|
                 end
                 outputfile.puts "# text = #{text}"
     
+                @reversed_tree_newids = {}
                 term_ids.sort.each do |term_id|
                     #STDERR.puts term_id
                     info = words[term_id]
@@ -620,8 +656,10 @@ filenames.each do |filename|
                         misc << "SpaceAfter=No"
                     end
                     misc = misc.join("|")
-    
-                    outputfile.puts "#{nodeid_to_integer(sent_id,term_id)}\t#{info["word"]}\t#{info["lemma"]}\t#{info["pos"]}\t#{info["msd2"]}\t#{info["msd"]}\t#{head}\t#{deprel}\t#{secdep}\t#{misc}"
+                    
+                    new_nodeid = nodeid_to_integer(sent_id,term_id)
+                    outputfile.puts "#{new_nodeid}\t#{info["word"]}\t#{info["lemma"]}\t#{info["pos"]}\t#{info["msd2"]}\t#{info["msd"]}\t#{head}\t#{deprel}\t#{secdep}\t#{misc}"
+                    @reversed_tree_newids[new_nodeid] = head
                 end
                 #STDERR.puts @reversed_tree
                 #STDERR.puts @reversed_labels
@@ -629,7 +667,8 @@ filenames.each do |filename|
                 #abort
                 
                 outputfile.puts ""
-                status, nheads, detailed_status = check_reversed_tree(@reversed_tree)
+                #STDERR.puts "#{@reversed_tree_newids}"
+                status, nheads, detailed_status = check_reversed_tree(@reversed_tree_newids)
                 if status != 0 
                     tree_error_file.puts "#{sent_id}\t#{nheads}\t#{detailed_status}"
                 end
@@ -643,5 +682,5 @@ filenames.each do |filename|
     end
 end
 STDERR.puts "Excluded sentences: #{excluded_sents.keys.length}. Processed sentences: #{n_processed_sents}. Invalid trees: #{n_wrong_trees}"
-STDERR.puts @n_only_terminals_on_top
-STDERR.puts @nsents_several_nonterminals_on_top
+STDERR.puts "Sentences where there are only terminals on top, and more than one have other POS than SY: #{@n_only_terminals_on_top}"
+STDERR.puts "Sentences where there are several nonterminals on top: #{@nsents_several_nonterminals_on_top}"
