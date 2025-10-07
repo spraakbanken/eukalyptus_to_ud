@@ -22,10 +22,23 @@ elsif mode == "list_pos"
 end
 
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
-@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"nsubj:pass","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","HD"=>"dep","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"}
+@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","HD"=>"dep","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"}
+
+=begin
+Lista 1:
+{"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent", "DT"=>"det", "IO"=>"iobj", "PL"=>"compound:prt"}
+
+Lista 2:
+KL, ME, PH, JF, --
+
+Lista 3:
+AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA (advcl+advmod?), OP+SP (xcomp?), DF (discourse?), IV (aux?), MD (different kinds of mods?), "HD"=>"dep
+=end
+
+
 #Major: Heads and dependents, clauses vs non-clauses, previous conversion (MWE), coordination. Go from UD relations
 #Do a split?
-# Fix ill-formed trees 1) wait for Gerlof; 2) disconnected+MWE 3) rest 4) KoP and head assignment? 5)double-check that old ones got fixed correcty
+# Fix ill-formed trees 1) check Gerlof; 2) disconnected+MWE 3) rest 4) KoP and head assignment? 5)double-check that old ones got fixed correcty
 #Look into: AN, EF, EO, ES, KL, ME, OA, PH, RA:advcl?, OP+SP. 
 # Not listed: "DF"=>"discourse" (parataxis?), IV: always aux?, "JF", MD, --: root, punct, not inherited
 ## punctuation assignment
