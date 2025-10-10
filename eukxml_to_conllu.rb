@@ -166,6 +166,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
     cat = phrases[current_id]
     #STDERR.puts "current_id", current_id
     #gets
+    
     if verbose then STDERR.puts "Current_id: #{current_id}" end
     #STDERR.puts "*** #{primary_tree["Romn_Lundqvist-Ingentobak.20.5"]} ***"
     onlyterminalsontop = false    
@@ -345,7 +346,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
 
                     if node == head #nodeindex == head_label_index
                         
-                        if root == 0 and @newroot.nil? #and cat != "KoP"
+                        if root == 0 and @newroot.nil? and cat != "KoP"
                             if verbose then STDERR.puts "    Current_id: #{current_id}. New root!" end
                             @newroot = node.clone#.gsub("#{sent_id}.","").to_i
                         end
@@ -604,7 +605,9 @@ filenames.each do |filename|
                 primary_tree = @primary_tree.clone
                 primary_labels = @primary_labels.clone
                 #abort
+                if verbose then STDERR.puts "*****" end
                 if verbose then STDERR.puts "Processing the primary tree" end
+                if verbose then STDERR.puts "*****" end
                 process_primary_tree(primary_tree, primary_labels, "#{sent_id}.0", term_ids, phrases, 0, sent_id,"",verbose, words)
                 secondary_tree.each_pair do |nt, towardsarray|
                     seclabelarray = secondary_labels[nt]

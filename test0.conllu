@@ -1,13 +1,30 @@
 # newdoc id = Arbt_Fackfientlig
-# sent_id = Romn_Lundqvist-Ingentobak.160
-# text = Men det har ruttnat bort för länge sen.
-1001	Men	men	KO	-.-.-	KO.-	1003	DF		
-1002	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1003	SB	1003:SB|1004:SB	
-1003	har	ha	VB	-.-.-	VB.IND.AKT.PRS	0	--		
-1004	ruttnat	ruttna	VB	-.-.-	VB.SPM.AKT.-	1003	IV		
-1005	bort	bort	AB	-.-.-	AB.-.-	1004	PL		
-1006	för	för	PE	-.-.-	PE.-	1008	ME		
-1007	länge	länge	AB	-.-.-	AB.POS.-	1008	OO	1008:OO|1006:ME	
-1008	sen	sen	AB	-.-.-	AB.-.-	1003	MD	1003:MD|1006:ME	SpaceAfter=No
-1009	.	_	SY	-.-.-	SY.DEL	1003	--		
+# sent_id = Romn_Lundqvist-Ingentobak.17
+# text = Barthel var nämligen inte alls någon söderhavs-entusiast, han var en civiliserad holländsk tjänsteman och föredrog kanalernas Amsterdam framför allt annat, särskilt före Kaimana.
+1001	Barthel	Barthel	EN	-.-.-	EN.-	1002	SB		
+1002	var	vara	VB	-.-.-	VB.IND.AKT.PRT	0	--		
+1003	nämligen	nämligen	AB	-.-.-	AB.-.-	1002	MD		
+1004	inte	inte	AB	-.-.-	AB.-.-	1002	MD		
+1005	alls	alls	AB	-.-.-	AB.-.-	1002	MD		
+1006	någon	någon	PO	-.-.-	PO.IND.SIN.UTR.-.-	1007	DT		
+1007	söderhavs-entusiast	Söderhavs|entusiast	NN	-.-.-	NN.UTR.SIN.IND	1002	SP		SpaceAfter=No
+1008	,	_	SY	-.-.-	SY.DEL	1002	--		
+1009	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1010	SB	1010:SB|1016:SB	
+1010	var	vara	VB	-.-.-	VB.IND.AKT.PRT	1015	KL		
+1011	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1014	DT		
+1012	civiliserad	civiliserad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	MD		
+1013	holländsk	holländsk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	MD		
+1014	tjänsteman	tjänsteman	NN	-.-.-	NN.UTR.SIN.IND	1010	SP		
+1015	och	och	KO	-.-.-	KO.-	1002	--		
+1016	föredrog	föredra	VB	-.-.-	VB.IND.AKT.PRT	1015	KL		
+1017	kanalernas	kanal	NN	-.GEN.-	NN.UTR.PLU.DEF	1018	DT		
+1018	Amsterdam	Amsterdam	EN	-.-.-	EN.-	1016	OO		
+1019	framför	framför	PE	-.-.-	PE.-	1016	MD		
+1020	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1021	DT		
+1021	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1019	OO		SpaceAfter=No
+1022	,	_	SY	-.-.-	SY.DEL	1002	--		
+1023	särskilt	särskild	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1024	MD		
+1024	före	före	PE	-.-.-	PE.-	1019	AN		
+1025	Kaimana	Kaimana	EN	-.-.-	EN.-	1024	OO		SpaceAfter=No
+1026	.	_	SY	-.-.-	SY.DEL	1002	--		
 
