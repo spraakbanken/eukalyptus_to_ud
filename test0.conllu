@@ -1,30 +1,37 @@
 # newdoc id = Arbt_Fackfientlig
-# sent_id = Romn_Lundqvist-Ingentobak.17
-# text = Barthel var nämligen inte alls någon söderhavs-entusiast, han var en civiliserad holländsk tjänsteman och föredrog kanalernas Amsterdam framför allt annat, särskilt före Kaimana.
-1001	Barthel	Barthel	EN	-.-.-	EN.-	1002	SB		
-1002	var	vara	VB	-.-.-	VB.IND.AKT.PRT	0	--		
-1003	nämligen	nämligen	AB	-.-.-	AB.-.-	1002	MD		
-1004	inte	inte	AB	-.-.-	AB.-.-	1002	MD		
-1005	alls	alls	AB	-.-.-	AB.-.-	1002	MD		
-1006	någon	någon	PO	-.-.-	PO.IND.SIN.UTR.-.-	1007	DT		
-1007	söderhavs-entusiast	Söderhavs|entusiast	NN	-.-.-	NN.UTR.SIN.IND	1002	SP		SpaceAfter=No
-1008	,	_	SY	-.-.-	SY.DEL	1002	--		
-1009	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1010	SB	1010:SB|1016:SB	
-1010	var	vara	VB	-.-.-	VB.IND.AKT.PRT	1015	KL		
-1011	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1014	DT		
-1012	civiliserad	civiliserad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	MD		
-1013	holländsk	holländsk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1014	MD		
-1014	tjänsteman	tjänsteman	NN	-.-.-	NN.UTR.SIN.IND	1010	SP		
-1015	och	och	KO	-.-.-	KO.-	1002	--		
-1016	föredrog	föredra	VB	-.-.-	VB.IND.AKT.PRT	1015	KL		
-1017	kanalernas	kanal	NN	-.GEN.-	NN.UTR.PLU.DEF	1018	DT		
-1018	Amsterdam	Amsterdam	EN	-.-.-	EN.-	1016	OO		
-1019	framför	framför	PE	-.-.-	PE.-	1016	MD		
-1020	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1021	DT		
-1021	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1019	OO		SpaceAfter=No
-1022	,	_	SY	-.-.-	SY.DEL	1002	--		
-1023	särskilt	särskild	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1024	MD		
-1024	före	före	PE	-.-.-	PE.-	1019	AN		
-1025	Kaimana	Kaimana	EN	-.-.-	EN.-	1024	OO		SpaceAfter=No
-1026	.	_	SY	-.-.-	SY.DEL	1002	--		
+# sent_id = Wiki_MiominMio.40
+# text = Kungen ger sitt tillstånd men vill varna Mio för Landet Utanför där den grymme riddar Kato bor, där nästan allt är svart och där folk har det eländigt och är utsvultna.
+1001	Kungen	kung	NN	-.-.-	NN.UTR.SIN.DEF	1002	SB	1002:SB|1007:SB|1006:SB	
+1002	ger	ge	VB	-.-.-	VB.IND.AKT.PRS	1005	KL		
+1003	sitt	sin	PO	-.-.-	PO.DEF.SIN.NEU.PSS.-	1004	DT		
+1004	tillstånd	tillstånd	NN	-.-.-	NN.NEU.SIN.IND	1002	OO		
+1005	men	men	KO	-.-.-	KO.-	0	--		
+1006	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	1005	KL		
+1007	varna	varna	VB	-.-.-	VB.INF.AKT.-	1006	IV		
+1008	Mio	Mio	EN	-.-.-	EN.-	1007	OO		
+1009	för	för	PE	-.-.-	PE.-	1007	OA		
+1010	Landet	land	NN	-.-.-	NN.NEU.SIN.DEF	1009	OO		
+1011	Utanför	utanför	AB	-.-.-	AB.-.-	1010	MD		
+1012	där	där	SU	-.-.-	SU.-	1024	KL	1024:KL|1017:RA	
+1013	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1015	DT		
+1014	grymme	grym	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1015	MD		
+1015	riddar	riddar	NN	-.-.-	NN.UTR.SIN.IND	1017	SB		
+1016	Kato	Kato	EN	-.-.-	EN.-	1015	AN		
+1017	bor	bo	VB	-.-.-	VB.IND.AKT.PRS	1012	OO		SpaceAfter=No
+1018	,	_	SY	-.-.-	SY.DEL	0	--		
+1019	där	där	SU	-.-.-	SU.-	0	--	0:--|1022:RA	
+1020	nästan	nästan	AB	-.-.-	AB.-.-	1021	MD		
+1021	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1022	SB		
+1022	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1019	OO		
+1023	svart	svart	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1022	SP		
+1024	och	och	KO	-.-.-	KO.-	1010	MD		
+1025	där	där	SU	-.-.-	SU.-	1030	KL	1030:KL|1031:RA	
+1026	folk	folk	NN	-.-.-	NN.NEU.SIN.IND	1027	SB	1027:SB|1031:SB	
+1027	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1025	OO		
+1028	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1027	OO		
+1029	eländigt	eländig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1027	OP		
+1030	och	och	KO	-.-.-	KO.-	1024	KL		
+1031	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1030	KL		
+1032	utsvultna	utsvulten	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1031	SP		SpaceAfter=No
+1033	.	_	SY	-.-.-	SY.DEL	0	--		
 

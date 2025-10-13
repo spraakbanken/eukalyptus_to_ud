@@ -170,6 +170,8 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
     if verbose then STDERR.puts "Current_id: #{current_id}" end
     #STDERR.puts "*** #{primary_tree["Romn_Lundqvist-Ingentobak.20.5"]} ***"
     onlyterminalsontop = false    
+    discourseterminalontop = {}
+
 
     until false == true do
         next_level = primary_tree[current_id]
@@ -179,7 +181,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
 
         
   
-        
+        #assign heads and do some more
         if cat == "Top"
             #root = 0
             if verbose then STDERR.puts "Current_id: #{current_id} Cat: #{cat}" end
@@ -189,17 +191,18 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
     
                 nonterminals = 0
                 nonterminal_cats = []
+                terminal_nonsy_list = []
 
-                next_level.each do |node|
-                    if !term_ids.include?(node)
-                        nonterminals += 1
-                        nonterminal_cats << phrases[node]
-                    end
-                end
-                if nonterminals > 1
-                    @nsents_several_nonterminals_on_top += 1
-                    #STDOUT.puts "#{sent_id}\t#{nonterminals}\t#{nonterminal_cats.uniq}\t#{nonterminal_cats}"
-                end
+                #next_level.each do |node|
+                #    if !term_ids.include?(node)
+                #        nonterminals += 1
+                #        nonterminal_cats << phrases[node]
+                #    end
+                #end
+                #if nonterminals > 1
+                #    @nsents_several_nonterminals_on_top += 1
+                #    #STDOUT.puts "#{sent_id}\t#{nonterminals}\t#{nonterminal_cats.uniq}\t#{nonterminal_cats}"
+                #end
 
                 terminalsonly = 1
                 
@@ -210,16 +213,27 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 next_level.each do |node|
                     if !term_ids.include?(node)
                         if verbose then STDERR.puts "Current_id: #{current_id} There is a non-terminal node #{node}, we are fine" end
-    
+                        nonterminals += 1
+                        nonterminal_cats << phrases[node]
                         terminalsonly = 0
                         #break
                     else
                         if words[node]["pos"] != "SY"
                             nonsymbols += 1
                             the_nonsymbol = node.clone
+                            terminal_nonsy_list << node
                         end
                     end
                 end
+
+                if nonterminals > 1
+                    @nsents_several_nonterminals_on_top += 1
+                    #if nonterminal_cats.uniq == ["KoP"] or nonterminal_cats.uniq.sort == ["KoP", "SuP"]
+                    #    STDOUT.puts sent_id
+                    #end
+                    #STDOUT.puts "#{sent_id}\t#{nonterminals}\t#{nonterminal_cats.uniq}\t#{nonterminal_cats}"
+                end
+
                 
     
                 #end
@@ -239,6 +253,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         onlyterminalsontop = true
                     else #nonsymbols != 1 #and next_level.length > 1
                         if verbose then STDERR.puts "Current_id: #{current_id} There are more than one nodes which are not a SY, currently no heuristics to choose a head. STDOUT an exception" end
+                        #STDERR.puts "Sent_id: #{sent_id} Current_id: #{current_id} There are more than one nodes which are not a SY, currently no heuristics to choose a head. STDOUT an exception"
 
 =begin
                         if verbose then STDERR.puts "Current_id: #{current_id} Checking if there are several KoPs" en
@@ -271,6 +286,9 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                     end
                 else
                     if nonsymbols > 0
+                        terminal_nonsy_list.each do |terminal_nonsy|
+                            discourseterminalontop[terminal_nonsy] = true
+                        end
                         #Sentences where there are non-terminals on top, but also non-SY terminals
                         #STDOUT.puts "#{sent_id}\t#{nonsymbols}"
                     end
@@ -336,8 +354,11 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 if cat == "Top" and onlyterminalsontop == false #and head == root #head.nil?#root == 0
                     if verbose then STDERR.puts "    Current_id: #{current_id}. Terminal under 0" end
                     #@reversed_tree[node] = root
-                    
-                    @reversed_labels[node] = labels[nodeindex]
+                    if discourseterminalontop[node] == true
+                        @reversed_labels[node] = "discourse"
+                    else
+                        @reversed_labels[node] = labels[nodeindex]
+                    end
                     @underoldroot[node] = true
                     
                 else
@@ -346,7 +367,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
 
                     if node == head #nodeindex == head_label_index
                         
-                        if root == 0 and @newroot.nil? and cat != "KoP"
+                        if root == 0 and @newroot.nil? # and cat != "KoP"
                             if verbose then STDERR.puts "    Current_id: #{current_id}. New root!" end
                             @newroot = node.clone#.gsub("#{sent_id}.","").to_i
                         end
