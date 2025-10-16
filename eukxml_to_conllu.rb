@@ -373,6 +373,11 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         end
                         if verbose then STDERR.puts "    Current_id: #{current_id}. Phrase head" end
                         if verbose then STDERR.puts "    Current_id: #{current_id}. Ends up under ('root') #{root}" end
+                        #if root == 0
+                        #    @rootlist << node
+                        #end
+ 
+
                         @reversed_tree[node] = root
                         if root == 0
                             @under0 << node
@@ -414,30 +419,8 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
         if verbose then STDERR.puts "    Current_id: #{current_id}. Going up" end
         break
     end 
-    mainroot = 0
-    if @under0.length > 1
-        @under0.each do |node|
-            if !@reversed_labels2[node].include?("PH")
-                mainroot = node.clone
-                break
-            end
-        end
-        @under0.each do |node|
-            if node != mainroot
-                @reversed_tree[node] = mainroot
-            end
-        end
-    else
-        mainroot = @newroot.clone
-    end
-    if @newroot.nil?
-        mainroot = root.clone
-    end
-    @underoldroot.keys.each do |node|
-        @reversed_tree[node] = mainroot
-    end
     
-    #return [reversed_tree,reversed_labels]
+    return root#[reversed_tree,reversed_labels]
 end
 
 
@@ -455,6 +438,7 @@ def go_up(reversed_tree,id,passed_nodes)
             return
         elsif head.nil? #preventing disconnected branches
             @status = "disconnected"
+            @disconnected_ids << id
             return
         elsif passed_nodes.include?(head) #preventing cycles
             @status = "cycle"
@@ -629,7 +613,43 @@ filenames.each do |filename|
                 if verbose then STDERR.puts "*****" end
                 if verbose then STDERR.puts "Processing the primary tree" end
                 if verbose then STDERR.puts "*****" end
-                process_primary_tree(primary_tree, primary_labels, "#{sent_id}.0", term_ids, phrases, 0, sent_id,"",verbose, words)
+                #@rootlist = []
+                root = process_primary_tree(primary_tree, primary_labels, "#{sent_id}.0", term_ids, phrases, 0, sent_id,"",verbose, words)
+
+                ###extracted from the process_primary_tree method, since this does not have to be done for every node. The variable root is now the output of the method
+                mainroot = 0
+                if @under0.length > 1
+                    foundnewmainroot = false
+                    @under0.each do |node|
+                        if !@reversed_labels2[node].include?("PH")
+                            mainroot = node.clone
+                            foundnewmainroot = true
+                            break
+                        end
+                    end
+                    if !foundnewmainroot
+                        mainroot = @under0[0].clone
+                        STDOUT.puts "#{sent_id} #{mainroot}"
+                    end
+	            
+	            
+                    @under0.each do |node|
+                        if node != mainroot
+                            @reversed_tree[node] = mainroot
+                        end
+                    end
+                else
+                    mainroot = @newroot.clone
+                end
+                if @newroot.nil?
+                    mainroot = root.clone
+                end
+                @underoldroot.keys.each do |node|
+                    @reversed_tree[node] = mainroot
+                end
+                ###end of extraction
+   
+
                 secondary_tree.each_pair do |nt, towardsarray|
                     seclabelarray = secondary_labels[nt]
     		    
@@ -712,9 +732,10 @@ filenames.each do |filename|
                 
                 outputfile.puts ""
                 #STDERR.puts "#{@reversed_tree_newids}"
+                @disconnected_ids = []
                 status, nheads, detailed_status = check_reversed_tree(@reversed_tree_newids)
                 if status != 0 
-                    tree_error_file.puts "#{sent_id}\t#{nheads}\t#{detailed_status}"
+                    tree_error_file.puts "#{sent_id}\t#{nheads}\t#{detailed_status}\t#{@disconnected_ids.uniq}"
                 end
 
                 n_wrong_trees += status

@@ -1648,11 +1648,11 @@ Blog_160886-11338497.14.1036	idag	idag	AB	-.-.-	AB.-.-	Blog_160886-11338497.14.1
 Blog_160886-11338497.14.1037	fick	få	VB	-.-.-	VB.IND.AKT.PRT	Blog_160886-11338497.14.1040	KL		
 Blog_160886-11338497.14.1038	Neo	Neo	EN	-.-.-	EN.-	Blog_160886-11338497.14.1037	SB	Blog_160886-11338497.14.1037:SB|Blog_160886-11338497.14.1041:SB	
 Blog_160886-11338497.14.1039	feber	feber	NN	-.-.-	NN.UTR.SIN.IND	Blog_160886-11338497.14.1037	OO		
-Blog_160886-11338497.14.1040	och	och	KO	-.-.-	KO.-	0	--		
+Blog_160886-11338497.14.1040	och	och	KO	-.-.-	KO.-	Blog_160886-11338497.14.1047	--		
 Blog_160886-11338497.14.1041	klagade	klaga	VB	-.-.-	VB.IND.AKT.PRT	Blog_160886-11338497.14.1040	KL		
 Blog_160886-11338497.14.1042	över	över	PE	-.-.-	PE.-	Blog_160886-11338497.14.1041	MD		
 Blog_160886-11338497.14.1043	halsont	hals|ont	NN	-.-.-	NN.NEU.SIN.IND	Blog_160886-11338497.14.1042	OO		SpaceAfter=No
-Blog_160886-11338497.14.1044	,	_	SY	-.-.-	SY.DEL	0	--		
+Blog_160886-11338497.14.1044	,	_	SY	-.-.-	SY.DEL	Blog_160886-11338497.14.1047	--		
 Blog_160886-11338497.14.1045	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	Blog_160886-11338497.14.1046	SB	Blog_160886-11338497.14.1046:SB|Blog_160886-11338497.14.1055:SB|Blog_160886-11338497.14.1048:SB	
 Blog_160886-11338497.14.1046	låg	ligga	VB	-.-.-	VB.IND.AKT.PRT	Blog_160886-11338497.14.1047	KL		
 Blog_160886-11338497.14.1047	och	och	KO	-.-.-	KO.-	0	--	0:--|Blog_160886-11338497.14.1046:ME	
@@ -1669,7 +1669,7 @@ Blog_160886-11338497.14.1057	och	och	KO	-.-.-	KO.-	Blog_160886-11338497.14.1055	
 Blog_160886-11338497.14.1058	glad	glad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	Blog_160886-11338497.14.1057	KL		
 Blog_160886-11338497.14.1059	i	i	PE	-.-.-	PE.-	Blog_160886-11338497.14.1060	ME		
 Blog_160886-11338497.14.1060	morse	morse	NN	-.-.-	NN.NEU.SIN.IND	Blog_160886-11338497.14.1058	MD		SpaceAfter=No
-Blog_160886-11338497.14.1061	.	_	SY	-.-.-	SY.DEL	0	--		
+Blog_160886-11338497.14.1061	.	_	SY	-.-.-	SY.DEL	Blog_160886-11338497.14.1047	--		
 
 # sent_id = Blog_160886-11338497.15
 # text = Framåt eftermiddagen kom dock gnällpelle tillbaka och även febern...
@@ -3651,12 +3651,12 @@ Blog_160886-11338497.20.1001	^^	_	SY	-.-.-	SY.SYM	1001	--
 1012	verkligen	verkligen	AB	-.-.-	AB.-.-	1013	MD		
 1013	va	vara	VB	-.-.-	VB.IND.AKT.PRT	1010	MD		
 1014	död	död	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1013	SP		SpaceAfter=No
-1015	,	_	SY	-.-.-	SY.DEL	0	--		
-1016	men	men	KO	-.-.-	KO.-	0	--		
+1015	,	_	SY	-.-.-	SY.DEL	1029	--		
+1016	men	men	KO	-.-.-	KO.-	1029	--		
 1017	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1018	SB		
 1018	vaknade	vakna	VB	-.-.-	VB.IND.AKT.PRT	1016	KL		
 1019	upp	upp	AB	-.-.-	AB.-.-	1018	PL	1018:PL|1018:ME	SpaceAfter=No
-1020	,	_	SY	-.-.-	SY.DEL	0	--		
+1020	,	_	SY	-.-.-	SY.DEL	1029	--		
 1021	då	då	AB	-.-.-	AB.-.-	1022	MD		
 1022	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	1029	KL		
 1023	veterinären	veterinär	NN	-.-.-	NN.UTR.SIN.DEF	1022	SB		
@@ -3681,7 +3681,7 @@ Blog_160886-11338497.20.1001	^^	_	SY	-.-.-	SY.SYM	1001	--
 1042	liknade	likna	VB	-.-.-	VB.IND.AKT.PRT	1041	OO		
 1043	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1044	DT		
 1044	micro	micro	NN	-.-.-	NN.UTR.SIN.IND	1042	OO		SpaceAfter=No
-1045	.	_	SY	-.-.-	SY.DEL	0	--		
+1045	.	_	SY	-.-.-	SY.DEL	1029	--		
 
 # sent_id = Blog_188519-10542620.12
 # text = De va bara de att de va som en liten frys så när veterinären satte klockan på några minuter så blev Snobben "nerkyld" o han va död.
@@ -12527,19 +12527,19 @@ Blog_265827-14922303.3.1006	.	_	SY	-.-.-	SY.DEL	1006	--
 1006	var	vara	VB	-.-.-	VB.IND.AKT.PRT	1005	KL		
 1007	helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1008	MD		
 1008	lost	_	UO	-.-.-	UO.-	1006	SP		SpaceAfter=No
-1009	,	_	SY	-.-.-	SY.DEL	0	--		
+1009	,	_	SY	-.-.-	SY.DEL	1005	--		
 1010	mådde	må	VB	-.-.-	VB.IND.AKT.PRT	1013	KL		
 1011	riktigt	riktig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1012	MD		
 1012	dåligt	dålig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1010	OA		
-1013	men	men	KO	-.-.-	KO.-	0	--		
+1013	men	men	KO	-.-.-	KO.-	1005	--		
 1014	hittade	hitta	VB	-.-.-	VB.IND.AKT.PRT	1013	KL		
 1015	inte	inte	AB	-.-.-	AB.-.-	1014	MD		
 1016	Ipren	Ipren	EN	-.-.-	EN.-	1014	OO		SpaceAfter=No
-1017	,	_	SY	-.-.-	SY.DEL	0	--		
+1017	,	_	SY	-.-.-	SY.DEL	1005	--		
 1018	så	så	KO	-.-.-	KO.-	1013	PH		
 1019	somnade	somna	VB	-.-.-	VB.IND.AKT.PRT	1013	KL		
 1020	om	om	PE	-.-.-	PE.-	1019	PL		SpaceAfter=No
-1021	.	_	SY	-.-.-	SY.DEL	0	--		
+1021	.	_	SY	-.-.-	SY.DEL	1005	--		
 
 # sent_id = Blog_265827-15246480.3
 # text = Vaknade senare vid sex-tiden och hade 38,7.
@@ -13236,8 +13236,8 @@ Blog_265827-15106306.14.1003	:-	_	SY	-.-.-	SY.SYM	1005	SP
 1004	inte	inte	AB	-.-.-	AB.-.-	1002	MD		
 1005	somna	somna	VB	-.-.-	VB.INF.AKT.-	1002	IV		
 1006	om	om	PE		PE.-	1005	PL		SpaceAfter=No
-1007	,	_	SY	-.-.-	SY.DEL	0	--		
-1008	så	så	KO	-.-.-	KO.-	0	--		
+1007	,	_	SY	-.-.-	SY.DEL	1026	--		
+1008	så	så	KO	-.-.-	KO.-	1026	--		
 1009	nu	nu	AB	-.-.-	AB.-.-	1010	MD	1010:MD|1008:MD	
 1010	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1008	KL	1008:KL|1008:HD	
 1011	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1010	SB	1010:SB|1017:SB|1008:SB|1013:SB	
@@ -13249,21 +13249,21 @@ Blog_265827-15106306.14.1003	:-	_	SY	-.-.-	SY.SYM	1005	SP
 1017	kollat	kolla	VB	-.-.-	VB.SPM.AKT.-	1008	IV		
 1018	på	på	PE	-.-.-	PE.-	1017	MD		
 1019	tv	television	NN	FKN.-.-	NN.UTR.SIN.IND	1018	OO		
-1020	(	_	SY	-.-.-	SY.DEL	0	--		SpaceAfter=No
+1020	(	_	SY	-.-.-	SY.DEL	1026	--		SpaceAfter=No
 1021	DARIN	DARIN	EN	-.-.-	EN.-	1022	SB		
 1022	ÄR	vara	VB	-.-.-	VB.IND.AKT.PRS	1026	KL		
 1023	PÅ	på	PE	-.-.-	PE.-	1022	OA		
 1024	TV4	TV4	EN	-.-.-	EN.-	1023	OO		SpaceAfter=No
-1025	,	_	SY	-.-.-	SY.DEL	0	--		
+1025	,	_	SY	-.-.-	SY.DEL	1026	--		
 1026	och	och	KO	-.-.-	KO.-	0	--		
 1027	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1028	SB		
 1028	gillar	gilla	VB	-.-.-	VB.IND.AKT.PRS	1026	KL		
 1029	typ	typ	AB	-.-.-	AB.-.-	1028	MD		
 1030	honom	han	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	1028	OO		SpaceAfter=No
-1031	.	_	SY	-.-.-	SY.DEL	0	--		
+1031	.	_	SY	-.-.-	SY.DEL	1026	--		
 Blog_265827-15106304.3.1001	HAHA	haha	IJ	-.-.-	IJ.-	1028	DF		SpaceAfter=No
-Blog_265827-15106304.3.1002	)	_	SY	-.-.-	SY.DEL	0	--		SpaceAfter=No
-Blog_265827-15106304.3.1003	.	_	SY	-.-.-	SY.DEL	0	--		
+Blog_265827-15106304.3.1002	)	_	SY	-.-.-	SY.DEL	1026	--		SpaceAfter=No
+Blog_265827-15106304.3.1003	.	_	SY	-.-.-	SY.DEL	1026	--		
 
 # sent_id = Blog_265827-15106304.4
 # text = Gick upp och tvätta ansiktet och sitter nu med en ansiktsmask.
@@ -18089,7 +18089,7 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1006	för	för	PE	-.-.-	PE.-	1001	MD		
 1007	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	1008	DT		
 1008	del	del	NN	-.-.-	NN.UTR.SIN.IND	1006	MD		
-1009	för	för	KO	-.-.-	KO.-	0	--		
+1009	för	för	KO	-.-.-	KO.-	1040	--		
 1010	Viggo	Viggo	EN	-.-.-	EN.-	1011	SB	1011:SB|1021:SB	
 1011	stegade	stega	VB	-.-.-	VB.IND.AKT.PRT	1020	KL		
 1012	bara	bara	AB	-.-.-	AB.-.-	1011	MD		
@@ -18126,8 +18126,8 @@ Blog_6843-5164672.5.1017	.	_	SY	-.-.-	SY.DEL	Blog_6843-5164672.5.1002	--
 1043	i	i	PE	-.-.-	PE.-	1042	RA		
 1044	väg	väg	NN	-.-.-	NN.UTR.SIN.IND	1043	OO	1043:OO|1043:ME	
 1045	Maja	Maja	EN	-.-.-	EN.-	1042	OO		SpaceAfter=No
-1046	.	_	SY	-.-.-	SY.DEL	0	--		
-1047	:D	_	SY	-.-.-	SY.SYM	0	--		
+1046	.	_	SY	-.-.-	SY.DEL	1040	--		
+1047	:D	_	SY	-.-.-	SY.SYM	1040	--		
 
 # sent_id = Blog_5089-9240616.29
 # text = S-Å S-K-Ö-N-T!
@@ -22739,13 +22739,13 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1003	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1007	KL		
 1004	i	i	PE	-.-.-	PE.-	1003	OA		
 1005	morgon	morgon	NN	-.-.-	NN.UTR.SIN.IND	1004	OO	1004:OO|1004:ME	SpaceAfter=No
-1006	,	_	SY	-.-.-	SY.DEL	0	--		
-1007	och	och	KO	-.-.-	KO.-	0	--		
+1006	,	_	SY	-.-.-	SY.DEL	1053	--		
+1007	och	och	KO	-.-.-	KO.-	1053	--		
 1008	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1009	SB		
 1009	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1007	KL		
 1010	till	till	PE	-.-.-	PE.-	1009	RA		
 1011	psykologen	psykolog	NN	-.-.-	NN.UTR.SIN.DEF	1010	OO		SpaceAfter=No
-1012	,	_	SY	-.-.-	SY.DEL	0	--		
+1012	,	_	SY	-.-.-	SY.DEL	1053	--		
 1013	och	och	KO	-.-.-	KO.-	1007	PH		
 1014	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1015	SB		
 1015	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1025	KL		
@@ -22757,7 +22757,7 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1021	kommer	komma	VB	-.-.-	VB.IND.AKT.PRS	1018	OO		
 1022	bli	bli	VB	-.-.-	VB.INF.AKT.-	1021	IV		
 1023	glad	glad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1022	SP		SpaceAfter=No
-1024	,	_	SY	-.-.-	SY.DEL	0	--		
+1024	,	_	SY	-.-.-	SY.DEL	1053	--		
 1025	men	men	KO	-.-.-	KO.-	1007	KL		
 1026	just	just	AB	-.-.-	AB.-.-	1027	MD		
 1027	nu	nu	AB	-.-.-	AB.-.-	1028	MD	1028:MD|1026:ME	
@@ -22766,7 +22766,7 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1030	inte	inte	AB	-.-.-	AB.-.-	1028	MD		
 1031	bry	bry	VB	-.-.-	VB.INF.AKT.-	1028	IV		
 1032	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	1031	OO	1031:OO|1031:ME	SpaceAfter=No
-1033	,	_	SY	-.-.-	SY.DEL	0	--		
+1033	,	_	SY	-.-.-	SY.DEL	1053	--		
 1034	kommer	komma	VB	-.-.-	VB.IND.AKT.PRS	1053	KL		
 1035	att	att	SU	-.-.-	SU.-	1034	IV		
 1036	föreslå	föreslå	VB	-.-.-	VB.INF.AKT.-	1035	OO		
@@ -22785,7 +22785,7 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1049	med	med	PE	-.-.-	PE.-	1047	MD		
 1050	denna	denna	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1051	DT		
 1051	behandling	behandling	NN	-.-.-	NN.UTR.SIN.IND	1049	OO		SpaceAfter=No
-1052	,	_	SY	-.-.-	SY.DEL	0	--		
+1052	,	_	SY	-.-.-	SY.DEL	1053	--		
 1053	för	för	KO	-.-.-	KO.-	0	--		
 1054	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1055	SB		
 1055	orkar	orka	VB	-.-.-	VB.IND.AKT.PRS	1053	KL		
@@ -22801,7 +22801,7 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1065	blir	bli	VB	-.-.-	VB.IND.AKT.PRS	1053	KL		
 1066	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1065	SB		
 1067	smärtskolan	smärt|skola	NN	-.-.-	NN.UTR.SIN.DEF	1065	SP		SpaceAfter=No
-1068	.	_	SY	-.-.-	SY.DEL	0	--		
+1068	.	_	SY	-.-.-	SY.DEL	1053	--		
 
 # sent_id = Blog_54523-14269154.12
 # text = Det andra besöket är till min medicin dr och vi ska utvärdera behandlingen, och göra en ny plan samt diskutera framtiden, detta läkarbesök vill ja inte avboka., så jag måste hitta en lösning, efter det har jag smärtskolan och jag vill gå på det men vet inte om jag orkar för jag har haft så ont denna helg.
@@ -22813,12 +22813,12 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1006	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	1007	DT		
 1007	medicin	medicin	NN	-.-.-	NN.UTR.SIN.IND	1005	OO		
 1008	dr	doktor	NN	FKN.-.-	NN.UTR.SIN.IND	1007	ME		
-1009	och	och	KO	-.-.-	KO.-	0	--		
+1009	och	och	KO	-.-.-	KO.-	1044	--		
 1010	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1011	SB	1011:SB|1021:SB|1016:SB|1012:SB|1009:SB|1009:SB	
 1011	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	1009	KL	1009:KL|1009:HD|1009:HD	
 1012	utvärdera	utvärdera	VB	-.-.-	VB.INF.AKT.-	1011	IV		
 1013	behandlingen	behandling	NN	-.-.-	NN.UTR.SIN.DEF	1012	OO		SpaceAfter=No
-1014	,	_	SY	-.-.-	SY.DEL	0	--		
+1014	,	_	SY	-.-.-	SY.DEL	1044	--		
 1015	och	och	KO	-.-.-	KO.-	1009	PH		
 1016	göra	göra	VB	-.-.-	VB.INF.AKT.-	1009	IV		
 1017	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1019	DT		
@@ -22827,22 +22827,22 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1020	samt	samt	KO	-.-.-	KO.-	1009	PH		
 1021	diskutera	diskutera	VB	-.-.-	VB.INF.AKT.-	1009	IV		
 1022	framtiden	framtid	NN	-.-.-	NN.UTR.SIN.DEF	1021	OO		SpaceAfter=No
-1023	,	_	SY	-.-.-	SY.DEL	0	--		
+1023	,	_	SY	-.-.-	SY.DEL	1044	--		
 1024	detta	denna	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1025	DT		
 1025	läkarbesök	läkarbesök	NN	-.-.-	NN.NEU.SIN.IND	1029	OO		
 1026	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	1032	KL		
 1027	ja	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1026	SB	1026:SB|1029:SB	CorrectForm=jag
 1028	inte	inte	AB	-.-.-	AB.-.-	1026	MD		
 1029	avboka	avboka	VB	-.-.-	VB.INF.AKT.-	1026	IV		SpaceAfter=No
-1030	.	_	SY	-.-.-	SY.DEL	0	--		SpaceAfter=No
-1031	,	_	SY	-.-.-	SY.DEL	0	--		
-1032	så	så	KO	-.-.-	KO.-	0	--		
+1030	.	_	SY	-.-.-	SY.DEL	1044	--		SpaceAfter=No
+1031	,	_	SY	-.-.-	SY.DEL	1044	--		
+1032	så	så	KO	-.-.-	KO.-	1044	--		
 1033	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1034	SB	1034:SB|1035:SB	
 1034	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	1032	KL		
 1035	hitta	hitta	VB	-.-.-	VB.INF.AKT.-	1034	IV		
 1036	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1037	DT		
 1037	lösning	lösning	NN	-.-.-	NN.UTR.SIN.IND	1035	OO		SpaceAfter=No
-1038	,	_	SY	-.-.-	SY.DEL	0	--		
+1038	,	_	SY	-.-.-	SY.DEL	1044	--		
 1039	efter	efter	PE	-.-.-	PE.-	1041	MD		
 1040	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1039	OO		
 1041	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1044	KL		
@@ -22868,7 +22868,7 @@ Blog_54523-9913239.2.1021	!!!	_	SY	-.-.-	SY.DEL	1001	--
 1061	ont	ond	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1059	OO		
 1062	denna	denna	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1063	DT		
 1063	helg	helg	NN	-.-.-	NN.UTR.SIN.IND	1059	MD		SpaceAfter=No
-1064	.	_	SY	-.-.-	SY.DEL	0	--		
+1064	.	_	SY	-.-.-	SY.DEL	1044	--		
 
 # sent_id = Blog_54523-14269154.13
 # text = Nä nu ska jag sova så jag orkar komma upp i morgon,,
@@ -41330,7 +41330,7 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 # text = Vi fick när det gäller de yttersta randområdena skrivelserna från de olika regeringarna ganska sent, men det behöver inte vara en ursäkt, bara en förklaring.
 1001	Vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1002	SB		
 1002	fick	få	VB	-.-.-	VB.IND.AKT.PRT	1017	KL		
-1003	när	när	AB	-.-.-	AB.-.FRL	0	--	0:--|1005:MD	
+1003	när	när	AB	-.-.-	AB.-.FRL	1017	--	1017:--|1005:MD	
 1004	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1005	SB		
 1005	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	1003	OO		
 1006	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	1008	DT		
@@ -41343,7 +41343,7 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1013	regeringarna	regering	NN	-.-.-	NN.UTR.PLU.DEF	1010	OO		
 1014	ganska	ganska	AB	-.-.-	AB.-.-	1015	MD		
 1015	sent	sen	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1002	MD		SpaceAfter=No
-1016	,	_	SY	-.-.-	SY.DEL	0	--		
+1016	,	_	SY	-.-.-	SY.DEL	1017	--		
 1017	men	men	KO	-.-.-	KO.-	0	--		
 1018	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1019	SB	1019:SB|1025:SB|1021:SB|1025:SB	
 1019	behöver	behöva	VB	-.-.-	VB.IND.AKT.PRS	1017	KL	1017:KL|1025:HD	
@@ -41351,11 +41351,11 @@ Eupa_00-01-17.428.1002	.	_	SY	-.-.-	SY.DEL	1002	--
 1021	vara	vara	VB	-.-.-	VB.INF.AKT.-	1019	IV	1019:IV|1025:HD	
 1022	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1023	DT		
 1023	ursäkt	ursäkt	NN	-.-.-	NN.UTR.SIN.IND	1021	OO		SpaceAfter=No
-1024	,	_	SY	-.-.-	SY.DEL	0	--		
+1024	,	_	SY	-.-.-	SY.DEL	1017	--		
 1025	bara	bara	AB	-.-.-	AB.-.-	1017	KL		
 1026	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1027	DT		
 1027	förklaring	förklaring	NN	-.-.-	NN.UTR.SIN.IND	1025	IV		SpaceAfter=No
-1028	.	_	SY	-.-.-	SY.DEL	0	--		
+1028	.	_	SY	-.-.-	SY.DEL	1017	--		
 
 # sent_id = Eupa_00-01-17.711
 # text = Vi måste alltså beakta dessa skrivelser och utföra detta mycket viktiga arbete.
@@ -80244,7 +80244,7 @@ Romn_Bjelvehammar-TageBengtsson.165.1015	.	_	SY	-.-.-	SY.DEL	Romn_Bjelvehammar-T
 1008	för	för	PE	-.-.-	PE.-	1007	MD		
 1009	studier	studie	NN	-.-.-	NN.UTR.PLU.IND	1008	OO		
 1010	utomlands	utomlands	AB	-.-.-	AB.-.-	1009	MD		SpaceAfter=No
-1011	,	_	SY	-.-.-	SY.DEL	0	--		
+1011	,	_	SY	-.-.-	SY.DEL	1005	--		
 1012	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1013	SB	1013:SB|1015:SB	
 1013	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1032	KL		
 1014	även	även	AB	-.-.-	AB.-.-	1013	MD		
@@ -80265,7 +80265,7 @@ Romn_Bjelvehammar-TageBengtsson.165.1015	.	_	SY	-.-.-	SY.DEL	Romn_Bjelvehammar-T
 1029	Frankrike	Frankrike	EN	-.-.-	EN.-	1030	KL		
 1030	och	och	KO	-.-.-	KO.-	1028	OO		
 1031	Schweiz	Schweiz	EN	-.-.-	EN.-	1030	KL		
-1032	och	och	KO	-.-.-	KO.-	0	--		
+1032	och	och	KO	-.-.-	KO.-	1005	--		
 1033	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1034	SB		
 1034	ger	ge	VB	-.-.-	VB.IND.AKT.PRS	1032	KL		
 1035	regelbundet	regelbunden	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1034	MD		
@@ -80275,7 +80275,7 @@ Romn_Bjelvehammar-TageBengtsson.165.1015	.	_	SY	-.-.-	SY.DEL	Romn_Bjelvehammar-T
 1039	vattenprojekt	vatten|projekt	NN	-.-.-	NN.NEU.PLU.IND	1038	KL		
 1040	i	i	PE	-.-.-	PE.-	1039	MD	1039:MD|1037:	
 1041	Afrika	Afrika	EN	-.-.-	EN.-	1040	OO		SpaceAfter=No
-1042	.	_	SY	-.-.-	SY.DEL	0	--		
+1042	.	_	SY	-.-.-	SY.DEL	1005	--		
 
 # newdoc id = Romn_Holmsen-Polynesiskpassad
 # sent_id = Romn_Holmsen-Polynesiskpassad.15
@@ -86550,7 +86550,7 @@ Romn_Holmsen-Polynesiskpassad.385.1021	.	_	SY	-.-.-	SY.DEL	1008	--
 1002	gjorde	göra	VB	-.-.-	VB.IND.AKT.PRT	1005	KL		
 1003	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1002	OO	1002:OO|1002:ME	
 1004	till	till	PE	-.-.-	PE.-	1002	PL	1002:PL|1002:ME	
-1005	och	och	KO	-.-.-	KO.-	0	--		
+1005	och	och	KO	-.-.-	KO.-	1027	--		
 1006	bar	bära	VB	-.-.-	VB.IND.AKT.PRT	1005	KL		
 1007	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	1006	OO	1006:OO|1006:ME	
 1008	åt	åt	PE	-.-.-	PE.-	1006	PL	1006:PL|1006:ME	
@@ -86565,7 +86565,7 @@ Romn_Holmsen-Polynesiskpassad.385.1021	.	_	SY	-.-.-	SY.DEL	1008	--
 1017	inte	inte	AB	-.-.-	AB.-.-	1014	MD		
 1018	om	om	PE	-.-.-	PE.-	1014	OA	1014:OA|1014:ME	
 1019	mer.	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1014	MD		CorrectForm=mer|SpaceAfter=No
-1020	”	_	SY	-.-.-	SY.DEL	0	--		
+1020	”	_	SY	-.-.-	SY.DEL	1027	--		
 1021	Sven	Sven	EN	-.-.-	EN.-	1022	SB	1022:SB|1028:SB|1023:SB	
 1022	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	1027	KL		
 1023	lyssnat	lyssna	VB	-.-.-	VB.SPM.AKT.-	1022	IV		
@@ -86574,8 +86574,8 @@ Romn_Holmsen-Polynesiskpassad.385.1021	.	_	SY	-.-.-	SY.DEL	1008	--
 1026	utläggning	utläggning	NN	-.-.-	NN.UTR.SIN.IND	1024	OO		
 1027	och	och	KO	-.-.-	KO.-	0	--		
 1028	kommenterade	kommentera	VB	-.-.-	VB.IND.AKT.PRT	1027	KL		SpaceAfter=No
-1029	:	_	SY	-.-.-	SY.DEL	0	--		
-1030	”	_	SY	-.-.-	SY.DEL	0	--		SpaceAfter=No
+1029	:	_	SY	-.-.-	SY.DEL	1027	--		
+1030	”	_	SY	-.-.-	SY.DEL	1027	--		SpaceAfter=No
 1031	Vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	1032	SB		
 1032	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1038	KL		
 1033	inget	ingen	PO	-.-.-	PO.IND.SIN.NEU.-.-	1034	DT		
@@ -86590,13 +86590,13 @@ Romn_Holmsen-Polynesiskpassad.385.1021	.	_	SY	-.-.-	SY.DEL	1008	--
 1042	inte	inte	AB	-.-.-	AB.-.-	1040	MD		
 1043	vårt	vi	PO	-.-.-	PO.DEF.SIN.NEU.PSS.-	1044	DT		
 1044	luk-tegott	lukte|gott	NN	-.-.-	NN.NEU.SIN.IND	1040	SP	1040:SP|1047:SB|1046:SB	CorrectForm=lukte-gott|SpaceAfter=No
-1045	,	_	SY	-.-.-	SY.DEL	0	--		
+1045	,	_	SY	-.-.-	SY.DEL	1027	--		
 1046	som	som	SU	-.-.-	SU.-	1040	EF		
 1047	ökat	öka	VB	-.-.-	VB.SPM.AKT.-	1046	IV		
 1048	Ines	Ines	EN	-.GEN.-	EN.-	1049	DT		
 1049	attraktionskraft	attraktionskraft	NN	-.-.-	NN.UTR.SIN.IND	1047	OO		SpaceAfter=No
-1050	.	_	SY	-.-.-	SY.DEL	0	--		SpaceAfter=No
-1051	”	_	SY	-.-.-	SY.DEL	0	--		
+1050	.	_	SY	-.-.-	SY.DEL	1027	--		SpaceAfter=No
+1051	”	_	SY	-.-.-	SY.DEL	1027	--		
 
 # sent_id = Romn_Strand-Pagarna.89
 # text = Sture var normalt ingen verbal bjässe.
@@ -102368,7 +102368,7 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1011	Kilwa	Kilwa	EN	-.-.-	EN.-	1010	AN		
 1012	i	i	PE	-.-.-	PE.-	1010	MD		
 1013	Östafrika	Östafrika	EN	-.-.-	EN.-	1012	OO		SpaceAfter=No
-1014	,	_	SY	-.-.-	SY.DEL	0	--		
+1014	,	_	SY	-.-.-	SY.DEL	1004	--		
 1015	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	1010	AN		
 1016	av	av	PE	-.-.-	PE.-	1015	MD		
 1017	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	1018	DT		
@@ -102379,12 +102379,12 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1022	att	att	SU	-.-.-	SU.-	1021	OO		
 1023	motarbeta	motarbeta	VB	-.-.-	VB.INF.AKT.-	1022	OO		
 1024	portugiserna	portugis	NN	-.-.-	NN.UTR.PLU.DEF	1023	OO		SpaceAfter=No
-1025	,	_	SY	-.-.-	SY.DEL	0	--		
+1025	,	_	SY	-.-.-	SY.DEL	1004	--		
 1026	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1027	SB	1027:SB|1043:SB|1031:SB	
 1027	kapade	kapa	VB	-.-.-	VB.IND.AKT.PRT	1030	KL		
 1028	arabiska	arabisk	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1029	MD		
 1029	handelsskepp	handels|skepp	NN	-.-.-	NN.NEU.PLU.IND	1027	OO		
-1030	och	och	KO	-.-.-	KO.-	0	--		
+1030	och	och	KO	-.-.-	KO.-	1004	--		
 1031	slog	slå	VB	-.-.-	VB.IND.AKT.PRT	1030	KL		
 1032	slutligen	slutligen	AB	-.-.-	AB.-.-	1031	MD		
 1033	sönder	sönder	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1031	PL	1031:PL|1031:ME	
@@ -102395,7 +102395,7 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1038	med	med	PE	-.-.-	PE.-	1031	MD		
 1039	tjugonio	tjugonio	NU	-.-.-	NU.-	1040	DT		
 1040	skepp	skepp	NN	-.-.-	NN.NEU.PLU.IND	1038	OO		SpaceAfter=No
-1041	,	_	SY	-.-.-	SY.DEL	0	--		
+1041	,	_	SY	-.-.-	SY.DEL	1004	--		
 1042	och	och	KO	-.-.-	KO.-	1030	PH		
 1043	erövrade	erövra	VB	-.-.-	VB.IND.AKT.PRT	1030	KL		
 1044	i	i	PE	-.-.-	PE.-	1046	ME		
@@ -102403,7 +102403,7 @@ Wiki_Saganomringenfilm.5.1002	.	_	SY	-.-.-	SY.DEL	1015	--
 1046	sett	sedd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1043	MD		
 1047	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1048	DT		
 1048	staden	stad	NN	-.-.-	NN.UTR.SIN.DEF	1043	OO		SpaceAfter=No
-1049	.	_	SY	-.-.-	SY.DEL	0	--		
+1049	.	_	SY	-.-.-	SY.DEL	1004	--		
 
 # sent_id = Wiki_VascodaGama.69
 # text = I utbyte mot fred fick han värdefulla handelsvillkor och ett mycket stort byte, vilket gjorde honom mycket väl sedd vid Portugals hov.
@@ -109193,8 +109193,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1015	riddar	riddar	NN	-.-.-	NN.UTR.SIN.IND	1017	SB		
 1016	Kato	Kato	EN	-.-.-	EN.-	1015	AN		
 1017	bor	bo	VB	-.-.-	VB.IND.AKT.PRS	1012	OO		SpaceAfter=No
-1018	,	_	SY	-.-.-	SY.DEL	0	--		
-1019	där	där	SU	-.-.-	SU.-	0	--	0:--|1022:RA	
+1018	,	_	SY	-.-.-	SY.DEL	1005	--		
+1019	där	där	SU	-.-.-	SU.-	1005	--	1005:--|1022:RA	
 1020	nästan	nästan	AB	-.-.-	AB.-.-	1021	MD		
 1021	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1022	SB		
 1022	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1019	OO		
@@ -109208,7 +109208,7 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1030	och	och	KO	-.-.-	KO.-	1024	KL		
 1031	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1030	KL		
 1032	utsvultna	utsvulten	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1031	SP		SpaceAfter=No
-1033	.	_	SY	-.-.-	SY.DEL	0	--		
+1033	.	_	SY	-.-.-	SY.DEL	1005	--		
 
 # sent_id = Wiki_MiominMio.41
 # text = En morgon rider de över bron och på andra sidan möter de Jiri och hans syskon.
@@ -110627,8 +110627,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1011	i	i	PE	-.-.-	PE.-	1009	RA		
 1012	hans	han	PO	-.GEN.-	PO.DEF.SIN.UTR.OBJ.-	1013	DT		
 1013	famn	famn	NN	-.-.-	NN.UTR.SIN.IND	1011	OO		SpaceAfter=No
-1014	:	_	SY	-.-.-	SY.DEL	0	--		
-1015	"	_	SY	-.-.-	SY.DEL	0	--		SpaceAfter=No
+1014	:	_	SY	-.-.-	SY.DEL	1007	--		
+1015	"	_	SY	-.-.-	SY.DEL	1007	--		SpaceAfter=No
 1016	För	för	KO	-.-.-	KO.-	1020	DF		
 1017	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	1018	DT		
 1018	fader	far	NN	-.-.-	NN.UTR.SIN.IND	1020	SB		
@@ -110638,8 +110638,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1022	mycket	mycket	PO	-.-.-	PO.IND.SIN.NEU.-.-	1020	MD		
 1023	om	om	PE	-.-.-	PE.-	1020	PL	1020:PL|1020:ME	
 1024	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	1020	OO		SpaceAfter=No
-1025	,	_	SY	-.-.-	SY.DEL	0	--		
-1026	och	och	KO	-.-.-	KO.-	0	--		
+1025	,	_	SY	-.-.-	SY.DEL	1007	--		
+1026	och	och	KO	-.-.-	KO.-	1007	--		
 1027	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	1028	SB		
 1028	tycker	tycka	VB	-.-.-	VB.IND.AKT.PRS	1026	KL		
 1029	så	så	AB	-.-.-	AB.-.-	1030	MD		
@@ -110648,8 +110648,8 @@ Wiki_Vader.61.1007	.	_	SY	-.-.-	SY.DEL	1002	--
 1032	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	1033	DT		
 1033	fader	far	NN	-.-.-	NN.UTR.SIN.IND	1028	OO		
 1034	konungen	konung	NN	-.-.-	NN.UTR.SIN.DEF	1033	AN		SpaceAfter=No
-1035	"	_	SY	-.-.-	SY.DEL	0	--		SpaceAfter=No
-1036	.	_	SY	-.-.-	SY.DEL	0	--		
+1035	"	_	SY	-.-.-	SY.DEL	1007	--		SpaceAfter=No
+1036	.	_	SY	-.-.-	SY.DEL	1007	--		
 
 # sent_id = Wiki_MiominMio.110
 # text = Bakgrund
