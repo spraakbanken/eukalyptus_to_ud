@@ -197,6 +197,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
     #STDERR.puts "*** #{primary_tree["Romn_Lundqvist-Ingentobak.20.5"]} ***"
     onlyterminalsontop = false    
     discourseterminalontop = {}
+    
 
 
     until false == true do
@@ -254,11 +255,19 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
 
                 if nonterminals > 1
                     @nsents_several_nonterminals_on_top += 1
+                    @sentids_several_nonterminals_on_top << sent_id
                     #if nonterminal_cats.uniq == ["KoP"] or nonterminal_cats.uniq.sort == ["KoP", "SuP"]
                     #    STDOUT.puts sent_id
                     #end
                     #STDOUT.puts "#{sent_id}\t#{nonterminals}\t#{nonterminal_cats.sort.uniq}\t#{nonterminal_cats.sort}"
-                    @cat_combinations_on_top[nonterminal_cats.sort.uniq.join(", ")]+=1
+                    combination = nonterminal_cats.sort.uniq.join(", ")
+                    @cat_combinations_on_top[combination]+=1
+                    if combination.include?("S") or combination.include?("KoP") or combination.include?("SuP") or combination.include?("VP")
+                        @nonterminallinkontop = "parataxis"
+                    else
+                        @nonterminallinkontop = "conj"
+                    end
+                    
                     
                 end
 
@@ -402,6 +411,8 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                     #@reversed_tree[node] = root
                     if discourseterminalontop[node] == true
                         @reversed_labels[node] = "discourse"
+                    #elsif @nonterminallinkontop != false
+                    #    @reversed_labels[node] = @nonterminallinkontop.clone
                     else
                         @reversed_labels[node] = labels[nodeindex]
                     end
@@ -542,12 +553,13 @@ end
 excluded_sents = {}
 n_processed_sents = 0
 @nsents_several_nonterminals_on_top = 0
+@sentids_several_nonterminals_on_top = []
 @cat_combinations_on_top = Hash.new(0)
 @n_only_terminals_on_top = 0
 n_wrong_trees = 0
 
 
-
+undercounter = 0
 filenames.each do |filename|
     
     STDERR.puts "Parsing xml..."
@@ -667,6 +679,7 @@ filenames.each do |filename|
                 if verbose then STDERR.puts "Processing the primary tree" end
                 if verbose then STDERR.puts "*****" end
                 #@rootlist = []
+                @nonterminallinkontop = false
                 root = process_primary_tree(primary_tree, primary_labels, "#{sent_id}.0", term_ids, phrases, 0, sent_id,"",verbose, words)
 
                 ###extracted from the process_primary_tree method, since this does not have to be done for every node. The variable root is now the output of the method
@@ -674,6 +687,11 @@ filenames.each do |filename|
                 mainroot2 = 0
                 
                 if @under0.length > 1
+                    #if !@sentids_several_nonterminals_on_top.include?(sent_id)
+                        #STDOUT.puts sent_id
+                    #end
+                    #TODO: what are those cases when this occurs, but it's not "several non-terminal on top"?
+                    undercounter += 1
                     foundnewmainroot = false
                     #choosing the leftmost node
                     @under0_copy = @under0.clone.sort
@@ -777,6 +795,10 @@ filenames.each do |filename|
                     info = words[term_id]
                     head = nodeid_to_integer(sent_id,@reversed_tree[term_id])
                     deprel = @reversed_labels[term_id]
+                    if deprel == "--" and info["pos"][0..1] != "SY" and head != 0 and !@sentids_several_nonterminals_on_top.include?(sent_id)
+                        STDOUT.puts "#{sent_id}\t#{term_id}"
+                    end
+
                     if @reversed_secondary_tree[term_id].length != 0
                         secdep = "#{head}:#{deprel}"
                         seclabel = ""
@@ -827,3 +849,4 @@ STDERR.puts "Sentences where there are several nonterminals on top: #{@nsents_se
 #@cat_combinations_on_top.each_pair do |combination,freq| 
 #    STDOUT.puts "#{combination}\t#{freq}"
 #end
+#STDERR.puts undercounter

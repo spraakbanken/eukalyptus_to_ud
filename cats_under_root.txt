@@ -1,1261 +1,337 @@
-Current_id: Blog_160886-12595823.10.13 Assigned the leftmost node as a head: 
-Current_id: Blog_160886-12595823.16.2 Assigned the leftmost node as a head: 9
-Current_id: Blog_160886-12595823.18.2 Assigned the leftmost node as a head: 41
-Current_id: Blog_160886-12595823.21.5 Assigned the leftmost node as a head: 
-Current_id: Blog_160886-11338599.1.6 Assigned the leftmost node as a head: 2
-Current_id: Blog_160886-11338599.1.5 Assigned the leftmost node as a head: 
-Current_id: Blog_160886-11338599.3.3 Assigned the leftmost node as a head: 9
-Current_id: Blog_160886-11338599.4.6 Assigned the leftmost node as a head: 
-Current_id: Blog_160886-11338599.6.5 Assigned the leftmost node as a head: 7
-Current_id: Blog_160886-11338599.9.1 Assigned the leftmost node as a head: 6
-Current_id: Blog_160886-11338557.1.10 Assigned the leftmost node as a head: 12
-Current_id: Blog_160886-11338557.7.4 Assigned the leftmost node as a head: 5
-Current_id: Blog_160886-11338557.11.6 Assigned the leftmost node as a head: 5
-Current_id: Blog_160886-11338557.12.6 Assigned the leftmost node as a head: 2
-Current_id: Blog_160886-12591771.4.6 Assigned the leftmost node as a head: 9
-Current_id: Blog_160886-12591771.9.8 Assigned the leftmost node as a head: 7
-Current_id: Blog_160886-11338497.1.5 Assigned the leftmost node as a head: 17
-Current_id: Blog_160886-11338497.2.5 Assigned the leftmost node as a head: 
-Current_id: Blog_160886-11338497.10.11 Assigned the leftmost node as a head: 11
-Current_id: Blog_160886-11338497.10.6 Assigned the leftmost node as a head: 14
-Current_id: Blog_160886-11338497.21.nt.16 Assigned the leftmost node as a head: 1
-Current_id: Blog_160886-11338497.21.10 Assigned the leftmost node as a head: 13
-Current_id: Blog_188519-10179826.5.6 Assigned the leftmost node as a head: 
-Current_id: Blog_188519-10179826.11.9 Assigned the leftmost node as a head: 15
-Current_id: Blog_188519-10179826.17.8 Assigned the leftmost node as a head: 30
-Current_id: Blog_188519-10179826.41.6 Assigned the leftmost node as a head: 
-Current_id: Blog_188519-10179826.44.2 Assigned the leftmost node as a head: 16
-Current_id: Blog_188519-10542620.15.12 Assigned the leftmost node as a head: 
-Current_id: Blog_188519-10542620.18.13 Assigned the leftmost node as a head: 
-Current_id: Blog_188519-10542620.24.9 Assigned the leftmost node as a head: 
-Current_id: Blog_188519-10542620.34.5 Assigned the leftmost node as a head: 
-Current_id: Blog_188519-10542620.36.7 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-144355.2.9 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-144355.2.4 Assigned the leftmost node as a head: 11
-Current_id: Blog_13263-144355.2.3 Assigned the leftmost node as a head: 15
-Current_id: Blog_13263-144355.3.20 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-144355.3.4 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-144355.3.2 Assigned the leftmost node as a head: 21
-Current_id: Blog_13263-144355.3.3 Assigned the leftmost node as a head: 24
-Current_id: Blog_13263-1168055.5.9 Assigned the leftmost node as a head: 3
-Current_id: Blog_13263-1168055.5.12 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-255637.2.7 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-255637.2.6 Assigned the leftmost node as a head: 17
-Current_id: Blog_13263-637462.4.1 Assigned the leftmost node as a head: 7
-Current_id: Blog_13263-862913.2.4 Assigned the leftmost node as a head: 7
-Current_id: Blog_13263-862913.3.3 Assigned the leftmost node as a head: 10
-Current_id: Blog_13263-213331.3.6 Assigned the leftmost node as a head: 13
-Current_id: Blog_13263-213331.3.3 Assigned the leftmost node as a head: 18
-Current_id: Blog_13263-85629.2.3 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-1049139.1.19 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-813010.3.4 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-691527.3.10 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-728008.1.7 Assigned the leftmost node as a head: 13
-Current_id: Blog_13263-596973.2.5 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-1087147.3.13 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-236413.2.14 Assigned the leftmost node as a head: 1
-Current_id: Blog_13263-236413.2.12 Assigned the leftmost node as a head: 6
-Current_id: Blog_13263-236413.2.1 Assigned the leftmost node as a head: 16
-Current_id: Blog_13263-313966.1.9 Assigned the leftmost node as a head: 26
-Current_id: Blog_13263-313966.1.11 Assigned the leftmost node as a head: 17
-Current_id: Blog_13263-24167.2.1 Assigned the leftmost node as a head: 24
-Current_id: Blog_13263-24167.3.10 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-24167.3.9 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-513530.1.18 Assigned the leftmost node as a head: 1
-Current_id: Blog_13263-513530.1.25 Assigned the leftmost node as a head: 8
-Current_id: Blog_13263-513530.4.9 Assigned the leftmost node as a head: 31
-Current_id: Blog_13263-1216693.2.6 Assigned the leftmost node as a head: 31
-Current_id: Blog_13263-1216693.2.2 Assigned the leftmost node as a head: 37
-Current_id: Blog_13263-1216693.2.10 Assigned the leftmost node as a head: 
-Current_id: Blog_13263-1216693.2.7 Assigned the leftmost node as a head: 28
-Current_id: Blog_12325-1398819.5.2 Assigned the leftmost node as a head: 12
-Current_id: Blog_12325-1398819.5.1 Assigned the leftmost node as a head: 17
-Current_id: Blog_12325-1398819.18.11 Assigned the leftmost node as a head: 19
-Current_id: Blog_12325-1398819.18.6 Assigned the leftmost node as a head: 26
-Current_id: Blog_12325-1398819.25.6 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-1398819.27a.6 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-2172538.10.4 Assigned the leftmost node as a head: 1
-Current_id: Blog_12325-2172538.10.3 Assigned the leftmost node as a head: 3
-Current_id: Blog_12325-1621221.1c.nt.12 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-1621221.3a.nt.10 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-1621221.4.nt.13 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-1621221.4.nt.14 Assigned the leftmost node as a head: 14
-Current_id: Blog_12325-2413172.1.1 Assigned the leftmost node as a head: 1
-Current_id: Blog_12325-2413172.7.16 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-2413172.12.7 Assigned the leftmost node as a head: 1
-Current_id: Blog_12325-2413172.13.14 Assigned the leftmost node as a head: 11
-Current_id: Blog_12325-2413172.13.10 Assigned the leftmost node as a head: 17
-Current_id: Blog_12325-2413172.16.3 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-2413172.19.nt.9 Assigned the leftmost node as a head: 1
-Current_id: Blog_12325-2413172.20.nt.7 Assigned the leftmost node as a head: 1
-Current_id: Blog_12325-2413172.23.nt.3 Assigned the leftmost node as a head: 1
-Current_id: Blog_12325-1884438.1.3 Assigned the leftmost node as a head: 2
-Current_id: Blog_12325-1884438.6.10 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-1884438.14.1 Assigned the leftmost node as a head: 1
-Current_id: Blog_12325-1884438.15.10 Assigned the leftmost node as a head: 3
-Current_id: Blog_12325-1884438.15.nt.13 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-1189192.1a.nt.1 Assigned the leftmost node as a head: 4
-Current_id: Blog_12325-1189192.3.11 Assigned the leftmost node as a head: 14
-Current_id: Blog_12325-1189192.5.nt.1 Assigned the leftmost node as a head: 76
-Current_id: Blog_12325-1189192.5a.nt.2 Assigned the leftmost node as a head: 4
-Current_id: Blog_12325-1189192.6.12 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-1189192.6.10 Assigned the leftmost node as a head: 4
-Current_id: Blog_12325-1189192.9.nt.5 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-1189192.9.2 Assigned the leftmost node as a head: 7
-Current_id: Blog_12325-1189192.10.15 Assigned the leftmost node as a head: 3
-Current_id: Blog_12325-1189192.11.12 Assigned the leftmost node as a head: 1
-Current_id: Blog_12325-1189192.13.18 Assigned the leftmost node as a head: 
-Current_id: Blog_12325-1189192.13.7 Assigned the leftmost node as a head: 20
-Current_id: Blog_26224-3394076.1.1 Assigned the leftmost node as a head: 1
-Current_id: Blog_26224-1714803.1.6 Assigned the leftmost node as a head: 
-Current_id: Blog_26224-1714803.1.2 Assigned the leftmost node as a head: 3
-Current_id: Blog_26224-1714803.1.5 Assigned the leftmost node as a head: 8
-Current_id: Blog_26224-1714803.5.1 Assigned the leftmost node as a head: 1
-Current_id: Blog_26224-1042486.1.6 Assigned the leftmost node as a head: 7
-Current_id: Blog_265827-14454547.14.2 Assigned the leftmost node as a head: 2
-Current_id: Blog_265827-14454547.20.1 Assigned the leftmost node as a head: 1
-Current_id: Blog_265827-14844249.3.6 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-15106309.6.nt.6 Assigned the leftmost node as a head: 8
-Current_id: Blog_265827-14653745.1.5 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-14989915.2.7 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-15165011.1.nt.10 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-15165011.1.nt.9 Assigned the leftmost node as a head: 1
-Current_id: Blog_265827-14454566.3.4 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-14454804.3.nt.7 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-14454804.3.nt.6 Assigned the leftmost node as a head: 9
-Current_id: Blog_265827-14454804.5.6 Assigned the leftmost node as a head: 11
-Current_id: Blog_265827-14454804.7.12 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-14454804.7.11 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-14454804.7.10 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-14889090.3.6 Assigned the leftmost node as a head: 1
-Current_id: Blog_265827-14889090.4.2 Assigned the leftmost node as a head: 4
-Current_id: Blog_265827-14455040.3.2 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-8186120.1.15 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-8186120.3.10 Assigned the leftmost node as a head: 16
-Current_id: Blog_265827-14844246.4.4 Assigned the leftmost node as a head: 1
-Current_id: Blog_265827-15246480.4.3 Assigned the leftmost node as a head: 1
-Current_id: Blog_265827-14455131.3.4 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-15106306.4.7 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-15106306.11.7 Assigned the leftmost node as a head: 6
-Current_id: Blog_265827-15106306.11.10 Assigned the leftmost node as a head: 10
-Current_id: Blog_265827-15106306.11.1 Assigned the leftmost node as a head: 11
-Current_id: Blog_265827-15106306.13.3 Assigned the leftmost node as a head: 5
-Current_id: Blog_265827-15106306.14.3 Assigned the leftmost node as a head: 1
-Current_id: Blog_265827-14749673.3.8 Assigned the leftmost node as a head: 17
-Current_id: Blog_265827-14749673.5.nt.7 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-14749673.5.nt.6 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-14749673.5.nt.4 Assigned the leftmost node as a head: 4
-Current_id: Blog_265827-14749673.5.nt.5 Assigned the leftmost node as a head: 8
-Current_id: Blog_265827-15028532.3.7 Assigned the leftmost node as a head: 
-Current_id: Blog_265827-15106304.2.9 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-4868011.1.nt.11 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-5164672.9.20 Assigned the leftmost node as a head: 8
-Current_id: Blog_6843-5164672.10.24 Assigned the leftmost node as a head: 20
-Current_id: Blog_6843-5164672.10.9 Assigned the leftmost node as a head: 47
-Current_id: Blog_6843-5164672.12.8 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-5164672.15.11 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-5164672.15.8 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-4328736.1.6 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-4328736.4.3 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-4328736.4.1 Assigned the leftmost node as a head: 5
-Current_id: Blog_6843-4255016.2.9 Assigned the leftmost node as a head: 13
-Current_id: Blog_6843-4255016.2.12 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-4255016.2.13 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-4255016.5.25 Assigned the leftmost node as a head: 35
-Current_id: Blog_6843-4255016.6.7 Assigned the leftmost node as a head: 17
-Current_id: Blog_6843-4255016.14.10 Assigned the leftmost node as a head: 6
-Current_id: Blog_6843-3465275.2.25 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-3465275.3.5 Assigned the leftmost node as a head: 34
-Current_id: Blog_6843-3465275.7.10 Assigned the leftmost node as a head: 5
-Current_id: Blog_6843-3465275.10.3 Assigned the leftmost node as a head: 6
-Current_id: Blog_6843-3465275.11.3 Assigned the leftmost node as a head: 1
-Current_id: Blog_6843-3465275.12.2 Assigned the leftmost node as a head: 1
-Current_id: Blog_6843-3465275.13.2 Assigned the leftmost node as a head: 1
-Current_id: Blog_6843-3465275.14.1 Assigned the leftmost node as a head: 1
-Current_id: Blog_6843-3465275.15a.2 Assigned the leftmost node as a head: 1
-Current_id: Blog_6843-3465275.15b.1 Assigned the leftmost node as a head: 1
-Current_id: Blog_6843-4575758.5.20 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-2767923.9.6 Assigned the leftmost node as a head: 1
-Current_id: Blog_6843-2767923.14.2 Assigned the leftmost node as a head: 5
-Current_id: Blog_6843-2767923.16.24 Assigned the leftmost node as a head: 11
-Current_id: Blog_6843-2767923.16.20 Assigned the leftmost node as a head: 19
-Current_id: Blog_6843-2767923.18.12 Assigned the leftmost node as a head: 4
-Current_id: Blog_6843-2767923.19.10 Assigned the leftmost node as a head: 13
-Current_id: Blog_6843-2767923.19.20 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-2767923.19.16 Assigned the leftmost node as a head: 
-Current_id: Blog_6843-2767923.19.22 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9048317.2.nt.7 Assigned the leftmost node as a head: 1
-Current_id: Blog_5089-9048317.3.21 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9048317.4.3 Assigned the leftmost node as a head: 4
-Current_id: Blog_5089-9048317.9.6 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9048317.15.11 Assigned the leftmost node as a head: 12
-Current_id: Blog_5089-9048317.16.3 Assigned the leftmost node as a head: 1
-Current_id: Blog_5089-9048317.16.9 Assigned the leftmost node as a head: 10
-Current_id: Blog_5089-9048317.17.5 Assigned the leftmost node as a head: 19
-Current_id: Blog_5089-9048317.17.7 Assigned the leftmost node as a head: 34
-Current_id: Blog_5089-9048317.33.9 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9048317.35.8 Assigned the leftmost node as a head: 2
-Current_id: Blog_5089-9048317.36.16 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9048317.36.8 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9048317.39.9 Assigned the leftmost node as a head: 7
-Current_id: Blog_5089-12282516.4.10 Assigned the leftmost node as a head: 6
-Current_id: Blog_5089-12282516.5.4 Assigned the leftmost node as a head: 3
-Current_id: Blog_5089-12282516.6.2 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-12282516.7.16 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-12282516.13.10 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-12282516.14.3 Assigned the leftmost node as a head: 14
-Current_id: Blog_5089-12282516.17.12 Assigned the leftmost node as a head: 3
-Current_id: Blog_5089-12282516.25.14 Assigned the leftmost node as a head: 18
-Current_id: Blog_5089-12282516.29.3 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-12282516.31.nt.12 Assigned the leftmost node as a head: 4
-Current_id: Blog_5089-12282516.31.2 Assigned the leftmost node as a head: 3
-Current_id: Blog_5089-3694482.2.2 Assigned the leftmost node as a head: 2
-Current_id: Blog_5089-3694482.2.5 Assigned the leftmost node as a head: 13
-Current_id: Blog_5089-3694482.6.4 Assigned the leftmost node as a head: 2
-Current_id: Blog_5089-3694482.11.1 Assigned the leftmost node as a head: 8
-Current_id: Blog_5089-3694482.14.4 Assigned the leftmost node as a head: 1
-Current_id: Blog_5089-3694482.15.15 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-3694482.15.7 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9240616.11.12 Assigned the leftmost node as a head: 13
-Current_id: Blog_5089-9240616.11.10 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9240616.11.7 Assigned the leftmost node as a head: 20
-Current_id: Blog_5089-9240616.19.6 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9240616.20.16 Assigned the leftmost node as a head: 5
-Current_id: Blog_5089-9240616.20.12 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9240616.22.21 Assigned the leftmost node as a head: 17
-Current_id: Blog_5089-9240616.22.22 Assigned the leftmost node as a head: 21
-Current_id: Blog_5089-9240616.26.26 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9240616.28.24 Assigned the leftmost node as a head: 1
-Current_id: Blog_5089-9240616.30.6 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9240616.33.9 Assigned the leftmost node as a head: 2
-Current_id: Blog_5089-9240616.33.5 Assigned the leftmost node as a head: 10
-Current_id: Blog_5089-9240616.37.14 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-9240616.37.13 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-62681.6.9 Assigned the leftmost node as a head: 4
-Current_id: Blog_5089-62681.15.13 Assigned the leftmost node as a head: 10
-Current_id: Blog_5089-62681.15.12 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-62681.15.8 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-62681.15.7 Assigned the leftmost node as a head: 8
-Current_id: Blog_5089-62681.15.2 Assigned the leftmost node as a head: 17
-Current_id: Blog_5089-62681.24.10 Assigned the leftmost node as a head: 1
-Current_id: Blog_5089-62681.25.4 Assigned the leftmost node as a head: 
-Current_id: Blog_5089-62681.31.9 Assigned the leftmost node as a head: 2
-Current_id: Blog_9154-5334916.5.12 Assigned the leftmost node as a head: 
-Current_id: Blog_9154-5334916.7.2 Assigned the leftmost node as a head: 16
-Current_id: Blog_9154-5334916.8.4 Assigned the leftmost node as a head: 13
-Current_id: Blog_9154-6030495.3.15 Assigned the leftmost node as a head: 
-Current_id: Blog_9154-6030495.3.14 Assigned the leftmost node as a head: 4
-Current_id: Blog_9154-6030495.4.11 Assigned the leftmost node as a head: 12
-Current_id: Blog_9154-6030495.4.5 Assigned the leftmost node as a head: 
-Current_id: Blog_9154-6030495.8.10 Assigned the leftmost node as a head: 18
-Current_id: Blog_9154-6030495.11.7 Assigned the leftmost node as a head: 8
-Current_id: Blog_9154-6030495.11.11 Assigned the leftmost node as a head: 
-Current_id: Blog_9154-6030495.11.12 Assigned the leftmost node as a head: 
-Current_id: Blog_9154-6030495.12.10 Assigned the leftmost node as a head: 
-Current_id: Blog_9154-6336623.3.5 Assigned the leftmost node as a head: 17
-Current_id: Blog_9154-6336623.4.7 Assigned the leftmost node as a head: 17
-Current_id: Blog_9154-6336623.9.14 Assigned the leftmost node as a head: 10
-Current_id: Blog_9154-501423.2.21 Assigned the leftmost node as a head: 
-Current_id: Blog_9154-4949551.1.15 Assigned the leftmost node as a head: 
-Current_id: Blog_9154-4949551.3.nt.6 Assigned the leftmost node as a head: 1
-Current_id: Blog_9154-4949551.5.3 Assigned the leftmost node as a head: 1
-Current_id: Blog_54523-7856343.2.22 Assigned the leftmost node as a head: 1
-Current_id: Blog_54523-7856343.2.21 Assigned the leftmost node as a head: 6
-Current_id: Blog_54523-7856343.6.13 Assigned the leftmost node as a head: 16
-Current_id: Blog_54523-7856343.7.5 Assigned the leftmost node as a head: 8
-Current_id: Blog_54523-7856343.8.33 Assigned the leftmost node as a head: 24
-Current_id: Blog_54523-7856343.8.18 Assigned the leftmost node as a head: 56
-Current_id: Blog_54523-7856343.8.6 Assigned the leftmost node as a head: 97
-Current_id: Blog_54523-7856343.14.26 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-7856343.14.27 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-7856343.14.14 Assigned the leftmost node as a head: 61
-Current_id: Blog_54523-7856343.21.nt.10 Assigned the leftmost node as a head: 3
-Current_id: Blog_54523-8202951.1.11 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-8202951.3.5 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-8202951.4.12 Assigned the leftmost node as a head: 3
-Current_id: Blog_54523-8202951.5.13 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-8202951.5.11 Assigned the leftmost node as a head: 13
-Current_id: Blog_54523-8202951.7.9 Assigned the leftmost node as a head: 19
-Current_id: Blog_54523-8202951.10.1 Assigned the leftmost node as a head: 18
-Current_id: Blog_54523-8202951.12c.37 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-9913239.9.22 Assigned the leftmost node as a head: 1
-Current_id: Blog_54523-9913239.9.14 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-9913239.11.5 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-9913239.11.29 Assigned the leftmost node as a head: 34
-Current_id: Blog_54523-6490319.2.14 Assigned the leftmost node as a head: 81
-Current_id: Blog_54523-6490319.2.54 Assigned the leftmost node as a head: 86
-Current_id: Blog_54523-6490319.2.40 Assigned the leftmost node as a head: 13
-Current_id: Blog_54523-6490319.4.10 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-9491151.2.9 Assigned the leftmost node as a head: 1
-Current_id: Blog_54523-9491151.2.12 Assigned the leftmost node as a head: 4
-Current_id: Blog_54523-9491151.2.7 Assigned the leftmost node as a head: 6
-Current_id: Blog_54523-9491151.3.5 Assigned the leftmost node as a head: 1
-Current_id: Blog_54523-9491151.3.7 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-9491151.5.11 Assigned the leftmost node as a head: 1
-Current_id: Blog_54523-9491151.12.5 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-9491151.12.4 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-4665614.2.11 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-4665614.2.12 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-4665614.5.8 Assigned the leftmost node as a head: 11
-Current_id: Blog_54523-4665614.6.15 Assigned the leftmost node as a head: 30
-Current_id: Blog_54523-14269154.1.17 Assigned the leftmost node as a head: 87
-Current_id: Blog_54523-14269154.1.56 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-14269154.1.63 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-14269154.12.34 Assigned the leftmost node as a head: 
-Current_id: Blog_54523-14269154.12.35 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.3.3 Assigned the leftmost node as a head: 15
-Current_id: Eupa_00-01-17.4.5 Assigned the leftmost node as a head: 2
-Current_id: Eupa_00-01-17.5.2 Assigned the leftmost node as a head: 14
-Current_id: Eupa_00-01-17.7.11 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.7.22 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.12.10 Assigned the leftmost node as a head: 7
-Current_id: Eupa_00-01-17.13.15 Assigned the leftmost node as a head: 1
-Current_id: Eupa_00-01-17.14.42 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.14.35 Assigned the leftmost node as a head: 25
-Current_id: Eupa_00-01-17.15.12 Assigned the leftmost node as a head: 14
-Current_id: Eupa_00-01-17.16.4 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.20.18 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.27.7 Assigned the leftmost node as a head: 18
-Current_id: Eupa_00-01-17.31.2 Assigned the leftmost node as a head: 12
-Current_id: Eupa_00-01-17.39.4 Assigned the leftmost node as a head: 16
-Current_id: Eupa_00-01-17.41.14 Assigned the leftmost node as a head: 13
-Current_id: Eupa_00-01-17.43.4 Assigned the leftmost node as a head: 9
-Current_id: Eupa_00-01-17.61.3 Assigned the leftmost node as a head: 27
-Current_id: Eupa_00-01-17.63.17 Assigned the leftmost node as a head: 10
-Current_id: Eupa_00-01-17.66.17 Assigned the leftmost node as a head: 4
-Current_id: Eupa_00-01-17.84.18 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.88.13 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.94.15 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.96.40 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.98.17 Assigned the leftmost node as a head: 34
-Current_id: Eupa_00-01-17.99.11 Assigned the leftmost node as a head: 57
-Current_id: Eupa_00-01-17.102.63 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.116.13 Assigned the leftmost node as a head: 14
-Current_id: Eupa_00-01-17.117.5 Assigned the leftmost node as a head: 10
-Current_id: Eupa_00-01-17.159.15 Assigned the leftmost node as a head: 11
-Current_id: Eupa_00-01-17.159.22 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.163.nt.36 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.163.nt.37 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.165.4 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.165.2 Assigned the leftmost node as a head: 10
-Current_id: Eupa_00-01-17.168.5 Assigned the leftmost node as a head: 8
-Current_id: Eupa_00-01-17.173.12 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.184.3 Assigned the leftmost node as a head: 13
-Current_id: Eupa_00-01-17.194.5 Assigned the leftmost node as a head: 15
-Current_id: Eupa_00-01-17.201.3 Assigned the leftmost node as a head: 18
-Current_id: Eupa_00-01-17.207.10 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.208.10 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.218.1 Assigned the leftmost node as a head: 2
-Current_id: Eupa_00-01-17.218.nt.35 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.221.4 Assigned the leftmost node as a head: 1
-Current_id: Eupa_00-01-17.237.26 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.240.17 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.240.14 Assigned the leftmost node as a head: 14
-Current_id: Eupa_00-01-17.243.24 Assigned the leftmost node as a head: 39
-Current_id: Eupa_00-01-17.244.21 Assigned the leftmost node as a head: 14
-Current_id: Eupa_00-01-17.247.8 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.249.8 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.252.23 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.253.24 Assigned the leftmost node as a head: 5
-Current_id: Eupa_00-01-17.253.28 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.270.5 Assigned the leftmost node as a head: 24
-Current_id: Eupa_00-01-17.270.21 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.270.1 Assigned the leftmost node as a head: 31
-Current_id: Eupa_00-01-17.272.nt.34 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.272.16 Assigned the leftmost node as a head: 20
-Current_id: Eupa_00-01-17.272.20 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.275.16 Assigned the leftmost node as a head: 13
-Current_id: Eupa_00-01-17.279.10 Assigned the leftmost node as a head: 2
-Current_id: Eupa_00-01-17.287.4 Assigned the leftmost node as a head: 17
-Current_id: Eupa_00-01-17.293.nt.4 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.301.35 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.308.14 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.310.19 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.311.23 Assigned the leftmost node as a head: 33
-Current_id: Eupa_00-01-17.313.nt.3 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.315.14 Assigned the leftmost node as a head: 12
-Current_id: Eupa_00-01-17.316.11 Assigned the leftmost node as a head: 6
-Current_id: Eupa_00-01-17.329.14 Assigned the leftmost node as a head: 14
-Current_id: Eupa_00-01-17.329.10 Assigned the leftmost node as a head: 21
-Current_id: Eupa_00-01-17.334.nt.3 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.335.12 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.338.4 Assigned the leftmost node as a head: 15
-Current_id: Eupa_00-01-17.342.5 Assigned the leftmost node as a head: 8
-Current_id: Eupa_00-01-17.342.9 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.343.15 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.347.5 Assigned the leftmost node as a head: 1
-Current_id: Eupa_00-01-17.349.5 Assigned the leftmost node as a head: 15
-Current_id: Eupa_00-01-17.352.nt.16 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.356.2 Assigned the leftmost node as a head: 11
-Current_id: Eupa_00-01-17.362.16 Assigned the leftmost node as a head: 10
-Current_id: Eupa_00-01-17.362.nt.18 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.365.13 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.375.21 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.384.nt.3 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.389.3 Assigned the leftmost node as a head: 15
-Current_id: Eupa_00-01-17.405.6 Assigned the leftmost node as a head: 39
-Current_id: Eupa_00-01-17.405.3 Assigned the leftmost node as a head: 31
-Current_id: Eupa_00-01-17.409.16 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.413.30 Assigned the leftmost node as a head: 19
-Current_id: Eupa_00-01-17.425.10 Assigned the leftmost node as a head: 18
-Current_id: Eupa_00-01-17.425.11 Assigned the leftmost node as a head: 26
-Current_id: Eupa_00-01-17.434.19 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.440.21 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.443.9 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.446.30 Assigned the leftmost node as a head: 7
-Current_id: Eupa_00-01-17.448.17 Assigned the leftmost node as a head: 16
-Current_id: Eupa_00-01-17.448.14 Assigned the leftmost node as a head: 20
-Current_id: Eupa_00-01-17.452.11 Assigned the leftmost node as a head: 14
-Current_id: Eupa_00-01-17.452.32 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.455.17 Assigned the leftmost node as a head: 10
-Current_id: Eupa_00-01-17.456.12 Assigned the leftmost node as a head: 11
-Current_id: Eupa_00-01-17.461.14 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.464.4 Assigned the leftmost node as a head: 33
-Current_id: Eupa_00-01-17.466.nt.4 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.476.12 Assigned the leftmost node as a head: 1
-Current_id: Eupa_00-01-17.476.9 Assigned the leftmost node as a head: 3
-Current_id: Eupa_00-01-17.476.18 Assigned the leftmost node as a head: 34
-Current_id: Eupa_00-01-17.477.20 Assigned the leftmost node as a head: 26
-Current_id: Eupa_00-01-17.479.3 Assigned the leftmost node as a head: 49
-Current_id: Eupa_00-01-17.480.5 Assigned the leftmost node as a head: 31
-Current_id: Eupa_00-01-17.481.nt.4 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.485.18 Assigned the leftmost node as a head: 20
-Current_id: Eupa_00-01-17.485.3 Assigned the leftmost node as a head: 41
-Current_id: Eupa_00-01-17.487.36 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.489.5 Assigned the leftmost node as a head: 9
-Current_id: Eupa_00-01-17.491.26 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.506.13 Assigned the leftmost node as a head: 12
-Current_id: Eupa_00-01-17.508.4 Assigned the leftmost node as a head: 14
-Current_id: Eupa_00-01-17.510.3 Assigned the leftmost node as a head: 10
-Current_id: Eupa_00-01-17.511.28 Assigned the leftmost node as a head: 17
-Current_id: Eupa_00-01-17.511.25 Assigned the leftmost node as a head: 19
-Current_id: Eupa_00-01-17.511.14 Assigned the leftmost node as a head: 32
-Current_id: Eupa_00-01-17.512.nt.4 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.514.15 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.515.5 Assigned the leftmost node as a head: 8
-Current_id: Eupa_00-01-17.519.11 Assigned the leftmost node as a head: 13
-Current_id: Eupa_00-01-17.520.27 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.522.6 Assigned the leftmost node as a head: 7
-Current_id: Eupa_00-01-17.524.16 Assigned the leftmost node as a head: 9
-Current_id: Eupa_00-01-17.526.3 Assigned the leftmost node as a head: 9
-Current_id: Eupa_00-01-17.527.6 Assigned the leftmost node as a head: 4
-Current_id: Eupa_00-01-17.532.3 Assigned the leftmost node as a head: 16
-Current_id: Eupa_00-01-17.533.32 Assigned the leftmost node as a head: 53
-Current_id: Eupa_00-01-17.535.1 Assigned the leftmost node as a head: 22
-Current_id: Eupa_00-01-17.536.11 Assigned the leftmost node as a head: 11
-Current_id: Eupa_00-01-17.537.12 Assigned the leftmost node as a head: 1
-Current_id: Eupa_00-01-17.538.1 Assigned the leftmost node as a head: 16
-Current_id: Eupa_00-01-17.540.5 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.541.1 Assigned the leftmost node as a head: 25
-Current_id: Eupa_00-01-17.543.4 Assigned the leftmost node as a head: 12
-Current_id: Eupa_00-01-17.550.10 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.552.14 Assigned the leftmost node as a head: 35
-Current_id: Eupa_00-01-17.552.15 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.563.1 Assigned the leftmost node as a head: 1
-Current_id: Eupa_00-01-17.565.23 Assigned the leftmost node as a head: 3
-Current_id: Eupa_00-01-17.566.35 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.572.3 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.574.2 Assigned the leftmost node as a head: 28
-Current_id: Eupa_00-01-17.577.5 Assigned the leftmost node as a head: 11
-Current_id: Eupa_00-01-17.585.nt.4 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.587.25 Assigned the leftmost node as a head: 4
-Current_id: Eupa_00-01-17.587.18 Assigned the leftmost node as a head: 17
-Current_id: Eupa_00-01-17.587.4 Assigned the leftmost node as a head: 38
-Current_id: Eupa_00-01-17.588.12 Assigned the leftmost node as a head: 8
-Current_id: Eupa_00-01-17.591.9 Assigned the leftmost node as a head: 1
-Current_id: Eupa_00-01-17.601.23 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.616.16 Assigned the leftmost node as a head: 25
-Current_id: Eupa_00-01-17.618.8 Assigned the leftmost node as a head: 12
-Current_id: Eupa_00-01-17.618.16 Assigned the leftmost node as a head: 34
-Current_id: Eupa_00-01-17.620.1 Assigned the leftmost node as a head: 38
-Current_id: Eupa_00-01-17.624.6 Assigned the leftmost node as a head: 51
-Current_id: Eupa_00-01-17.626.16 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.627.3 Assigned the leftmost node as a head: 12
-Current_id: Eupa_00-01-17.630.17 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.632.18 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.633.4 Assigned the leftmost node as a head: 21
-Current_id: Eupa_00-01-17.639.10 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.640.45 Assigned the leftmost node as a head: 57
-Current_id: Eupa_00-01-17.644.4 Assigned the leftmost node as a head: 26
-Current_id: Eupa_00-01-17.645.11 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.662.nt.20 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.663.10 Assigned the leftmost node as a head: 1
-Current_id: Eupa_00-01-17.666.19 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.675.23 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.695.nt.46 Assigned the leftmost node as a head: 43
-Current_id: Eupa_00-01-17.695.53 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.695.7 Assigned the leftmost node as a head: 62
-Current_id: Eupa_00-01-17.698.34 Assigned the leftmost node as a head: 35
-Current_id: Eupa_00-01-17.700.29 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.705.10 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.706.21 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.706.10 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.706.11 Assigned the leftmost node as a head: 29
-Current_id: Eupa_00-01-17.707.9 Assigned the leftmost node as a head: 23
-Current_id: Eupa_00-01-17.708.15 Assigned the leftmost node as a head: 7
-Current_id: Eupa_00-01-17.708.14 Assigned the leftmost node as a head: 3
-Current_id: Eupa_00-01-17.708.31 Assigned the leftmost node as a head: 16
-Current_id: Eupa_00-01-17.708.29 Assigned the leftmost node as a head: 42
-Current_id: Eupa_00-01-17.708.27 Assigned the leftmost node as a head: 45
-Current_id: Eupa_00-01-17.709.6 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.709.17 Assigned the leftmost node as a head: 19
-Current_id: Eupa_00-01-17.710.7 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.710.2 Assigned the leftmost node as a head: 25
-Current_id: Eupa_00-01-17.710.6 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.713.5 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.714.13 Assigned the leftmost node as a head: 8
-Current_id: Eupa_00-01-17.714.12 Assigned the leftmost node as a head: 5
-Current_id: Eupa_00-01-17.714.24 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.714.23 Assigned the leftmost node as a head: 35
-Current_id: Eupa_00-01-17.716.21 Assigned the leftmost node as a head: 56
-Current_id: Eupa_00-01-17.716.15 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.717.23 Assigned the leftmost node as a head: 91
-Current_id: Eupa_00-01-17.717.14 Assigned the leftmost node as a head: 99
-Current_id: Eupa_00-01-17.720.20 Assigned the leftmost node as a head: 8
-Current_id: Eupa_00-01-17.720.27 Assigned the leftmost node as a head: 11
-Current_id: Eupa_00-01-17.722.5 Assigned the leftmost node as a head: 24
-Current_id: Eupa_00-01-17.723.22 Assigned the leftmost node as a head: 6
-Current_id: Eupa_00-01-17.724.4 Assigned the leftmost node as a head: 7
-Current_id: Eupa_00-01-17.726.26 Assigned the leftmost node as a head: 1
-Current_id: Eupa_00-01-17.727.8 Assigned the leftmost node as a head: 16
-Current_id: Eupa_00-01-17.731.17 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.731.2 Assigned the leftmost node as a head: 30
-Current_id: Eupa_00-01-17.732.11 Assigned the leftmost node as a head: 6
-Current_id: Eupa_00-01-17.733.2 Assigned the leftmost node as a head: 10
-Current_id: Eupa_00-01-17.737.2 Assigned the leftmost node as a head: 5
-Current_id: Eupa_00-01-17.740.3 Assigned the leftmost node as a head: 20
-Current_id: Eupa_00-01-17.744.11 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.744.10 Assigned the leftmost node as a head: 7
-Current_id: Eupa_00-01-17.746.4 Assigned the leftmost node as a head: 19
-Current_id: Eupa_00-01-17.747.29 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.750.5 Assigned the leftmost node as a head: 60
-Current_id: Eupa_00-01-17.754.13 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.756.11 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.756.nt.55 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.766.nt.7 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.767.16 Assigned the leftmost node as a head: 12
-Current_id: Eupa_00-01-17.769.1 Assigned the leftmost node as a head: 14
-Current_id: Eupa_00-01-17.790.17 Assigned the leftmost node as a head: 27
-Current_id: Eupa_00-01-17.793.6 Assigned the leftmost node as a head: 28
-Current_id: Eupa_00-01-17.796.32 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.796.28 Assigned the leftmost node as a head: 10
-Current_id: Eupa_00-01-17.798.28 Assigned the leftmost node as a head: 
-Current_id: Eupa_00-01-17.801.20 Assigned the leftmost node as a head: 43
-Current_id: Eupa_00-01-17.803.9 Assigned the leftmost node as a head: 4
-Current_id: Eupa_00-01-17.803.2 Assigned the leftmost node as a head: 15
-Current_id: Eupa_00-01-17.803.3 Assigned the leftmost node as a head: 18
-Current_id: Eupa_00-01-17.804.24 Assigned the leftmost node as a head: 1
-Current_id: Arbt_Fackfientlig.1.nt.3 Assigned the leftmost node as a head: 
-Current_id: Arbt_Fackfientlig.2.nt.3 Assigned the leftmost node as a head: 13
-Current_id: Arbt_Fackfientlig.3.nt.14 Assigned the leftmost node as a head: 1
-Current_id: Arbt_Fackfientlig.3.nt.12 Assigned the leftmost node as a head: 
-Current_id: Arbt_Fackfientlig.7.nt.12 Assigned the leftmost node as a head: 9
-Current_id: Arbt_Fackfientlig.7.nt.5 Assigned the leftmost node as a head: 
-Current_id: Regr_254764.16.4 Assigned the leftmost node as a head: 
-Current_id: Arbt_Polisjakt.2.nt.9 Assigned the leftmost node as a head: 2
-Current_id: Arbt_Polisjakt.12.nt.4 Assigned the leftmost node as a head: 8
-Current_id: Arbt_Polisjakt.13.nt.7 Assigned the leftmost node as a head: 
-Current_id: Arbt_Polisjakt.14.nt.12 Assigned the leftmost node as a head: 3
-Current_id: Arbt_Polisjakt.14.nt.9 Assigned the leftmost node as a head: 
-Current_id: Arbt_Polisjakt.15.nt.14 Assigned the leftmost node as a head: 
-Current_id: Arbt_Polisjakt.18.nt.4 Assigned the leftmost node as a head: 10
-Current_id: Arbt_Polisjakt.24.nt.12 Assigned the leftmost node as a head: 9
-Current_id: Arbt_Polisjakt.27.nt.12 Assigned the leftmost node as a head: 
-Current_id: Digi_2014-08.16.3 Assigned the leftmost node as a head: 5
-Current_id: Digi_2014-08.20.6 Assigned the leftmost node as a head: 2
-Current_id: Arbt_Hardkritik.10.nt.3 Assigned the leftmost node as a head: 
-Current_id: Arbt_Hardkritik.13.nt.5 Assigned the leftmost node as a head: 17
-Current_id: Arbt_Hardkritik.22.nt.19 Assigned the leftmost node as a head: 
-Current_id: Arbt_Hardkritik.23.nt.8 Assigned the leftmost node as a head: 
-Current_id: Arbt_Hardkritik.23.nt.6 Assigned the leftmost node as a head: 5
-Current_id: Arbt_Hardkritik.28.nt.4 Assigned the leftmost node as a head: 16
-Current_id: Arbt_Hardkritik.30.nt.4 Assigned the leftmost node as a head: 1
-Current_id: Arbt_Vrede.3.nt.7 Assigned the leftmost node as a head: 17
-Current_id: Arbt_Vrede.5.nt.8 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vrede.13.nt.17 Assigned the leftmost node as a head: 22
-Current_id: Arbt_Vrede.15.nt.7 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vrede.16.nt.16 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vrede.16.nt.10 Assigned the leftmost node as a head: 
-Current_id: Regr_255053.5.10 Assigned the leftmost node as a head: 12
-Current_id: Regr_255053.9.5 Assigned the leftmost node as a head: 
-Current_id: Regr_255053.10.16 Assigned the leftmost node as a head: 
-Current_id: Regr_255053.23.10 Assigned the leftmost node as a head: 
-Current_id: Regr_255268.3.2 Assigned the leftmost node as a head: 14
-Current_id: Regr_255268.16.3 Assigned the leftmost node as a head: 7
-Current_id: Regr_255268.16.2 Assigned the leftmost node as a head: 9
-Current_id: Regr_255268.17.8 Assigned the leftmost node as a head: 
-Current_id: Regr_255268.19.2 Assigned the leftmost node as a head: 9
-Current_id: Regr_255022.11.18 Assigned the leftmost node as a head: 17
-Current_id: Regr_255022.20.25 Assigned the leftmost node as a head: 
-Current_id: Arbt_Folkomrostningen.2.nt.9 Assigned the leftmost node as a head: 
-Current_id: Arbt_Folkomrostningen.8.nt.16 Assigned the leftmost node as a head: 19
-Current_id: Arbt_Folkomrostningen.21.nt.9 Assigned the leftmost node as a head: 11
-Current_id: Arbt_Folkomrostningen.21.nt.1 Assigned the leftmost node as a head: 15
-Current_id: Regr_255856.1.nt.8 Assigned the leftmost node as a head: 1
-Current_id: Arbt_Ariel.4.nt.10 Assigned the leftmost node as a head: 
-Current_id: Arbt_Ariel.7.nt.9 Assigned the leftmost node as a head: 
-Current_id: Arbt_Ariel.8.nt.22 Assigned the leftmost node as a head: 3
-Current_id: Arbt_Ariel.8.nt.15 Assigned the leftmost node as a head: 18
-Current_id: Arbt_Ariel.11.nt.4 Assigned the leftmost node as a head: 35
-Current_id: Arbt_Ariel.12.nt.10 Assigned the leftmost node as a head: 3
-Current_id: Arbt_Ariel.12.nt.3 Assigned the leftmost node as a head: 12
-Current_id: Arbt_Ariel.19.6 Assigned the leftmost node as a head: 
-Current_id: Arbt_Ariel.19.nt.1 Assigned the leftmost node as a head: 4
-Current_id: Arbt_Ariel.19.5 Assigned the leftmost node as a head: 
-Current_id: Arbt_Ariel.19.4 Assigned the leftmost node as a head: 8
-Current_id: Arbt_Ariel.20.nt.3 Assigned the leftmost node as a head: 
-Current_id: Arbt_Ariel.22.nt.7 Assigned the leftmost node as a head: 
-Current_id: Arbt_Ariel.28.nt.14 Assigned the leftmost node as a head: 1
-Current_id: Arbt_Ariel.33.nt.12 Assigned the leftmost node as a head: 10
-Current_id: Arbt_Ariel.37.nt.2 Assigned the leftmost node as a head: 27
-Current_id: Arbt_Ariel.38.nt.7 Assigned the leftmost node as a head: 24
-Current_id: Arbt_Ariel.38.nt.5 Assigned the leftmost node as a head: 30
-Current_id: Arbt_Ariel.40.nt.9 Assigned the leftmost node as a head: 1
-Current_id: Arbt_Ariel.41.nt.19 Assigned the leftmost node as a head: 3
-Current_id: Arbt_Ariel.47.nt.6 Assigned the leftmost node as a head: 12
-Current_id: Arbt_Ariel.53.nt.6 Assigned the leftmost node as a head: 1
-Current_id: Digi_2015-02.13.4 Assigned the leftmost node as a head: 21
-Current_id: Digi_2015-02.18.7 Assigned the leftmost node as a head: 
-Current_id: Digi_2015-02.24.20 Assigned the leftmost node as a head: 
-Current_id: Arbt_Kraftigaprotester.8.nt.10 Assigned the leftmost node as a head: 
-Current_id: Arbt_Kraftigaprotester.8.nt.6 Assigned the leftmost node as a head: 
-Current_id: Arbt_Kraftigaprotester.12.nt.11 Assigned the leftmost node as a head: 
-Current_id: Arbt_Kraftigaprotester.19.11 Assigned the leftmost node as a head: 
-Current_id: Arbt_Kraftigaprotester.22.nt.11 Assigned the leftmost node as a head: 7
-Current_id: Arbt_Kraftigaprotester.22.nt.6 Assigned the leftmost node as a head: 14
-Current_id: Arbt_Kraftigaprotester.23.nt.11 Assigned the leftmost node as a head: 7
-Current_id: Arbt_Kraftigaprotester.25.nt.14 Assigned the leftmost node as a head: 
-Current_id: Arbt_Kraftigaprotester.25.nt.16 Assigned the leftmost node as a head: 12
-Current_id: Arbt_Kraftigaprotester.31.nt.10 Assigned the leftmost node as a head: 31
-Current_id: Arbt_Kraftigaprotester.33.nt.6 Assigned the leftmost node as a head: 
-Current_id: Arbt_Kraftigaprotester.34.nt.10 Assigned the leftmost node as a head: 
-Current_id: Arbt_Kraftigaprotester.34.nt.4 Assigned the leftmost node as a head: 
-Current_id: Regr_255926.5.15 Assigned the leftmost node as a head: 
-Current_id: Regr_255926.5.13 Assigned the leftmost node as a head: 2
-Current_id: Regr_255926.20.14 Assigned the leftmost node as a head: 
-Current_id: Regr_255655.6.15 Assigned the leftmost node as a head: 
-Current_id: Regr_255954.2.1 Assigned the leftmost node as a head: 25
-Current_id: Digi_2014-05.4.12 Assigned the leftmost node as a head: 12
-Current_id: Digi_2014-05.4.9 Assigned the leftmost node as a head: 
-Current_id: Digi_2014-05.5.18 Assigned the leftmost node as a head: 15
-Current_id: Digi_2014-05.5.13 Assigned the leftmost node as a head: 25
-Current_id: Digi_2014-05.6.14 Assigned the leftmost node as a head: 2
-Current_id: Digi_2014-05.8.12 Assigned the leftmost node as a head: 
-Current_id: Digi_2014-05.22.7 Assigned the leftmost node as a head: 4
-Current_id: Digi_2014-05.26.28 Assigned the leftmost node as a head: 18
-Current_id: Digi_2014-05.32.3 Assigned the leftmost node as a head: 1
-Current_id: Digi_2014-05.34.2 Assigned the leftmost node as a head: 12
-Current_id: Digi_2014-05.53.8 Assigned the leftmost node as a head: 7
-Current_id: Arbt_Flervarsel.3.nt.5 Assigned the leftmost node as a head: 15
-Current_id: Arbt_Flervarsel.6.nt.6 Assigned the leftmost node as a head: 13
-Current_id: Arbt_Vardbolag.2.nt.13 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vardbolag.5.nt.18 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vardbolag.6.nt.13 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vardbolag.7.nt.11 Assigned the leftmost node as a head: 10
-Current_id: Arbt_Vardbolag.8.nt.9 Assigned the leftmost node as a head: 31
-Current_id: Arbt_Vardbolag.8.nt.6 Assigned the leftmost node as a head: 34
-Current_id: Arbt_Vardbolag.12.nt.21 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vardbolag.17.nt.22 Assigned the leftmost node as a head: 13
-Current_id: Arbt_Vardbolag.17.nt.18 Assigned the leftmost node as a head: 
-Current_id: Regr_255284.17.2 Assigned the leftmost node as a head: 1
-Current_id: Arbt_Spekulationer.3.nt.28 Assigned the leftmost node as a head: 
-Current_id: Arbt_Spekulationer.3.nt.18 Assigned the leftmost node as a head: 15
-Current_id: Arbt_Spekulationer.10.nt.22 Assigned the leftmost node as a head: 
-Current_id: Arbt_Spekulationer.12.nt.3 Assigned the leftmost node as a head: 12
-Current_id: Arbt_Spekulationer.12.nt.33 Assigned the leftmost node as a head: 
-Current_id: Arbt_Spekulationer.14.nt.9 Assigned the leftmost node as a head: 4
-Current_id: Arbt_Spekulationer.17.nt.17 Assigned the leftmost node as a head: 2
-Current_id: Arbt_Spekulationer.18.nt.10 Assigned the leftmost node as a head: 
-Current_id: Arbt_Spekulationer.21.nt.16 Assigned the leftmost node as a head: 3
-Current_id: Arbt_Rwanda.6.nt.8 Assigned the leftmost node as a head: 
-Current_id: Arbt_Rwanda.7.nt.9 Assigned the leftmost node as a head: 
-Current_id: Arbt_Rwanda.7.nt.3 Assigned the leftmost node as a head: 11
-Current_id: Arbt_Rwanda.8.nt.3 Assigned the leftmost node as a head: 12
-Current_id: Arbt_Rwanda.13.nt.4 Assigned the leftmost node as a head: 7
-Current_id: Arbt_Rwanda.14.nt.20 Assigned the leftmost node as a head: 
-Current_id: Arbt_Rwanda.18.nt.2 Assigned the leftmost node as a head: 12
-Current_id: Regr_255175.4.22 Assigned the leftmost node as a head: 
-Current_id: Regr_255175.4.16 Assigned the leftmost node as a head: 17
-Current_id: Regr_255175.12.8 Assigned the leftmost node as a head: 
-Current_id: Regr_255670.6.2 Assigned the leftmost node as a head: 9
-Current_id: Regr_255670.15.17 Assigned the leftmost node as a head: 
-Current_id: Regr_255670.15.8 Assigned the leftmost node as a head: 
-Current_id: Regr_255656.3.4 Assigned the leftmost node as a head: 
-Current_id: Regr_255656.9.14 Assigned the leftmost node as a head: 
-Current_id: Regr_255656.15.33 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vansterpartiets.8.nt.11 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vansterpartiets.8.nt.7 Assigned the leftmost node as a head: 19
-Current_id: Arbt_Vansterpartiets.9.nt.5 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vansterpartiets.11.nt.15 Assigned the leftmost node as a head: 13
-Current_id: Arbt_Vansterpartiets.14.nt.5 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vansterpartiets.19.nt.11 Assigned the leftmost node as a head: 6
-Current_id: Arbt_Vansterpartiets.20.nt.4 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vansterpartiets.21.nt.10 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vansterpartiets.21.nt.6 Assigned the leftmost node as a head: 
-Current_id: Arbt_Vansterpartiets.23.nt.1 Assigned the leftmost node as a head: 7
-Current_id: Arbt_Vansterpartiets.27.nt.3 Assigned the leftmost node as a head: 11
-Current_id: Arbt_Vansterpartiets.31.nt.6 Assigned the leftmost node as a head: 2
-Current_id: Arbt_Vansterpartiets.36.nt.3 Assigned the leftmost node as a head: 
-Current_id: Regr_255193.3.16 Assigned the leftmost node as a head: 
-Current_id: Regr_255193.3.21 Assigned the leftmost node as a head: 
-Current_id: Regr_255193.8.13 Assigned the leftmost node as a head: 1
-Current_id: Regr_255193.8.4 Assigned the leftmost node as a head: 21
-Current_id: Regr_255706.1.4 Assigned the leftmost node as a head: 3
-Current_id: Regr_255706.3.14 Assigned the leftmost node as a head: 8
-Current_id: Regr_255706.7.1 Assigned the leftmost node as a head: 12
-Current_id: Regr_255706.18.6 Assigned the leftmost node as a head: 
-Current_id: Regr_255706.18.5 Assigned the leftmost node as a head: 
-Current_id: Regr_255706.24.9 Assigned the leftmost node as a head: 
-Current_id: Digi_2014-11.8.2 Assigned the leftmost node as a head: 13
-Current_id: Digi_2014-11.16.4 Assigned the leftmost node as a head: 1
-Current_id: Digi_2014-11.20.9 Assigned the leftmost node as a head: 24
-Current_id: Digi_2014-11.26.9 Assigned the leftmost node as a head: 
-Current_id: Digi_2014-11.29.3 Assigned the leftmost node as a head: 28
-Current_id: Regr_255346.1.3 Assigned the leftmost node as a head: 3
-Current_id: Regr_255346.9.10 Assigned the leftmost node as a head: 
-Current_id: Regr_255346.9.8 Assigned the leftmost node as a head: 
-Current_id: Regr_255855.7.5 Assigned the leftmost node as a head: 20
-Current_id: Regr_255855.11.11 Assigned the leftmost node as a head: 
-Current_id: Regr_254981.2.22 Assigned the leftmost node as a head: 
-Current_id: Regr_254981.4.3 Assigned the leftmost node as a head: 
-Current_id: Regr_254981.13.16 Assigned the leftmost node as a head: 27
-Current_id: Regr_254842.20.10 Assigned the leftmost node as a head: 
-Current_id: Arbt_Smutsigvalkampanj.6.nt.13 Assigned the leftmost node as a head: 14
-Current_id: Arbt_Smutsigvalkampanj.8.nt.8 Assigned the leftmost node as a head: 6
-Current_id: Arbt_Smutsigvalkampanj.10.nt.16 Assigned the leftmost node as a head: 
-Current_id: Arbt_Smutsigvalkampanj.10.nt.15 Assigned the leftmost node as a head: 
-Current_id: Arbt_Smutsigvalkampanj.13.nt.2 Assigned the leftmost node as a head: 16
-Current_id: Arbt_Smutsigvalkampanj.14.nt.17 Assigned the leftmost node as a head: 9
-Current_id: Arbt_Smutsigvalkampanj.18.nt.14 Assigned the leftmost node as a head: 9
-Current_id: Arbt_Smutsigvalkampanj.20.nt.5 Assigned the leftmost node as a head: 18
-Current_id: Arbt_Smutsigvalkampanj.29.nt.14 Assigned the leftmost node as a head: 
-Current_id: Arbt_Smutsigvalkampanj.30.nt.1 Assigned the leftmost node as a head: 10
-Current_id: Arbt_Smutsigvalkampanj.31.nt.2 Assigned the leftmost node as a head: 15
-Current_id: Arbt_Olagligjakt.7.nt.20 Assigned the leftmost node as a head: 
-Current_id: Arbt_Olagligjakt.10.nt.9 Assigned the leftmost node as a head: 
-Current_id: Arbt_Olagligjakt.11.nt.11 Assigned the leftmost node as a head: 1
-Current_id: Arbt_Olagligjakt.12.nt.7 Assigned the leftmost node as a head: 6
-Current_id: Arbt_Olagligjakt.18.nt.10 Assigned the leftmost node as a head: 22
-Current_id: Arbt_Olagligjakt.20.nt.16 Assigned the leftmost node as a head: 18
-Current_id: Arbt_Olagligjakt.20.nt.6 Assigned the leftmost node as a head: 32
-Current_id: Arbt_Olagligjakt.22.nt.14 Assigned the leftmost node as a head: 8
-Current_id: Arbt_Olagligjakt.22.nt.12 Assigned the leftmost node as a head: 14
-Current_id: Arbt_Olagligjakt.22.nt.2 Assigned the leftmost node as a head: 25
-Current_id: Arbt_Olagligjakt.24.nt.3 Assigned the leftmost node as a head: 
-Current_id: Arbt_Olagligjakt.28.nt.15 Assigned the leftmost node as a head: 14
-Current_id: Arbt_Olagligjakt.30.nt.18 Assigned the leftmost node as a head: 
-Current_id: Arbt_Iandrahand.3.nt.9 Assigned the leftmost node as a head: 9
-Current_id: Arbt_Iandrahand.6.nt.13 Assigned the leftmost node as a head: 2
-Current_id: Arbt_Iandrahand.6.nt.9 Assigned the leftmost node as a head: 
-Current_id: Arbt_Iandrahand.6.nt.7 Assigned the leftmost node as a head: 9
-Current_id: Arbt_Iandrahand.9.nt.11 Assigned the leftmost node as a head: 5
-Current_id: Arbt_Iandrahand.10.nt.12 Assigned the leftmost node as a head: 11
-Current_id: Arbt_Iandrahand.15.nt.23 Assigned the leftmost node as a head: 
-Current_id: Arbt_Iandrahand.21.nt.8 Assigned the leftmost node as a head: 11
-Current_id: Arbt_Iandrahand.26.nt.10 Assigned the leftmost node as a head: 1
-Current_id: Arbt_Hokarangenbor.3.nt.10 Assigned the leftmost node as a head: 
-Current_id: Arbt_Hokarangenbor.3.nt.4 Assigned the leftmost node as a head: 24
-Current_id: Arbt_Hokarangenbor.12.nt.4 Assigned the leftmost node as a head: 5
-Current_id: Arbt_Hokarangenbor.13.nt.3 Assigned the leftmost node as a head: 4
-Current_id: Arbt_Hokarangenbor.14.nt.3 Assigned the leftmost node as a head: 1
-Current_id: Arbt_Hokarangenbor.16.nt.10 Assigned the leftmost node as a head: 2
-Current_id: Regr_255701.4.2 Assigned the leftmost node as a head: 13
-Current_id: Regr_255701.12.19 Assigned the leftmost node as a head: 4
-Current_id: Regr_254797.6.16 Assigned the leftmost node as a head: 
-Current_id: Regr_254797.17.6 Assigned the leftmost node as a head: 14
-Current_id: Regr_254797.17.12 Assigned the leftmost node as a head: 
-Current_id: Regr_254797.17.5 Assigned the leftmost node as a head: 
-Current_id: Regr_255566.10.6 Assigned the leftmost node as a head: 12
-Current_id: Regr_255566.10.3 Assigned the leftmost node as a head: 18
-Current_id: Arbt_Barnen.3.nt.15 Assigned the leftmost node as a head: 15
-Current_id: Arbt_Barnen.3.nt.10 Assigned the leftmost node as a head: 21
-Current_id: Arbt_Barnen.3.nt.4 Assigned the leftmost node as a head: 
-Current_id: Arbt_Barnen.6.14 Assigned the leftmost node as a head: 
-Current_id: Arbt_Barnen.6.nt.17 Assigned the leftmost node as a head: 15
-Current_id: Arbt_Barnen.9.nt.4 Assigned the leftmost node as a head: 13
-Current_id: Arbt_Barnen.16.nt.8 Assigned the leftmost node as a head: 14
-Current_id: Arbt_Barnen.16.nt.5 Assigned the leftmost node as a head: 21
-Current_id: Arbt_Barnen.18.nt.14 Assigned the leftmost node as a head: 
-Current_id: Arbt_Barnen.18.nt.16 Assigned the leftmost node as a head: 
-Current_id: Arbt_Barnen.18.nt.11 Assigned the leftmost node as a head: 11
-Current_id: Arbt_Riskerna.4.nt.16 Assigned the leftmost node as a head: 
-Current_id: Arbt_Riskerna.4.nt.4 Assigned the leftmost node as a head: 36
-Current_id: Arbt_Riskerna.6.nt.12 Assigned the leftmost node as a head: 12
-Current_id: Arbt_Riskerna.11.nt.1 Assigned the leftmost node as a head: 15
-Current_id: Arbt_Riskerna.15.nt.6 Assigned the leftmost node as a head: 
-Current_id: Arbt_Riskerna.20.nt.7 Assigned the leftmost node as a head: 16
-Current_id: Romn_Lundqvist-Ingentobak.20.2 Assigned the leftmost node as a head: 9
-Current_id: Romn_Lundqvist-Ingentobak.22.26 Assigned the leftmost node as a head: 22
-Current_id: Romn_Lundqvist-Ingentobak.24.16 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.26.19 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.39.9 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.43.3 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.45.16 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.45.2 Assigned the leftmost node as a head: 20
-Current_id: Romn_Lundqvist-Ingentobak.47.7 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.47.8 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.53.9 Assigned the leftmost node as a head: 31
-Current_id: Romn_Lundqvist-Ingentobak.60.10 Assigned the leftmost node as a head: 1
-Current_id: Romn_Lundqvist-Ingentobak.65.12 Assigned the leftmost node as a head: 4
-Current_id: Romn_Lundqvist-Ingentobak.65.13 Assigned the leftmost node as a head: 6
-Current_id: Romn_Lundqvist-Ingentobak.65.16 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.65.11 Assigned the leftmost node as a head: 14
-Current_id: Romn_Lundqvist-Ingentobak.70.nt.7 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.75.16 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.75.17 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.82.12 Assigned the leftmost node as a head: 11
-Current_id: Romn_Lundqvist-Ingentobak.82.9 Assigned the leftmost node as a head: 17
-Current_id: Romn_Lundqvist-Ingentobak.88.10 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.96.13 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.104.2 Assigned the leftmost node as a head: 2
-Current_id: Romn_Lundqvist-Ingentobak.113.35 Assigned the leftmost node as a head: 35
-Current_id: Romn_Lundqvist-Ingentobak.113.24 Assigned the leftmost node as a head: 40
-Current_id: Romn_Lundqvist-Ingentobak.113.26 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.113.28 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.123.6 Assigned the leftmost node as a head: 7
-Current_id: Romn_Lundqvist-Ingentobak.135.5 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.141.4 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.167.24 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.167.18 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.170.8 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.182.15 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.184.2 Assigned the leftmost node as a head: 25
-Current_id: Romn_Lundqvist-Ingentobak.199.4 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.200.7 Assigned the leftmost node as a head: 27
-Current_id: Romn_Lundqvist-Ingentobak.210.2 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.223.11 Assigned the leftmost node as a head: 16
-Current_id: Romn_Lundqvist-Ingentobak.227.6 Assigned the leftmost node as a head: 6
-Current_id: Romn_Lundqvist-Ingentobak.234.8 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.295.13 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.299.5 Assigned the leftmost node as a head: 8
-Current_id: Romn_Lundqvist-Ingentobak.299.7 Assigned the leftmost node as a head: 11
-Current_id: Romn_Lundqvist-Ingentobak.302.13 Assigned the leftmost node as a head: 18
-Current_id: Romn_Lundqvist-Ingentobak.304.4 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.310.nt.9 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.311.4 Assigned the leftmost node as a head: 1
-Current_id: Romn_Lundqvist-Ingentobak.338.2 Assigned the leftmost node as a head: 5
-Current_id: Romn_Lundqvist-Ingentobak.344.2 Assigned the leftmost node as a head: 1
-Current_id: Romn_Lundqvist-Ingentobak.356.17 Assigned the leftmost node as a head: 14
-Current_id: Romn_Lundqvist-Ingentobak.356.18 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.358.26 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.358.27 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.358.23 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.359.18 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.362.11 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.368.11 Assigned the leftmost node as a head: 2
-Current_id: Romn_Lundqvist-Ingentobak.375.9 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.382.nt.12 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.405.13 Assigned the leftmost node as a head: 
-Current_id: Romn_Lundqvist-Ingentobak.405.9 Assigned the leftmost node as a head: 6
-Current_id: Romn_Lundqvist-Ingentobak.427.2 Assigned the leftmost node as a head: 5
-Current_id: Romn_Bjelvehammar-TageBengtsson.8.3 Assigned the leftmost node as a head: 4
-Current_id: Romn_Bjelvehammar-TageBengtsson.12.nt.8 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.28.nt.9 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.29.4 Assigned the leftmost node as a head: 8
-Current_id: Romn_Bjelvehammar-TageBengtsson.41.18 Assigned the leftmost node as a head: 22
-Current_id: Romn_Bjelvehammar-TageBengtsson.42.11 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.42.7 Assigned the leftmost node as a head: 11
-Current_id: Romn_Bjelvehammar-TageBengtsson.46.14 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.59.nt.15 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.67.17 Assigned the leftmost node as a head: 18
-Current_id: Romn_Bjelvehammar-TageBengtsson.70.3 Assigned the leftmost node as a head: 6
-Current_id: Romn_Bjelvehammar-TageBengtsson.83.11 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.101.4 Assigned the leftmost node as a head: 19
-Current_id: Romn_Bjelvehammar-TageBengtsson.113.11 Assigned the leftmost node as a head: 10
-Current_id: Romn_Bjelvehammar-TageBengtsson.114.7 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.126.13 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.150.13 Assigned the leftmost node as a head: 15
-Current_id: Romn_Bjelvehammar-TageBengtsson.152.10 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.152.9 Assigned the leftmost node as a head: 9
-Current_id: Romn_Bjelvehammar-TageBengtsson.173.21 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.174.14 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.178.nt.19 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.190.nt.3 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.201.14 Assigned the leftmost node as a head: 21
-Current_id: Romn_Bjelvehammar-TageBengtsson.204.7 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.211.15 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.216.1 Assigned the leftmost node as a head: 36
-Current_id: Romn_Bjelvehammar-TageBengtsson.217.6 Assigned the leftmost node as a head: 11
-Current_id: Romn_Bjelvehammar-TageBengtsson.222.7 Assigned the leftmost node as a head: 8
-Current_id: Romn_Bjelvehammar-TageBengtsson.224.12 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.224.11 Assigned the leftmost node as a head: 10
-Current_id: Romn_Bjelvehammar-TageBengtsson.235.9 Assigned the leftmost node as a head: 6
-Current_id: Romn_Bjelvehammar-TageBengtsson.239.16 Assigned the leftmost node as a head: 
-Current_id: Romn_Bjelvehammar-TageBengtsson.239.14 Assigned the leftmost node as a head: 8
-Current_id: Romn_Bjelvehammar-TageBengtsson.239.24 Assigned the leftmost node as a head: 29
-Current_id: Romn_Bjelvehammar-TageBengtsson.241.4 Assigned the leftmost node as a head: 11
-Current_id: Romn_Holmsen-Polynesiskpassad.25.21 Assigned the leftmost node as a head: 3
-Current_id: Romn_Holmsen-Polynesiskpassad.37.6 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.39.7 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.39.6 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.42.13 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.42.3 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.43.18 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.43.3 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.51.9 Assigned the leftmost node as a head: 4
-Current_id: Romn_Holmsen-Polynesiskpassad.56.4 Assigned the leftmost node as a head: 18
-Current_id: Romn_Holmsen-Polynesiskpassad.68.16 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.112.7 Assigned the leftmost node as a head: 6
-Current_id: Romn_Holmsen-Polynesiskpassad.113.5 Assigned the leftmost node as a head: 1
-Current_id: Romn_Holmsen-Polynesiskpassad.113.16 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.116.11 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.126.8 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.135.5 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.147.9 Assigned the leftmost node as a head: 23
-Current_id: Romn_Holmsen-Polynesiskpassad.150.4 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.151.3 Assigned the leftmost node as a head: 8
-Current_id: Romn_Holmsen-Polynesiskpassad.153.6 Assigned the leftmost node as a head: 28
-Current_id: Romn_Holmsen-Polynesiskpassad.160.8 Assigned the leftmost node as a head: 14
-Current_id: Romn_Holmsen-Polynesiskpassad.167.3 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.168.3 Assigned the leftmost node as a head: 10
-Current_id: Romn_Holmsen-Polynesiskpassad.169.13 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.183.4 Assigned the leftmost node as a head: 13
-Current_id: Romn_Holmsen-Polynesiskpassad.183.2 Assigned the leftmost node as a head: 16
-Current_id: Romn_Holmsen-Polynesiskpassad.186.10 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.196.10 Assigned the leftmost node as a head: 6
-Current_id: Romn_Holmsen-Polynesiskpassad.204.21 Assigned the leftmost node as a head: 19
-Current_id: Romn_Holmsen-Polynesiskpassad.209.8 Assigned the leftmost node as a head: 5
-Current_id: Romn_Holmsen-Polynesiskpassad.209.1 Assigned the leftmost node as a head: 20
-Current_id: Romn_Holmsen-Polynesiskpassad.222.2 Assigned the leftmost node as a head: 2
-Current_id: Romn_Holmsen-Polynesiskpassad.235.5 Assigned the leftmost node as a head: 19
-Current_id: Romn_Holmsen-Polynesiskpassad.238.6 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.239.6 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.239.2 Assigned the leftmost node as a head: 8
-Current_id: Romn_Holmsen-Polynesiskpassad.243.9 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.246.6 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.262.14 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.269.10 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.283.22 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.289.13 Assigned the leftmost node as a head: 4
-Current_id: Romn_Holmsen-Polynesiskpassad.289.7 Assigned the leftmost node as a head: 15
-Current_id: Romn_Holmsen-Polynesiskpassad.290.4 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.307.5 Assigned the leftmost node as a head: 6
-Current_id: Romn_Holmsen-Polynesiskpassad.323.5 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.337.2 Assigned the leftmost node as a head: 7
-Current_id: Romn_Holmsen-Polynesiskpassad.341.4 Assigned the leftmost node as a head: 8
-Current_id: Romn_Holmsen-Polynesiskpassad.349.12 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.361.3 Assigned the leftmost node as a head: 17
-Current_id: Romn_Holmsen-Polynesiskpassad.365.12 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.384.10 Assigned the leftmost node as a head: 13
-Current_id: Romn_Holmsen-Polynesiskpassad.398.3 Assigned the leftmost node as a head: 23
-Current_id: Romn_Holmsen-Polynesiskpassad.401.11 Assigned the leftmost node as a head: 13
-Current_id: Romn_Holmsen-Polynesiskpassad.404.6 Assigned the leftmost node as a head: 
-Current_id: Romn_Holmsen-Polynesiskpassad.413.3 Assigned the leftmost node as a head: 2
-Current_id: Romn_Holmsen-Polynesiskpassad.414.15 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.68.4 Assigned the leftmost node as a head: 7
-Current_id: Romn_Strand-Pagarna.68.2 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.70.3 Assigned the leftmost node as a head: 15
-Current_id: Romn_Strand-Pagarna.70.4 Assigned the leftmost node as a head: 17
-Current_id: Romn_Strand-Pagarna.85.11 Assigned the leftmost node as a head: 7
-Current_id: Romn_Strand-Pagarna.85.9 Assigned the leftmost node as a head: 12
-Current_id: Romn_Strand-Pagarna.85.5 Assigned the leftmost node as a head: 16
-Current_id: Romn_Strand-Pagarna.85.3 Assigned the leftmost node as a head: 20
-Current_id: Romn_Strand-Pagarna.85.13 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.87.6 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.92.4 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.96.9 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.104.8 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.116.10 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.118.8 Assigned the leftmost node as a head: 17
-Current_id: Romn_Strand-Pagarna.120.8 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.126.11 Assigned the leftmost node as a head: 8
-Current_id: Romn_Strand-Pagarna.160.5 Assigned the leftmost node as a head: 13
-Current_id: Romn_Strand-Pagarna.166.11 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.167.13 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.172.8 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.172.6 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.175.3 Assigned the leftmost node as a head: 5
-Current_id: Romn_Strand-Pagarna.179.5 Assigned the leftmost node as a head: 12
-Current_id: Romn_Strand-Pagarna.188.2 Assigned the leftmost node as a head: 9
-Current_id: Romn_Strand-Pagarna.197.nt.18 Assigned the leftmost node as a head: 1
-Current_id: Romn_Strand-Pagarna.198.3 Assigned the leftmost node as a head: 5
-Current_id: Romn_Strand-Pagarna.198.7 Assigned the leftmost node as a head: 10
-Current_id: Romn_Strand-Pagarna.207.15 Assigned the leftmost node as a head: 11
-Current_id: Romn_Strand-Pagarna.207c.3 Assigned the leftmost node as a head: 10
-Current_id: Romn_Strand-Pagarna.214.3 Assigned the leftmost node as a head: 4
-Current_id: Romn_Strand-Pagarna.223.5 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.250.8 Assigned the leftmost node as a head: 10
-Current_id: Romn_Strand-Pagarna.250.1 Assigned the leftmost node as a head: 24
-Current_id: Romn_Strand-Pagarna.261.5 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.269.6 Assigned the leftmost node as a head: 27
-Current_id: Romn_Strand-Pagarna.275.8 Assigned the leftmost node as a head: 2
-Current_id: Romn_Strand-Pagarna.279.2 Assigned the leftmost node as a head: 4
-Current_id: Romn_Strand-Pagarna.283.14 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.294.10 Assigned the leftmost node as a head: 8
-Current_id: Romn_Strand-Pagarna.295.16 Assigned the leftmost node as a head: 15
-Current_id: Romn_Strand-Pagarna.301.9 Assigned the leftmost node as a head: 11
-Current_id: Romn_Strand-Pagarna.302.8 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.302.3 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.308.4 Assigned the leftmost node as a head: 7
-Current_id: Romn_Strand-Pagarna.360.6 Assigned the leftmost node as a head: 18
-Current_id: Romn_Strand-Pagarna.368.nt.13 Assigned the leftmost node as a head: 13
-Current_id: Romn_Strand-Pagarna.373.3 Assigned the leftmost node as a head: 2
-Current_id: Romn_Strand-Pagarna.374.9 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.378.21 Assigned the leftmost node as a head: 1
-Current_id: Romn_Strand-Pagarna.383.5 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.390.2 Assigned the leftmost node as a head: 4
-Current_id: Romn_Strand-Pagarna.418.11 Assigned the leftmost node as a head: 5
-Current_id: Romn_Strand-Pagarna.421b.nt.5 Assigned the leftmost node as a head: 22
-Current_id: Romn_Strand-Pagarna.427.15 Assigned the leftmost node as a head: 30
-Current_id: Romn_Strand-Pagarna.429.12 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.429.3 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.429.11 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.429.10 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.429.9 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.445.7 Assigned the leftmost node as a head: 
-Current_id: Romn_Strand-Pagarna.457.14 Assigned the leftmost node as a head: 11
-Current_id: Romn_Strand-Pagarna.462.8 Assigned the leftmost node as a head: 4
-Current_id: Wiki_Asterix.14.8 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.18.26 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.18.3 Assigned the leftmost node as a head: 33
-Current_id: Wiki_Asterix.19.19 Assigned the leftmost node as a head: 31
-Current_id: Wiki_Asterix.20.43 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.21.19 Assigned the leftmost node as a head: 47
-Current_id: Wiki_Asterix.25.31 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.25.29 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.26.12 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.27.1 Assigned the leftmost node as a head: 29
-Current_id: Wiki_Asterix.28.3 Assigned the leftmost node as a head: 15
-Current_id: Wiki_Asterix.29.2 Assigned the leftmost node as a head: 2
-Current_id: Wiki_Asterix.30.1 Assigned the leftmost node as a head: 12
-Current_id: Wiki_Asterix.32.21 Assigned the leftmost node as a head: 6
-Current_id: Wiki_Asterix.33.5 Assigned the leftmost node as a head: 8
-Current_id: Wiki_Asterix.34.6 Assigned the leftmost node as a head: 1
-Current_id: Wiki_Asterix.38.8 Assigned the leftmost node as a head: 4
-Current_id: Wiki_Asterix.39.5 Assigned the leftmost node as a head: 7
-Current_id: Wiki_Asterix.40.9 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.44.12 Assigned the leftmost node as a head: 6
-Current_id: Wiki_Asterix.47.17 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.48.3 Assigned the leftmost node as a head: 13
-Current_id: Wiki_Asterix.53.5 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.57.4 Assigned the leftmost node as a head: 14
-Current_id: Wiki_Asterix.61.nt.17 Assigned the leftmost node as a head: 23
-Current_id: Wiki_Asterix.73.15 Assigned the leftmost node as a head: 4
-Current_id: Wiki_Asterix.75.7 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.79.7 Assigned the leftmost node as a head: 14
-Current_id: Wiki_Asterix.82.6 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.83.5 Assigned the leftmost node as a head: 4
-Current_id: Wiki_Asterix.90.8 Assigned the leftmost node as a head: 
-Current_id: Wiki_Asterix.97.12 Assigned the leftmost node as a head: 4
-Current_id: Wiki_Asterix.97.10 Assigned the leftmost node as a head: 6
-Current_id: Wiki_Asterix.97.9 Assigned the leftmost node as a head: 7
-Current_id: Wiki_Kvadrat.4.12 Assigned the leftmost node as a head: 
-Current_id: Wiki_Kvadrat.7.6 Assigned the leftmost node as a head: 16
-Current_id: Wiki_LillaMy.18.14 Assigned the leftmost node as a head: 8
-Current_id: Wiki_LillaMy.21.8 Assigned the leftmost node as a head: 13
-Current_id: Wiki_Hastighetsmatare.6.6 Assigned the leftmost node as a head: 10
-Current_id: Wiki_Hastighetsmatare.6.7 Assigned the leftmost node as a head: 12
-Current_id: Wiki_Hastighetsmatare.8.16 Assigned the leftmost node as a head: 
-Current_id: Wiki_Hastighetsmatare.22.2 Assigned the leftmost node as a head: 11
-Current_id: Wiki_HarryPotter.8.7 Assigned the leftmost node as a head: 30
-Current_id: Wiki_HarryPotter.19.26 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.19.17 Assigned the leftmost node as a head: 28
-Current_id: Wiki_HarryPotter.27.22 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.28.21 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.28.17 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.28.7 Assigned the leftmost node as a head: 31
-Current_id: Wiki_HarryPotter.31.3 Assigned the leftmost node as a head: 4
-Current_id: Wiki_HarryPotter.32.4 Assigned the leftmost node as a head: 7
-Current_id: Wiki_HarryPotter.32.3 Assigned the leftmost node as a head: 10
-Current_id: Wiki_HarryPotter.32.2 Assigned the leftmost node as a head: 12
-Current_id: Wiki_HarryPotter.34.9 Assigned the leftmost node as a head: 62
-Current_id: Wiki_HarryPotter.34.1 Assigned the leftmost node as a head: 66
-Current_id: Wiki_HarryPotter.34.2 Assigned the leftmost node as a head: 69
-Current_id: Wiki_HarryPotter.35.4 Assigned the leftmost node as a head: 15
-Current_id: Wiki_HarryPotter.37.3 Assigned the leftmost node as a head: 21
-Current_id: Wiki_HarryPotter.40.2 Assigned the leftmost node as a head: 19
-Current_id: Wiki_HarryPotter.44.12 Assigned the leftmost node as a head: 16
-Current_id: Wiki_HarryPotter.44.4 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.47.23 Assigned the leftmost node as a head: 19
-Current_id: Wiki_HarryPotter.55.10 Assigned the leftmost node as a head: 4
-Current_id: Wiki_HarryPotter.56.4 Assigned the leftmost node as a head: 9
-Current_id: Wiki_HarryPotter.56.5 Assigned the leftmost node as a head: 11
-Current_id: Wiki_HarryPotter.60.4 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.63.16 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.75.11 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.81.3 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.82.23 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.88.19 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.97.1 Assigned the leftmost node as a head: 14
-Current_id: Wiki_HarryPotter.104.12 Assigned the leftmost node as a head: 16
-Current_id: Wiki_HarryPotter.113.11 Assigned the leftmost node as a head: 7
-Current_id: Wiki_HarryPotter.113.5 Assigned the leftmost node as a head: 15
-Current_id: Wiki_HarryPotter.113.3 Assigned the leftmost node as a head: 17
-Current_id: Wiki_HarryPotter.113.27 Assigned the leftmost node as a head: 50
-Current_id: Wiki_HarryPotter.115.19 Assigned the leftmost node as a head: 
-Current_id: Wiki_HarryPotter.115.6 Assigned the leftmost node as a head: 23
-Current_id: Wiki_HarryPotter.116.8 Assigned the leftmost node as a head: 7
-Current_id: Wiki_HarryPotter.117.3 Assigned the leftmost node as a head: 41
-Current_id: Wiki_HarryPotter.130.18 Assigned the leftmost node as a head: 11
-Current_id: Wiki_Saganomringenfilm.1.5 Assigned the leftmost node as a head: 5
-Current_id: Wiki_Saganomringenfilm.2.15 Assigned the leftmost node as a head: 5
-Current_id: Wiki_Saganomringenfilm.2.11b Assigned the leftmost node as a head: 24
-Current_id: Wiki_Saganomringenfilm.8.8 Assigned the leftmost node as a head: 6
-Current_id: Wiki_Saganomringenfilm.8.10 Assigned the leftmost node as a head: 10
-Current_id: Wiki_Saganomringenfilm.16.4 Assigned the leftmost node as a head: 
-Current_id: Wiki_Saganomringenfilm.24.4 Assigned the leftmost node as a head: 
-Current_id: Wiki_Saganomringenfilm.53.4 Assigned the leftmost node as a head: 14
-Current_id: Wiki_Saganomringenfilm.56.4 Assigned the leftmost node as a head: 10
-Current_id: Wiki_Saganomringenfilm.63.8 Assigned the leftmost node as a head: 
-Current_id: Wiki_Saganomringenfilm.63.1 Assigned the leftmost node as a head: 11
-Current_id: Wiki_Saganomringenfilm.68.5 Assigned the leftmost node as a head: 8
-Current_id: Wiki_Saganomringenfilm.71.5 Assigned the leftmost node as a head: 
-Current_id: Wiki_Saganomringenfilm.75.12 Assigned the leftmost node as a head: 
-Current_id: Wiki_Saganomringenfilm.78.12 Assigned the leftmost node as a head: 9
-Current_id: Wiki_Saganomringenfilm.80.7 Assigned the leftmost node as a head: 10
-Current_id: Wiki_Semester.3.15 Assigned the leftmost node as a head: 
-Current_id: Wiki_Semester.9.7 Assigned the leftmost node as a head: 5
-Current_id: Wiki_Semester.14.4 Assigned the leftmost node as a head: 8
-Current_id: Wiki_Semester.23.7 Assigned the leftmost node as a head: 21
-Current_id: Wiki_VascodaGama.4.33 Assigned the leftmost node as a head: 22
-Current_id: Wiki_VascodaGama.4.nt.37 Assigned the leftmost node as a head: 33
-Current_id: Wiki_VascodaGama.4.38 Assigned the leftmost node as a head: 
-Current_id: Wiki_VascodaGama.4.10 Assigned the leftmost node as a head: 37
-Current_id: Wiki_VascodaGama.16.22 Assigned the leftmost node as a head: 
-Current_id: Wiki_VascodaGama.23.23 Assigned the leftmost node as a head: 12
-Current_id: Wiki_VascodaGama.23.22 Assigned the leftmost node as a head: 
-Current_id: Wiki_VascodaGama.25.10 Assigned the leftmost node as a head: 21
-Current_id: Wiki_VascodaGama.25.14 Assigned the leftmost node as a head: 
-Current_id: Wiki_VascodaGama.26.19 Assigned the leftmost node as a head: 
-Current_id: Wiki_VascodaGama.26.17 Assigned the leftmost node as a head: 17
-Current_id: Wiki_VascodaGama.26.14 Assigned the leftmost node as a head: 
-Current_id: Wiki_VascodaGama.30.4 Assigned the leftmost node as a head: 28
-Current_id: Wiki_VascodaGama.32.12 Assigned the leftmost node as a head: 
-Current_id: Wiki_VascodaGama.33.18 Assigned the leftmost node as a head: 
-Current_id: Wiki_VascodaGama.39.3 Assigned the leftmost node as a head: 25
-Current_id: Wiki_VascodaGama.45.17 Assigned the leftmost node as a head: 
-Current_id: Wiki_VascodaGama.47.24 Assigned the leftmost node as a head: 
-Current_id: Wiki_VascodaGama.48.6 Assigned the leftmost node as a head: 22
-Current_id: Wiki_VascodaGama.56.23 Assigned the leftmost node as a head: 12
-Current_id: Wiki_VascodaGama.68.18 Assigned the leftmost node as a head: 15
-Current_id: Wiki_VascodaGama.70.13 Assigned the leftmost node as a head: 2
-Current_id: Wiki_VascodaGama.74.3 Assigned the leftmost node as a head: 25
-Current_id: Wiki_VascodaGama.84.4 Assigned the leftmost node as a head: 8
-Current_id: Wiki_Symaskin.4.17 Assigned the leftmost node as a head: 
-Current_id: Wiki_Symaskin.4.11 Assigned the leftmost node as a head: 9
-Current_id: Wiki_Symaskin.4.3 Assigned the leftmost node as a head: 12
-Current_id: Wiki_Symaskin.6.12 Assigned the leftmost node as a head: 
-Current_id: Wiki_Symaskin.9.14 Assigned the leftmost node as a head: 
-Current_id: Wiki_Symaskin.9.3 Assigned the leftmost node as a head: 19
-Current_id: Wiki_Symaskin.15.11 Assigned the leftmost node as a head: 
-Current_id: Wiki_Symaskin.16.3 Assigned the leftmost node as a head: 3
-Current_id: Wiki_Symaskin.19.18 Assigned the leftmost node as a head: 
-Current_id: Wiki_Symaskin.32.7 Assigned the leftmost node as a head: 
-Current_id: Wiki_Symaskin.37.25 Assigned the leftmost node as a head: 
-Current_id: Wiki_Symaskin.40.9 Assigned the leftmost node as a head: 16
-Current_id: Wiki_Symaskin.45.13 Assigned the leftmost node as a head: 13
-Current_id: Wiki_Symaskin.57.14 Assigned the leftmost node as a head: 18
-Current_id: Wiki_Symaskin.58.11 Assigned the leftmost node as a head: 
-Current_id: Wiki_Symaskin.63.7 Assigned the leftmost node as a head: 31
-Current_id: Wiki_Vader.11.7 Assigned the leftmost node as a head: 
-Current_id: Wiki_Vader.16.11 Assigned the leftmost node as a head: 
-Current_id: Wiki_Vader.31.5 Assigned the leftmost node as a head: 10
-Current_id: Wiki_Vader.31.2 Assigned the leftmost node as a head: 12
-Current_id: Wiki_Vader.33.9 Assigned the leftmost node as a head: 15
-Current_id: Wiki_Vader.38.1 Assigned the leftmost node as a head: 11
-Current_id: Wiki_Vader.47.4 Assigned the leftmost node as a head: 1
-Current_id: Wiki_Vader.50.10 Assigned the leftmost node as a head: 6
-Current_id: Wiki_Vader.55.4 Assigned the leftmost node as a head: 10
-Current_id: Wiki_Vader.59.8 Assigned the leftmost node as a head: 6
-Current_id: Wiki_Vader.61.2 Assigned the leftmost node as a head: 6
-Current_id: Wiki_Vader.71.3 Assigned the leftmost node as a head: 12
-Current_id: Wiki_Vader.79.4 Assigned the leftmost node as a head: 12
-Current_id: Wiki_Vader.84.16 Assigned the leftmost node as a head: 
-Current_id: Wiki_Vader.97.3 Assigned the leftmost node as a head: 9
-Current_id: Wiki_Vader.117.19 Assigned the leftmost node as a head: 
-Current_id: Wiki_Vader.117.18 Assigned the leftmost node as a head: 
-Current_id: Wiki_Vader.130.4 Assigned the leftmost node as a head: 2
-Current_id: Wiki_Vader.152.9 Assigned the leftmost node as a head: 
-Current_id: Wiki_Vader.155.3 Assigned the leftmost node as a head: 4
-Current_id: Wiki_Vader.156.24 Assigned the leftmost node as a head: 
-Current_id: Wiki_Vader.156.22 Assigned the leftmost node as a head: 
-Current_id: Wiki_Vader.157.6 Assigned the leftmost node as a head: 21
-Current_id: Wiki_Vader.166.5 Assigned the leftmost node as a head: 6
-Current_id: Wiki_Vader.168.24 Assigned the leftmost node as a head: 9
-Current_id: Wiki_Vader.168.19 Assigned the leftmost node as a head: 7
-Current_id: Wiki_Vader.177.7 Assigned the leftmost node as a head: 16
-Current_id: Wiki_Vader.178.20 Assigned the leftmost node as a head: 
-Current_id: Wiki_Vader.182.9 Assigned the leftmost node as a head: 10
-Current_id: Wiki_Vader.192.11 Assigned the leftmost node as a head: 2
-Current_id: Wiki_Vader.194.19 Assigned the leftmost node as a head: 
-Current_id: Wiki_Vader.194.20 Assigned the leftmost node as a head: 
-Current_id: Wiki_Vader.195.5 Assigned the leftmost node as a head: 9
-Current_id: Wiki_Vader.201.7 Assigned the leftmost node as a head: 
-Current_id: Wiki_AlexanderFleming.6.6 Assigned the leftmost node as a head: 1
-Current_id: Wiki_AlexanderFleming.12.1 Assigned the leftmost node as a head: 1
-Current_id: Wiki_AlexanderFleming.16.7 Assigned the leftmost node as a head: 5
-Current_id: Wiki_AlexanderFleming.16.2 Assigned the leftmost node as a head: 13
-Current_id: Wiki_AlexanderFleming.20.14 Assigned the leftmost node as a head: 9
-Current_id: Wiki_AlexanderFleming.22.13 Assigned the leftmost node as a head: 
-Current_id: Wiki_AlexanderFleming.22.nt.18 Assigned the leftmost node as a head: 
-Current_id: Wiki_AlexanderFleming.22.9 Assigned the leftmost node as a head: 5
-Current_id: Wiki_MiominMio.12.3 Assigned the leftmost node as a head: 19
-Current_id: Wiki_MiominMio.21.4 Assigned the leftmost node as a head: 19
-Current_id: Wiki_MiominMio.26.2 Assigned the leftmost node as a head: 8
-Current_id: Wiki_MiominMio.47.21 Assigned the leftmost node as a head: 10
-Current_id: Wiki_MiominMio.58.9 Assigned the leftmost node as a head: 12
-Current_id: Wiki_MiominMio.58.11 Assigned the leftmost node as a head: 
-Current_id: Wiki_MiominMio.69.14 Assigned the leftmost node as a head: 9
-Current_id: Wiki_MiominMio.69.nt.24 Assigned the leftmost node as a head: 
-Current_id: Wiki_MiominMio.71.8 Assigned the leftmost node as a head: 12
-Current_id: Wiki_MiominMio.76.11 Assigned the leftmost node as a head: 11
-Current_id: Wiki_MiominMio.78.8 Assigned the leftmost node as a head: 1
-Current_id: Wiki_MiominMio.78.14 Assigned the leftmost node as a head: 13
-Current_id: Wiki_MiominMio.79.3 Assigned the leftmost node as a head: 1
-Current_id: Wiki_MiominMio.82.5 Assigned the leftmost node as a head: 
-Current_id: Wiki_MiominMio.88.nt.17 Assigned the leftmost node as a head: 
-Current_id: Wiki_MiominMio.90.1 Assigned the leftmost node as a head: 1
-Current_id: Wiki_MiominMio.100.8 Assigned the leftmost node as a head: 
-Current_id: Wiki_MiominMio.118.10 Assigned the leftmost node as a head: 
-Current_id: Wiki_MiominMio.138.10 Assigned the leftmost node as a head: 12
-Current_id: Wiki_MiominMio.139.nt.7 Assigned the leftmost node as a head: 
-Current_id: Wiki_MiominMio.140.11 Assigned the leftmost node as a head: 
-Current_id: Wiki_MiominMio.142.9 Assigned the leftmost node as a head: 
-Current_id: Wiki_MiominMio.143.18 Assigned the leftmost node as a head: 11
-Current_id: Wiki_MiominMio.143.14 Assigned the leftmost node as a head: 23
-Current_id: Wiki_MiominMio.144.5 Assigned the leftmost node as a head: 11
-Current_id: Wiki_MiominMio.147.10 Assigned the leftmost node as a head: 4
-Current_id: Wiki_MiominMio.148.10 Assigned the leftmost node as a head: 
-Current_id: Wiki_MiominMio.148.5 Assigned the leftmost node as a head: 10
-Current_id: Wiki_MiominMio.159.6 Assigned the leftmost node as a head: 5
-Current_id: Wiki_MiominMio.165.4 Assigned the leftmost node as a head: 18
-Current_id: Wiki_Jonssonligan.3.10 Assigned the leftmost node as a head: 14
-Current_id: Wiki_Jonssonligan.10.10 Assigned the leftmost node as a head: 
-Current_id: Wiki_Jonssonligan.22.17 Assigned the leftmost node as a head: 
-Current_id: Wiki_Jonssonligan.30.9 Assigned the leftmost node as a head: 
-Current_id: Wiki_Jonssonligan.30.3 Assigned the leftmost node as a head: 
-Current_id: Wiki_Jonssonligan.30.10 Assigned the leftmost node as a head: 
-Current_id: Wiki_Jonssonligan.31.9 Assigned the leftmost node as a head: 
-Current_id: Wiki_Jonssonligan.31.6 Assigned the leftmost node as a head: 12
-Current_id: Wiki_Jonssonligan.32.18 Assigned the leftmost node as a head: 4
-Current_id: Wiki_Jonssonligan.32.14 Assigned the leftmost node as a head: 6
-Current_id: Wiki_Jonssonligan.36.9 Assigned the leftmost node as a head: 
-Current_id: Wiki_Jonssonligan.36.5 Assigned the leftmost node as a head: 6
-Current_id: Wiki_Jonssonligan.38.10 Assigned the leftmost node as a head: 26
-Current_id: Wiki_Jonssonligan.50.15 Assigned the leftmost node as a head: 4
-Current_id: Wiki_Sverigesriksdag.6.3 Assigned the leftmost node as a head: 24
-Current_id: Wiki_Sverigesriksdag.42.14 Assigned the leftmost node as a head: 
-Current_id: Wiki_Sverigesriksdag.44.2 Assigned the leftmost node as a head: 5
-Current_id: Wiki_Sverigesriksdag.50.6 Assigned the leftmost node as a head: 17
-Current_id: Wiki_Sverigesriksdag.58.7 Assigned the leftmost node as a head: 6
-Current_id: Wiki_Sverigesriksdag.58.6 Assigned the leftmost node as a head: 8
-Current_id: Wiki_Sverigesriksdag.58.4 Assigned the leftmost node as a head: 
-Current_id: Wiki_Sverigesriksdag.72.7 Assigned the leftmost node as a head: 
-Current_id: Wiki_Sverigesriksdag.73.12 Assigned the leftmost node as a head: 
-Current_id: Wiki_Sverigesriksdag.76.18 Assigned the leftmost node as a head: 31
-Current_id: Wiki_Sverigesriksdag.79.9 Assigned the leftmost node as a head: 
-Current_id: Wiki_Sverigesriksdag.82.11 Assigned the leftmost node as a head: 
-Current_id: Wiki_Sverigesriksdag.82.10 Assigned the leftmost node as a head: 
-Current_id: Wiki_Sverigesriksdag.86.13 Assigned the leftmost node as a head: 9
-Current_id: Wiki_Sverigesriksdag.86.6 Assigned the leftmost node as a head: 22
-Current_id: Wiki_Sverigesriksdag.86.5 Assigned the leftmost node as a head: 
-Current_id: Wiki_Sverigesriksdag.86.9 Assigned the leftmost node as a head: 26
-Current_id: Wiki_Sverigesriksdag.86.8 Assigned the leftmost node as a head: 
-Current_id: Wiki_Sverigesriksdag.97.4 Assigned the leftmost node as a head: 7
-Current_id: Wiki_Sverigesriksdag.101.3 Assigned the leftmost node as a head: 5
-Current_id: Wiki_Sverigesriksdag.104.13 Assigned the leftmost node as a head: 
-Current_id: Wiki_Sverigesriksdag.106.3 Assigned the leftmost node as a head: 7
-Current_id: Wiki_Sverigesriksdag.106.11 Assigned the leftmost node as a head: 
-Current_id: Wiki_Sverigesriksdag.106.8 Assigned the leftmost node as a head: 16
-Current_id: Wiki_Sverigesriksdag.108.5 Assigned the leftmost node as a head: 18
-Current_id: Wiki_Sverigesriksdag.109.2 Assigned the leftmost node as a head: 1
+Blog_160886-12847738.1	2	["NP", "S"]	["NP", "S"]
+Blog_160886-12595823.18	2	["S"]	["S", "S"]
+Blog_160886-11338599.5	2	["S"]	["S", "S"]
+Blog_160886-12591771.5	3	["NP", "S"]	["NP", "NP", "S"]
+Blog_160886-12591771.8	3	["NP"]	["NP", "NP", "NP"]
+Blog_160886-12591771.9b	3	["NP"]	["NP", "NP", "NP"]
+Blog_160886-12591771.9c	2	["NP"]	["NP", "NP"]
+Blog_160886-12591771.12	2	["KoP", "NP"]	["KoP", "NP"]
+Blog_160886-12591771.15	2	["S"]	["S", "S"]
+Blog_160886-11338497.14b	2	["KoP"]	["KoP", "KoP"]
+Blog_160886-11338497.22	2	["S"]	["S", "S"]
+Blog_188519-17383062.1	3	["KoP", "S"]	["KoP", "KoP", "S"]
+Blog_188519-17383062.3	2	["S"]	["S", "S"]
+Blog_188519-17383062.4	2	["S"]	["S", "S"]
+Blog_188519-17383062.9	2	["S"]	["S", "S"]
+Blog_188519-10179826.21	2	["S"]	["S", "S"]
+Blog_188519-10179826.23	2	["S"]	["S", "S"]
+Blog_188519-10179826.29	2	["KoP", "S"]	["KoP", "S"]
+Blog_188519-10179826.41	2	["KoP", "S"]	["KoP", "S"]
+Blog_188519-10179826.53	2	["KoP", "PP"]	["KoP", "PP"]
+Blog_188519-10179826.57	2	["S"]	["S", "S"]
+Blog_188519-10542620.10	2	["KoP", "S"]	["KoP", "S"]
+Blog_188519-10542620.11	2	["KoP"]	["KoP", "KoP"]
+Blog_188519-10542620.24	2	["KoP", "S"]	["KoP", "S"]
+Blog_188519-10542620.27	2	["S"]	["S", "S"]
+Blog_188519-10542620.34	2	["S"]	["S", "S"]
+Blog_188519-10542620.36	2	["KoP", "S"]	["KoP", "S"]
+Blog_188519-10542620.45	2	["S"]	["S", "S"]
+Blog_13263-702563.4	2	["NP", "SuP"]	["NP", "SuP"]
+Blog_13263-120430.3	2	["NP", "S"]	["NP", "S"]
+Blog_13263-596973.1	2	["S"]	["S", "S"]
+Blog_13263-313966.1	2	["S"]	["S", "S"]
+Blog_13263-24167.2	2	["S"]	["S", "S"]
+Blog_13263-513530.4	2	["KoP", "S"]	["KoP", "S"]
+Blog_13263-1216693.2	2	["S", "SuP"]	["S", "SuP"]
+Blog_12325-1398819.1	2	["S"]	["S", "S"]
+Blog_12325-1398819.14	2	["KoP", "S"]	["KoP", "S"]
+Blog_12325-1398819.17	2	["KoP", "S"]	["KoP", "S"]
+Blog_12325-2172538.3	2	["KoP", "S"]	["KoP", "S"]
+Blog_12325-1884438.2	3	["PP", "S"]	["PP", "S", "S"]
+Blog_12325-1884438.6	2	["KoP", "S"]	["KoP", "S"]
+Blog_12325-1884438.11	3	["KoP", "PP", "S"]	["KoP", "PP", "S"]
+Blog_12325-1884438.15	2	["NP", "S"]	["NP", "S"]
+Blog_12325-1189192.1	2	["S"]	["S", "S"]
+Blog_12325-1189192.7	2	["S"]	["S", "S"]
+Blog_26224-3199392.6	2	["S"]	["S", "S"]
+Blog_26224-2222211.3	2	["S"]	["S", "S"]
+Blog_265827-14701535.2	2	["AjP"]	["AjP", "AjP"]
+Blog_265827-14844249.3	2	["KoP", "S"]	["KoP", "S"]
+Blog_265827-15028529.3	2	["S"]	["S", "S"]
+Blog_265827-15028529.4	2	["S"]	["S", "S"]
+Blog_265827-14454929.1	2	["KoP", "S"]	["KoP", "S"]
+Blog_265827-14454929.7	2	["S"]	["S", "S"]
+Blog_265827-15106309.2	2	["S"]	["S", "S"]
+Blog_265827-14455644.4	2	["S"]	["S", "S"]
+Blog_265827-14653745.3	2	["S"]	["S", "S"]
+Blog_265827-14454798.2	2	["AjP", "NP"]	["AjP", "NP"]
+Blog_265827-14454798.4	2	["AjP", "S"]	["AjP", "S"]
+Blog_265827-14781982.2	2	["S"]	["S", "S"]
+Blog_265827-14989915.2	2	["KoP", "S"]	["KoP", "S"]
+Blog_265827-15106305.2	2	["S"]	["S", "S"]
+Blog_265827-15106305.3	3	["S"]	["S", "S", "S"]
+Blog_265827-14701534.2	2	["S"]	["S", "S"]
+Blog_265827-14749670.2	2	["S", "SuP"]	["S", "SuP"]
+Blog_265827-14454531.4	2	["AjP", "S"]	["AjP", "S"]
+Blog_265827-14454804.4	2	["S"]	["S", "S"]
+Blog_265827-14454804.8	2	["KoP", "NP"]	["KoP", "NP"]
+Blog_265827-8186120.3	2	["S", "SuP"]	["S", "SuP"]
+Blog_265827-15106302.9	2	["S"]	["S", "S"]
+Blog_265827-15246480.1	2	["AjP", "SuP"]	["AjP", "SuP"]
+Blog_265827-15246480.2	2	["KoP"]	["KoP", "KoP"]
+Blog_265827-14454655.2	2	["S"]	["S", "S"]
+Blog_265827-15106306.3	2	["S"]	["S", "S"]
+Blog_265827-15106306.11	2	["KoP", "S"]	["KoP", "S"]
+Blog_265827-14749673.8	2	["S", "VP"]	["S", "VP"]
+Blog_265827-15106304.2	2	["KoP"]	["KoP", "KoP"]
+Blog_265827-15246470.1	2	["S"]	["S", "S"]
+Blog_6843-5164672.9	2	["KoP", "S"]	["KoP", "S"]
+Blog_6843-2767923.1	2	["S"]	["S", "S"]
+Blog_5089-9048317.13	2	["KoP", "S"]	["KoP", "S"]
+Blog_5089-9048317.17	2	["KoP", "NP"]	["KoP", "NP"]
+Blog_5089-9048317.42	2	["S"]	["S", "S"]
+Blog_5089-12282516.7	2	["KoP", "S"]	["KoP", "S"]
+Blog_5089-12282516.26	2	["KoP", "S"]	["KoP", "S"]
+Blog_5089-12282516.32	2	["S"]	["S", "S"]
+Blog_5089-12282516.34	4	["KoP", "NP"]	["KoP", "KoP", "KoP", "NP"]
+Blog_5089-12282516.35	2	["NP", "S"]	["NP", "S"]
+Blog_5089-3694482.21	2	["S"]	["S", "S"]
+Blog_5089-9240616.12	2	["KoP", "NP"]	["KoP", "NP"]
+Blog_5089-9240616.28	2	["KoP"]	["KoP", "KoP"]
+Blog_5089-9240616.31	2	["KoP", "PP"]	["KoP", "PP"]
+Blog_5089-9240616.38	2	["NP", "S"]	["NP", "S"]
+Blog_5089-62681.4	2	["S"]	["S", "S"]
+Blog_5089-62681.14	3	["S"]	["S", "S", "S"]
+Blog_9154-5334916.2	2	["KoP", "S"]	["KoP", "S"]
+Blog_9154-5334916.9	2	["S"]	["S", "S"]
+Blog_9154-6030495.1	2	["NP", "S"]	["NP", "S"]
+Blog_9154-4949551.1	3	["KoP", "NP", "PP"]	["KoP", "NP", "PP"]
+Blog_9154-4949551.4	2	["KoP", "S"]	["KoP", "S"]
+Blog_9154-4949551.7	2	["KoP", "S"]	["KoP", "S"]
+Blog_54523-7856343.6	5	["AjP", "S"]	["AjP", "S", "S", "S", "S"]
+Blog_54523-7856343.8	6	["KoP", "S"]	["KoP", "KoP", "S", "S", "S", "S"]
+Blog_54523-7856343.13	2	["S"]	["S", "S"]
+Blog_54523-7856343.14	7	["KoP", "S"]	["KoP", "KoP", "KoP", "S", "S", "S", "S"]
+Blog_54523-7856343.16	2	["PP", "S"]	["PP", "S"]
+Blog_54523-7856343.21	2	["S"]	["S", "S"]
+Blog_54523-8202951.1	3	["S"]	["S", "S", "S"]
+Blog_54523-8202951.3	3	["KoP", "S"]	["KoP", "KoP", "S"]
+Blog_54523-8202951.4	2	["S"]	["S", "S"]
+Blog_54523-8202951.6	2	["KoP", "S"]	["KoP", "S"]
+Blog_54523-8202951.7	2	["KoP", "VP"]	["KoP", "VP"]
+Blog_54523-8202951.9	2	["S"]	["S", "S"]
+Blog_54523-8202951.12b	3	["KoP", "S"]	["KoP", "KoP", "S"]
+Blog_54523-8202951.12c	7	["KoP", "S"]	["KoP", "KoP", "S", "S", "S", "S", "S"]
+Blog_54523-8202951.13	2	["S"]	["S", "S"]
+Blog_54523-9913239.5	2	["S"]	["S", "S"]
+Blog_54523-9913239.6	2	["KoP", "S"]	["KoP", "S"]
+Blog_54523-9913239.11	4	["KoP", "S"]	["KoP", "KoP", "S", "S"]
+Blog_54523-9913239.12	4	["KoP", "S"]	["KoP", "S", "S", "S"]
+Blog_54523-6490319.1	2	["KoP", "S"]	["KoP", "S"]
+Blog_54523-6490319.2	4	["KoP", "S"]	["KoP", "KoP", "KoP", "S"]
+Blog_54523-6490319.3	3	["KoP", "S"]	["KoP", "KoP", "S"]
+Blog_54523-6490319.4	3	["KoP", "S"]	["KoP", "KoP", "S"]
+Blog_54523-9491151.5	2	["S"]	["S", "S"]
+Blog_54523-9491151.9	3	["KoP", "S"]	["KoP", "S", "S"]
+Blog_54523-4665614.2	2	["KoP", "S"]	["KoP", "S"]
+Blog_54523-4665614.5	4	["KoP", "S"]	["KoP", "KoP", "S", "S"]
+Blog_54523-4665614.6	4	["KoP", "S"]	["KoP", "S", "S", "S"]
+Blog_54523-14269154.1	5	["KoP", "S"]	["KoP", "KoP", "S", "S", "S"]
+Blog_54523-14269154.2	2	["S"]	["S", "S"]
+Blog_54523-14269154.10	2	["S"]	["S", "S"]
+Blog_54523-14269154.11	2	["KoP"]	["KoP", "KoP"]
+Blog_54523-14269154.12	3	["KoP"]	["KoP", "KoP", "KoP"]
+Eupa_00-01-17.96	2	["S"]	["S", "S"]
+Eupa_00-01-17.109	2	["S"]	["S", "S"]
+Eupa_00-01-17.126	2	["S"]	["S", "S"]
+Eupa_00-01-17.151	2	["S", "SuP"]	["S", "SuP"]
+Eupa_00-01-17.199	2	["S"]	["S", "S"]
+Eupa_00-01-17.237	2	["KoP", "S"]	["KoP", "S"]
+Eupa_00-01-17.243	2	["KoP", "S"]	["KoP", "S"]
+Eupa_00-01-17.273	2	["S"]	["S", "S"]
+Eupa_00-01-17.278	2	["S"]	["S", "S"]
+Eupa_00-01-17.321	2	["S"]	["S", "S"]
+Eupa_00-01-17.322	2	["S"]	["S", "S"]
+Eupa_00-01-17.375	2	["S"]	["S", "S"]
+Eupa_00-01-17.413	2	["NP", "S"]	["NP", "S"]
+Eupa_00-01-17.530	2	["S"]	["S", "S"]
+Eupa_00-01-17.531	3	["NP"]	["NP", "NP", "NP"]
+Eupa_00-01-17.575	2	["S"]	["S", "S"]
+Eupa_00-01-17.582	2	["S"]	["S", "S"]
+Eupa_00-01-17.593	2	["S"]	["S", "S"]
+Eupa_00-01-17.619	2	["S"]	["S", "S"]
+Eupa_00-01-17.693	2	["KoP", "S"]	["KoP", "S"]
+Eupa_00-01-17.710	2	["KoP", "SuP"]	["KoP", "SuP"]
+Eupa_00-01-17.721	3	["KoP", "S"]	["KoP", "S", "S"]
+Eupa_00-01-17.722	2	["NP", "S"]	["NP", "S"]
+Eupa_00-01-17.756	2	["S"]	["S", "S"]
+Arbt_Polisjakt.28	2	["S"]	["S", "S"]
+Arbt_Hardkritik.9	2	["KoP", "S"]	["KoP", "S"]
+Arbt_Hardkritik.10	2	["S"]	["S", "S"]
+Arbt_Hardkritik.21	2	["KoP", "S"]	["KoP", "S"]
+Digi_2014-05.1	2	["NP"]	["NP", "NP"]
+Arbt_Rwanda.4	2	["S"]	["S", "S"]
+Arbt_Sundsvallssyndikalister.9	2	["S"]	["S", "S"]
+Regr_255193.6	2	["NP", "S"]	["NP", "S"]
+Digi_2014-11.17	2	["NP", "S"]	["NP", "S"]
+Digi_2014-11.23	2	["NP", "S"]	["NP", "S"]
+Regr_255346.12	2	["S"]	["S", "S"]
+Regr_254842.12	2	["S"]	["S", "S"]
+Romn_Lundqvist-Ingentobak.17	2	["KoP", "S"]	["KoP", "S"]
+Romn_Lundqvist-Ingentobak.125	2	["S"]	["S", "S"]
+Romn_Lundqvist-Ingentobak.139	2	["S"]	["S", "S"]
+Romn_Lundqvist-Ingentobak.155	2	["S"]	["S", "S"]
+Romn_Lundqvist-Ingentobak.213	2	["KoP", "S"]	["KoP", "S"]
+Romn_Lundqvist-Ingentobak.216	3	["KoP", "NP", "S"]	["KoP", "NP", "S"]
+Romn_Lundqvist-Ingentobak.224	2	["KoP", "S"]	["KoP", "S"]
+Romn_Lundqvist-Ingentobak.256	2	["S"]	["S", "S"]
+Romn_Lundqvist-Ingentobak.268	2	["S"]	["S", "S"]
+Romn_Lundqvist-Ingentobak.295	2	["S"]	["S", "S"]
+Romn_Lundqvist-Ingentobak.310	2	["KoP", "S"]	["KoP", "S"]
+Romn_Lundqvist-Ingentobak.347	2	["AjP", "S"]	["AjP", "S"]
+Romn_Lundqvist-Ingentobak.422	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.4	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.6	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.9	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.15	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.16	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.28	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.29	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.32	2	["PP", "S"]	["PP", "S"]
+Romn_Bjelvehammar-TageBengtsson.35	3	["S"]	["S", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.42	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.50	4	["S"]	["S", "S", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.53	3	["S"]	["S", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.54	3	["S"]	["S", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.56	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.58	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.60	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.61	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.63	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.67	3	["KoP", "S"]	["KoP", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.71	3	["S"]	["S", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.82	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.83	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.86	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.87	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.89	3	["S"]	["S", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.90	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.100	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.101	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.108	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.115	3	["S"]	["S", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.118	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.124	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.125	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.132	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.134	3	["S"]	["S", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.137	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.138	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.141	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.142	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.143	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.146	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.152	4	["KoP", "S"]	["KoP", "S", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.156	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.173	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.174	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.178	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.179	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.183	3	["KoP", "S"]	["KoP", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.184	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.186	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.191	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.195	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.198	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.200	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.202	3	["S"]	["S", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.206	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.211	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.218	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.221	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.224	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.229	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.230	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.233	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.237	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.240	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.244	2	["KoP", "S"]	["KoP", "S"]
+Romn_Bjelvehammar-TageBengtsson.246	3	["S"]	["S", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.251	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.253	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.257	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.258	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.260	3	["PP", "S"]	["PP", "S", "S"]
+Romn_Bjelvehammar-TageBengtsson.262	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.263	2	["S"]	["S", "S"]
+Romn_Bjelvehammar-TageBengtsson.278	2	["KoP"]	["KoP", "KoP"]
+Romn_Holmsen-Polynesiskpassad.22	2	["KoP", "S"]	["KoP", "S"]
+Romn_Holmsen-Polynesiskpassad.29	2	["KoP", "NP"]	["KoP", "NP"]
+Romn_Holmsen-Polynesiskpassad.225	2	["S"]	["S", "S"]
+Romn_Holmsen-Polynesiskpassad.244	2	["S"]	["S", "S"]
+Romn_Holmsen-Polynesiskpassad.273	2	["S"]	["S", "S"]
+Romn_Holmsen-Polynesiskpassad.314	2	["S"]	["S", "S"]
+Romn_Holmsen-Polynesiskpassad.343	2	["IjP", "S"]	["IjP", "S"]
+Romn_Strand-Pagarna.87	2	["KoP"]	["KoP", "KoP"]
+Romn_Strand-Pagarna.270	2	["S"]	["S", "S"]
+Romn_Strand-Pagarna.273	2	["S"]	["S", "S"]
+Romn_Strand-Pagarna.275	2	["KoP", "S"]	["KoP", "S"]
+Romn_Strand-Pagarna.282	2	["KoP", "S"]	["KoP", "S"]
+Romn_Strand-Pagarna.350	2	["S"]	["S", "S"]
+Romn_Strand-Pagarna.436	2	["KoP", "S"]	["KoP", "S"]
+Wiki_Asterix.25	2	["S"]	["S", "S"]
+Wiki_Asterix.27	2	["KoP", "S"]	["KoP", "S"]
+Wiki_Asterix.32	2	["S"]	["S", "S"]
+Wiki_Asterix.57	2	["S"]	["S", "S"]
+Wiki_Asterix.68	2	["S"]	["S", "S"]
+Wiki_Asterix.84	2	["KoP", "S"]	["KoP", "S"]
+Wiki_HarryPotter.27	2	["KoP", "S"]	["KoP", "S"]
+Wiki_HarryPotter.38	2	["KoP", "S"]	["KoP", "S"]
+Wiki_HarryPotter.83	2	["PP", "S"]	["PP", "S"]
+Wiki_HarryPotter.113	2	["S"]	["S", "S"]
+Wiki_HarryPotter.130	2	["S"]	["S", "S"]
+Wiki_Saganomringenfilm.78	2	["NP", "S"]	["NP", "S"]
+Wiki_VascodaGama.59	2	["S"]	["S", "S"]
+Wiki_VascodaGama.68	2	["KoP"]	["KoP", "KoP"]
+Wiki_Symaskin.22	2	["KoP", "NP"]	["KoP", "NP"]
+Wiki_Symaskin.48	2	["S"]	["S", "S"]
+Wiki_Vader.169	2	["S"]	["S", "S"]
+Wiki_Vader.195	2	["S"]	["S", "S"]
+Wiki_MiominMio.40	2	["KoP", "SuP"]	["KoP", "SuP"]
+Wiki_MiominMio.71	2	["S"]	["S", "S"]
+Wiki_MiominMio.74	2	["S"]	["S", "S"]
+Wiki_MiominMio.76	2	["S"]	["S", "S"]
+Wiki_MiominMio.85	2	["S"]	["S", "S"]
+Wiki_MiominMio.86	2	["KoP", "S"]	["KoP", "S"]
+Wiki_MiominMio.99	2	["KoP", "S"]	["KoP", "S"]
+Wiki_MiominMio.105	2	["S"]	["S", "S"]
+Wiki_MiominMio.109	2	["KoP"]	["KoP", "KoP"]
+Wiki_MiominMio.117	2	["KoP", "S"]	["KoP", "S"]
+Wiki_MiominMio.121	2	["S"]	["S", "S"]
+Wiki_MiominMio.127	2	["S", "SuP"]	["S", "SuP"]
+Wiki_MiominMio.141	2	["S"]	["S", "S"]
+Wiki_MiominMio.143	2	["S"]	["S", "S"]
+Wiki_MiominMio.144	2	["S"]	["S", "S"]
+Wiki_MiominMio.147	2	["S"]	["S", "S"]
+Wiki_MiominMio.149	2	["S"]	["S", "S"]
+Wiki_MiominMio.150	2	["KoP", "S"]	["KoP", "S"]
+Wiki_Sverigesriksdag.33	2	["S"]	["S", "S"]
+Wiki_Sverigesriksdag.43	2	["S"]	["S", "S"]
+Wiki_Sverigesriksdag.47	2	["S"]	["S", "S"]
+Wiki_Sverigesriksdag.51	2	["S"]	["S", "S"]
+Wiki_Sverigesriksdag.65	2	["KoP", "S"]	["KoP", "S"]
+Wiki_Sverigesriksdag.77	2	["S"]	["S", "S"]
+Wiki_Sverigesriksdag.78	2	["S"]	["S", "S"]
+Wiki_Sverigesriksdag.113	2	["S"]	["S", "S"]
+Wiki_Sverigesriksdag.115	2	["S"]	["S", "S"]
+NP, S	13
+S	166
+NP	5
+KoP, NP	7
+KoP	11
+KoP, S	86
+KoP, PP	2
+NP, SuP	1
+S, SuP	5
+PP, S	5
+KoP, PP, S	1
+AjP	1
+AjP, NP	1
+AjP, S	4
+AjP, SuP	1
+S, VP	1
+KoP, NP, PP	1
+KoP, VP	1
+KoP, SuP	2
+KoP, NP, S	1
+IjP, S	1
