@@ -263,9 +263,9 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                     combination = nonterminal_cats.sort.uniq.join(", ")
                     @cat_combinations_on_top[combination]+=1
                     if combination.include?("S") or combination.include?("KoP") or combination.include?("SuP") or combination.include?("VP")
-                        @nonterminallinkontop = "parataxis"
+                        @nonterminallinkontop[sent_id] = "parataxis"
                     else
-                        @nonterminallinkontop = "conj"
+                        @nonterminallinkontop[sent_id] = "conj"
                     end
                     
                     
@@ -554,6 +554,7 @@ excluded_sents = {}
 n_processed_sents = 0
 @nsents_several_nonterminals_on_top = 0
 @sentids_several_nonterminals_on_top = []
+@nonterminallinkontop = {}
 @cat_combinations_on_top = Hash.new(0)
 @n_only_terminals_on_top = 0
 n_wrong_trees = 0
@@ -679,7 +680,7 @@ filenames.each do |filename|
                 if verbose then STDERR.puts "Processing the primary tree" end
                 if verbose then STDERR.puts "*****" end
                 #@rootlist = []
-                @nonterminallinkontop = false
+                
                 root = process_primary_tree(primary_tree, primary_labels, "#{sent_id}.0", term_ids, phrases, 0, sent_id,"",verbose, words)
 
                 ###extracted from the process_primary_tree method, since this does not have to be done for every node. The variable root is now the output of the method
@@ -708,7 +709,7 @@ filenames.each do |filename|
                         mainroot = @under0_copy[0].clone
                         #@STDOUT.puts "#{sent_id} #{mainroot}"
                     end
-	            
+=begin	            
                     #choosing the first node (deprecated, here for comparison)
                     foundnewmainroot2 = false
                     @under0.each do |node|
@@ -724,11 +725,14 @@ filenames.each do |filename|
                     #if mainroot != mainroot2
                         #STDOUT.puts "#{sent_id} #{mainroot} #{mainroot2}"
                     #end
-	            
+=end	            
 	            
                     @under0.each do |node|
                         if node != mainroot
                             @reversed_tree[node] = mainroot
+                            if @reversed_labels[node] == "--" and @nonterminallinkontop[sent_id]
+                                @reversed_labels[node] = @nonterminallinkontop[sent_id]
+                            end
                         end
                     end
                 else
@@ -737,6 +741,7 @@ filenames.each do |filename|
                 if @newroot.nil?
                     mainroot = root.clone
                 end
+                #TODO: coord on top labels here, too?
                 @underoldroot.keys.each do |node|
                     @reversed_tree[node] = mainroot
                 end
@@ -795,7 +800,7 @@ filenames.each do |filename|
                     info = words[term_id]
                     head = nodeid_to_integer(sent_id,@reversed_tree[term_id])
                     deprel = @reversed_labels[term_id]
-                    if deprel == "--" and info["pos"][0..1] != "SY" and head != 0 and !@sentids_several_nonterminals_on_top.include?(sent_id)
+                    if deprel == "--" and info["pos"][0..1] != "SY" and head != 0 #and !@sentids_several_nonterminals_on_top.include?(sent_id)
                         STDOUT.puts "#{sent_id}\t#{term_id}"
                     end
 

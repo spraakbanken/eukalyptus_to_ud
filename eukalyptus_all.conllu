@@ -7,7 +7,7 @@
 4	Dagens	dag	NN	-.GEN.-	NN.UTR.SIN.DEF	1	discourse		
 5	|	_	SY	-.-.-	SY.DEL	1	--		
 6	Neo	Neo	EN	-.-.-	EN.-	7	SB		
-7	lattjar	lattja	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+7	lattjar	lattja	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 8	i	i	PE	-.-.-	PE.-	7	MD		
 9	sin	sin	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	12	DT		
 10	nya	ny	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	12	MD		
@@ -294,7 +294,7 @@
 15	hösten	höst	NN	-.-.-	NN.UTR.SIN.DEF	10	OO		SpaceAfter=No
 16	,	_	SY	-.-.-	SY.DEL	2	--		
 17	dessutom	dessutom	AB	-.-.-	AB.-.-	18	MD		
-18	går	gå	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+18	går	gå	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 19	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	18	SB		
 20	(	_	SY	-.-.-	SY.DEL	2	--		SpaceAfter=No
 21	för	för	AB	-.-.-	AB.-.-	23	MD		SpaceAfter=No
@@ -534,7 +534,7 @@
 22	även	även	AB	-.-.-	AB.-.-	23	MD		
 23	i	i	PE	-.-.-	PE.-	25	MD		
 24	år	år	NN	-.-.-	NN.NEU.SIN.IND	23	OO		
-25	bojkottar	bojkotta	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+25	bojkottar	bojkotta	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 26	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	25	SB		
 27	"	_	SY	-.-.-	SY.DEL	2	--		SpaceAfter=No
 28	present kalender	present|kalender	NN	-.-.-	NN.UTR.SIN.IND	25	OO		SpaceAfter=No
@@ -1048,7 +1048,7 @@
 2	4	fyra	NU	-.-.-	NU.-	1	MD		SpaceAfter=No
 3	:	_	SY	-.-.-	SY.DEL	1	--		
 4	Min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	5	DT		
-5	hobby	hobby	NN	-.-.-	NN.UTR.SIN.IND	1	--		
+5	hobby	hobby	NN	-.-.-	NN.UTR.SIN.IND	1	parataxis		
 6	|	_	SY	-.-.-	SY.DEL	1	--		
 7	Sorgligt	sorglig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	11	KL		
 8	(	_	SY	-.-.-	SY.DEL	1	--		SpaceAfter=No
@@ -1057,7 +1057,7 @@
 11	men	men	KO	-.-.-	KO.-	14	DF		
 12	sant	sann	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	11	KL		
 13	så	så	AB	-.-.-	AB.-.-	14	DF		
-14	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+14	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 15	faktiskt	faktisk	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	14	MD		
 16	bloggen	blogg	NN	-.-.-	NN.UTR.SIN.DEF	14	SB		
 17	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	18	DT		
@@ -1079,11 +1079,11 @@
 3	:	_	SY	-.-.-	SY.DEL	1	--		
 4	En	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	6	DT		
 5	gammal	gammal	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	6	MD		
-6	bild	bild	NN	-.-.-	NN.UTR.SIN.IND	1	--		
+6	bild	bild	NN	-.-.-	NN.UTR.SIN.IND	1	conj		
 7	|	_	SY	-.-.-	SY.DEL	1	--		
 8	Min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	10	DT		
 9	fina	fin	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	10	MD		
-10	brorsdotter	brorsdotter	NN	-.-.-	NN.UTR.SIN.IND	1	--		
+10	brorsdotter	brorsdotter	NN	-.-.-	NN.UTR.SIN.IND	1	conj		
 11	Klara	Klara	EN	-.-.-	EN.-	10	AN		
 12	♥	_	SY	-.-.-	SY.SYM	1	--		
 13	på	på	PE	-.-.-	PE.-	10	MD		
@@ -1118,7 +1118,7 @@
 1	Dag	dag	NN	-.-.-	NN.UTR.SIN.IND	0	--		
 2	6	sex	NU	-.-.-	NU.-	1	MD		SpaceAfter=No
 3	:	_	SY	-.-.-	SY.DEL	1	--		
-4	Tema	tema	NN	-.-.-	NN.NEU.SIN.IND	1	--		
+4	Tema	tema	NN	-.-.-	NN.NEU.SIN.IND	1	conj		
 5	"	_	SY	-.-.-	SY.DEL	1	--		SpaceAfter=No
 6	grön	grön	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	4	AN		SpaceAfter=No
 7	"	_	SY	-.-.-	SY.DEL	1	--		
@@ -1126,7 +1126,7 @@
 9	Några	någon	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	12	DT		
 10	goa	go	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	12	MD		
 11	gröna	grön	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	12	MD		
-12	Xider	Xider	EN	-.-.-	EN.-	1	--		
+12	Xider	Xider	EN	-.-.-	EN.-	1	conj		
 13	som	som	SU	-.-.-	SU.-	12	MD		
 14	väntar	vänta	VB	-.-.-	VB.IND.AKT.PRS	13	OO		
 15	på	på	PE	-.-.-	PE.-	14	MD		
@@ -1142,7 +1142,7 @@
 2	7	sju	NU	-.-.-	NU.-	1	AN		SpaceAfter=No
 3	:	_	SY	-.-.-	SY.DEL	1	--		
 4	En	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	5	DT		
-5	bild	bild	NN	-.-.-	NN.UTR.SIN.IND	1	--		
+5	bild	bild	NN	-.-.-	NN.UTR.SIN.IND	1	conj		
 6	som	som	SU	-.-.-	SU.-	5	MD		
 7	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	6	OO		
 8	aldrig	aldrig	AB	-.-.-	AB.-.-	7	MD		
@@ -1192,7 +1192,7 @@
 12	stan	stad	NN	-.-.-	NN.UTR.SIN.DEF	11	OO		SpaceAfter=No
 13	,	_	SY	-.-.-	SY.DEL	10	--		
 14	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	15	KL		
-15	och	och	KO	-.-.-	KO.-	10	--		
+15	och	och	KO	-.-.-	KO.-	10	parataxis		
 16	Anna	Anna	EN	-.-.-	EN.-	15	KL		
 17	på	på	PE	-.-.-	PE.-	16	MD	16:MD|14:	
 18	Emelies	Emelies	EN	-.-.-	EN.-	19	DT		
@@ -1221,7 +1221,7 @@
 8	Anna	Anna	EN	-.-.-	EN.-	5	DF		SpaceAfter=No
 9	♥	_	SY	-.-.-	SY.SYM	2	--		SpaceAfter=No
 10	]	_	SY	-.-.-	SY.DEL	2	--		
-11	Har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+11	Har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 12	ni	ni	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	11	SB		
 13	oxå	oxå	AB	-.-.-	AB.-.-	11	MD		
 14	antagit	anta	VB	-.-.-	VB.SPM.AKT.-	11	IV		
@@ -1655,7 +1655,7 @@
 11	,	_	SY	-.-.-	SY.DEL	7	--		
 12	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	13	SB		
 13	låg	ligga	VB	-.-.-	VB.IND.AKT.PRT	14	KL		
-14	och	och	KO	-.-.-	KO.-	7	--		
+14	och	och	KO	-.-.-	KO.-	7	parataxis		
 15	yrade	yra	VB	-.-.-	VB.IND.AKT.PRT	14	KL		
 16	mellan	mellan	PE	-.-.-	PE.-	15	RA	15:RA|13:	
 17	oss	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	16	OO		
@@ -1786,7 +1786,7 @@
 6	på	på	PE	-.-.-	PE.-	4	MD		
 7	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	6	OO		SpaceAfter=No
 8	...	_	SY	-.-.-	SY.DEL	4	--		
-9	Hoppas	hoppas	VB	-.-.-	VB.IND.SFO.PRS	4	--		
+9	Hoppas	hoppas	VB	-.-.-	VB.IND.SFO.PRS	4	parataxis		
 10	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	11	SB		
 11	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	9	OO		
 12	sova	sova	VB	-.-.-	VB.INF.AKT.-	11	IV		
@@ -1820,7 +1820,7 @@
 10	agility	agility	NN	-.-.-	NN.UTR.SIN.IND	8	OO		
 11	i	i	PE	-.-.-	PE.-	8	MD		
 12	soffan	soffa	NN	-.-.-	NN.UTR.SIN.DEF	11	OO		
-13	o	och	KO	-.-.-	KO.-	2	--		
+13	o	och	KO	-.-.-	KO.-	2	parataxis		
 14	frustar	frusta	VB	-.-.-	VB.IND.AKT.PRS	13	KL		SpaceAfter=No
 15	,	_	SY	-.-.-	SY.DEL	2	--		
 16	tv;n	television	NN	-.-.-	NN.UTR.SIN.DEF	17	SB		CorrectForm=tv:n
@@ -1828,7 +1828,7 @@
 18	på	på	PE	-.-.-	PE.-	17	PL		
 19	i	i	PE	-.-.-	PE.-	17	MD		
 20	bakrunden	bakgrund	NN	-.-.-	NN.UTR.SIN.DEF	19	OO		CorrectForm=bakgrunden
-21	o	och	KO	-.-.-	KO.-	2	--		
+21	o	och	KO	-.-.-	KO.-	2	parataxis		
 22	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	23	SB		
 23	sitter	sitta	VB	-.-.-	VB.IND.AKT.PRS	25	KL		
 24	här	här	AB	-.-.-	AB.-.-	23	RA		
@@ -1873,7 +1873,7 @@
 7	,	_	SY	-.-.-	SY.DEL	2	--		
 8	somnade	somna	VB	-.-.-	VB.IND.AKT.PRT	10	IV		
 9	snabbt	snabb	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	8	MD		
-10	gjorde	göra	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+10	gjorde	göra	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 11	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	10	SB		
 12	oxo	också	AB	-.-.-	AB.-.-	10	MD		SpaceAfter=No
 13	..	_	SY	-.-.-	SY.DEL	2	--		
@@ -1887,7 +1887,7 @@
 5	huvet	huve	NN	-.-.-	NN.NEU.SIN.DEF	4	OO		SpaceAfter=No
 6	,,,	_	SY	-.-.-	SY.DEL	1	--		
 7	oj	oj	IJ	-.-.-	IJ.-	8	DF		
-8	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+8	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 9	köpa	köpa	VB	-.-.-	VB.INF.AKT.-	8	IV		
 10	treo	treo	EN	-.-.-	EN.-	19	KL		
 11	när	när	AB	-.-.-	AB.-.FRL	8	MD		
@@ -1971,7 +1971,7 @@
 7	dom	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	6	SB		
 8	snygga	snygg	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	6	SP		
 9	så	så	AB	-.-.-	AB.-.-	10	MD		
-10	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+10	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 11	t o m	till och med	AB	FKN.-.-	AB.-.-	10	MD		
 12	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	10	SB		
 13	titta	titta	VB	-.-.-	VB.INF.AKT.-	10	IV		
@@ -2572,7 +2572,7 @@
 2	här	här	AB	-.-.-	AB.-.-	1	ME		
 3	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 4	skrämmande	skrämmande	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	3	SP		
-5	förstår	förstå	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+5	förstår	förstå	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 6	du	du	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	5	SB		
 7	inte	inte	AB	-.-.-	AB.-.-	5	MD		
 8	de	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	5	OO		
@@ -2603,7 +2603,7 @@
 7	pappa	pappa	NN	-.-.-	NN.UTR.SIN.IND	3	OO		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	3	--		
 9	då	då	AB	-.-.-	AB.-.-	10	MD		
-10	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+10	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 11	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	10	SB		
 12	kommit	komma	VB	-.-.-	VB.SPM.AKT.-	10	IV		
 13	dit	dit	AB	-.-.-	AB.-.-	12	RA		
@@ -2713,7 +2713,7 @@
 8	var	vara	VB	-.-.-	VB.IND.AKT.PRT	7	OO		
 9	så	så	AB	-.-.-	AB.-.-	10	MD		
 10	otrevlig	otrevlig	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	8	SP		
-11	så	så	SU	-.-.-	SU.-	20	--		
+11	så	så	SU	-.-.-	SU.-	20	parataxis		
 12	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	13	SB		
 13	fick	få	VB	-.-.-	VB.IND.AKT.PRT	11	KL		
 14	sätta	sätta	VB	-.-.-	VB.INF.AKT.-	13	IV		
@@ -2943,7 +2943,7 @@
 11	inte	inte	AB	-.-.-	AB.-.-	8	MD		
 12	dricka	dricka	VB	-.-.-	VB.INF.AKT.-	8	IV		
 13	än	än	AB	-.-.-	AB.-.-	14	ME		
-14	mindre	liten	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	2	--		
+14	mindre	liten	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	2	parataxis		
 15	äta	äta	VB	-.-.-	VB.INF.AKT.-	14	IV		
 16	när	när	AB	-.-.-	AB.-.FRL	15	MD	15:MD|12:	
 17	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	18	SB		
@@ -3186,7 +3186,7 @@
 5	Marcus	Marcus	EN	-.-.-	EN.-	6	SB		
 6	blev	bli	VB	-.-.-	VB.IND.AKT.PRT	8	KL		
 7	jättelessen	jätte|ledsen	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	6	SP		
-8	o	och	KO	-.-.-	KO.-	1	--		
+8	o	och	KO	-.-.-	KO.-	1	parataxis		
 9	ville	vilja	VB	-.-.-	VB.IND.AKT.PRT	8	KL		
 10	att	att	SU	-.-.-	SU.-	9	OO		
 11	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
@@ -3283,7 +3283,7 @@
 6	natt	natt	NN	-.-.-	NN.UTR.SIN.IND	3	OO		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	3	--		
 8	då	då	AB	-.-.-	AB.-.-	9	DF		
-9	gick	gå	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+9	gick	gå	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 10	själva	själv	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	11	DT		
 11	operationen	operation	NN	-.-.-	NN.UTR.SIN.DEF	9	SB		
 12	väldigt	väldig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	13	MD		
@@ -3614,7 +3614,7 @@
 3	kommer	komma	VB	-.-.-	VB.IND.AKT.PRS	6	KL		
 4	Snobben	Snobben	EN	-.-.-	EN.-	3	SB		
 5	tillbaka	tillbaka	AB	-.-.-	AB.-.-	3	RA		
-6	men	men	KO	-.-.-	KO.-	20	--		
+6	men	men	KO	-.-.-	KO.-	20	parataxis		
 7	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	8	SB		
 8	är	vara	VB	-.-.-	VB.IND.AKT.PRS	6	KL		
 9	så	så	AB	-.-.-	AB.-.-	10	MD		
@@ -3665,7 +3665,7 @@
 26	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	24	OO		
 27	göra	göra	VB	-.-.-	VB.INF.AKT.-	26	IV		
 28	de	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	27	OO		
-29	så	så	KO	-.-.-	KO.-	16	--		
+29	så	så	KO	-.-.-	KO.-	16	parataxis		
 30	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	31	SB		
 31	tog	ta	VB	-.-.-	VB.IND.AKT.PRT	29	KL		
 32	Snobben	Snobben	EN	-.-.-	EN.-	31	OO		
@@ -3975,7 +3975,7 @@
 7	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	6	SB		
 8	med	med	PE	-.-.-	PE.-	6	MD		
 9	honom	han	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	8	OO		
-10	o	och	KO	-.-.-	KO.-	2	--		
+10	o	och	KO	-.-.-	KO.-	2	parataxis		
 11	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	10	KL		
 12	vilken	vilken	PO	-.-.-	PO.IND.SIN.UTR.-.FRL	14	DT		
 13	fin	fin	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	14	MD		
@@ -4022,7 +4022,7 @@
 2	in	in	AB	-.-.-	AB.-.-	1	PL		SpaceAfter=No
 3	,	_	SY	-.-.-	SY.DEL	1	--		
 4	du	du	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	5	SB		
-5	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+5	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 6	världens	värld	NN	-.GEN.-	NN.UTR.SIN.DEF	8	DT		
 7	bästa	bra	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	8	MD		
 8	hund	hund	NN	-.-.-	NN.UTR.SIN.IND	5	SP		SpaceAfter=No
@@ -4129,7 +4129,7 @@
 9	ha	ha	VB	-.-.-	VB.INF.AKT.-	5	IV		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	5	--		
 11	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
-12	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	5	--		
+12	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	5	parataxis		
 13	att	att	SU	-.-.-	SU.-	12	OO		
 14	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	15	SB		
 15	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	17	KL		
@@ -4168,7 +4168,7 @@
 11	skrek	skrika	VB	-.-.-	VB.IND.AKT.PRT	14	KL		
 12	rätt	rätt	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	13	MD		
 13	ut	ut	AB	-.-.-	AB.-.-	11	MD		
-14	för	för	KO	-.-.-	KO.-	5	--		
+14	för	för	KO	-.-.-	KO.-	5	parataxis		
 15	nu	nu	AB	-.-.-	AB.-.-	16	MD		
 16	kunde	kunna	VB	-.-.-	VB.IND.AKT.PRT	19	KL		
 17	Teddy	Teddy	EN	-.-.-	EN.-	16	SB		
@@ -4300,7 +4300,7 @@
 5	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	4	OO		SpaceAfter=No
 6	,	_	SY	-.-.-	SY.DEL	2	--		
 7	de	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	8	SB		
-8	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+8	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 9	sjukt	sjuk	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	8	SP		
 10	!!!	_	SY	-.-.-	SY.DEL	2	--		
 
@@ -5391,7 +5391,7 @@
 3	också	också	AB	-.-.-	AB.-.-	2	DF		SpaceAfter=No
 4	,	_	SY	-.-.-	SY.DEL	2	--		
 5	även	även	AB	-.-.-	AB.-.-	6	MD		
-6	om	om	SU	-.-.-	SU.-	2	--		
+6	om	om	SU	-.-.-	SU.-	2	parataxis		
 7	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	10	SB		
 8	egentligen	egentligen	AB	-.-.-	AB.-.-	9	MD		
 9	inte	inte	AB	-.-.-	AB.-.-	10	MD		
@@ -5477,7 +5477,7 @@
 3	på	på	PE	-.-.-	PE.-	2	OA		
 4	schemat	schema	NN	-.-.-	NN.NEU.SIN.DEF	3	OO		
 5	(	_	SY	-.-.-	SY.DEL	2	--		SpaceAfter=No
-6	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	2	--		
+6	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	2	parataxis		
 7	annars	annars	AB	-.-.-	AB.-.-	6	MD		SpaceAfter=No
 8	!?	_	SY	-.-.-	SY.DEL	2	--		SpaceAfter=No
 
@@ -6003,7 +6003,7 @@
 4	frukost	frukost	NN	-.-.-	NN.UTR.SIN.IND	3	OO		
 5	…	_	SY	-.-.-	SY.DEL	2	--		
 6	sen	sen	AB	-.-.-	AB.-.-	7	MD		
-7	blev	bli	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+7	blev	bli	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 8	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	7	SB		
 9	fika	fika	NN	-.-.-	NN.UTR.SIN.IND	16	KL		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	2	--		
@@ -6299,7 +6299,7 @@
 23	riktiga	riktig	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	24	MD		
 24	dag	dag	NN	-.-.-	NN.UTR.SIN.IND	17	SP		
 25	…	_	SY	-.-.-	SY.DEL	17	--		
-26	och	och	KO	-.-.-	KO.-	17	--		
+26	och	och	KO	-.-.-	KO.-	17	parataxis		
 27	varför	varför	AB	-.-.-	AB.-.FRL	26	MD		
 28	bryta	bryta	VB	-.-.-	VB.INF.AKT.-	26	IV		
 29	gamla	gammal	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	30	MD		
@@ -6516,7 +6516,7 @@
 14	storknar	storkna	VB	-.-.-	VB.IND.AKT.PRS	12	OO		SpaceAfter=No
 15	,	_	SY	-.-.-	SY.DEL	2	--		
 16	förhoppningsvis	förhoppningsvis	AB	-.-.-	AB.-.-	17	MD		
-17	får	få	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+17	får	få	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 18	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	17	SB		
 19	kanske	kanske	AB	-.-.-	AB.-.-	17	MD		
 20	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	22	DT		
@@ -6641,7 +6641,7 @@
 12	…	_	SY	-.-.-	SY.DEL	3	--		
 13	febern	feber	NN	-.-.-	NN.UTR.SIN.DEF	14	SB		
 14	försvann	försvinna	VB	-.-.-	VB.IND.AKT.PRT	15	KL		
-15	och	och	KO	-.-.-	KO.-	3	--		
+15	och	och	KO	-.-.-	KO.-	3	parataxis		
 16	istället	istället	AB	-.-.-	AB.-.-	17	MD		
 17	hittade	hitta	VB	-.-.-	VB.IND.AKT.PRT	15	KL		
 18	tydligen	tydligen	AB	-.-.-	AB.-.-	17	MD		
@@ -6856,7 +6856,7 @@
 28	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	27	OO		
 29	ny	ny	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	28	MD		
 30	…	_	SY	-.-.-	SY.DEL	4	--		
-31	och	och	KO	-.-.-	KO.-	4	--		
+31	och	och	KO	-.-.-	KO.-	4	parataxis		
 32	vilken	vilken	PO	-.-.-	PO.IND.SIN.UTR.-.FRL	33	DT		
 33	tur	tur	NN	-.-.-	NN.UTR.SIN.IND	31	PH		
 34	att	att	SU	-.-.-	SU.-	31	OO		
@@ -7022,7 +7022,7 @@
 5	,	_	SY	-.-.-	SY.DEL	2	--		
 6	i	i	PE	-.-.-	PE.-	2	discourse		
 7	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	8	SB		
-8	trodde	tro	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+8	trodde	tro	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 9	i	i	PE	-.-.-	PE.-	8	MD		
 10	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	11	DT		
 11	enfald	enfald	NN	-.-.-	NN.UTR.SIN.IND	9	OO		
@@ -7257,7 +7257,7 @@
 11	Per	Per	EN	-.-.-	EN.-	10	AN		
 12	var	vara	VB	-.-.-	VB.IND.AKT.PRT	14	KL		
 13	med	med	PE	-.-.-	PE.-	12	OA		
-14	och	och	KO	-.-.-	KO.-	3	--		
+14	och	och	KO	-.-.-	KO.-	3	parataxis		
 15	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	16	SB		
 16	är	vara	VB	-.-.-	VB.IND.AKT.PRS	14	KL		
 17	ju	ju	AB	-.-.-	AB.-.-	16	MD		
@@ -7309,7 +7309,7 @@
 9	röjde	röja	VB	-.-.-	VB.IND.AKT.PRT	12	KL		
 10	lite	litet	PO	-.-.-	PO.IND.SIN.NEU.-.-	11	MD		
 11	pliktskyldigt	pliktskyldig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	9	MD		
-12	men	men	KO	-.-.-	KO.-	2	--		
+12	men	men	KO	-.-.-	KO.-	2	parataxis		
 13	ställde	ställa	VB	-.-.-	VB.IND.AKT.PRT	12	KL		
 14	inte	inte	AB	-.-.-	AB.-.-	13	MD		
 15	upp	upp	AB	-.-.-	AB.-.-	13	PL		
@@ -7670,7 +7670,7 @@
 13	visst	viss	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	14	MD		
 14	också	också	AB	-.-.-	AB.-.-	12	MD		
 15	dit	dit	AB	-.-.-	AB.-.FRL	12	RA		
-16	men	men	KO	-.-.-	KO.-	4	--		
+16	men	men	KO	-.-.-	KO.-	4	parataxis		
 17	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	18	SB		
 18	är	vara	VB	-.-.-	VB.IND.AKT.PRS	16	KL		
 19	ju	ju	AB	-.-.-	AB.-.-	18	MD		
@@ -8562,12 +8562,12 @@
 12	-	_	SY	-.-.-	SY.DEL	2	--		
 13	hela	hel	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	14	DT		
 14	gänget	gäng	NN	-.-.-	NN.NEU.SIN.DEF	15	SB		
-15	åker	åka	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+15	åker	åka	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 16	till	till	PE	-.-.-	PE.-	15	RA		
 17	Åre	Åre	EN	-.-.-	EN.-	16	OO		
 18	-	_	SY	-.-.-	SY.DEL	2	--		
 19	men	men	KO	-.-.-	KO.-	20	DF		
-20	i	i	PE	-.-.-	PE.-	2	--		
+20	i	i	PE	-.-.-	PE.-	2	parataxis		
 21	alla	all	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	22	DT		
 22	fall	fall	NN	-.-.-	NN.NEU.PLU.IND	20	OO		SpaceAfter=No
 23	.	_	SY	-.-.-	SY.DEL	2	--		
@@ -8619,7 +8619,7 @@
 12	här	här	AB	-.-.-	AB.-.-	11	RA		SpaceAfter=No
 13	,	_	SY	-.-.-	SY.DEL	3	--		
 14	likväl	likväl	AB	-.-.-	AB.-.-	15	ME		
-15	som	som	SU	-.-.-	SU.-	3	--		
+15	som	som	SU	-.-.-	SU.-	3	parataxis		
 16	lite	litet	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	17	DT		
 17	bilder	bild	NN	-.-.-	NN.UTR.PLU.IND	18	KL		
 18	och	och	KO	-.-.-	KO.-	15	SB		
@@ -8720,7 +8720,7 @@
 5	period	period	NN	-.-.-	NN.UTR.SIN.IND	1	OO		SpaceAfter=No
 6	...	_	SY	-.-.-	SY.DEL	1	--		
 7	Bandet	band	NN	-.-.-	NN.NEU.SIN.DEF	8	SB		
-8	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+8	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 9	dessutom	dessutom	AB	-.-.-	AB.-.-	8	MD		
 10	på	på	PE	-.-.-	PE.-	8	SP		
 11	väg	väg	NN	-.-.-	NN.UTR.SIN.IND	10	OO		
@@ -8738,7 +8738,7 @@
 23	2	två	NU	-.-.-	NU.-	24	DT		
 24	låtar	låt	NN	-.-.-	NN.UTR.PLU.IND	20	OO		
 25	klara	klar	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	20	OP		
-26	och	och	KO	-.-.-	KO.-	1	--		
+26	och	och	KO	-.-.-	KO.-	1	parataxis		
 27	hoppas	hoppas	VB	-.-.-	VB.IND.SFO.PRS	26	KL		
 28	på	på	PE	-.-.-	PE.-	27	OA		
 29	att	att	SU	-.-.-	SU.-	28	OO		
@@ -8849,7 +8849,7 @@
 6	...	_	SY	-.-.-	SY.DEL	3	--		
 7	såhär	såhär	AB	-.-.-	AB.-.-	8	MD		
 8	långt	lång	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	9	MD		
-9	har	ha	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+9	har	ha	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 10	över	över	PE	-.-.-	PE.-	12	DT		
 11	25	tjugofem	NU	-.-.-	NU.-	10	OO		
 12	liveplattor	live|platta	NN	-.-.-	NN.UTR.PLU.IND	9	SB	9:SB|20:	
@@ -9080,7 +9080,7 @@
 29	där	där	AB	-.-.-	AB.-.-	28	ME		
 30	brutala	brutal	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	31	MD		
 31	domedagstyngden	dome|dags|tyngd	NN	-.-.-	NN.UTR.SIN.DEF	32	SB		
-32	saknas	sakna	VB	-.-.-	VB.IND.SFO.PRS	1	--		
+32	saknas	sakna	VB	-.-.-	VB.IND.SFO.PRS	1	parataxis		
 33	utan	utan	PE	-.-.-	PE.-	32	MD		
 34	att	att	SU	-.-.-	SU.-	33	OO		
 35	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	39	SB		
@@ -9377,7 +9377,7 @@
 9	också	också	AB	-.-.-	AB.-.-	2	MD		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	2	--		
 11	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	12	SB		
-12	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+12	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 13	ju	ju	AB	-.-.-	AB.-.-	12	MD		
 14	med	med	AB	-.-.-	AB.-.-	12	MD		
 15	pyssligt	pysslig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	12	SP		SpaceAfter=No
@@ -9496,7 +9496,7 @@
 9	vintergnäll	vinter|gnäll	NN	-.-.-	NN.NEU.SIN.IND	8	OO		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	4	--		
 11	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
-12	gillar	gilla	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+12	gillar	gilla	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 13	snö	snö	NN	-.-.-	NN.UTR.SIN.IND	12	OO		SpaceAfter=No
 14	.	_	SY	-.-.-	SY.DEL	4	--		
 
@@ -9992,7 +9992,7 @@
 3	senare	sen	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	0	--		SpaceAfter=No
 4	,	_	SY	-.-.-	SY.DEL	3	--		
 5	kanske	kanske	AB	-.-.-	AB.-.-	6	MD		
-6	tidigare	tidig	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	3	--		SpaceAfter=No
+6	tidigare	tidig	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	3	conj		SpaceAfter=No
 7	.	_	SY	-.-.-	SY.DEL	3	--		
 
 # sent_id = Blog_265827-14701535.3
@@ -10314,7 +10314,7 @@
 9	i	i	PE	-.-.-	PE.-	7	MD		
 10	ansiktet	ansikte	NN	-.-.-	NN.NEU.SIN.DEF	9	OO		
 11	också	också	AB	-.-.-	AB.-.-	7	MD		
-12	OCH	och	KO	-.-.-	KO.-	2	--		
+12	OCH	och	KO	-.-.-	KO.-	2	parataxis		
 13	i	i	PE	-.-.-	PE.-	12	MD		
 14	hårbotten	hårbotten	NN	-.-.-	NN.UTR.SIN.DEF	13	OO		SpaceAfter=No
 15	.	_	SY	-.-.-	SY.DEL	2	--		
@@ -10458,7 +10458,7 @@
 11	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	10	IO		
 12	naturkunskap	naturkunskap	NN	-.-.-	NN.UTR.SIN.IND	10	OO		SpaceAfter=No
 13	,	_	SY	-.-.-	SY.DEL	5	--		
-14	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	5	--		
+14	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	5	parataxis		
 15	inte	inte	AB	-.-.-	AB.-.-	14	MD		
 16	kommentera	kommentera	VB	-.-.-	VB.INF.AKT.-	14	IV		
 17	vidare	vidare	AB	-	AB.-.-	16	MD		
@@ -10480,7 +10480,7 @@
 7	Astrid	Astrid	EN	-.-.-	EN.-	6	KL		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	3	--		
 9	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	10	SB		
-10	fikade	fika	VB	-.-.-	VB.IND.AKT.PRT	3	--		SpaceAfter=No
+10	fikade	fika	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		SpaceAfter=No
 11	.	_	SY	-.-.-	SY.DEL	3	--		
 
 # sent_id = Blog_265827-15028529.5
@@ -10514,7 +10514,7 @@
 # sent_id = Blog_265827-14454929.1
 # text = Satt och hade min sista fika med Matilda och Fanny idag, vi har haft samma hål i elva veckor.
 1	Satt	sitta	VB	-.-.-	VB.IND.AKT.PRT	2	KL		
-2	och	och	KO	-.-.-	KO.-	14	--		
+2	och	och	KO	-.-.-	KO.-	14	parataxis		
 3	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	2	KL		
 4	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	6	DT		
 5	sista	sista	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	6	MD		
@@ -10594,7 +10594,7 @@
 10	)	_	SY	-.-.-	SY.DEL	8	--		
 11	Och	och	KO	-.-.-	KO.-	13	DF		
 12	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	13	OO		
-13	tycker	tycka	VB	-.-.-	VB.IND.AKT.PRS	8	--		
+13	tycker	tycka	VB	-.-.-	VB.IND.AKT.PRS	8	parataxis		
 14	ni	ni	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	13	SB		SpaceAfter=No
 15	?	_	SY	-.-.-	SY.DEL	8	--		
 
@@ -10620,7 +10620,7 @@
 4	enkelt	enkel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	2	SP		SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	2	--		
 6	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	7	SB		
-7	snackar	snacka	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+7	snackar	snacka	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 8	pyjamasbyxor	pyjamas|byxor	NN	-.-.-	NN.UTR.PLU.IND	12	KL		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	2	--		
 10	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	11	DT		
@@ -10726,7 +10726,7 @@
 3	glad	glad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	2	SP		
 4	-	_	SY	-.-.-	SY.DEL	2	--		
 5	JAG	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	6	SB		
-6	HAR	ha	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+6	HAR	ha	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 7	FÅTT	få	VB	-.-.-	VB.SPM.AKT.-	6	IV		
 8	JOBB	jobb	NN	-.-.-	NN.NEU.SIN.IND	7	OO		SpaceAfter=No
 9	!	_	SY	-.-.-	SY.DEL	2	--		
@@ -10803,7 +10803,7 @@
 7	bra	bra	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	5	OA		
 8	så	så	AB	-.-.-	AB.-.-	7	MD		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	1	--		
-10	åt	äta	VB	-.-.-	VB.IND.AKT.PRT	1	--		
+10	åt	äta	VB	-.-.-	VB.IND.AKT.PRT	1	parataxis		
 11	lite	litet	PO	-.-.-	PO.IND.SIN.NEU.-.-	12	DT		
 12	godis	godis	NN	-.-.-	NN.NEU.SIN.IND	10	OO		
 13	osv	och så vidare	AB	FKN.-.-	AB.-.-	10	MD		SpaceAfter=No
@@ -10822,7 +10822,7 @@
 3	jävligt	jävlig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	4	MD		
 4	halt	hal	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	0	--		SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	4	--		
-6	rådjuret	rådjur	NN	-.-.-	NN.NEU.SIN.DEF	4	--		
+6	rådjuret	rådjur	NN	-.-.-	NN.NEU.SIN.DEF	4	conj		
 7	på	på	PE	-.-.-	PE.-	6	MD		
 8	is	is	NN	-.-.-	NN.UTR.SIN.IND	7	OO		
 9	(	_	SY	-.-.-	SY.DEL	4	--		SpaceAfter=No
@@ -10857,7 +10857,7 @@
 6	dock	dock	AB	-.-.-	AB.-.-	5	MD		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	1	--		
 8	väldigt	väldig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	9	MD		
-9	osäker	osäker	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1	--		SpaceAfter=No
+9	osäker	osäker	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1	parataxis		SpaceAfter=No
 10	.	_	SY	-.-.-	SY.DEL	1	--		
 
 # sent_id = Blog_265827-14454798.5
@@ -10903,7 +10903,7 @@
 4	timmar	timme	NN	-.-.-	NN.UTR.PLU.IND	1	OO		
 5	idag	idag	AB	-.-.-	AB.-.-	1	MD		SpaceAfter=No
 6	,	_	SY	-.-.-	SY.DEL	1	--		
-7	mådde	må	VB	-.-.-	VB.IND.AKT.PRT	1	--		
+7	mådde	må	VB	-.-.-	VB.IND.AKT.PRT	1	parataxis		
 8	inte	inte	AB	-.-.-	AB.-.-	7	MD		
 9	så	så	AB	-.-.-	AB.-.-	10	MD		
 10	jättebra	jättebra	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	7	OA		SpaceAfter=No
@@ -10948,7 +10948,7 @@
 4	krypa	krypa	VB	-.-.-	VB.INF.AKT.-	2	IV		
 5	till	till	PE	-.-.-	PE.-	4	OA		
 6	kojs	koj	NN	-.-.-	NN.UTR.SIN.IND	5	OO		
-7	och	och	KO	-.-.-	KO.-	13	--		
+7	och	och	KO	-.-.-	KO.-	13	parataxis		
 8	läsa	läsa	VB	-.-.-	VB.INF.AKT.-	7	IV		
 9	lite	litet	PO	-.-.-	PO.IND.SIN.NEU.-.-	10	DT		
 10	Lapidus	Lapidus	EN	-.-.-	EN.-	8	OO		SpaceAfter=No
@@ -11279,7 +11279,7 @@
 7	åtta	åtta	NU	-.-.-	NU.-	6	OO		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	2	--		
 9	dock	dock	AB	-.-.-	AB.-.-	10	MD		
-10	tog	ta	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+10	tog	ta	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 11	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	10	SB		
 12	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	13	DT		
 13	halvtimme	halvtimme	NN	-.-.-	NN.UTR.SIN.IND	10	OO		
@@ -11296,11 +11296,11 @@
 2	match	match	NN	-.-.-	NN.UTR.SIN.IND	1	OO		
 3	-	_	SY	-.-.-	SY.DEL	1	--		
 4	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	5	SB		
-5	gick	gå	VB	-.-.-	VB.IND.AKT.PRT	1	--		
+5	gick	gå	VB	-.-.-	VB.IND.AKT.PRT	1	parataxis		
 6	bra	bra	AB	-.-.-	AB.POS.-	5	OA		
 7	(	_	SY	-.-.-	SY.DEL	1	--		SpaceAfter=No
 8	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	9	SB		
-9	vann	vinna	VB	-.-.-	VB.IND.AKT.PRT	1	--		
+9	vann	vinna	VB	-.-.-	VB.IND.AKT.PRT	1	parataxis		
 10	alltså	alltså	AB	-.-.-	AB.-.-	9	MD		SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	1	--		
 12	om	om	SU	-.-.-	SU.-	9	MD		
@@ -11353,7 +11353,7 @@
 7	90	nittio	NU	-.-.-	NU.-	8	DT		
 8	dagar	dag	NN	-.-.-	NN.UTR.PLU.IND	9	MD		
 9	innan	innan	AB	-.-.-	AB.-.-	10	MD		
-10	brukar	bruka	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+10	brukar	bruka	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 11	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	10	SB		
 12	vara	vara	VB	-.-.-	VB.INF.AKT.-	10	IV		
 13	svinbilligt	svin|billig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	12	SP		SpaceAfter=No
@@ -11480,7 +11480,7 @@
 8	,	_	SY	-.-.-	SY.DEL	1	--		
 9	men	men	KO	-.-.-	KO.-	11	DF		
 10	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	11	SB		
-11	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+11	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 12	också	också	AB	-.-.-	AB.-.-	11	MD		
 13	sjukt	sjukt	AB	-.-.-	AB.POS.-	14	MD		
 14	snyggt	snygg	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	11	SP		
@@ -11540,7 +11540,7 @@
 1	Så	så	AB	-.-.-	AB.-.-	2	MD		
 2	taggad	taggad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	0	--		SpaceAfter=No
 3	,	_	SY	-.-.-	SY.DEL	2	--		
-4	älskar	älska	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+4	älskar	älska	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 5	att	att	SU	-.-.-	SU.-	4	OO		
 6	åka	åka	VB	-.-.-	VB.INF.AKT.-	5	OO		
 7	skidor	skida	NN	-.-.-	NN.UTR.PLU.IND	6	OO		SpaceAfter=No
@@ -11649,7 +11649,7 @@
 16	bra	bra	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	17	MD		
 17	dag	dag	NN	-.-.-	NN.UTR.SIN.IND	13	OO		SpaceAfter=No
 18	:	_	SY	-.-.-	SY.DEL	2	--		
-19	ät	äta	VB	-.-.-	VB.IMP.AKT.-	2	--		
+19	ät	äta	VB	-.-.-	VB.IMP.AKT.-	2	parataxis		
 20	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	22	DT		
 21	ordentlig	ordentlig	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	22	MD		
 22	FRUKOST	frukost	NN	-.-.-	NN.UTR.SIN.IND	19	OO		SpaceAfter=No
@@ -11731,7 +11731,7 @@
 4	-	_	SY	-.-.-	SY.DEL	2	--		
 5	massa	massa	NN	-.-.-	NN.IND.SIN.UTR	7	KL		
 6	vitaminer	vitamin	NN	-.-.-	NN.UTR.PLU.IND	5	MD		
-7	och	och	KO	-.-.-	KO.-	2	--		
+7	och	och	KO	-.-.-	KO.-	2	parataxis		
 8	lite	litet	PO	-.-.-	PO.IND.SIN.NEU.-.-	9	DT		
 9	koffein	koffein	NN	-.-.-	NN.NEU.SIN.IND	7	KL		SpaceAfter=No
 10	!	_	SY	-.-.-	SY.DEL	2	--		
@@ -11938,7 +11938,7 @@
 13	juciy	_	UO	-.-.-	UO.-	10	AN		SpaceAfter=No
 14	)	_	SY	-.-.-	SY.DEL	1	--		SpaceAfter=No
 15	,	_	SY	-.-.-	SY.DEL	1	--		
-16	alltså	alltså	AB	-.-.-	AB.-.-	1	--		SpaceAfter=No
+16	alltså	alltså	AB	-.-.-	AB.-.-	1	parataxis		SpaceAfter=No
 17	,	_	SY	-.-.-	SY.DEL	1	--		
 18	halleluja	halleluja	IJ	-.-.-	IJ.-	16	DF		
 19	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	20	MD		
@@ -12217,7 +12217,7 @@
 3	upp	upp	AB	-.-.-	AB.-.-	1	PL		SpaceAfter=No
 4	,	_	SY	-.-.-	SY.DEL	1	--		
 5	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	6	OO		
-6	gjorde	göra	VB	-.-.-	VB.IND.AKT.PRT	1	--		
+6	gjorde	göra	VB	-.-.-	VB.IND.AKT.PRT	1	parataxis		
 7	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	6	SB		
 8	hela	hel	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	9	DT		
 9	tiden	tid	NN	-.-.-	NN.UTR.SIN.DEF	6	MD		SpaceAfter=No
@@ -12511,7 +12511,7 @@
 1	Helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	2	MD		
 2	sjuk	sjuk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	0	--		SpaceAfter=No
 3	,	_	SY	-.-.-	SY.DEL	2	--		
-4	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	2	--		
+4	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	2	parataxis		
 5	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	6	SB		
 6	är	vara	VB	-.-.-	VB.IND.AKT.PRS	4	OO		
 7	sjuk	sjuk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	6	SP		SpaceAfter=No
@@ -12531,7 +12531,7 @@
 10	mådde	må	VB	-.-.-	VB.IND.AKT.PRT	13	KL		
 11	riktigt	riktig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	12	MD		
 12	dåligt	dålig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	10	OA		
-13	men	men	KO	-.-.-	KO.-	5	--		
+13	men	men	KO	-.-.-	KO.-	5	parataxis		
 14	hittade	hitta	VB	-.-.-	VB.IND.AKT.PRT	13	KL		
 15	inte	inte	AB	-.-.-	AB.-.-	14	MD		
 16	Ipren	Ipren	EN	-.-.-	EN.-	14	OO		SpaceAfter=No
@@ -12582,7 +12582,7 @@
 1	Duschade	duscha	VB	-.-.-	VB.IND.AKT.PRT	0	--		
 2	länge	länge	AB	-.-.-	AB.POS.-	1	MD		SpaceAfter=No
 3	,	_	SY	-.-.-	SY.DEL	1	--		
-4	skrubbade	skrubba	VB	-.-.-	VB.IND.AKT.PRT	1	--		
+4	skrubbade	skrubba	VB	-.-.-	VB.IND.AKT.PRT	1	parataxis		
 5	kroppen	kropp	NN	-.-.-	NN.UTR.SIN.DEF	6	KL		
 6	och	och	KO	-.-.-	KO.-	4	OO		
 7	ansiktet	ansikte	NN	-.-.-	NN.NEU.SIN.DEF	6	KL		SpaceAfter=No
@@ -12757,7 +12757,7 @@
 9	hy	hy	NN	-.-.-	NN.UTR.SIN.IND	5	OO		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	5	--		
 11	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
-12	tog	ta	VB	-.-.-	VB.IND.AKT.PRT	5	--		
+12	tog	ta	VB	-.-.-	VB.IND.AKT.PRT	5	parataxis		
 13	inte	inte	AB	-.-.-	AB.-.-	12	MD		
 14	hand	hand	NN	-.-.-	NN.UTR.SIN.IND	12	OO		
 15	om	om	PE	-.-.-	PE.-	14	MD		
@@ -12909,7 +12909,7 @@
 6	på	på	PE	-.-.-	PE.-	9	KL		
 7	med	med	PE	-.-.-	PE.-	6	OA		
 8	ansiktsvatten	ansikts<vatten	NN	-.-.-	NN.NEU.SIN.IND	7	OO		
-9	och	och	KO	-.-.-	KO.-	1	--		
+9	och	och	KO	-.-.-	KO.-	1	parataxis		
 10	sen	sen	AB	-.-.-	AB.-.-	9	KL		
 11	kräm	kräm	NN	-.-.-	NN.UTR.SIN.IND	10	OA		SpaceAfter=No
 12	.	_	SY	-.-.-	SY.DEL	1	--		
@@ -13049,7 +13049,7 @@
 3	så	så	AB	-.-.-	AB.-.-	4	MD		
 4	mycket	mycket	PO	-.-.-	PO.IND.SIN.NEU.-.-	2	OO		SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	2	--		
-6	sprida	sprida	VB	-.-.-	VB.INF.AKT.-	2	--		
+6	sprida	sprida	VB	-.-.-	VB.INF.AKT.-	2	parataxis		
 7	lite	litet	PO	-.-.-	PO.IND.SIN.UTR.-.-	8	DT		
 8	lycka	lycka	NN	-.-.-	NN.UTR.SIN.IND	6	OO		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	2	--		
@@ -13255,7 +13255,7 @@
 23	PÅ	på	PE	-.-.-	PE.-	22	OA		
 24	TV4	TV4	EN	-.-.-	EN.-	23	OO		SpaceAfter=No
 25	,	_	SY	-.-.-	SY.DEL	8	--		
-26	och	och	KO	-.-.-	KO.-	8	--		
+26	och	och	KO	-.-.-	KO.-	8	parataxis		
 27	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	28	SB		
 28	gillar	gilla	VB	-.-.-	VB.IND.AKT.PRS	26	KL		
 29	typ	typ	AB	-.-.-	AB.-.-	28	MD		
@@ -13319,7 +13319,7 @@
 6	,	_	SY	-.-.-	SY.DEL	2	--		
 7	hela	hel	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	8	DT		
 8	helgen	helg	NN	-.-.-	NN.UTR.SIN.DEF	9	SB		
-9	spenderas	spendera	VB	-.-.-	VB.IND.SFO.PRS	2	--		
+9	spenderas	spendera	VB	-.-.-	VB.IND.SFO.PRS	2	parataxis		
 10	där	där	AB	-.-.-	AB.-.-	9	RA		SpaceAfter=No
 11	!	_	SY	-.-.-	SY.DEL	2	--		
 
@@ -13713,7 +13713,7 @@
 4	förklaringsmekanismer	förklarings|mekanism	NN	-.-.-	NN.UTR.PLU.IND	2	OO		
 5	för	för	PE	-.-.-	PE.-	4	MD		
 6	monstrena	monster	NN	-.-.-	NN.NEU.PLU.DEF	5	OO		
-7	utan	utan	KO	-.-.-	KO.-	21	--		
+7	utan	utan	KO	-.-.-	KO.-	21	parataxis		
 8	bara	bara	AB	-.-.-	AB.-.-	7	KL		
 9	monster	monster	NN	-.-.-	NN.NEU.PLU.IND	8	OO		
 10	som	som	SU	-.-.-	SU.-	9	MD		
@@ -15128,7 +15128,7 @@
 2	nu	nu	AB	-.-.-	AB.-.-	3	MD		
 3	sitter	sitta	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 4	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	3	SB		
-5	kopierar	kopiera	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+5	kopierar	kopiera	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 6	över	över	PE	-.-.-	PE.-	5	PL		
 7	två	två	NU	-.-.-	NU.-	8	DT		
 8	ljudböcker	ljudbok	NN	-.-.-	NN.UTR.PLU.IND	5	OO		
@@ -15786,7 +15786,7 @@
 1	Å	och	KO	-.-.-	KO.-	3	DF		
 2	Viggo	Viggo	EN	-.-.-	EN.-	3	SB		
 3	flippade	flippa	VB	-.-.-	VB.IND.AKT.PRT	4	KL		
-4	å	och	KO	-.-.-	KO.-	15	--		
+4	å	och	KO	-.-.-	KO.-	15	parataxis		
 5	började	börja	VB	-.-.-	VB.IND.AKT.PRT	4	KL		
 6	skrika	skrika	VB	-.-.-	VB.INF.AKT.-	5	IV		
 7	om	om	PE	-.-.-	PE.-	6	MD		
@@ -15895,7 +15895,7 @@
 12	bad	be	VB	-.-.-	VB.IND.AKT.PRT	15	KL		
 13	om	om	PE	-.-.-	PE.-	12	OA		
 14	ursäkt	ursäkt	NN	-.-.-	NN.UTR.SIN.IND	13	OO		
-15	å	och	KO	-.-.-	KO.-	3	--		
+15	å	och	KO	-.-.-	KO.-	3	parataxis		
 16	kopplade	koppla	VB	-.-.-	VB.IND.AKT.PRT	15	KL		
 17	bort	bort	AB	-.-.-	AB.-.-	16	PL		
 18	mej	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	16	OO		
@@ -16402,7 +16402,7 @@
 4	lite	litet	PO	-.-.-	PO.IND.SIN.NEU.-.-	2	MD		SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	2	--		
 6	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	7	SB		
-7	händer	hända	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+7	händer	hända	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 8	hos	hos	PE	-.-.-	PE.-	7	RA		
 9	er	er	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	8	OO		
 10	i dag	idag	AB	-.-.-	AB.-.-	7	MD		SpaceAfter=No
@@ -16502,7 +16502,7 @@
 3	Martin	Martin	EN	-.-.-	EN.-	2	KL		
 4	i	i	PE	-.-.-	PE.-	6	MD		
 5	lutfisk	lutfisk	NN	-.-.-	NN.UTR.SIN.IND	4	OO		
-6	å	och	KO	-.-.-	KO.-	27	--		
+6	å	och	KO	-.-.-	KO.-	27	parataxis		
 7	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	10	DF		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	27	--		
 9	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	10	SB		
@@ -16886,7 +16886,7 @@
 15	,	_	SY	-.-.-	SY.DEL	3	--		
 16	sorterar	sortera	VB	-.-.-	VB.IND.AKT.PRS	18	KL		
 17	leksaker	leksak	NN	-.-.-	NN.UTR.PLU.IND	16	OO		
-18	å	och	KO	-.-.-	KO.-	3	--		
+18	å	och	KO	-.-.-	KO.-	3	parataxis		
 19	gör	göra	VB	-.-.-	VB.IND.AKT.PRS	18	KL		
 20	plats	plats	NN	-.-.-	NN.UTR.SIN.IND	19	OO		
 21	för	för	PE	-.-.-	PE.-	20	MD		
@@ -16996,7 +16996,7 @@
 4	där	där	AB	-.-.-	AB.-.-	3	RA		SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	3	--		
 6	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	7	SB		
-7	lovar	lova	VB	-.-.-	VB.IND.AKT.PRS	3	--		SpaceAfter=No
+7	lovar	lova	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		SpaceAfter=No
 8	!	_	SY	-.-.-	SY.DEL	3	--		
 9	:)	_	SY	-.-.-	SY.SYM	3	--		
 
@@ -17023,7 +17023,7 @@
 10	way-	_	UO	-.-.-	UO.-	13	KL		
 11	säsong	säsong	NN	-.-.-	NN.UTR.SIN.IND	10	AN		
 12	1	ett	NU	-.-.-	NU.-	11	AN		
-13	å	och	KO	-.-.-	KO.-	1	--		
+13	å	och	KO	-.-.-	KO.-	1	parataxis		
 14	tränings-linnen	tränings|linne	NN	-.-.-	NN.NEU.PLU.IND	13	KL		SpaceAfter=No
 15	(	_	SY	-.-.-	SY.DEL	1	--		SpaceAfter=No
 16	från	från	PE	-.-.-	PE.-	14	MD	14:MD|10:	
@@ -17035,7 +17035,7 @@
 22	)	_	SY	-.-.-	SY.DEL	1	--		
 23	Global	Global	EN	-.-.-	EN.-	24	MD		
 24	brödkniv	brödkniv	NN	-.-.-	NN.UTR.SIN.IND	25	KL		
-25	å	och	KO	-.-.-	KO.-	1	--		
+25	å	och	KO	-.-.-	KO.-	1	parataxis		
 26	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	29	DT		
 27	ny	ny	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	29	MD		
 28	liten	liten	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	29	MD		
@@ -17056,7 +17056,7 @@
 43	från	från	PE	-.-.-	PE.-	42	MD	42:MD|40:	
 44	Body	_	UO	-.-.-	UO.-	45	ME		
 45	shop	_	UO	-.-.-	UO.-	43	OO		
-46	å	och	KO	-.-.-	KO.-	1	--		
+46	å	och	KO	-.-.-	KO.-	1	parataxis		
 47	små	liten	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	48	MD		
 48	pajformar	paj|form	NN	-.-.-	NN.UTR.PLU.IND	46	KL		
 49	med	med	PE	-.-.-	PE.-	48	MD		
@@ -17084,7 +17084,7 @@
 10	har	ha	VB	-.-.-	VB.IND.AKT.PRS	7	OO		
 11	glömt	glömma	VB	-.-.-	VB.SPM.AKT.-	10	IV		SpaceAfter=No
 12	,	_	SY	-.-.-	SY.DEL	6	--		
-13	skyller	skylla	VB	-.-.-	VB.IND.AKT.PRS	6	--		
+13	skyller	skylla	VB	-.-.-	VB.IND.AKT.PRS	6	parataxis		
 14	på	på	PE	-.-.-	PE.-	13	OA		
 15	tröttheten	trötthet	NN	-.-.-	NN.UTR.SIN.DEF	14	OO		SpaceAfter=No
 16	..	_	SY	-.-.-	SY.DEL	6	--		
@@ -17439,7 +17439,7 @@
 12	morfar	morfar	NN	-.-.-	NN.UTR.SIN.IND	11	KL		SpaceAfter=No
 13	,	_	SY	-.-.-	SY.DEL	2	--		
 14	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	15	SB		
-15	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+15	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 16	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	17	DT		
 17	sak	sak	NN	-.-.-	NN.UTR.SIN.IND	15	SP		
 18	som	som	SU	-.-.-	SU.-	17	MD		
@@ -17711,7 +17711,7 @@
 7	verkligen	verkligen	AB	-.-.-	AB.-.-	5	MD		
 8	usel	usel	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	5	OA		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	2	--		
-10	men	men	KO	-.-.-	KO.-	2	--		
+10	men	men	KO	-.-.-	KO.-	2	parataxis		
 11	lyckades	lyckas	VB	-.-.-	VB.IND.SFO.PRT	10	KL		
 12	fjäska	fjäska	VB	-.-.-	VB.INF.AKT.-	11	IV		
 13	med	med	PE	-.-.-	PE.-	12	MD		
@@ -18120,7 +18120,7 @@
 37	dagiscykel	dagis<cykel	NN	-.-.-	NN.UTR.SIN.IND	34	OO		
 38	med	med	PE	-.-.-	PE.-	37	MD		
 39	släp	släp	NN	-.-.-	NN.NEU.SIN.IND	38	OO		
-40	å	och	KO	-.-.-	KO.-	9	--		
+40	å	och	KO	-.-.-	KO.-	9	parataxis		
 41	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	40	KL		
 42	skjutsa	skjutsa	VB	-.-.-	VB.INF.AKT.-	41	IV		
 43	i	i	PE	-.-.-	PE.-	42	RA		
@@ -18163,7 +18163,7 @@
 9	än	än	SU	-.-.-	SU.-	8	JF		
 10	redo	redo	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	9	OO		SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	1	--		
-12	men	men	KO	-.-.-	KO.-	1	--		
+12	men	men	KO	-.-.-	KO.-	1	parataxis		
 13	Leo	Leo	EN	-.-.-	EN.-	14	SB		
 14	känns	känna	VB	-.-.-	VB.IND.SFO.PRS	12	KL		
 15	bra	bra	AB	-.-.-	AB.POS.-	16	MD		
@@ -18277,7 +18277,7 @@
 6	,	_	SY	-.-.-	SY.DEL	2	--		
 7	men	men	KO	-.-.-	KO.-	9	DF		
 8	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	9	SB		
-9	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+9	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 10	göra	göra	VB	-.-.-	VB.INF.AKT.-	9	IV		
 11	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	12	DT		
 12	bästa	bra	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	10	OO		
@@ -18395,7 +18395,7 @@
 10	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	11	KL		
 11	å	och	KO	-.-.-	KO.-	13	SB		
 12	Leo	Leo	EN	-.-.-	EN.-	11	KL		
-13	gick	gå	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+13	gick	gå	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 14	upp	upp	AB	-.-.-	AB.-.-	13	PL		
 15	i	i	PE	-.-.-	PE.-	13	MD		
 16	hopp	hopp	NN	-.-.-	NN.NEU.SIN.IND	15	OO		
@@ -18597,7 +18597,7 @@
 6	fint	fin	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	2	OO		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	2	--		
 8	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	9	SB		
-9	fick	få	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+9	fick	få	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 10	bland	bland	PE	-.-.-	PE.-	9	MD		
 11	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	10	OO		
 12	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	14	DT		
@@ -18613,7 +18613,7 @@
 22	bytas	byta	VB	-.-.-	VB.INF.SFO.-	21	IV		SpaceAfter=No
 23	,	_	SY	-.-.-	SY.DEL	2	--		
 24	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	25	SB		
-25	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	2	--		
+25	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	2	parataxis		
 26	ju	ju	AB	-.-.-	AB.-.-	25	MD		
 27	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	28	DT		
 28	massa	massa	NN	-.-.-	NN.UTR.SIN.IND	30	DT		
@@ -19025,7 +19025,7 @@
 4	balkongen	balkong	NN	-.-.-	NN.UTR.SIN.DEF	3	OO		
 5	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	6	DT		
 6	stund	stund	NN	-.-.-	NN.UTR.SIN.IND	2	MD	2:MD|8:	
-7	och	och	KO	-.-.-	KO.-	13	--		
+7	och	och	KO	-.-.-	KO.-	13	parataxis		
 8	tittar	titta	VB	-.-.-	VB.IND.AKT.PRS	7	KL		
 9	på	på	PE	-.-.-	PE.-	8	MD		
 10	detta	denna	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	11	DT		
@@ -19194,7 +19194,7 @@
 23	"	_	SY	-.-.-	SY.DEL	3	--		
 24	I	i	PE	-.-.-	PE.-	26	MD		
 25	morgon	morgon	NN	-.-.-	NN.UTR.SIN.IND	24	OO		
-26	är	vara	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+26	är	vara	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 27	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	26	SB		
 28	omval	omval	NN	-.-.-	NN.NEU.SIN.IND	26	ES		
 29	i	i	PE	-.-.-	PE.-	26	RA		
@@ -19277,7 +19277,7 @@
 25	men	men	KO	-.-.-	KO.-	28	DF		
 26	ändock	ändock	AB	-.-.-	AB.-.-	28	MD		
 27	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	28	DT		
-28	självständighet	självständighet	NN	-.-.-	NN.UTR.SIN.IND	2	--		
+28	självständighet	självständighet	NN	-.-.-	NN.UTR.SIN.IND	2	parataxis		
 29	värd	värd	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	28	MD		
 30	att	att	SU	-.-.-	SU.-	29	OO		
 31	fira	fira	VB	-.-.-	VB.INF.AKT.-	30	OO		
@@ -19991,7 +19991,7 @@
 11	slutat	sluta	VB	-.-.-	VB.SPM.AKT.-	10	IV		
 12	framför	framför	PE	-.-.-	PE.-	11	MD		
 13	teven	teve	NN	-.-.-	NN.UTR.SIN.DEF	12	OO		
-14	och	och	KO	-.-.-	KO.-	4	--		
+14	och	och	KO	-.-.-	KO.-	4	parataxis		
 15	Tre	tre	NU	-.-.-	NU.-	16	DT		
 16	kronors	krona	NN	-.GEN.-	NN.UTR.PLU.IND	17	DT		
 17	match	match	NN	-.-.-	NN.UTR.SIN.IND	14	KL		
@@ -20000,7 +20000,7 @@
 20	,	_	SY	-.-.-	SY.DEL	4	--		
 21	Dessutom	dessutom	AB	-.-.-	AB.-.-	23	MD		
 22	"	_	SY	-.-.-	SY.DEL	4	--		SpaceAfter=No
-23	after	_	UO	-.-.-	UO.-	4	--		
+23	after	_	UO	-.-.-	UO.-	4	parataxis		
 24	ice	_	UO	-.-.-	UO.-	23	ME		SpaceAfter=No
 25	"	_	SY	-.-.-	SY.DEL	4	--		
 26	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	28	DT		
@@ -20052,7 +20052,7 @@
 4	som	som	SU	-.-.-	SU.-	3	MD		
 5	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	6	SB		
 6	tränade	träna	VB	-.-.-	VB.IND.AKT.PRT	4	OO		
-7	fastän	fastän	PE	-.-.-	PE.-	17	--		
+7	fastän	fastän	PE	-.-.-	PE.-	17	parataxis		
 8	att	att	SU	-.-.-	SU.-	7	KL		
 9	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	11	SB		
 10	inte	inte	AB	-.-.-	AB.-.-	11	MD		
@@ -20116,7 +20116,7 @@
 15	dricka	dricka	VB	-.-.-	VB.INF.AKT.-	18	KL		
 16	något	någon	PO	-.-.-	PO.IND.SIN.NEU.-.-	17	DT		
 17	gott	god	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	15	OO		
-18	och	och	KO	-.-.-	KO.-	2	--		
+18	och	och	KO	-.-.-	KO.-	2	parataxis		
 19	fira	fira	VB	-.-.-	VB.INF.AKT.-	18	KL		
 20	för	för	PE	-.-.-	PE.-	28	KL		
 21	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	22	DT		
@@ -20267,7 +20267,7 @@
 18	tillsammans	tillsammans	AB	-.-.-	AB.-.-	17	MD		SpaceAfter=No
 19	,	_	SY	-.-.-	SY.DEL	2	--		
 20	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	21	SB		
-21	tog	ta	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+21	tog	ta	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 22	friterad	friterad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	23	MD		
 23	kyckling	kyckling	NN	-.-.-	NN.UTR.SIN.IND	26	KL		SpaceAfter=No
 24	,	_	SY	-.-.-	SY.DEL	2	--		
@@ -20277,16 +20277,16 @@
 28	sås	sås	NN	-.-.-	NN.UTR.SIN.IND	26	KL		SpaceAfter=No
 29	,	_	SY	-.-.-	SY.DEL	2	--		
 30	såå	så	AB	-.-.-	AB.-.-	31	MD		CorrectForm=så
-31	gott	god	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	2	--		SpaceAfter=No
+31	gott	god	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	2	parataxis		SpaceAfter=No
 32	,	_	SY	-.-.-	SY.DEL	2	--		
 33	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	34	SB		
-34	var	vara	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+34	var	vara	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 35	länge	länge	AB	-.-.-	AB.POS.-	34	SP		
 36	sen	sen	PE	-.-.-	PE.-	34	MD		
 37	sist	sist	AJ	-.-.-	AJ.SUV.SIN/PLU.IND.UTR/NEU.-	36	OO		SpaceAfter=No
 38	,	_	SY	-.-.-	SY.DEL	2	--		
 39	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	40	SB		
-40	fick	få	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+40	fick	få	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 41	i	i	PE	-.-.-	PE.-	40	OA		
 42	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	41	OO		
 43	3	tre	NU	-.-.-	NU.-	44	DT		
@@ -20351,7 +20351,7 @@
 32	lysa	lysa	VB	-.-.-	VB.INF.AKT.-	31	OO		
 33	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	32	OO		
 34	rätt	rätt	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	32	OA		
-35	och	och	KO	-.-.-	KO.-	9	--		
+35	och	och	KO	-.-.-	KO.-	9	parataxis		
 36	väl	väl	AB	-.-.-	AB.-.-	37	MD		
 37	framme	framme	AB	-.-.-	AB.-.-	39	MD		
 38	så	så	AB	-.-.-	AB.-.-	39	MD		
@@ -20369,7 +20369,7 @@
 50	i	i	PE	-.-.-	PE.-	49	MD		
 51	sällskapet	sällskap	NN	-.-.-	NN.NEU.SIN.DEF	50	OO		SpaceAfter=No
 52	,	_	SY	-.-.-	SY.DEL	9	--		
-53	observera	observera	VB	-.-.-	VB.IMP.AKT.-	9	--		
+53	observera	observera	VB	-.-.-	VB.IMP.AKT.-	9	parataxis		
 54	då	då	AB	-.-.-	AB.-.-	53	MD		
 55	att	att	SU	-.-.-	SU.-	53	OO		
 56	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	55	OO		
@@ -20381,7 +20381,7 @@
 62	nä	nä	IJ	-.-.-	IJ.-	53	DF		SpaceAfter=No
 63	,	_	SY	-.-.-	SY.DEL	9	--		
 64	så	så	AB	-.-.-	AB.-.-	65	MD		
-65	skriker	skrika	VB	-.-.-	VB.IND.AKT.PRS	9	--		
+65	skriker	skrika	VB	-.-.-	VB.IND.AKT.PRS	9	parataxis		
 66	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	67	DT		
 67	dam	dam	NN	-.-.-	NN.UTR.SIN.IND	65	SB		
 68	framför	framför	PE	-.-.-	PE.-	67	MD		
@@ -20396,13 +20396,13 @@
 77	tittar	titta	VB	-.-.-	VB.IND.AKT.PRS	80	KL		
 78	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	77	SB		
 79	upp	upp	AB	-.-.-	AB.-.-	77	PL		
-80	och	och	KO	-.-.-	KO.-	9	--		
+80	och	och	KO	-.-.-	KO.-	9	parataxis		
 81	tycker	tycka	VB	-.-.-	VB.IND.AKT.PRS	80	KL		
 82	vilken	vilken	PO	-.-.-	PO.IND.SIN.UTR.-.FRL	84	DT		
 83	konstig	konstig	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	84	MD		
 84	reklam	reklam	NN	-.-.-	NN.UTR.SIN.IND	81	OO		SpaceAfter=No
 85	,	_	SY	-.-.-	SY.DEL	9	--		
-86	frågar	fråga	VB	-.-.-	VB.IND.AKT.PRS	9	--		
+86	frågar	fråga	VB	-.-.-	VB.IND.AKT.PRS	9	parataxis		
 87	då	då	AB	-.-.-	AB.-.-	86	MD		
 88	tjej	tjej	NN	-.-.-	NN.UTR.SIN.IND	86	OO		
 89	bredvid	bredvid	PE	-.-.-	PE.-	88	MD		
@@ -20490,7 +20490,7 @@
 9	under	under	PE	-.-.-	PE.-	8	MD		
 10	dagen	dag	NN	-.-.-	NN.UTR.SIN.DEF	9	OO		SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	5	--		
-12	har	ha	VB	-.-.-	VB.IND.AKT.PRS	5	--		
+12	har	ha	VB	-.-.-	VB.IND.AKT.PRS	5	parataxis		
 13	slarvat	slarva	VB	-.-.-	VB.SPM.AKT.-	12	IV		
 14	med	med	PE	-.-.-	PE.-	13	MD		
 15	mina	min	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	16	DT		
@@ -20510,19 +20510,19 @@
 9	hemma	hemma	AB	-.-.-	AB.-.-	12	RA		
 10	sen	sen	AB	-.-.-	AB.-.-	9	AN		
 11	så	så	AB	-.-.-	AB.-.-	12	MD		
-12	hjälper	hjälpa	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+12	hjälper	hjälpa	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 13	inte	inte	AB	-.-.-	AB.-.-	12	MD		
 14	pillerna	piller	NN	-.-.-	NN.NEU.PLU.DEF	12	SB		
 15	så	så	AB	-.-.-	AB.-.-	16	MD		
 16	bra	bra	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	12	MD		
-17	får	få	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+17	får	få	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 18	bara	bara	AB	-.-.-	AB.-.-	17	MD		
 19	ondare	ond	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	20	KL		
 20	och	och	KO	-.-.-	KO.-	17	OO		
 21	ondare	ond	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	20	KL		SpaceAfter=No
 22	,	_	SY	-.-.-	SY.DEL	1	--		
 23	tillslut	tillslut	AB	-.-.-	AB.-.-	24	MD		
-24	vet	veta	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+24	vet	veta	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 25	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	24	SB		
 26	inte	inte	AB	-.-.-	AB.-.-	24	MD		
 27	hur	hur	AB	-.-.-	AB.-.FRL	24	OO		
@@ -20535,7 +20535,7 @@
 34	ligga	ligga	VB	-.-.-	VB.INF.AKT.-	32	IV		SpaceAfter=No
 35	,	_	SY	-.-.-	SY.DEL	1	--		
 36	sitta	sitta	VB	-.-.-	VB.INF.AKT.-	37	IV		
-37	eller	eller	KO	-.-.-	KO.-	1	--		
+37	eller	eller	KO	-.-.-	KO.-	1	parataxis		
 38	nått	någon	PO	-.-.-	PO.IND.SIN.NEU.-.-	39	DT		
 39	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	37	OO		SpaceAfter=No
 40	,	_	SY	-.-.-	SY.DEL	1	--		
@@ -20552,7 +20552,7 @@
 51	tur	tur	NN	-.-.-	NN.UTR.SIN.IND	49	OO		
 52	i	i	PE	-.-.-	PE.-	51	MD		
 53	vagnen	vagn	NN	-.-.-	NN.UTR.SIN.DEF	52	OO		
-54	och	och	KO	-.-.-	KO.-	1	--		
+54	och	och	KO	-.-.-	KO.-	1	parataxis		
 55	tvingar	tvinga	VB	-.-.-	VB.IND.AKT.PRS	54	KL		
 56	maken	make	NN	-.-.-	NN.UTR.SIN.DEF	55	OO		
 57	att	att	SU	-.-.-	SU.-	55	IV		
@@ -20576,7 +20576,7 @@
 75	tagit	ta	VB	-.-.-	VB.SPM.AKT.-	72	IV		
 76	mina	min	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	77	DT		
 77	cortison tabl	kortison|tablett	NN	FKN.-.-	NN.UTR.PLU.IND	75	OO		
-78	så	så	KO	-.-.-	KO.-	1	--		
+78	så	så	KO	-.-.-	KO.-	1	parataxis		
 79	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	80	DT		
 80	natt	natt	NN	-.-.-	NN.UTR.SIN.IND	81	SB	81:SB|82:	
 81	lär	lära	VB	-.-.-	VB.IND.AKT.PRS	78	KL		
@@ -20616,7 +20616,7 @@
 5	i	i	PE	-.-.-	PE.-	3	MD		
 6	morgon	morgon	NN	-.-.-	NN.UTR.SIN.IND	5	OO		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	2	--		
-8	på	på	PE	-.-.-	PE.-	2	--		
+8	på	på	PE	-.-.-	PE.-	2	parataxis		
 9	återseende	återseende	NN	-.-.-	NN.NEU.SIN.IND	8	OO		
 10	:-)	_	SY	-.-.-	SY.SYM	2	--		
 
@@ -20663,7 +20663,7 @@
 4	i	i	PE	-.-.-	PE.-	7	MD		SpaceAfter=No
 5	så	så	AB	-.-.-	AB.-.-	6	DT		SpaceAfter=No
 6	fall	fall	NN	-.-.-	NN.NEU.SIN.IND	4	OO		
-7	är	vara	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+7	är	vara	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 8	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	7	SB		
 9	tacksam	tacksam	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	7	SP		
 10	för	för	PE	-.-.-	PE.-	9	OA		
@@ -20700,7 +20700,7 @@
 15	veckor	vecka	NN	-.-.-	NN.UTR.PLU.IND	13	ES		SpaceAfter=No
 16	,	_	SY	-.-.-	SY.DEL	3	--		
 17	tiden	tid	NN	-.-.-	NN.UTR.SIN.DEF	18	SB		
-18	har	ha	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+18	har	ha	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 19	bara	bara	AB	-.-.-	AB.-.-	18	MD		
 20	sprungit	springa	VB	-.-.-	VB.SPM.AKT.-	18	IV		
 21	förbi	förbi	PE	-.-.-	PE.-	20	PL		SpaceAfter=No
@@ -20724,7 +20724,7 @@
 2	J	J	EN	-.-.-	EN.-	1	AN		
 3	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	5	KL		
 4	me	med	AB	-.-.-	AB.-.-	3	RA		CorrectForm=med
-5	och	och	KO	-.-.-	KO.-	18	--		
+5	och	och	KO	-.-.-	KO.-	18	parataxis		
 6	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	7	SB		
 7	frågade	fråga	VB	-.-.-	VB.IND.AKT.PRT	5	KL		
 8	grannbarnen	grann|barn	NN	-.-.-	NN.NEU.PLU.DEF	7	IO		
@@ -20743,7 +20743,7 @@
 21	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	22	SB		
 22	är	vara	VB	-.-.-	VB.IND.AKT.PRS	24	KL		
 23	stora	stor	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	22	SP		
-24	och	och	KO	-.-.-	KO.-	18	--		
+24	och	och	KO	-.-.-	KO.-	18	parataxis		
 25	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	24	KL		
 26	uppföra	uppföra	VB	-.-.-	VB.INF.AKT.-	25	IV		
 27	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	26	OO		
@@ -20779,7 +20779,7 @@
 20	innan	innan	AB	-.-.-	AB.-.-	18	MD		SpaceAfter=No
 21	,	_	SY	-.-.-	SY.DEL	9	--		
 22	då	då	AB	-.-.-	AB.-.-	23	MD		
-23	säger	säga	VB	-.-.-	VB.IND.AKT.PRS	9	--		
+23	säger	säga	VB	-.-.-	VB.IND.AKT.PRS	9	parataxis		
 24	H	H	EN	-.-.-	EN.-	23	SB		
 25	har	ha	VB	-.-.-	VB.IND.AKT.PRS	23	OO		
 26	inte	inte	AB	-.-.-	AB.-.-	25	MD		
@@ -20827,7 +20827,7 @@
 13	har	ha	VB	-.-.-	VB.IND.AKT.PRS	11	OO		
 14	blivit	bli	VB	-.-.-	VB.SPM.AKT.-	13	IV		
 15	tillsagd	till|sagd	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	14	SP		
-16	och	och	KO	-.-.-	KO.-	22	--		
+16	och	och	KO	-.-.-	KO.-	22	parataxis		
 17	får	få	VB	-.-.-	VB.IND.AKT.PRS	16	KL		
 18	vänta	vänta	VB	-.-.-	VB.INF.AKT.-	17	IV		
 19	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	20	DT		
@@ -20849,7 +20849,7 @@
 6	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	7	SB		
 7	börjar	börja	VB	-.-.-	VB.IND.AKT.PRS	9	KL		
 8	prata	prata	VB	-.-.-	VB.INF.AKT.-	7	IV		
-9	och	och	KO	-.-.-	KO.-	1	--		
+9	och	och	KO	-.-.-	KO.-	1	parataxis		
 10	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	11	SB		
 11	förklarade	förklara	VB	-.-.-	VB.IND.AKT.PRT	9	KL		
 12	att	att	SU	-.-.-	SU.-	17	KL		
@@ -20899,7 +20899,7 @@
 4	fina	fin	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	5	MD		
 5	kärl	kärl	NN	-.-.-	NN.NEU.PLU.IND	3	OO		
 6	då	då	AB	-.-.-	AB.-.-	7	MD		
-7	fick	få	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+7	fick	få	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 8	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	7	SB		
 9	åka	åka	VB	-.-.-	VB.INF.AKT.-	7	IV		SpaceAfter=No
 10	!!!!	_	SY	-.-.-	SY.DEL	3	--		
@@ -21003,7 +21003,7 @@
 18	på	på	PE	-.-.-	PE.-	17	SP		
 19	gång	gång	NN	-.-.-	NN.UTR.SIN.IND	18	OO		SpaceAfter=No
 20	,	_	SY	-.-.-	SY.DEL	4	--		
-21	så	så	KO	??	KO.-	4	--		
+21	så	så	KO	??	KO.-	4	parataxis		
 22	hem	hem	AB	-.-.-	AB.-.-	23	KL		
 23	och	och	KO	-.-.-	KO.-	21	KL		
 24	ta	ta	VB	-.-.-	VB.INF.AKT.-	23	KL		
@@ -21014,7 +21014,7 @@
 29	morfin	morfin	NN	-.-.-	NN.NEU.SIN.IND	30	KL		
 30	och	och	KO	-.-.-	KO.-	28	OO		
 31	citadon	citadon	EN	-.-.-	EN.-	30	KL		
-32	och	och	KO	-.-.-	KO.-	4	--		
+32	och	och	KO	-.-.-	KO.-	4	parataxis		
 33	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	34	SB		
 34	hjälpte	hjälpa	VB	-.-.-	VB.IND.AKT.PRT	32	KL		
 35	inte	inte	AB	-.-.-	AB.-.-	34	MD		
@@ -21047,7 +21047,7 @@
 22	ligga	ligga	VB	-.-.-	VB.INF.AKT.-	21	OO		
 23	ner	ner	AB	-.-.-	AB.-.-	22	PL		SpaceAfter=No
 24	,	_	SY	-.-.-	SY.DEL	2	--		
-25	så	så	AB	-.-.-	AB.-.-	2	--		
+25	så	så	AB	-.-.-	AB.-.-	2	parataxis		
 26	in	in	AB	-.-.-	AB.-.-	25	KL		
 27	till	till	PE	-.-.-	PE.-	26	MD		
 28	grannen	granne	NN	-.-.-	NN.UTR.SIN.DEF	27	OO		
@@ -21056,7 +21056,7 @@
 31	stirra	stirra	VB	-.-.-	VB.IND.AKT.PRT	34	KL		
 32	på	på	PE	-.-.-	PE.-	31	OA		
 33	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	32	OO		
-34	och	och	KO	-.-.-	KO.-	2	--		
+34	och	och	KO	-.-.-	KO.-	2	parataxis		
 35	frågade	fråga	VB	-.-.-	VB.IND.AKT.PRT	34	KL		
 36	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	35	IO		
 37	varför	varför	AB	-.-.-	AB.-.FRL	35	OO		
@@ -21067,7 +21067,7 @@
 42	sängen	säng	NN	-.-.-	NN.UTR.SIN.DEF	41	OO		
 43	och	och	KO	-.-.-	KO.-	45	DF		
 44	då	då	AB	-.-.-	AB.-.-	45	MD		
-45	brast	brista	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+45	brast	brista	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 46	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	45	SB		
 47	för	för	PE	-.-.-	PE.-	45	OA		
 48	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	47	OO		SpaceAfter=No
@@ -21087,7 +21087,7 @@
 62	:-(	_	SY	-.-.-	SY.SYM	2	--		
 63	och	och	KO	-.-.-	KO.-	65	DF		
 64	hon	hon	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	65	SB		
-65	ville	vilja	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+65	ville	vilja	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 66	att	att	SU	-.-.-	SU.-	65	OO		
 67	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	68	SB		
 68	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	66	OO		
@@ -21104,7 +21104,7 @@
 79	ut	ut	AB	-.-.-	AB.-.-	78	PL		
 80	ur	ur	PE	-.-.-	PE.-	78	RA		
 81	huset	hus	NN	-.-.-	NN.NEU.SIN.DEF	80	OO		
-82	mötte	möta	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+82	mötte	möta	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 83	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	82	SB		
 84	B	B	EN	-.GEN.-	EN.-	85	DT		CorrectForm=Bs
 85	kompis	kompis	NN	-.-.-	NN.UTR.SIN.IND	86	KL		
@@ -21113,7 +21113,7 @@
 88	,	_	SY	-.-.-	SY.DEL	2	--		
 89	och	och	KO	-.-.-	KO.-	91	DF		
 90	hon	hon	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	91	SB		
-91	tyckte	tycka	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+91	tyckte	tycka	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 92	typ	typ	AB	-.-.-	AB.-.-	91	MD		
 93	likadant	likadan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	91	OO		
 94	som	som	SU	-.-.-	SU.-	93	JF		
@@ -21144,7 +21144,7 @@
 6	kommer	komma	VB	-.-.-	VB.IND.AKT.PRS	0	--		
 7	i	i	PE	-.-.-	PE.-	6	MD		
 8	morgon	morgon	NN	-.-.-	NN.UTR.SIN.IND	7	OO		
-9	är	vara	VB	-.-.-	VB.IND.AKT.PRS	6	--		
+9	är	vara	VB	-.-.-	VB.IND.AKT.PRS	6	parataxis		
 10	så	så	AB	-.-.-	AB.-.-	11	MD		
 11	trött	trött	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	9	SP		
 12	att	att	SU	-.-.-	SU.-	10	JF		
@@ -21247,7 +21247,7 @@
 17	till	till	PE	-.-.-	PE.-	20	MD		
 18	mesta	mycken	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	19	DT		
 19	dels	del	NN	-.GEN.-	NN.UTR.SIN.IND	17	OO		
-20	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+20	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 21	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	20	SB		
 22	säga	säga	VB	-.-.-	VB.INF.AKT.-	20	IV		
 23	att	att	SU	-.-.-	SU.-	22	OO		
@@ -21269,7 +21269,7 @@
 7	psy	psykisk	AJ	FKN.-.-	AJ.POS.SIN.IND.NEU.-	8	KL		
 8	och	och	KO	-.-.-	KO.-	3	MD		
 9	fys	fysisk	AJ	FKN.-.-	AJ.POS.SIN.IND.NEU.-	8	KL		
-10	och	och	KO	-.-.-	KO.-	19	--		
+10	och	och	KO	-.-.-	KO.-	19	parataxis		
 11	har	ha	VB	-.-.-	VB.IND.AKT.PRS	10	KL		
 12	ont	ont	NN	-	NN.NEU.SIN.IND	11	OO		
 13	som	som	SU	-.-.-	SU.-	12	MD		
@@ -21380,7 +21380,7 @@
 9	sjukan	sjuka	NN	-.-.-	NN.UTR.SIN.DEF	8	OO		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	3	--		
 11	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
-12	ringde	ringa	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+12	ringde	ringa	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 13	i	i	PE	-.-.-	PE.-	14	ME		
 14	morse	morse	NN	-.-.-	NN.UTR.SIN.IND	12	MD		
 15	ang	angående	PE	FKN.-.-	PE.-	12	OA		
@@ -21401,7 +21401,7 @@
 30	rör	röra	VB	-.-.-	VB.IND.AKT.PRS	28	OO	28:OO|34:	
 31	på	på	PE	-.-.-	PE.-	30	MD		
 32	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	31	OO		
-33	men	men	KO	-.-.-	KO.-	3	--		
+33	men	men	KO	-.-.-	KO.-	3	parataxis		
 34	INTE	inte	AB	-.-.-	AB.-.-	33	KL		
 35	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	36	DT		
 36	dr	doktor	NN	FKN.-.-	NN.UTR.SIN.IND	34	SB		SpaceAfter=No
@@ -21411,7 +21411,7 @@
 40	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	43	KL		
 41	ligga	ligga	VB	-.-.-	VB.INF.AKT.-	40	IV		
 42	still	still	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	41	PL		
-43	så	så	SU	-.-.-	SU.-	3	--		
+43	så	så	SU	-.-.-	SU.-	3	parataxis		
 44	smärtlindringen	smärtlindring	NN	-.-.-	NN.UTR.SIN.DEF	45	SB		
 45	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	47	KL		
 46	verka	verka	VB	-.-.-	VB.INF.AKT.-	45	IV		
@@ -21431,7 +21431,7 @@
 7	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	8	DT		
 8	utmaning	utmaning	NN	-.-.-	NN.UTR.SIN.IND	6	OO		
 9	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	10	SB		
-10	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+10	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 11	tänkt	tänka	VB	-.-.-	VB.SPM.AKT.-	10	IV		
 12	gå	gå	VB	-.-.-	VB.INF.AKT.-	11	IV		
 13	ner	ner	AB	-.-.-	AB.-.-	12	PL		
@@ -21450,7 +21450,7 @@
 26	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	25	SB		
 27	ske	ske	VB	-.-.-	VB.INF.AKT.-	25	IV		SpaceAfter=No
 28	,	_	SY	-.-.-	SY.DEL	3	--		
-29	så	så	KO	-.-.-	KO.-	3	--		
+29	så	så	KO	-.-.-	KO.-	3	parataxis		
 30	då	då	AB	-.-.-	AB.-.-	31	MD		
 31	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	29	KL		
 32	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	31	SB		
@@ -21470,7 +21470,7 @@
 46	men	men	KO	-.-.-	KO.-	47	ME		
 47	men	men	KO	-.-.-	KO.-	49	DF		
 48	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	49	OO		
-49	gör	göra	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+49	gör	göra	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 50	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	49	SB		
 51	inte	inte	AB	-.-.-	AB.-.-	49	MD		
 52	för	för	PE	-.-.-	PE.-	49	MD		
@@ -21510,7 +21510,7 @@
 24	i	i	PE	-.-.-	PE.-	23	MD		
 25	Sverige	Sverige	EN	-.-.-	EN.-	24	OO		SpaceAfter=No
 26	,	_	SY	-.-.-	SY.DEL	2	--		
-27	för	för	KO	-.-.-	KO.-	2	--		
+27	för	för	KO	-.-.-	KO.-	2	parataxis		
 28	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	29	SB		
 29	har	ha	VB	-.-.-	VB.IND.AKT.PRS	27	KL		
 30	mått	må	VB	-.-.-	VB.SPM.AKT.-	29	IV		
@@ -21531,7 +21531,7 @@
 7	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	6	SB		
 8	haft	ha	VB	-.-.-	VB.SPM.AKT.-	6	IV		
 9	sem	semester	NN	FKN.-.-	NN.UTR.SIN.IND	8	OO		
-10	och	och	KO	-.-.-	KO.-	66	--		
+10	och	och	KO	-.-.-	KO.-	66	parataxis		
 11	även	även	AB	-.-.-	AB.-.-	12	MD		
 12	om	om	SU	-.-.-	SU.-	19	MD		
 13	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	12	OO		
@@ -21562,7 +21562,7 @@
 38	,	_	SY	-.-.-	SY.DEL	66	--		
 39	till	till	PE	-.-.-	PE.-	29	RA		
 40	skara	Skara	EN	-.-.-	EN.-	39	OO		CorrectForm=Skara
-41	och	och	KO	-.-.-	KO.-	66	--		
+41	och	och	KO	-.-.-	KO.-	66	parataxis		
 42	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	43	SB		
 43	bodde	bo	VB	-.-.-	VB.IND.AKT.PRT	41	KL		
 44	på	på	PE	-.-.-	PE.-	43	OA		
@@ -21578,7 +21578,7 @@
 54	L	L	EN	-.-.-	EN.-	53	OO		
 55	hatade	hata	VB	-.-.-	VB.IND.AKT.PRT	57	KL		
 56	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	55	OO		
-57	men	men	KO	-.-.-	KO.-	66	--		
+57	men	men	KO	-.-.-	KO.-	66	parataxis		
 58	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	61	SB		
 59	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	60	SB		
 60	gillade	gilla	VB	-.-.-	VB.IND.AKT.PRT	58	MD		
@@ -21648,7 +21648,7 @@
 16	bil	bil	NN	-.-.-	NN.UTR.SIN.IND	14	OO		
 17	så	så	AB	-.-.-	AB.-.-	18	MD		
 18	länge	länge	AB	-.-.-	AB.POS.-	13	MD		
-19	och	och	KO	-.-.-	KO.-	2	--		
+19	och	och	KO	-.-.-	KO.-	2	parataxis		
 20	är	vara	VB	-.-.-	VB.IND.AKT.PRS	19	KL		
 21	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	20	SB		
 22	inte	inte	AB	-.-.-	AB.-.-	20	MD		
@@ -21664,7 +21664,7 @@
 32	att	att	SU	-.-.-	SU.-	30	IV		
 33	vara	vara	VB	-.-.-	VB.INF.AKT.-	32	OO		
 34	sjuk	sjuk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	33	SP		
-35	och	och	KO	-.-.-	KO.-	2	--		
+35	och	och	KO	-.-.-	KO.-	2	parataxis		
 36	är	vara	VB	-.-.-	VB.IND.AKT.PRS	35	KL		
 37	så	så	AB	-.-.-	AB.-.-	38	MD		
 38	less	less	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	36	SP		
@@ -21699,7 +21699,7 @@
 22	med	med	PE	-.-.-	PE.-	21	MD		
 23	han	han	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	22	OO		
 24	innan	innan	AB	-.-.-	AB.-.-	21	MD		
-25	och	och	KO	-.-.-	KO.-	8	--		
+25	och	och	KO	-.-.-	KO.-	8	parataxis		
 26	till	till	PE	-.-.-	PE.-	31	MD		
 27	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	28	DT		
 28	dr	doktor	NN	FKN.-.-	NN.UTR.SIN.IND	26	OO		
@@ -21734,7 +21734,7 @@
 57	skett	ske	VB	-.-.-	VB.SPM.AKT.-	56	IV		
 58	efter	efter	PE	-.-.-	PE.-	57	MD		
 59	midsommar	midsommar	NN	-.-.-	NN.UTR.SIN.IND	58	OO		
-60	och	och	KO	-.-.-	KO.-	8	--		
+60	och	och	KO	-.-.-	KO.-	8	parataxis		
 61	då	då	AB	-.-.-	AB.-.-	62	MD		
 62	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	60	KL		
 63	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	62	SB		
@@ -21875,7 +21875,7 @@
 7	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	8	DT		
 8	sista	sista	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	5	OO		
 9	sen	sen	AB	-.-.-	AB.-.-	10	MD		
-10	bakade	baka	VB	-.-.-	VB.IND.AKT.PRT	1	--		
+10	bakade	baka	VB	-.-.-	VB.IND.AKT.PRT	1	parataxis		
 11	kvällens	kväll	NN	-.GEN.-	NN.UTR.SIN.DEF	12	DT		
 12	efterrätt	efterrätt	NN	-.-.-	NN.UTR.SIN.IND	10	OO		
 13	medans	medans	SU	-.-.-	SU.-	10	MD		
@@ -21964,7 +21964,7 @@
 17	middagen	middag	NN	-.-.-	NN.UTR.SIN.DEF	16	OO		
 18	några	någon	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	19	DT		
 19	gånger	gång	NN	-.-.-	NN.UTR.PLU.IND	16	MD		
-20	och	och	KO	-.-.-	KO.-	2	--		
+20	och	och	KO	-.-.-	KO.-	2	parataxis		
 21	nu	nu	AB	-.-.-	AB.-.-	29	MD		
 22	när	när	AB	-.-.-	AB.-.FRL	21	AN		
 23	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	25	SB		
@@ -21981,7 +21981,7 @@
 34	och	och	KO	-.-.-	KO.-	29	SP		
 35	roligt	rolig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	34	KL		SpaceAfter=No
 36	,	_	SY	-.-.-	SY.DEL	2	--		
-37	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+37	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 38	inte	inte	AB	-.-.-	AB.-.-	37	MD		
 39	minnas	minnas	VB	-.-.-	VB.INF.SFO.-	37	IV		
 40	när	när	AB	-.-.-	AB.-.FRL	42	MD		
@@ -22156,7 +22156,7 @@
 12	kalla	kall	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	13	MD		
 13	såsen	sås	NN	-.-.-	NN.UTR.SIN.DEF	11	OO		SpaceAfter=No
 14	,	_	SY	-.-.-	SY.DEL	21	--		
-15	så	så	SU	-.-.-	SU.-	21	--		
+15	så	så	SU	-.-.-	SU.-	21	parataxis		
 16	middagen	middag	NN	-.-.-	NN.UTR.SIN.DEF	17	SB		
 17	är	vara	VB	-.-.-	VB.IND.AKT.PRS	15	KL		
 18	förberedd	förberedd	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	17	SP		SpaceAfter=No
@@ -22245,7 +22245,7 @@
 7	som	som	SU	-.-.-	SU.-	6	JF		
 8	sommar	sommar	NN	-.-.-	NN.UTR.SIN.IND	7	OO		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	3	--		
-10	och	och	KO	-.-.-	KO.-	3	--		
+10	och	och	KO	-.-.-	KO.-	3	parataxis		
 11	inte	inte	AB	-.-.-	AB.-.-	10	KL		
 12	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	13	DT		
 13	moln	moln	NN	-.-.-	NN.NEU.SIN.IND	11	OO		
@@ -22255,7 +22255,7 @@
 17	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	18	KL		
 18	och	och	KO	-.-.-	KO.-	20	SB		
 19	maken	make	NN	-.-.-	NN.UTR.SIN.DEF	18	KL		
-20	slipade	slipa	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+20	slipade	slipa	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 21	ute	ute	AB		AB.-.-	22	ME		
 22	möblerna	möbel	NN	-.-.-	NN.UTR.PLU.DEF	20	OO		
 23	i går	igår	AB	-.-.-	AB.-.-	20	MD		
@@ -22265,7 +22265,7 @@
 27	bara	bara	AB	-.-.-	AB.-.-	25	MD		
 28	oljas	olja	VB	-.-.-	VB.INF.SFO.-	25	IV		SpaceAfter=No
 29	,	_	SY	-.-.-	SY.DEL	3	--		
-30	fast	fast	KO	-.-.-	KO.-	3	--		
+30	fast	fast	KO	-.-.-	KO.-	3	parataxis		
 31	stolarna	stol	NN	-.-.-	NN.UTR.PLU.DEF	32	SB		
 32	är	vara	VB	-.-.-	VB.IND.AKT.PRS	30	KL		
 33	på	på	PE	-.-.-	PE.-	32	SP		
@@ -22290,14 +22290,14 @@
 12	enda	enda	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	15	SB		
 13	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	14	SB		
 14	saknar	sakna	VB	-.-.-	VB.IND.AKT.PRS	12	MD		
-15	är	vara	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+15	är	vara	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 16	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	17	DT		
 17	glas	glas	NN	-.-.-	NN.NEU.SIN.IND	15	SP		
 18	vin	vin	NN	-.-.-	NN.NEU.SIN.IND	17	MD		
 19	till	till	PE	-.-.-	PE.-	17	MD		
 20	maten	mat	NN	-.-.-	NN.UTR.SIN.DEF	19	OO		SpaceAfter=No
 21	,	_	SY	-.-.-	SY.DEL	3	--		
-22	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+22	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 23	varit	vara	VB	-.-.-	VB.SPM.AKT.-	22	IV		
 24	så	så	AB	-.-.-	AB.-.-	25	MD		
 25	gott	god	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	23	SP		
@@ -22321,7 +22321,7 @@
 43	glas	glas	NN	-.-.-	NN.NEU.SIN.IND	41	OO		
 44	vin	vin	NN	-.-.-	NN.NEU.SIN.IND	43	MD		SpaceAfter=No
 45	,	_	SY	-.-.-	SY.DEL	3	--		
-46	men	men	KO	-.-.-	KO.-	3	--		
+46	men	men	KO	-.-.-	KO.-	3	parataxis		
 47	fram	fram	AB	-.-.-	AB.-.-	48	MD		
 48	till	till	PE	-.-.-	PE.-	50	MD		
 49	dess	den	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.PSS.-	48	OO		
@@ -22365,7 +22365,7 @@
 27	i	i	PE	-.-.-	PE.-	25	RA		
 28	sängen	säng	NN	-.-.-	NN.UTR.SIN.DEF	27	OO		
 29	så	så	AB	-.-.-	AB.-.-	30	MD		
-30	har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+30	har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 31	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	30	SB		
 32	fått	få	VB	-.-.-	VB.SPM.AKT.-	30	IV		
 33	så	så	AB	-.-.-	AB.-.-	34	MD		
@@ -22375,7 +22375,7 @@
 37	magen	mage	NN	-.-.-	NN.UTR.SIN.DEF	36	OO		SpaceAfter=No
 38	,	_	SY	-.-.-	SY.DEL	2	--		
 39	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	40	SB		
-40	vart	varda	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+40	vart	varda	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 41	knappt	knapp	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	40	SP		
 42	att	att	SU	-.-.-	SU.-	40	ES		
 43	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	44	SB		
@@ -22390,7 +22390,7 @@
 52	efter	efter	PE	-.-.-	PE.-	51	MD		
 53	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	54	DT		
 54	ambulans	ambulans	NN	-.-.-	NN.UTR.SIN.IND	52	OO		
-55	men	men	KO	-.-.-	KO.-	2	--		
+55	men	men	KO	-.-.-	KO.-	2	parataxis		
 56	när	när	AB	-.-.-	AB.-.FRL	76	MD		
 57	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	58	SB		
 58	vet	veta	VB	-.-.-	VB.IND.AKT.PRS	56	OO		
@@ -22424,7 +22424,7 @@
 86	var	vara	VB	-.-.-	VB.IND.AKT.PRT	89	KL		
 87	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	86	SP		
 88	värsta	ond	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	87	MD		
-89	och	och	KO	-.-.-	KO.-	2	--		
+89	och	och	KO	-.-.-	KO.-	2	parataxis		
 90	under	under	PE	-.-.-	PE.-	110	MD		
 91	små	liten	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	92	MD		
 92	stunder	stund	NN	-.-.-	NN.UTR.PLU.IND	90	OO		
@@ -22471,7 +22471,7 @@
 7	natten	natt	NN	-.-.-	NN.UTR.SIN.DEF	3	MD		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	2	--		
 9	kl	klockan	NN	FKN.-.-	NN.UTR.SIN.DEF	10	SB		
-10	var	vara	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+10	var	vara	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 11	6	sex	NU	-.-.-	NU.-	10	SP		
 12	på	på	PE	-.-.-	PE.-	11	MD		
 13	morgonen	morgon	NN	-.-.-	NN.UTR.SIN.DEF	12	OO		
@@ -22727,7 +22727,7 @@
 12	,	_	SY	-.-.-	SY.DEL	3	--		
 13	båda	båda	PO	-.-.-	PO.IND/DEF.PLU.UTR/NEU.-.-	14	DT		
 14	dagarna	dag	NN	-.-.-	NN.UTR.PLU.DEF	15	SB	15:SB|16:	
-15	måstes	måste	VB	-.-.-	VB.IND.AKT.PRS	3	--		CorrectForm=måste
+15	måstes	måste	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		CorrectForm=måste
 16	avbokas	avboka	VB	-.-.-	VB.INF.SFO.-	15	IV		
 17	eller	eller	KO	-.-.-	KO.-	15	DF		SpaceAfter=No
 18	??	_	SY	-.-.-	SY.DEL	3	--		
@@ -22786,7 +22786,7 @@
 50	denna	denna	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	51	DT		
 51	behandling	behandling	NN	-.-.-	NN.UTR.SIN.IND	49	OO		SpaceAfter=No
 52	,	_	SY	-.-.-	SY.DEL	7	--		
-53	för	för	KO	-.-.-	KO.-	7	--		
+53	för	för	KO	-.-.-	KO.-	7	parataxis		
 54	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	55	SB		
 55	orkar	orka	VB	-.-.-	VB.IND.AKT.PRS	53	KL		
 56	inte	inte	AB	-.-.-	AB.-.-	55	MD		
@@ -22836,7 +22836,7 @@
 29	avboka	avboka	VB	-.-.-	VB.INF.AKT.-	26	IV		SpaceAfter=No
 30	.	_	SY	-.-.-	SY.DEL	9	--		SpaceAfter=No
 31	,	_	SY	-.-.-	SY.DEL	9	--		
-32	så	så	KO	-.-.-	KO.-	9	--		
+32	så	så	KO	-.-.-	KO.-	9	parataxis		
 33	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	34	SB		
 34	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	32	KL		
 35	hitta	hitta	VB	-.-.-	VB.INF.AKT.-	34	IV		
@@ -22848,7 +22848,7 @@
 41	har	ha	VB	-.-.-	VB.IND.AKT.PRS	44	KL		
 42	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	41	SB		
 43	smärtskolan	smärt|skola	NN	-.-.-	NN.UTR.SIN.DEF	41	OO		
-44	och	och	KO	-.-.-	KO.-	9	--		
+44	och	och	KO	-.-.-	KO.-	9	parataxis		
 45	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	46	SB		
 46	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	44	KL		
 47	gå	gå	VB	-.-.-	VB.INF.AKT.-	46	IV		
@@ -24947,7 +24947,7 @@
 34	dilemma	dilemma	NN	-.-.-	NN.NEU.SIN.IND	32	OO		SpaceAfter=No
 35	:	_	SY	-.-.-	SY.DEL	32	--		
 36	antingen	antingen	AB	-.-.-	AB.-.-	37	MD		
-37	är	vara	VB	-.-.-	VB.IND.AKT.PRS	32	--		
+37	är	vara	VB	-.-.-	VB.IND.AKT.PRS	32	parataxis		
 38	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	37	SB		
 39	så	så	AB	-.-.-	AB.-.-	37	OA		
 40	att	att	SU	-.-.-	SU.-	37	ES		
@@ -25421,7 +25421,7 @@
 5	kritisera	kritisera	VB	-.-.-	VB.INF.AKT.-	2	IV		SpaceAfter=No
 6	:	_	SY	-.-.-	SY.DEL	2	--		
 7	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	8	SB		
-8	händer	hända	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+8	händer	hända	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 9	alltid	alltid	AB	-.-.-	AB.-.-	8	MD		
 10	att	att	SU	-.-.-	SU.-	8	ES		
 11	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
@@ -25741,7 +25741,7 @@
 20	januari	januari	NN	-.-.-	NN.UTR.SIN.IND	19	OO		SpaceAfter=No
 21	,	_	SY	-.-.-	SY.DEL	2	--		
 22	då	då	AB	-.-.-	AB.-.-	23	MD		
-23	gör	göra	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+23	gör	göra	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 24	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	23	SB		
 25	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	23	OO		
 26	i	i	PE	-.-.-	PE.-	23	MD		
@@ -26356,7 +26356,7 @@
 8	socialisterna	socialist	NN	-.-.-	NN.UTR.PLU.DEF	7	OO		SpaceAfter=No
 9	:	_	SY	-.-.-	SY.DEL	1	--		
 10	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	11	SB		
-11	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+11	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 12	sagt	säga	VB	-.-.-	VB.SPM.AKT.-	11	IV		
 13	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	12	IO		
 14	att	att	SU	-.-.-	SU.-	12	OO		
@@ -27197,7 +27197,7 @@
 9	Cox	Cox	EN	-.-.-	EN.-	8	AN		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	2	--		
 11	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
-12	såg	se	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+12	såg	se	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 13	inte	inte	AB	-.-.-	AB.-.-	12	MD		
 14	att	att	SU	-.-.-	SU.-	12	OO		
 15	ni	ni	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	16	SB		
@@ -28189,7 +28189,7 @@
 21	hål	hål	NN	-.-.-	NN.NEU.SIN.IND	17	OO		
 22	i	i	PE	-.-.-	PE.-	21	MD		
 23	säkerhetsnätet	säkerhets|nät	NN	-.-.-	NN.NEU.SIN.DEF	22	OO		
-24	och	och	KO	-.-.-	KO.-	2	--		
+24	och	och	KO	-.-.-	KO.-	2	parataxis		
 25	blunda	blunda	VB	-.-.-	VB.INF.AKT.-	24	IV		
 26	för	för	PE	-.-.-	PE.-	25	OA		
 27	att	att	SU	-.-.-	SU.-	26	OO		
@@ -28375,7 +28375,7 @@
 54	tas	ta	VB	-.-.-	VB.INF.SFO.-	53	IV		
 55	för	för	PE	-.-.-	PE.-	54	SP		
 56	given	given	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	55	OO		
-57	och	och	KO	-.-.-	KO.-	2	--		
+57	och	och	KO	-.-.-	KO.-	2	parataxis		
 58	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	65	SB	65:SB|66:	
 59	som	som	SU	-.-.-	SU.-	58	MD		
 60	ansvarar	ansvara	VB	-.-.-	VB.IND.AKT.PRS	59	OO		
@@ -29175,7 +29175,7 @@
 35	närmare	nära	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	36	MD		
 36	bestämt	bestämd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	33	MD		SpaceAfter=No
 37	,	_	SY	-.-.-	SY.DEL	2	--		
-38	fungerar	fungera	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+38	fungerar	fungera	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 39	alldeles	alldeles	AB	-.-.-	AB.-.-	40	MD		
 40	utmärkt	utmärkt	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	38	MD		SpaceAfter=No
 41	.	_	SY	-.-.-	SY.DEL	2	--		
@@ -29364,7 +29364,7 @@
 33	,	_	SY	-.-.-	SY.DEL	4	--		
 34	och	och	KO	-.-.-	KO.-	36	DF		
 35	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	36	SB		
-36	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+36	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 37	därför	därför	AB	-.-.-	AB.-.-	36	MD		
 38	bemöda	bemöda	VB	-.-.-	VB.INF.AKT.-	36	IV		
 39	oss	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	38	PL		
@@ -30494,7 +30494,7 @@
 11	;	_	SY	-.-.-	SY.DEL	4	--		
 12	vid	vid	PE	-.-.-	PE.-	14	MD		
 13	Medelhavet	Medelhavet	EN	-.-.-	EN.-	12	OO		
-14	har	ha	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+14	har	ha	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 15	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	14	SB		
 16	svårt	svår	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	14	OO		
 17	att	att	SU	-.-.-	SU.-	16	OA		
@@ -30520,7 +30520,7 @@
 5	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	4	SB		
 6	EU	EU	EN	-.-.-	EN.-	4	OO		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	4	--		
-8	låt	låta	VB	-.-.-	VB.IMP.AKT.-	4	--		
+8	låt	låta	VB	-.-.-	VB.IMP.AKT.-	4	parataxis		
 9	oss	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	8	OO		
 10	därför	därför	AB	-.-.-	AB.-.-	8	MD		
 11	även	även	AB	-.-.-	AB.-.-	8	MD		
@@ -31905,7 +31905,7 @@
 21	direktivet	direktiv	NN	-.-.-	NN.NEU.SIN.DEF	20	OO		SpaceAfter=No
 22	,	_	SY	-.-.-	SY.DEL	6	--		
 23	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	24	SB		
-24	har	ha	VB	-.-.-	VB.IND.AKT.PRS	6	--		
+24	har	ha	VB	-.-.-	VB.IND.AKT.PRS	6	parataxis		
 25	talat	tala	VB	-.-.-	VB.SPM.AKT.-	24	IV		
 26	om	om	PE	-.-.-	PE.-	25	KL		
 27	förseningen	försening	NN	-.-.-	NN.UTR.SIN.DEF	26	MD		
@@ -32818,7 +32818,7 @@
 38	växter	växt	NN	-.-.-	NN.UTR.PLU.IND	37	KL		SpaceAfter=No
 39	:	_	SY	-.-.-	SY.DEL	2	--		
 40	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	41	SB		
-41	uppskattar	uppskatta	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+41	uppskattar	uppskatta	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 42	att	att	SU	-.-.-	SU.-	41	OO		
 43	kommissionen	kommission	NN	-.-.-	NN.UTR.SIN.DEF	44	SB		
 44	är	vara	VB	-.-.-	VB.IND.AKT.PRS	42	OO		
@@ -36123,7 +36123,7 @@
 6	,	_	SY	-.-.-	SY.DEL	2	--		
 7	vår	vi	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	8	DT		
 8	grupp	grupp	NN	-.-.-	NN.UTR.SIN.IND	9	SB		
-9	ställer	ställa	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+9	ställer	ställa	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 10	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	9	OO		
 11	bakom	bakom	PE	-.-.-	PE.-	9	OA		
 12	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	11	OO		SpaceAfter=No
@@ -36134,11 +36134,11 @@
 1	Herr	herr	NN	-.-.-	NN.UTR.SIN.IND	0	--		
 2	talman	talman	NN	-.-.-	NN.UTR.SIN.IND	1	AN		SpaceAfter=No
 3	,	_	SY	-.-.-	SY.DEL	1	--		
-4	herr	herr	NN	-.-.-	NN.UTR.SIN.IND	1	--		
+4	herr	herr	NN	-.-.-	NN.UTR.SIN.IND	1	conj		
 5	kommissionär	kommissionär	NN	-.-.-	NN.UTR.SIN.IND	4	AN		SpaceAfter=No
 6	,	_	SY	-.-.-	SY.DEL	1	--		
 7	ärade	ärad	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	8	MD		
-8	ledamöter	ledamot	NN	-.-.-	NN.UTR.PLU.IND	1	--		SpaceAfter=No
+8	ledamöter	ledamot	NN	-.-.-	NN.UTR.PLU.IND	1	conj		SpaceAfter=No
 9	!	_	SY	-.-.-	SY.DEL	1	--		
 
 # sent_id = Eupa_00-01-17.532
@@ -37380,7 +37380,7 @@
 7	medlemsstaterna	medlemsstat	NN	-.-.-	NN.UTR.PLU.DEF	6	OO		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	2	--		
 9	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	10	SB		
-10	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+10	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 11	särskilt	särskild	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	10	MD		
 12	framhålla	framhålla	VB	-.-.-	VB.INF.AKT.-	10	IV		
 13	hur	hur	AB	-.-.-	AB.-.FRL	14	MD		
@@ -37547,7 +37547,7 @@
 14	,	_	SY	-.-.-	SY.DEL	6	--		
 15	även	även	AB	-.-.-	AB.-.-	16	MD		
 16	medlemsstaterna	medlemsstat	NN	-.-.-	NN.UTR.PLU.DEF	17	SB	17:SB|23:|19:	
-17	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	6	--		
+17	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	6	parataxis		
 18	alltså	alltså	AB	-.-.-	AB.-.-	17	MD		
 19	ta	ta	VB	-.-.-	VB.INF.AKT.-	22	KL		
 20	sitt	sin	PO	-.-.-	PO.DEF.SIN.NEU.PSS.-	21	DT		
@@ -37885,7 +37885,7 @@
 10	oss	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	9	OO		SpaceAfter=No
 11	:	_	SY	-.-.-	SY.DEL	2	--		
 12	hur	hur	AB	-.-.-	AB.-.FRL	13	MD		
-13	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+13	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 14	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	13	SB		
 15	se	se	VB	-.-.-	VB.INF.AKT.-	13	IV		
 16	till	till	PE	-.-.-	PE.-	15	PL		
@@ -38492,7 +38492,7 @@
 16	för	för	PE	-.-.-	PE.-	19	MD		
 17	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	18	DT		
 18	första	första	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	16	OO		
-19	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+19	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 20	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	19	SB		
 21	att	att	SU	-.-.-	SU.-	19	ES		
 22	på	på	PE	-.-.-	PE.-	25	MD		
@@ -40760,7 +40760,7 @@
 51	för	för	PE	-.-.-	PE.-	50	MD		
 52	2000-2006	_	NU	-.-.-	NU.-	51	OO		SpaceAfter=No
 53	,	_	SY	-.-.-	SY.DEL	2	--		
-54	för	för	KO	-.-.-	KO.-	2	--		
+54	för	för	KO	-.-.-	KO.-	2	parataxis		
 55	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	56	SB		
 56	är	vara	VB	-.-.-	VB.IND.AKT.PRS	54	KL		
 57	ju	ju	AB	-.-.-	AB.-.-	56	MD		
@@ -41344,7 +41344,7 @@
 14	ganska	ganska	AB	-.-.-	AB.-.-	15	MD		
 15	sent	sen	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	2	MD		SpaceAfter=No
 16	,	_	SY	-.-.-	SY.DEL	3	--		
-17	men	men	KO	-.-.-	KO.-	3	--		
+17	men	men	KO	-.-.-	KO.-	3	parataxis		
 18	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	19	SB		
 19	behöver	behöva	VB	-.-.-	VB.IND.AKT.PRS	17	KL		
 20	inte	inte	AB	-.-.-	AB.-.-	19	MD		
@@ -41883,7 +41883,7 @@
 26	dessa	denna	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	27	DT		
 27	riktlinjer	riktlinje	NN	-.-.-	NN.UTR.PLU.IND	25	OO		SpaceAfter=No
 28	,	_	SY	-.-.-	SY.DEL	2	--		
-29	men	men	KO	-.-.-	KO.-	2	--		
+29	men	men	KO	-.-.-	KO.-	2	parataxis		
 30	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	31	SB		
 31	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	29	KL		
 32	gärna	gärna	AB	-.-.-	AB.-.-	31	MD		
@@ -41928,7 +41928,7 @@
 71	verktyg	verktyg	NN	-.-.-	NN.NEU.SIN.IND	46	SP		SpaceAfter=No
 72	,	_	SY	-.-.-	SY.DEL	2	--		
 73	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	74	SB		
-74	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+74	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 75	hävstångseffekten	hävstångs|effekt	NN	-.-.-	NN.UTR.SIN.DEF	74	SP		
 76	av	av	PE	-.-.-	PE.-	75	MD		
 77	lokal	lokal	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	78	MD		
@@ -41967,7 +41967,7 @@
 4	,	_	SY	-.-.-	SY.DEL	3	--		
 5	och	och	KO	-.-.-	KO.-	7	DF		
 6	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	7	SB		
-7	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+7	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 8	i	i	PE	-.-.-	PE.-	7	MD		
 9	detta	denna	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	10	DT		
 10	sammanhang	sammanhang	NN	-.-.-	NN.NEU.SIN.IND	8	OO		
@@ -43019,7 +43019,7 @@
 63	ståndpunkt	ståndpunkt	NN	-.-.-	NN.UTR.SIN.IND	61	OO		
 64	-	_	SY	-.-.-	SY.DEL	2	--		
 65	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	66	SB		
-66	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+66	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 67	mycket	mycket	PO	-.-.-	PO.IND.SIN.NEU.-.-	68	MD		
 68	glad	glad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	66	SP		
 69	över	över	PE	-.-.-	PE.-	68	OA		
@@ -45792,7 +45792,7 @@
 15	fackmedlemmar	fack|medlem	NN	-.-.-	NN.UTR.PLU.IND	16	KL		
 16	och	och	KO	-.-.-	KO.-	14	MD		
 17	ledare	ledare	NN	-.-.-	NN.UTR.PLU.IND	16	KL		
-18	är	vara	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+18	är	vara	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 19	fortfarande	fortfarande	AB	-.-.-	AB.-.-	18	MD		
 20	i	i	PE	-.-.-	PE.-	18	OA		
 21	fängsligt	fängslig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	22	MD		
@@ -46615,7 +46615,7 @@
 3	var	vara	VB	-.-.-	VB.IND.AKT.PRT	6	KL		
 4	väldigt	väldig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	5	MD		
 5	otrevliga	otrevlig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	3	SP		
-6	och	och	KO	-.-.-	KO.-	15	--		
+6	och	och	KO	-.-.-	KO.-	15	parataxis		
 7	ville	vilja	VB	-.-.-	VB.IND.AKT.PRT	6	KL		
 8	inte	inte	AB	-.-.-	AB.-.-	7	MD		
 9	alls	alls	AB	-.-.-	AB.-.-	7	MD		
@@ -46647,7 +46647,7 @@
 7	tidigare	tidig	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	6	MD		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	2	--		
 9	då	då	AB	-.-.-	AB.-.-	10	MD		
-10	har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+10	har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 11	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	10	SB		
 12	varit	vara	VB	-.-.-	VB.SPM.AKT.-	10	IV		
 13	omkring	omkring	AB	-.-.-	AB.-.-	14	MD		
@@ -46874,7 +46874,7 @@
 24	göra	göra	VB	-.-.-	VB.INF.AKT.-	23	OO		
 25	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	26	DT		
 26	anmälan	anmälan	NN	-.-.-	NN.UTR.SIN.IND	24	OO		
-27	så	så	KO	-.-.-	KO.-	4	--		
+27	så	så	KO	-.-.-	KO.-	4	parataxis		
 28	kommer	komma	VB	-.-.-	VB.IND.AKT.PRS	27	KL		
 29	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	28	SB		
 30	att	att	SU	-.-.-	SU.-	28	IV		
@@ -54292,7 +54292,7 @@
 # text = Digisam nyhetsbrev maj 2014
 1	Digisam	Digisam	EN	-.-.-	EN.-	2	MD		
 2	nyhetsbrev	nyhets|brev	NN	-.-.-	NN.NEU.SIN.IND	0	--		
-3	maj	maj	NN	-.-.-	NN.UTR.SIN.IND	2	--		
+3	maj	maj	NN	-.-.-	NN.UTR.SIN.IND	2	conj		
 4	2014	tvåtusenfjorton	NU	-.-.-	NU.-	3	MD		
 
 # sent_id = Digi_2014-05.2
@@ -57550,7 +57550,7 @@
 6	hutu	hutu	NN	-.-.-	NN.UTR.SIN.IND	5	KL		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	2	--		
 8	alla	all	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	9	SB		
-9	benämns	benämna	VB	-.-.-	VB.IND.SFO.PRS	2	--		
+9	benämns	benämna	VB	-.-.-	VB.IND.SFO.PRS	2	parataxis		
 10	i	i	PE	-.-.-	PE.-	9	MD		
 11	stället	ställe	NN	-.-.-	NN.NEU.SIN.DEF	10	OO		
 12	rwandier	rwandier	NN	-.-.-	NN.UTR.PLU.IND	9	SP		SpaceAfter=No
@@ -58663,7 +58663,7 @@
 9	kursen	kurs	NN	-.-.-	NN.UTR.SIN.DEF	8	OO		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	3	--		
 11	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
-12	ville	vilja	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+12	ville	vilja	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 13	ju	ju	AB	-.-.-	AB.-.-	12	MD		
 14	inte	inte	AB	-.-.-	AB.-.-	12	MD		
 15	förlora	förlora	VB	-.-.-	VB.INF.AKT.-	12	IV		
@@ -60670,7 +60670,7 @@
 19	sin	sin	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	20	DT		
 20	livsmiljö	livsmiljö	NN	-.-.-	NN.UTR.SIN.IND	18	OO	18:OO|16:	SpaceAfter=No
 21	,	_	SY	-.-.-	SY.DEL	6	--		
-22	Alice	Alice	EN	-.-.-	EN.-	6	--		
+22	Alice	Alice	EN	-.-.-	EN.-	6	parataxis		
 23	Bah	Bah	EN	-.-.-	EN.-	22	ME		
 24	Kuhnke	Kuhnke	EN	-.-.-	EN.-	22	ME		SpaceAfter=No
 25	,	_	SY	-.-.-	SY.DEL	6	--		
@@ -61676,7 +61676,7 @@
 6	data	data	NN	-.-.-	NN.UTR.PLU.IND	3	OO		
 7	–	_	SY	-.-.-	SY.DEL	2	--		
 8	Norge	Norge	EN	-.-.-	EN.-	9	SB		
-9	höll	hålla	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+9	höll	hålla	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 10	i	i	PE	-.-.-	PE.-	9	OA		
 11	stafettpinnen	stafett|pinne	NN	-.-.-	NN.UTR.SIN.DEF	10	OO		
 
@@ -61812,7 +61812,7 @@
 2	18	artonde	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	3	MD		
 3	november	november	NN	-.-.-	NN.UTR.SIN.IND	1	MD		
 4	–	_	SY	-.-.-	SY.DEL	1	--		
-5	Lär	lära	VB	-.-.-	VB.IMP.AKT.-	1	--		
+5	Lär	lära	VB	-.-.-	VB.IMP.AKT.-	1	parataxis		
 6	dig	du	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	5	OO		
 7	bygga	bygga	VB	-.-.-	VB.INF.AKT.-	5	IV		
 8	digitala	digital	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	9	MD		
@@ -62282,7 +62282,7 @@
 23	ha	ha	VB	-.-.-	VB.INF.AKT.-	22	OO		
 24	kvar	kvar	AB	-.-.-	AB.-.-	23	PL		
 25	proven	prov	NN	-.-.-	NN.NEU.PLU.DEF	23	OO		
-26	blir	bli	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+26	blir	bli	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 27	deltagandet	deltagande	NN	-.-.-	NN.NEU.SIN.DEF	26	SB		
 28	obligatoriskt	obligatorisk	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	26	SP		
 29	för	för	PE	-.-.-	PE.-	28	OA		
@@ -63288,7 +63288,7 @@
 16	stöd	stöd	NN	-.-.-	NN.NEU.SIN.IND	14	OO		SpaceAfter=No
 17	,	_	SY	-.-.-	SY.DEL	3	--		
 18	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	19	SB		
-19	innefattar	innefatta	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+19	innefattar	innefatta	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 20	stöd	stöd	NN	-.-.-	NN.NEU.SIN.IND	19	OO		
 21	till	till	PE	-.-.-	PE.-	20	MD		
 22	FN	FN	EN	-.-.-	EN.-	28	KL		SpaceAfter=No
@@ -68657,7 +68657,7 @@
 12	civiliserad	civiliserad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	14	MD		
 13	holländsk	holländsk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	14	MD		
 14	tjänsteman	tjänsteman	NN	-.-.-	NN.UTR.SIN.IND	10	SP		
-15	och	och	KO	-.-.-	KO.-	2	--		
+15	och	och	KO	-.-.-	KO.-	2	parataxis		
 16	föredrog	föredra	VB	-.-.-	VB.IND.AKT.PRT	15	KL		
 17	kanalernas	kanal	NN	-.GEN.-	NN.UTR.PLU.DEF	18	DT		
 18	Amsterdam	Amsterdam	EN	-.-.-	EN.-	16	OO		
@@ -70480,7 +70480,7 @@
 5	Barthel	Barthel	EN	-.-.-	EN.-	4	SP		SpaceAfter=No
 6	,	_	SY	-.-.-	SY.DEL	4	--		
 7	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	8	SB		
-8	är	vara	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+8	är	vara	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 9	kontrollör	kontrollör	NN	-.-.-	NN.UTR.SIN.IND	8	SP		
 10	på	på	PE	-.-.-	PE.-	9	MD		
 11	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	13	DT		
@@ -70625,7 +70625,7 @@
 4	språket	språk	NN	-.-.-	NN.NEU.SIN.DEF	2	OO		SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	2	--		
 6	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	7	SB		
-7	begriper	begripa	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+7	begriper	begripa	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 8	mej	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	7	OO		
 9	ju	ju	AB	-.-.-	AB.-.-	7	MD		
 10	inte	inte	AB	-.-.-	AB.-.-	7	MD		SpaceAfter=No
@@ -70819,7 +70819,7 @@
 14	nu	nu	AB	-.-.-	AB.-.-	9	MD		SpaceAfter=No
 15	,	_	SY	-.-.-	SY.DEL	9	--		
 16	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	17	SB		
-17	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	9	--		
+17	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	9	parataxis		
 18	i	i	PE	-.-.-	PE.-	17	RA		
 19	land	land	NN	-.-.-	NN.NEU.SIN.IND	18	OO		SpaceAfter=No
 20	,	_	SY	-.-.-	SY.DEL	9	--		
@@ -71682,7 +71682,7 @@
 11	,	_	SY	-.-.-	SY.DEL	4	--		
 12	Barthel	Barthel	EN	-.-.-	EN.-	8	DF		SpaceAfter=No
 13	,	_	SY	-.-.-	SY.DEL	4	--		
-14	men	men	KO	-.-.-	KO.-	4	--		
+14	men	men	KO	-.-.-	KO.-	4	parataxis		
 15	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	16	SB		
 16	förstår	förstå	VB	-.-.-	VB.IND.AKT.PRS	14	KL		
 17	att	att	SU	-.-.-	SU.-	16	OO		
@@ -71772,7 +71772,7 @@
 33	omvända	omvända	VB	-.-.-	VB.INF.AKT.-	32	IV		
 34	hedningar	hedning	NN	-.-.-	NN.UTR.PLU.IND	33	OO		
 35	...	_	SY	-.-.-	SY.DEL	1	--		
-36	Sitt	sitta	VB	-.-.-	VB.IMP.AKT.-	1	--		
+36	Sitt	sitta	VB	-.-.-	VB.IMP.AKT.-	1	parataxis		
 37	ner	ner	AB	-.-.-	AB.-.-	36	PL		SpaceAfter=No
 38	,	_	SY	-.-.-	SY.DEL	1	--		
 39	fröken	fröken	NN	-.-.-	NN.UTR.SIN.IND	36	DF		
@@ -71780,7 +71780,7 @@
 41	,	_	SY	-.-.-	SY.DEL	1	--		
 42	sitt	sitta	VB	-.-.-	VB.IMP.AKT.-	44	KL		
 43	ner	ner	AB	-.-.-	AB.-.-	42	PL		
-44	och	och	KO	-.-.-	KO.-	1	--		
+44	och	och	KO	-.-.-	KO.-	1	parataxis		
 45	bekanta	bekanta	VB	-.-.-	VB.IMP.AKT.-	44	KL		
 46	er	er	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	45	OO		
 47	med	med	PE	-.-.-	PE.-	45	OA		
@@ -71874,7 +71874,7 @@
 4	förstås	förstås	AB	-.-.-	AB.-.-	3	MD		
 5	hans	han	PO	-.GEN.-	PO.DEF.SIN.UTR.OBJ.-	6	DT		
 6	lärarinna	lärarinna	NN	-.-.-	NN.UTR.SIN.IND	3	SP		
-7	och	och	KO	-.-.-	KO.-	21	--		
+7	och	och	KO	-.-.-	KO.-	21	parataxis		
 8	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	9	SB		
 9	har	ha	VB	-.-.-	VB.IND.AKT.PRS	7	KL		
 10	visat	visa	VB	-.-.-	VB.SPM.AKT.-	9	IV		
@@ -72360,7 +72360,7 @@
 9	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	4	MD		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	4	--		
 11	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
-12	litar	lita	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+12	litar	lita	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 13	på	på	PE	-.-.-	PE.-	12	OA		
 14	att	att	SU	-.-.-	SU.-	13	OO		
 15	ni	ni	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	16	SB		
@@ -72568,7 +72568,7 @@
 14	på	på	PE	-.-.-	PE.-	12	RA		
 15	dem	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	14	OO		SpaceAfter=No
 16	,	_	SY	-.-.-	SY.DEL	5	--		
-17	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	5	--		
+17	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	5	parataxis		
 18	ni	ni	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	17	SB		SpaceAfter=No
 19	.	_	SY	-.-.-	SY.DEL	5	--		
 
@@ -72889,7 +72889,7 @@
 12	sällskap	sällskap	NN	-.-.-	NN.NEU.SIN.IND	10	OO		SpaceAfter=No
 13	,	_	SY	-.-.-	SY.DEL	2	--		
 14	åter	åter	AB	-.-.-	AB.-.-	15	MD		
-15	får	få	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+15	får	få	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 16	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	15	SB		
 17	tänka	tänka	VB	-.-.-	VB.INF.AKT.-	15	KL		
 18	civiliserade	civiliserad	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	19	MD		
@@ -73224,7 +73224,7 @@
 14	,	_	SY	-.-.-	SY.DEL	2	--		
 15	hela	hel	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	16	DT		
 16	Mona	Mona	EN	-.-.-	EN.-	17	SB		
-17	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+17	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 18	mjuk	mjuk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	19	KL		
 19	och	och	KO	-.-.-	KO.-	17	SP		
 20	rund	rund	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	19	KL		SpaceAfter=No
@@ -73587,7 +73587,7 @@
 4	av	av	PE	-.-.-	PE.-	1	OA		
 5	öl	öl	NN	-.-.-	NN.UTR.SIN.IND	4	OO		SpaceAfter=No
 6	,	_	SY	-.-.-	SY.DEL	1	--		
-7	förstår	förstå	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+7	förstår	förstå	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 8	du	du	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	7	SB		SpaceAfter=No
 9	.	_	SY	-.-.-	SY.DEL	1	--		
 
@@ -74493,7 +74493,7 @@
 9	åt	åt	PE	-.-.-	PE.-	6	MD		
 10	honom	han	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	9	OO		SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	6	--		
-12	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	6	--		
+12	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	6	parataxis		
 13	du	du	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
 14	säja	säga	VB	-.-.-	VB.INF.AKT.-	12	IV		
 15	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	14	OO		SpaceAfter=No
@@ -74576,7 +74576,7 @@
 11	på	på	PE	-.-.-	PE.-	14	RA		
 12	antennens	antenn	NN	-.GEN.-	NN.UTR.SIN.DEF	13	DT		
 13	plats	plats	NN	-.-.-	NN.UTR.SIN.IND	11	OO		
-14	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	3	--		
+14	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	3	parataxis		
 15	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	17	DT		
 16	betydande	betydande	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	17	MD		
 17	hål	hål	NN	-.-.-	NN.NEU.SIN.IND	14	SB		SpaceAfter=No
@@ -74628,7 +74628,7 @@
 3	inte	inte	AB	-.-.-	AB.-.-	2	MD		
 4	tilltalande	tilltalande	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	2	SP		SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	18	--		
-6	men	men	KO	-.-.-	KO.-	18	--		
+6	men	men	KO	-.-.-	KO.-	18	parataxis		
 7	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	8	SB		
 8	verkar	verka	VB	-.-.-	VB.IND.AKT.PRS	6	KL		
 9	bekväm	bekväm	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	8	SP		
@@ -74687,7 +74687,7 @@
 17	kontaktnät	kontaktnät	NN	-.-.-	NN.NEU.SIN.IND	13	OO		SpaceAfter=No
 18	,	_	SY	-.-.-	SY.DEL	11	--		
 19	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	20	SB		
-20	innehåller	innehålla	VB	-.-.-	VB.IND.AKT.PRS	11	--		
+20	innehåller	innehålla	VB	-.-.-	VB.IND.AKT.PRS	11	parataxis		
 21	både	både	KO	-.-.-	KO.-	20	OO		
 22	silvertrådar	silvertråd	NN	-.-.-	NN.UTR.PLU.IND	21	KL		
 23	och	och	KO	-.-.-	KO.-	21	ME		
@@ -74807,7 +74807,7 @@
 10	kompromissvilliga	kompromissvillig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	2	SP		SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	2	--		
 12	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	13	SB		
-13	har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+13	har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 14	spår	spår	NN	-.-.-	NN.NEU.PLU.IND	13	OO		
 15	i	i	PE	-.-.-	PE.-	20	KL		
 16	ansiktet	ansikte	NN	-.-.-	NN.NEU.SIN.DEF	15	OO		SpaceAfter=No
@@ -74839,7 +74839,7 @@
 9	,	_	SY	-.-.-	SY.DEL	4	--		
 10	av	av	PE	-.-.-	PE.-	12	OA		
 11	detta	denna	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	10	OO		
-12	följer	följa	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+12	följer	följa	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 13	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	17	DT		
 14	sned	sned	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	15	KL		
 15	och	och	KO	-.-.-	KO.-	17	MD		
@@ -75023,7 +75023,7 @@
 12	brungnistrande	brun|gnistrande	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	11	SP		SpaceAfter=No
 13	,	_	SY	-.-.-	SY.DEL	4	--		
 14	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	15	SB		
-15	bär	bära	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+15	bär	bära	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 16	tattarblod	tattar|blod	NN	-.-.-	NN.NEU.SIN.IND	15	OO		
 17	i	i	PE	-.-.-	PE.-	15	RA		
 18	ådrorna	åder	NN	-.-.-	NN.UTR.PLU.DEF	17	OO		SpaceAfter=No
@@ -75037,7 +75037,7 @@
 4	starka	stark	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	5	MD		
 5	varor	vara	NN	-.-.-	NN.UTR.PLU.IND	2	OO		SpaceAfter=No
 6	,	_	SY	-.-.-	SY.DEL	13	--		
-7	men	men	KO	-.-.-	KO.-	13	--		
+7	men	men	KO	-.-.-	KO.-	13	parataxis		
 8	kvinnor	kvinna	NN	-.-.-	NN.UTR.PLU.IND	7	KL		
 9	efter	efter	PE	-.-.-	PE.-	8	MD		
 10	behov	behov	NN	-.-.-	NN.NEU.SIN.IND	9	OO		SpaceAfter=No
@@ -75078,7 +75078,7 @@
 4	ordning	ordning	NN	-.-.-	NN.UTR.SIN.IND	1	OO		SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	1	--		
 6	många	mången	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	7	SB		
-7	kallar	kalla	VB	-.-.-	VB.IND.AKT.PRS	1	--		
+7	kallar	kalla	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		
 8	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	7	OO		
 9	föraktfullt	föraktfull	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	7	MD		
 10	för	för	PE	-.-.-	PE.-	7	OA		
@@ -75157,14 +75157,14 @@
 12	område	område	NN	-.-.-	NN.NEU.SIN.IND	7	OO		SpaceAfter=No
 13	,	_	SY	-.-.-	SY.DEL	5	--		
 14	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	15	SB		
-15	använder	använda	VB	-.-.-	VB.IND.AKT.PRS	5	--		
+15	använder	använda	VB	-.-.-	VB.IND.AKT.PRS	5	parataxis		
 16	inte	inte	AB	-.-.-	AB.-.-	15	MD		
 17	själv	själv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	15	SP		
 18	ordet	ord	NN	-.-.-	NN.NEU.SIN.DEF	15	OO		
 19	marknad	marknad	NN	-.-.-	NN.UTR.SIN.IND	18	AN		SpaceAfter=No
 20	,	_	SY	-.-.-	SY.DEL	5	--		
 21	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	22	SB		
-22	talar	tala	VB	-.-.-	VB.IND.AKT.PRS	5	--		
+22	talar	tala	VB	-.-.-	VB.IND.AKT.PRS	5	parataxis		
 23	om	om	PE	-.-.-	PE.-	22	OA		
 24	handel	handel	NN	-.-.-	NN.UTR.SIN.IND	23	OO		SpaceAfter=No
 25	.	_	SY	-.-.-	SY.DEL	5	--		
@@ -75290,7 +75290,7 @@
 15	,	_	SY	-.-.-	SY.DEL	3	--		
 16	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	17	DT		
 17	detta	denna	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	18	SB		
-18	kostar	kosta	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+18	kostar	kosta	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 19	ingenting	ingenting	PO	-.-.-	PO.IND.SIN.NEU.-.-	18	OO		
 20	extra	extra	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	19	MD		SpaceAfter=No
 21	.	_	SY	-.-.-	SY.DEL	3	--		
@@ -75438,20 +75438,20 @@
 2	luktar	lukta	VB	-.-.-	VB.IND.AKT.PRS	0	--		SpaceAfter=No
 3	,	_	SY	-.-.-	SY.DEL	2	--		
 4	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	5	SB		
-5	känner	känna	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+5	känner	känna	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 6	inte	inte	AB	-.-.-	AB.-.-	5	MD		
 7	till	till	PE	-.-.-	PE.-	5	PL		
 8	ordet	ord	NN	-.-.-	NN.NEU.SIN.DEF	5	OO		
 9	hygien	hygien	NN	-.-.-	NN.UTR.SIN.IND	8	AN		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	2	--		
 11	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
-12	tvättar	tvätta	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+12	tvättar	tvätta	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 13	aldrig	aldrig	AB	-.-.-	AB.-.-	12	MD		
 14	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	15	DT		
 15	kläder	kläder	NN	-.-.-	NN.UTR.PLU.IND	12	OO		SpaceAfter=No
 16	,	_	SY	-.-.-	SY.DEL	2	--		
 17	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	18	SB		
-18	bär	bära	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+18	bär	bära	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 19	dem	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	18	OO		
 20	tills	tills	SU	-.-.-	SU.-	18	MD		
 21	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	22	SB		
@@ -75518,12 +75518,12 @@
 5	händer	hända	VB	-.-.-	VB.IND.AKT.PRS	4	OO		SpaceAfter=No
 6	,	_	SY	-.-.-	SY.DEL	2	--		
 7	alla	all	PO	-.-.-	PO.DEF.PLU.UTR/NEU.-.-	8	SB		
-8	kommenterar	kommentera	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+8	kommenterar	kommentera	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 9	vant	van	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	8	MD		
 10	händelsen	händelse	NN	-.-.-	NN.UTR.SIN.DEF	8	OO		SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	2	--		
 12	ingen	ingen	PO	-.-.-	PO.IND.SIN.UTR.-.-	13	SB		
-13	har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+13	har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 14	invändningar	invändning	NN	-.-.-	NN.UTR.PLU.IND	13	OO		SpaceAfter=No
 15	,	_	SY	-.-.-	SY.DEL	2	--		
 16	ingen	ingen	PO	-.-.-	PO.IND.SIN.UTR.-.-	18	DT		
@@ -75548,14 +75548,14 @@
 10	Bengtsson	Bengtsson	EN	-.-.-	EN.-	9	ME		SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	5	--		
 12	ingen	ingen	PO	-.-.-	PO.IND.SIN.UTR.-.-	13	SB		
-13	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	5	--		
+13	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	5	parataxis		
 14	stöta	stöta	VB	-.-.-	VB.INF.AKT.-	13	IV		
 15	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	14	OO		
 16	med	med	PE	-.-.-	PE.-	14	OA		
 17	honom	han	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	16	OO		SpaceAfter=No
 18	,	_	SY	-.-.-	SY.DEL	5	--		
 19	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	20	SB		
-20	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	5	--		
+20	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	5	parataxis		
 21	vara	vara	VB	-.-.-	VB.INF.AKT.-	20	IV		
 22	bra	bra	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	21	SP		
 23	att	att	SU	-.-.-	SU.-	22	OO		
@@ -75589,7 +75589,7 @@
 6	kläder	kläder	NN	-.-.-	NN.UTR.PLU.IND	3	OO		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	3	--		
 8	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	9	SB		
-9	inventerar	inventera	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+9	inventerar	inventera	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 10	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	12	DT		
 11	egna	egen	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	12	MD		
 12	lager	lager	NN	-.-.-	NN.NEU.PLU.IND	9	OO		SpaceAfter=No
@@ -75636,7 +75636,7 @@
 19	skingras	skingra	VB	-.-.-	VB.INF.SFO.-	18	KL		SpaceAfter=No
 20	,	_	SY	-.-.-	SY.DEL	2	--		
 21	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	22	SB		
-22	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+22	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 23	gälla	gälla	VB	-.-.-	VB.INF.AKT.-	22	IV		
 24	både	både	KO	-.-.-	KO.-	22	OO		
 25	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	27	DT		
@@ -75697,7 +75697,7 @@
 17	uppskattar	uppskatta	VB	-.-.-	VB.IND.AKT.PRS	16	OO		
 18	denna	denna	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	19	DT		
 19	totallösning	total|lösning	NN	-.-.-	NN.UTR.SIN.IND	17	OO		
-20	och	och	KO	-.-.-	KO.-	4	--		
+20	och	och	KO	-.-.-	KO.-	4	parataxis		
 21	på	på	PE	-.-.-	PE.-	23	MD		
 22	detta	denna	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	21	OO		
 23	tjänar	tjäna	VB	-.-.-	VB.IND.AKT.PRS	20	KL		
@@ -75725,7 +75725,7 @@
 15	till	till	PE	-.-.-	PE.-	13	RA		
 16	sin	sin	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	17	MD		
 17	marknadsplats	marknadsplats	NN	-.-.-	NN.UTR.SIN.IND	15	OO		
-18	och	och	KO	-.-.-	KO.-	2	--		
+18	och	och	KO	-.-.-	KO.-	2	parataxis		
 19	sakerna	sak	NN	-.-.-	NN.UTR.PLU.DEF	20	SB		
 20	läggs	lägga	VB	-.-.-	VB.IND.SFO.PRS	18	KL		
 21	i	i	PE	-.-.-	PE.-	20	RA		
@@ -75775,7 +75775,7 @@
 9	enstaka	enstaka	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	10	MD		
 10	ting	ting	NN	-.-.-	NN.NEU.SIN.IND	7	OO		SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	22	--		
-12	men	men	KO	-.-.-	KO.-	22	--		
+12	men	men	KO	-.-.-	KO.-	22	parataxis		
 13	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	14	SB		
 14	går	gå	VB	-.-.-	VB.IND.AKT.PRS	12	KL		
 15	inte	inte	AB	-.-.-	AB.-.-	14	MD		
@@ -75841,7 +75841,7 @@
 7	Bengtsson	Bengtsson	EN	-.-.-	EN.-	6	ME		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	5	--		
 9	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	10	SB		
-10	händer	hända	VB	-.-.-	VB.IND.AKT.PRS	5	--		
+10	händer	hända	VB	-.-.-	VB.IND.AKT.PRS	5	parataxis		
 11	på	på	PE	-.-.-	PE.-	10	MD		
 12	midsommaraftons	midsommarafton	NN	-.GEN.-	NN.UTR.SIN.IND	13	DT		
 13	morgon	morgon	NN	-.-.-	NN.UTR.SIN.IND	11	OO		SpaceAfter=No
@@ -75868,7 +75868,7 @@
 34	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	36	DT		
 35	fet	fet	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	36	MD		
 36	cigarr	cigarr	NN	-.-.-	NN.UTR.SIN.IND	33	OO		
-37	och	och	KO	-.-.-	KO.-	5	--		
+37	och	och	KO	-.-.-	KO.-	5	parataxis		
 38	täcker	täcka	VB	-.-.-	VB.IND.AKT.PRS	37	KL		
 39	sitt	sin	PO	-.-.-	PO.DEF.SIN.NEU.PSS.-	40	DT		
 40	huvud	huvud	NN	-.-.-	NN.NEU.SIN.IND	38	OO		
@@ -75966,14 +75966,14 @@
 17	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	19	DT		
 18	tredje	tredje	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	19	MD		
 19	lemmen	lem	NN	-.-.-	NN.UTR.SIN.DEF	20	SB		
-20	påminner	påminna	VB	-.-.-	VB.IND.AKT.PRS	8	--		
+20	påminner	påminna	VB	-.-.-	VB.IND.AKT.PRS	8	parataxis		
 21	om	om	PE	-.-.-	PE.-	20	OA		
 22	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	23	DT		
 23	cykelpump	cykelpump	NN	-.-.-	NN.UTR.SIN.IND	21	OO		SpaceAfter=No
 24	,	_	SY	-.-.-	SY.DEL	8	--		
 25	Tage	Tage	EN	-.-.-	EN.-	27	SB		
 26	Bengtsson	Bengtsson	EN	-.-.-	EN.-	25	ME		
-27	ser	se	VB	-.-.-	VB.IND.AKT.PRS	8	--		
+27	ser	se	VB	-.-.-	VB.IND.AKT.PRS	8	parataxis		
 28	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	27	OO		
 29	själv	själv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	27	SP		
 30	som	som	SU	-.-.-	SU.-	27	OA		
@@ -76168,7 +76168,7 @@
 6	Bengtsson	Bengtsson	EN	-.-.-	EN.-	5	ME		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	2	--		
 8	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	9	SB		
-9	har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+9	har	ha	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 10	aldrig	aldrig	AB	-.-.-	AB.-.-	9	MD		
 11	funderat	fundera	VB	-.-.-	VB.SPM.AKT.-	9	IV		
 12	på	på	PE	-.-.-	PE.-	11	OA		
@@ -76247,7 +76247,7 @@
 5	sterilisera	sterilisera	NN	-.-.-	NN.NEU.SIN.IND	4	AN		SpaceAfter=No
 6	,	_	SY	-.-.-	SY.DEL	2	--		
 7	hon	hon	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	8	SB		
-8	värmer	värma	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+8	värmer	värma	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 9	noga	noga	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	8	MD		
 10	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	11	DT		
 11	verktyg	verktyg	NN	-.-.-	NN.NEU.PLU.IND	8	OO		
@@ -76267,7 +76267,7 @@
 8	skicklighet	skicklighet	NN	-.-.-	NN.UTR.SIN.IND	6	OO		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	2	--		
 10	hon	hon	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	11	SB		
-11	använder	använda	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+11	använder	använda	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 12	inga	ingen	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	13	DT		
 13	bedövningsmedel	bedövningsmedel	NN	-.-.-	NN.NEU.PLU.IND	11	OO		SpaceAfter=No
 14	.	_	SY	-.-.-	SY.DEL	2	--		
@@ -76309,14 +76309,14 @@
 8	ingrepp	ingrepp	NN	-.-.-	NN.NEU.PLU.IND	6	OO		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	3	--		
 10	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	11	SB		
-11	står	stå	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+11	står	stå	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 12	nära	nära	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	11	OA		
 13	varandra	varandra	PO	-.-.-	PO.DEF.PLU.UTR/NEU.-.-	12	OO		
 14	som	som	SU	-.-.-	SU.-	11	MD		
 15	medmänniskor	medmänniska	NN	-.-.-	NN.UTR.PLU.IND	14	OO		SpaceAfter=No
 16	,	_	SY	-.-.-	SY.DEL	3	--		
 17	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	18	SB		
-18	är	vara	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+18	är	vara	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 19	vänner	vän	NN	-.-.-	NN.UTR.PLU.IND	18	SP		SpaceAfter=No
 20	,	_	SY	-.-.-	SY.DEL	3	--		
 21	även	även	AB	-.-.-	AB.-.-	22	MD		
@@ -76342,7 +76342,7 @@
 11	varandra	varandra	PO	-.-.-	PO.DEF.PLU.UTR/NEU.-.-	10	OO		SpaceAfter=No
 12	,	_	SY	-.-.-	SY.DEL	2	--		
 13	orden	ord	NN	-.-.-	NN.NEU.PLU.DEF	14	SB		
-14	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	2	--		
+14	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	2	parataxis		
 15	i	i	PE	-.-.-	PE.-	14	OA		
 16	deras	de	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.PSS.-	17	DT		
 17	ansikten	ansikte	NN	-.-.-	NN.NEU.PLU.IND	15	OO		SpaceAfter=No
@@ -76551,7 +76551,7 @@
 14	,	_	SY	-.-.-	SY.DEL	3	--		
 15	Tage	Tage	EN	-.-.-	EN.-	17	SB		
 16	Bengtsson	Bengtsson	EN	-.-.-	EN.-	15	ME		
-17	grips	gripa	VB	-.-.-	VB.IND.SFO.PRS	3	--		
+17	grips	gripa	VB	-.-.-	VB.IND.SFO.PRS	3	parataxis		
 18	av	av	PE	-.-.-	PE.-	17	AG		
 19	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	21	DT		
 20	besynnerlig	besynnerlig	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	21	MD		
@@ -76567,7 +76567,7 @@
 5	midsommarbadet	midsommar|bad	NN	-.-.-	NN.NEU.SIN.DEF	4	OO		SpaceAfter=No
 6	,	_	SY	-.-.-	SY.DEL	2	--		
 7	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	8	SB		
-8	känner	känna	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+8	känner	känna	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 9	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	8	OO		
 10	som	som	SU	-.-.-	SU.-	8	MD		
 11	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	12	DT		
@@ -76703,7 +76703,7 @@
 6	salva	salva	NN	-.-.-	NN.UTR.SIN.IND	5	AN		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	2	--		
 8	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	9	SB		
-9	talar	tala	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+9	talar	tala	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 10	alltid	alltid	AB	-.-.-	AB.-.-	9	MD		
 11	om	om	PE	-.-.-	PE.-	9	OA		
 12	ringblomskräm	ring|bloms|kräm	NN	-.-.-	NN.UTR.SIN.IND	11	OO		SpaceAfter=No
@@ -76842,12 +76842,12 @@
 6	blir	bli	VB	-.-.-	VB.IND.AKT.PRS	4	OO		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	2	--		
 8	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	9	SB		
-9	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+9	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 10	inte	inte	AB	-.-.-	AB.-.-	9	MD		
 11	långsint	långsint	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	9	SP		SpaceAfter=No
 12	,	_	SY	-.-.-	SY.DEL	2	--		
 13	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	14	SB		
-14	glömmer	glömma	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+14	glömmer	glömma	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 15	lätt	lätt	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	14	MD		
 16	både	både	KO	-.-.-	KO.-	14	OO		
 17	misslyckanden	misslyckande	NN	-.-.-	NN.NEU.PLU.IND	16	KL		
@@ -76876,7 +76876,7 @@
 7	Gud	Gud	EN	-.-.-	EN.-	6	OO		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	3	--		
 9	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	10	SB		
-10	tänker	tänka	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+10	tänker	tänka	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 11	inte	inte	AB	-.-.-	AB.-.-	10	MD		
 12	på	på	PE	-.-.-	PE.-	10	OA		
 13	själens	själ	NN	-.GEN.-	NN.UTR.SIN.DEF	14	DT		
@@ -76992,7 +76992,7 @@
 6	jorden	jord	NN	-.-.-	NN.UTR.SIN.DEF	5	OO		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	4	--		
 8	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	9	SB		
-9	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+9	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 10	fortfarande	fortfarande	AB	-.-.-	AB.-.-	9	MD		
 11	minnas	minnas	VB	-.-.-	VB.INF.SFO.-	9	IV		
 12	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	14	DT		
@@ -77023,7 +77023,7 @@
 7	träskor	träsko	NN	-.-.-	NN.UTR.PLU.IND	5	OO		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	2	--		
 9	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	10	SB		
-10	kunde	kunna	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+10	kunde	kunna	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 11	plötsligt	plötslig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	10	MD		
 12	stanna	stanna	VB	-.-.-	VB.INF.AKT.-	14	KL		
 13	till	till	PE	-.-.-	PE.-	12	PL		
@@ -77171,7 +77171,7 @@
 8	hand	hand	NN	-.-.-	NN.UTR.SIN.IND	6	OO		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	3	--		
 10	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	11	SB		
-11	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+11	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 12	fortfarande	fortfarande	AB	-.-.-	AB.-.-	11	MD		
 13	känna	känna	VB	-.-.-	VB.INF.AKT.-	11	IV		
 14	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	13	OO		
@@ -77239,12 +77239,12 @@
 4	honom	han	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	2	OO		SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	2	--		
 6	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	7	SB		
-7	drog	dra	VB	-.-.-	VB.IND.SFO.PRS	2	--		
+7	drog	dra	VB	-.-.-	VB.IND.SFO.PRS	2	parataxis		
 8	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	7	OO		
 9	undan	undan	PE	-.-.-	PE.-	7	PL		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	2	--		
 11	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
-12	ville	vilja	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+12	ville	vilja	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 13	vara	vara	VB	-.-.-	VB.INF.AKT.-	12	IV		
 14	ensam	ensam	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	13	SP		
 15	med	med	PE	-.-.-	PE.-	14	OA		
@@ -77341,7 +77341,7 @@
 8	evigheter	evighet	NN	-.-.-	NN.UTR.PLU.IND	7	OO		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	3	--		
 10	möjligen	möjligen	AB	-.-.-	AB.-.-	11	MD		
-11	var	vara	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+11	var	vara	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 12	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	11	SB		
 13	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	15	DT		
 14	knapp	knapp	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	15	MD		
@@ -77367,7 +77367,7 @@
 15	långa	lång	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	14	SP		SpaceAfter=No
 16	,	_	SY	-.-.-	SY.DEL	2	--		
 17	morfar	morfar	NN	-.-.-	NN.UTR.SIN.IND	18	SB		
-18	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+18	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 19	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	18	OO		
 20	för	för	PE	-.-.-	PE.-	28	KL		
 21	att	att	SU	-.-.-	SU.-	20	OO		
@@ -77434,7 +77434,7 @@
 9	kom	komma	VB	-.-.-	VB.IND.AKT.PRT	7	OO		
 10	hem	hem	AB	-.-.-	AB.-.-	9	MD		SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	32	--		
-12	men	men	KO	-.-.-	KO.-	32	--		
+12	men	men	KO	-.-.-	KO.-	32	parataxis		
 13	i	i	PE	-.-.-	PE.-	15	MD		
 14	halvmörkret	halvmörker	NN	-.-.-	NN.NEU.SIN.DEF	13	OO		
 15	kunde	kunna	VB	-.-.-	VB.IND.AKT.PRT	12	KL		
@@ -77484,7 +77484,7 @@
 21	och	och	KO	-.-.-	KO.-	17	IV		
 22	leka	leka	VB	-.-.-	VB.INF.AKT.-	21	KL		SpaceAfter=No
 23	,	_	SY	-.-.-	SY.DEL	4	--		
-24	men	men	KO	-.-.-	KO.-	4	--		
+24	men	men	KO	-.-.-	KO.-	4	parataxis		
 25	utan	utan	PE	-.-.-	PE.-	28	MD		
 26	morfar	morfar	NN	-.-.-	NN.UTR.SIN.IND	25	OO		
 27	så	så	AB	-.-.-	AB.-.-	28	MD		
@@ -77504,7 +77504,7 @@
 6	morfar	morfar	NN	-.-.-	NN.UTR.SIN.IND	5	OO		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	2	--		
 8	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	9	SB		
-9	fick	få	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+9	fick	få	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 10	alltid	alltid	AB	-.-.-	AB.-.-	9	MD		
 11	vara	vara	VB	-.-.-	VB.INF.AKT.-	9	IV		
 12	med	med	PE	-.-.-	PE.-	11	PL		
@@ -77562,7 +77562,7 @@
 4	vatten	vatten	NN	-.-.-	NN.NEU.SIN.IND	2	OO		SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	2	--		
 6	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	7	SB		
-7	sköljde	skölja	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+7	sköljde	skölja	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 8	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	9	DT		
 9	händer	hand	NN	-.-.-	NN.UTR.PLU.IND	10	KL		
 10	och	och	KO	-.-.-	KO.-	7	OO		
@@ -77719,7 +77719,7 @@
 15	dikeskanter	dikes<kant	NN	-.-.-	NN.UTR.PLU.IND	14	OO		SpaceAfter=No
 16	,	_	SY	-.-.-	SY.DEL	2	--		
 17	Detta	denna	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	18	SB		
-18	växte	växa	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+18	växte	växa	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 19	överallt	överallt	AB	-.-.-	AB.-.-	18	RA		
 20	på	på	PE	-.-.-	PE.-	18	MD		
 21	morfars	morfar	NN	-.GEN.-	NN.UTR.SIN.IND	22	DT		
@@ -77727,7 +77727,7 @@
 23	,	_	SY	-.-.-	SY.DEL	2	--		
 24	inte	inte	AB	-.-.-	AB.-.-	26	MD		
 25	heller	heller	AB	-.-.-	AB.-.-	26	MD		
-26	ser	se	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+26	ser	se	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 27	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	26	SB		
 28	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	31	DT		
 29	sagolikt	sagolik	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	30	MD		
@@ -77737,7 +77737,7 @@
 33	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	35	DT		
 34	blåmilda	blå|mild	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	35	MD		
 35	färgen	färg	NN	-.-.-	NN.UTR.SIN.DEF	36	OO		
-36	glömmer	glömma	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+36	glömmer	glömma	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 37	aldrig	aldrig	AB	-.-.-	AB.-.-	36	MD		
 38	Tage	Tage	EN	-.-.-	EN.-	36	SB		
 39	Bengtsson	Bengtsson	EN	-.-.-	EN.-	38	ME		SpaceAfter=No
@@ -77803,7 +77803,7 @@
 26	tvättar	tvätta	VB	-.-.-	VB.IND.AKT.PRS	29	KL		
 27	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	26	SB		
 28	av	av	PE	-.-.-	PE.-	26	PL		
-29	och	och	KO	-.-.-	KO.-	3	--		
+29	och	och	KO	-.-.-	KO.-	3	parataxis		
 30	polerar	polera	VB	-.-.-	VB.IND.AKT.PRS	29	KL		
 31	lätt	lätt	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	30	MD		
 32	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	34	DT		
@@ -78037,7 +78037,7 @@
 20	bara	bara	AB	-.-.-	AB.-.-	18	MD		
 21	orden	ord	NN	-.-.-	NN.NEU.PLU.DEF	18	OO		SpaceAfter=No
 22	,	_	SY	-.-.-	SY.DEL	8	--		
-23	men	men	KO	-.-.-	KO.-	8	--		
+23	men	men	KO	-.-.-	KO.-	8	parataxis		
 24	alltid	alltid	AB	-.-.-	AB.-.-	25	MD		
 25	med	med	PE	-.-.-	PE.-	29	KL		
 26	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	27	DT		
@@ -78069,7 +78069,7 @@
 13	större	stor	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	12	SP		
 14	än	än	SU	-.-.-	SU.-	13	JF		
 15	jul	jul	NN	-.-.-	NN.UTR.SIN.IND	14	OO		
-16	och	och	KO	-.-.-	KO.-	4	--		
+16	och	och	KO	-.-.-	KO.-	4	parataxis		
 17	i	i	PE	-.-.-	PE.-	16	OA		
 18	nivå	nivå	NN	-.-.-	NN.UTR.SIN.IND	17	OO		
 19	med	med	PE	-.-.-	PE.-	18	MD		
@@ -78151,7 +78151,7 @@
 23	,	_	SY	-.-.-	SY.DEL	3	--		
 24	tvärtom	tvärtom	AB	-.-.-	AB.-.-	26	MD		
 25	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	26	SB		
-26	känner	känna	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+26	känner	känna	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 27	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	29	DT		
 28	stor	stor	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	29	MD		
 29	befrielse	befrielse	NN	-.-.-	NN.UTR.SIN.IND	26	OO		
@@ -78186,7 +78186,7 @@
 18	hat	hat	NN	-.-.-	NN.NEU.SIN.IND	15	KL		SpaceAfter=No
 19	,	_	SY	-.-.-	SY.DEL	7	--		
 20	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	21	SB		
-21	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	7	--		
+21	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	7	parataxis		
 22	inte	inte	AB	-.-.-	AB.-.-	21	MD		
 23	utsätta	utsätta	VB	-.-.-	VB.INF.AKT.-	21	IV		
 24	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	23	OO		
@@ -78237,7 +78237,7 @@
 8	Tage	Tage	EN	-.-.-	EN.-	7	OO		
 9	Bengtsson	Bengtsson	EN	-.-.-	EN.-	8	ME		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	25	--		
-11	men	men	KO	-.-.-	KO.-	25	--		
+11	men	men	KO	-.-.-	KO.-	25	parataxis		
 12	inte	inte	AB	-.-.-	AB.-.-	16	MD		
 13	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	15	DT		
 14	enda	enda	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	15	MD		
@@ -78261,7 +78261,7 @@
 32	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	31	OO		SpaceAfter=No
 33	,	_	SY	-.-.-	SY.DEL	25	--		
 34	aldrig	aldrig	AB	-.-.-	AB.-.-	35	MD		
-35	har	ha	VB	-.-.-	VB.IND.AKT.PRS	25	--		
+35	har	ha	VB	-.-.-	VB.IND.AKT.PRS	25	parataxis		
 36	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	35	SB		
 37	nått	nå	VB	-.-.-	VB.SPM.AKT.-	35	IV		
 38	fram	fram	AB	-.-.-	AB.-.-	37	PL		
@@ -78288,7 +78288,7 @@
 9	liv	liv	NN	-.-.-	NN.NEU.SIN.IND	6	OO		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	2	--		
 11	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
-12	går	gå	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+12	går	gå	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 13	inte	inte	AB	-.-.-	AB.-.-	12	MD		
 14	dit	dit	AB	-.-.-	AB.-.-	12	RA		SpaceAfter=No
 15	.	_	SY	-.-.-	SY.DEL	2	--		
@@ -78315,7 +78315,7 @@
 18	sparkar	sparka	VB	-.-.-	VB.IND.AKT.PRS	21	KL		
 19	på	på	PE	-.-.-	PE.-	18	MD		
 20	saker	sak	NN	-.-.-	NN.UTR.PLU.IND	19	OO		
-21	och	och	KO	-.-.-	KO.-	8	--		
+21	och	och	KO	-.-.-	KO.-	8	parataxis		
 22	kastar	kasta	VB	-.-.-	VB.IND.AKT.PRS	21	KL		
 23	lösa	lös	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	24	MD		
 24	föremål	föremål	NN	-.-.-	NN.NEU.PLU.IND	22	OO		
@@ -78384,7 +78384,7 @@
 11	säger	säga	VB	-.-.-	VB.IND.AKT.PRS	14	KL		
 12	aldrig	aldrig	AB	-.-.-	AB.-.-	11	MD		
 13	far	far	NN	-.-.-	NN.UTR.SIN.IND	11	OO		
-14	och	och	KO	-.-.-	KO.-	2	--		
+14	och	och	KO	-.-.-	KO.-	2	parataxis		
 15	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	16	SB		
 16	har	ha	VB	-.-.-	VB.IND.AKT.PRS	14	KL		
 17	sin	sin	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	18	DT		
@@ -78450,7 +78450,7 @@
 6	människa	människa	NN	-.-.-	NN.UTR.SIN.IND	3	SP		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	3	--		
 8	gården	gård	NN	-.-.-	NN.UTR.SIN.DEF	9	SB		
-9	fick	få	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+9	fick	få	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 10	skötas	sköta	VB	-.-.-	VB.INF.SFO.-	9	IV		
 11	av	av	PE	-.-.-	PE.-	10	AG		
 12	barnen	barn	NN	-.-.-	NN.NEU.PLU.DEF	13	KL		
@@ -78519,7 +78519,7 @@
 4	honom	han	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	3	OO		
 5	till	till	PE	-.-.-	PE.-	3	MD		
 6	vansinne	vansinne	NN	-.-.-	NN.NEU.SIN.IND	5	OO		
-7	och	och	KO	-.-.-	KO.-	16	--		
+7	och	och	KO	-.-.-	KO.-	16	parataxis		
 8	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	9	SB		
 9	utdelade	utdela	VB	-.-.-	VB.IND.AKT.PRT	7	KL		
 10	både	både	KO	-.-.-	KO.-	9	OO		
@@ -78569,7 +78569,7 @@
 9	man	man	NN	-.-.-	NN.UTR.SIN.IND	4	SB		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	4	--		
 11	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		
-12	var	vara	VB	-.-.-	VB.IND.AKT.PRT	4	--		
+12	var	vara	VB	-.-.-	VB.IND.AKT.PRT	4	parataxis		
 13	djävulens	djävul	NN	-.GEN.-	NN.UTR.SIN.DEF	14	DT		
 14	budbärare	budbärare	NN	-.-.-	NN.UTR.SIN.IND	18	KL		SpaceAfter=No
 15	,	_	SY	-.-.-	SY.DEL	4	--		
@@ -78625,7 +78625,7 @@
 12	Bengtsson	Bengtsson	EN	-.-.-	EN.-	10	ME		SpaceAfter=No
 13	,	_	SY	-.-.-	SY.DEL	2	--		
 14	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	15	SB		
-15	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	2	--		
+15	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	2	parataxis		
 16	bara	bara	AB	-.-.-	AB.-.-	15	MD		
 17	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	18	DT		
 18	sak	sak	NN	-.-.-	NN.UTR.SIN.IND	15	ES		
@@ -78634,7 +78634,7 @@
 21	säga	säga	VB	-.-.-	VB.INF.AKT.-	20	OO		SpaceAfter=No
 22	,	_	SY	-.-.-	SY.DEL	2	--		
 23	A-et	a	NN	-.-.-	NN.NEU.SIN.DEF	24	SB		
-24	står	stå	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+24	står	stå	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 25	för	för	PE	-.-.-	PE.-	24	OA		
 26	Albin	Albin	EN	-.-.-	EN.-	25	OO		SpaceAfter=No
 27	,	_	SY	-.-.-	SY.DEL	2	--		
@@ -78686,7 +78686,7 @@
 6	huvud	huvud	NN	-.-.-	NN.NEU.SIN.IND	3	OO		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	2	--		
 8	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	9	SB		
-9	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+9	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 10	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	11	DT		
 11	unikum	unikum	NN	-.-.-	NN.NEU.SIN.IND	9	SP		
 12	att	att	SU	-.-.-	SU.-	11	MD		
@@ -78783,7 +78783,7 @@
 8	särskildhet	särskildhet	NN	-.-.-	NN.UTR.SIN.IND	3	KL		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	2	--		
 10	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	11	SB		
-11	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+11	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 12	på	på	PE	-.-.-	PE.-	11	MD		
 13	något	någon	PO	-.-.-	PO.IND.SIN.NEU.-.-	14	DT		
 14	sätt	sätt	NN	-.-.-	NN.NEU.SIN.IND	12	OO		
@@ -78959,7 +78959,7 @@
 6	konservatism	konservatism	NN	-.-.-	NN.UTR.SIN.IND	5	KL		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	2	--		
 8	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	9	SB		
-9	leder	leda	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+9	leder	leda	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 10	sällan	sällan	AB	-.-.-	AB.-.-	9	MD		
 11	till	till	PE	-.-.-	PE.-	9	OA		
 12	nytänkande	nytänkande	NN	-.-.-	NN.NEU.SIN.IND	13	KL		
@@ -79058,7 +79058,7 @@
 19	på	på	PE	-.-.-	PE.-	22	MD		
 20	något	någon	PO	-.-.-	PO.IND.SIN.NEU.-.-	21	DT		
 21	sätt	sätt	NN	-.-.-	NN.NEU.PLU.IND	19	OO		
-22	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+22	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 23	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	22	SB		
 24	bättre	bra	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	22	SP		
 25	att	att	SU	-.-.-	SU.-	22	ES		
@@ -79241,7 +79241,7 @@
 12	i	i	PE	-.-.-	PE.-	10	RA		
 13	hela	hel	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	14	DT		
 14	kroppen	kropp	NN	-.-.-	NN.UTR.SIN.DEF	12	OO		
-15	och	och	KO	-.-.-	KO.-	2	--		
+15	och	och	KO	-.-.-	KO.-	2	parataxis		
 16	frestar	fresta	VB	-.-.-	VB.IND.AKT.PRS	15	KL		
 17	på	på	PE	-.-.-	PE.-	16	PL		SpaceAfter=No
 18	.	_	SY	-.-.-	SY.DEL	2	--		
@@ -79258,7 +79258,7 @@
 8	sjukhuset	sjukhus	NN	-.-.-	NN.NEU.SIN.DEF	7	OO		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	3	--		
 10	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	11	SB		
-11	för	föra	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+11	för	föra	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 12	varje	varje	PO	-.-.-	PO.IND.SIN.UTR.-.-	13	DT		
 13	gång	gång	NN	-.-.-	NN.UTR.SIN.IND	11	MD		
 14	med	med	PE	-.-.-	PE.-	11	PL		
@@ -79315,7 +79315,7 @@
 9	länge	länge	AB	-.-.-	AB.POS.-	7	MD		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	6	--		
 11	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	12	SB		
-12	har	ha	VB	-.-.-	VB.IND.AKT.PRS	6	--		
+12	har	ha	VB	-.-.-	VB.IND.AKT.PRS	6	parataxis		
 13	följts	följa	VB	-.-.-	VB.SPM.SFO.-	12	IV		
 14	åt	åt	PE	-.-.-	PE.-	13	PL		
 15	genom	genom	PE	-.-.-	PE.-	13	MD		
@@ -79399,7 +79399,7 @@
 8	brusvärld	brus<värld	NN	-.-.-	NN.UTR.SIN.IND	6	OO		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	2	--		
 10	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	11	SB		
-11	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+11	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 12	berätta	berätta	VB	-.-.-	VB.INF.AKT.-	11	IV		SpaceAfter=No
 13	,	_	SY	-.-.-	SY.DEL	2	--		
 14	detta	denna	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	16	DT		
@@ -79473,7 +79473,7 @@
 9	lärda	lärd	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	7	OO		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	3	--		
 11	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	12	SB		
-12	har	ha	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+12	har	ha	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 13	bara	bara	AB	-.-.-	AB.-.-	12	MD		
 14	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	15	DT		
 15	kunskap	kunskap	NN	-.-.-	NN.UTR.SIN.IND	12	OO		
@@ -79580,7 +79580,7 @@
 36	avsevärd	avsevärd	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	37	MD		
 37	tid	tid	NN	-.-.-	NN.UTR.SIN.IND	35	OO		SpaceAfter=No
 38	,	_	SY	-.-.-	SY.DEL	2	--		
-39	men	men	KO	-.-.-	KO.-	2	--		
+39	men	men	KO	-.-.-	KO.-	2	parataxis		
 40	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	41	SB		
 41	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	39	KL		
 42	lyckas	lyckas	VB	-.-.-	VB.INF.SFO.-	41	IV		SpaceAfter=No
@@ -79600,7 +79600,7 @@
 10	tveksam	tveksam	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	6	SP		SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	6	--		
 12	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	13	SB		
-13	känns	känna	VB	-.-.-	VB.IND.SFO.PRS	6	--		
+13	känns	känna	VB	-.-.-	VB.IND.SFO.PRS	6	parataxis		
 14	som	som	SU	-.-.-	SU.-	13	OA		
 15	att	att	SU	-.-.-	SU.-	14	OO		
 16	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	17	SB		
@@ -79624,7 +79624,7 @@
 34	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	35	DT		
 35	friska	frisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	33	OO		SpaceAfter=No
 36	,	_	SY	-.-.-	SY.DEL	6	--		
-37	förefaller	förefalla	VB	-.-.-	VB.IND.AKT.PRS	6	--		
+37	förefaller	förefalla	VB	-.-.-	VB.IND.AKT.PRS	6	parataxis		
 38	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	37	SB		
 39	svårt	svår	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	37	OA		
 40	att	att	SU	-.-.-	SU.-	39	OO		
@@ -79708,7 +79708,7 @@
 11	varandra	varandra	PO	-.-.-	PO.DEF.PLU.UTR/NEU.-.-	10	OO		SpaceAfter=No
 12	,	_	SY	-.-.-	SY.DEL	2	--		
 13	tystnaden	tystnad	NN	-.-.-	NN.UTR.SIN.DEF	14	SB		
-14	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+14	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 15	inget	ingen	PO	-.-.-	PO.IND.SIN.NEU.-.-	16	DT		
 16	hot	hot	NN	-.-.-	NN.NEU.SIN.IND	17	KL		
 17	och	och	KO	-.-.-	KO.-	21	KL		
@@ -79757,7 +79757,7 @@
 7	ordfattig	ordfattig	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	4	SP		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	4	--		
 9	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	10	SB		
-10	är	vara	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+10	är	vara	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 11	både	både	KO	-.-.-	KO.-	10	SP		
 12	mild	mild	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	11	KL		SpaceAfter=No
 13	,	_	SY	-.-.-	SY.DEL	4	--		
@@ -79810,7 +79810,7 @@
 10	gamla	gammal	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	8	OO		SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	5	--		
 12	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	13	OO		
-13	vet	veta	VB	-.-.-	VB.IND.AKT.PRS	5	--		
+13	vet	veta	VB	-.-.-	VB.IND.AKT.PRS	5	parataxis		
 14	båda	båda	PO	-.-.-	PO.DEF.PLU.UTR/NEU.-.-	13	SB		
 15	att	att	SU	-.-.-	SU.-	13	EO		
 16	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	17	SB		
@@ -79846,7 +79846,7 @@
 18	ingen	ingen	PO	-.-.-	PO.IND.SIN.UTR.-.-	21	SB		
 19	på	på	PE	-.-.-	PE.-	18	MD		
 20	anstalten	anstalt	NN	-.-.-	NN.UTR.SIN.DEF	19	OO		
-21	talar	tala	VB	-.-.-	VB.IND.AKT.PRS	6	--		
+21	talar	tala	VB	-.-.-	VB.IND.AKT.PRS	6	parataxis		
 22	med	med	PE	-.-.-	PE.-	21	OA		
 23	Ernst	Ernst	EN	-.-.-	EN.-	22	OO		
 24	om	om	PE	-.-.-	PE.-	21	MD		
@@ -79888,12 +79888,12 @@
 8	parken	park	NN	-.-.-	NN.UTR.SIN.DEF	7	OO		SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	2	--		
 10	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	11	SB		
-11	passar	passa	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+11	passar	passa	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 12	Ernst	Ernst	EN	-.-.-	EN.-	11	OO		
 13	utmärkt	utmärkt	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	11	MD		SpaceAfter=No
 14	,	_	SY	-.-.-	SY.DEL	2	--		
 15	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	16	SB		
-16	trivs	trivas	VB	-.-.-	VB.IND.SFO.PRS	2	--		
+16	trivs	trivas	VB	-.-.-	VB.IND.SFO.PRS	2	parataxis		
 17	att	att	SU	-.-.-	SU.-	16	OO		
 18	vara	vara	VB	-.-.-	VB.INF.AKT.-	17	OO		
 19	ute	ute	AB	-.-.-	AB.-.-	18	RA		SpaceAfter=No
@@ -79914,7 +79914,7 @@
 11	behöver	behöva	VB	-.-.-	VB.IND.AKT.PRS	9	OO		SpaceAfter=No
 12	,	_	SY	-.-.-	SY.DEL	3	--		
 13	dessutom	dessutom	AB	-.-.-	AB.-.-	14	MD		
-14	har	ha	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+14	har	ha	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 15	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	14	SB		
 16	alltid	alltid	AB	-.-.-	AB.-.-	14	MD		
 17	med	med	PE	-.-.-	PE.-	14	PL		
@@ -79940,7 +79940,7 @@
 9	boklådan	boklåda	NN	-.-.-	NN.UTR.SIN.DEF	8	OO		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	2	--		
 11	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	12	SB		
-12	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+12	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 13	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	14	DT		
 14	första	första	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	12	SP		
 15	som	som	SU	-.-.-	SU.-	14	MD		
@@ -80265,7 +80265,7 @@
 29	Frankrike	Frankrike	EN	-.-.-	EN.-	30	KL		
 30	och	och	KO	-.-.-	KO.-	28	OO		
 31	Schweiz	Schweiz	EN	-.-.-	EN.-	30	KL		
-32	och	och	KO	-.-.-	KO.-	5	--		
+32	och	och	KO	-.-.-	KO.-	5	parataxis		
 33	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	34	SB		
 34	ger	ge	VB	-.-.-	VB.IND.AKT.PRS	32	KL		
 35	regelbundet	regelbunden	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	34	MD		
@@ -80398,7 +80398,7 @@
 14	för	för	PE	-.-.-	PE.-	13	MD		
 15	dem	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	14	OO		SpaceAfter=No
 16	,	_	SY	-.-.-	SY.DEL	2	--		
-17	och	och	KO	-.-.-	KO.-	2	--		
+17	och	och	KO	-.-.-	KO.-	2	parataxis		
 18	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	19	SB		
 19	har	ha	VB	-.-.-	VB.IND.AKT.PRS	17	KL		
 20	inte	inte	AB	-.-.-	AB.-.-	19	MD		
@@ -80528,7 +80528,7 @@
 16	var	vara	VB	-.-.-	VB.IND.AKT.PRT	15	OO		
 17	kopra	kopra	NN	-.-.-	NN.UTR.SIN.IND	16	SP		SpaceAfter=No
 18	,	_	SY	-.-.-	SY.DEL	28	--		
-19	och	och	KO	-.-.-	KO.-	28	--		
+19	och	och	KO	-.-.-	KO.-	28	parataxis		
 20	av	av	PE	-.-.-	PE.-	32	MD	32:MD|24:|26:|28:	
 21	vilket	vilken	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	20	OO		
 22	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	23	SB		
@@ -83368,7 +83368,7 @@
 23	återvände	återvända	VB	-.-.-	VB.IND.AKT.PRT	21	MD		
 24	--	_	SY	-.-.-	SY.DEL	3	--		
 25	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	26	SB		
-26	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+26	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 27	inte	inte	AB	-.-.-	AB.-.-	26	MD		
 28	dröja	dröja	VB	-.-.-	VB.INF.AKT.-	26	IV		
 29	så	så	AB	-.-.-	AB.-.-	30	MD		
@@ -83596,7 +83596,7 @@
 9	sälta	sälta	NN	-.-.-	NN.UTR.SIN.IND	7	OO		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	2	--		
 11	än	än	AB	-.-.-	AB.-.-	12	MD		
-12	dansar	dansa	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+12	dansar	dansa	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 13	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	12	SB		
 14	som	som	SU	-.-.-	SU.-	12	JF		
 15	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	17	DT		
@@ -84124,7 +84124,7 @@
 8	ön	ö	NN	-.-.-	NN.UTR.SIN.DEF	7	OO		
 9	—	_	SY	-.-.-	SY.DEL	2	--		
 10	där	där	AB	-.-.-	AB.-.-	11	RA		
-11	var	vara	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+11	var	vara	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 12	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	11	SB		
 13	nära	nära	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	11	RA		
 14	Tahitis	Tahiti	EN	-.GEN.-	EN.-	16	DT		
@@ -84752,7 +84752,7 @@
 12	i	i	PE	-.-.-	PE.-	15	MD		
 13	nästa	nästa	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	14	MD		
 14	ögonblick	ögonblick	NN	-.-.-	NN.NEU.SIN.IND	12	OO		
-15	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+15	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 16	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	15	SB		
 17	kanske	kanske	AB	-.-.-	AB.-.-	15	MD		
 18	försvunna	försvunnen	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	15	SP		SpaceAfter=No
@@ -85086,7 +85086,7 @@
 3	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	4	SB		
 4	reste	resa	VB	-.-.-	VB.IND.AKT.PRT	2	OO		
 5	---	_	SY	-.-.-	SY.DEL	1	--		
-6	jo	jo	IJ	-.-.-	IJ.-	1	--		SpaceAfter=No
+6	jo	jo	IJ	-.-.-	IJ.-	1	parataxis		SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	1	--		
 8	för	för	PE	-.-.-	PE.-	6	MD		
 9	att	att	SU	-.-.-	SU.-	8	OO		
@@ -86572,7 +86572,7 @@
 24	på	på	PE	-.-.-	PE.-	23	OA		
 25	Stures	Sture	EN	-.GEN.-	EN.-	26	DT		
 26	utläggning	utläggning	NN	-.-.-	NN.UTR.SIN.IND	24	OO		
-27	och	och	KO	-.-.-	KO.-	5	--		
+27	och	och	KO	-.-.-	KO.-	5	parataxis		
 28	kommenterade	kommentera	VB	-.-.-	VB.IND.AKT.PRT	27	KL		SpaceAfter=No
 29	:	_	SY	-.-.-	SY.DEL	5	--		
 30	”	_	SY	-.-.-	SY.DEL	5	--		SpaceAfter=No
@@ -89185,7 +89185,7 @@
 18	Hugo	Hugo	EN	-.-.-	EN.-	17	AN		SpaceAfter=No
 19	,	_	SY	-.-.-	SY.DEL	3	--		
 20	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	21	SB		
-21	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+21	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 22	nog	nog	AB	-.-.-	AB.-.-	21	MD		
 23	hjälpa	hjälpa	VB	-.-.-	VB.INF.AKT.-	21	IV		
 24	oss	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	23	OO		SpaceAfter=No
@@ -89221,7 +89221,7 @@
 12	idag	idag	AB	-.-.-	AB.-.-	8	MD		SpaceAfter=No
 13	?	_	SY	-.-.-	SY.DEL	2	--		SpaceAfter=No
 14	”	_	SY	-.-.-	SY.DEL	2	--		
-15	frågade	fråga	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+15	frågade	fråga	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 16	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	15	SB		SpaceAfter=No
 17	.	_	SY	-.-.-	SY.DEL	2	--		
 
@@ -89251,7 +89251,7 @@
 8	sådan	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	9	MD		
 9	ASTRAL-pil	ASTRAL<pil	NN	-.-.-	NN.UTR.SIN.IND	6	OO		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	21	--		
-11	så	så	KO	-.-.-	KO.-	21	--		
+11	så	så	KO	-.-.-	KO.-	21	parataxis		
 12	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	13	SB		
 13	vet	veta	VB	-.-.-	VB.IND.AKT.PRS	11	KL		
 14	vad	vad	PO	-.-.-	PO.IND.SIN.NEU.-.FRL	13	OO		
@@ -89362,7 +89362,7 @@
 23	,	_	SY	-.-.-	SY.DEL	2	--		
 24	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	26	KL		
 25	Sven	Sven	EN	-.-.-	EN.-	24	SB		
-26	och	och	KO	-.-.-	KO.-	2	--		
+26	och	och	KO	-.-.-	KO.-	2	parataxis		
 27	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	28	DT		
 28	kvart	kvart	NN	-.-.-	NN.UTR.SIN.IND	29	MD		
 29	senare	sen	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	30	MD		
@@ -90364,7 +90364,7 @@
 4	tur	tur	NN	-.-.-	NN.UTR.SIN.IND	3	OO		SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	3	--		
 6	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	7	SB		
-7	stod	stå	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+7	stod	stå	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 8	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	9	DT		
 9	kittel	kittel	NN	-.-.-	NN.UTR.SIN.IND	7	OO		
 10	med	med	PE	-.-.-	PE.-	9	MD		
@@ -91791,7 +91791,7 @@
 4	smakade	smaka	VB	-.-.-	VB.IND.AKT.PRT	2	OO		
 5	illa	illa	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	4	OA		SpaceAfter=No
 6	,	_	SY	-.-.-	SY.DEL	26	--		
-7	men	men	KO	-.-.-	KO.-	26	--		
+7	men	men	KO	-.-.-	KO.-	26	parataxis		
 8	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	9	SB		
 9	var	vara	VB	-.-.-	VB.IND.AKT.PRT	7	KL		
 10	ju	ju	AB	-.-.-	AB.-.-	11	MD		
@@ -92966,7 +92966,7 @@
 19	där	där	AB	-.-.-	AB.-.-	18	RA		
 20	-	_	SY	-.-.-	SY.DEL	4	--		
 21	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	22	SB		
-22	undersökte	undersöka	VB	-.-.-	VB.IND.AKT.PRT	4	--		
+22	undersökte	undersöka	VB	-.-.-	VB.IND.AKT.PRT	4	parataxis		
 23	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	24	DT		
 24	hela	hel	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	22	OO		
 25	genom	genom	PE	-.-.-	PE.-	22	MD		
@@ -93031,7 +93031,7 @@
 9	genom	genom	PE	-.-.-	PE.-	8	OA		
 10	trubbigt	trubbig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	11	MD		
 11	våld	våld	NN	-.-.-	NN.NEU.SIN.IND	9	OO		
-12	och	och	KO	-.-.-	KO.-	26	--		
+12	och	och	KO	-.-.-	KO.-	26	parataxis		
 13	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	16	DT		
 14	återstående	återstående	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	16	MD		
 15	1,1	ett komma ett	NU	-.-.-	NU.-	16	DT		
@@ -93128,7 +93128,7 @@
 15	rik	rik	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	18	SP		
 16	på	på	PE	-.-.-	PE.-	15	OA		
 17	sådana	sådan	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	16	OO		
-18	är	vara	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+18	är	vara	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 19	Asterix	Asterix	EN	-.-.-	EN.-	18	SB		
 20	i	i	PE	-.-.-	PE.-	19	MD		
 21	Belgien	Belgien	EN	-.-.-	EN.-	20	OO		
@@ -93659,7 +93659,7 @@
 10	med	med	PE	-.-.-	PE.-	8	MD		
 11	(	_	SY	-.-.-	SY.DEL	4	--		SpaceAfter=No
 12	mistlar	mistel	NN	-.-.-	NN.UTR.PLU.IND	13	SB		
-13	är	vara	VB	-.-.-	VB.IND.AKT.PRS	4	--		
+13	är	vara	VB	-.-.-	VB.IND.AKT.PRS	4	parataxis		
 14	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	13	SP		
 15	av	av	PE	-.-.-	PE.-	14	MD		
 16	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	18	DT		
@@ -93821,7 +93821,7 @@
 6	svensk	svensk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	7	MD		
 7	utgivning	utgivning	NN	-.-.-	NN.UTR.SIN.IND	5	OO		
 8	(	_	SY	-.-.-	SY.DEL	2	--		SpaceAfter=No
-9	klicka	klicka	VB	-.-.-	VB.IMP.AKT.-	2	--		
+9	klicka	klicka	VB	-.-.-	VB.IMP.AKT.-	2	parataxis		
 10	på	på	PE	-.-.-	PE.-	9	MD		
 11	trianglarna	triangel	NN	-.-.-	NN.UTR.PLU.DEF	10	OO		
 12	vid	vid	PE	-.-.-	PE.-	11	MD		
@@ -94167,7 +94167,7 @@
 24	tjocka	tjock	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	25	MD		
 25	volymer	volym	NN	-.-.-	NN.UTR.PLU.IND	22	OO		SpaceAfter=No
 26	,	_	SY	-.-.-	SY.DEL	2	--		
-27	och	och	KO	-.-.-	KO.-	2	--		
+27	och	och	KO	-.-.-	KO.-	2	parataxis		
 28	2001	tvåtusenett	NU	-.-.-	NU.-	29	KL		SpaceAfter=No
 29	–	_	SY	-.-.-	SY.DEL	31	MD		SpaceAfter=No
 30	06	noll sex	NU	-.-.-	NU.-	29	KL		
@@ -96001,7 +96001,7 @@
 10	särskild	särskild	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	11	MD		
 11	målgrupp	målgrupp	NN	-.-.-	NN.UTR.SIN.IND	8	OO		SpaceAfter=No
 12	,	_	SY	-.-.-	SY.DEL	24	--		
-13	och	och	KO	-.-.-	KO.-	24	--		
+13	och	och	KO	-.-.-	KO.-	24	parataxis		
 14	böckerna	bok	NN	-.-.-	NN.UTR.PLU.DEF	15	SB		
 15	har	ha	VB	-.-.-	VB.IND.AKT.PRS	13	KL		
 16	också	också	AB	-.-.-	AB.-.-	15	MD		
@@ -96358,7 +96358,7 @@
 18	och	och	KO	-.-.-	KO.-	16	OO		
 19	hans	han	PO	-.GEN.-	PO.DEF.SIN.UTR.OBJ.-	20	DT		
 20	anhängare	anhängare	NN	-.-.-	NN.UTR.PLU.IND	18	KL		
-21	men	men	KO	-.-.-	KO.-	5	--		
+21	men	men	KO	-.-.-	KO.-	5	parataxis		
 22	förekommer	förekomma	VB	-.-.-	VB.IND.AKT.PRS	21	KL		
 23	även	även	AB	-.-.-	AB.-.-	22	MD		
 24	mellan	mellan	PE	-.-.-	PE.-	22	RA		
@@ -97438,7 +97438,7 @@
 19	framtida	framtida	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	20	MD		
 20	Harry Potter-böcker	Harry Potter|bok	NN	-.-.-	NN.UTR.PLU.IND	18	OO		SpaceAfter=No
 21	,	_	SY	-.-.-	SY.DEL	2	--		
-22	för	för	PE	-.-.-	PE.-	2	--		
+22	för	för	PE	-.-.-	PE.-	2	parataxis		
 23	att	att	SU	-.-.-	SU.-	22	OO		
 24	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	26	SB		
 25	inte	inte	AB	-.-.-	AB.-.-	26	MD		
@@ -98158,7 +98158,7 @@
 36	plagiat	plagiat	NN	-.-.-	NN.NEU.SIN.IND	34	SP		SpaceAfter=No
 37	;	_	SY	-.-.-	SY.DEL	20	--		
 38	Stouffer	Stouffer	EN	-.-.-	EN.-	39	SB		
-39	ansåg	anse	VB	-.-.-	VB.IND.AKT.PRT	20	--		
+39	ansåg	anse	VB	-.-.-	VB.IND.AKT.PRT	20	parataxis		
 40	bland	bland	PE	-.-.-	PE.-	39	MD		
 41	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	40	OO		
 42	att	att	SU	-.-.-	SU.-	39	OO		
@@ -98590,7 +98590,7 @@
 12	två	två	NU	-.-.-	NU.-	11	DT		
 13	mest	mycken	AJ	-.-.-	AJ.SUV.SIN/PLU.IND.UTR/NEU.-	14	MD		
 14	kända	känd	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	11	MD		
-15	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+15	är	vara	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 16	A	_	UO	-.-.-	UO.-	18	ME		
 17	Very	_	UO	-.-.-	UO.-	18	ME		
 18	Potter	Potter	EN	-.-.-	EN.-	23	KL		
@@ -100119,7 +100119,7 @@
 6	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	5	OO		
 7	Oscar	Oscar	EN	-.-.-	EN.-	3	OO		SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	3	--		
-9	exempel	exempel	NN	-.-.-	NN.NEU.SIN.IND	3	--		SpaceAfter=No
+9	exempel	exempel	NN	-.-.-	NN.NEU.SIN.IND	3	parataxis		SpaceAfter=No
 10	:	_	SY	-.-.-	SY.DEL	3	--		
 11	Sagan	saga	NN	-.-.-	NN.UTR.SIN.DEF	9	HD	9:HD|15:	
 12	om	om	PE	-.-.-	PE.-	11	MD		
@@ -102156,7 +102156,7 @@
 24	:	_	SY	-.-.-	SY.DEL	4	--		
 25	dess	den	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.PSS.-	26	DT		
 26	hamnar	hamn	NN	-.-.-	NN.UTR.PLU.IND	27	SB		
-27	erbjöd	erbjuda	VB	-.-.-	VB.IND.AKT.PRT	4	--		
+27	erbjöd	erbjuda	VB	-.-.-	VB.IND.AKT.PRT	4	parataxis		
 28	sötvatten	sötvatten	NN	-.-.-	NN.NEU.SIN.IND	29	KL		
 29	och	och	KO	-.-.-	KO.-	27	OO		
 30	proviant	proviant	NN	-.-.-	NN.UTR.SIN.IND	29	KL		SpaceAfter=No
@@ -102384,7 +102384,7 @@
 27	kapade	kapa	VB	-.-.-	VB.IND.AKT.PRT	30	KL		
 28	arabiska	arabisk	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	29	MD		
 29	handelsskepp	handels|skepp	NN	-.-.-	NN.NEU.PLU.IND	27	OO		
-30	och	och	KO	-.-.-	KO.-	4	--		
+30	och	och	KO	-.-.-	KO.-	4	parataxis		
 31	slog	slå	VB	-.-.-	VB.IND.AKT.PRT	30	KL		
 32	slutligen	slutligen	AB	-.-.-	AB.-.-	31	MD		
 33	sönder	sönder	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	31	PL		
@@ -103266,7 +103266,7 @@
 12	Merrit	Merrit	EN	-.-.-	EN.-	11	ME		
 13	Singer	Singer	EN	-.-.-	EN.-	11	ME		SpaceAfter=No
 14	,	_	SY	-.-.-	SY.DEL	29	--		
-15	och	och	KO	-.-.-	KO.-	29	--		
+15	och	och	KO	-.-.-	KO.-	29	parataxis		
 16	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	17	SB		
 17	slog	slå	VB	-.-.-	VB.IND.AKT.PRT	15	KL		
 18	snart	snart	AB	-.-.-	AB.-.-	17	MD		
@@ -103801,7 +103801,7 @@
 35	hjälp	hjälp	NN	-.-.-	NN.UTR.SIN.IND	33	OO		SpaceAfter=No
 36	,	_	SY	-.-.-	SY.DEL	4	--		
 37	öglan	ögla	NN	-.-.-	NN.UTR.SIN.DEF	38	SB		
-38	förs	föra	VB	-.-.-	VB.IND.SFO.PRS	4	--		
+38	förs	föra	VB	-.-.-	VB.IND.SFO.PRS	4	parataxis		
 39	runt	runt	PE	-.-.-	PE.-	38	OA		
 40	undertråden	undertråd	NN	-.-.-	NN.UTR.SIN.DEF	39	OO		
 41	så	så	AB	-.-.-	AB.-.-	38	MD		
@@ -107262,7 +107262,7 @@
 16	prognoser	prognos	NN	-.-.-	NN.UTR.PLU.IND	22	OO		
 17	än	än	SU	-.-.-	SU.-	15	JF		
 18	så	så	AB	-.-.-	AB.-.-	17	OO		
-19	går	gå	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+19	går	gå	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 20	inte	inte	AB	-.-.-	AB.-.-	19	MD		
 21	att	att	SU	-.-.-	SU.-	19	SB		
 22	göra	göra	VB	-.-.-	VB.INF.AKT.-	21	OO		
@@ -107786,7 +107786,7 @@
 11	varje	varje	PO	-.-.-	PO.IND.SIN.UTR.-.-	12	DT		
 12	hemisfär	hemisfär	NN	-.-.-	NN.UTR.SIN.IND	10	OO		
 13	(	_	SY	-.-.-	SY.DEL	3	--		SpaceAfter=No
-14	se	se	VB	-.-.-	VB.IMP.AKT.-	3	--		
+14	se	se	VB	-.-.-	VB.IMP.AKT.-	3	parataxis		
 15	Hadleycell	Hadleycell	EN	-.-.-	EN.-	14	OO		SpaceAfter=No
 16	)	_	SY	-.-.-	SY.DEL	3	--		SpaceAfter=No
 17	.	_	SY	-.-.-	SY.DEL	3	--		
@@ -109194,7 +109194,7 @@
 16	Kato	Kato	EN	-.-.-	EN.-	15	AN		
 17	bor	bo	VB	-.-.-	VB.IND.AKT.PRS	12	OO		SpaceAfter=No
 18	,	_	SY	-.-.-	SY.DEL	5	--		
-19	där	där	SU	-.-.-	SU.-	5	--		
+19	där	där	SU	-.-.-	SU.-	5	parataxis		
 20	nästan	nästan	AB	-.-.-	AB.-.-	21	MD		
 21	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	22	SB		
 22	är	vara	VB	-.-.-	VB.IND.AKT.PRS	19	OO		
@@ -109881,7 +109881,7 @@
 25	genom	genom	PE	-.-.-	PE.-	24	OA		
 26	sten	sten	NN	-.-.-	NN.UTR.SIN.IND	25	OO		SpaceAfter=No
 27	,	_	SY	-.-.-	SY.DEL	2	--		
-28	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+28	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 29	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	28	SB		SpaceAfter=No
 30	.	_	SY	-.-.-	SY.DEL	2	--		SpaceAfter=No
 31	"	_	SY	-.-.-	SY.DEL	2	--		SpaceAfter=No
@@ -109949,7 +109949,7 @@
 14	sten	sten	NN	-.-.-	NN.UTR.SIN.IND	13	OO		SpaceAfter=No
 15	,	_	SY	-.-.-	SY.DEL	9	--		
 16	så	så	AB	-.-.-	AB.-.-	17	OO		
-17	har	ha	VB	-.-.-	VB.IND.AKT.PRS	9	--		
+17	har	ha	VB	-.-.-	VB.IND.AKT.PRS	9	parataxis		
 18	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	17	SB		
 19	bestämt	bestämma	VB	-.-.-	VB.SPM.AKT.-	17	IV		SpaceAfter=No
 20	"	_	SY	-.-.-	SY.DEL	9	--		SpaceAfter=No
@@ -109993,7 +109993,7 @@
 13	sök	söka	VB	-.-.-	VB.IMP.AKT.-	11	KL		
 14	överallt	överallt	AB	-.-.-	AB.-.-	13	RA		SpaceAfter=No
 15	,	_	SY	-.-.-	SY.DEL	5	--		
-16	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	5	--		
+16	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	5	parataxis		
 17	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	18	DT		
 18	ene	en	PO	-.-.-	PO.DEF.SIN.MAS.-.-	16	SB		SpaceAfter=No
 19	.	_	SY	-.-.-	SY.DEL	5	--		
@@ -110153,7 +110153,7 @@
 5	,	_	SY	-.-.-	SY.DEL	2	--		
 6	riddar	riddar	NN	-.-.-	NN.UTR.SIN.IND	8	SB		
 7	Kato	Kato	EN	-.-.-	EN.-	6	AN		
-8	visste	veta	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+8	visste	veta	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 9	redan	redan	AB	-.-.-	AB.-.-	8	MD		
 10	i	i	PE	-.-.-	PE.-	9	MD		
 11	förväg	förväg	NN	-.-.-	NN.UTR.SIN.IND	10	OO		
@@ -110190,7 +110190,7 @@
 23	,	_	SY	-.-.-	SY.DEL	2	--		
 24	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	26	KL		
 25	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	24	SB		
-26	och	och	KO	-.-.-	KO.-	2	--		
+26	och	och	KO	-.-.-	KO.-	2	parataxis		
 27	pekade	peka	VB	-.-.-	VB.IND.AKT.PRT	26	KL		
 28	på	på	PE	-.-.-	PE.-	27	RA		
 29	oss	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	28	OO		
@@ -110425,7 +110425,7 @@
 4	upp	upp	AB	-.-.-	AB.-.-	2	PL		
 5	sin	sin	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	6	DT		
 6	rock	rock	NN	-.-.-	NN.UTR.SIN.IND	2	OO		
-7	och	och	KO	-.-.-	KO.-	17	--		
+7	och	och	KO	-.-.-	KO.-	17	parataxis		
 8	ber	be	VB	-.-.-	VB.IND.AKT.PRS	7	KL		
 9	Mio	Mio	EN	-.-.-	EN.-	8	IO		
 10	att	att	SU	-.-.-	SU.-	8	OO		
@@ -110542,7 +110542,7 @@
 8	strandkanten	strandkant	NN	-.-.-	NN.UTR.SIN.DEF	7	OO		
 9	–	_	SY	-.-.-	SY.DEL	5	--		
 10	hon	hon	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	11	SB		
-11	var	vara	VB	-.-.-	VB.IND.AKT.PRS	5	--		
+11	var	vara	VB	-.-.-	VB.IND.AKT.PRS	5	parataxis		
 12	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	13	DT		
 13	fågel	fågel	NN	-.-.-	NN.UTR.SIN.IND	11	SP		
 14	som	som	SU	-.-.-	SU.-	13	MD		
@@ -110639,7 +110639,7 @@
 23	om	om	PE	-.-.-	PE.-	20	PL		
 24	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	20	OO		SpaceAfter=No
 25	,	_	SY	-.-.-	SY.DEL	7	--		
-26	och	och	KO	-.-.-	KO.-	7	--		
+26	och	och	KO	-.-.-	KO.-	7	parataxis		
 27	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	28	SB		
 28	tycker	tycka	VB	-.-.-	VB.IND.AKT.PRS	26	KL		
 29	så	så	AB	-.-.-	AB.-.-	30	MD		
@@ -110815,7 +110815,7 @@
 23	jättens	jätte	NN	-.-.-	NN.UTR.SIN.DEF	25	DT		CorrectForm=jätten
 24	Bam-Bams	Bam-Bam	EN	-.GEN.-	EN.-	23	AN		
 25	berg	berg	NN	-.-.-	NN.NEU.SIN.IND	22	OO		
-26	och	och	KO	-.-.-	KO.-	3	--		
+26	och	och	KO	-.-.-	KO.-	3	parataxis		
 27	där	där	AB	-.-.-	AB.-.-	28	RA		
 28	blir	bli	VB	-.-.-	VB.IND.AKT.PRS	26	KL		
 29	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	28	SB		
@@ -110950,7 +110950,7 @@
 23	sång	sång	NN	-.-.-	NN.UTR.SIN.IND	20	KL		
 24	i	i	PE	-.-.-	PE.-	23	MD		
 25	trädgården	trädgård	NN	-.-.-	NN.UTR.SIN.DEF	24	OO		
-26	återspeglas	återspegla	VB	-.-.-	VB.IND.SFO.PRS	6	--		
+26	återspeglas	återspegla	VB	-.-.-	VB.IND.SFO.PRS	6	parataxis		
 27	nästan	nästan	AB	-.-.-	AB.-.-	28	MD		
 28	femtio	femtio	NU	-.-.-	NU.-	29	DT		
 29	år	år	NN	-.-.-	NN.NEU.PLU.IND	30	MD		
@@ -111105,7 +111105,7 @@
 9	13B	_	UO	-.-.-	UO.-	8	MD		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	2	--		
 11	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	12	SB		
-12	berodde	bero	VB	-.-.-	VB.IND.AKT.PRT	2	--		
+12	berodde	bero	VB	-.-.-	VB.IND.AKT.PRT	2	parataxis		
 13	ju	ju	AB	-.-.-	AB.-.-	12	MD		
 14	på	på	PE	-.-.-	PE.-	12	OA		
 15	att	att	SU	-.-.-	SU.-	14	OO		
@@ -111373,7 +111373,7 @@
 16	svår	svår	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	14	SP		
 17	ändå	ändå	AB	-.-.-	AB.-.-	14	MD		SpaceAfter=No
 18	,	_	SY	-.-.-	SY.DEL	4	--		
-19	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	4	--		
+19	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	4	parataxis		
 20	Jum-Jum	Jum-Jum	EN	-.-.-	EN.-	19	SB		SpaceAfter=No
 21	.	_	SY	-.-.-	SY.DEL	4	--		
 
@@ -111440,7 +111440,7 @@
 36	är	vara	VB	-.-.-	VB.IND.AKT.PRS	34	OO		
 37	/	_	SY	-.-.-	SY.DEL	3	--		
 38	där	där	AB	-.-.-	AB.-.-	39	RA		
-39	går	gå	VB	-.-.-	VB.IND.AKT.PRS	3	--		
+39	går	gå	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		
 40	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	41	DT		
 41	älskade	älskad	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	39	SB		
 42	med	med	PE	-.-.-	PE.-	39	MD		
@@ -111466,7 +111466,7 @@
 13	morgonpsalm	morgonpsalm	NN	-.-.-	NN.UTR.SIN.IND	11	HD		SpaceAfter=No
 14	:	_	SY	-.-.-	SY.DEL	9	--		
 15	"	_	SY	-.-.-	SY.DEL	9	--		SpaceAfter=No
-16	Tag	ta	VB	-.-.-	VB.IMP.AKT.-	9	--		
+16	Tag	ta	VB	-.-.-	VB.IMP.AKT.-	9	parataxis		
 17	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	16	OO		
 18	med	med	PE	-.-.-	PE.-	16	PL		
 19	i	i	PE	-.-.-	PE.-	16	RA		
@@ -111521,7 +111521,7 @@
 23	Gröna	grön	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	24	MD		
 24	ängars	äng	NN	-.GEN.-	NN.UTR.PLU.IND	25	DT		
 25	ö	ö	NN	-.-.-	NN.UTR.SIN.IND	22	OO		
-26	är	vara	VB	-.-.-	VB.IND.AKT.PRS	8	--		
+26	är	vara	VB	-.-.-	VB.IND.AKT.PRS	8	parataxis		
 27	Landet	land	NN	-.-.-	NN.NEU.SIN.DEF	28	ME		
 28	Utanför	utanför	AB	-.-.-	AB.-.-	26	SP		SpaceAfter=No
 29	.	_	SY	-.-.-	SY.DEL	8	--		
@@ -111567,7 +111567,7 @@
 16	i	i	PE	-.-.-	PE.-	19	RA		
 17	konungens	konung	NN	-.GEN.-	NN.UTR.SIN.DEF	18	DT		
 18	rosengård	rosengård	NN	-.-.-	NN.UTR.SIN.IND	16	OO		
-19	sjunger	sjunga	VB	-.-.-	VB.IND.AKT.PRS	6	--		
+19	sjunger	sjunga	VB	-.-.-	VB.IND.AKT.PRS	6	parataxis		
 20	Sorgfågel	sorg|fågel	NN	-.-.-	NN.UTR.SIN.IND	19	SB		
 21	sin	sin	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	23	DT		
 22	sorgsna	sorgsen	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	23	MD		
@@ -111592,7 +111592,7 @@
 14	lidande	lidande	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	13	KL		
 15	naturen	natur	NN	-.-.-	NN.UTR.SIN.DEF	16	SB	16:SB|18:	
 16	sörjer	sörja	VB	-.-.-	VB.IND.AKT.PRS	17	KL		
-17	och	och	KO	-.-.-	KO.-	3	--		
+17	och	och	KO	-.-.-	KO.-	3	parataxis		
 18	hjälper	hjälpa	VB	-.-.-	VB.IND.AKT.PRS	17	KL		
 19	Mio	Mio	EN	-.-.-	EN.-	18	OO		
 20	utföra	utföra	VB	-.-.-	VB.INF.AKT.-	18	IV		
@@ -113914,7 +113914,7 @@
 5	kontrolluppgifter	kontrolluppgift	NN	-.-.-	NN.UTR.PLU.IND	2	OO		
 6	–	_	SY	-.-.-	SY.DEL	2	--		
 7	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	8	SB		
-8	kontrollerar	kontrollera	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+8	kontrollerar	kontrollera	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 9	regeringens	regering	NN	-.GEN.-	NN.UTR.SIN.DEF	10	KL		
 10	och	och	KO	-.-.-	KO.-	12	DT		
 11	myndigheternas	myndighet	NN	-.GEN.-	NN.UTR.PLU.DEF	10	KL		
@@ -114091,7 +114091,7 @@
 15	ställning	ställning	NN	-.-.-	NN.UTR.SIN.IND	13	OO		SpaceAfter=No
 16	;	_	SY	-.-.-	SY.DEL	13	--		
 17	riksdagen	riksdag	NN	-.-.-	NN.UTR.SIN.DEF	18	SB		
-18	blev	bli	VB	-.-.-	VB.IND.AKT.PRT	13	--		
+18	blev	bli	VB	-.-.-	VB.IND.AKT.PRT	13	parataxis		
 19	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	21	DT		
 20	lydigt	lydig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	21	MD		
 21	redskap	redskap	NN	-.-.-	NN.NEU.SIN.IND	18	SP		
@@ -114173,7 +114173,7 @@
 10	motionsrätt	motionsrätt	NN	-.-.-	NN.UTR.SIN.IND	3	OO		SpaceAfter=No
 11	;	_	SY	-.-.-	SY.DEL	3	--		
 12	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	13	SB		
-13	kunde	kunna	VB	-.-.-	VB.IND.AKT.PRT	3	--		
+13	kunde	kunna	VB	-.-.-	VB.IND.AKT.PRT	3	parataxis		
 14	lägga	lägga	VB	-.-.-	VB.INF.AKT.-	13	IV		
 15	fram	fram	AB	-.-.-	AB.-.-	14	PL		
 16	egna	egen	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	18	DT		
@@ -114261,7 +114261,7 @@
 21	under	under	PE	-.-.-	PE.-	20	MD		
 22	frihetstiden	frihetstid	NN	-.-.-	NN.UTR.SIN.DEF	21	OO		SpaceAfter=No
 23	,	_	SY	-.-.-	SY.DEL	11	--		
-24	se	se	VB	-.-.-	VB.IMP.AKT.-	11	--		
+24	se	se	VB	-.-.-	VB.IMP.AKT.-	11	parataxis		
 25	Riksdagen	riksdag	NN	-.-.-	NN.UTR.SIN.DEF	24	OO		
 26	1760-62	_	NU	-.-.-	NU.-	25	MD		SpaceAfter=No
 27	)	_	SY	-.-.-	SY.DEL	11	--		SpaceAfter=No
@@ -114498,7 +114498,7 @@
 3	var	vara	VB	-.-.-	VB.IND.AKT.PRT	6	KL		
 4	dock	dock	AB	-.-.-	AB.-.-	3	MD		
 5	valbara	valbar	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	3	SP		
-6	och	och	KO	-.-.-	KO.-	20	--		
+6	och	och	KO	-.-.-	KO.-	20	parataxis		
 7	dessutom	dessutom	AB	-.-.-	AB.-.-	8	MD		
 8	fanns	finnas	VB	-.-.-	VB.IND.SFO.PRT	6	KL		
 9	ålders-	ålders|vilkor	NN	-.-.ESM	NN.NEU.PLU.IND	12	KL		SpaceAfter=No
@@ -114793,7 +114793,7 @@
 13	av	av	PE	-.-.-	PE.-	12	MD		
 14	kammarens	kammare	NN	-.GEN.-	NN.UTR.SIN.DEF	15	DT		
 15	mandat	mandat	NN	-.-.-	NN.NEU.PLU.IND	13	OO		
-16	omvaldes	omvälja	VB	-.-.-	VB.IND.SFO.PRT	5	--		
+16	omvaldes	omvälja	VB	-.-.-	VB.IND.SFO.PRT	5	parataxis		
 17	årligen	årligen	AB	-.-.-	AB.-.-	16	MD		SpaceAfter=No
 18	.	_	SY	-.-.-	SY.DEL	5	--		
 
@@ -114823,7 +114823,7 @@
 22	alla	all	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	24	DT		
 23	myndiga	myndig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	24	MD		
 24	män	man	NN	-.-.-	NN.UTR.PLU.IND	21	OO		
-25	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	4	--		
+25	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	4	parataxis		
 26	rösträtt	rösträtt	NN	-.-.-	NN.UTR.SIN.IND	25	OO		SpaceAfter=No
 27	.	_	SY	-.-.-	SY.DEL	4	--		
 
@@ -115410,7 +115410,7 @@
 24	–	_	SY	-.-.-	SY.DEL	2	--		
 25	denna	denna	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	26	DT		
 26	gräns	gräns	NN	-.-.-	NN.UTR.SIN.IND	27	SB	27:SB|28:	
-27	brukar	bruka	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+27	brukar	bruka	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 28	kallas	kalla	VB	-.-.-	VB.INF.SFO.-	27	IV		
 29	”	_	SY	-.-.-	SY.DEL	2	--		SpaceAfter=No
 30	fyraprocentsspärren	fyraprocentsspärr	NN	-.-.-	NN.UTR.SIN.DEF	28	SP		SpaceAfter=No
@@ -115466,7 +115466,7 @@
 20	Gotland	Gotland	EN	-.-.-	EN.-	19	OO		SpaceAfter=No
 21	,	_	SY	-.-.-	SY.DEL	2	--		
 22	då	då	AB	-.-.-	AB.-.-	23	MD		
-23	räcker	räcka	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+23	räcker	räcka	VB	-.-.-	VB.IND.AKT.PRS	2	parataxis		
 24	inte	inte	AB	-.-.-	AB.-.-	23	MD		
 25	12	tolv	NU	-.-.-	NU.-	26	DT		
 26	procent	procent	NN	-.-.-	NN.UTR.PLU.IND	23	SB		
