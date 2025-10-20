@@ -19,6 +19,7 @@ require 'io/console'
 #headless: treat more systematically depending on type? (NPs)
 ## other stragegies: use first, use root, go down? Maybe not needed?
 
+#TODO2: Romn_Bjelvehammar-TageBengtsson.241
 
 
 verbose = ARGV[0]
@@ -32,13 +33,38 @@ def nodeid_to_integer(sent_id,node_id)
     #STDERR.puts "..#{node_id}"
     if node_id.nil?
         id = "9999"
-    elsif node_id != 0
-        id = node_id.gsub("#{sent_id}.","")
-        #id = id.to_i - 1000
+    #elsif node_id != 0 #uncomment if the optimized conversion doesn't work
+        #id = node_id.gsub("#{sent_id}.","") #uncomment if the optimized conversion doesn't work
+        
     else
         id = node_id
     end
     return id
+end
+
+#def nodeid_to_integer2(node_id)
+     
+#end
+
+def one_termid_to_integer(term_id, mapping)
+    
+    if mapping[term_id].nil?
+        out_id = term_id.clone
+    else
+        out_id = mapping[term_id]
+    end
+    return out_id
+end
+
+def alltermids_to_integer(term_ids)
+    term_ids2 = []
+    mapping = {}
+    term_ids.each.with_index do |old_id,index|
+        mapping[old_id] = index+1
+        term_ids2 << index+1
+    end
+
+    return term_ids2,mapping
 end
 
 def reassign_mwe_heads(mwe,head,term_ids,primary_tree,node)
@@ -320,6 +346,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 if verbose then STDERR.puts "Current_id: #{current_id} Assigning first node as a head" end
                 next_level.each.with_index do |node, nodeindex|
                     if term_ids.include?(node)
+                        #TODO2: check if leftmost is better than first?
                         head = node.clone
                         head_label_index = nodeindex
                         if verbose then STDERR.puts "Current_id: #{current_id} Assigned first node as a head: #{head}" end
@@ -541,8 +568,11 @@ filenames.each do |filename|
                 #STDERR.puts tpart
                 terminals = sentence.css("t").to_a
                 
-                terminals.each do |terminal|
-                    term_id = terminal["id"]
+
+                mapping = {}
+                terminals.each.with_index do |terminal,index|
+                    term_id = index + 1
+                    mapping[terminal["id"]] = term_id
                     words[term_id]["word"] = terminal["word"]
                     words[term_id]["pos"] = terminal["pos"]
                     words[term_id]["msd"] = terminal["msd"]
@@ -552,6 +582,9 @@ filenames.each do |filename|
                     words[term_id]["connected"] = terminal["connected"]
                 end
                 term_ids = words.keys
+                #term_ids2, mapping = alltermids_to_integer(term_ids)
+                #term_ids = term_ids2.clone
+
     		    
                 nonterminals = sentence.css("nt").to_a
                 nonterminals.each do |nonterminal|
@@ -564,7 +597,7 @@ filenames.each do |filename|
                     edges.each do |edge|
                         label = edge["label"]
                         idref = edge["idref"]
-                        primary_tree[nonterm_id] << idref
+                        primary_tree[nonterm_id] << one_termid_to_integer(idref, mapping)
                         primary_labels[nonterm_id] << label
                     end
                     secedges.each do |secedge|
@@ -618,6 +651,8 @@ filenames.each do |filename|
 
                 ###extracted from the process_primary_tree method, since this does not have to be done for every node. The variable root is now the output of the method
                 mainroot = 0
+
+                #TODO: pick the leftmost node, not the first one?
                 if @under0.length > 1
                     foundnewmainroot = false
                     @under0.each do |node|
@@ -627,10 +662,10 @@ filenames.each do |filename|
                             break
                         end
                     end
-                    if !foundnewmainroot
-                        mainroot = @under0[0].clone
-                        STDOUT.puts "#{sent_id} #{mainroot}"
-                    end
+                    #if !foundnewmainroot
+                    #    mainroot = @under0[0].clone
+                    #    STDOUT.puts "#{sent_id} #{mainroot}"
+                    #end
 	            
 	            
                     @under0.each do |node|

@@ -264,6 +264,8 @@ def convert(id, sentence, sent_id)
         end
     end   
  
+
+
     
 
     if pos == "SY"
@@ -555,13 +557,13 @@ inputfile.each_line do |line|
             end
         else
             line2 = line1.split("\t")
-            id = line2[0]
+            id = line2[0].to_i
             form = line2[1]
             lemma = line2[2].gsub("|","")
             pos = line2[3]
             msd2 = line2[4].split(".")
             msd = line2[5].split(".")[1..-1]
-            head = line2[6]
+            head = line2[6].to_i
             deprel = line2[7]
             enhdep = line2[8]
             misc = line2[9].to_s
@@ -590,6 +592,7 @@ inputfile.each_line do |line|
         end
     else
         if mode == "convert"
+=begin            
             counter = 1
             idhash = {}
             sentence.keys.sort.each do |id|
@@ -607,7 +610,7 @@ inputfile.each_line do |line|
             end
             sentence = sentence2.clone
             #STDERR.puts "#{sentence}"
-
+=end
             sentence_pos_converted = sentence.clone
             sentence.each_pair do |id,senthash|
                 upos, feats, lemma = convert(id, sentence, sent_id)
