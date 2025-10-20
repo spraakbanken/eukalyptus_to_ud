@@ -257,7 +257,9 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                     #if nonterminal_cats.uniq == ["KoP"] or nonterminal_cats.uniq.sort == ["KoP", "SuP"]
                     #    STDOUT.puts sent_id
                     #end
-                    #STDOUT.puts "#{sent_id}\t#{nonterminals}\t#{nonterminal_cats.uniq}\t#{nonterminal_cats}"
+                    #STDOUT.puts "#{sent_id}\t#{nonterminals}\t#{nonterminal_cats.sort.uniq}\t#{nonterminal_cats.sort}"
+                    @cat_combinations_on_top[nonterminal_cats.sort.uniq.join(", ")]+=1
+                    
                 end
 
                 
@@ -343,17 +345,34 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 if verbose then STDERR.puts "Current_id: #{current_id} No HD or PH found" end
             end
             if head_label_index.nil?
-                if verbose then STDERR.puts "Current_id: #{current_id} Assigning first node as a head" end
+                head_candidates = []
+                candidate_index = {}
+                #head_old = nil
+                #head_label_index_old = nil
+                if verbose then STDERR.puts "Current_id: #{current_id} Assigning the leftmost node as a head" end
+                #next_level.each.with_index do |node, nodeindex|
+                #    if term_ids.include?(node)
+                 
+                #        head_old = node.clone
+                #        head_label_index_old = nodeindex
+                #        if verbose then STDERR.puts "Current_id: #{current_id} Assigned first node as a head: #{head}" end
+                        #STDERR.puts "Current_id: #{current_id} FIRST NODE AS HEAD #{head}"
+                #        break
+                #    end
+                #end
                 next_level.each.with_index do |node, nodeindex|
                     if term_ids.include?(node)
-                        #TODO2: check if leftmost is better than first?
-                        head = node.clone
-                        head_label_index = nodeindex
-                        if verbose then STDERR.puts "Current_id: #{current_id} Assigned first node as a head: #{head}" end
-                        #STDERR.puts "Current_id: #{current_id} FIRST NODE AS HEAD #{head}"
-                        break
+                        head_candidates << node
+                        candidate_index[node] = nodeindex
                     end
                 end
+                head = head_candidates.min
+                head_label_index = candidate_index[head]
+                if verbose then STDERR.puts "Current_id: #{current_id} Assigned the leftmost node as a head: #{head}" end
+                #STDOUT.puts "Current_id: #{current_id} Assigned the leftmost node as a head: #{head}"
+                #if head_old != head
+                #    STDOUT.puts "#{sent_id}\t#{head}\t#{head_old}"
+                #end
                 
 
                 if head_label_index.nil?
@@ -523,6 +542,7 @@ end
 excluded_sents = {}
 n_processed_sents = 0
 @nsents_several_nonterminals_on_top = 0
+@cat_combinations_on_top = Hash.new(0)
 @n_only_terminals_on_top = 0
 n_wrong_trees = 0
 
@@ -651,20 +671,40 @@ filenames.each do |filename|
 
                 ###extracted from the process_primary_tree method, since this does not have to be done for every node. The variable root is now the output of the method
                 mainroot = 0
-
-                #TODO: pick the leftmost node, not the first one?
+                mainroot2 = 0
+                
                 if @under0.length > 1
                     foundnewmainroot = false
-                    @under0.each do |node|
+                    #choosing the leftmost node
+                    @under0_copy = @under0.clone.sort
+                
+                          
+                    @under0_copy.each do |node|
                         if !@reversed_labels2[node].include?("PH")
                             mainroot = node.clone
                             foundnewmainroot = true
                             break
                         end
                     end
-                    #if !foundnewmainroot
-                    #    mainroot = @under0[0].clone
-                    #    STDOUT.puts "#{sent_id} #{mainroot}"
+                    if !foundnewmainroot
+                        mainroot = @under0_copy[0].clone
+                        #@STDOUT.puts "#{sent_id} #{mainroot}"
+                    end
+	            
+                    #choosing the first node (deprecated, here for comparison)
+                    foundnewmainroot2 = false
+                    @under0.each do |node|
+                        if !@reversed_labels2[node].include?("PH")
+                            mainroot2 = node.clone
+                            foundnewmainroot2 = true
+                            break
+                        end
+                    end
+                    if !foundnewmainroot2
+                        mainroot2 = @under0[0].clone                
+                    end
+                    #if mainroot != mainroot2
+                        #STDOUT.puts "#{sent_id} #{mainroot} #{mainroot2}"
                     #end
 	            
 	            
@@ -782,5 +822,8 @@ filenames.each do |filename|
     end
 end
 STDERR.puts "Excluded sentences: #{excluded_sents.keys.length}. Processed sentences: #{n_processed_sents}. Invalid trees: #{n_wrong_trees}"
-STDERR.puts "Sentences where there are only terminals on top, and more than one have other POS than SY: #{@n_only_terminals_on_top}"
+#STDERR.puts "Sentences where there are only terminals on top, and more than one have other POS than SY: #{@n_only_terminals_on_top}"
 STDERR.puts "Sentences where there are several nonterminals on top: #{@nsents_several_nonterminals_on_top}"
+#@cat_combinations_on_top.each_pair do |combination,freq| 
+#    STDOUT.puts "#{combination}\t#{freq}"
+#end

@@ -1,0 +1,25 @@
+# sent_id = Blog_12325-1884438.2
+# text = Visserligen är det för att vi ska ha lattjolajban med jobbet - hela gänget åker till Åre - men i alla fall.
+1	Visserligen	visserligen	AB	-.-.-	AB.-.-	2	MD		
+2	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		
+3	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	2	SB		
+4	för	för	PE	-.-.-	PE.-	2	OA		
+5	att	att	SU	-.-.-	SU.-	4	OO		
+6	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	7	SB		
+7	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	5	OO		
+8	ha	ha	VB	-.-.-	VB.INF.AKT.-	7	IV		
+9	lattjolajban	lattjolajban	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	8	OO		
+10	med	med	PE	-.-.-	PE.-	9	MD		
+11	jobbet	jobb	NN	-.-.-	NN.NEU.SIN.DEF	10	OO		
+12	-	_	SY	-.-.-	SY.DEL	2	--		
+13	hela	hel	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	14	DT		
+14	gänget	gäng	NN	-.-.-	NN.NEU.SIN.DEF	15	SB		
+15	åker	åka	VB	-.-.-	VB.IND.AKT.PRS	2	--		
+16	till	till	PE	-.-.-	PE.-	15	RA		
+17	Åre	Åre	EN	-.-.-	EN.-	16	OO		
+18	-	_	SY	-.-.-	SY.DEL	2	--		
+19	men	men	KO	-.-.-	KO.-	20	DF		
+20	i	i	PE	-.-.-	PE.-	2	--		
+21	alla	all	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	22	DT		
+22	fall	fall	NN	-.-.-	NN.NEU.PLU.IND	20	OO		SpaceAfter=No
+23	.	_	SY	-.-.-	SY.DEL	2	--		

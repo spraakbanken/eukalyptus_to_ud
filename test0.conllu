@@ -1,37 +1,46 @@
 # newdoc id = Arbt_Fackfientlig
-# sent_id = Wiki_MiominMio.40
-# text = Kungen ger sitt tillstånd men vill varna Mio för Landet Utanför där den grymme riddar Kato bor, där nästan allt är svart och där folk har det eländigt och är utsvultna.
-1001	Kungen	kung	NN	-.-.-	NN.UTR.SIN.DEF	1002	SB	1002:SB|1007:SB|1006:SB	
-1002	ger	ge	VB	-.-.-	VB.IND.AKT.PRS	1005	KL		
-1003	sitt	sin	PO	-.-.-	PO.DEF.SIN.NEU.PSS.-	1004	DT		
-1004	tillstånd	tillstånd	NN	-.-.-	NN.NEU.SIN.IND	1002	OO		
-1005	men	men	KO	-.-.-	KO.-	0	--		
-1006	vill	vilja	VB	-.-.-	VB.IND.AKT.PRS	1005	KL		
-1007	varna	varna	VB	-.-.-	VB.INF.AKT.-	1006	IV		
-1008	Mio	Mio	EN	-.-.-	EN.-	1007	OO		
-1009	för	för	PE	-.-.-	PE.-	1007	OA		
-1010	Landet	land	NN	-.-.-	NN.NEU.SIN.DEF	1009	OO		
-1011	Utanför	utanför	AB	-.-.-	AB.-.-	1010	MD		
-1012	där	där	SU	-.-.-	SU.-	1024	KL	1024:KL|1017:RA	
-1013	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1015	DT		
-1014	grymme	grym	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	1015	MD		
-1015	riddar	riddar	NN	-.-.-	NN.UTR.SIN.IND	1017	SB		
-1016	Kato	Kato	EN	-.-.-	EN.-	1015	AN		
-1017	bor	bo	VB	-.-.-	VB.IND.AKT.PRS	1012	OO		SpaceAfter=No
-1018	,	_	SY	-.-.-	SY.DEL	0	--		
-1019	där	där	SU	-.-.-	SU.-	0	--	0:--|1022:RA	
-1020	nästan	nästan	AB	-.-.-	AB.-.-	1021	MD		
-1021	allt	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	1022	SB		
-1022	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1019	OO		
-1023	svart	svart	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1022	SP		
-1024	och	och	KO	-.-.-	KO.-	1010	MD		
-1025	där	där	SU	-.-.-	SU.-	1030	KL	1030:KL|1031:RA	
-1026	folk	folk	NN	-.-.-	NN.NEU.SIN.IND	1027	SB	1027:SB|1031:SB	
-1027	har	ha	VB	-.-.-	VB.IND.AKT.PRS	1025	OO		
-1028	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	1027	OO		
-1029	eländigt	eländig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1027	OP		
-1030	och	och	KO	-.-.-	KO.-	1024	KL		
-1031	är	vara	VB	-.-.-	VB.IND.AKT.PRS	1030	KL		
-1032	utsvultna	utsvulten	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1031	SP		SpaceAfter=No
-1033	.	_	SY	-.-.-	SY.DEL	0	--		
+# sent_id = Romn_Bjelvehammar-TageBengtsson.278
+# text = Kristinas döttrar har fått och får pengar för studier utomlands, han har även gett mycket pengar till sina medarbetares sjuka barn för att kunna genomgå operationer i Frankrike och Schweiz och han ger regelbundet till vattenforskning och vattenprojekt i Afrika.
+1	Kristinas	Kristina	EN	-.GEN.-	EN.-	2	DT		
+2	döttrar	dotter	NN	-.-.-	NN.UTR.PLU.IND	3	SB	3:SB|6:|4:	
+3	har	ha	VB	-.-.-	VB.IND.AKT.PRS	5	KL		
+4	fått	få	VB	-.-.-	VB.SPM.AKT.-	3	IV		
+5	och	och	KO	-.-.-	KO.-	0	--		
+6	får	få	VB	-.-.-	VB.IND.AKT.PRS	5	KL		
+7	pengar	pengar	NN	-.-.-	NN.UTR.PLU.IND	6	OO	6:OO|4:	
+8	för	för	PE	-.-.-	PE.-	7	MD		
+9	studier	studie	NN	-.-.-	NN.UTR.PLU.IND	8	OO		
+10	utomlands	utomlands	AB	-.-.-	AB.-.-	9	MD		SpaceAfter=No
+11	,	_	SY	-.-.-	SY.DEL	5	--		
+12	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	13	SB		
+13	har	ha	VB	-.-.-	VB.IND.AKT.PRS	32	KL		
+14	även	även	AB	-.-.-	AB.-.-	13	MD		
+15	gett	ge	VB	-.-.-	VB.SPM.AKT.-	13	IV		
+16	mycket	mycket	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	17	DT		
+17	pengar	pengar	NN	-.-.-	NN.UTR.PLU.IND	15	OO		
+18	till	till	PE	-.-.-	PE.-	15	OA		
+19	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	20	DT		
+20	medarbetares	medarbetare	NN	-.GEN.-	NN.UTR.PLU.IND	22	DT		
+21	sjuka	sjuk	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	22	MD		
+22	barn	barn	NN	-.-.-	NN.NEU.PLU.IND	18	OO		
+23	för	för	PE	-.-.-	PE.-	15	MD		
+24	att	att	SU	-.-.-	SU.-	23	OO		
+25	kunna	kunna	VB	-.-.-	VB.INF.AKT.-	24	OO		
+26	genomgå	genomgå	VB	-.-.-	VB.INF.AKT.-	25	IV		
+27	operationer	operation	NN	-.-.-	NN.UTR.PLU.IND	26	OO		
+28	i	i	PE	-.-.-	PE.-	26	RA		
+29	Frankrike	Frankrike	EN	-.-.-	EN.-	30	KL		
+30	och	och	KO	-.-.-	KO.-	28	OO		
+31	Schweiz	Schweiz	EN	-.-.-	EN.-	30	KL		
+32	och	och	KO	-.-.-	KO.-	5	--		
+33	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	34	SB		
+34	ger	ge	VB	-.-.-	VB.IND.AKT.PRS	32	KL		
+35	regelbundet	regelbunden	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	34	MD		
+36	till	till	PE	-.-.-	PE.-	34	OA		
+37	vattenforskning	vatten|forskning	NN	-.-.-	NN.UTR.SIN.IND	38	KL		
+38	och	och	KO	-.-.-	KO.-	36	OO		
+39	vattenprojekt	vatten|projekt	NN	-.-.-	NN.NEU.PLU.IND	38	KL		
+40	i	i	PE	-.-.-	PE.-	39	MD	39:MD|37:	
+41	Afrika	Afrika	EN	-.-.-	EN.-	40	OO		SpaceAfter=No
+42	.	_	SY	-.-.-	SY.DEL	5	--		
 
