@@ -793,6 +793,17 @@ filenames.each do |filename|
                         
                         
                     end
+                    if @phraselabels[term_id].to_s == "" 
+                        if deprel == "ME"
+                            @phraselabels[term_id] = @phraselabels[head]
+                            if @phraselabels[head].to_s == ""
+                                STDOUT.puts "#{sent_id}\t#{head}\tME head!"
+                            end
+                        else
+                            STDOUT.puts "#{sent_id}\t#{term_id}"
+                        end
+                    end
+
                     misc = ["PhraseLabel=#{@phraselabels[term_id]}"]
                     if info["read_as"] != ""
                         misc << "CorrectForm=#{info["read_as"]}"
