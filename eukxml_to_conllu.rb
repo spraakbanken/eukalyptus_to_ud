@@ -292,31 +292,6 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         if verbose then STDERR.puts "Current_id: #{current_id} There are more than one nodes which are not a SY, currently no heuristics to choose a head. STDOUT an exception" end
                         #STDERR.puts "Sent_id: #{sent_id} Current_id: #{current_id} There are more than one nodes which are not a SY, currently no heuristics to choose a head. STDOUT an exception"
 
-=begin
-                        if verbose then STDERR.puts "Current_id: #{current_id} Checking if there are several KoPs" en
-                        possible_heads_from_kops = []
-                        next_level.each.with_index do |node, nodeindex|
-                            if !term_ids.include?(node)
-                                next_level_cat = phrases[node]
-                                
-
-                                if next_level_cat == "KoP"
-                                    next_level_labels = primary_labels[node]
-                                    if !labels.index("HD").nil?
-                                        possible_heads_from_kops << labels.index("HD")
-                                    elsif !labels.index("PH").nil?
-                                        possible_heads_from_kops << labels.index("PH")
-                                    end
-                                end
-                                
-                                #STDERR.puts "Current_id: #{current_id} FIRST NODE AS HEAD #{head}"
-                                break
-                            end
-                        end
-                        if possible_heads_from_kops.length > 0
-                            head = possible_heads_from_kops.length.sort[0]
-                        end
-=end                        
                         @n_only_terminals_on_top += terminalsonly
                         #STDOUT.puts "#{sent_id}\t#{nonsymbols}"
                         #end
@@ -406,6 +381,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             if verbose then STDERR.puts "  Current_id: #{current_id}. Terminal run. Node: #{node}" end
             if term_ids.include?(node)
                 if verbose then STDERR.puts "    head == root Current_id: #{current_id}. Node: #{node}. Terminal node" end
+                @phraselabels[node] = phrases[current_id].clone
                 if cat == "Top" and onlyterminalsontop == false #and head == root #head.nil?#root == 0
                     if verbose then STDERR.puts "    Current_id: #{current_id}. Terminal under 0" end
                     #@reversed_tree[node] = root
@@ -561,6 +537,8 @@ n_wrong_trees = 0
 
 
 undercounter = 0
+
+
 filenames.each do |filename|
     
     STDERR.puts "Parsing xml..."
@@ -647,6 +625,7 @@ filenames.each do |filename|
                 @reversed_tree = {}
                 @reversed_labels = {}
                 @reversed_labels2 = {}
+                @phraselabels = {}
                 @reversed_secondary_tree = Hash.new{|hash, key| hash[key] = Array.new}
                 @reversed_secondary_labels = Hash.new{|hash, key| hash[key] = Array.new}
                 
@@ -800,9 +779,9 @@ filenames.each do |filename|
                     info = words[term_id]
                     head = nodeid_to_integer(sent_id,@reversed_tree[term_id])
                     deprel = @reversed_labels[term_id]
-                    if deprel == "--" and info["pos"][0..1] != "SY" and head != 0 #and !@sentids_several_nonterminals_on_top.include?(sent_id)
-                        STDOUT.puts "#{sent_id}\t#{term_id}"
-                    end
+                    #if deprel == "--" and info["pos"][0..1] != "SY" and head != 0 #and !@sentids_several_nonterminals_on_top.include?(sent_id)
+                    #    STDOUT.puts "#{sent_id}\t#{term_id}"
+                    #end
 
                     if @reversed_secondary_tree[term_id].length != 0
                         secdep = "#{head}:#{deprel}"
@@ -814,14 +793,16 @@ filenames.each do |filename|
                         
                         
                     end
-                    misc = []
+                    misc = ["PhraseLabel=#{@phraselabels[term_id]}"]
                     if info["read_as"] != ""
                         misc << "CorrectForm=#{info["read_as"]}"
                     end
                     if info["connected"] == "rear" or info["connected"] == "both"
                         misc << "SpaceAfter=No"
                     end
-                    misc = misc.join("|")
+                    
+
+                    misc = misc.sort.join("|")
                     
                     new_nodeid = nodeid_to_integer(sent_id,term_id)
                     outputfile.puts "#{new_nodeid}\t#{info["word"]}\t#{info["lemma"]}\t#{info["pos"]}\t#{info["msd2"]}\t#{info["msd"]}\t#{head}\t#{deprel}\t#{secdep}\t#{misc}"
