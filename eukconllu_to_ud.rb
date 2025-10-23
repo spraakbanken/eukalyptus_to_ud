@@ -200,9 +200,51 @@ def getinfofromsentence(sentence,id)
     return form,lemma,pos,msd,msd2,head,deprel,enhdep,misc
 end
 
-def convert_syntax(sentence, sent_id)
+def convert_syntax(sentence2, sent_id)
+    sentence = sentence2.clone
     uheads = {}
     udeprels = {}
+
+    chain_conjuncts = Hash.new{|hash, key| hash[key] = Array.new} #{"head"=>nil, "dependents"=>[]}
+    chain_other_conjunctions = Hash.new{|hash, key| hash[key] = Array.new}
+    chain_other_daughters = Hash.new{|hash, key| hash[key] = Array.new}
+
+
+    #how to make sure that sentence is changed correctly? sort of fixed, I guess
+
+
+    sentence.each_pair do |id,senthash|
+        deprel = senthash["deprel"]
+        head = senthash["head"]
+        pos = senthash["pos"]
+        if deprel == "KL"
+            conjunction_daughters = finddaughters(sentence,head)
+            conjunction_daughters.each do |daughter|
+                if deprel == "KL"
+                    chain_conjuncts[head] << daughter
+                elsif sentence[daughter]["pos"] == "KO"
+                    if deprel == "PH"
+                        chain_other_conjunctions[head] << daughter
+                    else
+                        chain_other_daughters[head] << daughter
+                        STDOUT.puts "#{sent_id}\t#{head}\t#{daughter}"
+                    end
+                else
+                    chain_other_daughters[head] << daughter
+                end
+            end
+        end
+    end
+
+    conjunction_heads = chain_conjuncts.keys
+    conjuction_heads.each do |conjunction_head|
+        #sort conjuncts, first as head
+        #sort conjunctions, put on the closest
+        #change relations
+        #punct to head? or to next?
+        #reassign heads that were on the older head
+    end
+
 
     sentence.each_pair do |id,senthash|
         deprel = senthash["deprel"]
@@ -212,17 +254,22 @@ def convert_syntax(sentence, sent_id)
             head = 0
         end
 
-        if !@matchdeprels[deprel].nil?
-            udeprels[id] = @matchdeprels[deprel]
-        end
         if head == 0
             udeprels[id] = "root"
         end
         if pos == "PUNCT"
             udeprels[id] = "punct"
         end
+
         
-        uheads[id] = head
+        
+        end
+
+        if !@matchdeprels[deprel].nil?
+            udeprels[id] = @matchdeprels[deprel]
+        end
+        
+        uheads[id] = head #move to a separate cycle?
         
 
 

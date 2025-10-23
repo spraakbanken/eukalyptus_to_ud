@@ -1,46 +1,22 @@
 # newdoc id = Arbt_Fackfientlig
-# sent_id = Romn_Bjelvehammar-TageBengtsson.278
-# text = Kristinas döttrar har fått och får pengar för studier utomlands, han har även gett mycket pengar till sina medarbetares sjuka barn för att kunna genomgå operationer i Frankrike och Schweiz och han ger regelbundet till vattenforskning och vattenprojekt i Afrika.
-1	Kristinas	Kristina	EN	-.GEN.-	EN.-	2	DT		
-2	döttrar	dotter	NN	-.-.-	NN.UTR.PLU.IND	3	SB	3:SB|6:|4:	
-3	har	ha	VB	-.-.-	VB.IND.AKT.PRS	5	KL		
-4	fått	få	VB	-.-.-	VB.SPM.AKT.-	3	IV		
-5	och	och	KO	-.-.-	KO.-	0	--		
-6	får	få	VB	-.-.-	VB.IND.AKT.PRS	5	KL		
-7	pengar	pengar	NN	-.-.-	NN.UTR.PLU.IND	6	OO	6:OO|4:	
-8	för	för	PE	-.-.-	PE.-	7	MD		
-9	studier	studie	NN	-.-.-	NN.UTR.PLU.IND	8	OO		
-10	utomlands	utomlands	AB	-.-.-	AB.-.-	9	MD		SpaceAfter=No
-11	,	_	SY	-.-.-	SY.DEL	5	--		
-12	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	13	SB		
-13	har	ha	VB	-.-.-	VB.IND.AKT.PRS	32	KL		
-14	även	även	AB	-.-.-	AB.-.-	13	MD		
-15	gett	ge	VB	-.-.-	VB.SPM.AKT.-	13	IV		
-16	mycket	mycket	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	17	DT		
-17	pengar	pengar	NN	-.-.-	NN.UTR.PLU.IND	15	OO		
-18	till	till	PE	-.-.-	PE.-	15	OA		
-19	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	20	DT		
-20	medarbetares	medarbetare	NN	-.GEN.-	NN.UTR.PLU.IND	22	DT		
-21	sjuka	sjuk	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	22	MD		
-22	barn	barn	NN	-.-.-	NN.NEU.PLU.IND	18	OO		
-23	för	för	PE	-.-.-	PE.-	15	MD		
-24	att	att	SU	-.-.-	SU.-	23	OO		
-25	kunna	kunna	VB	-.-.-	VB.INF.AKT.-	24	OO		
-26	genomgå	genomgå	VB	-.-.-	VB.INF.AKT.-	25	IV		
-27	operationer	operation	NN	-.-.-	NN.UTR.PLU.IND	26	OO		
-28	i	i	PE	-.-.-	PE.-	26	RA		
-29	Frankrike	Frankrike	EN	-.-.-	EN.-	30	KL		
-30	och	och	KO	-.-.-	KO.-	28	OO		
-31	Schweiz	Schweiz	EN	-.-.-	EN.-	30	KL		
-32	och	och	KO	-.-.-	KO.-	5	--		
-33	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	34	SB		
-34	ger	ge	VB	-.-.-	VB.IND.AKT.PRS	32	KL		
-35	regelbundet	regelbunden	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	34	MD		
-36	till	till	PE	-.-.-	PE.-	34	OA		
-37	vattenforskning	vatten|forskning	NN	-.-.-	NN.UTR.SIN.IND	38	KL		
-38	och	och	KO	-.-.-	KO.-	36	OO		
-39	vattenprojekt	vatten|projekt	NN	-.-.-	NN.NEU.PLU.IND	38	KL		
-40	i	i	PE	-.-.-	PE.-	39	MD	39:MD|37:	
-41	Afrika	Afrika	EN	-.-.-	EN.-	40	OO		SpaceAfter=No
-42	.	_	SY	-.-.-	SY.DEL	5	--		
+# sent_id = Blog_160886-12595823.10
+# text = Men att få mysa med pins-bus och julmysa med släkt och vänner passar såå bra just nu.
+1	Men	men	KO	-.-.-	KO.-	13	DF		PhraseLabel=S
+2	att	att	SU	-.-.-	SU.-	13	SB		PhraseLabel=SuP
+3	få	få	VB	-.-.-	VB.INF.AKT.-	7	KL		PhraseLabel=VP
+4	mysa	mysa	VB	-.-.-	VB.INF.AKT.-	3	IV		PhraseLabel=VP
+5	med	med	PE	-.-.-	PE.-	4	MD		PhraseLabel=PP
+6	pins-bus	prins Bus	EN	-.-.-	EN.-	5	OO		CorrectForm=prins Bus|PhraseLabel=PP
+7	och	och	KO	-.-.-	KO.-	2	OO		PhraseLabel=KoP
+8	julmysa	jul|mysa	VB	-.-.-	VB.INF.AKT.-	7	IV		PhraseLabel=VP
+9	med	med	PE	-.-.-	PE.-	8	MD		PhraseLabel=PP
+10	släkt	släkt	NN	-.-.-	NN.UTR.SIN.IND	11	KL		PhraseLabel=KoP
+11	och	och	KO	-.-.-	KO.-	9	OO		PhraseLabel=KoP
+12	vänner	vän	NN	-.-.-	NN.UTR.PLU.IND	11	KL		PhraseLabel=KoP
+13	passar	passa	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseLabel=S
+14	såå	så	AB	-.-.-	AB.-.-	15	MD		CorrectForm=så|PhraseLabel=AjP
+15	bra	bra	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	13	MD		PhraseLabel=AjP
+16	just	just	AB	-.-.-	AB.-.-	17	MD		PhraseLabel=AbP
+17	nu	nu	AB	-.-.-	AB.-.-	13	MD		PhraseLabel=AbP|SpaceAfter=No
+18	.	_	SY	-.-.-	SY.DEL	13	--		PhraseLabel=Top
 
