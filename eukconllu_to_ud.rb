@@ -202,6 +202,15 @@ end
 
 def convert_syntax(sentence2, sent_id)
     sentence = sentence2.clone
+    root = nil
+    sentence.each_pair do |id,senthash|
+        if senthash["head"] == 0
+            root = id.clone
+            break
+        end
+    end
+
+
     uheads = {}
     udeprels = {}
 
@@ -213,21 +222,37 @@ def convert_syntax(sentence2, sent_id)
     #how to make sure that sentence is changed correctly? sort of fixed, I guess
 
 
+    processed_conjuncts = []
     sentence.each_pair do |id,senthash|
         deprel = senthash["deprel"]
         head = senthash["head"]
         pos = senthash["pos"]
-        if deprel == "KL"
+
+ 
+        if (deprel == "KL") and !processed_conjuncts.include?(id) #pre-converted parataxis not included, since it's already in the UD format
             conjunction_daughters = finddaughters(sentence,head)
+            processed_conjuncts << conjunction_daughters
+            processed_conjuncts.flatten!
+
+            #if head == 0
+            #    STDOUT.puts "head=root\t#{sent_id}"
+            #elsif sentence[head]["pos"].include?("SY")
+                #STDOUT.puts "head=SY\t#{sent_id}\t#{head}"
+            #elsif sentence[head]["pos"] == "KO"
+            #    STDOUT.puts "head=KO"
+            #else
+            #    STDOUT.puts "head=other\t#{sent_id}\t#{head}\t#{sentence[head]["lemma"]}\t#{sentence[head]["pos"]}"
+            #end
+
             conjunction_daughters.each do |daughter|
-                if deprel == "KL"
+                if deprel == "KL" 
                     chain_conjuncts[head] << daughter
                 elsif sentence[daughter]["pos"] == "KO"
                     if deprel == "PH"
                         chain_other_conjunctions[head] << daughter
                     else
                         chain_other_daughters[head] << daughter
-                        STDOUT.puts "#{sent_id}\t#{head}\t#{daughter}"
+                        #STDOUT.puts "KO_not_under_PH\t#{sent_id}\t#{head}\t#{daughter}"
                     end
                 else
                     chain_other_daughters[head] << daughter
@@ -236,15 +261,63 @@ def convert_syntax(sentence2, sent_id)
         end
     end
 
+#=begin
     conjunction_heads = chain_conjuncts.keys
+    headstatus = ""
     conjuction_heads.each do |conjunction_head|
-        #sort conjuncts, first as head
-        #sort conjunctions, put on the closest
-        #change relations
-        #punct to head? or to next?
-        #reassign heads that were on the older head
-    end
+        if sentence[conjuction_head]["pos"] == "KO"
+            status = "conjunction"
+        elsif sentence[conjunction_head]["pos"] == "SY"
+            status = "punctuation"
+        elsif conjunction_head == 0
+            status = "root"
+        else
+            status = "other"
+        end
 
+        chain_conjuncts[conjunction_head].sort!
+        if status == "conjunction" or status == "punctuation"
+            new_conjunction_head = nil
+            chain_conjuncts.each.with_index do |conjunct,index|
+                if index == 0
+                    new_conjunction_head = conjunct.clone
+                    sentence[new_conjunction_head]["deprel"] = sentence[conjunction_head]["deprel"].clone
+                    sentence[new_conjunction_head]["head"] = sentence[conjunction_head]["head"].clone
+                    if status == "punctuation"
+                        sentence[conjunction_head]["head"] = root.clone #TODO: on nearest conjunct?
+                        sentence[conjunction_head]["deprel"] = "punct"
+                    elsif status == "conjunction"
+                        sentence[conjunction_head]["deprel"] = "cc"
+                        sentence[conjunction_head]["head"] = find_next_conjunct(conjuction_head,chain_conjuncts)
+                    end
+                else
+                    sentence[conjunct]["head"] = new_conjunction_head.clone
+                    sentence[conjunct]["deprel"] = "conj" #TODO: parataxis for clauses?
+                end
+            end
+            chain_other_daughters[head].each do |other_daughter|
+                sentence[other_daughter]["head"] = new_conjunction_head.clone
+            end
+            chain_other_conjunctions[head].each do |other_conjunction|
+                sentence[other_conjunction]["deprel"] = "cc"
+                sentence[other_conjunction]["head"] = find_next_conjunct(other_conjunction,chain_conjuncts)
+            end
+        elsif status == "root"
+            sentence[conjunction_head]["deprel"] = "root"
+            chain_conjuncts.each.with_index do |conjunct,index|
+                if index > 1
+                    sentence[conjunct]["deprel"] = "conj"
+                end
+            end
+        end
+        TODO: find_next_conjunct, "other"
+        #sort conjuncts, first as head #
+        #sort conjunctions, put on the closest #
+        #change relations #
+        #reassign heads that were on the older head #
+        #reassign the old head itself #punct to head? or to next?
+    end
+=end
 
     sentence.each_pair do |id,senthash|
         deprel = senthash["deprel"]
@@ -260,11 +333,6 @@ def convert_syntax(sentence2, sent_id)
         if pos == "PUNCT"
             udeprels[id] = "punct"
         end
-
-        
-        
-        end
-
         if !@matchdeprels[deprel].nil?
             udeprels[id] = @matchdeprels[deprel]
         end

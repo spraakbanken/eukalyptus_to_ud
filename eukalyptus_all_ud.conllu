@@ -8412,7 +8412,7 @@
 # sent_id = Blog_12325-2413172.16
 # text = Ömsom vin, ömsom urin.
 1	Ömsom	ömsom	CCONJ	_	_	2			PhraseLabel=NP
-2	vin	vin	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root		PhraseLabel=NP|SpaceAfter=No
+2	vin	vin	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	conj		PhraseLabel=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	2			PhraseLabel=Top
 4	ömsom	ömsom	CCONJ	_	_	5			PhraseLabel=NP
 5	urin	urin	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	conj		PhraseLabel=NP|SpaceAfter=No
@@ -9027,7 +9027,7 @@
 # sent_id = Blog_12325-1189192.6
 # text = Dels är låtarna sådana som inte finns på speciellt många andra livetagningar med Ozzy, dels är ljudet riktigt bra och speciellt.
 1	Dels	dels	CCONJ	_	_	2			PhraseLabel=S
-2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	root		PhraseLabel=S
+2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	conj		PhraseLabel=S
 3	låtarna	låt	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj		PhraseLabel=S
 4	sådana	sådan	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	xcomp		PhraseLabel=NP
 5	som	som	SCONJ	_	_	4			PhraseLabel=SuP
@@ -9613,7 +9613,7 @@
 # newdoc id = Blog_26224-1714803
 # sent_id = Blog_26224-1714803.1
 # text = Bakar jag matiga eller nyttiga muffins, Snart matbröd.
-1	Bakar	baka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+1	Bakar	baka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 2	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	1	nsubj		PhraseLabel=S
 3	matiga	matig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	conj		PhraseLabel=NP
 4	eller	eller	CCONJ	_	_	1	obj		PhraseLabel=KoP
@@ -11016,7 +11016,7 @@
 # newdoc id = Blog_265827-15165011
 # sent_id = Blog_265827-15165011.1
 # text = Feber imorse, tänkte att jag ändå skulle dra mig till skolan på något sätt.
-1	Feber	feber	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=S
+1	Feber	feber	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	conj		PhraseLabel=S
 2	imorse	imorse	ADV	_	_	1			PhraseLabel=S|SpaceAfter=No
 3	,	,	PUNCT	_	_	1			PhraseLabel=Top
 4	tänkte	tänka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	conj		PhraseLabel=S
@@ -11621,7 +11621,7 @@
 
 # sent_id = Blog_265827-14454804.3
 # text = Ska jobba om några timmar, lite nervös haha!
-1	Ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	root		PhraseLabel=S
+1	Ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	conj		PhraseLabel=S
 2	jobba	jobba	VERB	_	VerbForm=Inf|Voice=Act	1			PhraseLabel=VP
 3	om	om	ADP	_	_	2			PhraseLabel=PP
 4	några	någon	DET	_	Definite=Ind|Number=Plur|PronType=Ind	5	det		PhraseLabel=NP
@@ -11890,7 +11890,7 @@
 # sent_id = Blog_265827-8186120.1
 # text = Snart kommer mannen med stort m att hämta mig, vi drar oss mot centrumet för inhandlandet av lås och kanske något annat!
 1	Snart	snart	ADV	_	_	2			PhraseLabel=S
-2	kommer	komma	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	root		PhraseLabel=S
+2	kommer	komma	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	conj		PhraseLabel=S
 3	mannen	man	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	2:SB|8:	PhraseLabel=NP
 4	med	med	ADP	_	_	3			PhraseLabel=PP
 5	stort	stor	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6			PhraseLabel=NP
@@ -13009,7 +13009,7 @@
 # sent_id = Blog_265827-14749673.5
 # text = Underbart väder - inte för varmt, inte för kallt.
 1	Underbart	underbar	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2			PhraseLabel=NP
-2	väder	väder	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root		PhraseLabel=NP
+2	väder	väder	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	xcomp		PhraseLabel=NP
 3	-	-	PUNCT	_	_	2			PhraseLabel=Top
 4	inte	inte	PART	_	Polarity=Neg	2	conj		PhraseLabel=S
 5	för	för	ADV	_	_	6			PhraseLabel=AjP
@@ -14025,7 +14025,7 @@
 # sent_id = Blog_6843-4328736.4
 # text = Boken är tunn, berättelsen kort.
 1	Boken	bok	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj		PhraseLabel=S
-2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	root		PhraseLabel=S
+2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	conj		PhraseLabel=S
 3	tunn	tunn	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	xcomp		PhraseLabel=S|SpaceAfter=No
 4	,	,	PUNCT	_	_	2			PhraseLabel=Top
 5	berättelsen	berättelse	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	conj		PhraseLabel=S
@@ -18141,7 +18141,7 @@
 # sent_id = Blog_5089-9240616.30
 # text = En vecka kvar, sen är det allvar även för oss...
 1	En	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	2	det		PhraseLabel=NP
-2	vecka	vecka	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=NP
+2	vecka	vecka	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	conj		PhraseLabel=NP
 3	kvar	kvar	ADV	_	_	2			PhraseLabel=NP|SpaceAfter=No
 4	,	,	PUNCT	_	_	2			PhraseLabel=Top
 5	sen	sen	ADV	_	_	6			PhraseLabel=S
@@ -20796,7 +20796,7 @@
 1	Jooo	jo	INTJ	_	Typo=Yes	4			CorrectForm=Jo|PhraseLabel=IjP
 2	faaaan	fan	INTJ	_	Typo=Yes	1			CorrectForm=fan|PhraseLabel=IjP
 3	då	då	ADV	_	_	4			PhraseLabel=S
-4	är	vara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+4	är	vara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 5	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj		PhraseLabel=S
 6	bara	bara	ADV	_	_	4			PhraseLabel=S
 7	skynda	skynda	VERB	_	VerbForm=Inf|Voice=Act	11	conj		PhraseLabel=VP
@@ -29085,7 +29085,7 @@
 # sent_id = Eupa_00-01-17.272
 # text = Jag vill börja med att gratulera föredragande Koch till hans utmärkta arbete och hans konstruktiva samarbete med kommissionen när det gällt att förbättra texten, föredra detta betänkande och förslag; slutligen finns det endast ett ändringsförslag beträffande examineringskraven för säkerhetsrådgivare för transport av farligt gods på väg, järnväg eller inre vattenvägar.
 1	Jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj		PhraseLabel=S
-2	vill	vilja	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	root		PhraseLabel=S
+2	vill	vilja	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	conj		PhraseLabel=S
 3	börja	börja	VERB	_	VerbForm=Inf|Voice=Act	2			PhraseLabel=VP
 4	med	med	ADP	_	_	3	advcl		PhraseLabel=PP
 5	att	att	PART	_	_	4	obj		PhraseLabel=SuP
@@ -29718,7 +29718,7 @@
 
 # sent_id = Eupa_00-01-17.293
 # text = Herr talman, ärade fru kommissionär, kära kolleger!
-1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=NP
+1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	conj		PhraseLabel=NP
 2	talman	talman	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos		PhraseLabel=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	1			PhraseLabel=Top
 4	ärade	ärad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	5			PhraseLabel=NP
@@ -30285,7 +30285,7 @@
 
 # sent_id = Eupa_00-01-17.313
 # text = Herr talman, bästa kolleger!
-1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=NP
+1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	conj		PhraseLabel=NP
 2	talman	talman	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos		PhraseLabel=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	1			PhraseLabel=Top
 4	bästa	god	ADJ	_	Case=Nom|Definite=Def|Degree=Sup	5			PhraseLabel=NP
@@ -30792,7 +30792,7 @@
 
 # sent_id = Eupa_00-01-17.334
 # text = Fru kommissionär, herr talman!
-1	Fru	fru	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=NP
+1	Fru	fru	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	conj		PhraseLabel=NP
 2	kommissionär	kommissionär	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos		PhraseLabel=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	1			PhraseLabel=Top
 4	herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseLabel=NP
@@ -31543,7 +31543,7 @@
 # text = För det står klart att även om vi inför fantastiska bestämmelser här inom Europeiska unionen så gör trafiken inte halt vid dessa gränser, den överskrider dem.
 1	För	för	CCONJ	_	_	3			PhraseLabel=S
 2	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	nsubj		PhraseLabel=S
-3	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+3	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 4	klart	klar	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	xcomp		PhraseLabel=S
 5	att	att	SCONJ	_	_	3	nsubj		PhraseLabel=SuP
 6	även	även	ADV	_	_	7			PhraseLabel=SuP
@@ -32075,7 +32075,7 @@
 
 # sent_id = Eupa_00-01-17.384
 # text = Herr talman, fru kommissionär!
-1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=NP
+1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	conj		PhraseLabel=NP
 2	talman	talman	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos		PhraseLabel=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	1			PhraseLabel=Top
 4	fru	fru	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseLabel=NP
@@ -34188,7 +34188,7 @@
 
 # sent_id = Eupa_00-01-17.466
 # text = Herr talman, herr kommissionär, ärade parlamentsledamöter!
-1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=NP
+1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	conj		PhraseLabel=NP
 2	talman	talman	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos		PhraseLabel=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	1			PhraseLabel=Top
 4	herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseLabel=NP
@@ -34696,7 +34696,7 @@
 
 # sent_id = Eupa_00-01-17.481
 # text = Herr talman, herr kommissionär, ärade kolleger!
-1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=NP
+1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	conj		PhraseLabel=NP
 2	talman	talman	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos		PhraseLabel=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	1			PhraseLabel=Top
 4	herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseLabel=NP
@@ -35726,7 +35726,7 @@
 
 # sent_id = Eupa_00-01-17.512
 # text = Herr talman, herr kommissionär, bästa kolleger!
-1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=NP
+1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	conj		PhraseLabel=NP
 2	talman	talman	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos		PhraseLabel=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	1			PhraseLabel=Top
 4	herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseLabel=NP
@@ -37625,7 +37625,7 @@
 
 # sent_id = Eupa_00-01-17.585
 # text = Herr talman, herr kommissionär, kära kolleger!
-1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=NP
+1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	conj		PhraseLabel=NP
 2	talman	talman	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos		PhraseLabel=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	1			PhraseLabel=Top
 4	herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseLabel=NP
@@ -43224,7 +43224,7 @@
 
 # sent_id = Eupa_00-01-17.766
 # text = Herr talman, kommissionär Barnier, mina ärade damer och herrar, kära kolleger!
-1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=NP
+1	Herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	conj		PhraseLabel=NP
 2	talman	talman	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos		PhraseLabel=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	1			PhraseLabel=Top
 4	kommissionär	kommissionär	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseLabel=NP
@@ -44499,7 +44499,7 @@
 # sent_id = Arbt_Fackfientlig.1
 # text = Fackfientlig nätaktivist bakom dansk stödsida
 1	Fackfientlig	fackfientlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	det		PhraseLabel=NP
-2	nätaktivist	nätaktivist	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseLabel=NP
+2	nätaktivist	nätaktivist	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	nsubj		PhraseLabel=NP
 3	bakom	bakom	ADP	_	_	2	advcl		PhraseLabel=PP
 4	dansk	dansk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	det		PhraseLabel=NP
 5	stödsida	stödsida	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj		PhraseLabel=NP
@@ -48385,7 +48385,7 @@
 3	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	5	det		PhraseLabel=NP
 4	statliga	statlig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5			PhraseLabel=NP
 5	finansieringsinsatser	finansieringsinsats	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	nsubj		PhraseLabel=NP
-6	möter	möta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+6	möter	möta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	obj		PhraseLabel=S
 7	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det		PhraseLabel=NP
 8	finansieringsbehov	finansieringsbehov	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	obj		PhraseLabel=NP
 9	som	som	SCONJ	_	_	8			PhraseLabel=SuP
@@ -50163,7 +50163,7 @@
 # sent_id = Arbt_Ariel.19
 # text = Inte för att skada, fånga – döda!
 1	Inte	inte	PART	_	Polarity=Neg	2			PhraseLabel=PP
-2	för	för	ADP	_	_	0	root		PhraseLabel=PP
+2	för	för	ADP	_	_	0	conj		PhraseLabel=PP
 3	att	att	PART	_	_	2	obj		PhraseLabel=SuP
 4	skada	skada	VERB	_	VerbForm=Inf|Voice=Act	3	obj		PhraseLabel=KoP|SpaceAfter=No
 5	,	,	PUNCT	_	_	2			PhraseLabel=Top
@@ -69599,7 +69599,7 @@
 # sent_id = Romn_Lundqvist-Ingentobak.70
 # text = Kinesernas hus av grå plankor, papua-hyddorna av brungrå palmblad.
 1	Kinesernas	kines	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Plur	2	det		PhraseLabel=NP
-2	hus	hus	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root		PhraseLabel=NP
+2	hus	hus	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	conj		PhraseLabel=NP
 3	av	av	ADP	_	_	2			PhraseLabel=PP
 4	grå	grå	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5			PhraseLabel=NP
 5	plankor	planka	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj		PhraseLabel=NP|SpaceAfter=No
@@ -70998,7 +70998,7 @@
 2	Smith	Smith	PROPN	_	Case=Nom	1	appos		PhraseLabel=NP
 3	...	...	PUNCT	_	_	5			PhraseLabel=Top
 4	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj		PhraseLabel=S
-5	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	root		PhraseLabel=S
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	conj		PhraseLabel=S
 6	redan	redan	ADV	_	_	5			PhraseLabel=S
 7	sagt	säga	VERB	_	VerbForm=Sup|Voice=Act	5			PhraseLabel=VP
 8	farväl	farväl	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	obj		PhraseLabel=VP|SpaceAfter=No
@@ -73212,7 +73212,7 @@
 # sent_id = Romn_Lundqvist-Ingentobak.310
 # text = Axeln är mjuk och rund, hennes pladdrande läppar är mjuka och runda, hela Mona är mjuk och rund.
 1	Axeln	axel	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj		PhraseLabel=S
-2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	root		PhraseLabel=S
+2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	conj		PhraseLabel=S
 3	mjuk	mjuk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	conj		PhraseLabel=KoP
 4	och	och	CCONJ	_	_	2	xcomp		PhraseLabel=KoP
 5	rund	rund	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	conj		PhraseLabel=KoP|SpaceAfter=No
@@ -73748,7 +73748,7 @@
 # sent_id = Romn_Lundqvist-Ingentobak.359
 # text = Han ser palmkronorna vaja och böjas av den hårda vinden, förnimmer hur allting tycks sköljas bort i en väldig störtvåg vid blixtars ljus och åskans dån.
 1	Han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj		PhraseLabel=S
-2	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+2	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 3	palmkronorna	palmkrona	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	obj		PhraseLabel=S
 4	vaja	vaja	VERB	_	VerbForm=Inf|Voice=Act	5	conj		PhraseLabel=VP
 5	och	och	CCONJ	_	_	2			PhraseLabel=KoP
@@ -74063,7 +74063,7 @@
 # sent_id = Romn_Lundqvist-Ingentobak.382
 # text = Benen spretar rakt ut, armarna hänger slött ner på var sida om stolens tjocka armstöd, huvudet hänger ner mot bröstet.
 1	Benen	ben	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	2	nsubj		PhraseLabel=S
-2	spretar	spreta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+2	spretar	spreta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 3	rakt	rak	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4			PhraseLabel=AbP
 4	ut	ut	ADV	_	_	2	advmod		PhraseLabel=AbP|SpaceAfter=No
 5	,	,	PUNCT	_	_	2			PhraseLabel=Top
@@ -74281,7 +74281,7 @@
 # sent_id = Romn_Lundqvist-Ingentobak.405
 # text = Han måste ju ta hand om honom, måste visa sej från sin rätta sida, sin tjänstemannasida från första början.
 1	Han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj		PhraseLabel=S
-2	måste	måste	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	root		PhraseLabel=S
+2	måste	måste	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	conj		PhraseLabel=S
 3	ju	ju	ADV	_	_	2			PhraseLabel=S
 4	ta	ta	VERB	_	VerbForm=Inf|Voice=Act	2			PhraseLabel=VP
 5	hand	hand	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj		PhraseLabel=VP
@@ -74758,7 +74758,7 @@
 # sent_id = Romn_Bjelvehammar-TageBengtsson.12
 # text = Han skriver ingenting, han deklarerar aldrig någon inkomst, han arbetar med kontanter och fasta handslag.
 1	Han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj		PhraseLabel=S
-2	skriver	skriva	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+2	skriver	skriva	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 3	ingenting	ingenting	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	2	obj		PhraseLabel=S|SpaceAfter=No
 4	,	,	PUNCT	_	_	2			PhraseLabel=Top
 5	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj		PhraseLabel=S
@@ -75015,7 +75015,7 @@
 1	Tage	Tage	PROPN	_	Case=Nom	3	det		PhraseLabel=NP
 2	Bengtssons	Bengtsson	PROPN	_	Case=Gen	1	fixed		PhraseLabel=NP
 3	hy	hy	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nsubj		PhraseLabel=NP
-4	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	root		PhraseLabel=S
+4	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	conj		PhraseLabel=S
 5	alltid	alltid	ADV	_	_	4			PhraseLabel=S
 6	aningen	aning	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7			PhraseLabel=AjP
 7	brunfärgad	brunfärgad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp		PhraseLabel=AjP|SpaceAfter=No
@@ -75278,7 +75278,7 @@
 # text = Tage Bengtsson delar gärna med sig av sina erfarenheter, ger råd och anvisningar, allt detta kostar ingenting extra.
 1	Tage	Tage	PROPN	_	Case=Nom	3	nsubj		PhraseLabel=S
 2	Bengtsson	Bengtsson	PROPN	_	Case=Nom	1	fixed		PhraseLabel=S
-3	delar	dela	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+3	delar	dela	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 4	gärna	gärna	ADV	_	_	3			PhraseLabel=S
 5	med	med	ADP	_	_	3	compound:prt		PhraseLabel=S
 6	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	3	obj		PhraseLabel=S
@@ -75657,7 +75657,7 @@
 # sent_id = Romn_Bjelvehammar-TageBengtsson.59
 # text = Han ombesörjer allt, han tar bort allt som ska bort, han städar och putsar till belåtenhet för nya boende.
 1	Han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj		PhraseLabel=S
-2	ombesörjer	ombesörja	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+2	ombesörjer	ombesörja	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 3	allt	all	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	2	obj		PhraseLabel=S|SpaceAfter=No
 4	,	,	PUNCT	_	_	2			PhraseLabel=Top
 5	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj		PhraseLabel=S
@@ -77706,7 +77706,7 @@
 # sent_id = Romn_Bjelvehammar-TageBengtsson.152
 # text = Nu ser sällan Tage Bengtsson en bäck, inte heller blåklockor och smultronrevor i dikeskanter, Detta växte överallt på morfars tid, inte heller ser han den sagolikt vackra cikorian, den blåmilda färgen glömmer aldrig Tage Bengtsson.
 1	Nu	nu	ADV	_	_	2			PhraseLabel=S
-2	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+2	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 3	sällan	sällan	ADV	_	_	2			PhraseLabel=S
 4	Tage	Tage	PROPN	_	Case=Nom	2	nsubj		PhraseLabel=S
 5	Bengtsson	Bengtsson	PROPN	_	Case=Nom	4	fixed		PhraseLabel=S
@@ -78131,7 +78131,7 @@
 # text = Tage Bengtsson går aldrig till sin mors och sin fars grav, han längtar aldrig dit, han tänker sällan på dem, tvärtom han känner en stor befrielse över att slippa se sin fars namn.
 1	Tage	Tage	PROPN	_	Case=Nom	3	nsubj		PhraseLabel=S
 2	Bengtsson	Bengtsson	PROPN	_	Case=Nom	1	fixed		PhraseLabel=S
-3	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+3	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 4	aldrig	aldrig	ADV	_	_	3			PhraseLabel=S
 5	till	till	ADP	_	_	3	advmod		PhraseLabel=PP
 6	sin	sig	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	det		PhraseLabel=NP
@@ -78364,7 +78364,7 @@
 # sent_id = Romn_Bjelvehammar-TageBengtsson.190
 # text = Ingen säger Tage, ingen säger Bengtsson.
 1	Ingen	ingen	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	2	nsubj		PhraseLabel=S
-2	säger	säga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+2	säger	säga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 3	Tage	Tage	PROPN	_	Case=Nom	2	obj		PhraseLabel=S|SpaceAfter=No
 4	,	,	PUNCT	_	_	2			PhraseLabel=Top
 5	ingen	ingen	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	6	nsubj		PhraseLabel=S
@@ -80784,7 +80784,7 @@
 # sent_id = Romn_Holmsen-Polynesiskpassad.43
 # text = Vi reser som sjömän, vi arbetar som sjåare, vi seglar som stoweaways i lasten för att ta reda på ursprunget och mänskorna som skapat varorna.
 1	Vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	2	nsubj		PhraseLabel=S
-2	reser	resa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+2	reser	resa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 3	som	som	SCONJ	_	_	2			PhraseLabel=SuP
 4	sjömän	sjöman	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj		PhraseLabel=SuP|SpaceAfter=No
 5	,	,	PUNCT	_	_	2			PhraseLabel=Top
@@ -86058,7 +86058,7 @@
 3	varit	vara	AUX	_	VerbForm=Sup|Voice=Act	1			PhraseLabel=VP
 4	vit	vit	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	xcomp		PhraseLabel=VP|SpaceAfter=No
 5	,	,	PUNCT	_	_	6			PhraseLabel=Top
-6	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	root		PhraseLabel=S
+6	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	conj		PhraseLabel=S
 7	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	det		PhraseLabel=NP
 8	tillbakadragenhet	tillbakadragenhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	6:SB|10:	PhraseLabel=NP
 9	inte	inte	PART	_	Polarity=Neg	6			PhraseLabel=S
@@ -98223,7 +98223,7 @@
 # sent_id = Wiki_HarryPotter.115
 # text = Stouffer förlorade målet, blev dömd för att ha lämnat in falska papper och för att ha givit falskt vittnesmål, då hon ändrat böckernas titel efter Harry Potter-böckernas tillkomst.
 1	Stouffer	Stouffer	PROPN	_	Case=Nom	2	nsubj		PhraseLabel=S
-2	förlorade	förlora	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+2	förlorade	förlora	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 3	målet	mål	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obj		PhraseLabel=S|SpaceAfter=No
 4	,	,	PUNCT	_	_	2			PhraseLabel=Top
 5	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	2	conj		PhraseLabel=S
@@ -110215,7 +110215,7 @@
 
 # sent_id = Wiki_MiominMio.88
 # text = Sätt sju spejare på vakt utanför dörren, sätt sju och sjuttio spejare på vakt i alla salar och trappor och korridorer mellan tornet och mitt rum".
-1	Sätt	sätta	VERB	_	Mood=Imp|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+1	Sätt	sätta	VERB	_	Mood=Imp|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 2	sju	sju	NUM	_	NumType=Card	3	det		PhraseLabel=NP
 3	spejare	spejare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	obj		PhraseLabel=NP
 4	på	på	ADP	_	_	1	advcl		PhraseLabel=PP
@@ -111535,7 +111535,7 @@
 2	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det		PhraseLabel=NP
 3	första	första	ADJ	_	Case=Nom|Definite=Def|Degree=Sup|NumType=Ord	4			PhraseLabel=NP
 4	världen	värld	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	obj		PhraseLabel=NP
-5	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	root		PhraseLabel=S
+5	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	conj		PhraseLabel=S
 6	allt	all	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj		PhraseLabel=S
 7	gott	god	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	xcomp		PhraseLabel=S|SpaceAfter=No
 8	,	,	PUNCT	_	_	5			PhraseLabel=Top
@@ -112647,7 +112647,7 @@
 # text = I Danmark har det gjorts 14 filmer i serien, i Norge lika många.
 1	I	i	ADP	_	_	3	advmod		PhraseLabel=PP
 2	Danmark	Danmark	PROPN	_	Case=Nom	1	obj		PhraseLabel=PP
-3	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	root		PhraseLabel=S
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	conj		PhraseLabel=S
 4	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	nsubj		PhraseLabel=S
 5	gjorts	göra	VERB	_	VerbForm=Sup|Voice=Pass	3			PhraseLabel=VP
 6	14	14	NUM	_	NumType=Card	7	det		PhraseLabel=NP
@@ -112665,7 +112665,7 @@
 # text = I Danmark spelade Ove Sprogøe ligaledaren Egon Olsen, i Norge Arve Opsahl.
 1	I	i	ADP	_	_	3	advmod		PhraseLabel=PP
 2	Danmark	Danmark	PROPN	_	Case=Nom	1	obj		PhraseLabel=PP
-3	spelade	spela	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root		PhraseLabel=S
+3	spelade	spela	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	conj		PhraseLabel=S
 4	Ove	Ove	PROPN	_	Case=Nom	3	nsubj		PhraseLabel=S
 5	Sprogøe	Sprogøe	PROPN	_	Case=Nom	4	fixed		PhraseLabel=S
 6	ligaledaren	ligaledare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obj	3:OO|12:	PhraseLabel=NP
