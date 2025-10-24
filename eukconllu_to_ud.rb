@@ -200,6 +200,17 @@ def getinfofromsentence(sentence,id)
     return form,lemma,pos,msd,msd2,head,deprel,enhdep,misc
 end
 
+def find_next_conjunct(target,conjuncts)
+    answer = nil
+    conjuncts.sort.each do |conjunct|
+        if conjunct > target
+            answer = conjunct.clone
+        end
+        break
+    end
+    return answer
+end
+
 def convert_syntax(sentence2, sent_id)
     sentence = sentence2.clone
     root = nil
@@ -264,8 +275,8 @@ def convert_syntax(sentence2, sent_id)
 #=begin
     conjunction_heads = chain_conjuncts.keys
     headstatus = ""
-    conjuction_heads.each do |conjunction_head|
-        if sentence[conjuction_head]["pos"] == "KO"
+    conjunction_heads.each do |conjunction_head|
+        if sentence[conjunction_head]["pos"] == "KO"
             status = "conjunction"
         elsif sentence[conjunction_head]["pos"] == "SY"
             status = "punctuation"
@@ -310,14 +321,14 @@ def convert_syntax(sentence2, sent_id)
                 end
             end
         end
-        TODO: find_next_conjunct, "other"
+        #TODO: "other"
         #sort conjuncts, first as head #
         #sort conjunctions, put on the closest #
         #change relations #
         #reassign heads that were on the older head #
         #reassign the old head itself #punct to head? or to next?
     end
-=end
+#=end
 
     sentence.each_pair do |id,senthash|
         deprel = senthash["deprel"]
