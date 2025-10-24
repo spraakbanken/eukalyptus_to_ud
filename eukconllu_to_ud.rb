@@ -203,7 +203,7 @@ end
 def find_next_conjunct(target,conjuncts)
     answer = nil
     conjuncts.sort.each do |conjunct|
-        if conjunct > target
+        if conjunct < target
             answer = conjunct.clone
         end
         break
@@ -273,49 +273,50 @@ def convert_syntax(sentence2, sent_id)
     end
 
 #=begin
-    conjunction_heads = chain_conjuncts.keys
+    coordination_heads = chain_conjuncts.keys
     headstatus = ""
-    conjunction_heads.each do |conjunction_head|
-        if sentence[conjunction_head]["pos"] == "KO"
-            status = "conjunction"
-        elsif sentence[conjunction_head]["pos"] == "SY"
-            status = "punctuation"
-        elsif conjunction_head == 0
+    coordination_heads.each do |coordination_head|
+        if coordination_head == 0
             status = "root"
+        elsif sentence[coordination_head]["pos"] == "SY"
+            status = "punctuation"
+        elsif sentence[coordination_head]["pos"] == "KO"
+            status = "conjunction"
         else
             status = "other"
         end
 
-        chain_conjuncts[conjunction_head].sort!
+        chain_conjuncts[coordination_head].sort!
         if status == "conjunction" or status == "punctuation"
-            new_conjunction_head = nil
-            chain_conjuncts.each.with_index do |conjunct,index|
+            new_coordination_head = nil
+            chain_conjuncts[coordination_head].each.with_index do |conjunct,index|
                 if index == 0
-                    new_conjunction_head = conjunct.clone
-                    sentence[new_conjunction_head]["deprel"] = sentence[conjunction_head]["deprel"].clone
-                    sentence[new_conjunction_head]["head"] = sentence[conjunction_head]["head"].clone
+                    new_coordination_head = conjunct.clone
+                    #STDOUT.puts "#{sent_id}\t#{coordination_head}\t#{new_coordination_head}"
+                    sentence[new_coordination_head]["deprel"] = sentence[coordination_head]["deprel"].clone
+                    sentence[new_coordination_head]["head"] = sentence[coordination_head]["head"].clone
                     if status == "punctuation"
-                        sentence[conjunction_head]["head"] = root.clone #TODO: on nearest conjunct?
-                        sentence[conjunction_head]["deprel"] = "punct"
+                        sentence[coordination_head]["head"] = root.clone #TODO: on nearest conjunct?
+                        sentence[coordination_head]["deprel"] = "punct"
                     elsif status == "conjunction"
-                        sentence[conjunction_head]["deprel"] = "cc"
-                        sentence[conjunction_head]["head"] = find_next_conjunct(conjuction_head,chain_conjuncts)
+                        sentence[coordination_head]["deprel"] = "cc"
+                        sentence[coordination_head]["head"] = find_next_conjunct(coordination_head,chain_conjuncts[coordination_head])
                     end
                 else
-                    sentence[conjunct]["head"] = new_conjunction_head.clone
+                    sentence[conjunct]["head"] = new_coordination_head.clone
                     sentence[conjunct]["deprel"] = "conj" #TODO: parataxis for clauses?
                 end
             end
-            chain_other_daughters[head].each do |other_daughter|
-                sentence[other_daughter]["head"] = new_conjunction_head.clone
+            chain_other_daughters[coordination_head].each do |other_daughter|
+                sentence[other_daughter]["head"] = new_coordination_head.clone
             end
-            chain_other_conjunctions[head].each do |other_conjunction|
+            chain_other_conjunctions[coordination_head].each do |other_conjunction|
                 sentence[other_conjunction]["deprel"] = "cc"
-                sentence[other_conjunction]["head"] = find_next_conjunct(other_conjunction,chain_conjuncts)
+                sentence[other_conjunction]["head"] = find_next_conjunct(other_conjunction,chain_conjuncts[coordination_head])
             end
         elsif status == "root"
-            sentence[conjunction_head]["deprel"] = "root"
-            chain_conjuncts.each.with_index do |conjunct,index|
+            sentence[chain_conjuncts[coordination_head].min]["deprel"] = "root"
+            chain_conjuncts[coordination_head].each.with_index do |conjunct,index|
                 if index > 1
                     sentence[conjunct]["deprel"] = "conj"
                 end
@@ -338,16 +339,20 @@ def convert_syntax(sentence2, sent_id)
             head = 0
         end
 
-        if head == 0
-            udeprels[id] = "root"
+        if deprel.downcase == deprel
+            udeprels[id] = deprel
+        else
+            if head == 0
+                udeprels[id] = "root"
+            end
+            if pos == "PUNCT"
+                udeprels[id] = "punct"
+            end
+            
+            if !@matchdeprels[deprel].nil?
+                udeprels[id] = @matchdeprels[deprel]
+            end
         end
-        if pos == "PUNCT"
-            udeprels[id] = "punct"
-        end
-        if !@matchdeprels[deprel].nil?
-            udeprels[id] = @matchdeprels[deprel]
-        end
-        
         uheads[id] = head #move to a separate cycle?
         
 
