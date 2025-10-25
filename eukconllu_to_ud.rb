@@ -203,7 +203,7 @@ end
 def find_next_conjunct(target,conjuncts)
     answer = nil
     conjuncts.sort.each do |conjunct|
-        if conjunct < target
+        if conjunct > target
             answer = conjunct.clone
         end
         break
@@ -225,109 +225,123 @@ def convert_syntax(sentence2, sent_id)
     uheads = {}
     udeprels = {}
 
-    chain_conjuncts = Hash.new{|hash, key| hash[key] = Array.new} #{"head"=>nil, "dependents"=>[]}
-    chain_other_conjunctions = Hash.new{|hash, key| hash[key] = Array.new}
-    chain_other_daughters = Hash.new{|hash, key| hash[key] = Array.new}
-
+    
 
     #how to make sure that sentence is changed correctly? sort of fixed, I guess
 
 
-    processed_conjuncts = []
-    sentence.each_pair do |id,senthash|
-        deprel = senthash["deprel"]
-        head = senthash["head"]
-        pos = senthash["pos"]
+    #processed_conjuncts = []
+    loop do 
+        nokl = true
+        chain_conjuncts = Hash.new{|hash, key| hash[key] = Array.new} #{"head"=>nil, "dependents"=>[]}
+        chain_other_conjunctions = Hash.new{|hash, key| hash[key] = Array.new}
+        chain_other_daughters = Hash.new{|hash, key| hash[key] = Array.new}
 
- 
-        if (deprel == "KL") and !processed_conjuncts.include?(id) #pre-converted parataxis not included, since it's already in the UD format
-            conjunction_daughters = finddaughters(sentence,head)
-            processed_conjuncts << conjunction_daughters
-            processed_conjuncts.flatten!
+        sentence.each_pair do |id,senthash|
+            deprel = senthash["deprel"]
+            head = senthash["head"]
+            pos = senthash["pos"]
 
-            #if head == 0
-            #    STDOUT.puts "head=root\t#{sent_id}"
-            #elsif sentence[head]["pos"].include?("SY")
-                #STDOUT.puts "head=SY\t#{sent_id}\t#{head}"
-            #elsif sentence[head]["pos"] == "KO"
-            #    STDOUT.puts "head=KO"
-            #else
-            #    STDOUT.puts "head=other\t#{sent_id}\t#{head}\t#{sentence[head]["lemma"]}\t#{sentence[head]["pos"]}"
-            #end
-
-            conjunction_daughters.each do |daughter|
-                if deprel == "KL" 
-                    chain_conjuncts[head] << daughter
-                elsif sentence[daughter]["pos"] == "KO"
-                    if deprel == "PH"
-                        chain_other_conjunctions[head] << daughter
+        
+            if (deprel == "KL") #and !processed_conjuncts.include?(id) #pre-converted parataxis not included, since it's already in the UD format
+                nokl = false
+                conjunction_daughters = finddaughters(sentence,head)
+                #processed_conjuncts << conjunction_daughters
+                #processed_conjuncts.flatten!
+		    
+                #if head == 0
+                #    STDOUT.puts "head=root\t#{sent_id}"
+                #elsif sentence[head]["pos"].include?("SY")
+                    #STDOUT.puts "head=SY\t#{sent_id}\t#{head}"
+                #elsif sentence[head]["pos"] == "KO"
+                #    STDOUT.puts "head=KO"
+                #else
+                #    STDOUT.puts "head=other\t#{sent_id}\t#{head}\t#{sentence[head]["lemma"]}\t#{sentence[head]["pos"]}"
+                #end
+		    
+                conjunction_daughters.each do |daughter|
+                    if deprel == "KL" 
+                        chain_conjuncts[head] << daughter
+                    elsif sentence[daughter]["pos"] == "KO"
+                        if deprel == "PH"
+                            chain_other_conjunctions[head] << daughter
+                        else
+                            chain_other_daughters[head] << daughter
+                            #STDOUT.puts "KO_not_under_PH\t#{sent_id}\t#{head}\t#{daughter}"
+                        end
                     else
                         chain_other_daughters[head] << daughter
-                        #STDOUT.puts "KO_not_under_PH\t#{sent_id}\t#{head}\t#{daughter}"
                     end
-                else
-                    chain_other_daughters[head] << daughter
                 end
+                break
             end
         end
-    end
 
-#=begin
-    coordination_heads = chain_conjuncts.keys
-    headstatus = ""
-    coordination_heads.each do |coordination_head|
-        if coordination_head == 0
-            status = "root"
-        elsif sentence[coordination_head]["pos"] == "SY"
-            status = "punctuation"
-        elsif sentence[coordination_head]["pos"] == "KO"
-            status = "conjunction"
+        if nokl
+            break
         else
-            status = "other"
-        end
-
-        chain_conjuncts[coordination_head].sort!
-        if status == "conjunction" or status == "punctuation"
-            new_coordination_head = nil
-            chain_conjuncts[coordination_head].each.with_index do |conjunct,index|
-                if index == 0
-                    new_coordination_head = conjunct.clone
-                    #STDOUT.puts "#{sent_id}\t#{coordination_head}\t#{new_coordination_head}"
-                    sentence[new_coordination_head]["deprel"] = sentence[coordination_head]["deprel"].clone
-                    sentence[new_coordination_head]["head"] = sentence[coordination_head]["head"].clone
-                    if status == "punctuation"
-                        sentence[coordination_head]["head"] = root.clone #TODO: on nearest conjunct?
-                        sentence[coordination_head]["deprel"] = "punct"
-                    elsif status == "conjunction"
-                        sentence[coordination_head]["deprel"] = "cc"
-                        sentence[coordination_head]["head"] = find_next_conjunct(coordination_head,chain_conjuncts[coordination_head])
-                    end
+            coordination_heads = chain_conjuncts.keys
+            headstatus = ""
+            coordination_heads.each do |coordination_head|
+                if coordination_head == 0
+                    status = "root"
+                elsif sentence[coordination_head]["pos"] == "SY"
+                    status = "punctuation"
+                elsif sentence[coordination_head]["pos"] == "KO"
+                    status = "conjunction"
                 else
-                    sentence[conjunct]["head"] = new_coordination_head.clone
-                    sentence[conjunct]["deprel"] = "conj" #TODO: parataxis for clauses?
+                    status = "other"
                 end
-            end
-            chain_other_daughters[coordination_head].each do |other_daughter|
-                sentence[other_daughter]["head"] = new_coordination_head.clone
-            end
-            chain_other_conjunctions[coordination_head].each do |other_conjunction|
-                sentence[other_conjunction]["deprel"] = "cc"
-                sentence[other_conjunction]["head"] = find_next_conjunct(other_conjunction,chain_conjuncts[coordination_head])
-            end
-        elsif status == "root"
-            sentence[chain_conjuncts[coordination_head].min]["deprel"] = "root"
-            chain_conjuncts[coordination_head].each.with_index do |conjunct,index|
-                if index > 1
-                    sentence[conjunct]["deprel"] = "conj"
+	        
+                chain_conjuncts[coordination_head].sort!
+                if status == "conjunction" or status == "punctuation" or status == "other"
+                    new_coordination_head = nil
+                    chain_conjuncts[coordination_head].each.with_index do |conjunct,index|
+                        if index == 0
+                            new_coordination_head = conjunct.clone
+                            #STDOUT.puts "#{sent_id}\t#{coordination_head}\t#{new_coordination_head}"
+                            sentence[new_coordination_head]["deprel"] = sentence[coordination_head]["deprel"].clone
+                            sentence[new_coordination_head]["head"] = sentence[coordination_head]["head"].clone
+                            if status == "punctuation"
+                                sentence[coordination_head]["head"] = root.clone #TODO: on nearest conjunct?
+                                sentence[coordination_head]["deprel"] = "punct"
+                            elsif status == "conjunction"
+                                sentence[coordination_head]["deprel"] = "cc"
+                                sentence[coordination_head]["head"] = find_next_conjunct(coordination_head,chain_conjuncts[coordination_head])
+                            elsif status == "other"
+                                sentence[coordination_head]["deprel"] = "dep"
+                                sentence[coordination_head]["head"] = new_coordination_head.clone
+
+                            end
+                        else
+                            sentence[conjunct]["head"] = new_coordination_head.clone
+                            sentence[conjunct]["deprel"] = "conj" #TODO: parataxis for clauses?
+                        end
+                    end
+                    chain_other_daughters[coordination_head].each do |other_daughter|
+                        sentence[other_daughter]["head"] = new_coordination_head.clone
+                    end
+                    chain_other_conjunctions[coordination_head].each do |other_conjunction|
+                        sentence[other_conjunction]["deprel"] = "cc"
+                        sentence[other_conjunction]["head"] = find_next_conjunct(other_conjunction,chain_conjuncts[coordination_head])
+                    end
+                elsif status == "root"
+                    sentence[chain_conjuncts[coordination_head].min]["deprel"] = "root"
+                    chain_conjuncts[coordination_head].each.with_index do |conjunct,index|
+                        if index > 1
+                            sentence[conjunct]["deprel"] = "conj"
+                        end
+                    end
                 end
+                #TODO: "other"
+                #sort conjuncts, first as head #
+                #sort conjunctions, put on the closest #
+                #change relations #
+                #reassign heads that were on the older head #
+                #reassign the old head itself #punct to head? or to next?
+                
             end
         end
-        #TODO: "other"
-        #sort conjuncts, first as head #
-        #sort conjunctions, put on the closest #
-        #change relations #
-        #reassign heads that were on the older head #
-        #reassign the old head itself #punct to head? or to next?
     end
 #=end
 
