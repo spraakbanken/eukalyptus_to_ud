@@ -1,14 +1,29 @@
-# sent_id = Blog_160886-12595823.4
-# text = Snacka om bortkastad tid och antagligen en hel del pengar.
-1	Snacka	snacka	VB	-.-.-	VB.INF.AKT.-	0	--		PhraseLabel=VP
-2	om	om	PE	-.-.-	PE.-	1	MD		PhraseLabel=PP
-3	bortkastad	bortkastad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	4	MD		PhraseLabel=NP
-4	tid	tid	NN	-.-.-	NN.UTR.SIN.IND	5	KL		PhraseLabel=NP
-5	och	och	KO	-.-.-	KO.-	2	OO		PhraseLabel=KoP
-6	antagligen	antagligen	AB	-.-.-	AB.-.-	9	MD		PhraseLabel=NP
-7	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	9	DT		PhraseLabel=NP
-8	hel	hel	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	9	DT		PhraseLabel=NP
-9	del	del	NN	-.-.-	NN.UTR.SIN.IND	5	KL		PhraseLabel=NP
-10	pengar	pengar	NN	-.-.-	NN.UTR.PLU.IND	9	MD		PhraseLabel=NP|SpaceAfter=No
-11	.	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top
+# sent_id = Romn_Holmsen-Polynesiskpassad.262
+# text = Där var infödda ungdomar som sällade sig till oss, män byggda som gudar, kvinnor med nötbruna kroppar, nattsvart hår och pärlvita leenden.
+1	Där	där	AB	-.-.-	AB.-.-	2	RA		PhraseLabel=S
+2	var	vara	VB	-.-.-	VB.IND.AKT.PRT	0	--		PhraseLabel=S
+3	infödda	infödd	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	4	MD		PhraseLabel=NP
+4	ungdomar	ungdom	NN	-.-.-	NN.UTR.PLU.IND	2	KL		PhraseLabel=NP
+5	som	som	SU	-.-.-	SU.-	4	MD		PhraseLabel=SuP
+6	sällade	sälla	VB	-.-.-	VB.IND.AKT.PRT	5	OO		PhraseLabel=S
+7	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	6	OO		PhraseLabel=S
+8	till	till	PE	-.-.-	PE.-	6	OA		PhraseLabel=PP
+9	oss	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	8	OO		PhraseLabel=PP|SpaceAfter=No
+10	,	_	SY	-.-.-	SY.DEL	2	--		PhraseLabel=Top
+11	män	man	NN	-.-.-	NN.UTR.PLU.IND	2	KL		PhraseLabel=NP
+12	byggda	byggd	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	11	MD		PhraseLabel=AjP
+13	som	som	SU	-.-.-	SU.-	12	JF		PhraseLabel=SuP
+14	gudar	gud	NN	-.-.-	NN.UTR.PLU.IND	13	OO		PhraseLabel=SuP|SpaceAfter=No
+15	,	_	SY	-.-.-	SY.DEL	2	--		PhraseLabel=Top
+16	kvinnor	kvinna	NN	-.-.-	NN.UTR.PLU.IND	2	KL		PhraseLabel=NP
+17	med	med	PE	-.-.-	PE.-	16	MD		PhraseLabel=PP
+18	nötbruna	nötbrun	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	19	MD		PhraseLabel=NP
+19	kroppar	kropp	NN	-.-.-	NN.UTR.PLU.IND	23	KL		PhraseLabel=NP|SpaceAfter=No
+20	,	_	SY	-.-.-	SY.DEL	2	--		PhraseLabel=Top
+21	nattsvart	nattsvart	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	22	MD		PhraseLabel=NP
+22	hår	hår	NN	-.-.-	NN.NEU.SIN.IND	23	KL		PhraseLabel=NP
+23	och	och	KO	-.-.-	KO.-	17	OO		PhraseLabel=KoP
+24	pärlvita	pärlvit	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	25	MD		PhraseLabel=NP
+25	leenden	leende	NN	-.-.-	NN.NEU.PLU.IND	23	KL		PhraseLabel=NP|SpaceAfter=No
+26	.	_	SY	-.-.-	SY.DEL	2	--		PhraseLabel=Top
 

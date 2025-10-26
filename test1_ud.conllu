@@ -1,14 +1,29 @@
-# sent_id = Blog_160886-12595823.4
-# text = Snacka om bortkastad tid och antagligen en hel del pengar.
-1	Snacka	snacka	VERB	_	VerbForm=Inf|Voice=Act	0	--		PhraseLabel=VP
-2	om	om	ADP	_	_	1			PhraseLabel=PP
-3	bortkastad	bortkastad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	4			PhraseLabel=NP
-4	tid	tid	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj		PhraseLabel=NP
-5	och	och	CCONJ	_	_	9	cc		PhraseLabel=KoP
-6	antagligen	antagligen	ADV	_	_	9			PhraseLabel=NP
-7	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	9	det		PhraseLabel=NP
-8	hel	hel	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	det		PhraseLabel=NP
-9	del	del	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj		PhraseLabel=NP
-10	pengar	pengar	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9			PhraseLabel=NP|SpaceAfter=No
-11	.	.	PUNCT	_	_	1	--		PhraseLabel=Top
+# sent_id = Romn_Holmsen-Polynesiskpassad.262
+# text = Där var infödda ungdomar som sällade sig till oss, män byggda som gudar, kvinnor med nötbruna kroppar, nattsvart hår och pärlvita leenden.
+1	Där	där	ADV	_	_	4	advmod		PhraseLabel=S
+2	var	vara	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	dep		PhraseLabel=S
+3	infödda	infödd	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	4			PhraseLabel=NP
+4	ungdomar	ungdom	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	--		PhraseLabel=NP
+5	som	som	SCONJ	_	_	4			PhraseLabel=SuP
+6	sällade	sälla	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	obj		PhraseLabel=S
+7	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	6	obj		PhraseLabel=S
+8	till	till	ADP	_	_	6	advcl		PhraseLabel=PP
+9	oss	vi	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	8	obj		PhraseLabel=PP|SpaceAfter=No
+10	,	,	PUNCT	_	_	4	--		PhraseLabel=Top
+11	män	man	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	conj		PhraseLabel=NP
+12	byggda	byggd	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	11			PhraseLabel=AjP
+13	som	som	SCONJ	_	_	12			PhraseLabel=SuP
+14	gudar	gud	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	obj		PhraseLabel=SuP|SpaceAfter=No
+15	,	,	PUNCT	_	_	4	--		PhraseLabel=Top
+16	kvinnor	kvinna	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	conj		PhraseLabel=NP
+17	med	med	ADP	_	_	16			PhraseLabel=PP
+18	nötbruna	nötbrun	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19			PhraseLabel=NP
+19	kroppar	kropp	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	obj		PhraseLabel=NP|SpaceAfter=No
+20	,	,	PUNCT	_	_	4	--		PhraseLabel=Top
+21	nattsvart	nattsvart	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22			PhraseLabel=NP
+22	hår	hår	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	conj		PhraseLabel=NP
+23	och	och	CCONJ	_	_	25	cc		PhraseLabel=KoP
+24	pärlvita	pärlvit	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25			PhraseLabel=NP
+25	leenden	leende	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	19	conj		PhraseLabel=NP|SpaceAfter=No
+26	.	.	PUNCT	_	_	4	--		PhraseLabel=Top
 

@@ -22,7 +22,7 @@ elsif mode == "list_pos"
 end
 
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
-@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","HD"=>"dep","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"}
+@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
 
 =begin
 Lista 1:
@@ -253,12 +253,13 @@ def convert_syntax(sentence2, sent_id)
         
             if (deprel == "KL") #and !processed_conjuncts.include?(id) #pre-converted parataxis not included, since it's already in the UD format
                 nokl = false
+                #STDERR.puts head
                 conjunction_daughters = finddaughters(sentence,head)
                 #processed_conjuncts << conjunction_daughters
                 #processed_conjuncts.flatten!
 		    
                 #if head == 0
-                #    STDOUT.puts "head=root\t#{sent_id}"
+                    #STDOUT.puts "head=root\t#{sent_id}"
                 #elsif sentence[head]["pos"].include?("SY")
                     #STDOUT.puts "head=SY\t#{sent_id}\t#{head}"
                 #elsif sentence[head]["pos"] == "KO"
@@ -268,7 +269,7 @@ def convert_syntax(sentence2, sent_id)
                 #end
 		    
                 conjunction_daughters.each do |daughter|
-                    if deprel == "KL" 
+                    if sentence[daughter]["deprel"] == "KL" 
                         chain_conjuncts[head] << daughter
                     elsif sentence[daughter]["pos"] == "KO"
                         if deprel == "PH"
@@ -291,6 +292,7 @@ def convert_syntax(sentence2, sent_id)
             coordination_heads = chain_conjuncts.keys
             headstatus = ""
             coordination_heads.each do |coordination_head|
+                #STDERR.puts coordination_head
                 if coordination_head == 0
                     status = "root"
                 elsif sentence[coordination_head]["pos"] == "SY"
@@ -300,6 +302,7 @@ def convert_syntax(sentence2, sent_id)
                 else
                     status = "other"
                 end
+                #STDERR.puts status
 	        
                 chain_conjuncts[coordination_head].sort!
                 if status == "conjunction" or status == "punctuation" or status == "other"
@@ -307,6 +310,7 @@ def convert_syntax(sentence2, sent_id)
                     chain_conjuncts[coordination_head].each.with_index do |conjunct,index|
                         if index == 0
                             new_coordination_head = conjunct.clone
+                 #           STDERR.puts new_coordination_head
                             #STDOUT.puts "#{sent_id}\t#{coordination_head}\t#{new_coordination_head}"
                             sentence[new_coordination_head]["deprel"] = sentence[coordination_head]["deprel"].clone
                             sentence[new_coordination_head]["head"] = sentence[coordination_head]["head"].clone
