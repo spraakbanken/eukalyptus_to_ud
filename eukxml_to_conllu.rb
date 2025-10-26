@@ -327,13 +327,16 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 end
             else
                 if verbose then STDERR.puts "Current_id: #{current_id} No HD or PH found" end
+                
             end
             if head_label_index.nil?
+                @headless_counter += 1
                 head_candidates = []
                 candidate_index = {}
                 #head_old = nil
                 #head_label_index_old = nil
                 if verbose then STDERR.puts "Current_id: #{current_id} Assigning the leftmost node as a head" end
+                
                 #next_level.each.with_index do |node, nodeindex|
                 #    if term_ids.include?(node)
                  
@@ -364,6 +367,9 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                     head = root.clone
                     #STDERR.puts "Current_id: #{current_id} ROOT AS HEAD #{head}"
                     #abort
+                    @root_counter += 1
+                elsif
+                    @leftmost_counter += 1
                 end
             end
         end
@@ -534,6 +540,9 @@ n_processed_sents = 0
 @cat_combinations_on_top = Hash.new(0)
 @n_only_terminals_on_top = 0
 n_wrong_trees = 0
+@headless_counter = 0
+@leftmost_counter = 0
+@root_counter = 0
 
 
 undercounter = 0
@@ -843,6 +852,9 @@ end
 STDERR.puts "Excluded sentences: #{excluded_sents.keys.length}. Processed sentences: #{n_processed_sents}. Invalid trees: #{n_wrong_trees}"
 #STDERR.puts "Sentences where there are only terminals on top, and more than one have other POS than SY: #{@n_only_terminals_on_top}"
 STDERR.puts "Sentences where there are several nonterminals on top: #{@nsents_several_nonterminals_on_top}"
+STDERR.puts @headless_counter
+STDERR.puts @leftmost_counter
+STDERR.puts @root_counter
 #@cat_combinations_on_top.each_pair do |combination,freq| 
 #    STDOUT.puts "#{combination}\t#{freq}"
 #end

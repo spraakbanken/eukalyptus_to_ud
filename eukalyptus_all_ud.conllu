@@ -160,12 +160,12 @@
 # text = Men att få mysa med pins-bus och julmysa med släkt och vänner passar såå bra just nu.
 1	Men	men	CCONJ	_	_	13			PhraseLabel=S
 2	att	att	PART	_	_	13	nsubj		PhraseLabel=SuP
-3	få	få	AUX	_	VerbForm=Inf|Voice=Act	2	obj		PhraseLabel=VP
-4	mysa	mysa	VERB	_	VerbForm=Inf|Voice=Act	3			PhraseLabel=VP
+3	få	få	VERB	_	VerbForm=Inf|Voice=Act	4	dep		PhraseLabel=VP
+4	mysa	mysa	VERB	_	VerbForm=Inf|Voice=Act	2	obj		PhraseLabel=VP
 5	med	med	ADP	_	_	4			PhraseLabel=PP
 6	pins-bus	prins_Bus	PROPN	_	Case=Nom|Typo=Yes	5	obj		CorrectForm=prins Bus|PhraseLabel=PP
-7	och	och	CCONJ	_	_	0	cc		PhraseLabel=KoP
-8	julmysa	julmysa	VERB	_	VerbForm=Inf|Voice=Act	3			PhraseLabel=VP
+7	och	och	CCONJ	_	_	4	det		PhraseLabel=KoP
+8	julmysa	julmysa	VERB	_	VerbForm=Inf|Voice=Act	4	conj		PhraseLabel=VP
 9	med	med	ADP	_	_	8			PhraseLabel=PP
 10	släkt	släkt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj		PhraseLabel=KoP
 11	och	och	CCONJ	_	_	12	cc		PhraseLabel=KoP
@@ -577,12 +577,12 @@
 
 # sent_id = Blog_160886-11338599.9
 # text = Från den ena kalendern till en annan...
-1	Från	från	ADP	_	_	0	--		PhraseLabel=PP
+1	Från	från	ADP	_	_	0	root		PhraseLabel=PP
 2	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det		PhraseLabel=NP
 3	ena	ena	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4			PhraseLabel=NP
 4	kalendern	kalender	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	obj		PhraseLabel=NP
-5	till	till	ADV	_	_	4	dep		PhraseLabel=KoP
-6	en	en	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	4	conj		PhraseLabel=NP
+5	till	till	ADP	_	_	1			PhraseLabel=PP
+6	en	en	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	5	obj		PhraseLabel=NP
 7	annan	annan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6			PhraseLabel=NP|SpaceAfter=No
 8	...	...	PUNCT	_	_	1	--		PhraseLabel=Top
 
@@ -2716,7 +2716,7 @@
 8	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	7	obj		PhraseLabel=S
 9	så	så	ADV	_	_	10			PhraseLabel=AjP
 10	otrevlig	otrevlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	xcomp		PhraseLabel=AjP
-11	så	så	SCONJ	_	_	2	dep		PhraseLabel=KoP
+11	så	så	CCONJ	_	_	13	cc		PhraseLabel=KoP
 12	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj		PhraseLabel=S
 13	fick	få	AUX	_	Mood=Ind|Tense=Past|Voice=Act	2	conj		PhraseLabel=S
 14	sätta	sätta	VERB	_	VerbForm=Inf|Voice=Act	13			PhraseLabel=VP
@@ -12929,21 +12929,21 @@
 
 # sent_id = Blog_265827-15106306.13
 # text = Peeling Pure Calmille, Yves-Rocher.se 99:-
-1	Peeling	Peeling	X	_	Foreign=Yes	5	fixed		PhraseLabel=S
-2	Pure	Pure	X	_	Foreign=Yes	5	fixed		PhraseLabel=S
-3	Calmille	Calmille	X	_	Foreign=Yes	5	fixed		PhraseLabel=S|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	--		PhraseLabel=Top
-5	Yves-Rocher.se	Yves-Rocher	PROPN	_	Case=Nom	0	--		PhraseLabel=S
+1	Peeling	Peeling	X	_	Foreign=Yes	3	fixed		PhraseLabel=NP
+2	Pure	Pure	X	_	Foreign=Yes	3	fixed		PhraseLabel=NP
+3	Calmille	Calmille	X	_	Foreign=Yes	0	nsubj		PhraseLabel=NP|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	--		PhraseLabel=Top
+5	Yves-Rocher.se	Yves-Rocher	PROPN	_	Case=Nom	3	appos		PhraseLabel=NP
 6	99	99	NUM	_	NumType=Card	7	det		PhraseLabel=NP|SpaceAfter=No
-7	:-	:-	SYM	_	_	5	xcomp		PhraseLabel=NP
+7	:-	:-	SYM	_	_	3	xcomp		PhraseLabel=NP
 
 # sent_id = Blog_265827-15106306.14
 # text = Clinique Even Better, Kicks.se 485:-
-1	Clinique	Clinique	PROPN	_	Case=Nom	0	--		PhraseLabel=S
-2	Even	Even	X	_	Foreign=Yes	1	fixed		PhraseLabel=S
-3	Better	Better	X	_	Foreign=Yes	1	fixed		PhraseLabel=S|SpaceAfter=No
+1	Clinique	Clinique	PROPN	_	Case=Nom	0	nsubj		PhraseLabel=NP
+2	Even	Even	X	_	Foreign=Yes	1	fixed		PhraseLabel=NP
+3	Better	Better	X	_	Foreign=Yes	1	fixed		PhraseLabel=NP|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	--		PhraseLabel=Top
-5	Kicks.se	Kicks.se	PROPN	_	Case=Nom	1	appos		PhraseLabel=
+5	Kicks.se	Kicks.se	PROPN	_	Case=Nom	1	appos		PhraseLabel=NP
 6	485	485	NUM	_	NumType=Card	7	det		PhraseLabel=NP|SpaceAfter=No
 7	:-	:-	SYM	_	_	1	xcomp		PhraseLabel=NP
 
@@ -33678,11 +33678,11 @@
 4	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det		PhraseLabel=NP
 5	större	stor	ADJ	_	Case=Nom|Degree=Cmp	6			PhraseLabel=NP
 6	samband	samband	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nsubj		PhraseLabel=NP
-7	mellan	mellan	ADP	_	_	8	dep		PhraseLabel=KoP
-8	fattigdom	fattigdom	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6			PhraseLabel=KoP|SpaceAfter=No
+7	mellan	mellan	ADP	_	_	6			PhraseLabel=PP
+8	fattigdom	fattigdom	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj		PhraseLabel=KoP|SpaceAfter=No
 9	/	/	PUNCT	_	_	2	punct		PhraseLabel=KoP|SpaceAfter=No
 10	rikedom	rikedom	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	conj		PhraseLabel=KoP
-11	och	och	CCONJ	_	_	8	det		PhraseLabel=KoP
+11	och	och	CCONJ	_	_	12	cc		PhraseLabel=KoP
 12	näringsstrukturen	näringsstruktur	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	conj		PhraseLabel=KoP|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	--		PhraseLabel=Top
 

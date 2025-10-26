@@ -160,12 +160,12 @@
 # text = Men att få mysa med pins-bus och julmysa med släkt och vänner passar såå bra just nu.
 1	Men	men	KO	-.-.-	KO.-	13	DF		PhraseLabel=S
 2	att	att	SU	-.-.-	SU.-	13	SB		PhraseLabel=SuP
-3	få	få	VB	-.-.-	VB.INF.AKT.-	7	KL		PhraseLabel=VP
-4	mysa	mysa	VB	-.-.-	VB.INF.AKT.-	3	IV		PhraseLabel=VP
+3	få	få	VB	-.-.-	VB.INF.AKT.-	2	OO		PhraseLabel=VP
+4	mysa	mysa	VB	-.-.-	VB.INF.AKT.-	3	KL		PhraseLabel=VP
 5	med	med	PE	-.-.-	PE.-	4	MD		PhraseLabel=PP
 6	pins-bus	prins Bus	EN	-.-.-	EN.-	5	OO		CorrectForm=prins Bus|PhraseLabel=PP
-7	och	och	KO	-.-.-	KO.-	2	OO		PhraseLabel=KoP
-8	julmysa	jul|mysa	VB	-.-.-	VB.INF.AKT.-	7	IV		PhraseLabel=VP
+7	och	och	KO	-.-.-	KO.-	3	PH		PhraseLabel=KoP
+8	julmysa	jul|mysa	VB	-.-.-	VB.INF.AKT.-	3	KL		PhraseLabel=VP
 9	med	med	PE	-.-.-	PE.-	8	MD		PhraseLabel=PP
 10	släkt	släkt	NN	-.-.-	NN.UTR.SIN.IND	11	KL		PhraseLabel=KoP
 11	och	och	KO	-.-.-	KO.-	9	OO		PhraseLabel=KoP
@@ -577,12 +577,12 @@
 
 # sent_id = Blog_160886-11338599.9
 # text = Från den ena kalendern till en annan...
-1	Från	från	PE	-.-.-	PE.-	0	--		PhraseLabel=PP
+1	Från	från	PE	-.-.-	PE.-	0	MD		PhraseLabel=PP
 2	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	4	DT		PhraseLabel=NP
 3	ena	ena	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	4	MD		PhraseLabel=NP
-4	kalendern	kalender	NN	-.-.-	NN.UTR.SIN.DEF	5	KL		PhraseLabel=NP
-5	till	till	PE	-.-.-	PE.-	1	OO		PhraseLabel=KoP
-6	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	5	KL		PhraseLabel=NP
+4	kalendern	kalender	NN	-.-.-	NN.UTR.SIN.DEF	1	OO		PhraseLabel=NP
+5	till	till	PE	-.-.-	PE.-	1	MD		PhraseLabel=PP
+6	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	5	OO		PhraseLabel=NP
 7	annan	annan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	6	MD		PhraseLabel=NP|SpaceAfter=No
 8	...	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top
 
@@ -2716,7 +2716,7 @@
 8	var	vara	VB	-.-.-	VB.IND.AKT.PRT	7	OO		PhraseLabel=S
 9	så	så	AB	-.-.-	AB.-.-	10	MD		PhraseLabel=AjP
 10	otrevlig	otrevlig	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	8	SP		PhraseLabel=AjP
-11	så	så	SU	-.-.-	SU.-	20	parataxis		PhraseLabel=KoP
+11	så	så	KO	-	KO.-	20	parataxis		PhraseLabel=KoP
 12	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	13	SB		PhraseLabel=S
 13	fick	få	VB	-.-.-	VB.IND.AKT.PRT	11	KL		PhraseLabel=S
 14	sätta	sätta	VB	-.-.-	VB.INF.AKT.-	13	IV		PhraseLabel=VP
@@ -12929,21 +12929,21 @@
 
 # sent_id = Blog_265827-15106306.13
 # text = Peeling Pure Calmille, Yves-Rocher.se 99:-
-1	Peeling	_	UO	-.-.-	UO.-	5	ME		PhraseLabel=S
-2	Pure	_	UO	-.-.-	UO.-	5	ME		PhraseLabel=S
-3	Calmille	_	UO	-.-.-	UO.-	5	ME		PhraseLabel=S|SpaceAfter=No
-4	,	_	SY	-.-.-	SY.DEL	5	--		PhraseLabel=Top
-5	Yves-Rocher.se	Yves-Rocher	EN	-.-.-	EN.-	0	--		PhraseLabel=S
+1	Peeling	_	UO	-.-.-	UO.-	3	ME		PhraseLabel=NP
+2	Pure	_	UO	-.-.-	UO.-	3	ME		PhraseLabel=NP
+3	Calmille	_	UO	-.-.-	UO.-	0	SB		PhraseLabel=NP|SpaceAfter=No
+4	,	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
+5	Yves-Rocher.se	Yves-Rocher	EN	-.-.-	EN.-	3	AN		PhraseLabel=NP
 6	99	nittionio	NU	-.-.-	NU.-	7	DT		PhraseLabel=NP|SpaceAfter=No
-7	:-	_	SY	-.-.-	SY.SYM	5	SP		PhraseLabel=NP
+7	:-	_	SY	-.-.-	SY.SYM	3	SP		PhraseLabel=NP
 
 # sent_id = Blog_265827-15106306.14
 # text = Clinique Even Better, Kicks.se 485:-
-1	Clinique	_	EN	-	EN.-	0	--		PhraseLabel=S
-2	Even	_	UO	-.-.-	UO.-	1	ME		PhraseLabel=S
-3	Better	_	UO	-.-.-	UO.-	1	ME		PhraseLabel=S|SpaceAfter=No
+1	Clinique	_	EN	-	EN.-	0	SB		PhraseLabel=NP
+2	Even	_	UO	-.-.-	UO.-	1	ME		PhraseLabel=NP
+3	Better	_	UO	-.-.-	UO.-	1	ME		PhraseLabel=NP|SpaceAfter=No
 4	,	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top
-5	Kicks.se	Kicks.se	EN	-.-.-	EN.-	1	AN		PhraseLabel=
+5	Kicks.se	Kicks.se	EN	-.-.-	EN.-	1	AN		PhraseLabel=NP
 6	485	fyrahundraåttiofem	NU	-.-.-	NU.-	7	DT		PhraseLabel=NP|SpaceAfter=No
 7	:-	_	SY	-.-.-	SY.SYM	1	SP		PhraseLabel=NP
 
@@ -33678,12 +33678,12 @@
 4	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	6	DT		PhraseLabel=NP
 5	större	stor	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	6	MD		PhraseLabel=NP
 6	samband	samband	NN	-.-.-	NN.NEU.SIN.IND	2	ES		PhraseLabel=NP
-7	mellan	mellan	PE	-.-.-	PE.-	6	MD		PhraseLabel=KoP
+7	mellan	mellan	PE	-.-.-	PE.-	6	MD		PhraseLabel=PP
 8	fattigdom	fattigdom	NN	-.-.-	NN.UTR.SIN.IND	9	KL		PhraseLabel=KoP|SpaceAfter=No
-9	/	_	SY	-.-.-	SY.DEL	7	KL		PhraseLabel=KoP|SpaceAfter=No
+9	/	_	SY	-.-.-	SY.DEL	11	KL		PhraseLabel=KoP|SpaceAfter=No
 10	rikedom	rikedom	NN	-.-.-	NN.UTR.SIN.IND	9	KL		PhraseLabel=KoP
-11	och	och	KO	-.-.-	KO.-	7	PH		PhraseLabel=KoP
-12	näringsstrukturen	närings|struktur	NN	-.-.-	NN.UTR.SIN.DEF	7	KL		PhraseLabel=KoP|SpaceAfter=No
+11	och	och	KO	-.-.-	KO.-	7	OO		PhraseLabel=KoP
+12	näringsstrukturen	närings|struktur	NN	-.-.-	NN.UTR.SIN.DEF	11	KL		PhraseLabel=KoP|SpaceAfter=No
 13	.	_	SY	-.-.-	SY.DEL	2	--		PhraseLabel=Top
 
 # sent_id = Eupa_00-01-17.450

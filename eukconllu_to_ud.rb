@@ -321,6 +321,9 @@ def convert_syntax(sentence2, sent_id)
                                 sentence[coordination_head]["deprel"] = "cc"
                                 sentence[coordination_head]["head"] = find_next_conjunct(coordination_head,chain_conjuncts[coordination_head])
                             elsif status == "other"
+                                #recognize the head as the first conjunct? If all same pos
+                                #as EUK-coordination if till, mot etc?
+                                #if SU etc. report a possible error?
                                 sentence[coordination_head]["deprel"] = "dep"
                                 sentence[coordination_head]["head"] = new_coordination_head.clone
 
