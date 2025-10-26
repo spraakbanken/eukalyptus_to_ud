@@ -1,0 +1,14 @@
+# sent_id = Blog_160886-12595823.4
+# text = Snacka om bortkastad tid och antagligen en hel del pengar.
+1	Snacka	snacka	VERB	_	VerbForm=Inf|Voice=Act	0	--		PhraseLabel=VP
+2	om	om	ADP	_	_	1	MD		PhraseLabel=PP
+3	bortkastad	bortkastad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	4	MD		PhraseLabel=NP
+4	tid	tid	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	KL		PhraseLabel=NP
+5	och	och	CCONJ	_	_	2	OO		PhraseLabel=KoP
+6	antagligen	antagligen	ADV	_	_	9	MD		PhraseLabel=NP
+7	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	9	DT		PhraseLabel=NP
+8	hel	hel	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	DT		PhraseLabel=NP
+9	del	del	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	KL		PhraseLabel=NP
+10	pengar	pengar	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	MD		PhraseLabel=NP|SpaceAfter=No
+11	.	.	PUNCT	_	_	1	--		PhraseLabel=Top
+

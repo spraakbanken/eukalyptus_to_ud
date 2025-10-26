@@ -1,0 +1,14 @@
+# sent_id = Blog_160886-12595823.4
+# text = Snacka om bortkastad tid och antagligen en hel del pengar.
+1	Snacka	snacka	VB	-.-.-	VB.INF.AKT.-	0	--		PhraseLabel=VP
+2	om	om	PE	-.-.-	PE.-	1	MD		PhraseLabel=PP
+3	bortkastad	bortkastad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	4	MD		PhraseLabel=NP
+4	tid	tid	NN	-.-.-	NN.UTR.SIN.IND	5	KL		PhraseLabel=NP
+5	och	och	KO	-.-.-	KO.-	2	OO		PhraseLabel=KoP
+6	antagligen	antagligen	AB	-.-.-	AB.-.-	9	MD		PhraseLabel=NP
+7	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	9	DT		PhraseLabel=NP
+8	hel	hel	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	9	DT		PhraseLabel=NP
+9	del	del	NN	-.-.-	NN.UTR.SIN.IND	5	KL		PhraseLabel=NP
+10	pengar	pengar	NN	-.-.-	NN.UTR.PLU.IND	9	MD		PhraseLabel=NP|SpaceAfter=No
+11	.	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top
+

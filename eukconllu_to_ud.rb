@@ -202,12 +202,20 @@ end
 
 def find_next_conjunct(target,conjuncts)
     answer = nil
+    #STDERR.puts target
+    #STDERR.puts conjuncts.join(" ")
+    #STDERR.puts conjuncts.sort.join(" ")
+
+
     conjuncts.sort.each do |conjunct|
-        if conjunct > target
+        #STDERR.puts conjunct
+        if conjunct > target             
             answer = conjunct.clone
+            break
         end
-        break
+        
     end
+    #STDERR.puts answer
     return answer
 end
 
