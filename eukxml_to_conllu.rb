@@ -308,6 +308,36 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             end
         else
             if verbose then STDERR.puts "Current_id: #{current_id} Cat: #{cat}" end
+            if labels.count("HD") > 1
+                @several_hds << "several_heads\t#{sent_id}\t#{current_id}\t#{next_level.select{|n|labels[next_level.index(n)] == "HD"}.join(" ")}"
+                
+            end
+ 
+            if labels.include?("PH") and labels.include?("HD")
+                @phs_hds << "ph_and_hd\t#{sent_id}\t#{current_id}\t#{next_level.select{|n|(labels[next_level.index(n)] == "HD") or (labels[next_level.index(n)]=="PH")}.join(" ")}"
+            end
+
+            if labels.count("PH") > 1
+                @several_phs << "several_phs\t#{sent_id}\t#{current_id}\t#{next_level.select{|n|labels[next_level.index(n)]=="PH"}.join(" ")}"
+            end
+
+            if cat == "KoP"
+                if !labels.include?("PH")
+                    @nophs_in_kop << "nophs_in_kop\t#{sent_id}\t#{current_id}"
+                else
+                    if labels.count("PH") > 1
+                        @severalphs_in_kop << "severalphs_in_kop\t#{sent_id}\t#{current_id}\t#{next_level.select{|n|labels[next_level.index(n)]=="PH"}.join(" ")}"
+                    end
+                    next_level.select{|n|labels[next_level.index(n)]=="PH"}.each do |ph|
+                        if words[ph]["pos"] != "KO" and words[ph]["pos"] != "SY"
+                            @fake_coordinators << "fake_coord\t#{sent_id}\t#{current_id}\t#{ph}\t#{words[ph]["pos"]}"
+                        end
+                    end
+                end
+
+
+            end
+
             head_label_index = labels.index("HD") 
             
             if head_label_index.nil?
@@ -543,6 +573,13 @@ n_wrong_trees = 0
 @headless_counter = 0
 @leftmost_counter = 0
 @root_counter = 0
+
+@several_hds = []
+@phs_hds = []
+@several_phs = []
+@nophs_in_kop = []
+@severalphs_in_kop = []
+@fake_coordinators = []
 
 
 undercounter = 0
@@ -855,6 +892,11 @@ STDERR.puts "Sentences where there are several nonterminals on top: #{@nsents_se
 STDERR.puts @headless_counter
 STDERR.puts @leftmost_counter
 STDERR.puts @root_counter
+
+[@several_hds, @phs_hds, @several_phs, @nophs_in_kop, @severalphs_in_kop, @fake_coordinators].each do |hdarray|
+    STDOUT.puts hdarray
+end
+
 #@cat_combinations_on_top.each_pair do |combination,freq| 
 #    STDOUT.puts "#{combination}\t#{freq}"
 #end
