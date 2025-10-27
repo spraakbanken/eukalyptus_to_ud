@@ -361,6 +361,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             end
             if head_label_index.nil?
                 @headless_counter += 1
+                STDOUT.puts "#{sent_id}\t#{current_id}"
                 head_candidates = []
                 candidate_index = {}
                 #head_old = nil
@@ -895,9 +896,9 @@ STDERR.puts @root_counter
 
 #@severalphs_in_kop,
 
-[@phs_hds, @several_phs, @nophs_in_kop,  @fake_coordinators].each do |hdarray|
-    STDOUT.puts hdarray
-end
+#[@phs_hds, @several_phs, @nophs_in_kop,  @fake_coordinators].each do |hdarray|
+#    STDOUT.puts hdarray
+#end
 
 #@cat_combinations_on_top.each_pair do |combination,freq| 
 #    STDOUT.puts "#{combination}\t#{freq}"
