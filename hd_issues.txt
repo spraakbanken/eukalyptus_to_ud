@@ -1,6 +1,3 @@
-several_heads	Eupa_00-01-17.338	Eupa_00-01-17.338.10	35 Eupa_00-01-17.338.2
-several_heads	Eupa_00-01-17.762	Eupa_00-01-17.762.1	8 9
-several_heads	Wiki_Asterix.10	Wiki_Asterix.10.22	28 29
 ph_and_hd	Blog_188519-10179826.20	Blog_188519-10179826.20.3	Blog_188519-10179826.20.1 14
 ph_and_hd	Blog_188519-10542620.20	Blog_188519-10542620.20.5	19 20
 ph_and_hd	Blog_188519-10542620.22	Blog_188519-10542620.22.5	15 16
@@ -332,174 +329,6 @@ nophs_in_kop	Wiki_Jonssonligan.30	Wiki_Jonssonligan.30.9
 nophs_in_kop	Wiki_Jonssonligan.31	Wiki_Jonssonligan.31.9
 nophs_in_kop	Wiki_Sverigesriksdag.106	Wiki_Sverigesriksdag.106.3
 nophs_in_kop	Wiki_Sverigesriksdag.106	Wiki_Sverigesriksdag.106.8
-severalphs_in_kop	Blog_160886-12595823.14	Blog_160886-12595823.14.3	6 9
-severalphs_in_kop	Blog_160886-11338497.2	Blog_160886-11338497.2.22	19 21
-severalphs_in_kop	Blog_160886-11338497.14a	Blog_160886-11338497.14.35	11 20
-severalphs_in_kop	Blog_160886-11338497.14b	Blog_160886-11338497.14.14	14 21
-severalphs_in_kop	Blog_188519-17383062.1	Blog_188519-17383062.1.7	25 27
-severalphs_in_kop	Blog_188519-17383062.2	Blog_188519-17383062.2.11	9 13
-severalphs_in_kop	Blog_188519-10179826.3	Blog_188519-10179826.3.6	7 10
-severalphs_in_kop	Blog_188519-10179826.5	Blog_188519-10179826.5.7	4 8
-severalphs_in_kop	Blog_188519-10179826.6	Blog_188519-10179826.6.14	14 22
-severalphs_in_kop	Blog_188519-10179826.9	Blog_188519-10179826.9.17	7 13 18 29
-severalphs_in_kop	Blog_188519-10179826.10	Blog_188519-10179826.10.16	8 19
-severalphs_in_kop	Blog_188519-10179826.13	Blog_188519-10179826.13.11	7 12
-severalphs_in_kop	Blog_188519-10179826.17	Blog_188519-10179826.17.22	6 10
-severalphs_in_kop	Blog_188519-10179826.19	Blog_188519-10179826.19.28	10 14
-severalphs_in_kop	Blog_188519-10179826.27	Blog_188519-10179826.27.14	8 24
-severalphs_in_kop	Blog_188519-10179826.28	Blog_188519-10179826.28.6	3 6
-severalphs_in_kop	Blog_188519-10179826.35	Blog_188519-10179826.35.8	10 14
-severalphs_in_kop	Blog_188519-10179826.39	Blog_188519-10179826.39.8	4 12
-severalphs_in_kop	Blog_188519-10179826.47	Blog_188519-10179826.47.11	8 17
-severalphs_in_kop	Blog_188519-10179826.56	Blog_188519-10179826.56.11	9 16
-severalphs_in_kop	Blog_188519-10179826.58	Blog_188519-10179826.58.19	6 12 23
-severalphs_in_kop	Blog_188519-10542620.3	Blog_188519-10542620.3.15	18 26
-severalphs_in_kop	Blog_188519-10542620.4	Blog_188519-10542620.4.14	9 16
-severalphs_in_kop	Blog_188519-10542620.6	Blog_188519-10542620.6.12	7 12 17
-severalphs_in_kop	Blog_188519-10542620.7	Blog_188519-10542620.7.10	9 17
-severalphs_in_kop	Blog_188519-10542620.10	Blog_188519-10542620.10.12	6 11
-severalphs_in_kop	Blog_188519-10542620.11	Blog_188519-10542620.11.15	29 35
-severalphs_in_kop	Blog_188519-10542620.12	Blog_188519-10542620.12.11	12 26
-severalphs_in_kop	Blog_188519-10542620.13	Blog_188519-10542620.13.11	6 14
-severalphs_in_kop	Blog_188519-10542620.19	Blog_188519-10542620.19.12	7 19
-severalphs_in_kop	Blog_188519-10542620.20	Blog_188519-10542620.20.12	10 16
-severalphs_in_kop	Blog_13263-255637.1	Blog_13263-255637.1.9	5 13
-severalphs_in_kop	Blog_13263-953043.2	Blog_13263-953043.2.20	8 29
-severalphs_in_kop	Blog_13263-1049139.1	Blog_13263-1049139.1.16	7 20
-severalphs_in_kop	Blog_13263-596973.1	Blog_13263-596973.1.17	16 40
-severalphs_in_kop	Blog_13263-24167.3	Blog_13263-24167.3.12	5 15
-severalphs_in_kop	Blog_13263-513530.4	Blog_13263-513530.4.17	15 26 30
-severalphs_in_kop	Blog_13263-839146.2	Blog_13263-839146.2.8	6 10
-severalphs_in_kop	Blog_12325-1398819.18	Blog_12325-1398819.18.20	13 32
-severalphs_in_kop	Blog_12325-1189192.5	Blog_12325-1189192.5.nt.51	11 36
-severalphs_in_kop	Blog_12325-1189192.14	Blog_12325-1189192.14.16	9 21
-severalphs_in_kop	Blog_265827-14955360.3	Blog_265827-14955360.3.10	12 19
-severalphs_in_kop	Blog_265827-14844249.10	Blog_265827-14844249.10.8	7 11
-severalphs_in_kop	Blog_265827-14889091.1	Blog_265827-14889091.1.7	5 14
-severalphs_in_kop	Blog_265827-15246480.2	Blog_265827-15246480.2.11	13 18
-severalphs_in_kop	Blog_265827-15106304.2	Blog_265827-15106304.2.13	8 16
-severalphs_in_kop	Blog_265827-15106304.4	Blog_265827-15106304.4.7	3 6
-severalphs_in_kop	Blog_6843-4101497.3	Blog_6843-4101497.3.8	10 17
-severalphs_in_kop	Blog_6843-5164672.4	Blog_6843-5164672.4.16	15 23
-severalphs_in_kop	Blog_6843-5164672.11	Blog_6843-5164672.11.1	2 4
-severalphs_in_kop	Blog_6843-5164672.12	Blog_6843-5164672.12.5	14 15 17
-severalphs_in_kop	Blog_6843-5164672.13	Blog_6843-5164672.13.22	10 31
-severalphs_in_kop	Blog_6843-4255016.5	Blog_6843-4255016.5.16	16 28
-severalphs_in_kop	Blog_6843-3465275.6	Blog_6843-3465275.6.26	3 20
-severalphs_in_kop	Blog_6843-3465275.7	Blog_6843-3465275.7.12	4 16
-severalphs_in_kop	Blog_6843-4575758.5	Blog_6843-4575758.5.12	22 30
-severalphs_in_kop	Blog_6843-2767923.2	Blog_6843-2767923.2.25	14 40
-severalphs_in_kop	Blog_6843-2767923.17	Blog_6843-2767923.17.18	15 31
-severalphs_in_kop	Blog_5089-9048317.16	Blog_5089-9048317.16.11	5 17
-severalphs_in_kop	Blog_5089-9048317.17	Blog_5089-9048317.17.24	15 31
-severalphs_in_kop	Blog_5089-9048317.29	Blog_5089-9048317.29.15	18 24
-severalphs_in_kop	Blog_5089-9048317.36	Blog_5089-9048317.36.17	18 26
-severalphs_in_kop	Blog_5089-9048317.39	Blog_5089-9048317.39.14	6 12
-severalphs_in_kop	Blog_5089-12282516.10	Blog_5089-12282516.10.18	11 20
-severalphs_in_kop	Blog_5089-12282516.25	Blog_5089-12282516.25.7	17 21
-severalphs_in_kop	Blog_5089-12282516.34	Blog_5089-12282516.34.17	25 31
-severalphs_in_kop	Blog_5089-9240616.5	Blog_5089-9240616.5.11	7 15
-severalphs_in_kop	Blog_5089-9240616.6	Blog_5089-9240616.6.10	9 15
-severalphs_in_kop	Blog_5089-9240616.23	Blog_5089-9240616.23.24	8 30
-severalphs_in_kop	Blog_5089-9240616.39	Blog_5089-9240616.39.1	4 6
-severalphs_in_kop	Blog_5089-62681.25	Blog_5089-62681.25.7	7 12
-severalphs_in_kop	Blog_9154-6030495.1	Blog_9154-6030495.1.15	11 17
-severalphs_in_kop	Blog_9154-501423.2	Blog_9154-501423.2.24	5 18
-severalphs_in_kop	Blog_54523-7856343.2	Blog_54523-7856343.2.23	5 9
-severalphs_in_kop	Blog_54523-7856343.11b	Blog_54523-7856343.11b.10	5 9
-severalphs_in_kop	Blog_54523-7856343.14	Blog_54523-7856343.14.nt.47	54 60
-severalphs_in_kop	Blog_54523-8202951.3	Blog_54523-8202951.3.9	24 28
-severalphs_in_kop	Blog_54523-8202951.7	Blog_54523-8202951.7.21	9 24
-severalphs_in_kop	Blog_54523-8202951.10	Blog_54523-8202951.10.9	6 17
-severalphs_in_kop	Blog_54523-6490319.2	Blog_54523-6490319.2.52	73 75 85 90 98
-severalphs_in_kop	Blog_54523-6490319.2	Blog_54523-6490319.2.50	41 46
-severalphs_in_kop	Blog_54523-6490319.4	Blog_54523-6490319.4.48	25 38
-severalphs_in_kop	Blog_54523-6490319.4	Blog_54523-6490319.4.49	60 73 85
-severalphs_in_kop	Blog_54523-9491151.1	Blog_54523-9491151.1.16	9 23
-severalphs_in_kop	Blog_54523-9491151.2	Blog_54523-9491151.2.10	3 5
-severalphs_in_kop	Blog_54523-9491151.11	Blog_54523-9491151.11.26	11 27 35 49
-severalphs_in_kop	Blog_54523-4665614.1	Blog_54523-4665614.1.8	7 13
-severalphs_in_kop	Blog_54523-4665614.3	Blog_54523-4665614.3.13	7 16 25
-severalphs_in_kop	Blog_54523-4665614.4	Blog_54523-4665614.4.16	7 12 18
-severalphs_in_kop	Blog_54523-14269154.1	Blog_54523-14269154.1.34	89 114
-severalphs_in_kop	Blog_54523-14269154.4	Blog_54523-14269154.4.23	11 21 29
-severalphs_in_kop	Blog_54523-14269154.5	Blog_54523-14269154.5.12	13 20
-severalphs_in_kop	Blog_54523-14269154.6	Blog_54523-14269154.6.15	43 50
-severalphs_in_kop	Blog_54523-14269154.7	Blog_54523-14269154.7.14	4 8 16 21
-severalphs_in_kop	Blog_54523-14269154.11	Blog_54523-14269154.11.22	53 59
-severalphs_in_kop	Blog_54523-14269154.11	Blog_54523-14269154.11.34	7 13
-severalphs_in_kop	Blog_54523-14269154.12	Blog_54523-14269154.12.11	44 50 56
-severalphs_in_kop	Blog_54523-14269154.12	Blog_54523-14269154.12.32	9 15 20
-severalphs_in_kop	Eupa_00-01-17.100	Eupa_00-01-17.100.29	13 25 39
-severalphs_in_kop	Eupa_00-01-17.101	Eupa_00-01-17.101.30	12 16
-severalphs_in_kop	Eupa_00-01-17.161	Eupa_00-01-17.161.25	3 14
-severalphs_in_kop	Eupa_00-01-17.412	Eupa_00-01-17.412.3	26 27
-severalphs_in_kop	Eupa_00-01-17.425	Eupa_00-01-17.425.14	17 25
-severalphs_in_kop	Eupa_00-01-17.477	Eupa_00-01-17.477.35	17 36
-severalphs_in_kop	Eupa_00-01-17.478	Eupa_00-01-17.478.8	39 42
-severalphs_in_kop	Eupa_00-01-17.501	Eupa_00-01-17.501.24	48 53
-severalphs_in_kop	Eupa_00-01-17.682	Eupa_00-01-17.682.19	9 20 28
-severalphs_in_kop	Eupa_00-01-17.683	Eupa_00-01-17.683.14	12 16
-severalphs_in_kop	Eupa_00-01-17.684	Eupa_00-01-17.684.19	13 21
-severalphs_in_kop	Eupa_00-01-17.719	Eupa_00-01-17.719.22	11 48
-severalphs_in_kop	Eupa_00-01-17.790	Eupa_00-01-17.790.21	18 20
-severalphs_in_kop	Eupa_00-01-17.801	Eupa_00-01-17.801.18	73 77
-severalphs_in_kop	Regr_254764.12	Regr_254764.12.25	7 18
-severalphs_in_kop	Arbt_Polisjakt.2	Arbt_Polisjakt.2.nt.12	10 16
-severalphs_in_kop	Arbt_Polisjakt.11	Arbt_Polisjakt.11.nt.23	5 10
-severalphs_in_kop	Arbt_Polisjakt.15	Arbt_Polisjakt.15.nt.17	20 25
-severalphs_in_kop	Digi_2014-08.23	Digi_2014-08.23.17	8 10
-severalphs_in_kop	Arbt_Hardkritik.7	Arbt_Hardkritik.7.nt.12	7 15
-severalphs_in_kop	Arbt_Folkomrostningen.4	Arbt_Folkomrostningen.4.nt.8	10 22
-severalphs_in_kop	Arbt_Kraftigaprotester.21	Arbt_Kraftigaprotester.21.nt.10	6 11
-severalphs_in_kop	Regr_255216.8	Regr_255216.8.8	19 31 34
-severalphs_in_kop	Regr_255926.20	Regr_255926.20.15	11 19
-severalphs_in_kop	Regr_255655.8	Regr_255655.8.6	9 Regr_255655.8.3
-severalphs_in_kop	Arbt_Vardbolag.10	Arbt_Vardbolag.10.nt.19	4 14
-severalphs_in_kop	Arbt_Vardbolag.12	Arbt_Vardbolag.12.nt.24	11 20
-severalphs_in_kop	Regr_255670.6	Regr_255670.6.4	11 14
-severalphs_in_kop	Regr_255193.3	Regr_255193.3.22	10 29
-severalphs_in_kop	Digi_2014-11.27	Digi_2014-11.27.12	16 18
-severalphs_in_kop	Regr_254981.13	Regr_254981.13.41	19 37
-severalphs_in_kop	Arbt_Smutsigvalkampanj.24	Arbt_Smutsigvalkampanj.24.nt.14	5 20
-severalphs_in_kop	Arbt_Iandrahand.7	Arbt_Iandrahand.7.nt.13	12 15
-severalphs_in_kop	Regr_254797.15	Regr_254797.15.10	7 12
-severalphs_in_kop	Romn_Lundqvist-Ingentobak.53	Romn_Lundqvist-Ingentobak.53.16	24 30
-severalphs_in_kop	Romn_Lundqvist-Ingentobak.99	Romn_Lundqvist-Ingentobak.99.30	12 27 29 31 39 47
-severalphs_in_kop	Romn_Lundqvist-Ingentobak.202	Romn_Lundqvist-Ingentobak.202.14	8 25
-severalphs_in_kop	Romn_Lundqvist-Ingentobak.233	Romn_Lundqvist-Ingentobak.233.16	5 16
-severalphs_in_kop	Romn_Lundqvist-Ingentobak.293	Romn_Lundqvist-Ingentobak.293.21	22 24
-severalphs_in_kop	Romn_Lundqvist-Ingentobak.308	Romn_Lundqvist-Ingentobak.308.9	4 8
-severalphs_in_kop	Romn_Lundqvist-Ingentobak.339	Romn_Lundqvist-Ingentobak.339.2	3 5
-severalphs_in_kop	Romn_Lundqvist-Ingentobak.346	Romn_Lundqvist-Ingentobak.346.7	3 6
-severalphs_in_kop	Romn_Bjelvehammar-TageBengtsson.46	Romn_Bjelvehammar-TageBengtsson.46.13	7 14
-severalphs_in_kop	Romn_Bjelvehammar-TageBengtsson.216	Romn_Bjelvehammar-TageBengtsson.216.22	18 27
-severalphs_in_kop	Romn_Bjelvehammar-TageBengtsson.226	Romn_Bjelvehammar-TageBengtsson.226.12	5 12
-severalphs_in_kop	Romn_Bjelvehammar-TageBengtsson.239	Romn_Bjelvehammar-TageBengtsson.239.23	23 28
-severalphs_in_kop	Romn_Bjelvehammar-TageBengtsson.244	Romn_Bjelvehammar-TageBengtsson.244.18	11 19
-severalphs_in_kop	Romn_Bjelvehammar-TageBengtsson.251	Romn_Bjelvehammar-TageBengtsson.251.4	26 28
-severalphs_in_kop	Romn_Holmsen-Polynesiskpassad.39	Romn_Holmsen-Polynesiskpassad.39.11	9 14
-severalphs_in_kop	Romn_Strand-Pagarna.84	Romn_Strand-Pagarna.84.7	8 16
-severalphs_in_kop	Romn_Strand-Pagarna.87	Romn_Strand-Pagarna.87.28	5 12
-severalphs_in_kop	Romn_Strand-Pagarna.360	Romn_Strand-Pagarna.360.16	15 24
-severalphs_in_kop	Romn_Strand-Pagarna.378	Romn_Strand-Pagarna.378.16	19 27
-severalphs_in_kop	Romn_Strand-Pagarna.383	Romn_Strand-Pagarna.383.8	5 9
-severalphs_in_kop	Wiki_Asterix.14	Wiki_Asterix.14.12	11 14
-severalphs_in_kop	Wiki_Asterix.40	Wiki_Asterix.40.10	5 10
-severalphs_in_kop	Wiki_Asterix.46	Wiki_Asterix.46.8	5 13
-severalphs_in_kop	Wiki_Semester.8	Wiki_Semester.8.23	14 24
-severalphs_in_kop	Wiki_VascodaGama.4	Wiki_VascodaGama.4.33	Wiki_VascodaGama.4.32 22
-severalphs_in_kop	Wiki_VascodaGama.40	Wiki_VascodaGama.40.12	10 15
-severalphs_in_kop	Wiki_VascodaGama.43	Wiki_VascodaGama.43.11	12 18
-severalphs_in_kop	Wiki_VascodaGama.59	Wiki_VascodaGama.59.6	29 36
-severalphs_in_kop	Wiki_VascodaGama.68	Wiki_VascodaGama.68.28	30 42
-severalphs_in_kop	Wiki_Vader.116	Wiki_Vader.116.11	10 20
-severalphs_in_kop	Wiki_MiominMio.88	Wiki_MiominMio.88.7	19 21
-severalphs_in_kop	Wiki_Jonssonligan.59	Wiki_Jonssonligan.59.13	7 13
-severalphs_in_kop	Wiki_Sverigesriksdag.11	Wiki_Sverigesriksdag.11.17	10 17 38 39
-severalphs_in_kop	Wiki_Sverigesriksdag.29	Wiki_Sverigesriksdag.29.18	7 17 18
-severalphs_in_kop	Wiki_Sverigesriksdag.108	Wiki_Sverigesriksdag.108.11	12 23
-fake_coord	Blog_160886-12595823.10	Blog_160886-12595823.10.14	Blog_160886-12595823.10.11	
 fake_coord	Blog_160886-11338497.4	Blog_160886-11338497.4.1	12	PE
 fake_coord	Blog_188519-10179826.41	Blog_188519-10179826.41.10	14	AJ
 fake_coord	Blog_188519-10179826.47	Blog_188519-10179826.47.11	17	AB
@@ -527,7 +356,6 @@ fake_coord	Arbt_Vrede.7	Arbt_Vrede.7.nt.3	6	PE
 fake_coord	Arbt_Folkomrostningen.21	Arbt_Folkomrostningen.21.nt.3	17	PE
 fake_coord	Regr_255856.13	Regr_255856.13.6	11	PE
 fake_coord	Regr_255856.14	Regr_255856.14.6	20	PE
-fake_coord	Regr_255655.8	Regr_255655.8.6	Regr_255655.8.3	
 fake_coord	Regr_255655.9	Regr_255655.9.26	17	PE
 fake_coord	Regr_255655.9	Regr_255655.9.3	34	PE
 fake_coord	Arbt_Sundsvallssyndikalister.7	Arbt_Sundsvallssyndikalister.7.nt.10	12	SU
@@ -550,7 +378,6 @@ fake_coord	Romn_Strand-Pagarna.360	Romn_Strand-Pagarna.360.16	15	AB
 fake_coord	Romn_Strand-Pagarna.386	Romn_Strand-Pagarna.386.7	6	AB
 fake_coord	Wiki_HarryPotter.26	Wiki_HarryPotter.26.3	14	PE
 fake_coord	Wiki_HarryPotter.91	Wiki_HarryPotter.91.14	12	VB
-fake_coord	Wiki_VascodaGama.4	Wiki_VascodaGama.4.33	Wiki_VascodaGama.4.32	
 fake_coord	Wiki_MiominMio.58	Wiki_MiominMio.58.14	11	SU
 fake_coord	Wiki_Sverigesriksdag.11	Wiki_Sverigesriksdag.11.17	10	AB
 fake_coord	Wiki_Sverigesriksdag.11	Wiki_Sverigesriksdag.11.17	17	AB

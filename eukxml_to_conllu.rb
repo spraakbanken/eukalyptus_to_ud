@@ -329,7 +329,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         @severalphs_in_kop << "severalphs_in_kop\t#{sent_id}\t#{current_id}\t#{next_level.select{|n|labels[next_level.index(n)]=="PH"}.join(" ")}"
                     end
                     next_level.select{|n|labels[next_level.index(n)]=="PH"}.each do |ph|
-                        if words[ph]["pos"] != "KO" and words[ph]["pos"] != "SY"
+                        if words[ph]["pos"] != "KO" and words[ph]["pos"] != "SY" and term_ids.include?(ph)
                             @fake_coordinators << "fake_coord\t#{sent_id}\t#{current_id}\t#{ph}\t#{words[ph]["pos"]}"
                         end
                     end
@@ -893,7 +893,9 @@ STDERR.puts @headless_counter
 STDERR.puts @leftmost_counter
 STDERR.puts @root_counter
 
-[@several_hds, @phs_hds, @several_phs, @nophs_in_kop, @severalphs_in_kop, @fake_coordinators].each do |hdarray|
+#@severalphs_in_kop,
+
+[@phs_hds, @several_phs, @nophs_in_kop,  @fake_coordinators].each do |hdarray|
     STDOUT.puts hdarray
 end
 
