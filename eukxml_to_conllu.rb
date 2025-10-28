@@ -352,8 +352,41 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                     head = temphead.clone
                     if verbose then STDERR.puts "Current_id: #{current_id} HD or PH confirmed as terminal: #{next_level[head_label_index]}" end
                 else
+                    ADD TESTING FOR NT, DO A RECURSION, TEST ON WIDER SAMPLE
+                    if verbose then STDERR.puts "************************" end
+                    if verbose then STDERR.puts "************************" end
+                    if verbose then STDERR.puts "************************" end
+                    if verbose then STDERR.puts "************************" end
+                    if verbose then STDERR.puts "************************" end
+                                     
+                    if verbose then STDERR.puts "************************" end
+                    if verbose then STDERR.puts "************************" end
+                    if verbose then STDERR.puts "************************" end
+                    if verbose then STDERR.puts "************************" end
+                    if verbose then STDERR.puts "************************" end
                     if verbose then STDERR.puts "Current_id: #{current_id} HD or PH erased: non-terminal" end
-                    head_label_index = nil
+                    #head_label_index = nil
+                    #head_label_index_nt = head_label_index.clone
+
+                    downnodes = primary_tree[temphead]
+                    if verbose then STDERR.puts "Current_id: #{current_id}. Looking at nodes in #{temphead}" end
+                    downlabels = primary_labels[temphead]
+                    if verbose then STDERR.puts "Current_id: #{current_id}. Looking at labels in #{temphead}" end
+                    head_label_index = downlabels.index("HD")
+                    #if verbose then STDERR.puts "HD head: #{downnodes[head_label_index]}" end
+                    #check if it is an NT
+
+
+                    if head_label_index.nil?
+                        head_label_index = downlabels.index("PH")
+                        #if verbose then STDERR.puts "PH index: #{downnodes[head_label_index]}" end
+                    #else
+                        #STDOUT.puts "#{sent_id}\tSuccesfully found an HD in one step down"
+                    end
+                    if head_label_index.nil?
+                        #STDOUT.puts "#{sent_id}\twent down from #{current_id}\t#{head_label_index_nt} does not contain a head"
+                        if verbose then STDERR.puts "#{sent_id}\twent down from #{current_id}\t#{temphead} does not contain a head" end
+                    end
                 end
             else
                 if verbose then STDERR.puts "Current_id: #{current_id} No HD or PH found" end
@@ -361,7 +394,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             end
             if head_label_index.nil?
                 @headless_counter += 1
-                STDOUT.puts "#{sent_id}\t#{current_id}"
+                #STDOUT.puts "#{sent_id}\t#{current_id}"
                 head_candidates = []
                 candidate_index = {}
                 #head_old = nil

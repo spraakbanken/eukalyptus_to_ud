@@ -3,12 +3,12 @@
 # text = Men att få mysa med pins-bus och julmysa med släkt och vänner passar såå bra just nu.
 1	Men	men	KO	-.-.-	KO.-	13	DF		PhraseLabel=S
 2	att	att	SU	-.-.-	SU.-	13	SB		PhraseLabel=SuP
-3	få	få	VB	-.-.-	VB.INF.AKT.-	7	KL		PhraseLabel=VP
-4	mysa	mysa	VB	-.-.-	VB.INF.AKT.-	3	IV		PhraseLabel=VP
+3	få	få	VB	-.-.-	VB.INF.AKT.-	2	OO		PhraseLabel=VP
+4	mysa	mysa	VB	-.-.-	VB.INF.AKT.-	9999	KL		PhraseLabel=VP
 5	med	med	PE	-.-.-	PE.-	4	MD		PhraseLabel=PP
 6	pins-bus	prins Bus	EN	-.-.-	EN.-	5	OO		CorrectForm=prins Bus|PhraseLabel=PP
-7	och	och	KO	-.-.-	KO.-	2	OO		PhraseLabel=KoP
-8	julmysa	jul|mysa	VB	-.-.-	VB.INF.AKT.-	7	IV		PhraseLabel=VP
+7	och	och	KO	-.-.-	KO.-	9999	PH		PhraseLabel=KoP
+8	julmysa	jul|mysa	VB	-.-.-	VB.INF.AKT.-	9999	KL		PhraseLabel=VP
 9	med	med	PE	-.-.-	PE.-	8	MD		PhraseLabel=PP
 10	släkt	släkt	NN	-.-.-	NN.UTR.SIN.IND	11	KL		PhraseLabel=KoP
 11	och	och	KO	-.-.-	KO.-	9	OO		PhraseLabel=KoP
