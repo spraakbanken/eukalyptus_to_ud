@@ -1,22 +1,21 @@
 # newdoc id = Arbt_Fackfientlig
-# sent_id = Blog_160886-12595823.10
-# text = Men att få mysa med pins-bus och julmysa med släkt och vänner passar såå bra just nu.
-1	Men	men	KO	-.-.-	KO.-	13	DF		PhraseLabel=S
-2	att	att	SU	-.-.-	SU.-	13	SB		PhraseLabel=SuP
-3	få	få	VB	-.-.-	VB.INF.AKT.-	2	OO		PhraseLabel=VP
-4	mysa	mysa	VB	-.-.-	VB.INF.AKT.-	7	KL		PhraseLabel=VP
-5	med	med	PE	-.-.-	PE.-	4	MD		PhraseLabel=PP
-6	pins-bus	prins Bus	EN	-.-.-	EN.-	5	OO		CorrectForm=prins Bus|PhraseLabel=PP
-7	och	och	KO	-.-.-	KO.-	7	PH		PhraseLabel=KoP
-8	julmysa	jul|mysa	VB	-.-.-	VB.INF.AKT.-	7	KL		PhraseLabel=VP
-9	med	med	PE	-.-.-	PE.-	8	MD		PhraseLabel=PP
-10	släkt	släkt	NN	-.-.-	NN.UTR.SIN.IND	11	KL		PhraseLabel=KoP
-11	och	och	KO	-.-.-	KO.-	9	OO		PhraseLabel=KoP
-12	vänner	vän	NN	-.-.-	NN.UTR.PLU.IND	11	KL		PhraseLabel=KoP
-13	passar	passa	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseLabel=S
-14	såå	så	AB	-.-.-	AB.-.-	15	MD		CorrectForm=så|PhraseLabel=AjP
-15	bra	bra	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	13	MD		PhraseLabel=AjP
-16	just	just	AB	-.-.-	AB.-.-	17	MD		PhraseLabel=AbP
-17	nu	nu	AB	-.-.-	AB.-.-	13	MD		PhraseLabel=AbP|SpaceAfter=No
-18	.	_	SY	-.-.-	SY.DEL	13	--		PhraseLabel=Top
+# sent_id = Blog_160886-11338599.4
+# text = Han hade spanat in 1:an länge och visste precis vilken lucka det var som skulle öppnas.
+1	Han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	2	SB		PhraseLabel=S
+2	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	7	KL		PhraseLabel=S
+3	spanat	spana	VB	-.-.-	VB.SPM.AKT.-	2	IV		PhraseLabel=VP
+4	in	in	AB	-.-.-	AB.-.-	3	PL		PhraseLabel=VP
+5	1:an	etta	NN	-.-.-	NN.UTR.SIN.DEF	3	OO		PhraseLabel=VP
+6	länge	länge	AB	-.-.-	AB.POS.-	3	MD		PhraseLabel=VP
+7	och	och	KO	-.-.-	KO.-	0	--		PhraseLabel=KoP
+8	visste	veta	VB	-.-.-	VB.IND.AKT.PRT	7	KL		PhraseLabel=S
+9	precis	precis	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	10	MD		PhraseLabel=NP
+10	vilken	vilken	PO	-.-.-	PO.IND.SIN.UTR.-.FRL	11	DT		PhraseLabel=NP
+11	lucka	lucka	NN	-.-.-	NN.UTR.SIN.IND	8	OO	8:OO|16:|15:|13:	PhraseLabel=NP
+12	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	13	SB		PhraseLabel=S
+13	var	vara	VB	-.-.-	VB.IND.AKT.PRT	11	OO		PhraseLabel=S
+14	som	som	SU	-.-.-	SU.-	13	EF		PhraseLabel=SuP
+15	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	14	OO		PhraseLabel=S
+16	öppnas	öppna	VB	-.-.-	VB.INF.SFO.-	15	IV		PhraseLabel=VP|SpaceAfter=No
+17	.	_	SY	-.-.-	SY.DEL	7	--		PhraseLabel=Top
 

@@ -186,7 +186,7 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose, 
     end
 end
 
-def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids)
+def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel)
     @head_label_index = labels.index("HD") 
             
     if @head_label_index.nil?
@@ -200,9 +200,19 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
         temphead = next_level[@head_label_index].clone
         if term_ids.include?(temphead)
             @head = temphead.clone
+            if @reversed_tree[@head].nil?
+                @reversed_tree[@head] = root
+                @reversed_labels[@head] = phraselabel #"#{labels[nodeindex]}-#{cat}-#{phraselabel}"
+                #@reversed_labels2[@head] = "#{labels[nodeindex]}-#{cat}-#{phraselabel}"
+                if verbose then STDERR.puts "IN RECURSION #{@head} assigned #{root} as head and #{phraselabel} as label" end
+            else
+                if verbose then STDERR.puts "IN RECURSION assignment blocked: #{@head} already has #{@reversed_tree[@head]} as head" end
+            end
+         
+
             if verbose then STDERR.puts "Current_id: #{current_id} HD or PH confirmed as terminal: #{next_level[@head_label_index]}" end
         else
-            find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids)
+            find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel)
             #add condition for stopping
         end
     end
@@ -211,14 +221,10 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
 end
 
 def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phrases, root, sent_id, phraselabel,verbose,words)
-    #current_id = "#{sent_id}.0"
-    #root = 0
     cat = phrases[current_id]
-    #STDERR.puts "current_id", current_id
-    #gets
     
     if verbose then STDERR.puts "Current_id: #{current_id}" end
-    #STDERR.puts "*** #{primary_tree["Romn_Lundqvist-Ingentobak.20.5"]} ***"
+    
     onlyterminalsontop = false    
     discourseterminalontop = {}
     
@@ -228,13 +234,11 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
         next_level = primary_tree[current_id]
         if verbose then STDERR.puts "Current_id: #{current_id} Next level: #{next_level}" end
         labels = primary_labels[current_id]
-        head_label_index = labels.index("HD") 
-
-        
+        head_label_index = labels.index("HD")  
   
         #assign heads and do some more
         if cat == "Top"
-            #root = 0
+            
             if verbose then STDERR.puts "Current_id: #{current_id} Cat: #{cat}" end
 
             if next_level.length > 1
@@ -243,24 +247,11 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 nonterminals = 0
                 nonterminal_cats = []
                 terminal_nonsy_list = []
-
-                #next_level.each do |node|
-                #    if !term_ids.include?(node)
-                #        nonterminals += 1
-                #        nonterminal_cats << phrases[node]
-                #    end
-                #end
-                #if nonterminals > 1
-                #    @nsents_several_nonterminals_on_top += 1
-                #    #STDOUT.puts "#{sent_id}\t#{nonterminals}\t#{nonterminal_cats.uniq}\t#{nonterminal_cats}"
-                #end
-
                 terminalsonly = 1
                 
                 nonsymbols = 0
                 the_nonsymbol = nil
-                #if next_level.length > 1
-                    
+                                
                 next_level.each do |node|
                     if !term_ids.include?(node)
                         if verbose then STDERR.puts "Current_id: #{current_id} There is a non-terminal node #{node}, we are fine" end
@@ -280,28 +271,18 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 if nonterminals > 1
                     @nsents_several_nonterminals_on_top += 1
                     @sentids_several_nonterminals_on_top << sent_id
-                    #if nonterminal_cats.uniq == ["KoP"] or nonterminal_cats.uniq.sort == ["KoP", "SuP"]
-                    #    STDOUT.puts sent_id
-                    #end
-                    #STDOUT.puts "#{sent_id}\t#{nonterminals}\t#{nonterminal_cats.sort.uniq}\t#{nonterminal_cats.sort}"
                     combination = nonterminal_cats.sort.uniq.join(", ")
                     @cat_combinations_on_top[combination]+=1
                     if combination.include?("S") or combination.include?("KoP") or combination.include?("SuP") or combination.include?("VP")
                         @nonterminallinkontop[sent_id] = "parataxis"
                     else
                         @nonterminallinkontop[sent_id] = "conj"
-                    end
-                    
-                    
+                    end                   
                 end
 
-                
-    
-                #end
-                
                 if terminalsonly == 1 
                     if verbose then STDERR.puts "Current_id: #{current_id} All nodes under Top are terminal, we have to assign a head" end
-    
+  
                     if nonsymbols == 1
                         if verbose then STDERR.puts "Current_id: #{current_id} There is only one node which is not a SY, choose it as a head" end
     
@@ -314,19 +295,14 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         onlyterminalsontop = true
                     else #nonsymbols != 1 #and next_level.length > 1
                         if verbose then STDERR.puts "Current_id: #{current_id} There are more than one nodes which are not a SY, currently no heuristics to choose a head. STDOUT an exception" end
-                        #STDERR.puts "Sent_id: #{sent_id} Current_id: #{current_id} There are more than one nodes which are not a SY, currently no heuristics to choose a head. STDOUT an exception"
-
-                        @n_only_terminals_on_top += terminalsonly
-                        #STDOUT.puts "#{sent_id}\t#{nonsymbols}"
-                        #end
+                        
+                        @n_only_terminals_on_top += terminalsonly                       
                     end
                 else
                     if nonsymbols > 0
                         terminal_nonsy_list.each do |terminal_nonsy|
                             discourseterminalontop[terminal_nonsy] = true
-                        end
-                        #Sentences where there are non-terminals on top, but also non-SY terminals
-                        #STDOUT.puts "#{sent_id}\t#{nonsymbols}"
+                        end                      
                     end
                 end
             end
@@ -364,30 +340,21 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             
             @head = nil
             @head_label_index = nil
-            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids)
+            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel)
             head = @head.clone
             head_label_index = @head_label_index.clone
 
             if head_label_index.nil?
                 if verbose then STDERR.puts "Current_id: #{current_id} No HD or PH found" end
                 @headless_counter += 1
-                #STDOUT.puts "#{sent_id}\t#{current_id}"
+                
                 head_candidates = []
                 candidate_index = {}
                 #head_old = nil
                 #head_label_index_old = nil
                 if verbose then STDERR.puts "Current_id: #{current_id} Assigning the leftmost node as a head" end
                 
-                #next_level.each.with_index do |node, nodeindex|
-                #    if term_ids.include?(node)
-                 
-                #        head_old = node.clone
-                #        head_label_index_old = nodeindex
-                #        if verbose then STDERR.puts "Current_id: #{current_id} Assigned first node as a head: #{head}" end
-                        #STDERR.puts "Current_id: #{current_id} FIRST NODE AS HEAD #{head}"
-                #        break
-                #    end
-                #end
+                
                 next_level.each.with_index do |node, nodeindex|
                     if term_ids.include?(node)
                         head_candidates << node
@@ -397,17 +364,10 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 head = head_candidates.min
                 head_label_index = candidate_index[head]
                 if verbose then STDERR.puts "Current_id: #{current_id} Assigned the leftmost node as a head: #{head}" end
-                #STDOUT.puts "Current_id: #{current_id} Assigned the leftmost node as a head: #{head}"
-                #if head_old != head
-                #    STDOUT.puts "#{sent_id}\t#{head}\t#{head_old}"
-                #end
                 
-
                 if head_label_index.nil?
                     if verbose then STDERR.puts "Current_id: #{current_id} No first node found. Assigning root #{root} as head" end
                     head = root.clone
-                    #STDERR.puts "Current_id: #{current_id} ROOT AS HEAD #{head}"
-                    #abort
                     @root_counter += 1
                 elsif
                     @leftmost_counter += 1
@@ -415,38 +375,27 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             end
         end
         
-
-
-
         @head_by_nt[current_id] = head.clone
         if verbose then STDERR.puts "  Current_id: #{current_id} Root: #{root}" end
         if verbose then STDERR.puts "  Current_id: #{current_id} Head: #{head}" end
-        #if verbose then STDERR.puts "Next level: #{next_level}" end
-
-
+        
         next_level.each.with_index do |node,nodeindex|
             if verbose then STDERR.puts "  Current_id: #{current_id}. Terminal run. Node: #{node}" end
             if term_ids.include?(node)
-                if verbose then STDERR.puts "    head == root Current_id: #{current_id}. Node: #{node}. Terminal node" end
+                if verbose then STDERR.puts "    Current_id: #{current_id}. Node: #{node}. Terminal node" end
                 @phraselabels[node] = phrases[current_id].clone
                 if cat == "Top" and onlyterminalsontop == false #and head == root #head.nil?#root == 0
                     if verbose then STDERR.puts "    Current_id: #{current_id}. Terminal under 0" end
                     #@reversed_tree[node] = root
                     if discourseterminalontop[node] == true
                         @reversed_labels[node] = "discourse"
-                    #elsif @nonterminallinkontop != false
-                    #    @reversed_labels[node] = @nonterminallinkontop.clone
                     else
                         @reversed_labels[node] = labels[nodeindex]
                     end
                     @underoldroot[node] = true
-                    
                 else
-                    #if verbose then STDERR.puts "    Current_id: #{current_id}. Terminal not under 0" end
                     
-
                     if node == head #nodeindex == head_label_index
-                        
                         if root == 0 and @newroot.nil? # and cat != "KoP"
                             if verbose then STDERR.puts "    Current_id: #{current_id}. New root!" end
                             @newroot = node.clone#.gsub("#{sent_id}.","").to_i
@@ -457,20 +406,26 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         #    @rootlist << node
                         #end
  
-
-                        @reversed_tree[node] = root
+                        
                         if root == 0
                             @under0 << node
                         end
                         #root = node.gsub("#{sent_id}.","").to_i
-                        @reversed_labels[node] = phraselabel #"#{labels[nodeindex]}-#{cat}-#{phraselabel}"
-                        @reversed_labels2[node] = "#{labels[nodeindex]}-#{cat}-#{phraselabel}"
+
+                        if head != root
+                            @reversed_tree[node] = root
+                            @reversed_labels[node] = phraselabel #"#{labels[nodeindex]}-#{cat}-#{phraselabel}"
+                            @reversed_labels2[node] = "#{labels[nodeindex]}-#{cat}-#{phraselabel}"
+                        else 
+                            if verbose then STDERR.puts "Root assignment blocked: head = root! #{head}" end
+                        end
                     else
                         if verbose then STDERR.puts "    Current_id: #{current_id}. Not a head" end
                         if verbose then STDERR.puts "    Current_id: #{current_id}. Ends up under ('head') #{head}" end
                         @reversed_tree[node] = head #next_level[head_label_index]
                         @reversed_labels[node] = labels[nodeindex]
                     end
+                    if verbose then STDERR.puts "********** Tree: #{@reversed_tree} Labels: #{@reversed_lables}" end
                 end
             end
         end
@@ -854,10 +809,10 @@ filenames.each do |filename|
                         if deprel == "ME"
                             @phraselabels[term_id] = @phraselabels[head]
                             if @phraselabels[head].to_s == ""
-                                STDOUT.puts "#{sent_id}\t#{head}\tME head!"
+                                #STDOUT.puts "#{sent_id}\t#{head}\tME head!"
                             end
                         else
-                            STDOUT.puts "#{sent_id}\t#{term_id}"
+                            #STDOUT.puts "#{sent_id}\t#{term_id}"
                         end
                     end
 
