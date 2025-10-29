@@ -187,27 +187,27 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose, 
 end
 
 def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids)
-    head_label_index = labels.index("HD") 
+    @head_label_index = labels.index("HD") 
             
-    if head_label_index.nil?
-        head_label_index = labels.index("PH")
+    if @head_label_index.nil?
+        @head_label_index = labels.index("PH")
     else
-        if verbose then STDERR.puts "Current_id: #{current_id} HD found: #{next_level[head_label_index]}" end
+        if verbose then STDERR.puts "Current_id: #{current_id} HD found: #{next_level[@head_label_index]}" end
     end 
 
-    if !head_label_index.nil?
-        if verbose then STDERR.puts "Current_id: #{current_id} HD or PH found: #{next_level[head_label_index]}" end
-        temphead = next_level[head_label_index].clone
+    if !@head_label_index.nil?
+        if verbose then STDERR.puts "Current_id: #{current_id} HD or PH found: #{next_level[@head_label_index]}" end
+        temphead = next_level[@head_label_index].clone
         if term_ids.include?(temphead)
-            head = temphead.clone
-            if verbose then STDERR.puts "Current_id: #{current_id} HD or PH confirmed as terminal: #{next_level[head_label_index]}" end
+            @head = temphead.clone
+            if verbose then STDERR.puts "Current_id: #{current_id} HD or PH confirmed as terminal: #{next_level[@head_label_index]}" end
         else
             find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids)
-            add condition for stopping
+            #add condition for stopping
         end
     end
 
-    return [head,head_label_index]
+    return
 end
 
 def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phrases, root, sent_id, phraselabel,verbose,words)
@@ -332,6 +332,8 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             end
         else
             if verbose then STDERR.puts "Current_id: #{current_id} Cat: #{cat}" end
+
+            #collecting info about potentially problematic sentences
             if labels.count("HD") > 1
                 @several_hds << "several_heads\t#{sent_id}\t#{current_id}\t#{next_level.select{|n|labels[next_level.index(n)] == "HD"}.join(" ")}"
                 
@@ -358,19 +360,16 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         end
                     end
                 end
-
-
             end
+            
+            @head = nil
+            @head_label_index = nil
+            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids)
+            head = @head.clone
+            head_label_index = @head_label_index.clone
 
-            
-            
-            
-            head, head_label_index =  find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids)
             if head_label_index.nil?
-                check whether the ifs can be merged
                 if verbose then STDERR.puts "Current_id: #{current_id} No HD or PH found" end
-            end
-            if head_label_index.nil?
                 @headless_counter += 1
                 #STDOUT.puts "#{sent_id}\t#{current_id}"
                 head_candidates = []
