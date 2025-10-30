@@ -1,21 +1,17 @@
 # newdoc id = Arbt_Fackfientlig
-# sent_id = Blog_160886-11338599.4
-# text = Han hade spanat in 1:an länge och visste precis vilken lucka det var som skulle öppnas.
-1	Han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	2	SB		PhraseLabel=S
-2	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	7	KL		PhraseLabel=S
-3	spanat	spana	VB	-.-.-	VB.SPM.AKT.-	2	IV		PhraseLabel=VP
-4	in	in	AB	-.-.-	AB.-.-	3	PL		PhraseLabel=VP
-5	1:an	etta	NN	-.-.-	NN.UTR.SIN.DEF	3	OO		PhraseLabel=VP
-6	länge	länge	AB	-.-.-	AB.POS.-	3	MD		PhraseLabel=VP
-7	och	och	KO	-.-.-	KO.-	0	--		PhraseLabel=KoP
-8	visste	veta	VB	-.-.-	VB.IND.AKT.PRT	7	KL		PhraseLabel=S
-9	precis	precis	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	10	MD		PhraseLabel=NP
-10	vilken	vilken	PO	-.-.-	PO.IND.SIN.UTR.-.FRL	11	DT		PhraseLabel=NP
-11	lucka	lucka	NN	-.-.-	NN.UTR.SIN.IND	8	OO	8:OO|16:|15:|13:	PhraseLabel=NP
-12	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	13	SB		PhraseLabel=S
-13	var	vara	VB	-.-.-	VB.IND.AKT.PRT	11	OO		PhraseLabel=S
-14	som	som	SU	-.-.-	SU.-	13	EF		PhraseLabel=SuP
-15	skulle	skola	VB	-.-.-	VB.IND.AKT.PRT	14	OO		PhraseLabel=S
-16	öppnas	öppna	VB	-.-.-	VB.INF.SFO.-	15	IV		PhraseLabel=VP|SpaceAfter=No
-17	.	_	SY	-.-.-	SY.DEL	7	--		PhraseLabel=Top
+# sent_id = Romn_Lundqvist-Ingentobak.344
+# text = En sån där som ska döpa papuas och sätta byxor på dom.
+1	En	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	3	DT		PhraseLabel=NP
+2	sån	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	3	ME		PhraseLabel=NP
+3	där	där	AB	-.-.-	AB.-.-	0	--		PhraseLabel=NP
+4	som	som	SU	-.-.-	SU.-	3	JF		PhraseLabel=SuP
+5	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	4	OO		PhraseLabel=S
+6	döpa	döpa	VB	-.-.-	VB.INF.AKT.-	8	KL		PhraseLabel=VP
+7	papuas	papua	NN	-.-.-	NN.UTR.PLU.IND	6	OO		PhraseLabel=VP
+8	och	och	KO	-.-.-	KO.-	5	IV		PhraseLabel=KoP
+9	sätta	sätta	VB	-.-.-	VB.INF.AKT.-	8	KL		PhraseLabel=VP
+10	byxor	byxa	NN	-.-.-	NN.UTR.PLU.IND	9	OO		PhraseLabel=VP
+11	på	på	PE	-.-.-	PE.-	9	OA		PhraseLabel=PP
+12	dom	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	11	OO		PhraseLabel=PP|SpaceAfter=No
+13	.	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
 

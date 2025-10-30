@@ -200,6 +200,10 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
         temphead = next_level[@head_label_index].clone
         if term_ids.include?(temphead)
             @head = temphead.clone
+            if root == 0 and @newroot.nil? # and cat != "KoP"
+                if verbose then STDERR.puts "    Current_id: #{current_id}. New root!" end
+                @newroot = @head.clone#.gsub("#{sent_id}.","").to_i
+            end
             if @reversed_tree[@head].nil?
                 @reversed_tree[@head] = root
                 @reversed_labels[@head] = phraselabel #"#{labels[nodeindex]}-#{cat}-#{phraselabel}"
@@ -425,7 +429,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         @reversed_tree[node] = head #next_level[head_label_index]
                         @reversed_labels[node] = labels[nodeindex]
                     end
-                    if verbose then STDERR.puts "********** Tree: #{@reversed_tree} Labels: #{@reversed_lables}" end
+                    if verbose then STDERR.puts "********** Tree: #{@reversed_tree} Labels: #{@reversed_labels}" end
                 end
             end
         end
@@ -673,12 +677,14 @@ filenames.each do |filename|
                 #@rootlist = []
                 
                 root = process_primary_tree(primary_tree, primary_labels, "#{sent_id}.0", term_ids, phrases, 0, sent_id,"",verbose, words)
-
+                #STDERR.puts "root = #{root}"
+                #STDERR.puts "newroot = #{@newroot}"
                 ###extracted from the process_primary_tree method, since this does not have to be done for every node. The variable root is now the output of the method
                 mainroot = 0
                 mainroot2 = 0
                 
                 if @under0.length > 1
+                    if verbose then STDERR.puts "Under0: #{@under0.join(" ")}" end
                     #if !@sentids_several_nonterminals_on_top.include?(sent_id)
                         #STDOUT.puts sent_id
                     #end
@@ -700,23 +706,6 @@ filenames.each do |filename|
                         mainroot = @under0_copy[0].clone
                         #@STDOUT.puts "#{sent_id} #{mainroot}"
                     end
-=begin	            
-                    #choosing the first node (deprecated, here for comparison)
-                    foundnewmainroot2 = false
-                    @under0.each do |node|
-                        if !@reversed_labels2[node].include?("PH")
-                            mainroot2 = node.clone
-                            foundnewmainroot2 = true
-                            break
-                        end
-                    end
-                    if !foundnewmainroot2
-                        mainroot2 = @under0[0].clone                
-                    end
-                    #if mainroot != mainroot2
-                        #STDOUT.puts "#{sent_id} #{mainroot} #{mainroot2}"
-                    #end
-=end	            
 	            
                     @under0.each do |node|
                         if node != mainroot
@@ -736,6 +725,7 @@ filenames.each do |filename|
                 @underoldroot.keys.each do |node|
                     @reversed_tree[node] = mainroot
                 end
+                if verbose then STDERR.puts "*** Tree after reassigning from old root: #{@reversed_tree}" end
                 ###end of extraction
    
 
@@ -786,11 +776,34 @@ filenames.each do |filename|
                 outputfile.puts "# text = #{text}"
     
                 @reversed_tree_newids = {}
+                rootnode = nil
+                @reversed_tree.each_pair do |node,head|
+                    if head == 0 
+                        rootnode = node.clone
+                        break
+                    end
+                end
+
                 term_ids.sort.each do |term_id|
                     #STDERR.puts term_id
                     info = words[term_id]
-                    head = nodeid_to_integer(sent_id,@reversed_tree[term_id])
+                    
+                    #head = nodeid_to_integer(sent_id,@reversed_tree[term_id])
+                    head = @reversed_tree[term_id]
+
+
                     deprel = @reversed_labels[term_id]
+
+                    if head.nil?
+                        head = rootnode
+                        if info["pos"] == "SY"
+                            deprel = "punct"
+                        else
+                            deprel = "dep"
+                        end
+                    end
+
+
                     #if deprel == "--" and info["pos"][0..1] != "SY" and head != 0 #and !@sentids_several_nonterminals_on_top.include?(sent_id)
                     #    STDOUT.puts "#{sent_id}\t#{term_id}"
                     #end
@@ -800,7 +813,8 @@ filenames.each do |filename|
                         seclabel = ""
                         @reversed_secondary_tree[term_id].each.with_index do |from,fromindex|
                             seclabel = @reversed_secondary_labels[term_id][fromindex]
-                            secdep << "|#{nodeid_to_integer(sent_id,from)}:#{seclabel}"
+                            #secdep << "|#{nodeid_to_integer(sent_id,from)}:#{seclabel}"
+                            secdep << "|#{from}:#{seclabel}"
                         end
                         
                         
@@ -827,7 +841,9 @@ filenames.each do |filename|
 
                     misc = misc.sort.join("|")
                     
-                    new_nodeid = nodeid_to_integer(sent_id,term_id)
+                    #new_nodeid = nodeid_to_integer(sent_id,term_id)
+                    new_nodeid = term_id.clone
+
                     outputfile.puts "#{new_nodeid}\t#{info["word"]}\t#{info["lemma"]}\t#{info["pos"]}\t#{info["msd2"]}\t#{info["msd"]}\t#{head}\t#{deprel}\t#{secdep}\t#{misc}"
                     @reversed_tree_newids[new_nodeid] = head
                 end

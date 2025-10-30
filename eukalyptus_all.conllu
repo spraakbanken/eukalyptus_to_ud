@@ -6837,7 +6837,7 @@
 6	något	någon	PO	-.-.-	PO.IND.SIN.NEU.-.-	8	DT		PhraseLabel=NP
 7	fult	ful	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	8	MD		PhraseLabel=NP
 8	klotter	klotter	NN	-.-.-	NN.NEU.SIN.IND	5	OO		PhraseLabel=NP
-9	(	_	SY	-.-.-	SY.DEL	4	--		PhraseLabel=Top|SpaceAfter=No
+9	(	_	SY	-.-.-	SY.DEL	33	--		PhraseLabel=Top|SpaceAfter=No
 10	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	13	DT		PhraseLabel=NP
 11	snedvriden	snedvriden	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	13	MD		PhraseLabel=NP
 12	liten	liten	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	13	MD		PhraseLabel=NP
@@ -6847,7 +6847,7 @@
 16	såg	se	VB	-.-.-	VB.IND.AKT.PRT	14	OO		PhraseLabel=S
 17	klok	klok	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	16	OA		PhraseLabel=S
 18	ut	ut	AB	-.-.-	AB.-.-	16	PL		PhraseLabel=S|SpaceAfter=No
-19	)	_	SY	-.-.-	SY.DEL	4	--		PhraseLabel=Top
+19	)	_	SY	-.-.-	SY.DEL	33	--		PhraseLabel=Top
 20	bara	bara	AB	-.-.-	AB.-.-	21	MD		PhraseLabel=PP
 21	för	för	PE	-.-.-	PE.-	4	MD		PhraseLabel=PP
 22	att	att	SU	-.-.-	SU.-	21	OO		PhraseLabel=SuP
@@ -6858,7 +6858,7 @@
 27	på	på	PE	-.-.-	PE.-	26	MD		PhraseLabel=PP
 28	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	27	OO		PhraseLabel=NP
 29	ny	ny	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	28	MD		PhraseLabel=NP
-30	…	_	SY	-.-.-	SY.DEL	4	--		PhraseLabel=Top
+30	…	_	SY	-.-.-	SY.DEL	33	--		PhraseLabel=Top
 31	och	och	KO	-.-.-	KO.-	33	DF		PhraseLabel=SuP
 32	vilken	vilken	PO	-.-.-	PO.IND.SIN.UTR.-.FRL	33	DT		PhraseLabel=NP
 33	tur	tur	NN	-.-.-	NN.UTR.SIN.IND	0	--		PhraseLabel=NP
@@ -6868,7 +6868,7 @@
 37	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	36	OO		PhraseLabel=NP
 38	ny	ny	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	37	MD		PhraseLabel=NP
 39	hemma	hemma	AB	-.-.-	AB.-.-	36	RA		PhraseLabel=S|SpaceAfter=No
-40	.	_	SY	-.-.-	SY.DEL	4	--		PhraseLabel=Top
+40	.	_	SY	-.-.-	SY.DEL	33	--		PhraseLabel=Top
 
 # sent_id = Blog_13263-1216693.3
 # text = Redo att fyllas med nya streck från pennorna.
@@ -22151,7 +22151,7 @@
 4	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	3	SB		PhraseLabel=S
 5	gjort	göra	VB	-.-.-	VB.SPM.AKT.-	3	KL		PhraseLabel=VP
 6	potatisgratängen	potatis|gratäng	NN	-.-.-	NN.UTR.SIN.DEF	5	OO		PhraseLabel=VP|SpaceAfter=No
-7	,	_	SY	-.-.-	SY.DEL	9999			PhraseLabel=
+7	,	_	SY	-.-.-	SY.DEL	3	punct		PhraseLabel=
 8	hackat	hacka	VB	-.-.-	VB.SPM.AKT.-	3	KL		PhraseLabel=VP
 9	salladen	sallad	NN	-.-.-	NN.UTR.SIN.DEF	8	OO		PhraseLabel=VP|SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
@@ -48394,7 +48394,7 @@
 12	marknaden	marknad	NN	-.-.-	NN.UTR.SIN.DEF	14	SB		PhraseLabel=NP
 13	inte	inte	AB	-.-.-	AB.-.-	14	MD		PhraseLabel=S
 14	tillgodoser	tillgodose	VB	-.-.-	VB.IND.AKT.PRS	9	OO		PhraseLabel=S|SpaceAfter=No
-15	.	_	SY	-.-.-	SY.DEL	0	--		PhraseLabel=Top
+15	.	_	SY	-.-.-	SY.DEL	2	--		PhraseLabel=Top
 
 # sent_id = Regr_255268.18
 # text = Ramvillkorens betydelse för företags finansieringsmöjligheter, exempelvis mot bakgrund av skärpta kreditmarknadsregleringar på senare år.
@@ -73552,7 +73552,7 @@
 10	byxor	byxa	NN	-.-.-	NN.UTR.PLU.IND	9	OO		PhraseLabel=VP
 11	på	på	PE	-.-.-	PE.-	9	OA		PhraseLabel=PP
 12	dom	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	11	OO		PhraseLabel=PP|SpaceAfter=No
-13	.	_	SY	-.-.-	SY.DEL	0	--		PhraseLabel=Top
+13	.	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
 
 # sent_id = Romn_Lundqvist-Ingentobak.345
 # text = Vi måste väl ha honom här en tid, förstår jag.
@@ -98720,9 +98720,9 @@
 1	Sagan	saga	NN	-.-.-	NN.UTR.SIN.DEF	0	--		PhraseLabel=NP
 2	om	om	PE	-.-.-	PE.-	1	MD		PhraseLabel=PP
 3	ringen	ring	NN	-.-.-	NN.UTR.SIN.DEF	2	OO		PhraseLabel=PP
-4	(	_	SY	-.-.-	SY.DEL	0	--		PhraseLabel=Top|SpaceAfter=No
+4	(	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top|SpaceAfter=No
 5	film	film	NN	-.-.-	NN.UTR.SIN.IND	1	AN		PhraseLabel=NP|SpaceAfter=No
-6	)	_	SY	-.-.-	SY.DEL	0	--		PhraseLabel=Top
+6	)	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top
 
 # sent_id = Wiki_Saganomringenfilm.2
 # text = Sagan om ringen: Härskarringen (engelska: The Lord of the Rings: The Fellowship of the Ring), är ett amerikanskt-nyzeeländskt-brittiskt fantasy-äventyr från 2001 i regi av Peter Jackson med Elijah Wood i huvudrollen.
@@ -100121,9 +100121,9 @@
 5	än	än	SU	-.-.-	SU.-	4	JF		PhraseLabel=SuP
 6	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	5	OO		PhraseLabel=SuP
 7	Oscar	Oscar	EN	-.-.-	EN.-	3	OO		PhraseLabel=NP|SpaceAfter=No
-8	,	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
+8	,	_	SY	-.-.-	SY.DEL	11	--		PhraseLabel=Top
 9	exempel	exempel	NN	-.-.-	NN.NEU.SIN.IND	11	DF		PhraseLabel=NP|SpaceAfter=No
-10	:	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
+10	:	_	SY	-.-.-	SY.DEL	11	--		PhraseLabel=Top
 11	Sagan	saga	NN	-.-.-	NN.UTR.SIN.DEF	0	--	0:--|15:	PhraseLabel=NP
 12	om	om	PE	-.-.-	PE.-	11	MD		PhraseLabel=PP
 13	ringen	ring	NN	-.-.-	NN.UTR.SIN.DEF	12	OO		PhraseLabel=PP
@@ -100136,7 +100136,7 @@
 20	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	22	MD		PhraseLabel=NP
 21	bästa	bra	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	22	MD		PhraseLabel=NP
 22	specialeffekter	specialeffekt	NN	-.-.-	NN.UTR.PLU.IND	18	OO		PhraseLabel=NP|SpaceAfter=No
-23	.	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
+23	.	_	SY	-.-.-	SY.DEL	11	--		PhraseLabel=Top
 
 # sent_id = Wiki_Saganomringenfilm.79
 # text = Även alla Sagan om ringen-filmerna har vunnit en Oscar för bästa specialeffekter.
