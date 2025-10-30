@@ -204,6 +204,10 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
                 if verbose then STDERR.puts "    Current_id: #{current_id}. New root!" end
                 @newroot = @head.clone#.gsub("#{sent_id}.","").to_i
             end
+            if root == 0 and !@under0.include?(@head)
+                #STDERR.puts "Placing #{@head} under0 in recursion"
+                @under0 << @head
+            end
             if @reversed_tree[@head].nil?
                 @reversed_tree[@head] = root
                 @reversed_labels[@head] = phraselabel #"#{labels[nodeindex]}-#{cat}-#{phraselabel}"
@@ -215,7 +219,7 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
          
 
             if verbose then STDERR.puts "Current_id: #{current_id} HD or PH confirmed as terminal: #{next_level[@head_label_index]}" end
-        else
+        else            
             find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel)
             #add condition for stopping
         end
@@ -273,15 +277,18 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 end
 
                 if nonterminals > 1
+                    #STDERR.puts "Several nonterminals!"
                     @nsents_several_nonterminals_on_top += 1
                     @sentids_several_nonterminals_on_top << sent_id
                     combination = nonterminal_cats.sort.uniq.join(", ")
+                    #STDERR.puts combination
                     @cat_combinations_on_top[combination]+=1
                     if combination.include?("S") or combination.include?("KoP") or combination.include?("SuP") or combination.include?("VP")
-                        @nonterminallinkontop[sent_id] = "parataxis"
+                        @nonterminallinkontop[sent_id] = "parataxis"                  
                     else
                         @nonterminallinkontop[sent_id] = "conj"
                     end                   
+                    #STDERR.puts @nonterminallinkontop[sent_id]
                 end
 
                 if terminalsonly == 1 
@@ -344,6 +351,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             
             @head = nil
             @head_label_index = nil
+            @phraselabel = phraselabel.clone
             find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel)
             head = @head.clone
             head_label_index = @head_label_index.clone
@@ -351,7 +359,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             if head_label_index.nil?
                 if verbose then STDERR.puts "Current_id: #{current_id} No HD or PH found" end
                 @headless_counter += 1
-                
+                STDOUT.puts "#{sent_id}\t#{current_id}\t#{cat}\t#{labels.join(" ")}\t#{@secondary_labels[current_id].join(" ")}"
                 head_candidates = []
                 candidate_index = {}
                 #head_old = nil
@@ -411,7 +419,8 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         #end
  
                         
-                        if root == 0
+                        if root == 0 and !@under0.include?(node)
+                            #STDERR.puts "Placing #{node} under0"
                             @under0 << node
                         end
                         #root = node.gsub("#{sent_id}.","").to_i
@@ -649,6 +658,8 @@ filenames.each do |filename|
                 @under0 = []
                 @primary_tree = primary_tree.clone
                 @primary_labels = primary_labels.clone
+                @secondary_tree = secondary_tree.clone
+                @secondary_labels = secondary_labels.clone
                 @head_by_nt = {}
                 @root_by_nt = {}
                 @mwes_replaced = {}
@@ -693,6 +704,7 @@ filenames.each do |filename|
                     foundnewmainroot = false
                     #choosing the leftmost node
                     @under0_copy = @under0.clone.sort
+                    #STDERR.puts @under0_copy.join(" ")
                 
                           
                     @under0_copy.each do |node|
@@ -702,12 +714,16 @@ filenames.each do |filename|
                             break
                         end
                     end
+                    #STDERR.puts mainroot
+ 
                     if !foundnewmainroot
                         mainroot = @under0_copy[0].clone
                         #@STDOUT.puts "#{sent_id} #{mainroot}"
                     end
+                    #STDERR.puts mainroot
 	            
                     @under0.each do |node|
+                        #STDERR.puts "Going through under0: #{node}, #{@reversed_tree[node]}, #{@reversed_labels[node]}"
                         if node != mainroot
                             @reversed_tree[node] = mainroot
                             if @reversed_labels[node] == "--" and @nonterminallinkontop[sent_id]

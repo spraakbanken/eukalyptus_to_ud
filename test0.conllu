@@ -1,17 +1,27 @@
 # newdoc id = Arbt_Fackfientlig
-# sent_id = Romn_Lundqvist-Ingentobak.344
-# text = En sån där som ska döpa papuas och sätta byxor på dom.
-1	En	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	3	DT		PhraseLabel=NP
-2	sån	sådan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	3	ME		PhraseLabel=NP
-3	där	där	AB	-.-.-	AB.-.-	0	--		PhraseLabel=NP
-4	som	som	SU	-.-.-	SU.-	3	JF		PhraseLabel=SuP
-5	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	4	OO		PhraseLabel=S
-6	döpa	döpa	VB	-.-.-	VB.INF.AKT.-	8	KL		PhraseLabel=VP
-7	papuas	papua	NN	-.-.-	NN.UTR.PLU.IND	6	OO		PhraseLabel=VP
-8	och	och	KO	-.-.-	KO.-	5	IV		PhraseLabel=KoP
-9	sätta	sätta	VB	-.-.-	VB.INF.AKT.-	8	KL		PhraseLabel=VP
-10	byxor	byxa	NN	-.-.-	NN.UTR.PLU.IND	9	OO		PhraseLabel=VP
-11	på	på	PE	-.-.-	PE.-	9	OA		PhraseLabel=PP
-12	dom	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	11	OO		PhraseLabel=PP|SpaceAfter=No
-13	.	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
+# sent_id = Wiki_Saganomringenfilm.78
+# text = Alla Sagan om ringen-filmerna vann mer än en Oscar, exempel: Sagan om ringen som vann 4 Oscar för bland annat bästa specialeffekter.
+1	Alla	all	PO	-.-.-	PO.DEF.PLU.UTR/NEU.-.-	2	DT		PhraseLabel=NP
+2	Sagan om ringen-filmerna	Sagan om ringen|film	NN	-.-.-	NN.UTR.PLU.DEF	3	SB		PhraseLabel=NP
+3	vann	vinna	VB	-.-.-	VB.IND.AKT.PRT	0	--		PhraseLabel=S
+4	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	7	DT		PhraseLabel=AjP
+5	än	än	SU	-.-.-	SU.-	4	JF		PhraseLabel=SuP
+6	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	5	OO		PhraseLabel=SuP
+7	Oscar	Oscar	EN	-.-.-	EN.-	3	OO		PhraseLabel=NP|SpaceAfter=No
+8	,	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
+9	exempel	exempel	NN	-.-.-	NN.NEU.SIN.IND	11	DF		PhraseLabel=NP|SpaceAfter=No
+10	:	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
+11	Sagan	saga	NN	-.-.-	NN.UTR.SIN.DEF	3	parataxis	3:parataxis|15:	PhraseLabel=NP
+12	om	om	PE	-.-.-	PE.-	11	MD		PhraseLabel=PP
+13	ringen	ring	NN	-.-.-	NN.UTR.SIN.DEF	12	OO		PhraseLabel=PP
+14	som	som	SU	-.-.-	SU.-	11	MD		PhraseLabel=SuP
+15	vann	vinna	VB	-.-.-	VB.IND.AKT.PRT	14	OO		PhraseLabel=S
+16	4	fyra	NU	-.-.-	NU.-	17	DT		PhraseLabel=NP
+17	Oscar	Oscar	EN	-.-.-	EN.-	15	OO		PhraseLabel=NP
+18	för	för	PE	-.-.-	PE.-	17	MD		PhraseLabel=PP
+19	bland	bland	PE	-.-.-	PE.-	20	ME		PhraseLabel=NP
+20	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	22	MD		PhraseLabel=NP
+21	bästa	bra	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	22	MD		PhraseLabel=NP
+22	specialeffekter	specialeffekt	NN	-.-.-	NN.UTR.PLU.IND	18	OO		PhraseLabel=NP|SpaceAfter=No
+23	.	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
 
