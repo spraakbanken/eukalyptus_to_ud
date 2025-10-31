@@ -8784,10 +8784,10 @@
 
 # sent_id = Blog_12325-1884438.14
 # text = Bara för att.
-1	Bara	bara	AB	-.-.-	AB.-.-	0	--		PhraseLabel=IjP
-2	för	för	PE	-.-.-	PE.-	1	ME		PhraseLabel=IjP
-3	att	att	SU	-.-.-	SU.-	1	ME		PhraseLabel=IjP|SpaceAfter=No
-4	.	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top
+1	Bara	bara	AB	-.-.-	AB.-.-	3	ME		PhraseLabel=Top
+2	för	för	PE	-.-.-	PE.-	3	ME		PhraseLabel=Top
+3	att	att	SU	-.-.-	SU.-	0			PhraseLabel=Top|SpaceAfter=No
+4	.	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
 
 # sent_id = Blog_12325-1884438.15
 # text = Detta är en av de bättre låtarna på vassa skivan "The Code Is Red, Long Live The Code" Tystnaden är öronbedövande, en helt briljant titel faktiskt.
@@ -47267,12 +47267,12 @@
 # text = Elden varade oavbrutet från midnatt till åtminstone 14-tiden dagen därpå, sade riksåklagaren.
 1	Elden	eld	NN	-.-.-	NN.UTR.SIN.DEF	2	SB		PhraseLabel=S
 2	varade	vara	VB	-.-.-	VB.IND.AKT.PRT	12	OO		PhraseLabel=S
-3	oavbrutet	oavbruten	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	2	MD		PhraseLabel=AjP
-4	från	från	PE	-.-.-	PE.-	3	MD		PhraseLabel=PP
-5	midnatt	midnatt	NN	-.-.-	NN.UTR.SIN.IND	6	KL		PhraseLabel=KoP
-6	till	till	PE	-.-.-	PE.-	4	OO		PhraseLabel=KoP
+3	oavbrutet	oavbruten	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	2	MD		PhraseLabel=S
+4	från	från	PE	-.-.-	PE.-	2	MD		PhraseLabel=PP
+5	midnatt	midnatt	NN	-.-.-	NN.UTR.SIN.IND	4	OO		PhraseLabel=PP
+6	till	till	PE	-.-.-	PE.-	2	MD		PhraseLabel=PP
 7	åtminstone	åtminstone	AB	-.-.-	AB.-.-	8	MD		PhraseLabel=NP
-8	14-tiden	fjorton<tiden	NN	-.-.-	NN.UTR.SIN.DEF	6	KL		PhraseLabel=NP
+8	14-tiden	fjorton<tiden	NN	-.-.-	NN.UTR.SIN.DEF	6	OO		PhraseLabel=NP
 9	dagen	dag	NN	-.-.-	NN.UTR.SIN.DEF	8	MD		PhraseLabel=NP
 10	därpå	därpå	AB	-.-.-	AB.-.-	9	MD		PhraseLabel=NP|SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	12	--		PhraseLabel=Top
@@ -48995,12 +48995,12 @@
 15	Ukrainas	Ukraina	EN	-.GEN.-	EN.-	16	DT		PhraseLabel=NP
 16	huvudstad	huvudstad	NN	-.-.-	NN.UTR.SIN.IND	14	OO		PhraseLabel=NP
 17	Kiev	Kiev	EN	-.-.-	EN.-	16	AN		PhraseLabel=NP
-18	gick	gå	VB	-.-.-	VB.IND.AKT.PRT	10	KL		PhraseLabel=S
+18	gick	gå	VB	-.-.-	VB.IND.AKT.PRT	22	KL		PhraseLabel=S
 19	också	också	AB	-.-.-	AB.-.-	18	MD		PhraseLabel=S
 20	snabbt	snabb	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	18	MD		PhraseLabel=S
 21	ut	ut	AB	-.-.-	AB.-.-	18	PL		PhraseLabel=S
-22	och	och	KO	-.-.-	KO.-	10	PH		PhraseLabel=KoP
-23	fördömde	fördöma	VB	-.-.-	VB.IND.AKT.PRT	10	KL		PhraseLabel=S
+22	och	och	KO	-.-.-	KO.-	10	KL		PhraseLabel=KoP
+23	fördömde	fördöma	VB	-.-.-	VB.IND.AKT.PRT	22	KL		PhraseLabel=S
 24	omröstningen	omröstning	NN	-.-.-	NN.UTR.SIN.DEF	23	OO		PhraseLabel=S|SpaceAfter=No
 25	.	_	SY	-.-.-	SY.DEL	10	--		PhraseLabel=Top
 
@@ -49350,11 +49350,11 @@
 12	rört	röra	VB	-.-.-	VB.SPM.AKT.-	11	IV		PhraseLabel=VP
 13	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	12	OO		PhraseLabel=VP
 14	från	från	PE	-.-.-	PE.-	12	MD		PhraseLabel=PP
-15	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	17	KL		PhraseLabel=NP
+15	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	14	OO		PhraseLabel=NP
 16	politisk	politisk	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	15	MD		PhraseLabel=NP
-17	till	till	PE	-.-.-	PE.-	14	OO		PhraseLabel=KoP
+17	till	till	PE	-.-.-	PE.-	12	MD		PhraseLabel=PP
 18	militär	militär	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	19	MD		PhraseLabel=NP
-19	nivå	nivå	NN	-.-.-	NN.UTR.SIN.IND	17	KL		PhraseLabel=NP|SpaceAfter=No
+19	nivå	nivå	NN	-.-.-	NN.UTR.SIN.IND	17	OO		PhraseLabel=NP|SpaceAfter=No
 20	.	_	SY	-.-.-	SY.DEL	6	--		PhraseLabel=Top
 
 # sent_id = Arbt_Folkomrostningen.22
@@ -49672,12 +49672,12 @@
 4	över	över	PE	-.-.-	PE.-	2	OA		PhraseLabel=PP
 5	tio	tio	NU	-.-.-	NU.-	6	DT		PhraseLabel=NP
 6	besök	besök	NN	-.-.-	NN.NEU.PLU.IND	4	OO		PhraseLabel=NP
-7	från	från	PE	-.-.-	PE.-	4	AN		PhraseLabel=PP
-8	Luleå	Luleå	EN	-.-.-	EN.-	11	KL		PhraseLabel=NP
+7	från	från	PE	-.-.-	PE.-	2	RA		PhraseLabel=PP
+8	Luleå	Luleå	EN	-.-.-	EN.-	7	OO		PhraseLabel=NP
 9	i	i	PE	-.-.-	PE.-	8	MD		PhraseLabel=PP
 10	norr	norr	AB	-.-.-	AB.-.-	9	OO		PhraseLabel=PP
-11	till	till	PE	-.-.-	PE.-	7	OO		PhraseLabel=KoP
-12	Malmö	Malmö	EN	-.-.-	EN.-	11	KL		PhraseLabel=NP
+11	till	till	PE	-.-.-	PE.-	2	RA		PhraseLabel=PP
+12	Malmö	Malmö	EN	-.-.-	EN.-	11	OO		PhraseLabel=NP
 13	i	i	PE	-.-.-	PE.-	12	MD		PhraseLabel=PP
 14	söder	söder	AB	-.-.-	AB.-.-	13	OO		PhraseLabel=PP|SpaceAfter=No
 15	.	_	SY	-.-.-	SY.DEL	2	--		PhraseLabel=Top
@@ -49702,9 +49702,9 @@
 16	tillbaka	tillbaka	AB	-.-.-	AB.-.-	15	PL		PhraseLabel=VP
 17	personer	person	NN	-.-.-	NN.UTR.PLU.IND	15	OO		PhraseLabel=VP
 18	från	från	PE	-.-.-	PE.-	15	MD		PhraseLabel=PP
-19	sjukskriving	sjuk|skriving	NN	-.-.-	NN.UTR.SIN.IND	20	KL		PhraseLabel=KoP
-20	till	till	PE	-.-.-	PE.-	18	OO		PhraseLabel=KoP
-21	arbete	arbete	NN	-.-.-	NN.NEU.SIN.IND	20	KL		PhraseLabel=KoP
+19	sjukskriving	sjuk|skriving	NN	-.-.-	NN.UTR.SIN.IND	18	OO		PhraseLabel=PP
+20	till	till	PE	-.-.-	PE.-	15	MD		PhraseLabel=PP
+21	arbete	arbete	NN	-.-.-	NN.NEU.SIN.IND	20	OO		PhraseLabel=PP
 22	och	och	KO	-.-.-	KO.-	5	MD		PhraseLabel=KoP
 23	med	med	PE	-.-.-	PE.-	22	KL		PhraseLabel=PP
 24	arbetsplatser	arbetsplats	NN	-.-.-	NN.UTR.PLU.IND	23	OO		PhraseLabel=NP
@@ -53308,8 +53308,8 @@
 # sent_id = Regr_255926.5
 # text = För utrikes födda som invandrar till Sverige är vägen till arbete ofta lång, i genomsnitt längre än i nästan alla andra jämförbara länder.
 1	För	för	PE	-.-.-	PE.-	8	MD		PhraseLabel=PP
-2	utrikes	utrikes	AB	-.-.-	AB.-.-	1	MD		PhraseLabel=AjP
-3	födda	född	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	2	MD		PhraseLabel=AjP
+2	utrikes	utrikes	AB	-.-.-	AB.-.-	3	MD		PhraseLabel=AjP
+3	födda	född	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1	MD		PhraseLabel=AjP
 4	som	som	SU	-.-.-	SU.-	1	MD		PhraseLabel=SuP
 5	invandrar	invandra	VB	-.-.-	VB.IND.AKT.PRS	4	OO		PhraseLabel=VP
 6	till	till	PE	-.-.-	PE.-	5	RA		PhraseLabel=PP
@@ -53783,7 +53783,7 @@
 7	i	i	PE	-.-.-	PE.-	6	MD		PhraseLabel=PP
 8	statsskulden	statsskuld	NN	-.-.-	NN.UTR.SIN.DEF	7	OO		PhraseLabel=PP
 9	eller	eller	KO	-.-.-	KO.-	13	SB	13:SB|14:	PhraseLabel=KoP
-10	variationen	variation	NN	-.-.-	NN.UTR.SIN.DEF	9	PH		PhraseLabel=NP
+10	variationen	variation	NN	-.-.-	NN.UTR.SIN.DEF	9	KL		PhraseLabel=NP
 11	i	i	PE	-.-.-	PE.-	10	MD		PhraseLabel=PP
 12	räntekostnaderna	ränte|kostnad	NN	-.-.-	NN.UTR.PLU.DEF	11	OO		PhraseLabel=PP
 13	har	ha	VB	-.-.-	VB.IND.AKT.PRS	5	OO		PhraseLabel=S
@@ -53804,12 +53804,12 @@
 10	löptid	löptid	NN	-.-.-	NN.UTR.SIN.IND	6	OO		PhraseLabel=NP
 11	för	för	PE	-.-.-	PE.-	10	MD		PhraseLabel=PP
 12	instrument	instrument	NN	-.-.-	NN.NEU.PLU.IND	11	OO		PhraseLabel=PP
-13	upp	upp	AB	-.-.-	AB.-.-	14	MD		PhraseLabel=PP
-14	till	till	PE	-.-.-	PE.-	10	MD		PhraseLabel=PP
-15	tolv	tolv	NU	-.-.-	NU.-	16	DT		PhraseLabel=NP
-16	år	år	NN	-.-.-	NN.NEU.PLU.IND	17	KL		PhraseLabel=NP
-17	till	till	PE	-.-.-	PE.-	14	OO		PhraseLabel=KoP
-18	förfall	förfall	NN	-.-.-	NN.NEU.SIN.IND	17	KL		PhraseLabel=KoP|SpaceAfter=No
+13	upp	upp	AB	-.-.-	AB.-.-	16	DT		PhraseLabel=AbP
+14	till	till	PE	-.-.-	PE.-	13	AN		PhraseLabel=PP
+15	tolv	tolv	NU	-.-.-	NU.-	14	OO		PhraseLabel=PP
+16	år	år	NN	-.-.-	NN.NEU.PLU.IND	11	MD		PhraseLabel=NP
+17	till	till	PE	-.-.-	PE.-	16	MD		PhraseLabel=PP
+18	förfall	förfall	NN	-.-.-	NN.NEU.SIN.IND	17	OO		PhraseLabel=PP|SpaceAfter=No
 19	,	_	SY	-.-.-	SY.DEL	29	--		PhraseLabel=Top
 20	till	till	PE	-.-.-	PE.-	4	MD		PhraseLabel=PP
 21	samma	samma	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	22	MD		PhraseLabel=AjP
@@ -53824,11 +53824,13 @@
 30	riktvärdesintervallet	rikt|värdes|intervall	NN	-.-.-	NN.NEU.SIN.DEF	29	SB		PhraseLabel=S
 31	med	med	PE	-.-.-	PE.-	29	MD		PhraseLabel=PP
 32	0,3	noll komma tre	NU	-.-.-	NU.-	33	DT		PhraseLabel=NP
-33	år	år	NN	-.-.-	NN.NEU.PLU.IND	34	KL		PhraseLabel=NP
-34	till	till	PE	-.-.-	PE.-	31	OO		PhraseLabel=KoP
-35	2,6-3,1	_	NU	-.-.-	NU.-	36	DT		PhraseLabel=NP
-36	år	år	NN	-.-.-	NN.NEU.PLU.IND	34	KL		PhraseLabel=NP|SpaceAfter=No
-37	.	_	SY	-.-.-	SY.DEL	29	--		PhraseLabel=Top
+33	år	år	NN	-.-.-	NN.NEU.PLU.IND	31	OO		PhraseLabel=NP
+34	till	till	PE	-.-.-	PE.-	29	MD		PhraseLabel=PP
+35	2,6	_	NU	-.-.-	NU.-	36	KL		PhraseLabel=KoP|SpaceAfter=No
+36	-	_	NU	-.-.-	NU.-	38	DT		PhraseLabel=KoP|SpaceAfter=No
+37	3,1	_	NU	-.-.-	NU.-	36	KL		PhraseLabel=KoP
+38	år	år	NN	-.-.-	NN.NEU.PLU.IND	34	OO		PhraseLabel=NP|SpaceAfter=No
+39	.	_	SY	-.-.-	SY.DEL	29	--		PhraseLabel=Top
 
 # sent_id = Regr_255655.10
 # text = De kraftigt fallande marknadsräntorna föranleder inga förändringar i löptidsstyrningen för valutaskulden eller den reala kronskulden.
@@ -58624,22 +58626,22 @@
 2	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	4	MD		PhraseLabel=NuP
 3	övriga	övrig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	4	MD		PhraseLabel=NuP
 4	två	två	NU	-.-.-	NU.-	5	SB		PhraseLabel=NuP
-5	fick	få	VB	-.-.-	VB.IND.AKT.PRT	12	KL		PhraseLabel=S
+5	fick	få	VB	-.-.-	VB.IND.AKT.PRT	0	--		PhraseLabel=S
 6	avslag	avslag	NN	-.-.-	NN.NEU.PLU.IND	5	OO		PhraseLabel=NP
 7	på	på	PE	-.-.-	PE.-	6	MD		PhraseLabel=PP
 8	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	10	DT		PhraseLabel=NP
 9	respektive	respektive	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	10	MD		PhraseLabel=NP
 10	ledighetsansökningar	ledighets|ansökning	NN	-.-.-	NN.UTR.PLU.IND	7	OO		PhraseLabel=NP|SpaceAfter=No
-11	,	_	SY	-.-.-	SY.DEL	12	--		PhraseLabel=Top
-12	fastän	fastän	SU	-.-.-	SU.-	0	--		PhraseLabel=KoP
+11	,	_	SY	-.-.-	SY.DEL	5	--		PhraseLabel=Top
+12	fastän	fastän	SU	-.-.-	SU.-	5	MD		PhraseLabel=SuP
 13	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	14	SB		PhraseLabel=S
-14	sökte	söka	VB	-.-.-	VB.IND.AKT.PRT	12	KL		PhraseLabel=S
+14	sökte	söka	VB	-.-.-	VB.IND.AKT.PRT	12	OO		PhraseLabel=S
 15	för	för	PE	-.-.-	PE.-	14	MD		PhraseLabel=PP
 16	studier	studie	NN	-.-.-	NN.UTR.PLU.IND	15	OO		PhraseLabel=PP
 17	vid	vid	PE	-.-.-	PE.-	14	MD		PhraseLabel=PP
 18	olika	olik	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	19	MD		PhraseLabel=NP
 19	tidpunkter	tidpunkt	NN	-.-.-	NN.UTR.PLU.IND	17	OO		PhraseLabel=NP|SpaceAfter=No
-20	.	_	SY	-.-.-	SY.DEL	12	--		PhraseLabel=Top
+20	.	_	SY	-.-.-	SY.DEL	5	--		PhraseLabel=Top
 
 # sent_id = Arbt_Sundsvallssyndikalister.8
 # text = Arbetsköparen motiverade avslaget med att det var semestertider.
@@ -90712,8 +90714,8 @@
 # sent_id = Romn_Strand-Pagarna.373
 # text = ”Ja egentligen”, sa Everett.
 1	”	_	SY	-.-.-	SY.DEL	6	--		PhraseLabel=Top|SpaceAfter=No
-2	Ja	ja	IJ	-.-.-	IJ.-	6	OO		PhraseLabel=AbP
-3	egentligen	egentligen	AB	-.-.-	AB.-.-	2	MD		PhraseLabel=AbP|SpaceAfter=No
+2	Ja	ja	IJ	-.-.-	IJ.-	3	DF		PhraseLabel=AbP
+3	egentligen	egentligen	AB	-.-.-	AB.-.-	6	OO		PhraseLabel=AbP|SpaceAfter=No
 4	”	_	SY	-.-.-	SY.DEL	6	--		PhraseLabel=Top|SpaceAfter=No
 5	,	_	SY	-.-.-	SY.DEL	6	--		PhraseLabel=Top
 6	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	0	--		PhraseLabel=S

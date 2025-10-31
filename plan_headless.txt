@@ -1,0 +1,9 @@
+In VP/S/SuP: promote SP, otherwise IV (if both?), otherwise first conjunct and rest via orphan or existing relations
+In KoP: everything on first (probably already done)
+In AjP/AbP: probably everything wrong
+In NP: The rightmost unless it's a PP or a participial or a SuP
+
+Do this in find_head when there is no NT to go down into. If NT does become a head, go down into it!
+
+KL: perhaps an irrelevant problem if solve the assignment? monitor though!
+

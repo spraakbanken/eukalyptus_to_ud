@@ -223,6 +223,8 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
             find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel)
             #add condition for stopping
         end
+    else
+        if verbose then STDERR.puts "#{current_id}: no HD or PH found, exiting recursion"end
     end
 
     return
@@ -352,14 +354,15 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             @head = nil
             @head_label_index = nil
             @phraselabel = phraselabel.clone
-            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel)
+            STDERR.puts "Running find_head from #{current_id} with #{@phraselabel}"
+            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,true,term_ids,root,phraselabel)
             head = @head.clone
             head_label_index = @head_label_index.clone
 
             if head_label_index.nil?
                 if verbose then STDERR.puts "Current_id: #{current_id} No HD or PH found" end
                 @headless_counter += 1
-                STDOUT.puts "#{sent_id}\t#{current_id}\t#{cat}\t#{labels.join(" ")}\t#{@secondary_labels[current_id].join(" ")}"
+                #STDOUT.puts "#{sent_id}\t#{current_id}\t#{cat}\t#{labels.join(" ")}\t#{@secondary_labels[current_id].join(" ")}"
                 head_candidates = []
                 candidate_index = {}
                 #head_old = nil

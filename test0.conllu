@@ -1,27 +1,20 @@
 # newdoc id = Arbt_Fackfientlig
-# sent_id = Wiki_Saganomringenfilm.78
-# text = Alla Sagan om ringen-filmerna vann mer än en Oscar, exempel: Sagan om ringen som vann 4 Oscar för bland annat bästa specialeffekter.
-1	Alla	all	PO	-.-.-	PO.DEF.PLU.UTR/NEU.-.-	2	DT		PhraseLabel=NP
-2	Sagan om ringen-filmerna	Sagan om ringen|film	NN	-.-.-	NN.UTR.PLU.DEF	3	SB		PhraseLabel=NP
-3	vann	vinna	VB	-.-.-	VB.IND.AKT.PRT	0	--		PhraseLabel=S
-4	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	7	DT		PhraseLabel=AjP
-5	än	än	SU	-.-.-	SU.-	4	JF		PhraseLabel=SuP
-6	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	5	OO		PhraseLabel=SuP
-7	Oscar	Oscar	EN	-.-.-	EN.-	3	OO		PhraseLabel=NP|SpaceAfter=No
-8	,	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
-9	exempel	exempel	NN	-.-.-	NN.NEU.SIN.IND	11	DF		PhraseLabel=NP|SpaceAfter=No
-10	:	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
-11	Sagan	saga	NN	-.-.-	NN.UTR.SIN.DEF	3	parataxis	3:parataxis|15:	PhraseLabel=NP
-12	om	om	PE	-.-.-	PE.-	11	MD		PhraseLabel=PP
-13	ringen	ring	NN	-.-.-	NN.UTR.SIN.DEF	12	OO		PhraseLabel=PP
-14	som	som	SU	-.-.-	SU.-	11	MD		PhraseLabel=SuP
-15	vann	vinna	VB	-.-.-	VB.IND.AKT.PRT	14	OO		PhraseLabel=S
-16	4	fyra	NU	-.-.-	NU.-	17	DT		PhraseLabel=NP
-17	Oscar	Oscar	EN	-.-.-	EN.-	15	OO		PhraseLabel=NP
-18	för	för	PE	-.-.-	PE.-	17	MD		PhraseLabel=PP
-19	bland	bland	PE	-.-.-	PE.-	20	ME		PhraseLabel=NP
-20	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	22	MD		PhraseLabel=NP
-21	bästa	bra	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	22	MD		PhraseLabel=NP
-22	specialeffekter	specialeffekt	NN	-.-.-	NN.UTR.PLU.IND	18	OO		PhraseLabel=NP|SpaceAfter=No
-23	.	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
+# sent_id = Blog_160886-12595823.21
+# text = [Måste in en snabbis och köpa den sista julklappen... Till pappa M.]
+1	[	_	SY	-.-.-	SY.DEL	6	--		PhraseLabel=Top|SpaceAfter=No
+2	Måste	måste	VB	-.-.-	VB.IND.AKT.PRS	6	KL		PhraseLabel=S
+3	in	in	AB	-.-.-	AB.-.-	2	RA		PhraseLabel=S
+4	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	5	DT		PhraseLabel=NP
+5	snabbis	snabbis	NN	-.-.-	NN.UTR.SIN.IND	2	MD		PhraseLabel=NP
+6	och	och	KO	-.-.-	KO.-	0	--		PhraseLabel=KoP
+7	köpa	köpa	VB	-.-.-	VB.INF.AKT.-	6	IV		PhraseLabel=VP
+8	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	10	DT		PhraseLabel=NP
+9	sista	sista	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	10	MD		PhraseLabel=NP
+10	julklappen	julklapp	NN	-.-.-	NN.UTR.SIN.DEF	7	OO		PhraseLabel=NP|SpaceAfter=No
+11	...	_	SY	-.-.-	SY.DEL	6	--		PhraseLabel=Top
+12	Till	till	PE	-.-.-	PE.-	10	MD		PhraseLabel=PP
+13	pappa	pappa	NN	-.-.-	NN.UTR.SIN.IND	12	OO		PhraseLabel=NP
+14	M	M	EN	-.-.-	EN.-	13	AN		PhraseLabel=NP|SpaceAfter=No
+15	.	_	SY	-.-.-	SY.DEL	6	--		PhraseLabel=Top|SpaceAfter=No
+16	]	_	SY	-.-.-	SY.DEL	6	--		PhraseLabel=Top
 
