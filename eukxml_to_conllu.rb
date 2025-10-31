@@ -186,7 +186,7 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose, 
     end
 end
 
-def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel)
+def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases)
     @head_label_index = labels.index("HD") 
             
     if @head_label_index.nil?
@@ -194,9 +194,43 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
     else
         if verbose then STDERR.puts "Current_id: #{current_id} HD found: #{next_level[@head_label_index]}" end
     end 
+    
+    if @head_label_index.nil?
+        if verbose then STDERR.puts "Current_id: #{current_id} no HD, no PH found, trying heuristics" end
+        cat = phrases[current_id]
+        
+        #!!! deal with non-terminals when choosing by .min. Same for leftmost and under0 (perhaps will become unnecessary. Add for NP and KoP
+        if ["VP","SuP","S"].include?(cat)
+            candidate = next_level.select{|n|labels[next_level.index(n)] == "SP"}
+            if !candidates.nil?
+                @temptemphead = candidates.min
+            else
+                candidates = next_level.select{|n|labels[next_level.index(n)] == "IV"}
+                if !candidates.nil?
+                    @temptemphead = candidates.min
+                else
+                    @temptemphead = next_level.min
+                end
+            end
+
+        elsif cat == "NP"
+            #more complex: rightmost, but not PP, SuP or participial and stop there
+        elsif cat == "PP"
+            candidates = next_level.select{|n|labels[next_level.index(n)] == "OO"}
+            @temphead = candidates.min
+        elsif cat == "KoP" #probably already solved?
+            @temptemphead = next_level.min
+        else
+            @temptemphead = next_level.min
+            #leftmost. orphan or original?
+        end
+        @head_label_index = next_level.index(@temptemphead)
+    else
+        if verbose then STDERR.puts "Current_id: #{current_id} HD or PH found: #{next_level[@head_label_index]}" end
+    end
 
     if !@head_label_index.nil?
-        if verbose then STDERR.puts "Current_id: #{current_id} HD or PH found: #{next_level[@head_label_index]}" end
+        if verbose then STDERR.puts "Current_id: #{current_id} head found: #{next_level[@head_label_index]}" end
         temphead = next_level[@head_label_index].clone
         if term_ids.include?(temphead)
             @head = temphead.clone
@@ -220,11 +254,15 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
 
             if verbose then STDERR.puts "Current_id: #{current_id} HD or PH confirmed as terminal: #{next_level[@head_label_index]}" end
         else            
-            find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel)
+            find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases)
             #add condition for stopping
         end
     else
-        if verbose then STDERR.puts "#{current_id}: no HD or PH found, exiting recursion"end
+        
+        #repeat root assignment etc from above
+        #go dowb
+
+        if verbose then STDERR.puts "ALARM: #{current_id}: no HD or PH found, exiting recursion" end
     end
 
     return
@@ -354,8 +392,8 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             @head = nil
             @head_label_index = nil
             @phraselabel = phraselabel.clone
-            STDERR.puts "Running find_head from #{current_id} with #{@phraselabel}"
-            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,true,term_ids,root,phraselabel)
+            #STDERR.puts "Running find_head from #{current_id} with #{@phraselabel}"
+            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases)
             head = @head.clone
             head_label_index = @head_label_index.clone
 
