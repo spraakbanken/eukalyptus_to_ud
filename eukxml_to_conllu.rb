@@ -199,17 +199,17 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
         if verbose then STDERR.puts "Current_id: #{current_id} no HD, no PH found, trying heuristics" end
         cat = phrases[current_id]
         
-        #!!! deal with non-terminals when choosing by .min. Same for leftmost and under0 (perhaps will become unnecessary. Add for NP and KoP
+        #!!!  .min or [0]: why was it important for leftmost? Is it important here and for under0? Add for NP and KoP
         if ["VP","SuP","S"].include?(cat)
-            candidate = next_level.select{|n|labels[next_level.index(n)] == "SP"}
+            candidates = next_level.select{|n|labels[next_level.index(n)] == "SP"}
             if !candidates.nil?
-                @temptemphead = candidates.min
+                @temptemphead = candidates[0]
             else
                 candidates = next_level.select{|n|labels[next_level.index(n)] == "IV"}
                 if !candidates.nil?
-                    @temptemphead = candidates.min
+                    @temptemphead = candidates[0]
                 else
-                    @temptemphead = next_level.min
+                    @temptemphead = next_level
                 end
             end
 
@@ -217,11 +217,11 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
             #more complex: rightmost, but not PP, SuP or participial and stop there
         elsif cat == "PP"
             candidates = next_level.select{|n|labels[next_level.index(n)] == "OO"}
-            @temphead = candidates.min
+            @temphead = candidates[0]
         elsif cat == "KoP" #probably already solved?
             @temptemphead = next_level.min
         else
-            @temptemphead = next_level.min
+            @temptemphead = next_level[0]
             #leftmost. orphan or original?
         end
         @head_label_index = next_level.index(@temptemphead)
@@ -414,7 +414,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                         candidate_index[node] = nodeindex
                     end
                 end
-                head = head_candidates.min
+                head = head_candidates.min #replace with [0], but hopefully won't be relevant any more
                 head_label_index = candidate_index[head]
                 if verbose then STDERR.puts "Current_id: #{current_id} Assigned the leftmost node as a head: #{head}" end
                 
