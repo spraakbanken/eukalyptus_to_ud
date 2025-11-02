@@ -1,3 +1,4 @@
+require_relative 'detectparticiple.rb'
 mode = "convert"
 list_out_pos = false
 lemma_per_pos2 = Hash.new{|hash, key| hash[key] = Array.new}
@@ -98,9 +99,6 @@ AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA 
 @prontypes = {"all" => "Tot", "annan" => "Ind", "denna" => "Dem", "densamma" => "Dem", "en" => "Art", "hon" => "Prs", "ingen" => "Neg", "ingenting" => "Neg", "man" => "Ind", "någon" => "Ind", "sig" => "Prs", "som" => "Rel", "var" => "Tot", "varandra" => "Rcp", "vardera" => "Tot", "varje" => "Tot", "vem" => "Int", "the" => "Art", "vars" => "Rel", "vilka" => "Rel", "du" => "Prs", "vi" => "Prs", "han" => "Prs", "jag" => "Prs", "ni" => "Prs", "vår" => "Prs", "mitt" => "Prs", "mycken" => "Ind", "någonting" => "Ind", "mången" => "Ind", "mycket" => "Ind", "sån" => "Ind", "somlig" => "Ind", "många" => "Ind", "varannan" => "Ind", "nånting" => "Ind", "flera" => "Ind", "fler" => "Ind", "få" => "Ind", "två" => "Ind", "vissa" => "Ind", "båda" => "Tot", "vilket" => "Tot", "bådadera" => "Tot", "allting" => "Tot", "envar" => "Tot", "bägge" => "Tot", "samtlig" => "Tot", "alltihop" => "Tot", "ingendera" => "Neg", "varann" => "Rcp", "vad" => "Int,Rel", "vilken" => "Int,Rel", "litet" => "Ind", "allihopa" => "Tot", "alltihopa" => "Tot", "varsin" => "Tot", "varenda" => "Tot", "allesammans" => "Tot"} #Based on Talbanken + corrections from https://github.com/UniversalDependencies/docs/issues/1083#issuecomment-2677651632
 
 
-@partpenult = "abcdfghjklmnpqrstvwxz"
-@unvoiced_partpenult  = "cfhkpqstxz"
-@notparticiples = ["ökänd", "mången", "glad", "gedigen", "liten", "hård", "sen", "mycken", "välkommen", "öppen", "ilsken", "egen", "osund", "enskild", "blåögd", "ond", "medveten", "angelägen", "okänd", "kristen", "vuxen", "rädd", "jätte|ond", "jätte|ledsen", "lessen", "sugen", "synd", "ledsen", "mild", "obenägen", "ren", "nämnvärd", "jättesugen", "vaken", "stenhård", "naken", "nyfiken", "högljudd", "galen", "värd", "toppen", "oerhörd", "omedveten", "helhjärtad", "vild", "lyhörd", "avsevärd", "sund", "belägen", "folkvald", "blond", "trogen", "förmögen", "färgglad", "sorgsen", "överlägsen", "outvecklad", "önskvärd", "rund", "belåten", "härsken", "moloken", "grund", "blå|mild", "plikttrogen", "oönskad", "len", "säregen", "mogen", "avlägsen", "älskvärd", "medfaren", "ljummen", "först", "korrekt", "främst", "direkt", "fast", "indirekt", "gôtt", "rätt", "näst", "trist", "exakt", "sist", "glatt", "övertrött", "perfekt", "tyst", "flott", "förtjust", "platt", "nätt", "sankt", "terrest", "ogift", "rödlätt", "storväxt", "kroknäst", "kompakt", "knäppt", "smått"]
 @nonsfolemmas = ["tycka", "möta", "fordra", "känna", "tränga"] #both from Talbanken and LinES with manual filtering
 
 def finddaughters(sentence,nodeofinterest)
@@ -112,39 +110,6 @@ def finddaughters(sentence,nodeofinterest)
     end
     return daughters
 
-end
-
-def detectparticiple(pos,upos,lemma,head,deprel,sentence,sent_id)
-    feats = []
-    if pos == "AJ" 
-        if ((lemma[-1] == "d" and @partpenult.include?(lemma[-2])) or (lemma[-2..-1] == "en") or (lemma[-1] == "t" and @unvoiced_partpenult.include?(lemma[-2]))) and !@notparticiples.include?(lemma)
-            if !sentence[head].nil?
-                if sentence[head]["lemma"] == "bli" and deprel == "SP"
-                    upos = "VB"
-                    feats << "Voice=Pass"
-                elsif deprel == "KL"
-                    headhead = sentence[head]["head"]
-                    headdeprel = sentence[head]["deprel"]
-                    #STDERR.puts "checking the headhead of a potential bli-passive #{sent_id}"
-                    if !sentence[headhead].nil?
-                        if sentence[headhead]["lemma"] == "bli" and headdeprel == "SP"
-                            #STDERR.puts "Found the headhead! #{sent_id}"
-                            upos = "VB"
-                            feats << "Voice=Pass"
-                        end
-                    end
-
-                    #TODO3: change the structure, add aux:pass deprel, change POS of bli to "aux"
-                end
-            end
-            feats << "Tense=Past"
-            feats << "VerbForm=Part"
-        elsif lemma[-4..-1] == "ande" or lemma[-4..-1] == "ende" 
-            feats << "Tense=Pres"
-            feats << "VerbForm=Part"
-        end
-    end
-    return upos,feats
 end
 
 def adverbials(id, sentence, sent_id)

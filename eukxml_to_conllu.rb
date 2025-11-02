@@ -1,4 +1,5 @@
 require 'io/console'
+require_relative 'detectparticiple.rb'
 
 # reverse head-dependent for content words
 # coordination
@@ -12,8 +13,6 @@ require 'io/console'
 
 #?: do embedded *Ms exist? Yes: Romn_Holmsen-Polynesiskpassad.102 and 376. Are they correct, though?
 #the third type of MWEs: seems to be OK?
-
-#questions to Gerlof that are already sent
 
 #17 and 34 fixed by dispreferring PH-roots: but is it reliable?
 #headless: treat more systematically depending on type? (NPs)
@@ -196,10 +195,11 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
     end 
     
     if @head_label_index.nil?
+        @temptemphead = nil
         if verbose then STDERR.puts "Current_id: #{current_id} no HD, no PH found, trying heuristics" end
         cat = phrases[current_id]
         
-        #!!!  .min or [0]: why was it important for leftmost? Is it important here and for under0? Add for NP and KoP
+        #!!!  .min or [0]: why was it important for leftmost? Should be OK here and under0? Add for NP
         if ["VP","SuP","S"].include?(cat)
             candidates = next_level.select{|n|labels[next_level.index(n)] == "SP"}
             if !candidates.nil?
@@ -212,14 +212,35 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
                     @temptemphead = next_level
                 end
             end
-
         elsif cat == "NP"
-            #more complex: rightmost, but not PP, SuP or participial and stop there
+            stopfound = false
+            next_level.each.with_index do |candidate,candidate_index|
+                if phrases[candidate_index] == "PP" or phrases[candidate_index] == "SuP"
+                    stopfound = true
+                end
+                if phrases[candidate_index] == "AjP"
+                    ajphead_index = primary_labels[candidate_index].index("HD")
+                    ajphead = primary_tree[candidate_index][ajphead_index]
+                    #add words and sentence and detectparticiple here. Recursivize? Add PH? 
+                end
+ 
+                if stopfound
+                    if index > 0
+                        @temptemphead = next_level[candidate_index-1]
+                    else
+                        STDERR.puts "PROBLEM!!! First node in NP is a PP or SuP or participial AjP!"
+                    end
+                    break
+                end
+            end
+            if @temptemphead.nil?
+                @temptemphead = next_level[-1]
+            end
         elsif cat == "PP"
             candidates = next_level.select{|n|labels[next_level.index(n)] == "OO"}
             @temphead = candidates[0]
         elsif cat == "KoP" #probably already solved?
-            @temptemphead = next_level.min
+            @temptemphead = next_level[0]
         else
             @temptemphead = next_level[0]
             #leftmost. orphan or original?
