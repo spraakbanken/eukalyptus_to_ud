@@ -472,7 +472,7 @@ def convert(id, sentence, sent_id)
     end
 
     feats = []
-    partresults = detectparticiple(pos,upos,lemma,head,deprel,sentence,sent_id) 
+    partresults = detectparticiple(pos,upos,lemma,head,deprel,sentence,sent_id,"toud") 
     feats << partresults[1]
     feats.flatten!
     upos = partresults[0]

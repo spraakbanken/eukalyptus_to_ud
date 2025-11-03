@@ -185,7 +185,7 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose, 
     end
 end
 
-def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases)
+def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases,words)
     @head_label_index = labels.index("HD") 
             
     if @head_label_index.nil?
@@ -199,20 +199,25 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
         if verbose then STDERR.puts "Current_id: #{current_id} no HD, no PH found, trying heuristics" end
         cat = phrases[current_id]
         
-        #!!!  .min or [0]: why was it important for leftmost? Should be OK here and under0? Add for NP
+        #!!!  .min or [0]: why was it important for leftmost? Should be OK here and under0? 
         if ["VP","SuP","S"].include?(cat)
+            if verbose then STDERR.puts "Current_id: #{current_id} trying heuristics for VP etc" end
             candidates = next_level.select{|n|labels[next_level.index(n)] == "SP"}
-            if !candidates.nil?
+            if !candidates.empty?
                 @temptemphead = candidates[0]
+                if verbose then STDERR.puts "SP found" end
             else
                 candidates = next_level.select{|n|labels[next_level.index(n)] == "IV"}
-                if !candidates.nil?
+                if !candidates.empty?
                     @temptemphead = candidates[0]
+                    if verbose then STDERR.puts "IV found" end
                 else
-                    @temptemphead = next_level
+                    @temptemphead = next_level[0]
+                    if verbose then STDERR.puts "Taking the leftmost node" end
                 end
             end
         elsif cat == "NP"
+            if verbose then STDERR.puts "Current_id: #{current_id} trying heuristics for NP" end
             stopfound = false
             next_level.each.with_index do |candidate,candidate_index|
                 if phrases[candidate_index] == "PP" or phrases[candidate_index] == "SuP"
@@ -221,7 +226,11 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
                 if phrases[candidate_index] == "AjP"
                     ajphead_index = primary_labels[candidate_index].index("HD")
                     ajphead = primary_tree[candidate_index][ajphead_index]
-                    #add words and sentence and detectparticiple here. Recursivize? Add PH? 
+                    upos,feats=detectparticiple("","",words[ajphead]["lemma"],"","","",sent_id,"toconllu")
+                    if feats.include?("VerbForm=Part")
+                        stopfound=true
+                    end
+                    #TODO: Recursivize? Do we need to add PH? 
                 end
  
                 if stopfound
@@ -266,7 +275,7 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
             if @reversed_tree[@head].nil?
                 @reversed_tree[@head] = root
                 @reversed_labels[@head] = phraselabel #"#{labels[nodeindex]}-#{cat}-#{phraselabel}"
-                #@reversed_labels2[@head] = "#{labels[nodeindex]}-#{cat}-#{phraselabel}"
+                @reversed_labels2[@head] = "#{labels[next_level.index(@head)]}-#{cat}-#{phraselabel}"
                 if verbose then STDERR.puts "IN RECURSION #{@head} assigned #{root} as head and #{phraselabel} as label" end
             else
                 if verbose then STDERR.puts "IN RECURSION assignment blocked: #{@head} already has #{@reversed_tree[@head]} as head" end
@@ -275,7 +284,7 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
 
             if verbose then STDERR.puts "Current_id: #{current_id} HD or PH confirmed as terminal: #{next_level[@head_label_index]}" end
         else            
-            find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases)
+            find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases,words)
             #add condition for stopping
         end
     else
@@ -414,7 +423,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             @head_label_index = nil
             @phraselabel = phraselabel.clone
             #STDERR.puts "Running find_head from #{current_id} with #{@phraselabel}"
-            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases)
+            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases,words)
             head = @head.clone
             head_label_index = @head_label_index.clone
 
