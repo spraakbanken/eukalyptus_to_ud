@@ -211,16 +211,22 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
                 if !candidates.empty?
                     @temptemphead = candidates[0]
                     if verbose then STDERR.puts "IV found" end
-                else
-                    @temptemphead = next_level[0]
-                    if verbose then STDERR.puts "Taking the leftmost node" end
+                elsif
+                    candidates = next_level.select{|n|labels[next_level.index(n)] == "OA"}
+                    if !candidates.empty?
+                        @temptemphead = candidates[0]
+                        if verbose then STDERR.puts "OA found" end
+                    else
+                        @temptemphead = next_level[0]
+                        if verbose then STDERR.puts "Taking the leftmost node" end
+                    end
                 end
             end
         elsif cat == "NP"
             if verbose then STDERR.puts "Current_id: #{current_id} trying heuristics for NP" end
             stopfound = false
             next_level.each.with_index do |candidate,candidate_index|
-                if phrases[candidate_index] == "PP" or phrases[candidate_index] == "SuP"
+                if phrases[candidate_index] == "PP" or phrases[candidate_index] == "SuP" or labels[candidate_index] == "AN"
                     stopfound = true
                 end
                 if phrases[candidate_index] == "AjP"
@@ -234,7 +240,7 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
                 end
  
                 if stopfound
-                    if index > 0
+                    if candidate_index > 0
                         @temptemphead = next_level[candidate_index-1]
                     else
                         STDERR.puts "PROBLEM!!! First node in NP is a PP or SuP or participial AjP!"
@@ -246,10 +252,13 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
                 @temptemphead = next_level[-1]
             end
         elsif cat == "PP"
+            if verbose then STDERR.puts "Current_id: #{current_id} trying heuristics for PP" end
             candidates = next_level.select{|n|labels[next_level.index(n)] == "OO"}
-            @temphead = candidates[0]
+            @temptemphead = candidates[0]
+            if verbose then STDERR.puts "#{@temphead} chosen as head" end
         elsif cat == "KoP" #probably already solved?
             @temptemphead = next_level[0]
+            
         else
             @temptemphead = next_level[0]
             #leftmost. orphan or original?
@@ -423,6 +432,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             @head_label_index = nil
             @phraselabel = phraselabel.clone
             #STDERR.puts "Running find_head from #{current_id} with #{@phraselabel}"
+            #find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,true,term_ids,root,phraselabel,phrases,words)
             find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases,words)
             head = @head.clone
             head_label_index = @head_label_index.clone
