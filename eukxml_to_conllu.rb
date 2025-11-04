@@ -226,25 +226,29 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
             if verbose then STDERR.puts "Current_id: #{current_id} trying heuristics for NP" end
             stopfound = false
             next_level.each.with_index do |candidate,candidate_index|
-                if phrases[candidate_index] == "PP" or phrases[candidate_index] == "SuP" or labels[candidate_index] == "AN"
+                if phrases[candidate] == "PP" or phrases[candidate] == "SuP" or labels[candidate_index] == "AN"
                     stopfound = true
+                    #STDOUT.puts "#{sent_id}\t#{phrases[candidate]}\t#{labels[candidate_index]}"
                 end
-                if phrases[candidate_index] == "AjP"
-                    ajphead_index = primary_labels[candidate_index].index("HD")
-                    ajphead = primary_tree[candidate_index][ajphead_index]
-                    upos,feats=detectparticiple("","",words[ajphead]["lemma"],"","","",sent_id,"toconllu")
-                    if feats.include?("VerbForm=Part")
-                        stopfound=true
+                if phrases[candidate] == "AjP"
+                    ajphead_index = primary_labels[candidate].index("HD")
+                    if !ajphead_index.nil?
+                        ajphead = primary_tree[candidate][ajphead_index]
+                        upos,feats=detectparticiple("","",words[ajphead]["lemma"],"","","",sent_id,"toconllu")
+                        if feats.include?("VerbForm=Part")
+                            stopfound=true
+                        end
+                    else
+                        STDERR.puts "AjP has no HD: #{sent_id}\t#{candidate}"
                     end
                     #TODO: Recursivize? Do we need to add PH? 
                 end
  
                 if stopfound
-                    if candidate_index > 0
-                        @temptemphead = next_level[candidate_index-1]
-                    else
-                        STDERR.puts "PROBLEM!!! First node in NP is a PP or SuP or participial AjP!"
-                    end
+                    @temptemphead = next_level[candidate_index-1]
+                    #if candidate_index == 0
+                    #    STDOUT.puts "Warning: First node in NP is a PP or SuP or participial AjP! #{sent_id} #{current_id}"
+                    #end
                     break
                 end
             end
