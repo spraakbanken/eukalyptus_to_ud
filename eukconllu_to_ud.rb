@@ -187,16 +187,17 @@ end
 def convert_syntax(sentence2, sent_id)
     sentence = sentence2.clone
     root = nil
+    
+    uheads = {}
+    udeprels = {}
+
     sentence.each_pair do |id,senthash|
         if senthash["head"] == 0
             root = id.clone
-            break
+            
         end
     end
 
-
-    uheads = {}
-    udeprels = {}
 
     
 
@@ -286,11 +287,22 @@ def convert_syntax(sentence2, sent_id)
                                 sentence[coordination_head]["deprel"] = "cc"
                                 sentence[coordination_head]["head"] = find_next_conjunct(coordination_head,chain_conjuncts[coordination_head])
                             elsif status == "other"
-                                #recognize the head as the first conjunct? If all same pos
+                                
                                 #as EUK-coordination if till, mot etc?
-                                #if SU etc. report a possible error?
-                                sentence[coordination_head]["deprel"] = "dep"
-                                sentence[coordination_head]["head"] = new_coordination_head.clone
+                                new_coordination_head = coordination_head.clone
+                                sentence[conjunct]["head"] = new_coordination_head.clone
+                                sentence[conjunct]["deprel"] = "conj" 
+                                
+                                conjuncts_pos = []
+                                [coordination_head, chain_conjuncts[coordination_head]].flatten.each do |conjunct2|
+                                    conjuncts_pos << sentence[conjunct2]["pos"]
+                                end
+                                if conjuncts_pos.uniq.length > 1
+                                    STDOUT.puts "#{sent_id}\t#{new_coordination_head}\t#{conjuncts_pos.uniq.join(" ")}"
+                                end
+
+                                #sentence[coordination_head]["deprel"] = "dep"
+                                #sentence[coordination_head]["head"] = new_coordination_head.clone
 
                             end
                         else
@@ -328,23 +340,28 @@ def convert_syntax(sentence2, sent_id)
     sentence.each_pair do |id,senthash|
         deprel = senthash["deprel"]
         head = senthash["head"]
-        pos = senthash["pos"]
+        upos = senthash["upos"]
         if head.nil?
             head = 0
         end
 
-        if deprel.downcase == deprel
-            udeprels[id] = deprel
-        else
-            if head == 0
-                udeprels[id] = "root"
-            end
-            if pos == "PUNCT"
-                udeprels[id] = "punct"
-            end
-            
+        
+
+        if head == 0
+            udeprels[id] = "root"
+        end
+
+        if upos == "PUNCT"
+            udeprels[id] = "punct"
+        #elsif deprel.downcase == deprel
+        #    udeprels[id] = deprel
+        else                       
             if !@matchdeprels[deprel].nil?
                 udeprels[id] = @matchdeprels[deprel]
+            else
+                if udeprels[id].nil?
+                    udeprels[id] = deprel
+                end
             end
         end
         uheads[id] = head #move to a separate cycle?
@@ -485,7 +502,7 @@ def convert(id, sentence, sent_id)
             daughters = finddaughters(sentence,id)
             if lemma == "bli"
                 daughters.each do |daughter|
-                    daughterupos,daughterfeats = detectparticiple(sentence[daughter]["pos"],"",sentence[daughter]["lemma"],sentence[daughter]["head"],sentence[daughter]["deprel"],sentence,sent_id)
+                    daughterupos,daughterfeats = detectparticiple(sentence[daughter]["pos"],"",sentence[daughter]["lemma"],sentence[daughter]["head"],sentence[daughter]["deprel"],sentence,sent_id,"toud")
                     if daughterfeats.include?("VerbForm=Part") and daughterfeats.include?("Tense=Past") and sentence[daughter]["deprel"] == "SP"
                         auxflag = true
                         break

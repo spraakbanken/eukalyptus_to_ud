@@ -432,11 +432,11 @@
 # sent_id = Blog_160886-11338599.1
 # text = Som Neo längtat och suktat efter sin chokladkalender...
 1	Som	som	SU	-.-.-	SU.-	0	--		PhraseLabel=SuP
-2	Neo	Neo	EN	-.-.-	EN.-	3	SB		PhraseLabel=S
+2	Neo	Neo	EN	-.-.-	EN.-	4	SB		PhraseLabel=S
 3	längtat	längta	VB	-.-.-	VB.SPM.AKT.-	4	KL		PhraseLabel=VP
 4	och	och	KO	-.-.-	KO.-	1	OO		PhraseLabel=KoP
 5	suktat	sukta	VB	-.-.-	VB.SPM.AKT.-	4	KL		PhraseLabel=VP
-6	efter	efter	PE	-.-.-	PE.-	5	MD	5:MD|3:	PhraseLabel=PP
+6	efter	efter	PE	-.-.-	PE.-	5	OA	5:OA|3:	PhraseLabel=PP
 7	sin	sin	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	8	DT		PhraseLabel=NP
 8	chokladkalender	choklad<kalender	NN	-.-.-	NN.UTR.SIN.IND	6	OO		PhraseLabel=NP|SpaceAfter=No
 9	...	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top
@@ -1259,7 +1259,7 @@
 5	på	på	PE	-.-.-	PE.-	4	MD		PhraseLabel=PP
 6	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	7	DT		PhraseLabel=NP
 7	träd	träd	NN	-.-.-	NN.NEU.SIN.IND	8	KL		PhraseLabel=NP
-8	eller	eller	KO	-.-.-	KO.-	12	SB	12:SB|17:|13:	PhraseLabel=KoP
+8	eller	eller	KO	-.-.-	KO.-	12	SB	12:SB|18:|13:	PhraseLabel=KoP
 9	åtminstonde	åtminstonde	AB	-.-.-	AB.-.-	11	MD		PhraseLabel=NP
 10	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	11	DT		PhraseLabel=NP
 11	gren	gren	NN	-.-.-	NN.UTR.SIN.IND	8	KL		PhraseLabel=NP
@@ -1268,8 +1268,8 @@
 14	igenom	igenom	PE	-.-.-	PE.-	13	PL		PhraseLabel=VP
 15	rutan	ruta	NN	-.-.-	NN.UTR.SIN.DEF	13	OO		PhraseLabel=VP
 16	och	och	KO	-.-.-	KO.-	12	IV		PhraseLabel=KoP
-17	in	in	AB	-.-.-	AB.-.-	16	KL		PhraseLabel=VP
-18	i	i	PE	-.-.-	PE.-	17	RA		PhraseLabel=PP
+17	in	in	AB	-.-.-	AB.-.-	18	PL		PhraseLabel=VP
+18	i	i	PE	-.-.-	PE.-	16	KL		PhraseLabel=PP
 19	vardagsrummet	vardagsrum	NN	-.-.-	NN.NEU.SIN.DEF	20	KL		PhraseLabel=KoP
 20	eller	eller	KO	-.-.-	KO.-	18	OO		PhraseLabel=KoP
 21	sovrummet	sovrum	NN	-.-.-	NN.NEU.SIN.DEF	20	KL		PhraseLabel=KoP|SpaceAfter=No
@@ -3596,7 +3596,7 @@
 
 # sent_id = Blog_188519-10542620.9
 # text = Jag är helt förtvivlad o vet inte vart jag ska ta vägen.
-1	Jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	2	SP		PhraseLabel=S
+1	Jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	2	SB		PhraseLabel=S
 2	är	vara	VB	-.-.-	VB.IND.AKT.PRS	5	KL		PhraseLabel=S
 3	helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	4	MD		PhraseLabel=AjP
 4	förtvivlad	förtvivlad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	2	SP		PhraseLabel=AjP
@@ -4417,11 +4417,11 @@
 18	med	med	PE	-.-.-	PE.-	17	MD		PhraseLabel=PP
 19	principen	princip	NN	-.-.-	NN.UTR.SIN.DEF	18	OO		PhraseLabel=NP
 20	”	_	SY	-.-.-	SY.DEL	13	--		PhraseLabel=Top|SpaceAfter=No
-21	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	19	MD		PhraseLabel=S
-22	in	in	AB	-.-.-	AB.-.-	21	RA		PhraseLabel=S|SpaceAfter=No
+21	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	22	SB		PhraseLabel=S
+22	in	in	AB	-.-.-	AB.-.-	19	MD		PhraseLabel=S|SpaceAfter=No
 23	,	_	SY	-.-.-	SY.DEL	13	--		PhraseLabel=Top
-24	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	21	KL		PhraseLabel=S
-25	ut	ut	AB	-.-.-	AB.-.-	24	RA		PhraseLabel=S|SpaceAfter=No
+24	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	25	SB		PhraseLabel=S
+25	ut	ut	AB	-.-.-	AB.-.-	22	KL		PhraseLabel=S|SpaceAfter=No
 26	”	_	SY	-.-.-	SY.DEL	13	--		PhraseLabel=Top
 27	så	så	AB	-.-.-	AB.-.-	28	MD		PhraseLabel=S
 28	är	vara	VB	-.-.-	VB.IND.AKT.PRS	13	KL		PhraseLabel=S
@@ -6650,7 +6650,7 @@
 18	tydligen	tydligen	AB	-.-.-	AB.-.-	17	MD		PhraseLabel=S
 19	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	21	DT		PhraseLabel=NP
 20	små	liten	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	21	MD		PhraseLabel=NP
-21	virusjävlarna	virus|jävel	NN	-.-.-	NN.UTR.PLU.DEF	17	SB	17:SB|31:|27:	PhraseLabel=NP
+21	virusjävlarna	virus|jävel	NN	-.-.-	NN.UTR.PLU.DEF	17	SB	17:SB|32:|27:	PhraseLabel=NP
 22	in	in	AB	-.-.-	AB.-.-	17	PL		PhraseLabel=S
 23	i	i	PE	-.-.-	PE.-	17	RA		PhraseLabel=PP
 24	mina	min	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	25	DT		PhraseLabel=NP
@@ -6660,8 +6660,8 @@
 28	dem	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	27	OO		PhraseLabel=S
 29	ljuskänsliga	ljuskänslig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	27	OP		PhraseLabel=S
 30	och	och	KO	-.-.-	KO.-	15	PH		PhraseLabel=KoP
-31	in	in	AB	-.-.-	AB.-.-	15	KL		PhraseLabel=S
-32	i	i	PE	-.-.-	PE.-	31	RA		PhraseLabel=PP
+31	in	in	AB	-.-.-	AB.-.-	32	PL		PhraseLabel=S
+32	i	i	PE	-.-.-	PE.-	15	KL		PhraseLabel=PP
 33	min	min	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	34	DT		PhraseLabel=NP
 34	näsa	näsa	NN	-.-.-	NN.UTR.SIN.IND	32	OO		PhraseLabel=NP
 35	där	där	SU	-.-.-	SU.-	34	MD		PhraseLabel=SuP
@@ -11932,7 +11932,7 @@
 7	(	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top|SpaceAfter=No
 8	typ	typ	AB	-.-.-	AB.-.-	10	MD		PhraseLabel=AjP
 9	lite	litet	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	10	MD		PhraseLabel=AjP
-10	söta	söt	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	1	SP		PhraseLabel=AjP|SpaceAfter=No
+10	söta	söt	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	2	DF		PhraseLabel=AjP|SpaceAfter=No
 11	,	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top
 12	sjukt	sjukt	AB	-.-.-	AB.POS.-	13	MD		PhraseLabel=AjP
 13	juciy	_	UO	-.-.-	UO.-	10	AN		PhraseLabel=AjP|SpaceAfter=No
@@ -15591,19 +15591,19 @@
 
 # sent_id = Blog_5089-9048317.2
 # text = Njaeee, inte så värst ofta hos mej i allafall... :P
-1	Njaeee	njae	IJ	-.-.-	IJ.-	0	--		CorrectForm=Njae|PhraseLabel=S|SpaceAfter=No
-2	,	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top
-3	inte	inte	AB	-.-.-	AB.-.-	1	MD		PhraseLabel=S
+1	Njaeee	njae	IJ	-.-.-	IJ.-	7	DF		CorrectForm=Njae|PhraseLabel=S|SpaceAfter=No
+2	,	_	SY	-.-.-	SY.DEL	7	--		PhraseLabel=Top
+3	inte	inte	AB	-.-.-	AB.-.-	7	MD		PhraseLabel=S
 4	så	så	AB	-.-.-	AB.-.-	5	MD		PhraseLabel=AjP
 5	värst	ond	AJ	-.-.-	AJ.SUV.SIN/PLU.IND.UTR/NEU.-	6	MD		PhraseLabel=AjP
-6	ofta	ofta	AB	-.-.-	AB.-.-	1	MD		PhraseLabel=AbP
-7	hos	hos	PE	-.-.-	PE.-	1	RA		PhraseLabel=PP
+6	ofta	ofta	AB	-.-.-	AB.-.-	7	MD		PhraseLabel=AbP
+7	hos	hos	PE	-.-.-	PE.-	0	--		PhraseLabel=PP
 8	mej	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	7	OO		PhraseLabel=PP
-9	i	i	PE	-.-.-	PE.-	1	MD		PhraseLabel=PP
+9	i	i	PE	-.-.-	PE.-	7	MD		PhraseLabel=PP
 10	alla	all	PO	??	PO.DEF.PLU.UTR/NEU.-.-	11	DT		PhraseLabel=NP|SpaceAfter=No
 11	fall	fall	NN	??	NN.NEU.PLU.IND	9	OO		PhraseLabel=NP|SpaceAfter=No
-12	...	_	SY	-.-.-	SY.DEL	1	--		PhraseLabel=Top
-13	:P	_	SY	-.-.-	SY.SYM	1	DF		PhraseLabel=S
+12	...	_	SY	-.-.-	SY.DEL	7	--		PhraseLabel=Top
+13	:P	_	SY	-.-.-	SY.SYM	7	DF		PhraseLabel=S
 
 # sent_id = Blog_5089-9048317.3
 # text = Morronen flöt liksom på å innan vi åkte skulle jag bara kolla in på min bank-app för å se hur sabla rik jag var med både lön å FP på kontot.
@@ -16855,8 +16855,8 @@
 15	vaken	vaken	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	14	SP		PhraseLabel=S|SpaceAfter=No
 16	,	_	SY	-.-.-	SY.DEL	5	--		PhraseLabel=Top
 17	men	men	KO	-.-.-	KO.-	12	OO		PhraseLabel=KoP
-18	ändå	ändå	AB	-.-.-	AB.-.-	17	KL		PhraseLabel=S
-19	jämte	jämte	PE	-.-.-	PE.-	18	RA		PhraseLabel=PP
+18	ändå	ändå	AB	-.-.-	AB.-.-	19	MD		PhraseLabel=S
+19	jämte	jämte	PE	-.-.-	PE.-	17	KL		PhraseLabel=PP
 20	mej	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	19	OO		PhraseLabel=PP
 21	å	och	KO	-.-.-	KO.-	17	PH		PhraseLabel=KoP
 22	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	24	SB		PhraseLabel=S
@@ -17680,11 +17680,11 @@
 10	på	på	PE	-.-.-	PE.-	8	RA		PhraseLabel=PP
 11	golvet	golv	NN	-.-.-	NN.NEU.SIN.DEF	10	OO		PhraseLabel=PP
 12	å	och	KO	-.-.-	KO.-	6	OO		PhraseLabel=KoP
-13	sen	sen	AB	-.-.-	AB.-.-	12	KL		PhraseLabel=S
+13	sen	sen	AB	-.-.-	AB.-.-	15	MD		PhraseLabel=S
 14	även	även	AB	-.-.-	AB.-.-	15	MD		PhraseLabel=PP
-15	på	på	PE	-.-.-	PE.-	13	RA		PhraseLabel=PP
+15	på	på	PE	-.-.-	PE.-	12	KL		PhraseLabel=PP
 16	parkeringen	parkering	NN	-.-.-	NN.UTR.SIN.DEF	15	OO		PhraseLabel=PP
-17	när	när	AB	-.-.-	AB.-.FRL	13	MD		PhraseLabel=AbP
+17	när	när	AB	-.-.-	AB.-.FRL	15	MD		PhraseLabel=AbP
 18	chipsen	chips	NN	-.-.-	NN.NEU.PLU.DEF	29	SB	29:SB|29:	PhraseLabel=NP
 19	som	som	SU	-.-.-	SU.-	18	MD		PhraseLabel=SuP
 20	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	21	SB		PhraseLabel=S
@@ -21607,9 +21607,9 @@
 83	varit	vara	VB	-.-.-	VB.SPM.AKT.-	80	OO		PhraseLabel=VP
 84	förut	förut	AB	-.-.-	AB.-.-	83	MD		PhraseLabel=VP
 85	och	och	KO	-.-.-	KO.-	73	PH		PhraseLabel=KoP
-86	sen	sen	AB	-.-.-	AB.-.-	73	KL		PhraseLabel=VP
+86	sen	sen	AB	-.-.-	AB.-.-	88	MD		PhraseLabel=VP
 87	tillbaka	tillbaka	AB	-.-.-	AB.-.-	88	MD		PhraseLabel=PP
-88	till	till	PE	-.-.-	PE.-	86	RA		PhraseLabel=PP
+88	till	till	PE	-.-.-	PE.-	73	KL		PhraseLabel=PP
 89	hotellet	hotell	NN	-.-.-	NN.NEU.SIN.DEF	88	OO		PhraseLabel=PP
 90	och	och	KO	-.-.-	KO.-	73	PH		PhraseLabel=KoP
 91	somna	somna	VB	-.-.-	VB.INF.AKT.-	73	KL		PhraseLabel=VP
@@ -21823,16 +21823,16 @@
 
 # sent_id = Blog_54523-9491151.2
 # text = Sen hem och städa och sen tillbaka till skolan för utvecklingsamtal med L och hans fröken.
-1	Sen	sen	AB	-.-.-	AB.-.-	3	KL		PhraseLabel=S
-2	hem	hem	AB	-.-.-	AB.-.-	1	RA		PhraseLabel=S
+1	Sen	sen	AB	-.-.-	AB.-.-	2	MD		PhraseLabel=S
+2	hem	hem	AB	-.-.-	AB.-.-	3	KL		PhraseLabel=S
 3	och	och	KO	-.-.-	KO.-	0	--		PhraseLabel=KoP
 4	städa	städa	VB	-.-.-	VB.INF.AKT.-	3	KL		PhraseLabel=S
 5	och	och	KO	-.-.-	KO.-	3	PH		PhraseLabel=KoP
-6	sen	sen	AB	-.-.-	AB.-.-	3	KL		PhraseLabel=S
+6	sen	sen	AB	-.-.-	AB.-.-	8	MD		PhraseLabel=S
 7	tillbaka	tillbaka	AB	-.-.-	AB.-.-	8	MD		PhraseLabel=PP
-8	till	till	PE	-.-.-	PE.-	6	RA		PhraseLabel=PP
+8	till	till	PE	-.-.-	PE.-	3	KL		PhraseLabel=PP
 9	skolan	skola	NN	-.-.-	NN.UTR.SIN.DEF	8	OO		PhraseLabel=PP
-10	för	för	PE	-.-.-	PE.-	6	MD		PhraseLabel=PP
+10	för	för	PE	-.-.-	PE.-	8	MD		PhraseLabel=PP
 11	utvecklingsamtal	utveckling|samtal	NN	-.-.-	NN.NEU.SIN.IND	10	OO		PhraseLabel=NP
 12	med	med	PE	-.-.-	PE.-	11	MD		PhraseLabel=PP
 13	L	L	EN	-.-.-	EN.-	14	KL		PhraseLabel=KoP
@@ -21843,9 +21843,9 @@
 
 # sent_id = Blog_54523-9491151.3
 # text = Och sen hem och fortsätta städa.
-1	Och	och	KO	-.-.-	KO.-	4	KL		PhraseLabel=S
-2	sen	sen	AB	-.-.-	AB.-.-	1	MD		PhraseLabel=S
-3	hem	hem	AB	-.-.-	AB.-.-	1	RA		PhraseLabel=S
+1	Och	och	KO	-.-.-	KO.-	3	DF		PhraseLabel=S
+2	sen	sen	AB	-.-.-	AB.-.-	3	MD		PhraseLabel=S
+3	hem	hem	AB	-.-.-	AB.-.-	4	KL		PhraseLabel=S
 4	och	och	KO	-.-.-	KO.-	0	--		PhraseLabel=KoP
 5	fortsätta	fortsätta	VB	-.-.-	VB.INF.AKT.-	4	KL		PhraseLabel=VP
 6	städa	städa	VB	-.-.-	VB.INF.AKT.-	5	IV		PhraseLabel=VP|SpaceAfter=No
@@ -22175,7 +22175,7 @@
 4	busat	busa	VB	-.-.-	VB.SPM.AKT.-	3	IV		PhraseLabel=VP
 5	hela	hel	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	6	DT		PhraseLabel=NP
 6	morgonen	morgon	NN	-.-.-	NN.UTR.SIN.DEF	4	MD		PhraseLabel=NP
-7	så	så	KO	-.-.-	KO.-	16			PhraseLabel=KoP
+7	så	så	KO	-.-.-	KO.-	16	KL		PhraseLabel=KoP
 8	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	9	SB		PhraseLabel=S
 9	grillade	grilla	VB	-.-.-	VB.IND.AKT.PRT	7	KL		PhraseLabel=S
 10	korv	korv	NN	-.-.-	NN.UTR.SIN.IND	9	OO		PhraseLabel=S
@@ -38755,7 +38755,7 @@
 13	ofta	ofta	AB	-.-.-	AB.POS.-	11	OO		PhraseLabel=AbP
 14	när	när	AB	-.-.-	AB.-.FRL	13	MD		PhraseLabel=SuP
 15	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	16	SB		PhraseLabel=S
-16	behandlar	behandla	VB	-.-.-	VB.IND.AKT.PRS	14	PH		PhraseLabel=S
+16	behandlar	behandla	VB	-.-.-	VB.IND.AKT.PRS	14	OO		PhraseLabel=S
 17	dessa	denna	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	18	DT		PhraseLabel=NP
 18	frågor	fråga	NN	-.-.-	NN.UTR.PLU.IND	16	OO		PhraseLabel=NP|SpaceAfter=No
 19	,	_	SY	-.-.-	SY.DEL	9	--		PhraseLabel=Top
@@ -52477,7 +52477,7 @@
 
 # sent_id = Regr_255096.3
 # text = Det berättar utbildningsminister Gustav Fridolin i samband med det pågående statsbesöket i Finland.
-1	Det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	2	SB		PhraseLabel=S
+1	Det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	2	OO		PhraseLabel=S
 2	berättar	berätta	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseLabel=S
 3	utbildningsminister	utbildningsminister	NN	-.-.-	NN.UTR.SIN.IND	2	SB		PhraseLabel=NP
 4	Gustav	Gustav	EN	-.-.-	EN.-	3	AN		PhraseLabel=NP
@@ -60025,7 +60025,7 @@
 1	Det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	2	DT		PhraseLabel=NP
 2	uppenbara	uppenbar	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	3	SB		PhraseLabel=NP
 3	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseLabel=S
-4	att	att	SU	-.-.-	SU.-	3	SB		PhraseLabel=SuP
+4	att	att	SU	-.-.-	SU.-	3	SP		PhraseLabel=SuP
 5	hela	hel	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	6	DT		PhraseLabel=NP
 6	nyheten	nyhet	NN	-.-.-	NN.UTR.SIN.DEF	7	SB		PhraseLabel=NP
 7	görs	göra	VB	-.-.-	VB.IND.SFO.PRS	4	OO		PhraseLabel=S
@@ -63154,8 +63154,8 @@
 8	stark	stark	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	9	MD		PhraseLabel=NP
 9	oro	oro	NN	-.-.-	NN.UTR.SIN.IND	7	OO		PhraseLabel=NP
 10	för	för	PE	-.-.-	PE.-	9	MD		PhraseLabel=PP
-11	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	10	OO		PhraseLabel=NP
-12	inträffade	inträffad	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	11	PH		PhraseLabel=NP|SpaceAfter=No
+11	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	12	DT		PhraseLabel=NP
+12	inträffade	inträffad	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	10	OO		PhraseLabel=NP|SpaceAfter=No
 13	.	_	SY	-.-.-	SY.DEL	5	--		PhraseLabel=Top
 
 # sent_id = Regr_254842.6
@@ -65772,7 +65772,7 @@
 6	Mitt	min	PO	-.-.-	PO.DEF.SIN.NEU.PSS.-	7	DT		PhraseLabel=NP
 7	Alby	Alby	EN	-.-.-	EN.-	8	SB		PhraseLabel=NP
 8	överväger	överväga	VB	-.-.-	VB.IND.AKT.PRS	5	OO		PhraseLabel=S
-9	i	i	PE	-.-.-	PE.-	8	OO		PhraseLabel=PP
+9	i	i	PE	-.-.-	PE.-	8	MD		PhraseLabel=PP
 10	nuläget	nuläge	NN	-.-.-	NN.NEU.SIN.DEF	9	OO		PhraseLabel=PP|SpaceAfter=No
 11	.	_	SY	-.-.-	SY.DEL	3	--		PhraseLabel=Top
 
@@ -72541,7 +72541,7 @@
 7	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	8	SB		PhraseLabel=S
 8	är	vara	VB	-.-.-	VB.IND.AKT.PRS	6	OO		PhraseLabel=S
 9	alltför	alltför	AB	-.-.-	AB.-.-	10	MD		PhraseLabel=AjP
-10	lätt	lätt	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	8	SB		PhraseLabel=AjP
+10	lätt	lätt	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	8	SP		PhraseLabel=AjP
 11	för	för	PE	-.-.-	PE.-	10	OA		PhraseLabel=PP
 12	fröken	fröken	NN	-.-.-	NN.UTR.SIN.IND	11	OO		PhraseLabel=NP
 13	Smith	Smith	EN	-.-.-	EN.-	12	AN		PhraseLabel=NP
@@ -78568,7 +78568,7 @@
 6	bara	bara	AB	-.-.-	AB.-.-	4	MD		PhraseLabel=S
 7	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	9	DT		PhraseLabel=NP
 8	ond	ond	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	9	MD		PhraseLabel=NP
-9	man	man	NN	-.-.-	NN.UTR.SIN.IND	4	SB		PhraseLabel=NP|SpaceAfter=No
+9	man	man	NN	-.-.-	NN.UTR.SIN.IND	4	SP		PhraseLabel=NP|SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	4	--		PhraseLabel=Top
 11	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		PhraseLabel=S
 12	var	vara	VB	-.-.-	VB.IND.AKT.PRT	4	parataxis		PhraseLabel=S
@@ -86514,21 +86514,21 @@
 4	från	från	PE	-.-.-	PE.-	2	RA		PhraseLabel=PP
 5	Glivarp	Glivarp	EN	-.-.-	EN.-	4	OO		PhraseLabel=PP|SpaceAfter=No
 6	,	_	SY	-.-.-	SY.DEL	23	--		PhraseLabel=Top
-7	Tilly	Tilly	EN	-.-.-	EN.-	23	KL		PhraseLabel=S
-8	från	från	PE	-.-.-	PE.-	7	RA		PhraseLabel=PP
+7	Tilly	Tilly	EN	-.-.-	EN.-	8	SB		PhraseLabel=S
+8	från	från	PE	-.-.-	PE.-	23	KL		PhraseLabel=PP
 9	Borrby	Borrby	EN	-.-.-	EN.-	8	OO		PhraseLabel=PP|SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	23	--		PhraseLabel=Top
 11	Lille	liten	AJ	-.-.-	AJ.POS.SIN.DEF.MAS.-	12	ME		PhraseLabel=S
-12	Otto	Otto	EN	-.-.-	EN.-	23	KL		PhraseLabel=S
-13	från	från	PE	-.-.-	PE.-	12	RA		PhraseLabel=PP
+12	Otto	Otto	EN	-.-.-	EN.-	13	SB		PhraseLabel=S
+13	från	från	PE	-.-.-	PE.-	23	KL		PhraseLabel=PP
 14	Blästorp	Blästorp	EN	-.-.-	EN.-	13	OO		PhraseLabel=PP|SpaceAfter=No
 15	,	_	SY	-.-.-	SY.DEL	23	--		PhraseLabel=Top
-16	Viktor	Viktor	EN	-.-.-	EN.-	23	KL		PhraseLabel=S
-17	från	från	PE	-.-.-	PE.-	16	RA		PhraseLabel=PP
+16	Viktor	Viktor	EN	-.-.-	EN.-	17	SB		PhraseLabel=S
+17	från	från	PE	-.-.-	PE.-	23	KL		PhraseLabel=PP
 18	Bondrum	Bondrum	EN	-.-.-	EN.-	17	OO		PhraseLabel=PP|SpaceAfter=No
 19	,	_	SY	-.-.-	SY.DEL	23	--		PhraseLabel=Top
-20	Eme	Eme	EN	-.-.-	EN.-	23	KL		PhraseLabel=S
-21	från	från	PE	-.-.-	PE.-	20	RA		PhraseLabel=PP
+20	Eme	Eme	EN	-.-.-	EN.-	21	SB		PhraseLabel=S
+21	från	från	PE	-.-.-	PE.-	23	KL		PhraseLabel=PP
 22	Ingelstad	Ingelstad	EN	-.-.-	EN.-	21	OO		PhraseLabel=PP
 23	och	och	KO	-.-.-	KO.-	0	--		PhraseLabel=KoP
 24	många	mången	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	25	DT		PhraseLabel=NP
@@ -88093,8 +88093,8 @@
 6	i	i	PE	-.-.-	PE.-	2	RA		PhraseLabel=PP
 7	håret	hår	NN	-.-.-	NN.NEU.SIN.DEF	6	OO		PhraseLabel=PP
 8	och	och	KO	-.-.-	KO.-	0	--		PhraseLabel=KoP
-9	snor-bromsar	snor|broms	NN	-.-.-	NN.UTR.PLU.IND	8	KL		PhraseLabel=S
-10	under	under	PE	-.-.-	PE.-	9	RA		PhraseLabel=PP
+9	snor-bromsar	snor|broms	NN	-.-.-	NN.UTR.PLU.IND	10	OO		PhraseLabel=S
+10	under	under	PE	-.-.-	PE.-	8	KL		PhraseLabel=PP
 11	näsan	näsa	NN	-.-.-	NN.UTR.SIN.DEF	10	OO		PhraseLabel=PP|SpaceAfter=No
 12	.	_	SY	-.-.-	SY.DEL	8	--		PhraseLabel=Top
 
@@ -92672,7 +92672,7 @@
 13	blir	bli	VB	-.-.-	VB.IND.AKT.PRS	8	OO		PhraseLabel=S
 14	övermänskligt	övermänsklig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	15	MD		PhraseLabel=AjP
 15	starka	stark	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	13	SP		PhraseLabel=AjP
-16	för	för	PE	-.-.-	PE.-	13	SP		PhraseLabel=PP
+16	för	för	PE	-.-.-	PE.-	13	MD		PhraseLabel=PP
 17	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	18	DT		PhraseLabel=NP
 18	period	period	NN	-.-.-	NN.UTR.SIN.IND	16	OO		PhraseLabel=NP|SpaceAfter=No
 19	,	_	SY	-.-.-	SY.DEL	2	--		PhraseLabel=Top
@@ -95484,7 +95484,7 @@
 2	Potter	Potter	EN	-.-.-	EN.-	1	ME		PhraseLabel=S
 3	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseLabel=S
 4	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	5	DT		PhraseLabel=NP
-5	serie	serie	NN	-.-.-	NN.UTR.SIN.IND	3	SB		PhraseLabel=NP
+5	serie	serie	NN	-.-.-	NN.UTR.SIN.IND	3	SP		PhraseLabel=NP
 6	fantasyromaner	fantasy|roman	NN	-.-.-	NN.UTR.PLU.IND	5	MD		PhraseLabel=NP
 7	av	av	PE	-.-.-	PE.-	5	MD		PhraseLabel=PP
 8	författaren	författare	NN	-.-.-	NN.UTR.SIN.DEF	7	OO		PhraseLabel=NP
@@ -97628,7 +97628,7 @@
 9	svenska	svenska	NN	-.-.-	NN.UTR.SIN.IND	8	OO		PhraseLabel=PP
 10	Trollkarlsrock	troll|karls|rock	NN	-.-.-	NN.UTR.SIN.IND	1	AN		PhraseLabel=NP|SpaceAfter=No
 11	)	_	SY	-.-.-	SY.DEL	12	--		PhraseLabel=Top
-12	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseLabel=KoP
+12	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseLabel=S
 13	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	14	DT		PhraseLabel=NP
 14	rockmusikgenre	rock|musik|genre	NN	-.-.-	NN.UTR.SIN.IND	12	SP		PhraseLabel=NP
 15	som	som	SU	-.-.-	SU.-	14	MD		PhraseLabel=SuP
@@ -99093,7 +99093,7 @@
 1	På	på	PE	-.-.-	PE.-	3	MD		PhraseLabel=PP
 2	vägen	väg	NN	-.-.-	NN.UTR.SIN.DEF	1	OO		PhraseLabel=PP
 3	passerar	passera	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseLabel=S
-4	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	3	OO		PhraseLabel=S
+4	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	3	SB		PhraseLabel=S
 5	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	7	DT		PhraseLabel=NP
 6	gamla	gammal	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	7	MD		PhraseLabel=NP
 7	vaktposten	vaktpost	NN	-.-.-	NN.UTR.SIN.DEF	3	OO		PhraseLabel=NP
@@ -99649,7 +99649,7 @@
 8	Frodo	Frodo	EN	-.-.-	EN.-	7	OO		PhraseLabel=PP
 9	men	men	KO	-.-.-	KO.-	0	--		PhraseLabel=KoP
 10	blir	bli	VB	-.-.-	VB.IND.AKT.PRS	9	KL		PhraseLabel=S
-11	inringade	in|ringad	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	10	SB		PhraseLabel=AjP
+11	inringade	in|ringad	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	10	SP		PhraseLabel=AjP
 12	av	av	PE	-.-.-	PE.-	11	AG		PhraseLabel=PP
 13	dem	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	12	OO		PhraseLabel=PP|SpaceAfter=No
 14	.	_	SY	-.-.-	SY.DEL	9	--		PhraseLabel=Top
@@ -100338,7 +100338,7 @@
 1	Semester	semester	NN	-.-.-	NN.UTR.SIN.IND	2	SB		PhraseLabel=S
 2	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseLabel=S
 3	avtalad	avtalad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	4	MD		PhraseLabel=NP
-4	ledighet	ledighet	NN	-.-.-	NN.UTR.SIN.IND	2	SB		PhraseLabel=NP
+4	ledighet	ledighet	NN	-.-.-	NN.UTR.SIN.IND	2	SP		PhraseLabel=NP
 5	under	under	PE	-.-.-	PE.-	4	MD		PhraseLabel=PP
 6	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	8	DT		PhraseLabel=NP
 7	visst	viss	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	6	ME		PhraseLabel=NP
@@ -100788,11 +100788,11 @@
 
 # sent_id = Wiki_VascodaGama.2
 # text = Vasco da Gama, född mellan 1460 och 1469 i Sines eller Vidigueira i landskapet Alentejo i södra Portugal, död 24 december 1524 i Kochi, Kerala, Indien, var en portugisisk upptäcktsresande.
-1	Vasco	Vasco	EN	-.-.-	EN.-	32	SB		PhraseLabel=S
-2	da	da	EN	-.-.-	EN.-	1	ME		PhraseLabel=S
-3	Gama	Gama	EN	-.-.-	EN.-	1	ME		PhraseLabel=S|SpaceAfter=No
+1	Vasco	Vasco	EN	-.-.-	EN.-	32	SB		PhraseLabel=NP
+2	da	da	EN	-.-.-	EN.-	1	ME		PhraseLabel=NP
+3	Gama	Gama	EN	-.-.-	EN.-	1	ME		PhraseLabel=NP|SpaceAfter=No
 4	,	_	SY	-.-.-	SY.DEL	32	--		PhraseLabel=Top
-5	född	född	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	32	SP		PhraseLabel=AjP
+5	född	född	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1	MD		PhraseLabel=AjP
 6	mellan	mellan	PE	-.-.-	PE.-	5	MD		PhraseLabel=PP
 7	1460	ettusenfyrahundrasextio	NU	-.-.-	NU.-	8	KL		PhraseLabel=KoP
 8	och	och	KO	-.-.-	KO.-	6	OO		PhraseLabel=KoP
@@ -100808,7 +100808,7 @@
 18	södra	södra	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	19	MD		PhraseLabel=NP
 19	Portugal	Portugal	EN	-.-.-	EN.-	17	OO		PhraseLabel=NP|SpaceAfter=No
 20	,	_	SY	-.-.-	SY.DEL	32	--		PhraseLabel=Top
-21	död	död	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	32	SP		PhraseLabel=AjP
+21	död	död	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1	MD		PhraseLabel=AjP
 22	24	tjugofjärde	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	23	DT		PhraseLabel=NP
 23	december	december	NN	-.-.-	NN.UTR.SIN.IND	21	MD		PhraseLabel=NP
 24	1524	etttusenfemhundratjugofyra	NU	-.-.-	NU.-	23	MD		PhraseLabel=NP
@@ -107996,7 +107996,7 @@
 2	Alexander	Alexander	EN	-.-.-	EN.-	1	AN		PhraseLabel=NP
 3	Fleming	Fleming	EN	-.-.-	EN.-	2	ME		PhraseLabel=NP|SpaceAfter=No
 4	,	_	SY	-.-.-	SY.DEL	27	--		PhraseLabel=Top
-5	född	född	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	27	SP		PhraseLabel=AjP
+5	född	född	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1	MD		PhraseLabel=AjP
 6	6	sjätte	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	7	DT		PhraseLabel=NP
 7	augusti	augusti	NN	-.-.-	NN.UTR.SIN.IND	5	MD		PhraseLabel=NP
 8	1881	ettusenåttahundraåttioett	NU	-.-.-	NU.-	7	MD		PhraseLabel=NP
@@ -108011,7 +108011,7 @@
 17	i	i	PE	-.-.-	PE.-	15	MD		PhraseLabel=PP
 18	Skottland	Skottland	EN	-.-.-	EN.-	17	OO		PhraseLabel=PP|SpaceAfter=No
 19	,	_	SY	-.-.-	SY.DEL	27	--		PhraseLabel=Top
-20	död	död	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	27	SP		PhraseLabel=AjP
+20	död	död	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	1	MD		PhraseLabel=AjP
 21	11	elfte	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	22	DT		PhraseLabel=NP
 22	mars	mars	NN	-.-.-	NN.UTR.SIN.IND	20	MD		PhraseLabel=NP
 23	1955	ettusenniohundrafemtiofem	NU	-.-.-	NU.-	22	MD		PhraseLabel=NP
@@ -108867,7 +108867,7 @@
 9	genast	genast	AB	-.-.-	AB.SUV.-	10	MD		PhraseLabel=S
 10	förstår	förstå	VB	-.-.-	VB.IND.AKT.PRS	7	OO		PhraseLabel=S
 11	vem	vem	PO	-.-.-	PO.IND.SIN.UTR.-.FRL	10	OO		PhraseLabel=SuP
-12	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	13	SP		PhraseLabel=S
+12	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	13	SB		PhraseLabel=S
 13	är	vara	VB	-.-.-	VB.IND.AKT.PRS	11	OO		PhraseLabel=S|SpaceAfter=No
 14	,	_	SY	-.-.-	SY.DEL	4	--		PhraseLabel=Top
 15	hans	han	PO	-.GEN.-	PO.DEF.SIN.UTR.OBJ.-	16	DT		PhraseLabel=NP

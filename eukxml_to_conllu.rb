@@ -211,14 +211,20 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
                 if !candidates.empty?
                     @temptemphead = candidates[0]
                     if verbose then STDERR.puts "IV found" end
-                elsif
+                else
                     candidates = next_level.select{|n|labels[next_level.index(n)] == "OA"}
                     if !candidates.empty?
                         @temptemphead = candidates[0]
                         if verbose then STDERR.puts "OA found" end
                     else
-                        @temptemphead = next_level[0]
-                        if verbose then STDERR.puts "Taking the leftmost node" end
+                        candidates = next_level.select{|n|labels[next_level.index(n)] == "RA"}
+                        if !candidates.empty?
+                            @temptemphead = candidates[0]
+                            if verbose then STDERR.puts "RA found" end
+                        else
+                            @temptemphead = next_level[0]
+                            if verbose then STDERR.puts "Taking the leftmost node" end
+                        end
                     end
                 end
             end
@@ -979,8 +985,9 @@ STDERR.puts @root_counter
 #@severalphs_in_kop,
 
 #[@phs_hds, @several_phs, @nophs_in_kop,  @fake_coordinators].each do |hdarray|
-#    STDOUT.puts hdarray
-#end
+[@fake_coordinators].each do |hdarray|
+    STDOUT.puts hdarray
+end
 
 #@cat_combinations_on_top.each_pair do |combination,freq| 
 #    STDOUT.puts "#{combination}\t#{freq}"
