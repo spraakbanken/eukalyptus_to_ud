@@ -464,7 +464,7 @@ def convert(id, sentence, sent_id)
     end
 
 
-    if deprel == "DT"
+    if deprel == "DT" #TODO: overproduction of DET
         if @determiners.include?(lemma)
             upos = "DET"
         end

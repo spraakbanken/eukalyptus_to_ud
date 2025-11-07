@@ -196,7 +196,8 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
     
     if @head_label_index.nil?
         @temptemphead = nil
-        if verbose then STDERR.puts "Current_id: #{current_id} no HD, no PH found, trying heuristics" end
+        
+        if verbose then STDERR.puts "Current_id: #{current_id} no HD, no PH found, trying to promote" end
         cat = phrases[current_id]
         
         #!!!  .min or [0]: why was it important for leftmost? Should be OK here and under0? 
@@ -274,6 +275,10 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
             #leftmost. orphan or original?
         end
         @head_label_index = next_level.index(@temptemphead)
+        if cat != "KoP"
+            @promoted_heads[@temptemphead] = true
+        end
+
     else
         if verbose then STDERR.puts "Current_id: #{current_id} HD or PH found: #{next_level[@head_label_index]}" end
     end
@@ -446,36 +451,21 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases,words)
             head = @head.clone
             head_label_index = @head_label_index.clone
+            if ["SU","PE"].include?(words[head]["pos"]) and @promoted_heads[head] != true
+                labels22 = labels.clone
+                labels22.delete_at(head_label_index)
+                nodesunderf = labels22.select{|n|n != "DF"}
+                
 
-            if head_label_index.nil?
-                if verbose then STDERR.puts "Current_id: #{current_id} No HD or PH found" end
-                @headless_counter += 1
-                #STDOUT.puts "#{sent_id}\t#{current_id}\t#{cat}\t#{labels.join(" ")}\t#{@secondary_labels[current_id].join(" ")}"
-                head_candidates = []
-                candidate_index = {}
-                #head_old = nil
-                #head_label_index_old = nil
-                if verbose then STDERR.puts "Current_id: #{current_id} Assigning the leftmost node as a head" end
-                
-                
-                next_level.each.with_index do |node, nodeindex|
-                    if term_ids.include?(node)
-                        head_candidates << node
-                        candidate_index[node] = nodeindex
-                    end
-                end
-                head = head_candidates.min #replace with [0], but hopefully won't be relevant any more
-                head_label_index = candidate_index[head]
-                if verbose then STDERR.puts "Current_id: #{current_id} Assigned the leftmost node as a head: #{head}" end
-                
-                if head_label_index.nil?
-                    if verbose then STDERR.puts "Current_id: #{current_id} No first node found. Assigning root #{root} as head" end
-                    head = root.clone
-                    @root_counter += 1
-                elsif
-                    @leftmost_counter += 1
+                if nodesunderf.length > 1
+                    #if !@categories_nodesunderf.include?(nodesunderf.sort.join(" "))
+                    @categories_nodesunderf[nodesunderf.sort.join(" ")]+=1
+                    #end
+                    STDOUT.puts "#{current_id}\t#{nodesunderf.length}\t#{head}\t#{nodesunderf.join(" ")}"
                 end
             end
+
+            
         end
         
         @head_by_nt[current_id] = head.clone
@@ -651,9 +641,10 @@ n_wrong_trees = 0
 @severalphs_in_kop = []
 @fake_coordinators = []
 
+@categories_nodesunderf = Hash.new(0)
 
 undercounter = 0
-
+primary_tree_output = File.open("primary_trees_mwes_compressed.txt","w:utf-8")
 
 filenames.each do |filename|
     
@@ -680,11 +671,13 @@ filenames.each do |filename|
         STDERR.puts subcorpus_id
         sentences = subcorpus.css("s").to_a
         sentences.each.with_index do |sentence,sentnumber|
+            @promoted_heads = {}
             primary_tree = Hash.new{|hash, key| hash[key] = Array.new}
             primary_labels = Hash.new{|hash, key| hash[key] = Array.new}
             secondary_tree = Hash.new{|hash, key| hash[key] = Array.new}
             secondary_labels = Hash.new{|hash, key| hash[key] = Array.new}
             sent_id = sentence["id"]
+            primary_tree_output.puts sent_id
             if !excluded_sents[sent_id]
                 #STDERR.puts sent_id
                 words = Hash.new{|hash, key| hash[key] = Hash.new}
@@ -760,6 +753,7 @@ filenames.each do |filename|
                 #end
                 #STDERR.puts ""
                 if verbose then STDERR.puts "Dealing with MWEs" end
+                
                 deal_with_mwes(primary_tree, "#{sent_id}.0", phrases, term_ids, words, verbose, sent_id)
                 #@primary_tree.each_pair do |key,value|
                 #    STDERR.puts "#{key},#{value},#{@primary_labels[key]}"
@@ -772,6 +766,13 @@ filenames.each do |filename|
                 #STDERR.puts ""
                 primary_tree = @primary_tree.clone
                 primary_labels = @primary_labels.clone
+
+                primary_tree.each_pair do |ptid,ptarray|
+                    primary_tree_output.puts "#{ptid}\t#{ptarray}"
+                    primary_tree_output.puts "#{ptid}\t#{primary_labels[ptid]}"
+                end
+                primary_tree_output.puts ""
+
                 #abort
                 if verbose then STDERR.puts "*****" end
                 if verbose then STDERR.puts "Processing the primary tree" end
@@ -944,6 +945,10 @@ filenames.each do |filename|
                     if info["connected"] == "rear" or info["connected"] == "both"
                         misc << "SpaceAfter=No"
                     end
+
+                    if @promoted_heads[term_id]
+                        misc << "PromotedHead=Yes"
+                    end
                     
 
                     misc = misc.sort.join("|")
@@ -981,13 +986,16 @@ STDERR.puts "Sentences where there are several nonterminals on top: #{@nsents_se
 STDERR.puts @headless_counter
 STDERR.puts @leftmost_counter
 STDERR.puts @root_counter
+@categories_nodesunderf.each_pair do |cat,freq|
+    STDOUT.puts "#{cat}\t#{freq}"
+end
 
 #@severalphs_in_kop,
 
 #[@phs_hds, @several_phs, @nophs_in_kop,  @fake_coordinators].each do |hdarray|
-[@fake_coordinators].each do |hdarray|
-    STDOUT.puts hdarray
-end
+#[@fake_coordinators].each do |hdarray|
+#    STDOUT.puts hdarray
+#end
 
 #@cat_combinations_on_top.each_pair do |combination,freq| 
 #    STDOUT.puts "#{combination}\t#{freq}"
