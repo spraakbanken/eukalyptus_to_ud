@@ -185,7 +185,7 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose, 
     end
 end
 
-def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases,words)
+def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phrasedeprel,phrases,words)
     @head_label_index = labels.index("HD") 
             
     if @head_label_index.nil?
@@ -298,9 +298,9 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
             end
             if @reversed_tree[@head].nil?
                 @reversed_tree[@head] = root
-                @reversed_labels[@head] = phraselabel #"#{labels[nodeindex]}-#{cat}-#{phraselabel}"
-                @reversed_labels2[@head] = "#{labels[next_level.index(@head)]}-#{cat}-#{phraselabel}"
-                if verbose then STDERR.puts "IN RECURSION #{@head} assigned #{root} as head and #{phraselabel} as label" end
+                @reversed_labels[@head] = phrasedeprel #"#{labels[nodeindex]}-#{cat}-#{phrasedeprel}"
+                @reversed_labels2[@head] = "#{labels[next_level.index(@head)]}-#{cat}-#{phrasedeprel}"
+                if verbose then STDERR.puts "IN RECURSION #{@head} assigned #{root} as head and #{phrasedeprel} as label" end
             else
                 if verbose then STDERR.puts "IN RECURSION assignment blocked: #{@head} already has #{@reversed_tree[@head]} as head" end
             end
@@ -308,7 +308,7 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
 
             if verbose then STDERR.puts "Current_id: #{current_id} HD or PH confirmed as terminal: #{next_level[@head_label_index]}" end
         else            
-            find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases,words)
+            find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids,root,phrasedeprel,phrases,words)
             #add condition for stopping
         end
     else
@@ -322,7 +322,7 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
     return
 end
 
-def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phrases, root, sent_id, phraselabel,verbose,words)
+def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phrases, root, sent_id, phrasedeprel,verbose,words)
     cat = phrases[current_id]
     
     if verbose then STDERR.puts "Current_id: #{current_id}" end
@@ -445,26 +445,70 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             
             @head = nil
             @head_label_index = nil
-            @phraselabel = phraselabel.clone
-            #STDERR.puts "Running find_head from #{current_id} with #{@phraselabel}"
-            #find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,true,term_ids,root,phraselabel,phrases,words)
-            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phraselabel,phrases,words)
+            @phrasedeprel = phrasedeprel.clone
+            #STDERR.puts "Running find_head from #{current_id} with #{@phrasedeprel}"
+            #find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,true,term_ids,root,phrasedeprel,phrases,words)
+            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phrasedeprel,phrases,words)
             head = @head.clone
             head_label_index = @head_label_index.clone
-            if ["SU","PE"].include?(words[head]["pos"]) and @promoted_heads[head] != true
-                labels22 = labels.clone
-                labels22.delete_at(head_label_index)
-                nodesunderf = labels22.select{|n|n != "DF"}
-                
+			#STDERR.puts "Reversed tree: #{@reversed_tree}"
 
-                if nodesunderf.length > 1
-                    #if !@categories_nodesunderf.include?(nodesunderf.sort.join(" "))
-                    @categories_nodesunderf[nodesunderf.sort.join(" ")]+=1
+=begin									
+            if ["SU","PE"].include?(words[head]["pos"]) 
+    			if @promoted_heads[head] != true
+                    STDERR.puts "Functional head: #{head}"
+					labels22 = labels.clone
+                    labels22.delete_at(head_label_index)
+					next_level22 = next_level.clone
+					next_level22.delete_at(head_label_index)
+					
+					nodesunderf = labels22.select{|n|n != "DF"}                    
+				    
+                    #if nodesunderf.length > 1                   
+                    #    @categories_nodesunderf[nodesunderf.sort.join(" ")]+=1                     
+                    #    STDOUT.puts "#{current_id}\t#{nodesunderf.length}\t#{head}\t#{nodesunderf.join(" ")}"
                     #end
-                    STDOUT.puts "#{current_id}\t#{nodesunderf.length}\t#{head}\t#{nodesunderf.join(" ")}"
-                end
-            end
+					
+					
+					if labels.include?("OO")
 
+					    swappedhead_index = labels.index("OO")
+						STDERR.puts swappedhead_index
+					    swappedhead = next_level[swappedhead_index]
+						STDERR.puts swappedhead
+
+						@reversed_tree[swappedhead] = @reversed_tree[head].clone
+						@reversed_labels[swappedhead] = @reversed_labels[head].clone
+						@reversed_labels2[swappedhead] = @reversed_labels2[head].clone
+						head = swappedhead.clone
+						head_label_index = swappedhead_index.clone
+
+
+						next_level.each.with_index do |nodetoreassign,index_nodetoreassign|
+						    if index_nodetoreassign != swappedhead_index
+							    @reversed_tree[nodetoreassign] = swappedhead
+                                @reversed_labels[nodetoreassign] = labels[index_nodetoreassign] #"#{labels[nodeindex]}-#{cat}-#{phrasedeprel}"
+                                @reversed_labels2[nodetoreassign] = "#{labels[index_nodetoreassign]}-#{cat}-#{phrasedeprel}"
+							end
+						end
+
+					else	
+					    STDOUT.puts "No OO\tPhrase id:#{current_id}\tCurrent head:#{head}\tCats-excl-DF:#{nodesunderf.join(" ")}"	
+					end
+					
+					
+					
+					
+					
+					
+                    #nodesunderf = labels22.select{|n|n != "DF"}                    
+					
+				else
+				    STDOUT.puts "Promoted-function-word\tPhrase id:#{current_id}\tCurrent head:#{head}"
+				end
+
+            end
+=end
             
         end
         
@@ -476,7 +520,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             if verbose then STDERR.puts "  Current_id: #{current_id}. Terminal run. Node: #{node}" end
             if term_ids.include?(node)
                 if verbose then STDERR.puts "    Current_id: #{current_id}. Node: #{node}. Terminal node" end
-                @phraselabels[node] = phrases[current_id].clone
+                @phrasecats[node] = phrases[current_id].clone
                 if cat == "Top" and onlyterminalsontop == false #and head == root #head.nil?#root == 0
                     if verbose then STDERR.puts "    Current_id: #{current_id}. Terminal under 0" end
                     #@reversed_tree[node] = root
@@ -508,8 +552,8 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
 
                         if head != root
                             @reversed_tree[node] = root
-                            @reversed_labels[node] = phraselabel #"#{labels[nodeindex]}-#{cat}-#{phraselabel}"
-                            @reversed_labels2[node] = "#{labels[nodeindex]}-#{cat}-#{phraselabel}"
+                            @reversed_labels[node] = phrasedeprel #"#{labels[nodeindex]}-#{cat}-#{phrasedeprel}"
+                            @reversed_labels2[node] = "#{labels[nodeindex]}-#{cat}-#{phrasedeprel}"
                         else 
                             if verbose then STDERR.puts "Root assignment blocked: head = root! #{head}" end
                         end
@@ -533,13 +577,13 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
                 if cat != "Top" #!head.nil?
                     root = head.clone#.gsub("#{sent_id}.","").to_i
                 end
-                phraselabel = labels[nodeindex]
+                phrasedeprel = labels[nodeindex]
 
                 #if root != 0
                 #    root = next_level[head_label_index].gsub("#{sent_id}.","").to_i
                 #end
                 if verbose then STDERR.puts "    Current_id: #{current_id}. Going down. Root #{root}" end
-                process_primary_tree(primary_tree, primary_labels, node, term_ids, phrases, root, sent_id, phraselabel,verbose,words)
+                process_primary_tree(primary_tree, primary_labels, node, term_ids, phrases, root, sent_id, phrasedeprel,verbose,words)
             end
         end
 
@@ -600,7 +644,7 @@ def check_reversed_tree(reversed_tree)
 end
 
 
-PATH = "C:\\Sasha\\D\\DGU\\Repos\\Eukalyptus-dev\\Annotations\\"
+PATH = "D:\\D\\DGU\\Repos\\Eukalyptus-dev\\Annotations\\"
 #PATH = "C:\\Sasha\\D\\DGU\\SBX_resources\\Eukalyptus-1.0.0\\Annotations\\"
 #PATH = "D:\\DGU\\SBX_resources\\Eukalyptus\\Eukalyptus-1.0.0\\Annotations\\"
 
@@ -734,7 +778,7 @@ filenames.each do |filename|
                 @reversed_tree = {}
                 @reversed_labels = {}
                 @reversed_labels2 = {}
-                @phraselabels = {}
+                @phrasecats = {}
                 @reversed_secondary_tree = Hash.new{|hash, key| hash[key] = Array.new}
                 @reversed_secondary_labels = Hash.new{|hash, key| hash[key] = Array.new}
                 
@@ -927,10 +971,10 @@ filenames.each do |filename|
                         
                         
                     end
-                    if @phraselabels[term_id].to_s == "" 
+                    if @phrasecats[term_id].to_s == "" 
                         if deprel == "ME"
-                            @phraselabels[term_id] = @phraselabels[head]
-                            if @phraselabels[head].to_s == ""
+                            @phrasecats[term_id] = @phrasecats[head]
+                            if @phrasecats[head].to_s == ""
                                 #STDOUT.puts "#{sent_id}\t#{head}\tME head!"
                             end
                         else
@@ -938,7 +982,7 @@ filenames.each do |filename|
                         end
                     end
 
-                    misc = ["PhraseLabel=#{@phraselabels[term_id]}"]
+                    misc = ["PhraseCat=#{@phrasecats[term_id]}"]
                     if info["read_as"] != ""
                         misc << "CorrectForm=#{info["read_as"]}"
                     end

@@ -1,0 +1,21 @@
+# newdoc id = Arbt_Fackfientlig
+# sent_id = Blog_160886-12847738.1
+# text = Dag 9: Dagens | Neo lattjar i sin nya turkosa one piece / jump in...
+1	Dag	dag	NN	-.-.-	NN.UTR.SIN.IND	0	--		PhraseCat=NP
+2	9	nio	NU	-.-.-	NU.-	1	MD		PhraseCat=NP|SpaceAfter=No
+3	:	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
+4	Dagens	dag	NN	-.GEN.-	NN.UTR.SIN.DEF	1	discourse		PhraseCat=Top
+5	|	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
+6	Neo	Neo	EN	-.-.-	EN.-	7	SB		PhraseCat=S
+7	lattjar	lattja	VB	-.-.-	VB.IND.AKT.PRS	1	parataxis		PhraseCat=S
+8	i	i	PE	-.-.-	PE.-	7	MD		PhraseCat=PP
+9	sin	sin	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	12	DT		PhraseCat=NP
+10	nya	ny	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	12	MD		PhraseCat=NP
+11	turkosa	turkos	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	12	MD		PhraseCat=NP
+12	one	_	UO	-.-.-	UO.-	14	KL		PhraseCat=NP
+13	piece	_	UO	-.-.-	UO.-	12	ME		PhraseCat=NP
+14	/	_	SY	-.-.-	SY.DEL	8	OO		PhraseCat=KoP
+15	jump	_	UO	-.-.-	UO.-	14	KL		PhraseCat=NP
+16	in	_	UO	-.-.-	UO.-	15	ME		PhraseCat=NP|SpaceAfter=No
+17	...	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
+
