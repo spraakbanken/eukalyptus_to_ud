@@ -25,6 +25,8 @@ end
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
 @matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
 
+@functionwords = ["ADP","SCONJ","PART","DET","AUX"] #CCONJ,NUM,PRON
+
 =begin
 Lista 1:
 {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent", "DT"=>"det", "IO"=>"iobj", "PL"=>"compound:prt"}
@@ -205,7 +207,8 @@ def convert_syntax(sentence2, sent_id)
 
 
     #processed_conjuncts = []
-    loop do 
+    
+	loop do #coordination
         nokl = true
         chain_conjuncts = Hash.new{|hash, key| hash[key] = Array.new} #{"head"=>nil, "dependents"=>[]}
         chain_other_conjunctions = Hash.new{|hash, key| hash[key] = Array.new}
@@ -215,7 +218,6 @@ def convert_syntax(sentence2, sent_id)
             deprel = senthash["deprel"]
             head = senthash["head"]
             pos = senthash["pos"]
-
         
             if (deprel == "KL") #and !processed_conjuncts.include?(id) #pre-converted parataxis not included, since it's already in the UD format
                 nokl = false
@@ -336,6 +338,15 @@ def convert_syntax(sentence2, sent_id)
         end
     end
 #=end
+    
+    loop do #swapping function-content
+	    no_functional_heads = true
+		
+		
+	    if no_functional_heads
+		    break
+		end
+	end
 
     sentence.each_pair do |id,senthash|
         deprel = senthash["deprel"]
