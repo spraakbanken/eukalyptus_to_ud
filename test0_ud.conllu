@@ -1,21 +1,23 @@
-# newdoc id = Arbt_Fackfientlig
-# sent_id = Blog_160886-12847738.1
-# text = Dag 9: Dagens | Neo lattjar i sin nya turkosa one piece / jump in...
-1	Dag	dag	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseCat=NP
-2	9	9	NUM	_	NumType=Card	1	MD		PhraseCat=NP|SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct		PhraseCat=Top
-4	Dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	1	discourse		PhraseCat=Top
-5	|	|	PUNCT	_	_	1	punct		PhraseCat=Top
-6	Neo	Neo	PROPN	_	Case=Nom	7	nsubj		PhraseCat=S
-7	lattjar	lattja	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis		PhraseCat=S
-8	i	i	ADP	_	_	7	MD		PhraseCat=PP
-9	sin	sig	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	det		PhraseCat=NP
-10	nya	ny	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	MD		PhraseCat=NP
-11	turkosa	turkos	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	MD		PhraseCat=NP
-12	one	one	X	_	Foreign=Yes	8	obj		PhraseCat=NP
-13	piece	piece	X	_	Foreign=Yes	12	fixed		PhraseCat=NP
-14	/	/	PUNCT	_	_	1	punct		PhraseCat=KoP
-15	jump	jump	X	_	Foreign=Yes	12	conj		PhraseCat=NP
-16	in	in	X	_	Foreign=Yes	15	fixed		PhraseCat=NP|SpaceAfter=No
-17	...	...	PUNCT	_	_	1	punct		PhraseCat=Top
+# sent_id = Wiki_Asterix.87
+# text = Den kom bland annat att få ge namn Frankrikes första rymdsatellit, som sköts upp i november samma år.
+1	Den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj		PhraseCat=S
+2	kom	komma	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	root		PhraseCat=S
+3	bland	bland	ADP	_	_	4	case		NewHead=4|PhraseCat=PP
+4	annat	annan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	MD		PhraseCat=PP
+5	att	att	PART	_	_	6	case		NewHead=6|PhraseCat=SuP
+6	få	få	AUX	_	VerbForm=Inf|Voice=Act	2	IV		PhraseCat=VP
+7	ge	ge	VERB	_	VerbForm=Inf|Voice=Act	6	IV		PhraseCat=VP
+8	namn	namn	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	iobj		PhraseCat=VP
+9	Frankrikes	Frankrike	PROPN	_	Case=Gen	11	det		PhraseCat=NP
+10	första	första	ADJ	_	Case=Nom|Definite=Def|Degree=Sup|NumType=Ord	11	MD		PhraseCat=NP
+11	rymdsatellit	rymdsatellit	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj		PhraseCat=NP|SpaceAfter=No
+12	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
+13	som	som	SCONJ	_	_	14	case		NewHead=14|PhraseCat=SuP
+14	sköts	skjuta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	11	MD		PhraseCat=S
+15	upp	upp	ADV	_	_	14	compound:prt		PhraseCat=S
+16	i	i	ADP	_	_	17	case		NewHead=17|PhraseCat=PP
+17	november	november	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	MD		PhraseCat=PP
+18	samma	samma	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	MD		PhraseCat=NP
+19	år	år	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	MD		PhraseCat=NP|SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
 

@@ -25,7 +25,7 @@ end
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
 @matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
 
-@functionwords = ["ADP","SCONJ","PART","AUX"] #"DET", #CCONJ,NUM,PRON
+@functionwords = ["ADP","SCONJ","PART"]#,"AUX"] #"DET", #CCONJ,NUM,PRON
 
 =begin
 Lista 1:
@@ -203,7 +203,7 @@ def findfunchead_topdown(sent_id,topdown,sentence,id,firsthead,chain)
         if id != 0 and @functionwords.include?(sentence[id]["upos"])
 		    topdown2 = []
 			topdown[id].each do |daughter|
-			    if sentence[daughter]["deprel"] != "conj"
+			    if sentence[daughter]["deprel"] != "conj" and sentence[daughter]["deprel"] != "parataxis"
 				    topdown2 << daughter
 				end
 			end
@@ -244,12 +244,16 @@ def findfunchead(sentence,id)
 end
 =end
 
+@markcats = ["S","SuP","VP","VBM"]
+#@casecats 
+
 def convert_syntax(sentence2, sent_id)
     sentence = sentence2.clone
     root = nil
     
     uheads = {}
     udeprels = {}
+	umisc = {}
 
     sentence.each_pair do |id,senthash|
         if senthash["head"] == 0
@@ -375,14 +379,17 @@ def convert_syntax(sentence2, sent_id)
 	#STDERR.puts topdown
 	#findfunchead_topdown(sent_id,topdown,sentence,0,true,[])
 #=begin	
+    heads_to_ignore = []
     loop do #swapping function-content
 	    no_functional_heads = true
+		functional_head = nil
 		sentence.each_pair do |id,senthash|
 		    #@daughters_of_functional_head = []
-	        functional_head = nil
-			if sentence[id]["deprel"] != "conj" and @functionwords.include?(sentence[id]["head"])
+	        head = sentence[id]["head"]
+			
+			if head != 0 and sentence[id]["deprel"] != "conj" and sentence[id]["deprel"] != "parataxis" and @functionwords.include?(sentence[head]["upos"]) and !heads_to_ignore.include?(head)
 			    functional_head = sentence[id]["head"].clone
-				no_functional_heads = false
+			    no_functional_heads = false
 				break
 			end
 			#if !@functional_head.nil?
@@ -392,8 +399,62 @@ def convert_syntax(sentence2, sent_id)
 		end
 		
 		if !functional_head.nil?
-		    #TODO
+		    #STDERR.puts functional_head
+		    headpos = sentence[functional_head]["upos"]
+		    daughters = finddaughters(sentence,functional_head)
+			contenthead = nil
+			if headpos == "SCONJ" or headpos == "PART" or headpos == "ADP"
+			    funcheadtype = "adp"
+		    elsif headpos == "AUX"
+			    funcheadtype = "aux"
+			elsif headpos == "DET"
+			    funcheadtype = "det"
+			end
 			
+			if funcheadtype == "adp"
+			    daughters.each do |daughter|
+				    if sentence[daughter]["deprel"] == "OO"
+					    contenthead = daughter.clone
+						break
+					end
+				end
+			end
+			
+			if contenthead.nil?
+			    STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}"
+				heads_to_ignore << functional_head
+			else
+			    sentence[contenthead]["head"] = sentence[functional_head]["head"].clone
+				sentence[contenthead]["deprel"] = sentence[functional_head]["deprel"].clone
+				sentence[functional_head]["head"] = contenthead.clone
+				if sentence[functional_head]["misc"]==""
+				    umisc[functional_head] = "NewHead=#{contenthead}"
+				else
+				    umisc[functional_head] = "#{sentence[functional_head]["misc"]}|NewHead=#{contenthead}"
+				end
+				
+				if funcheadtype == "adp"
+				    #TODO: look at rels or PhraseCat instead?
+				    phrasecat = findinset("PhraseCat",	sentence[functional_head]["misc"])
+				    if @markcats.include?(phrasecat)
+                        sentence[functional_head]["deprel"] = "mark"
+			        else
+				        sentence[functional_head]["deprel"] = "case"
+				    end	
+				end
+				
+				daughters.each do |daughter|
+				    if daughter != contenthead
+					    sentence[daughter]["head"] = contenthead.clone
+				        
+					end
+				end
+				
+			end
+			
+			
+		    #TODO
+			#think about sisters? Should not be a problem. Test e.g. Wiki_Asterix.87
 		    #find the new head
 		    #mark if not found
             #swap: old to new, new to old with all direct descendants
@@ -404,11 +465,12 @@ def convert_syntax(sentence2, sent_id)
 		    break
 		end
 	end
-=end
+#=end
     sentence.each_pair do |id,senthash|
         deprel = senthash["deprel"]
         head = senthash["head"]
         upos = senthash["upos"]
+		misc = senthash["misc"]
         if head.nil?
             head = 0
         end
@@ -433,15 +495,28 @@ def convert_syntax(sentence2, sent_id)
             end
         end
         uheads[id] = head #move to a separate cycle?
-        
+        if umisc[id].nil?
+		    umisc[id] = misc
+		end
 
 
         #START WITH HASH
     end
-
-    return uheads, udeprels
+    
+    return uheads, udeprels, umisc
 end
 
+def findinset(target,misc)
+    miscs = misc.to_s.split("|")
+	value = nil
+	miscs.each do |miscs1|
+	    if miscs1.include?(target)
+		    value = miscs1.split("=")[1]
+			break
+		end
+	end
+    return value
+end
 
 def convert(id, sentence, sent_id)
     #STDERR.puts "convert: #{sentence}"
@@ -841,9 +916,10 @@ inputfile.each_line do |line|
                 end
             end
 
-            uheads, udeprels = convert_syntax(sentence_pos_converted, sent_id)
+            uheads, udeprels, umisc = convert_syntax(sentence_pos_converted, sent_id)
             #STDERR.puts "#{uheads}"
             #STDERR.puts "#{udeprels}"
+			
 
             output.each do |outputline|
                 outputline1 = outputline.strip
@@ -852,7 +928,8 @@ inputfile.each_line do |line|
                 else
                     outputline2 = outputline1.split("\t")
                     id = outputline2[0].to_i
-                    outputline_synt = [id, outputline2[1], outputline2[2], outputline2[3], outputline2[4], outputline2[5], uheads[id],udeprels[id],outputline2[8],outputline2[9]].join("\t")
+					misc = umisc[id].to_s.split("|").sort.join("|")
+                    outputline_synt = [id, outputline2[1], outputline2[2], outputline2[3], outputline2[4], outputline2[5], uheads[id],udeprels[id],outputline2[8],misc].join("\t")
                     output_synt << outputline_synt
                 end
             end
@@ -887,4 +964,4 @@ if mode == "other"
     STDERR.puts dtlist
 end
 
-STDOUT.puts @chain_array.uniq
+#STDOUT.puts @chain_array.uniq
