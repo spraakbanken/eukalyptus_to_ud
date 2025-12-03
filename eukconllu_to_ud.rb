@@ -418,11 +418,26 @@ def convert_syntax(sentence2, sent_id)
 						break
 					end
 				end
+				if contenthead.nil?
+				    if headpos == "SCONJ"
+					    daughters.each do |daughter|
+				            if sentence[daughter]["deprel"] == "MD"
+					            contenthead = daughter.clone
+						        break
+					        end
+					    end
+					end
+				end
 			end
 			
 			if contenthead.nil?
-			    STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}"
+			    if findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes"
+			        STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}"
+				    
+		        end
 				heads_to_ignore << functional_head
+				#TODO: part of ME
+				#misannotations
 			else
 			    sentence[contenthead]["head"] = sentence[functional_head]["head"].clone
 				sentence[contenthead]["deprel"] = sentence[functional_head]["deprel"].clone
@@ -436,6 +451,10 @@ def convert_syntax(sentence2, sent_id)
 				if funcheadtype == "adp"
 				    #TODO: look at rels or PhraseCat instead?
 				    phrasecat = findinset("PhraseCat",	sentence[functional_head]["misc"])
+					if phrasecat == "PP"
+					    phrasecat = findinset("PhraseCat",	sentence[sentence[functional_head]["head"]]["misc"])
+					end
+					
 				    if @markcats.include?(phrasecat)
                         sentence[functional_head]["deprel"] = "mark"
 			        else
@@ -915,7 +934,7 @@ inputfile.each_line do |line|
                     end
                 end
             end
-
+            STDERR.puts sent_id
             uheads, udeprels, umisc = convert_syntax(sentence_pos_converted, sent_id)
             #STDERR.puts "#{uheads}"
             #STDERR.puts "#{udeprels}"
