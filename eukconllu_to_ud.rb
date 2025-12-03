@@ -25,7 +25,7 @@ end
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
 @matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
 
-@functionwords = ["ADP","SCONJ","PART","DET","AUX"] #CCONJ,NUM,PRON
+@functionwords = ["ADP","SCONJ","PART","AUX"] #"DET", #CCONJ,NUM,PRON
 
 =begin
 Lista 1:
@@ -154,6 +154,15 @@ def go_up(id,sentence,sent_id,method)
     return flag
 end
 
+def buildtopdowntree(sentence)
+    topdown = Hash.new{|hash, key| hash[key] = Array.new}
+    sentence.each_pair do |id,senthash|
+        head = senthash["head"]
+		topdown[head] << id
+    end    
+    topdown
+end
+
 def getinfofromsentence(sentence,id)
     form = sentence[id]["form"]
     lemma = sentence[id]["lemma"]
@@ -186,6 +195,55 @@ def find_next_conjunct(target,conjuncts)
     return answer
 end
 
+@chain_array = []
+
+def findfunchead_topdown(sent_id,topdown,sentence,id,firsthead,chain)
+    
+    if !topdown[id].empty? 
+        if id != 0 and @functionwords.include?(sentence[id]["upos"])
+		    topdown2 = []
+			topdown[id].each do |daughter|
+			    if sentence[daughter]["deprel"] != "conj"
+				    topdown2 << daughter
+				end
+			end
+			if !topdown2.empty?
+		        #STDERR.puts id
+	            if firsthead
+		            #@functional_head = id.clone
+		        end
+		        #@daughters_of_functional_head[id] = topdown[id]
+		        chain << "#{id}-#{sentence[id]["upos"]}|#{sentence[id]["form"]}|#{sentence[id]["head"]}|#{sentence[id]["deprel"]}"
+		        topdown2.each do |daughter|
+		            findfunchead_topdown(sent_id,topdown,sentence,daughter,false,chain)
+		        end
+			    @chain_array << "#{sent_id}\t#{chain.join(" ")}\t#{chain.length}"
+			end
+		else
+		    topdown[id].each do |daughter|
+		       findfunchead_topdown(sent_id,topdown,sentence,daughter,true,[])
+		    end
+		end
+    end
+end
+
+=begin
+def findfunchead(sentence,id)
+    if 
+	daughters = finddaughters(sentence,id)
+	
+	
+	
+	head = sentence[id]["head"]
+	headpos = sentence[head]["pos"]
+	if @functionwords.include?(headpos)
+        @functional_head = head.clone
+		@daughters_of_functional_head << id
+		findfunchead(sentence,head)
+	end
+end
+=end
+
 def convert_syntax(sentence2, sent_id)
     sentence = sentence2.clone
     root = nil
@@ -199,14 +257,6 @@ def convert_syntax(sentence2, sent_id)
             
         end
     end
-
-
-    
-
-    #how to make sure that sentence is changed correctly? sort of fixed, I guess
-
-
-    #processed_conjuncts = []
     
 	loop do #coordination
         nokl = true
@@ -223,18 +273,6 @@ def convert_syntax(sentence2, sent_id)
                 nokl = false
                 #STDERR.puts head
                 conjunction_daughters = finddaughters(sentence,head)
-                #processed_conjuncts << conjunction_daughters
-                #processed_conjuncts.flatten!
-		    
-                #if head == 0
-                    #STDOUT.puts "head=root\t#{sent_id}"
-                #elsif sentence[head]["pos"].include?("SY")
-                    #STDOUT.puts "head=SY\t#{sent_id}\t#{head}"
-                #elsif sentence[head]["pos"] == "KO"
-                #    STDOUT.puts "head=KO"
-                #else
-                #    STDOUT.puts "head=other\t#{sent_id}\t#{head}\t#{sentence[head]["lemma"]}\t#{sentence[head]["pos"]}"
-                #end
 		    
                 conjunction_daughters.each do |daughter|
                     if sentence[daughter]["deprel"] == "KL" 
@@ -299,8 +337,9 @@ def convert_syntax(sentence2, sent_id)
                                 [coordination_head, chain_conjuncts[coordination_head]].flatten.each do |conjunct2|
                                     conjuncts_pos << sentence[conjunct2]["pos"]
                                 end
-                                if conjuncts_pos.uniq.length > 1
-                                    STDOUT.puts "#{sent_id}\t#{new_coordination_head}\t#{conjuncts_pos.uniq.join(" ")}"
+                                #TODO?
+								if conjuncts_pos.uniq.length > 1
+                                    #STDOUT.puts "#{sent_id}\t#{new_coordination_head}\t#{conjuncts_pos.uniq.join(" ")}"
                                 end
 
                                 #sentence[coordination_head]["deprel"] = "dep"
@@ -327,27 +366,45 @@ def convert_syntax(sentence2, sent_id)
                         end
                     end
                 end
-                #TODO: "other"
-                #sort conjuncts, first as head #
-                #sort conjunctions, put on the closest #
-                #change relations #
-                #reassign heads that were on the older head #
-                #reassign the old head itself #punct to head? or to next?
                 
             end
         end
     end
-#=end
     
+	#topdown = buildtopdowntree(sentence)
+	#STDERR.puts topdown
+	#findfunchead_topdown(sent_id,topdown,sentence,0,true,[])
+#=begin	
     loop do #swapping function-content
 	    no_functional_heads = true
+		sentence.each_pair do |id,senthash|
+		    #@daughters_of_functional_head = []
+	        functional_head = nil
+			if sentence[id]["deprel"] != "conj" and @functionwords.include?(sentence[id]["head"])
+			    functional_head = sentence[id]["head"].clone
+				no_functional_heads = false
+				break
+			end
+			#if !@functional_head.nil?
+			    
+			#end
+			
+		end
 		
+		if !functional_head.nil?
+		    #TODO
+			
+		    #find the new head
+		    #mark if not found
+            #swap: old to new, new to old with all direct descendants
+            #exceptions: own modifiers #check how it is in existing!
+		end
 		
 	    if no_functional_heads
 		    break
 		end
 	end
-
+=end
     sentence.each_pair do |id,senthash|
         deprel = senthash["deprel"]
         head = senthash["head"]
@@ -829,3 +886,5 @@ end
 if mode == "other"
     STDERR.puts dtlist
 end
+
+STDOUT.puts @chain_array.uniq

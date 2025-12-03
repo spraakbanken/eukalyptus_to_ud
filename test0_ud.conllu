@@ -1,0 +1,21 @@
+# newdoc id = Arbt_Fackfientlig
+# sent_id = Blog_160886-12847738.1
+# text = Dag 9: Dagens | Neo lattjar i sin nya turkosa one piece / jump in...
+1	Dag	dag	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root		PhraseCat=NP
+2	9	9	NUM	_	NumType=Card	1	MD		PhraseCat=NP|SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct		PhraseCat=Top
+4	Dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	1	discourse		PhraseCat=Top
+5	|	|	PUNCT	_	_	1	punct		PhraseCat=Top
+6	Neo	Neo	PROPN	_	Case=Nom	7	nsubj		PhraseCat=S
+7	lattjar	lattja	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis		PhraseCat=S
+8	i	i	ADP	_	_	7	MD		PhraseCat=PP
+9	sin	sig	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	det		PhraseCat=NP
+10	nya	ny	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	MD		PhraseCat=NP
+11	turkosa	turkos	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	MD		PhraseCat=NP
+12	one	one	X	_	Foreign=Yes	8	obj		PhraseCat=NP
+13	piece	piece	X	_	Foreign=Yes	12	fixed		PhraseCat=NP
+14	/	/	PUNCT	_	_	1	punct		PhraseCat=KoP
+15	jump	jump	X	_	Foreign=Yes	12	conj		PhraseCat=NP
+16	in	in	X	_	Foreign=Yes	15	fixed		PhraseCat=NP|SpaceAfter=No
+17	...	...	PUNCT	_	_	1	punct		PhraseCat=Top
+
