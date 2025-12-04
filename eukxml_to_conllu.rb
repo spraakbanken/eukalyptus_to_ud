@@ -66,14 +66,15 @@ def alltermids_to_integer(term_ids)
     return term_ids2,mapping
 end
 
-def reassign_mwe_heads(mwe,head,term_ids,primary_tree,node)
+def reassign_mwe_heads(mwe,head,term_ids,primary_tree,node,cat)
     mwe.each.with_index do |mwenode, mwenodeindex|
+	    @mwe_phrases[mwenode] = cat
         if mwenode != head
             if term_ids.include?(mwenode)
                 @reversed_tree[mwenode] = head #next_level[head_label_index]
                 @reversed_labels[mwenode] = @primary_labels[node][mwenodeindex]
             else
-                reassign_mwe_heads(primary_tree[mwenode],head,term_ids,primary_tree,node)
+                reassign_mwe_heads(primary_tree[mwenode],head,term_ids,primary_tree,node,cat)
             end
         end
     end                          
@@ -133,35 +134,7 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose, 
                         #@primary_tree[head] = []
                         #change labels, too
                         if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal MWE Reassigning heads" end                            
-                        reassign_mwe_heads(mwe,head,term_ids,primary_tree,node)
-=begin
-                        mwe.each.with_index do |mwenode, mwenodeindex|
-                            if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal MWE Reassigning heads" end
-                            
-
-                            if mwenode != head
-                                #@primary_tree[head] << mwenode
-                                if term_ids.include?(mwenode)
-                                    @reversed_tree[mwenode] = head #next_level[head_label_index]
-                                    #@reversed_labels[mwenode] = "HD-#{cat}"
-                                    @reversed_labels[mwenode] = @primary_labels[node][mwenodeindex]
-                                else
-                                    nodesundermwe = primary_tree[mwenode]
-                                    nodesundermwe.each.with_index do |nodesundermwenode, nodesundermwenodeindex|
-                                        if term_ids.include?(nodesundermwenode)
-                                            @reversed_tree[nodesundermwenode] = head #next_level[head_label_index]
-                                            #@reversed_labels[mwenode] = "HD-#{cat}"
-                                            @reversed_labels[nodesundermwenode] = @primary_labels[nodesundermwenode][nodesundermwenodeindex]
-                                        else
-                                            for i in 1..10
-                                                STDERR.puts "RECURSION required #{sent_id}"
-                                            end
-                                        end
-                                    end
-                                end
-                            end
-                        end
-=end
+                        reassign_mwe_heads(mwe,head,term_ids,primary_tree,node,cat)
                     else
                         head = mwe[0].clone
                         if verbose then STDERR.puts "Current_id: #{current_id} Node: #{node} Nonterminal MWE Analyzable. Head: #{head}" end
@@ -726,6 +699,7 @@ filenames.each do |filename|
                 #STDERR.puts sent_id
                 words = Hash.new{|hash, key| hash[key] = Hash.new}
                 phrases = {}
+				@mwe_phrases = {}
                 
                 #graph = sentence.css("graph")
                 #tpart = graph.css("terminals")
@@ -994,6 +968,9 @@ filenames.each do |filename|
                         misc << "PromotedHead=Yes"
                     end
                     
+					if !@mwe_phrases[term_id].nil?
+					    misc << "MweCat=#{@mwe_phrases[term_id]}"
+					end
 
                     misc = misc.sort.join("|")
                     

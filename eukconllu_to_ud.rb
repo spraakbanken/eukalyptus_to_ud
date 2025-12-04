@@ -431,9 +431,8 @@ def convert_syntax(sentence2, sent_id)
 			end
 			
 			if contenthead.nil?
-			    if findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes"
-			        STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}"
-				    
+			    if findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes" and !findinset("MweCat",sentence[functional_head]["misc"]).to_s.match?(/[A-Z][A-Z]M/)
+			        STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}"  
 		        end
 				heads_to_ignore << functional_head
 				#TODO: part of ME
@@ -934,7 +933,7 @@ inputfile.each_line do |line|
                     end
                 end
             end
-            STDERR.puts sent_id
+            #STDERR.puts sent_id
             uheads, udeprels, umisc = convert_syntax(sentence_pos_converted, sent_id)
             #STDERR.puts "#{uheads}"
             #STDERR.puts "#{udeprels}"
