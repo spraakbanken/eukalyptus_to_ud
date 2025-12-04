@@ -419,7 +419,7 @@ def convert_syntax(sentence2, sent_id)
 					end
 				end
 				if contenthead.nil?
-				    if headpos == "SCONJ"
+				    if headpos == "SCONJ" or headpos == "ADP"
 					    daughters.each do |daughter|
 				            if sentence[daughter]["deprel"] == "MD"
 					            contenthead = daughter.clone

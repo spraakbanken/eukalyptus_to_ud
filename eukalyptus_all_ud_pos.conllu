@@ -34536,7 +34536,7 @@
 51	av	av	ADP	_	_	50	MD		PhraseCat=PP
 52	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	54	DT		PhraseCat=NP
 53	biologiska	biologisk	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	54	MD		PhraseCat=NP
-54	mångfalden	mångfald	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	51	OP		PhraseCat=NP
+54	mångfalden	mångfald	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	51	OO		PhraseCat=NP
 55	och	och	CCONJ	_	_	45	OO		PhraseCat=KoP
 56	skyddet	skydd	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	55	KL		PhraseCat=NP
 57	av	av	ADP	_	_	56	MD		PhraseCat=PP
@@ -69449,7 +69449,7 @@
 24	ta	ta	VERB	_	VerbForm=Inf|Voice=Act	23	IV		MweCat=VBM|PhraseCat=VP
 25	vara	vara	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	ME		MweCat=VBM|PhraseCat=VP
 26	på	på	ADP	_	_	24	OA		PhraseCat=PP
-27	sej	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	26	OP		PhraseCat=NP
+27	sej	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	26	OO		PhraseCat=NP
 28	själv	själv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	27	MD		PhraseCat=NP|SpaceAfter=No
 29	.	.	PUNCT	_	_	4	--		PhraseCat=Top
 
@@ -96438,7 +96438,7 @@
 8	Skywalker	Skywalker	PROPN	_	Case=Nom	7	ME		MweCat=ENM|PhraseCat=NP
 9	i	i	ADP	_	_	7	MD		PhraseCat=PP
 10	Stjärnornas	stjärna	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Plur	11	DT		PhraseCat=NP
-11	krig	krig	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	OP		PhraseCat=NP|SpaceAfter=No
+11	krig	krig	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	OO		PhraseCat=NP|SpaceAfter=No
 12	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 13	som	som	SCONJ	_	_	7	MD		PhraseCat=SuP
 14	bor	bo	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	OO		PhraseCat=S

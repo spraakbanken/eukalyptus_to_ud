@@ -34536,7 +34536,7 @@
 51	av	av	PE	-.-.-	PE.-	50	MD		PhraseCat=PP
 52	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	54	DT		PhraseCat=NP
 53	biologiska	biologisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	54	MD		PhraseCat=NP
-54	mångfalden	mångfald	NN	-.-.-	NN.UTR.SIN.DEF	51	OP		PhraseCat=NP
+54	mångfalden	mångfald	NN	-.-.-	NN.UTR.SIN.DEF	51	OO		PhraseCat=NP
 55	och	och	KO	-.-.-	KO.-	45	OO		PhraseCat=KoP
 56	skyddet	skydd	NN	-.-.-	NN.NEU.SIN.DEF	55	KL		PhraseCat=NP
 57	av	av	PE	-.-.-	PE.-	56	MD		PhraseCat=PP
@@ -69449,7 +69449,7 @@
 24	ta	ta	VB	-.-.-	VB.INF.AKT.-	23	IV		MweCat=VBM|PhraseCat=VP
 25	vara	vara	NN	-.-.-	NN.UTR.SIN.IND	24	ME		MweCat=VBM|PhraseCat=VP
 26	på	på	PE	-.-.-	PE.-	24	OA		PhraseCat=PP
-27	sej	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	26	OP		PhraseCat=NP
+27	sej	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	26	OO		PhraseCat=NP
 28	själv	själv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	27	MD		PhraseCat=NP|SpaceAfter=No
 29	.	_	SY	-.-.-	SY.DEL	4	--		PhraseCat=Top
 
@@ -96438,7 +96438,7 @@
 8	Skywalker	Skywalker	EN	-.-.-	EN.-	7	ME		MweCat=ENM|PhraseCat=NP
 9	i	i	PE	-.-.-	PE.-	7	MD		PhraseCat=PP
 10	Stjärnornas	stjärna	NN	-.GEN.-	NN.UTR.PLU.DEF	11	DT		PhraseCat=NP
-11	krig	krig	NN	-.-.-	NN.NEU.PLU.IND	9	OP		PhraseCat=NP|SpaceAfter=No
+11	krig	krig	NN	-.-.-	NN.NEU.PLU.IND	9	OO		PhraseCat=NP|SpaceAfter=No
 12	,	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top
 13	som	som	SU	-.-.-	SU.-	7	MD		PhraseCat=SuP
 14	bor	bo	VB	-.-.-	VB.IND.AKT.PRS	13	OO		PhraseCat=S
