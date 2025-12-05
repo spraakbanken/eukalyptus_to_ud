@@ -969,7 +969,7 @@ filenames.each do |filename|
                     end
                     
 					if !@mwe_phrases[term_id].nil?
-					    misc << "MweCat=#{@mwe_phrases[term_id]}"
+					    misc << "ExtXpos=#{@mwe_phrases[term_id]}"
 					end
 
                     misc = misc.sort.join("|")

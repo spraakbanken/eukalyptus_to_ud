@@ -431,8 +431,8 @@ def convert_syntax(sentence2, sent_id)
 			end
 			
 			if contenthead.nil?
-			    if findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes" and !findinset("MweCat",sentence[functional_head]["misc"]).to_s.match?(/[A-Z][A-Z]M/)
-			        STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}"  
+			    if findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes" and !findinset("ExtXpos",sentence[functional_head]["misc"]).to_s.match?(/[A-Z][A-Z]M/)
+			        STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}\t#{sentence[functional_head]["form"]}\t#{daughters.length}\t#{sentence[daughters[0]]["form"]}"  
 		        end
 				heads_to_ignore << functional_head
 				#TODO: part of ME
