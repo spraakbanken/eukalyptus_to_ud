@@ -25,7 +25,7 @@ end
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
 @matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
 
-@functionwords = ["ADP","SCONJ","PART"]#,"AUX"] #"DET", #CCONJ,NUM,PRON
+@functionwords = ["ADP","SCONJ","PART","DET"]#,"AUX"] #, #CCONJ,SYM,X,INTJ,PUNCT. NO: ,NUM,PRON,
 
 =begin
 Lista 1:
@@ -387,7 +387,7 @@ def convert_syntax(sentence2, sent_id)
 		    #@daughters_of_functional_head = []
 	        head = sentence[id]["head"]
 			
-			if head != 0 and sentence[id]["deprel"] != "conj" and sentence[id]["deprel"] != "parataxis" and @functionwords.include?(sentence[head]["upos"]) and !heads_to_ignore.include?(head)
+			if head != 0 and sentence[id]["deprel"] != "conj" and sentence[id]["deprel"] != "parataxis" and sentence[id]["deprel"] != "cc" and @functionwords.include?(sentence[head]["upos"]) and !heads_to_ignore.include?(head)
 			    functional_head = sentence[id]["head"].clone
 			    no_functional_heads = false
 				break
@@ -403,8 +403,10 @@ def convert_syntax(sentence2, sent_id)
 		    headpos = sentence[functional_head]["upos"]
 		    daughters = finddaughters(sentence,functional_head)
 			contenthead = nil
-			if headpos == "SCONJ" or headpos == "PART" or headpos == "ADP"
+			if headpos == "SCONJ" or headpos == "ADP" or (headpos == "PART" and sentence[functional_head]["lemma"] == "att")
 			    funcheadtype = "adp"
+			elsif (headpos == "PART" and sentence[functional_head]["lemma"] != "att")
+			    funcheadtype = "inte"
 		    elsif headpos == "AUX"
 			    funcheadtype = "aux"
 			elsif headpos == "DET"
@@ -419,20 +421,27 @@ def convert_syntax(sentence2, sent_id)
 					end
 				end
 				if contenthead.nil?
-				    if headpos == "SCONJ" or headpos == "ADP"
-					    daughters.each do |daughter|
-				            if sentence[daughter]["deprel"] == "MD"
-					            contenthead = daughter.clone
-						        break
-					        end
+				    #if headpos == "SCONJ" or headpos == "ADP"
+					daughters.each do |daughter|
+				        if sentence[daughter]["deprel"] == "MD"
+					        contenthead = daughter.clone
+					     break
 					    end
 					end
+					#end
 				end
 			end
 			
 			if contenthead.nil?
-			    if findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes" and !findinset("ExtXpos",sentence[functional_head]["misc"]).to_s.match?(/[A-Z][A-Z]M/)
-			        STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}\t#{sentence[functional_head]["form"]}\t#{daughters.length}\t#{sentence[daughters[0]]["form"]}"  
+			    if funcheadtype == "det" or (findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes" and !findinset("ExtXpos",sentence[functional_head]["misc"]).to_s.match?(/[A-Z][A-Z]M/))
+				    functionalheads_head = sentence[functional_head]["head"]
+					if functionalheads_head == 0
+					    headheadform = "root"
+				    else
+					    headheadform = sentence[functionalheads_head]["form"]
+					end
+			        STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}\t#{sentence[functional_head]["form"]}\t#{daughters.length}\t#{sentence[daughters[0]]["form"]}\t#{headheadform}"  
+				
 		        end
 				heads_to_ignore << functional_head
 				#TODO: part of ME
