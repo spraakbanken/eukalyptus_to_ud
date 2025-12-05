@@ -488,7 +488,7 @@ def convert_syntax(sentence2, sent_id)
 			else
 			    sentence[contenthead]["head"] = sentence[functional_head]["head"].clone
 				
-				if !(funcheadtype == "aux" and sentence[contenthead]["deprel"]=="SP")
+				if !(funcheadtype == "aux" and sentence[functional_head]["deprel"]=="IV")
 				    sentence[contenthead]["deprel"] = sentence[functional_head]["deprel"].clone
 				end
 				sentence[functional_head]["head"] = contenthead.clone
