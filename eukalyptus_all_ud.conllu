@@ -230,7 +230,7 @@
 6	och	och	CCONJ	_	_	8	cc		PhraseCat=KoP
 7	helt	helt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	MD		PhraseCat=AjP
 8	underbara	underbar	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	conj		PhraseCat=AjP
-9	och	och	CCONJ	_	_	5	det		PhraseCat=KoP
+9	och	och	CCONJ	_	_	10	cc		PhraseCat=KoP
 10	supermysiga	supermysig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	conj		PhraseCat=AjP|SpaceAfter=No
 11	...	...	PUNCT	_	_	5	punct		PhraseCat=Top
 
@@ -1306,7 +1306,7 @@
 18	huvudet	huvud	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	16	MD		PhraseCat=PP
 19	och	och	CCONJ	_	_	20	cc		PhraseCat=KoP
 20	väggar	vägg	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	conj		PhraseCat=NP
-21	och	och	CCONJ	_	_	16	det		PhraseCat=KoP
+21	och	och	CCONJ	_	_	22	cc		PhraseCat=KoP
 22	fönster	fönster	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	conj		PhraseCat=NP
 23	som	som	SCONJ	_	_	24	mark	22:MD|16:|20:	NewHead=24|PhraseCat=SuP
 24	skyddar	skydda	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	MD		PhraseCat=S
@@ -1629,7 +1629,7 @@
 17	bytte	byta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	obj		PhraseCat=S
 18	glödlampor	glödlampa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	obj		PhraseCat=S|SpaceAfter=No
 19	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-20	så	så	CCONJ	_	_	4	det		PhraseCat=KoP
+20	så	så	CCONJ	_	_	28	cc		PhraseCat=KoP
 21	denna	denna	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	22	det		PhraseCat=NP
 22	julen	jul	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	MD		PhraseCat=NP
 23	får	få	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	28	aux		NewHead=28|PhraseCat=S
@@ -1665,7 +1665,7 @@
 18	hela	hel	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	19	det		PhraseCat=AjP
 19	natten	natt	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	MD	15:MD|13:	PhraseCat=NP
 20	typ	typ	ADV	_	_	18	MD		PhraseCat=AjP
-21	men	men	CCONJ	_	_	13	det		PhraseCat=KoP
+21	men	men	CCONJ	_	_	23	cc		PhraseCat=KoP
 22	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	23	cop		NewHead=23|PhraseCat=S
 23	pigg	pigg	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	conj		PhraseCat=AjP
 24	och	och	CCONJ	_	_	25	cc		PhraseCat=KoP
@@ -1837,7 +1837,7 @@
 24	här	här	ADV	_	_	23	advmod		PhraseCat=S
 25	o	och	CCONJ	_	_	26	cc		PhraseCat=KoP
 26	skriver	skriva	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj		PhraseCat=S
-27	o	och	CCONJ	_	_	23	det		PhraseCat=KoP
+27	o	och	CCONJ	_	_	28	cc		PhraseCat=KoP
 28	dricker	dricka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj		PhraseCat=S
 29	mitt	jag	PRON	_	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	31	det		PhraseCat=NP
 30	goa	go	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	31	MD		PhraseCat=NP
@@ -1858,7 +1858,7 @@
 10	hon	hon	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj		PhraseCat=S
 11	svarar	svara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 12	inte	inte	PART	_	Polarity=Neg	11	MD		PhraseCat=S
-13	så	så	CCONJ	_	_	2	det		PhraseCat=KoP
+13	så	så	CCONJ	_	_	16	cc		PhraseCat=KoP
 14	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj		PhraseCat=S
 15	får	få	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	16	aux		NewHead=16|PhraseCat=S
 16	försöka	försöka	VERB	_	VerbForm=Inf|Voice=Act	2	conj		PhraseCat=VP
@@ -2130,7 +2130,7 @@
 7	o	och	CCONJ	_	_	9	cc		PhraseCat=KoP
 8	Marcus	Marcus	PROPN	_	Case=Nom	9	nsubj		PhraseCat=S
 9	ligger	ligga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
-10	o	och	CCONJ	_	_	2	det		PhraseCat=KoP
+10	o	och	CCONJ	_	_	11	cc		PhraseCat=KoP
 11	vrider	vrida	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 12	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	11	obj		PhraseCat=S|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
@@ -2162,7 +2162,7 @@
 5	försöker	försöka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 6	stoppa	stoppa	VERB	_	VerbForm=Inf|Voice=Act	5	IV		PhraseCat=VP
 7	blodet	blod	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	obj		PhraseCat=VP
-8	o	och	CCONJ	_	_	2	det		PhraseCat=KoP
+8	o	och	CCONJ	_	_	9	cc		PhraseCat=KoP
 9	lugna	lugna	VERB	_	VerbForm=Inf|Voice=Act	2	conj		PhraseCat=VP
 10	dom	den	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	9	obj		PhraseCat=NP
 11	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	10	MD		PhraseCat=NP|SpaceAfter=No
@@ -2191,7 +2191,7 @@
 19	mycket	mycket	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	advcl		PhraseCat=NP
 20	att	att	PART	_	_	21	mark		NewHead=21|PhraseCat=SuP
 21	göra	göra	VERB	_	VerbForm=Inf|Voice=Act	19	MD		PhraseCat=SuP
-22	så	så	CCONJ	_	_	11	det		PhraseCat=KoP
+22	så	så	CCONJ	_	_	26	cc		PhraseCat=KoP
 23	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	26	nsubj		PhraseCat=S
 24	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	26	aux		NewHead=25|PhraseCat=S
 25	få	få	AUX	_	VerbForm=Inf|Voice=Act	26	aux		NewHead=26|PhraseCat=VP
@@ -2250,12 +2250,12 @@
 10	väl	väl	ADV	_	_	9	MD		PhraseCat=S
 11	i	i	ADP	_	_	12	case		NewHead=12|PhraseCat=PP
 12	1;an	ettan	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Typo=Yes	9	advcl		CorrectForm=1:an|PhraseCat=PP
-13	o	och	CCONJ	_	_	5	det		PhraseCat=KoP
+13	o	och	CCONJ	_	_	15	cc		PhraseCat=KoP
 14	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	nsubj		PhraseCat=S
 15	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj		PhraseCat=S
 16	väldigt	väldigt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	MD		PhraseCat=AjP
 17	mammig	mammig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	xcomp		PhraseCat=AjP
-18	o	och	CCONJ	_	_	5	det		PhraseCat=KoP
+18	o	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 19	vill	vilja	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj		PhraseCat=S
 20	inte	inte	PART	_	Polarity=Neg	19	MD		PhraseCat=S
 21	att	att	SCONJ	_	_	24	mark		NewHead=24|PhraseCat=SuP
@@ -2266,7 +2266,7 @@
 26	från	från	ADP	_	_	27	case		NewHead=27|PhraseCat=PP
 27	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	24	advmod		PhraseCat=PP|SpaceAfter=No
 28	,	,	PUNCT	_	_	5	punct		PhraseCat=Top
-29	utan	utan	CCONJ	_	_	5	det		PhraseCat=KoP
+29	utan	utan	CCONJ	_	_	32	cc		PhraseCat=KoP
 30	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	32	nsubj		PhraseCat=S
 31	måste	måste	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	32	aux		NewHead=32|PhraseCat=S
 32	stanna	stanna	VERB	_	VerbForm=Inf|Voice=Act	5	conj		PhraseCat=VP
@@ -2295,7 +2295,7 @@
 16	med	med	ADP	_	_	17	case		NewHead=17|PhraseCat=PP
 17	snö	snö	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	advcl		PhraseCat=PP
 18	ute	ute	ADV	_	_	15	advmod		PhraseCat=S
-19	så	så	CCONJ	_	_	2	det		PhraseCat=KoP
+19	så	så	CCONJ	_	_	23	cc		PhraseCat=KoP
 20	de	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	23	nsubj		PhraseCat=S
 21	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	23	cop		NewHead=23|PhraseCat=S
 22	väldigt	väldigt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	MD		PhraseCat=AjP
@@ -2367,7 +2367,7 @@
 9	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	11	cop		NewHead=11|PhraseCat=S
 10	inte	inte	PART	_	Polarity=Neg	11	MD		PhraseCat=S
 11	försiktiga	försiktig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	conj		PhraseCat=S
-12	utan	utan	CCONJ	_	_	2	det		PhraseCat=KoP
+12	utan	utan	CCONJ	_	_	13	cc		PhraseCat=KoP
 13	gjorde	göra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 14	flera	flera	ADJ	_	Case=Nom|Degree=Cmp	15	det		PhraseCat=NP
 15	gånger	gång	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	MD		PhraseCat=NP
@@ -2450,7 +2450,7 @@
 7	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj		PhraseCat=S
 8	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	9	aux		NewHead=9|PhraseCat=S
 9	förbannad	förbannad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=S
-10	o	och	CCONJ	_	_	2	det		PhraseCat=KoP
+10	o	och	CCONJ	_	_	11	cc		PhraseCat=KoP
 11	sa	säga	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 12	till	till	ADP	_	_	11	compound:prt		PhraseCat=S
 13	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	iobj		PhraseCat=S
@@ -2507,7 +2507,7 @@
 11	de	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	conj		PhraseCat=S
 12	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	11	cop		NewHead=11|PhraseCat=S
 13	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj		PhraseCat=S
-14	så	så	CCONJ	_	_	2	det		PhraseCat=KoP
+14	så	så	CCONJ	_	_	16	cc		PhraseCat=KoP
 15	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj		PhraseCat=S
 16	sa	säga	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 17	till	till	ADP	_	_	18	case		NewHead=18|PhraseCat=PP
@@ -2563,7 +2563,7 @@
 10	heter	heta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	obj		PhraseCat=S
 11	o	och	CCONJ	_	_	16	cc		PhraseCat=KoP
 12	vilka	vilken	DET	_	Definite=Ind|Number=Plur|PronType=Int,Rel	13	det		PhraseCat=NP
-13	plan	plan	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	det	14:PH|15:	PhraseCat=NP
+13	plan	plan	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	PH	14:PH|15:	PhraseCat=NP
 14	som	som	SCONJ	_	_	16	mark		NewHead=15|PhraseCat=SuP
 15	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	16	cop		NewHead=16|PhraseCat=S
 16	vilka	vilken	PRON	_	Definite=Ind|Number=Plur|PronType=Int,Rel	6	conj		PhraseCat=S|SpaceAfter=No
@@ -2676,7 +2676,7 @@
 21	rätt	rätt	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	MD		PhraseCat=NP
 22	personer	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	20	obj		PhraseCat=NP|SpaceAfter=No
 23	"	"	PUNCT	_	_	2	punct		PhraseCat=Top
-24	så	så	CCONJ	_	_	2	det		PhraseCat=KoP
+24	så	så	CCONJ	_	_	26	cc		PhraseCat=KoP
 25	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	26	nsubj		PhraseCat=S
 26	sa	säga	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 27	till	till	ADP	_	_	28	case		NewHead=28|PhraseCat=PP
@@ -2695,7 +2695,7 @@
 3	o	och	CCONJ	_	_	4	cc		PhraseCat=KoP
 4	följ	följa	VERB	_	Mood=Imp|VerbForm=Fin|Voice=Act	1	conj		PhraseCat=S
 5	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	obj		PhraseCat=S
-6	för	för	CCONJ	_	_	1	det		PhraseCat=KoP
+6	för	för	CCONJ	_	_	10	cc		PhraseCat=KoP
 7	nu	nu	ADV	_	_	10	MD		PhraseCat=S
 8	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	10	cop		NewHead=10|PhraseCat=S
 9	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj		PhraseCat=S
@@ -2822,7 +2822,7 @@
 11	måste	måste	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	12	aux		NewHead=12|PhraseCat=S
 12	röntgas	röntga	VERB	_	VerbForm=Inf|Voice=Pass	8	conj		PhraseCat=VP
 13	omg	omgående	ADV	_	Abbr=Yes	12	MD		PhraseCat=VP
-14	för	för	CCONJ	_	_	8	det		PhraseCat=KoP
+14	för	för	CCONJ	_	_	16	cc		PhraseCat=KoP
 15	sen	sen	ADV	_	_	16	MD		PhraseCat=S
 16	behöver	behöva	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj		PhraseCat=S
 17	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj		PhraseCat=S
@@ -2902,7 +2902,7 @@
 9	ge	ge	VERB	_	VerbForm=Inf|Voice=Act	6	IV		PhraseCat=VP
 10	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	iobj		PhraseCat=VP
 11	smärtstillande	smärtstillande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	obj		PhraseCat=VP
-12	men	men	CCONJ	_	_	2	det		PhraseCat=KoP
+12	men	men	CCONJ	_	_	14	cc		PhraseCat=KoP
 13	de	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	14	obj		PhraseCat=S
 14	ville	vilja	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 15	dom	den	PRON	_	Definite=Def|Number=Plur|PronType=Prs	14	nsubj		PhraseCat=S
@@ -3267,7 +3267,7 @@
 13	kvar	kvar	ADV	_	_	12	compound:prt		PhraseCat=VP
 14	över	över	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
 15	natten	natt	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	MD		PhraseCat=PP
-16	o	och	CCONJ	_	_	2	det		PhraseCat=KoP
+16	o	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 17	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	det		PhraseCat=NP
 18	pappa	pappa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nsubj		PhraseCat=NP
 19	åkte	åka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
@@ -3311,7 +3311,7 @@
 9	trött	trött	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	3	conj		PhraseCat=AjP
 10	nu	nu	ADV	_	_	9	MD		PhraseCat=S|SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
-12	men	men	CCONJ	_	_	3	det		PhraseCat=KoP
+12	men	men	CCONJ	_	_	16	cc		PhraseCat=KoP
 13	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj		PhraseCat=S
 14	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	16	cop		NewHead=16|PhraseCat=S
 15	så	så	ADV	_	_	16	MD		PhraseCat=AjP
@@ -3322,7 +3322,7 @@
 20	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	22	cop		NewHead=22|PhraseCat=S
 21	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	22	det		PhraseCat=NP
 22	mardröm	mardröm	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obj		PhraseCat=NP
-23	för	för	CCONJ	_	_	3	det		PhraseCat=KoP
+23	för	för	CCONJ	_	_	27	cc		PhraseCat=KoP
 24	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	27	nsubj		PhraseCat=S
 25	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	27	aux		NewHead=27|PhraseCat=S
 26	aldrig	aldrig	ADV	_	_	27	MD		PhraseCat=S
@@ -3467,7 +3467,7 @@
 23	i	i	ADP	_	_	25	case		NewHead=25|PhraseCat=PP
 24	flera	flera	ADJ	_	Case=Nom|Degree=Cmp	25	det		PhraseCat=NP
 25	dagar	dag	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	21	MD		PhraseCat=NP
-26	så	så	CCONJ	_	_	2	det		PhraseCat=KoP
+26	så	så	CCONJ	_	_	29	cc		PhraseCat=KoP
 27	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	29	nsubj		PhraseCat=S
 28	ville	vilja	AUX	_	Mood=Ind|Tense=Past|Voice=Act	29	aux		NewHead=29|PhraseCat=S
 29	ha	ha	VERB	_	VerbForm=Inf|Voice=Act	2	conj		PhraseCat=VP
@@ -3493,7 +3493,7 @@
 13	att	att	PART	_	_	14	mark		NewHead=14|PhraseCat=SuP
 14	ta	ta	VERB	_	VerbForm=Inf|Voice=Act	12	MD		PhraseCat=VP
 15	vägen	väg	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	obj		PhraseCat=VP
-16	för	för	CCONJ	_	_	2	det		PhraseCat=KoP
+16	för	för	CCONJ	_	_	19	cc		PhraseCat=KoP
 17	allt	all	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	19	nsubj		PhraseCat=S
 18	va	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	19	cop		NewHead=19|PhraseCat=S
 19	förstört	förstörd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	2	conj		PhraseCat=AjP
@@ -3538,12 +3538,12 @@
 9	va	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	11	cop		NewHead=11|PhraseCat=S
 10	inte	inte	PART	_	Polarity=Neg	11	MD		PhraseCat=S
 11	lätt	lätt	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	2	conj		PhraseCat=S
-12	för	för	CCONJ	_	_	2	det		PhraseCat=KoP
+12	för	för	CCONJ	_	_	16	cc		PhraseCat=KoP
 13	dom	den	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	16	nsubj		PhraseCat=S
 14	va	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	16	cop		NewHead=16|PhraseCat=S
 15	så	så	ADV	_	_	16	MD		PhraseCat=AjP
 16	rädda	rädd	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	conj		PhraseCat=AjP
-17	så	så	CCONJ	_	_	2	det		PhraseCat=KoP
+17	så	så	CCONJ	_	_	21	cc		PhraseCat=KoP
 18	dom	den	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	21	nsubj		PhraseCat=S
 19	va	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	21	cop		NewHead=21|PhraseCat=S
 20	inte	inte	PART	_	Polarity=Neg	21	MD		PhraseCat=S
@@ -3572,7 +3572,7 @@
 14	o	och	CCONJ	_	_	15	cc		PhraseCat=KoP
 15	Snobben	Snobben	PROPN	_	Case=Nom	13	conj		PhraseCat=KoP
 16	där	där	ADV	_	_	11	advmod		PhraseCat=S
-17	för	för	CCONJ	_	_	2	det		PhraseCat=KoP
+17	för	för	CCONJ	_	_	20	cc		PhraseCat=KoP
 18	dom	den	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	20	nsubj		PhraseCat=S
 19	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	20	aux		NewHead=20|PhraseCat=S
 20	smitit	smita	VERB	_	VerbForm=Sup|Voice=Act	2	conj		PhraseCat=VP
@@ -3622,7 +3622,7 @@
 8	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	10	cop		NewHead=10|PhraseCat=S
 9	så	så	ADV	_	_	10	MD		PhraseCat=AjP
 10	dålig	dålig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	conj		PhraseCat=AjP
-11	så	så	CCONJ	_	_	3	det		PhraseCat=KoP
+11	så	så	CCONJ	_	_	13	cc		PhraseCat=KoP
 12	de	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	13	nsubj		PhraseCat=S
 13	fanns	finnas	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj		PhraseCat=S
 14	inget	ingen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	15	det		PhraseCat=NP
@@ -3674,7 +3674,7 @@
 32	Snobben	Snobben	PROPN	_	Case=Nom	31	obj		PhraseCat=S
 33	ifrån	ifrån	ADP	_	_	34	case		NewHead=34|PhraseCat=PP
 34	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	31	advcl		PhraseCat=PP
-35	o	och	CCONJ	_	_	22	det		PhraseCat=KoP
+35	o	och	CCONJ	_	_	36	cc		PhraseCat=KoP
 36	stoppade	stoppa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	conj		PhraseCat=S
 37	in	in	ADV	_	_	36	compound:prt		PhraseCat=S
 38	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	36	obj		PhraseCat=S
@@ -3713,7 +3713,7 @@
 23	"	"	PUNCT	_	_	2	punct		PhraseCat=Top|SpaceAfter=No
 24	nerkyld	nerkyld	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=S|SpaceAfter=No
 25	"	"	PUNCT	_	_	2	punct		PhraseCat=Top
-26	o	och	CCONJ	_	_	2	det		PhraseCat=KoP
+26	o	och	CCONJ	_	_	29	cc		PhraseCat=KoP
 27	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	29	nsubj		PhraseCat=S
 28	va	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	29	cop		NewHead=29|PhraseCat=S
 29	död	död	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	conj		PhraseCat=S|SpaceAfter=No
@@ -3734,7 +3734,7 @@
 11	detta	denna	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	10	obj		PhraseCat=VP
 12	för	för	ADP	_	_	13	case		NewHead=13|PhraseCat=PP
 13	mamma	mamma	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	MD		PhraseCat=PP
-14	för	för	CCONJ	_	_	4	det		PhraseCat=KoP
+14	för	för	CCONJ	_	_	18	cc		PhraseCat=KoP
 15	de	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	18	nsubj		PhraseCat=S
 16	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	18	cop		NewHead=17|PhraseCat=S
 17	hos	hos	ADP	_	_	18	case	16:SP|21:	NewHead=18|PhraseCat=PP
@@ -3867,7 +3867,7 @@
 16	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	nsubj		PhraseCat=S
 17	alltid	alltid	ADV	_	_	18	MD		PhraseCat=S
 18	gör	göra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	JF		PhraseCat=S
-19	o	och	CCONJ	_	_	2	det		PhraseCat=KoP
+19	o	och	CCONJ	_	_	20	cc		PhraseCat=KoP
 20	låter	låta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 21	huvet	huve	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	obj		PhraseCat=S
 22	ligga	ligga	VERB	_	VerbForm=Inf|Voice=Act	20	IV		PhraseCat=VP
@@ -3894,10 +3894,10 @@
 13	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj		PhraseCat=S
 14	de	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	12	obj		PhraseCat=S
 15	jobbigt	jobbig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	xcomp		PhraseCat=S
-16	o	och	CCONJ	_	_	4	det		PhraseCat=KoP
+16	o	och	CCONJ	_	_	18	cc		PhraseCat=KoP
 17	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	nsubj		PhraseCat=S
 18	förstår	förstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
-19	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	23	det		PhraseCat=SuP
+19	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	23	PH		PhraseCat=SuP
 20	som	som	SCONJ	_	_	23	mark		NewHead=21|PhraseCat=SuP
 21	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	23	cop		NewHead=22|PhraseCat=S
 22	på	på	ADP	_	_	23	case		NewHead=23|PhraseCat=PP
@@ -3939,7 +3939,7 @@
 12	min	jag	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	det		PhraseCat=NP
 13	rädsla	rädsla	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obj		PhraseCat=NP
 14	för	för	ADP	_	_	17	mark		NewHead=17|PhraseCat=PP
-15	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	17	det		PhraseCat=SuP
+15	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	17	PH		PhraseCat=SuP
 16	som	som	SCONJ	_	_	17	mark		NewHead=17|PhraseCat=SuP
 17	håller	hålla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	MD		PhraseCat=S
 18	på	på	ADP	_	_	17	compound:prt		PhraseCat=S
@@ -4993,7 +4993,7 @@
 10	kaffe	kaffe	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=NP|SpaceAfter=No
 11	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
 12	sitter	sitta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
-13	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+13	och	och	CCONJ	_	_	14	cc		PhraseCat=KoP
 14	babblar	babbla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 15	lite	litet	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	17	MD		PhraseCat=PP
 16	om	om	ADP	_	_	17	case		NewHead=17|PhraseCat=PP
@@ -5248,7 +5248,7 @@
 26	så	så	ADV	_	_	27	MD		PhraseCat=NP
 27	mycket	mycket	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	22	obj		PhraseCat=NP|SpaceAfter=No
 28	,	,	PUNCT	_	_	7	punct		PhraseCat=Top
-29	men	men	CCONJ	_	_	7	det		PhraseCat=KoP
+29	men	men	CCONJ	_	_	37	cc		PhraseCat=KoP
 30	allt	all	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	37	nsubj		PhraseCat=NP
 31	som	som	SCONJ	_	_	34	mark		NewHead=34|PhraseCat=SuP
 32	inte	inte	PART	_	Polarity=Neg	34	MD		PhraseCat=S
@@ -5742,7 +5742,7 @@
 17	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	18	nsubj		PhraseCat=S
 18	är	vara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	obj		PhraseCat=S|SpaceAfter=No
 19	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
-20	men	men	CCONJ	_	_	3	det		PhraseCat=KoP
+20	men	men	CCONJ	_	_	22	cc		PhraseCat=KoP
 21	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	22	nsubj		PhraseCat=S
 22	verkar	verka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 23	tydligen	tydligen	ADV	_	_	22	MD		PhraseCat=S
@@ -6039,7 +6039,7 @@
 37	tur	tur	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj		PhraseCat=NP
 38	till	till	ADP	_	_	39	case		NewHead=39|PhraseCat=PP
 39	affären	affär	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	37	MD		PhraseCat=PP
-40	och	och	CCONJ	_	_	9	det		PhraseCat=KoP
+40	och	och	CCONJ	_	_	43	cc		PhraseCat=KoP
 41	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	43	det		PhraseCat=NP
 42	ny	ny	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	43	MD		PhraseCat=NP
 43	lampa	lampa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj		PhraseCat=NP|SpaceAfter=No
@@ -6545,7 +6545,7 @@
 12	julöl	julöl	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	conj		PhraseCat=NP|SpaceAfter=No
 13	)	)	PUNCT	_	_	3	punct		PhraseCat=Top
 14	…	…	PUNCT	_	_	3	punct		PhraseCat=Top
-15	och	och	CCONJ	_	_	3	det		PhraseCat=KoP
+15	och	och	CCONJ	_	_	17	cc		PhraseCat=KoP
 16	bara	bara	ADV	_	_	17	MD		PhraseCat=VP
 17	njuta	njuta	VERB	_	VerbForm=Inf|Voice=Act	3	conj		PhraseCat=VP
 18	av	av	ADP	_	_	21	mark		NewHead=19|PhraseCat=PP
@@ -6655,11 +6655,11 @@
 23	i	i	ADP	_	_	25	case		NewHead=25|PhraseCat=PP
 24	mina	jag	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	25	det		PhraseCat=NP
 25	ögon	öga	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	advmod		PhraseCat=NP
-26	och	och	CCONJ	_	_	14	det		PhraseCat=KoP
+26	och	och	CCONJ	_	_	27	cc		PhraseCat=KoP
 27	gjorde	göra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	conj		PhraseCat=S
 28	dem	de	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	27	obj		PhraseCat=S
 29	ljuskänsliga	ljuskänslig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	27	xcomp		PhraseCat=S
-30	och	och	CCONJ	_	_	14	det		PhraseCat=KoP
+30	och	och	CCONJ	_	_	34	cc		PhraseCat=KoP
 31	in	in	ADV	_	_	34	compound:prt		PhraseCat=S
 32	i	i	ADP	_	_	34	case		NewHead=34|PhraseCat=PP
 33	min	jag	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	34	det		PhraseCat=NP
@@ -6702,7 +6702,7 @@
 7	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj		PhraseCat=S
 8	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 9	hem	hem	ADV	_	_	8	advmod		PhraseCat=S
-10	och	och	CCONJ	_	_	4	det		PhraseCat=KoP
+10	och	och	CCONJ	_	_	11	cc		PhraseCat=KoP
 11	slappar	slappa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 12	loss	loss	ADV	_	_	11	compound:prt		PhraseCat=S
 13	i	i	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
@@ -7365,7 +7365,7 @@
 29	var	vara	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	MD		PhraseCat=S
 30	där	där	ADV	_	_	29	advmod		PhraseCat=S|SpaceAfter=No
 31	,	,	PUNCT	_	_	7	punct		PhraseCat=Top
-32	och	och	CCONJ	_	_	7	det		PhraseCat=KoP
+32	och	och	CCONJ	_	_	35	cc		PhraseCat=KoP
 33	våra	vi	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	34	det		PhraseCat=NP
 34	referensramar	referensram	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	35	nsubj		PhraseCat=NP
 35	skiljer	skilja	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj		PhraseCat=S
@@ -8965,7 +8965,7 @@
 33	som	som	SCONJ	_	_	34	mark		NewHead=34|PhraseCat=SuP
 34	soloartist	soloartist	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	MD		PhraseCat=SuP|SpaceAfter=No
 35	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-36	men	men	CCONJ	_	_	4	det		PhraseCat=KoP
+36	men	men	CCONJ	_	_	73	cc		PhraseCat=KoP
 37	efter	efter	ADP	_	_	40	case		NewHead=40|PhraseCat=PP
 38	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	40	det		PhraseCat=NP
 39	trista	trist	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	40	MD		PhraseCat=NP
@@ -9294,7 +9294,7 @@
 18	serien	serie	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	MD		PhraseCat=NP
 19	Remasters	Remasters	PROPN	_	Case=Nom	18	appos		PhraseCat=NP|SpaceAfter=No
 20	,	,	PUNCT	_	_	7	punct		PhraseCat=Top
-21	men	men	CCONJ	_	_	7	det		PhraseCat=KoP
+21	men	men	CCONJ	_	_	25	cc		PhraseCat=KoP
 22	som	som	SCONJ	_	_	23	mark		NewHead=23|PhraseCat=SuP
 23	liveskiva	liveskiva	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	advcl		PhraseCat=SuP
 24	betraktat	betraktad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	28	JF		PhraseCat=AjP
@@ -10204,7 +10204,7 @@
 16	på	på	ADP	_	_	17	case		NewHead=17|PhraseCat=PP
 17	vädret	väder	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	15	MD		PhraseCat=PP
 18	imorse	imorse	ADV	_	_	15	MD		PhraseCat=VP
-19	och	och	CCONJ	_	_	7	det		PhraseCat=KoP
+19	och	och	CCONJ	_	_	21	cc		PhraseCat=KoP
 20	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	21	cop		NewHead=21|PhraseCat=S
 21	BEREDD	beredd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	7	conj		PhraseCat=S|SpaceAfter=No
 22	!	!	PUNCT	_	_	7	punct		PhraseCat=Top
@@ -10386,7 +10386,7 @@
 8	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	9	nsubj		PhraseCat=S
 9	blev	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 10	våfflor	våffla	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	xcomp		PhraseCat=S
-11	och	och	CCONJ	_	_	4	det		PhraseCat=KoP
+11	och	och	CCONJ	_	_	13	cc		PhraseCat=KoP
 12	Ida	Ida	PROPN	_	Case=Nom	13	nsubj		PhraseCat=S
 13	kom	komma	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 14	också	också	ADV	_	_	13	MD		PhraseCat=S
@@ -11840,7 +11840,7 @@
 11	20	20	NUM	_	NumType=Card	12	det		PhraseCat=NP|SpaceAfter=No
 12	%	%	SYM	_	_	9	MD		PhraseCat=NP|SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-14	så	så	CCONJ	_	_	4	det		PhraseCat=KoP
+14	så	så	CCONJ	_	_	16	cc		PhraseCat=KoP
 15	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	16	nsubj		PhraseCat=S
 16	blev	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 17	ca	cirka	ADV	_	Abbr=Yes	18	MD		PhraseCat=NuP
@@ -12108,7 +12108,7 @@
 1	Den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj		PhraseCat=NP
 2	som	som	SCONJ	_	_	3	mark		NewHead=3|PhraseCat=SuP
 3	gissar	gissa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	MD		PhraseCat=S
-4	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	6	det		PhraseCat=SuP
+4	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	6	PH		PhraseCat=SuP
 5	som	som	SCONJ	_	_	6	mark		NewHead=6|PhraseCat=SuP
 6	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	obj		PhraseCat=S
 7	på	på	ADP	_	_	9	case		NewHead=9|PhraseCat=PP
@@ -12536,7 +12536,7 @@
 15	inte	inte	PART	_	Polarity=Neg	14	MD		PhraseCat=S
 16	Ipren	Ipren	PROPN	_	Case=Nom	14	obj		PhraseCat=S|SpaceAfter=No
 17	,	,	PUNCT	_	_	1	punct		PhraseCat=Top
-18	så	så	CCONJ	_	_	10	det		PhraseCat=KoP
+18	så	så	CCONJ	_	_	19	cc		PhraseCat=KoP
 19	somnade	somna	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	conj		PhraseCat=S
 20	om	om	ADP	_	_	19	compound:prt		PhraseCat=S|SpaceAfter=No
 21	.	.	PUNCT	_	_	1	punct		PhraseCat=Top
@@ -13245,7 +13245,7 @@
 13	legat	ligga	VERB	_	VerbForm=Sup|Voice=Act	5	conj		PhraseCat=VP
 14	i	i	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
 15	sängen	säng	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	advmod		PhraseCat=PP
-16	och	och	CCONJ	_	_	5	det		PhraseCat=KoP
+16	och	och	CCONJ	_	_	17	cc		PhraseCat=KoP
 17	kollat	kolla	VERB	_	VerbForm=Sup|Voice=Act	5	conj		PhraseCat=VP
 18	på	på	ADP	_	_	19	case		NewHead=19|PhraseCat=PP
 19	tv	television	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	MD		PhraseCat=PP
@@ -13272,7 +13272,7 @@
 3	och	och	CCONJ	_	_	4	cc		PhraseCat=KoP
 4	tvätta	tvätta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	conj		PhraseCat=S
 5	ansiktet	ansikte	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	obj		PhraseCat=S
-6	och	och	CCONJ	_	_	1	det		PhraseCat=KoP
+6	och	och	CCONJ	_	_	7	cc		PhraseCat=KoP
 7	sitter	sitta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj		PhraseCat=S
 8	nu	nu	ADV	_	_	7	MD		PhraseCat=S
 9	med	med	ADP	_	_	11	case		NewHead=11|PhraseCat=PP
@@ -13384,7 +13384,7 @@
 14	recensionsdag	recensionsdag	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nsubj		PhraseCat=S
 15	ännu	ännu	ADV	_	_	12	MD		PhraseCat=S|SpaceAfter=No
 16	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-17	så	så	CCONJ	_	_	2	det		PhraseCat=KoP
+17	så	så	CCONJ	_	_	21	cc		PhraseCat=KoP
 18	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	nsubj		PhraseCat=S
 19	får	få	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	21	aux		NewHead=21|PhraseCat=S
 20	inte	inte	PART	_	Polarity=Neg	21	MD		PhraseCat=S
@@ -13651,7 +13651,7 @@
 20	Lindqvist	Lindqvist	PROPN	_	Case=Nom	19	fixed		ExtXpos=ENM|PhraseCat=S
 21	på	på	ADP	_	_	19	mark		NewHead=19|PhraseCat=PP
 22	tåget	tåg	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	19	obj		PhraseCat=PP
-23	och	och	CCONJ	_	_	5	det		PhraseCat=KoP
+23	och	och	CCONJ	_	_	24	cc		PhraseCat=KoP
 24	släpper	släppa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj		PhraseCat=S
 25	för	för	ADP	_	_	27	case		NewHead=27|PhraseCat=PP
 26	enbart	enbart	ADV	_	_	27	MD		PhraseCat=NP
@@ -13885,7 +13885,7 @@
 28	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	29	det		PhraseCat=NP
 29	miljön	miljö	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	24	advmod		PhraseCat=NP|SpaceAfter=No
 30	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-31	för	för	CCONJ	_	_	4	det		PhraseCat=KoP
+31	för	för	CCONJ	_	_	36	cc		PhraseCat=KoP
 32	inte	inte	PART	_	Polarity=Neg	36	MD		PhraseCat=S
 33	vill	vilja	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	36	aux		NewHead=36|PhraseCat=S
 34	man	man	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Ind	36	nsubj		PhraseCat=S
@@ -14315,7 +14315,7 @@
 25	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
 26	skolgång	skolgång	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	MD		PhraseCat=NP|SpaceAfter=No
 27	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-28	och	och	CCONJ	_	_	11	det		PhraseCat=KoP
+28	och	och	CCONJ	_	_	31	cc		PhraseCat=KoP
 29	definitivt	definitiv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	31	MD		PhraseCat=AbP
 30	inte	inte	PART	_	Polarity=Neg	31	MD		PhraseCat=AbP
 31	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj		PhraseCat=S
@@ -14787,7 +14787,7 @@
 17	etik	etik	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj		PhraseCat=NP
 18	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 19	moral	moral	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj		PhraseCat=NP
-20	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+20	och	och	CCONJ	_	_	21	cc		PhraseCat=KoP
 21	hur	hur	ADV	_	_	2	conj		PhraseCat=SuP
 22	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	26	nsubj		PhraseCat=S
 23	till	till	ADV	_	_	25	fixed		ExtXpos=ABM|PhraseCat=S
@@ -14845,7 +14845,7 @@
 13	typiska	typisk	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	MD		PhraseCat=NP
 14	tonårsgrejer	tonårsgrej	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	obj		PhraseCat=NP|SpaceAfter=No
 15	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
-16	men	men	CCONJ	_	_	3	det		PhraseCat=KoP
+16	men	men	CCONJ	_	_	20	cc		PhraseCat=KoP
 17	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	20	nsubj		PhraseCat=S
 18	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	20	cop		NewHead=20|PhraseCat=S
 19	inte	inte	PART	_	Polarity=Neg	20	MD		PhraseCat=S
@@ -15073,7 +15073,7 @@
 27	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	28	nsubj		PhraseCat=S
 28	lever	leva	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	MD		PhraseCat=S
 29	i	i	ADP	_	_	28	advmod		PhraseCat=PP
-30	och	och	CCONJ	_	_	16	det		PhraseCat=KoP
+30	och	och	CCONJ	_	_	32	cc		PhraseCat=KoP
 31	faktiskt	faktiskt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	32	MD		PhraseCat=S
 32	handlar	handla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj		PhraseCat=S
 33	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	32	MD		PhraseCat=S
@@ -15190,7 +15190,7 @@
 37	till	till	ADP	_	_	38	case		NewHead=38|PhraseCat=PP
 38	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	35	JF		PhraseCat=PP|SpaceAfter=No
 39	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-40	så	så	CCONJ	_	_	4	det		PhraseCat=KoP
+40	så	så	CCONJ	_	_	42	cc		PhraseCat=KoP
 41	nu	nu	ADV	_	_	42	MD		PhraseCat=S
 42	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 43	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	42	nsubj		PhraseCat=S
@@ -15485,7 +15485,7 @@
 28	tid	tid	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	MD		PhraseCat=PP|SpaceAfter=No
 29	”	”	PUNCT	_	_	6	punct		PhraseCat=Top|SpaceAfter=No
 30	,	,	PUNCT	_	_	6	punct		PhraseCat=Top
-31	så	så	CCONJ	_	_	6	det		PhraseCat=KoP
+31	så	så	CCONJ	_	_	34	cc		PhraseCat=KoP
 32	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	34	nsubj		PhraseCat=S
 33	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	34	cop		NewHead=34|PhraseCat=S
 34	försiktig	försiktig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	conj		PhraseCat=AjP
@@ -15873,7 +15873,7 @@
 14	youtube	youtube	PROPN	_	Case=Nom	12	MD		PhraseCat=PP
 15	till	till	ADP	_	_	16	case		NewHead=16|PhraseCat=PP
 16	Viggo	Viggo	PROPN	_	Case=Nom	12	MD		PhraseCat=PP
-17	å	och	CCONJ	_	_	4	det		PhraseCat=KoP
+17	å	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 18	sen	sen	ADV	_	_	19	MD		PhraseCat=AjP
 19	framkopplad	framkopplad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	4	conj		PhraseCat=AjP
 20	igen	igen	ADV	_	_	19	MD		PhraseCat=AjP|SpaceAfter=No
@@ -15911,7 +15911,7 @@
 28	hela	hel	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	25	MD		PhraseCat=NP|SpaceAfter=No
 29	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
 30	återkommer	återkomma	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj		PhraseCat=S
-31	å	och	CCONJ	_	_	12	det		PhraseCat=KoP
+31	å	och	CCONJ	_	_	32	cc		PhraseCat=KoP
 32	konstaterar	konstatera	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj		PhraseCat=S
 33	att	att	SCONJ	_	_	35	mark		NewHead=35|PhraseCat=SuP
 34	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	35	nsubj		PhraseCat=S
@@ -16016,7 +16016,7 @@
 2	timme	timme	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	MD		PhraseCat=NP
 3	senare	sen	ADJ	_	Case=Nom|Degree=Cmp	0	root		PhraseCat=AjP
 4	än	än	SCONJ	_	_	8	mark		NewHead=8|PhraseCat=SuP
-5	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	8	det		PhraseCat=SuP
+5	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	8	PH		PhraseCat=SuP
 6	som	som	SCONJ	_	_	8	mark		NewHead=7|PhraseCat=SuP
 7	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	8	cop		NewHead=8|PhraseCat=S
 8	tanken	tanke	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	JF		PhraseCat=S
@@ -16144,7 +16144,7 @@
 21	började	börja	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 22	lacka	lacka	VERB	_	VerbForm=Inf|Voice=Act	21	IV		PhraseCat=VP
 23	ur	ur	ADP	_	_	22	compound:prt		PhraseCat=VP
-24	så	så	CCONJ	_	_	4	det		PhraseCat=KoP
+24	så	så	CCONJ	_	_	26	cc		PhraseCat=KoP
 25	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	26	nsubj		PhraseCat=S
 26	styrde	styra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 27	mot	mot	ADP	_	_	28	case		NewHead=28|PhraseCat=PP
@@ -16304,7 +16304,7 @@
 23	av	av	ADP	_	_	24	case		NewHead=24|PhraseCat=PP
 24	El	El	X	_	Foreign=Yes	22	MD		ExtXpos=UOM|PhraseCat=PP
 25	coto:n	coto:n	X	_	Foreign=Yes	24	fixed		ExtXpos=UOM|PhraseCat=PP
-26	å	och	CCONJ	_	_	4	det		PhraseCat=KoP
+26	å	och	CCONJ	_	_	27	cc		PhraseCat=KoP
 27	slappar	slappa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 28	nu	nu	ADV	_	_	27	MD		PhraseCat=S
 29	i	i	ADP	_	_	30	case		NewHead=30|PhraseCat=PP
@@ -16360,7 +16360,7 @@
 9	kalas	kalas	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	conj		PhraseCat=PP
 10	på	på	ADP	_	_	11	case		NewHead=11|PhraseCat=PP
 11	Hasslö	Hasslö	PROPN	_	Case=Nom	9	advmod		PhraseCat=PP
-12	å	och	CCONJ	_	_	5	det		PhraseCat=KoP
+12	å	och	CCONJ	_	_	17	cc		PhraseCat=KoP
 13	på	på	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
 14	kvällen	kväll	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	MD		PhraseCat=PP
 15	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	17	aux		NewHead=17|PhraseCat=S
@@ -16571,7 +16571,7 @@
 17	från	från	ADP	_	_	19	case		NewHead=19|PhraseCat=PP
 18	pappas	pappa	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	19	det		PhraseCat=NP
 19	sida	sida	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	MD		PhraseCat=NP
-20	å	och	CCONJ	_	_	7	det		PhraseCat=KoP
+20	å	och	CCONJ	_	_	21	cc		PhraseCat=KoP
 21	visade	visa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	conj		PhraseCat=S
 22	sej	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	21	obj		PhraseCat=S
 23	va	vara	AUX	_	VerbForm=Inf|Voice=Act	25	cop		NewHead=25|PhraseCat=VP
@@ -16858,7 +16858,7 @@
 18	ändå	ändå	ADV	_	_	20	MD		PhraseCat=S
 19	jämte	jämte	ADP	_	_	20	case		NewHead=20|PhraseCat=PP
 20	mej	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	conj		PhraseCat=PP
-21	å	och	CCONJ	_	_	15	det		PhraseCat=KoP
+21	å	och	CCONJ	_	_	25	cc		PhraseCat=KoP
 22	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	25	nsubj		PhraseCat=S
 23	liksom	liksom	ADV	_	_	25	MD		PhraseCat=S
 24	får	få	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	25	aux		NewHead=25|PhraseCat=S
@@ -17041,7 +17041,7 @@
 28	liten	liten	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	29	MD		PhraseCat=NP
 29	dammsugare	dammsugare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	conj		PhraseCat=NP|SpaceAfter=No
 30	(	(	PUNCT	_	_	1	punct		PhraseCat=Top|SpaceAfter=No
-31	å	och	CCONJ	_	_	24	det		PhraseCat=KoP
+31	å	och	CCONJ	_	_	32	cc		PhraseCat=KoP
 32	grillpannan	grillpanna	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	24	conj		PhraseCat=NP
 33	från	från	ADP	_	_	34	case	32:MD|29:|24:	NewHead=34|PhraseCat=PP
 34	Martin	Martin	PROPN	_	Case=Nom	32	MD		PhraseCat=KoP
@@ -17544,7 +17544,7 @@
 12	fromt	from	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	MD		PhraseCat=NP
 13	lamm	lamm	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	JF		PhraseCat=NP|SpaceAfter=No
 14	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-15	å	och	CCONJ	_	_	2	det		PhraseCat=KoP
+15	å	och	CCONJ	_	_	17	cc		PhraseCat=KoP
 16	bägge	bägge	PRON	_	Definite=Def|Number=Plur|PronType=Tot	17	nsubj		PhraseCat=S
 17	åt	äta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 18	varm	varm	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	MD		PhraseCat=NP
@@ -17574,7 +17574,7 @@
 12	tröja	tröja	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	conj		PhraseCat=NP
 13	till	till	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
 14	dem	de	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	12	MD		PhraseCat=PP
-15	å	och	CCONJ	_	_	5	det		PhraseCat=KoP
+15	å	och	CCONJ	_	_	16	cc		PhraseCat=KoP
 16	strumpor	strumpa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	conj		PhraseCat=NP
 17	å	och	CCONJ	_	_	18	cc		PhraseCat=KoP
 18	ögonskuggor	ögonskugga	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	conj		PhraseCat=NP
@@ -17978,7 +17978,7 @@
 27	storebror	storebror	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	obj		PhraseCat=VP
 28	med	med	ADP	_	_	29	case		NewHead=29|PhraseCat=PP
 29	sej	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	26	MD		PhraseCat=PP
-30	å	och	CCONJ	_	_	2	det		PhraseCat=KoP
+30	å	och	CCONJ	_	_	37	cc		PhraseCat=KoP
 31	separationen	separation	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	37	nsubj	34:SB|35:	PhraseCat=NP
 32	från	från	ADP	_	_	33	case		NewHead=33|PhraseCat=PP
 33	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	31	MD		PhraseCat=PP
@@ -18292,7 +18292,7 @@
 3	mormor	mormor	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseCat=KoP
 4	å	och	CCONJ	_	_	5	cc		PhraseCat=KoP
 5	skogen	skog	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	conj		PhraseCat=KoP
-6	å	och	CCONJ	_	_	1	det		PhraseCat=KoP
+6	å	och	CCONJ	_	_	7	cc		PhraseCat=KoP
 7	soppa	soppa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseCat=KoP|SpaceAfter=No
 8	!	!	PUNCT	_	_	1	punct		PhraseCat=Top
 9	:D	:D	SYM	_	_	1	--		PhraseCat=Top
@@ -18825,7 +18825,7 @@
 9	försöker	försöka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj		PhraseCat=S
 10	äta	äta	VERB	_	VerbForm=Inf|Voice=Act	9	IV		PhraseCat=VP
 11	i fatt	ifatt	ADV	_	_	10	compound:prt		PhraseCat=VP
-12	å	och	CCONJ	_	_	1	det		PhraseCat=KoP
+12	å	och	CCONJ	_	_	13	cc		PhraseCat=KoP
 13	slippa	slippa	VERB	_	VerbForm=Inf|Voice=Act	1	conj		PhraseCat=VP
 14	känna	känna	VERB	_	VerbForm=Inf|Voice=Act	13	IV		PhraseCat=VP
 15	min	jag	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	16	det		PhraseCat=NP
@@ -19266,7 +19266,7 @@
 14	slut	slut	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obj		PhraseCat=NP
 15	på	på	ADP	_	_	16	case		NewHead=16|PhraseCat=PP
 16	Kalmarunionen	Kalmarunionen	PROPN	_	Case=Nom	14	MD		PhraseCat=PP
-17	och	och	CCONJ	_	_	9	det		PhraseCat=KoP
+17	och	och	CCONJ	_	_	18	cc		PhraseCat=KoP
 18	gjorde	göra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	conj		PhraseCat=S
 19	Sverige	Sverige	PROPN	_	Case=Nom	18	obj		PhraseCat=S
 20	till	till	ADP	_	_	23	case		NewHead=23|PhraseCat=PP
@@ -19866,7 +19866,7 @@
 15	i	i	ADP	_	_	16	case		NewHead=16|PhraseCat=PP
 16	morgon	morgon	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nsubj		PhraseCat=PP|SpaceAfter=No
 17	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-18	men	men	CCONJ	_	_	4	det		PhraseCat=KoP
+18	men	men	CCONJ	_	_	23	cc		PhraseCat=KoP
 19	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	nsubj		PhraseCat=S
 20	kan	kunna	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	23	aux		NewHead=23|PhraseCat=S
 21	förståss	förstås	ADV	_	_	23	MD		PhraseCat=AbP
@@ -20172,7 +20172,7 @@
 6	i	i	ADP	_	_	8	mark		NewHead=7|PhraseCat=S|PromotedHead=Yes
 7	med	med	ADP	_	_	8	case		NewHead=8|PhraseCat=PP
 8	frukost	frukost	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseCat=PP
-9	och	och	CCONJ	_	_	1	det		PhraseCat=KoP
+9	och	och	CCONJ	_	_	11	cc		PhraseCat=KoP
 10	sen	sen	ADV	_	_	11	MD		PhraseCat=S
 11	packade	packa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	conj		PhraseCat=S
 12	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj		PhraseCat=S
@@ -20444,7 +20444,7 @@
 6	blev	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 7	tyst	tyst	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	xcomp		PhraseCat=S|SpaceAfter=No
 8	:-)	:-)	SYM	_	_	2	--		PhraseCat=Top
-9	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+9	och	och	CCONJ	_	_	11	cc		PhraseCat=KoP
 10	fick	få	AUX	_	Mood=Ind|Tense=Past|Voice=Act	11	aux		NewHead=11|PhraseCat=S
 11	säga	säga	VERB	_	VerbForm=Inf|Voice=Act	2	conj		PhraseCat=VP
 12	åt	åt	ADP	_	_	11	compound:prt		PhraseCat=VP
@@ -20558,7 +20558,7 @@
 57	att	att	PART	_	_	58	mark		NewHead=58|PhraseCat=SuP
 58	klä	klä	VERB	_	VerbForm=Inf|Voice=Act	55	IV		PhraseCat=VP
 59	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	58	obj		PhraseCat=VP
-60	och	och	CCONJ	_	_	42	det		PhraseCat=KoP
+60	och	och	CCONJ	_	_	61	cc		PhraseCat=KoP
 61	ut	ut	ADV	_	_	42	conj		PhraseCat=S|PromotedHead=Yes
 62	på	på	ADP	_	_	64	case		NewHead=64|PhraseCat=PP
 63	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	64	det		PhraseCat=NP
@@ -20747,7 +20747,7 @@
 25	kan	kunna	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	26	aux		NewHead=26|PhraseCat=S
 26	uppföra	uppföra	VERB	_	VerbForm=Inf|Voice=Act	23	conj		PhraseCat=VP
 27	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	26	obj		PhraseCat=VP
-28	och	och	CCONJ	_	_	23	det		PhraseCat=KoP
+28	och	och	CCONJ	_	_	29	cc		PhraseCat=KoP
 29	lyssna	lyssna	VERB	_	VerbForm=Inf|Voice=Act	23	conj		PhraseCat=VP
 30	på	på	ADP	_	_	31	mark		NewHead=31|PhraseCat=PP
 31	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	29	MD		PhraseCat=SuP
@@ -20864,7 +20864,7 @@
 21	ännu	ännu	ADV	_	_	22	MD		PhraseCat=AbP
 22	ringt	ringa	VERB	_	VerbForm=Sup|Voice=Act	14	conj		PhraseCat=VP
 23	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	22	obj		PhraseCat=VP
-24	och	och	CCONJ	_	_	7	det		PhraseCat=KoP
+24	och	och	CCONJ	_	_	27	cc		PhraseCat=KoP
 25	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	27	nsubj		PhraseCat=S
 26	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	27	aux		NewHead=27|PhraseCat=S
 27	ringa	ringa	VERB	_	VerbForm=Inf|Voice=Act	7	conj		PhraseCat=VP
@@ -20922,7 +20922,7 @@
 14	ta	ta	VERB	_	VerbForm=Inf|Voice=Act	3	conj		PhraseCat=VP
 15	bussen	buss	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	obj		PhraseCat=VP
 16	till	till	ADV	_	_	14	MD		PhraseCat=VP
-17	och	och	CCONJ	_	_	3	det		PhraseCat=KoP
+17	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 18	hela	hel	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	19	nsubj		PhraseCat=NP|PromotedHead=Yes
 19	tog	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 20	4	4	NUM	_	NumType=Card	21	det		PhraseCat=NP
@@ -21138,7 +21138,7 @@
 # text = Resten av vad som hände kommer i morgon är så trött att jag ser i kors.
 1	Resten	rest	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nsubj		PhraseCat=NP
 2	av	av	ADP	_	_	5	mark		NewHead=5|PhraseCat=PP
-3	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	5	det		PhraseCat=SuP
+3	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	5	PH		PhraseCat=SuP
 4	som	som	SCONJ	_	_	5	mark		NewHead=5|PhraseCat=SuP
 5	hände	hända	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	MD		PhraseCat=S
 6	kommer	komma	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
@@ -21567,7 +21567,7 @@
 43	bodde	bo	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	29	conj		PhraseCat=S
 44	på	på	ADP	_	_	45	case		NewHead=45|PhraseCat=PP
 45	hotell	hotell	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	43	advcl		PhraseCat=PP
-46	och	och	CCONJ	_	_	29	det		PhraseCat=KoP
+46	och	och	CCONJ	_	_	47	cc		PhraseCat=KoP
 47	gick	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	29	conj		PhraseCat=S
 48	på	på	ADP	_	_	49	case		NewHead=49|PhraseCat=PP
 49	skara	skara	PROPN	_	Case=Nom	47	advcl		ExtXpos=ENM|PhraseCat=PP
@@ -21596,7 +21596,7 @@
 72	ut	ut	ADV	_	_	71	compound:prt		PhraseCat=VP
 73	och	och	CCONJ	_	_	74	cc		PhraseCat=KoP
 74	äta	äta	VERB	_	VerbForm=Inf|Voice=Act	71	conj		PhraseCat=VP
-75	och	och	CCONJ	_	_	71	det		PhraseCat=KoP
+75	och	och	CCONJ	_	_	76	cc		PhraseCat=KoP
 76	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	71	conj		PhraseCat=VP
 77	runt	runt	ADP	_	_	76	compound:prt		PhraseCat=VP
 78	i	i	ADP	_	_	79	case		NewHead=79|PhraseCat=PP
@@ -21606,12 +21606,12 @@
 82	aldrig	aldrig	ADV	_	_	83	MD		PhraseCat=S
 83	varit	vara	VERB	_	VerbForm=Sup|Voice=Act	79	MD		PhraseCat=VP
 84	förut	förut	ADV	_	_	83	MD		PhraseCat=VP
-85	och	och	CCONJ	_	_	71	det		PhraseCat=KoP
+85	och	och	CCONJ	_	_	89	cc		PhraseCat=KoP
 86	sen	sen	ADV	_	_	89	MD		PhraseCat=VP
 87	tillbaka	tillbaka	ADV	_	_	89	MD		PhraseCat=PP
 88	till	till	ADP	_	_	89	case		NewHead=89|PhraseCat=PP
 89	hotellet	hotell	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	71	conj		PhraseCat=PP
-90	och	och	CCONJ	_	_	71	det		PhraseCat=KoP
+90	och	och	CCONJ	_	_	91	cc		PhraseCat=KoP
 91	somna	somna	VERB	_	VerbForm=Inf|Voice=Act	71	conj		PhraseCat=VP
 92	i	i	ADP	_	_	95	case		NewHead=95|PhraseCat=PP
 93	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	95	det		PhraseCat=NP
@@ -21619,7 +21619,7 @@
 95	säng	säng	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	91	MD		PhraseCat=NP
 96	sen	sen	ADV	_	_	97	MD		PhraseCat=VP
 97	vakna	vakna	VERB	_	VerbForm=Inf|Voice=Act	71	conj		PhraseCat=VP
-98	och	och	CCONJ	_	_	71	det		PhraseCat=KoP
+98	och	och	CCONJ	_	_	99	cc		PhraseCat=KoP
 99	äta	äta	VERB	_	VerbForm=Inf|Voice=Act	71	conj		PhraseCat=VP
 100	frukost	frukost	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	99	obj		PhraseCat=NP
 101	som	som	SCONJ	_	_	104	mark		NewHead=102|PhraseCat=SuP
@@ -21712,7 +21712,7 @@
 35	operera	operera	VERB	_	VerbForm=Inf|Voice=Act	31	obj		PhraseCat=VP
 36	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	35	obj		PhraseCat=VP|SpaceAfter=No
 37	,	,	PUNCT	_	_	8	punct		PhraseCat=Top
-38	så	så	CCONJ	_	_	16	det		PhraseCat=KoP
+38	så	så	CCONJ	_	_	40	cc		PhraseCat=KoP
 39	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	40	nsubj		PhraseCat=S
 40	trodde	tro	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	16	conj		PhraseCat=S
 41	bara	bara	ADV	_	_	40	MD		PhraseCat=S
@@ -21747,7 +21747,7 @@
 70	sen	sen	ADV	_	_	71	MD		PhraseCat=VP
 71	åka	åka	VERB	_	VerbForm=Inf|Voice=Act	65	MD		PhraseCat=VP
 72	hem	hem	ADV	_	_	71	advmod		PhraseCat=VP
-73	och	och	CCONJ	_	_	50	det		PhraseCat=KoP
+73	och	och	CCONJ	_	_	77	cc		PhraseCat=KoP
 74	i	i	ADP	_	_	76	case		NewHead=76|PhraseCat=PP
 75	min	jag	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	76	det		PhraseCat=NP
 76	fantasi	fantasi	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	77	MD		PhraseCat=NP
@@ -21759,7 +21759,7 @@
 82	gör	göra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	78	JF		PhraseCat=S
 83	nu	nu	ADV	_	_	82	MD		PhraseCat=S|SpaceAfter=No
 84	:(	:(	SYM	_	_	8	--		PhraseCat=Top
-85	men	men	CCONJ	_	_	50	det		PhraseCat=KoP
+85	men	men	CCONJ	_	_	88	cc		PhraseCat=KoP
 86	min	jag	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	87	det		PhraseCat=NP
 87	fantasi	fantasi	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	88	nsubj		PhraseCat=NP
 88	sprack	spricka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	50	conj		PhraseCat=S
@@ -21812,7 +21812,7 @@
 20	följa	följa	VERB	_	VerbForm=Inf|Voice=Act	16	obj		PhraseCat=VP
 21	med	med	ADP	_	_	20	compound:prt		PhraseCat=VP|SpaceAfter=No
 22	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-23	men	men	CCONJ	_	_	2	det		PhraseCat=KoP
+23	men	men	CCONJ	_	_	29	cc		PhraseCat=KoP
 24	min	jag	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	26	det		PhraseCat=NP
 25	underbara	underbar	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	26	MD		PhraseCat=NP
 26	prins	prins	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	nsubj		PhraseCat=NP
@@ -21827,7 +21827,7 @@
 2	hem	hem	ADV	_	_	0	root		PhraseCat=S|PromotedHead=Yes
 3	och	och	CCONJ	_	_	4	cc		PhraseCat=KoP
 4	städa	städa	VERB	_	VerbForm=Inf|Voice=Act	2	conj		PhraseCat=S|PromotedHead=Yes
-5	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+5	och	och	CCONJ	_	_	9	cc		PhraseCat=KoP
 6	sen	sen	ADV	_	_	9	MD		PhraseCat=S
 7	tillbaka	tillbaka	ADV	_	_	9	MD		PhraseCat=PP
 8	till	till	ADP	_	_	9	case		NewHead=9|PhraseCat=PP
@@ -22134,7 +22134,7 @@
 10	grannens	granne	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	11	det		PhraseCat=NP
 11	musik	musik	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	MD		PhraseCat=NP|SpaceAfter=No
 12	;)	;)	SYM	_	_	3	--		PhraseCat=Top
-13	och	och	CCONJ	_	_	3	det		PhraseCat=KoP
+13	och	och	CCONJ	_	_	14	cc		PhraseCat=KoP
 14	njuter	njuta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 15	av	av	ADP	_	_	16	case		NewHead=16|PhraseCat=PP
 16	solen	sol	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	MD		PhraseCat=PP|SpaceAfter=No
@@ -22213,13 +22213,13 @@
 9	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	11	cop		NewHead=11|PhraseCat=S
 10	så	så	ADV	_	_	11	MD		PhraseCat=AjP
 11	snälla	snäll	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	conj		PhraseCat=AjP
-12	och	och	CCONJ	_	_	5	det		PhraseCat=KoP
+12	och	och	CCONJ	_	_	13	cc		PhraseCat=KoP
 13	hjälpte	hjälpa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	conj		PhraseCat=S
 14	till	till	ADP	_	_	13	compound:prt		PhraseCat=S
 15	med	med	ADP	_	_	17	case		NewHead=17|PhraseCat=PP
 16	alla	all	DET	_	Definite=Ind|Number=Plur|PronType=Tot	17	det		PhraseCat=NP
 17	pinnar	pinne	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	MD		PhraseCat=NP
-18	så	så	CCONJ	_	_	5	det		PhraseCat=KoP
+18	så	så	CCONJ	_	_	21	cc		PhraseCat=KoP
 19	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	nsubj		PhraseCat=S
 20	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	21	aux		NewHead=21|PhraseCat=S
 21	belöna	belöna	VERB	_	VerbForm=Inf|Voice=Act	5	conj		PhraseCat=VP
@@ -22449,7 +22449,7 @@
 111	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	110	nsubj		PhraseCat=S
 112	städa	städa	VERB	_	VerbForm=Inf|Voice=Act	110	IV		PhraseCat=VP
 113	badrummet	badrum	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	112	obj		PhraseCat=VP
-114	så	så	CCONJ	_	_	88	det		PhraseCat=KoP
+114	så	så	CCONJ	_	_	122	cc		PhraseCat=KoP
 115	när	när	ADV	_	_	122	MD		PhraseCat=SuP
 116	morgontimmen	morgontimme	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	117	nsubj		PhraseCat=S
 117	började	börja	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	115	obj		PhraseCat=S
@@ -22536,7 +22536,7 @@
 18	började	börja	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 19	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	18	nsubj		PhraseCat=S
 20	snöa	snöa	VERB	_	VerbForm=Inf|Voice=Act	18	IV		PhraseCat=VP
-21	och	och	CCONJ	_	_	3	det		PhraseCat=KoP
+21	och	och	CCONJ	_	_	24	cc		PhraseCat=KoP
 22	vid	vid	ADP	_	_	23	case		NewHead=23|PhraseCat=PP
 23	start	start	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	MD		PhraseCat=PP
 24	hade	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
@@ -22544,7 +22544,7 @@
 26	noll	noll	NUM	_	NumType=Card	27	det		PhraseCat=NP
 27	mottagning	mottagning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obj		PhraseCat=NP|SpaceAfter=No
 28	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
-29	så	så	CCONJ	_	_	3	det		PhraseCat=KoP
+29	så	så	CCONJ	_	_	31	cc		PhraseCat=KoP
 30	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	31	nsubj		PhraseCat=S
 31	blev	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 32	inga	ingen	DET	_	Definite=Ind|Number=Plur|PronType=Neg	33	det		PhraseCat=NP
@@ -22581,7 +22581,7 @@
 17	extremt	extremt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	MD		PhraseCat=AjP
 18	klängning	klängig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Typo=Yes	2	conj		CorrectForm=klängig|PhraseCat=AjP|SpaceAfter=No
 19	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-20	så	så	CCONJ	_	_	2	det		PhraseCat=KoP
+20	så	så	CCONJ	_	_	24	cc		PhraseCat=KoP
 21	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	24	nsubj		PhraseCat=S
 22	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	24	cop		NewHead=24|PhraseCat=S
 23	helt	helt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	MD		PhraseCat=AjP
@@ -22640,7 +22640,7 @@
 47	hem	hem	ADV	_	_	46	advmod		PhraseCat=VP
 48	dig	du	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	46	obj		PhraseCat=VP|SpaceAfter=No
 49	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
-50	för	för	CCONJ	_	_	36	det		PhraseCat=KoP
+50	för	för	CCONJ	_	_	52	cc		PhraseCat=KoP
 51	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	52	nsubj		PhraseCat=S
 52	är	vara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	36	conj		PhraseCat=S
 53	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	54	det		PhraseCat=NP
@@ -22660,7 +22660,7 @@
 5	la	lägga	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 6	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	5	obj		PhraseCat=S|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
-8	och	och	CCONJ	_	_	3	det		PhraseCat=KoP
+8	och	och	CCONJ	_	_	9	cc		PhraseCat=KoP
 9	vaknade	vakna	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 10	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	11	det		PhraseCat=NP
 11	timma	timma	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	MD		PhraseCat=NP
@@ -22668,12 +22668,12 @@
 13	med	med	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
 14	hög	hög	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	MD		PhraseCat=NP
 15	feber	feber	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	MD		PhraseCat=NP
-16	och	och	CCONJ	_	_	3	det		PhraseCat=KoP
+16	och	och	CCONJ	_	_	17	cc		PhraseCat=KoP
 17	skakade	skaka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 18	som	som	SCONJ	_	_	20	mark		NewHead=20|PhraseCat=SuP
 19	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det		PhraseCat=NP
 20	asplöv	asplöv	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	JF		PhraseCat=NP
-21	så	så	CCONJ	_	_	3	det		PhraseCat=KoP
+21	så	så	CCONJ	_	_	23	cc		PhraseCat=KoP
 22	nu	nu	ADV	_	_	23	MD		PhraseCat=S
 23	blev	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 24	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	23	nsubj		PhraseCat=S
@@ -22746,7 +22746,7 @@
 10	till	till	ADP	_	_	11	case		NewHead=11|PhraseCat=PP
 11	psykologen	psykolog	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	advmod		PhraseCat=PP|SpaceAfter=No
 12	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
-13	och	och	CCONJ	_	_	3	det		PhraseCat=KoP
+13	och	och	CCONJ	_	_	15	cc		PhraseCat=KoP
 14	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	nsubj		PhraseCat=S
 15	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 16	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	17	det		PhraseCat=NP
@@ -22792,7 +22792,7 @@
 56	inte	inte	PART	_	Polarity=Neg	55	MD		PhraseCat=S
 57	helt	helt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	58	MD		PhraseCat=AjP
 58	enkelt	enkelt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	55	MD		PhraseCat=AjP
-59	och	och	CCONJ	_	_	36	det		PhraseCat=KoP
+59	och	och	CCONJ	_	_	65	cc		PhraseCat=KoP
 60	om	om	SCONJ	_	_	63	mark		NewHead=63|PhraseCat=SuP
 61	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	63	nsubj		PhraseCat=S
 62	måste	måste	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	63	aux		NewHead=63|PhraseCat=S
@@ -22819,12 +22819,12 @@
 12	utvärdera	utvärdera	VERB	_	VerbForm=Inf|Voice=Act	4	conj		PhraseCat=VP
 13	behandlingen	behandling	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obj		PhraseCat=VP|SpaceAfter=No
 14	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-15	och	och	CCONJ	_	_	4	det		PhraseCat=KoP
+15	och	och	CCONJ	_	_	16	cc		PhraseCat=KoP
 16	göra	göra	VERB	_	VerbForm=Inf|Voice=Act	4	conj		PhraseCat=VP
 17	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	19	det		PhraseCat=NP
 18	ny	ny	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	MD		PhraseCat=NP
 19	plan	plan	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obj		PhraseCat=NP
-20	samt	samt	CCONJ	_	_	4	det		PhraseCat=KoP
+20	samt	samt	CCONJ	_	_	21	cc		PhraseCat=KoP
 21	diskutera	diskutera	VERB	_	VerbForm=Inf|Voice=Act	4	conj		PhraseCat=VP
 22	framtiden	framtid	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	obj		PhraseCat=VP|SpaceAfter=No
 23	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
@@ -22854,13 +22854,13 @@
 47	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	41	conj		PhraseCat=VP
 48	på	på	ADP	_	_	49	case		NewHead=49|PhraseCat=PP
 49	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	47	MD		PhraseCat=PP
-50	men	men	CCONJ	_	_	41	det		PhraseCat=KoP
+50	men	men	CCONJ	_	_	51	cc		PhraseCat=KoP
 51	vet	veta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	41	conj		PhraseCat=S
 52	inte	inte	PART	_	Polarity=Neg	51	MD		PhraseCat=S
 53	om	om	SCONJ	_	_	55	mark		NewHead=55|PhraseCat=SuP
 54	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	55	nsubj		PhraseCat=S
 55	orkar	orka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	51	obj		PhraseCat=S
-56	för	för	CCONJ	_	_	41	det		PhraseCat=KoP
+56	för	för	CCONJ	_	_	59	cc		PhraseCat=KoP
 57	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	59	nsubj		PhraseCat=S
 58	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	59	aux		NewHead=59|PhraseCat=S
 59	haft	ha	VERB	_	VerbForm=Sup|Voice=Act	41	conj		PhraseCat=VP
@@ -24503,7 +24503,7 @@
 1	Vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	2	nsubj		PhraseCat=S
 2	vet	veta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 3	inte	inte	PART	_	Polarity=Neg	2	MD		PhraseCat=S
-4	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	6	det		PhraseCat=SuP
+4	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	6	PH		PhraseCat=SuP
 5	som	som	SCONJ	_	_	6	mark		NewHead=6|PhraseCat=SuP
 6	händer	hända	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	obj		PhraseCat=S|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
@@ -25128,7 +25128,7 @@
 22	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	23	det		PhraseCat=NP
 23	debatten	debatt	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	MD		PhraseCat=NP|SpaceAfter=No
 24	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-25	för	för	CCONJ	_	_	4	det		PhraseCat=KoP
+25	för	för	CCONJ	_	_	33	cc		PhraseCat=KoP
 26	pressen	press	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	33	nsubj		PhraseCat=KoP
 27	och	och	CCONJ	_	_	28	cc	29:SB|33:	PhraseCat=KoP
 28	Internet	internet	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	26	conj		PhraseCat=KoP
@@ -25142,7 +25142,7 @@
 36	alla	all	DET	_	Definite=Ind|Number=Plur|PronType=Tot	37	det		PhraseCat=NP
 37	medborgare	medborgare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	33	MD		PhraseCat=NP|SpaceAfter=No
 38	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-39	och	och	CCONJ	_	_	4	det		PhraseCat=KoP
+39	och	och	CCONJ	_	_	44	cc		PhraseCat=KoP
 40	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	44	nsubj		PhraseCat=S
 41	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	44	aux		NewHead=44|PhraseCat=S
 42	inte	inte	PART	_	Polarity=Neg	44	MD		PhraseCat=S
@@ -25859,7 +25859,7 @@
 16	att	att	SCONJ	_	_	18	mark		NewHead=18|PhraseCat=SuP
 17	alls	alls	ADV	_	_	18	MD		PhraseCat=VP
 18	veta	veta	VERB	_	VerbForm=Inf|Voice=Act	4	MD		PhraseCat=VP
-19	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	21	det		PhraseCat=SuP
+19	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	21	PH		PhraseCat=SuP
 20	som	som	SCONJ	_	_	21	mark		NewHead=21|PhraseCat=SuP
 21	ligger	ligga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	obj		PhraseCat=S
 22	bakom	bakom	ADP	_	_	21	compound:prt		PhraseCat=S
@@ -26558,7 +26558,7 @@
 11	liberala	liberal	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	MD		PhraseCat=NP
 12	gruppen	grupp	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	conj		PhraseCat=NP|SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-14	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+14	och	och	CCONJ	_	_	16	cc		PhraseCat=KoP
 15	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj		PhraseCat=S
 16	noterade	notera	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 17	t.o.m.	till_och_med	ADV	_	Abbr=Yes	16	MD		PhraseCat=S|SpaceAfter=No
@@ -27984,7 +27984,7 @@
 41	att	att	PART	_	_	42	mark		NewHead=42|PhraseCat=SuP
 42	bygga	bygga	VERB	_	VerbForm=Inf|Voice=Act	33	nsubj		PhraseCat=VP
 43	upp	upp	ADV	_	_	42	compound:prt		PhraseCat=VP
-44	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	46	det		PhraseCat=SuP
+44	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	46	PH		PhraseCat=SuP
 45	som	som	SCONJ	_	_	46	mark		NewHead=46|PhraseCat=SuP
 46	förstördes	förstöra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	42	obj		PhraseCat=S
 47	vid	vid	ADP	_	_	48	case		NewHead=48|PhraseCat=PP
@@ -33081,7 +33081,7 @@
 22	ståndpunkten	ståndpunkt	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	obj		PhraseCat=NP
 23	i	i	ADP	_	_	24	case		NewHead=24|PhraseCat=PP
 24	handling	handling	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	MD		PhraseCat=PP
-25	och	och	CCONJ	_	_	12	det		PhraseCat=KoP
+25	och	och	CCONJ	_	_	28	cc		PhraseCat=KoP
 26	därmed	därmed	ADV	_	_	28	MD		PhraseCat=S
 27	äntligen	äntligen	ADV	_	_	28	MD		PhraseCat=S
 28	ge	ge	VERB	_	VerbForm=Inf|Voice=Act	12	conj		PhraseCat=VP
@@ -33113,7 +33113,7 @@
 12	i	i	ADP	_	_	13	case		NewHead=13|PhraseCat=PP
 13	Europaparlamentet	Europaparlament	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	advmod		PhraseCat=PP
 14	om	om	ADP	_	_	17	mark		NewHead=17|PhraseCat=PP
-15	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	17	det		PhraseCat=SuP
+15	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	17	PH		PhraseCat=SuP
 16	som	som	SCONJ	_	_	17	mark		NewHead=17|PhraseCat=SuP
 17	anses	anse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	11	MD		PhraseCat=S
 18	vara	vara	AUX	_	VerbForm=Inf|Voice=Act	21	cop		NewHead=21|PhraseCat=VP
@@ -33477,7 +33477,7 @@
 1	Alltför	alltför	ADV	_	_	2	MD		PhraseCat=NP
 2	mycket	mycket	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	nsubj		PhraseCat=NP
 3	av	av	ADP	_	_	6	mark		NewHead=6|PhraseCat=PP
-4	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	6	det		PhraseCat=SuP
+4	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	6	PH		PhraseCat=SuP
 5	som	som	SCONJ	_	_	6	mark		NewHead=6|PhraseCat=SuP
 6	sker	ske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	MD		PhraseCat=S
 7	i	i	ADP	_	_	9	case		NewHead=9|PhraseCat=PP
@@ -34336,7 +34336,7 @@
 13	i	i	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
 14	städerna	stad	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	11	advmod		PhraseCat=PP|SpaceAfter=No
 15	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
-16	något	någon	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	18	det		PhraseCat=SuP
+16	något	någon	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	18	PH		PhraseCat=SuP
 17	som	som	SCONJ	_	_	18	mark		NewHead=18|PhraseCat=SuP
 18	påverkar	påverka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	DF		PhraseCat=S
 19	landsbygden	landsbygd	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	obj		PhraseCat=S
@@ -34586,7 +34586,7 @@
 39	såväl	såväl	CCONJ	_	_	41	cc	37:OA|35:	PhraseCat=KoP
 40	ur	ur	ADP	_	_	41	case		NewHead=41|PhraseCat=PP
 41	jordbrukssynpunkt	jordbrukssynpunkt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	advcl		PhraseCat=PP
-42	som	som	CCONJ	_	_	41	det		PhraseCat=KoP
+42	som	som	CCONJ	_	_	46	cc		PhraseCat=KoP
 43	beträffande	beträffande	ADP	_	_	46	case		NewHead=46|PhraseCat=PP
 44	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	46	det		PhraseCat=NP
 45	öppen	öppen	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	46	MD		PhraseCat=NP
@@ -35391,7 +35391,7 @@
 50	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	52	det		PhraseCat=NP
 51	hållbar	hållbar	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	52	MD		PhraseCat=NP
 52	utveckling	utveckling	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	49	obj		PhraseCat=NP
-53	och	och	CCONJ	_	_	46	det		PhraseCat=KoP
+53	och	och	CCONJ	_	_	55	cc		PhraseCat=KoP
 54	slutligen	slutligen	ADV	_	_	55	MD		PhraseCat=VP
 55	kopplas	koppla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	46	conj		PhraseCat=VP
 56	bort	bort	ADV	_	_	55	compound:prt		PhraseCat=VP
@@ -38901,7 +38901,7 @@
 9	med	med	ADP	_	_	10	case		NewHead=10|PhraseCat=PP
 10	uppfyllandet	uppfyllande	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	advcl		PhraseCat=NP
 11	av	av	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
-12	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	15	det		PhraseCat=SuP
+12	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	15	PH		PhraseCat=SuP
 13	som	som	SCONJ	_	_	15	mark		NewHead=14|PhraseCat=SuP
 14	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	15	cop		NewHead=15|PhraseCat=S
 15	känt	känd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	10	MD		PhraseCat=AjP
@@ -40128,7 +40128,7 @@
 9	och	och	CCONJ	_	_	10	cc		PhraseCat=KoP
 10	visa	visa	VERB	_	VerbForm=Inf|Voice=Act	7	conj		PhraseCat=VP
 11	på	på	ADP	_	_	15	mark		NewHead=15|PhraseCat=PP
-12	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	15	det		PhraseCat=SuP
+12	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	15	PH		PhraseCat=SuP
 13	som	som	SCONJ	_	_	15	mark		NewHead=14|PhraseCat=SuP
 14	bör	böra	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	15	aux		NewHead=15|PhraseCat=S
 15	prioriteras	prioritera	VERB	_	VerbForm=Inf|Voice=Pass	10	advcl		PhraseCat=VP|SpaceAfter=No
@@ -40421,7 +40421,7 @@
 17	ökade	ökad	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	18	MD		PhraseCat=NP
 18	rikedomen	rikedom	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	MD		PhraseCat=NP|SpaceAfter=No
 19	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-20	för	för	CCONJ	_	_	2	det		PhraseCat=KoP
+20	för	för	CCONJ	_	_	24	cc		PhraseCat=KoP
 21	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	24	nsubj		PhraseCat=S
 22	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	24	cop		NewHead=24|PhraseCat=S
 23	inte	inte	PART	_	Polarity=Neg	24	MD		PhraseCat=S
@@ -40429,7 +40429,7 @@
 25	som	som	SCONJ	_	_	26	mark		NewHead=26|PhraseCat=SuP
 26	ökar	öka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:cleft		PhraseCat=S|SpaceAfter=No
 27	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-28	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+28	och	och	CCONJ	_	_	36	cc		PhraseCat=KoP
 29	skillnaderna	skillnad	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	36	nsubj		PhraseCat=NP
 30	i	i	ADP	_	_	33	case		NewHead=33|PhraseCat=PP
 31	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det		PhraseCat=NP
@@ -40457,7 +40457,7 @@
 13	prioritera	prioritera	VERB	_	Mood=Imp|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 14	detta	denna	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	13	obj		PhraseCat=S|SpaceAfter=No
 15	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-16	för	för	CCONJ	_	_	4	det		PhraseCat=KoP
+16	för	för	CCONJ	_	_	19	cc		PhraseCat=KoP
 17	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	19	nsubj		PhraseCat=S
 18	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	19	cop		NewHead=19|PhraseCat=S
 19	där	där	ADV	_	_	4	conj		PhraseCat=S
@@ -40491,7 +40491,7 @@
 18	av	av	ADP	_	_	19	case		NewHead=19|PhraseCat=PP
 19	sysselsättning	sysselsättning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	MD		PhraseCat=PP|SpaceAfter=No
 20	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
-21	för	för	CCONJ	_	_	3	det		PhraseCat=KoP
+21	för	för	CCONJ	_	_	25	cc		PhraseCat=KoP
 22	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	25	nsubj		PhraseCat=S
 23	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	25	cop		NewHead=25|PhraseCat=S
 24	definitivt	definitiv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	MD		PhraseCat=S
@@ -43759,7 +43759,7 @@
 17	regioner	region	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	MD		PhraseCat=KoP
 18	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 19	medlemsländer	medlemsland	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	conj		PhraseCat=KoP
-20	och	och	CCONJ	_	_	17	det		PhraseCat=KoP
+20	och	och	CCONJ	_	_	21	cc		PhraseCat=KoP
 21	kandidatländer	kandidatland	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	conj		PhraseCat=KoP
 22	måste	måste	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	23	aux		NewHead=23|PhraseCat=S
 23	förbättras	förbättra	VERB	_	VerbForm=Inf|Voice=Pass	5	advcl		PhraseCat=VP
@@ -43894,7 +43894,7 @@
 23	uppgifterna	uppgift	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	19	MD		PhraseCat=NP
 24	och	och	CCONJ	_	_	25	cc		PhraseCat=KoP
 25	belyser	belysa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj		PhraseCat=S
-26	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	29	det		PhraseCat=SuP
+26	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	29	PH		PhraseCat=SuP
 27	som	som	SCONJ	_	_	29	mark		NewHead=29|PhraseCat=SuP
 28	hittills	hittills	ADV	_	_	29	MD		PhraseCat=S
 29	åstadkommits	åstadkomma	VERB	_	VerbForm=Sup|Voice=Pass	25	obj		PhraseCat=VP
@@ -43939,7 +43939,7 @@
 25	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	30	cop		NewHead=29|PhraseCat=S
 26	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	30	nsubj		PhraseCat=S
 27	ofta	ofta	ADV	_	Degree=Pos	30	MD		PhraseCat=S
-28	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	30	det		PhraseCat=SuP
+28	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	30	PH		PhraseCat=SuP
 29	som	som	SCONJ	_	_	30	mark		NewHead=30|PhraseCat=SuP
 30	återges	återge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj		PhraseCat=S
 31	i	i	ADP	_	_	32	case		NewHead=32|PhraseCat=PP
@@ -44292,7 +44292,7 @@
 74	även	även	ADV	_	_	76	MD		PhraseCat=PP
 75	av	av	ADP	_	_	76	case		NewHead=76|PhraseCat=PP
 76	företagen	företag	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	71	conj		PhraseCat=PP
-77	och	och	CCONJ	_	_	71	det		PhraseCat=KoP
+77	och	och	CCONJ	_	_	80	cc		PhraseCat=KoP
 78	av	av	ADP	_	_	80	case		NewHead=80|PhraseCat=PP
 79	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	80	det		PhraseCat=NP
 80	enskilde	enskild	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	71	conj		PhraseCat=NP|SpaceAfter=No
@@ -44941,7 +44941,7 @@
 15	ibland	ibland	ADV	_	_	14	fixed		ExtXpos=ABM|PhraseCat=NP
 16	Skandias	Skandia	PROPN	_	Case=Gen	13	appos		PhraseCat=NP|SpaceAfter=No
 17	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-18	men	men	CCONJ	_	_	2	det		PhraseCat=KoP
+18	men	men	CCONJ	_	_	22	cc		PhraseCat=KoP
 19	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	22	aux		NewHead=21|PhraseCat=S
 20	även	även	ADV	_	_	22	MD		PhraseCat=S
 21	varit	vara	AUX	_	VerbForm=Sup|Voice=Act	22	cop		NewHead=22|PhraseCat=VP
@@ -45129,7 +45129,7 @@
 13	förklarat	förklara	VERB	_	VerbForm=Sup|Voice=Act	8	conj		PhraseCat=VP
 14	den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	obj		PhraseCat=VP
 15	illegal	illegal	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	xcomp		PhraseCat=VP
-16	och	och	CCONJ	_	_	8	det		PhraseCat=KoP
+16	och	och	CCONJ	_	_	18	cc		PhraseCat=KoP
 17	polisen	polis	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	nsubj		PhraseCat=S
 18	jagar	jaga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj		PhraseCat=S
 19	nu	nu	ADV	_	_	18	MD		PhraseCat=S
@@ -45380,7 +45380,7 @@
 7	användandet	användande	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	obj		PhraseCat=NP
 8	av	av	ADP	_	_	9	case		NewHead=9|PhraseCat=PP
 9	strejkbrytare	strejkbrytare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	MD		PhraseCat=PP
-10	och	och	CCONJ	_	_	3	det		PhraseCat=KoP
+10	och	och	CCONJ	_	_	11	cc		PhraseCat=KoP
 11	fick	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 12	då	då	ADV	_	_	11	MD		PhraseCat=S
 13	svaret	svar	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	obj		PhraseCat=NP
@@ -45493,7 +45493,7 @@
 22	huvudkontoret	huvudkontor	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	21	obj		PhraseCat=S
 23	med	med	ADP	_	_	24	case		NewHead=24|PhraseCat=PP
 24	tårgas	tårgas	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	MD		PhraseCat=PP
-25	och	och	CCONJ	_	_	11	det		PhraseCat=KoP
+25	och	och	CCONJ	_	_	26	cc		PhraseCat=KoP
 26	slog	slå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	conj		PhraseCat=S
 27	sönder	sönder	ADV	_	_	26	advcl		PhraseCat=S
 28	entrén	entré	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	obj		PhraseCat=S|SpaceAfter=No
@@ -46015,7 +46015,7 @@
 2	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 3	upp	upp	ADV	_	_	2	compound:prt		PhraseCat=S
 4	vilka	vilken	DET	_	Definite=Ind|Number=Plur|PronType=Int,Rel	5	det		PhraseCat=NP
-5	behov	behov	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	7	det		PhraseCat=NP
+5	behov	behov	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	7	PH		PhraseCat=NP
 6	som	som	SCONJ	_	_	7	mark		NewHead=7|PhraseCat=SuP
 7	finns	finnas	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	obj		PhraseCat=S|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
@@ -46264,7 +46264,7 @@
 7	med	med	ADP	_	_	6	compound:prt		PhraseCat=VP
 8	och	och	CCONJ	_	_	9	cc		PhraseCat=KoP
 9	bidra	bidra	VERB	_	VerbForm=Inf|Voice=Act	6	conj		PhraseCat=VP
-10	och	och	CCONJ	_	_	6	det		PhraseCat=KoP
+10	och	och	CCONJ	_	_	11	cc		PhraseCat=KoP
 11	dra	dra	VERB	_	VerbForm=Inf|Voice=Act	6	conj		PhraseCat=VP
 12	nytta	nytta	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj		PhraseCat=NP
 13	av	av	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
@@ -46578,7 +46578,7 @@
 12	med	med	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
 13	flera	flera	ADJ	_	Case=Nom|Degree=Cmp	14	det		PhraseCat=NP
 14	bussar	buss	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	MD		PhraseCat=NP
-15	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+15	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 16	omkring	omkring	ADV	_	_	17	MD		PhraseCat=NuP
 17	35	35	NUM	_	NumType=Card	18	det		PhraseCat=NuP
 18	poliser	polis	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	nsubj		PhraseCat=NP
@@ -48864,7 +48864,7 @@
 9	att	att	PART	_	_	10	mark		NewHead=10|PhraseCat=SuP
 10	analysera	analysera	VERB	_	VerbForm=Inf|Voice=Act	8	MD		PhraseCat=VP
 11	vilka	vilken	DET	_	Definite=Ind|Number=Plur|PronType=Int,Rel	12	det		PhraseCat=NP
-12	effekter	effekt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	28	det	13:PH|29:	PhraseCat=NP
+12	effekter	effekt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	28	PH	13:PH|29:	PhraseCat=NP
 13	som	som	SCONJ	_	_	28	mark		NewHead=27|PhraseCat=SuP
 14	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	15	det		PhraseCat=NP
 15	ändring	ändring	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	nsubj	27:SB|28:	PhraseCat=NP
@@ -49587,7 +49587,7 @@
 3	konsekvenser	konsekvens	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obj		PhraseCat=NP
 4	för	för	ADP	_	_	8	mark		NewHead=8|PhraseCat=PP
 5	varje	varje	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Tot	6	det		PhraseCat=NP
-6	person	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	det	7:PH|8:	PhraseCat=NP
+6	person	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	PH	7:PH|8:	PhraseCat=NP
 7	som	som	SCONJ	_	_	8	mark		NewHead=8|PhraseCat=SuP
 8	drabbas	drabba	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	MD		PhraseCat=S|SpaceAfter=No
 9	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
@@ -51091,7 +51091,7 @@
 30	får	få	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	31	aux		NewHead=31|PhraseCat=S
 31	användas	använda	VERB	_	VerbForm=Inf|Voice=Pass	28	obj		PhraseCat=VP
 32	och	och	CCONJ	_	_	35	cc		PhraseCat=KoP
-33	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	35	det		PhraseCat=SuP
+33	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	35	PH		PhraseCat=SuP
 34	som	som	SCONJ	_	_	35	mark		NewHead=35|PhraseCat=SuP
 35	gäller	gälla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj		PhraseCat=S
 36	enligt	enligt	ADP	_	_	37	case		NewHead=37|PhraseCat=PP
@@ -51457,7 +51457,7 @@
 11	beslut	beslut	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	obj		PhraseCat=NP
 12	om	om	ADP	_	_	19	mark		NewHead=19|PhraseCat=PP
 13	vilka	vilken	DET	_	Definite=Ind|Number=Plur|PronType=Int,Rel	14	det		PhraseCat=NP
-14	bilder	bild	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	det		PhraseCat=NP
+14	bilder	bild	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	PH		PhraseCat=NP
 15	eller	eller	CCONJ	_	_	16	cc	17:PH|19:|18:	PhraseCat=KoP
 16	dokument	dokument	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	conj		PhraseCat=NP
 17	som	som	SCONJ	_	_	19	mark		NewHead=18|PhraseCat=SuP
@@ -51465,12 +51465,12 @@
 19	scannas	scanna	VERB	_	VerbForm=Inf|Voice=Pass	11	MD		PhraseCat=VP|SpaceAfter=No
 20	,	,	PUNCT	_	_	8	punct		PhraseCat=Top
 21	vilka	vilken	DET	_	Definite=Ind|Number=Plur|PronType=Int,Rel	22	det		PhraseCat=NP
-22	föremål	föremål	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	25	det	23:PH|25:|24:	PhraseCat=NP
+22	föremål	föremål	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	25	PH	23:PH|25:|24:	PhraseCat=NP
 23	som	som	SCONJ	_	_	25	mark		NewHead=24|PhraseCat=SuP
 24	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	25	aux		NewHead=25|PhraseCat=S
 25	fotograferas	fotografera	VERB	_	VerbForm=Inf|Voice=Pass	19	conj		PhraseCat=VP
 26	eller	eller	CCONJ	_	_	30	cc		PhraseCat=KoP
-27	ljudfiler	ljudfiler	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	30	det	28:PH|30:|29:	PhraseCat=NP
+27	ljudfiler	ljudfiler	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	30	PH	28:PH|30:|29:	PhraseCat=NP
 28	som	som	SCONJ	_	_	30	mark		NewHead=29|PhraseCat=SuP
 29	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	30	aux		NewHead=30|PhraseCat=S
 30	räddas	rädda	VERB	_	VerbForm=Inf|Voice=Pass	19	conj		PhraseCat=VP
@@ -51538,7 +51538,7 @@
 14	och	och	CCONJ	_	_	15	cc		PhraseCat=KoP
 15	precist	precist	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	13	conj		PhraseCat=AjP
 16	vilka	vilken	DET	_	Definite=Ind|Number=Plur|PronType=Int,Rel	17	det		PhraseCat=NP
-17	material	material	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	20	det	18:PH|20:|19:	PhraseCat=NP
+17	material	material	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	20	PH	18:PH|20:|19:	PhraseCat=NP
 18	som	som	SCONJ	_	_	20	mark		NewHead=19|PhraseCat=SuP
 19	bör	böra	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	20	aux		NewHead=20|PhraseCat=S
 20	ställas	ställa	VERB	_	VerbForm=Inf|Voice=Pass	11	obj		PhraseCat=VP
@@ -52088,7 +52088,7 @@
 8	inte	inte	PART	_	Polarity=Neg	7	MD		PhraseCat=S
 9	någon	någon	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	7	obj		PhraseCat=S|SpaceAfter=No
 10	,	,	PUNCT	_	_	17	punct		PhraseCat=Top
-11	men	men	CCONJ	_	_	3	det		PhraseCat=KoP
+11	men	men	CCONJ	_	_	14	cc		PhraseCat=KoP
 12	min	jag	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	det		PhraseCat=NP
 13	vän	vän	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nsubj		PhraseCat=NP
 14	mördades	mörda	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj		PhraseCat=S
@@ -52166,7 +52166,7 @@
 7	statistik	statistik	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj		PhraseCat=NP
 8	över	över	ADP	_	_	12	mark		NewHead=12|PhraseCat=PP
 9	hur	hur	ADV	_	_	10	MD		PhraseCat=AjP
-10	många	mången	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	det	11:PH|12:	PhraseCat=AjP
+10	många	mången	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	PH	11:PH|12:	PhraseCat=AjP
 11	som	som	SCONJ	_	_	12	mark		NewHead=12|PhraseCat=SuP
 12	dödas	döda	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	MD		PhraseCat=S
 13	varje	varje	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	14	det		PhraseCat=NP
@@ -53055,10 +53055,10 @@
 28	fackföreningar	fackförening	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	conj		PhraseCat=KoP|SpaceAfter=No
 29	,	,	PUNCT	_	_	5	punct		PhraseCat=Top
 30	doktorandorganisationer	doktorandorganisation	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	conj		PhraseCat=KoP
-31	och	och	CCONJ	_	_	18	det		PhraseCat=KoP
+31	och	och	CCONJ	_	_	33	cc		PhraseCat=KoP
 32	andra	andra	ADJ	_	Case=Nom|Degree=Pos|NumType=Ord|Number=Plur	33	det		PhraseCat=NP
 33	organisationer	organisation	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	conj		PhraseCat=NP
-34	samt	samt	CCONJ	_	_	18	det		PhraseCat=KoP
+34	samt	samt	CCONJ	_	_	35	cc		PhraseCat=KoP
 35	allmänheten	allmänhet	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	conj		PhraseCat=KoP
 36	att	att	PART	_	_	37	mark		NewHead=37|PhraseCat=SuP
 37	inkomma	inkomma	VERB	_	VerbForm=Inf|Voice=Act	5	IV		PhraseCat=VP
@@ -53128,7 +53128,7 @@
 13	med	med	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
 14	förslag	förslag	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	advcl		PhraseCat=NP
 15	på	på	ADP	_	_	18	mark		NewHead=18|PhraseCat=PP
-16	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	18	det		PhraseCat=SuP
+16	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	18	PH		PhraseCat=SuP
 17	som	som	SCONJ	_	_	18	mark		NewHead=18|PhraseCat=SuP
 18	behövs	behöva	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	14	MD		PhraseCat=S
 19	inom	inom	ADP	_	_	21	case		NewHead=21|PhraseCat=PP
@@ -53577,7 +53577,7 @@
 16	lärare	lärare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	advcl		PhraseCat=KoP
 17	och	och	CCONJ	_	_	18	cc		PhraseCat=KoP
 18	myndigheter	myndighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	conj		PhraseCat=KoP
-19	och	och	CCONJ	_	_	5	det		PhraseCat=KoP
+19	och	och	CCONJ	_	_	22	cc		PhraseCat=KoP
 20	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	22	det		PhraseCat=NP
 21	mindre	liten	ADJ	_	Case=Nom|Degree=Cmp	22	MD		PhraseCat=AjP
 22	kostnad	kostnad	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	conj		PhraseCat=NP
@@ -56083,7 +56083,7 @@
 11	bra	bra	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	MD		PhraseCat=NP
 12	jobb	jobb	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	obj		PhraseCat=NP|SpaceAfter=No
 13	,	,	PUNCT	_	_	25	punct		PhraseCat=Top
-14	men	men	CCONJ	_	_	3	det		PhraseCat=KoP
+14	men	men	CCONJ	_	_	19	cc		PhraseCat=KoP
 15	när	när	ADV	_	_	19	MD		PhraseCat=SuP
 16	varningsklockorna	varningsklocka	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	17	nsubj		PhraseCat=S
 17	ringer	ringa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	obj		PhraseCat=S
@@ -56138,7 +56138,7 @@
 21	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	obj		PhraseCat=S
 22	ut	ut	ADV	_	_	21	compound:prt		PhraseCat=S
 23	och	och	CCONJ	_	_	29	cc		PhraseCat=KoP
-24	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	29	det		PhraseCat=SuP
+24	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	29	PH		PhraseCat=SuP
 25	som	som	SCONJ	_	_	29	mark		NewHead=27|PhraseCat=SuP
 26	eventuellt	eventuellt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	29	MD		PhraseCat=S
 27	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	29	aux		NewHead=28|PhraseCat=S
@@ -56170,7 +56170,7 @@
 17	bild	bild	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obj		PhraseCat=NP
 18	av	av	ADP	_	_	19	case		NewHead=19|PhraseCat=PP
 19	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	17	MD		PhraseCat=PP
-20	och	och	CCONJ	_	_	3	det		PhraseCat=KoP
+20	och	och	CCONJ	_	_	22	cc		PhraseCat=KoP
 21	då	då	ADV	_	_	22	MD		PhraseCat=S
 22	gäller	gälla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 23	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	22	nsubj		PhraseCat=S
@@ -56613,7 +56613,7 @@
 4	vilka	vilken	DET	_	Definite=Ind|Number=Plur|PronType=Int,Rel	5	det		PhraseCat=NP
 5	utmaningar	utmaning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj		PhraseCat=NP
 6	och	och	CCONJ	_	_	9	cc		PhraseCat=KoP
-7	möjligheter	möjlighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	det	8:PH|9:	PhraseCat=NP
+7	möjligheter	möjlighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	PH	8:PH|9:	PhraseCat=NP
 8	som	som	SCONJ	_	_	9	mark		NewHead=9|PhraseCat=SuP
 9	finns	finnas	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	8:OO|5:	PhraseCat=S
 10	för	för	ADP	_	_	13	case		NewHead=13|PhraseCat=PP
@@ -58865,7 +58865,7 @@
 4	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	6	aux		NewHead=6|PhraseCat=S
 5	Grekland	Grekland	PROPN	_	Case=Nom	6	nsubj		PhraseCat=S
 6	redovisa	redovisa	VERB	_	VerbForm=Inf|Voice=Act	0	root		PhraseCat=VP
-7	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	9	det		PhraseCat=SuP
+7	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	9	PH		PhraseCat=SuP
 8	som	som	SCONJ	_	_	9	mark		NewHead=9|PhraseCat=SuP
 9	görs	göra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	obj		PhraseCat=S
 10	för	för	ADP	_	_	14	mark		NewHead=11|PhraseCat=PP
@@ -58930,7 +58930,7 @@
 11	och	och	CCONJ	_	_	13	cc		PhraseCat=KoP
 12	likvärdig	likvärdig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	MD		PhraseCat=NP
 13	prövning	prövning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	conj		PhraseCat=NP
-14	och	och	CCONJ	_	_	10	det		PhraseCat=KoP
+14	och	och	CCONJ	_	_	17	cc		PhraseCat=KoP
 15	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det		PhraseCat=NP
 16	humant	human	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	MD		PhraseCat=NP
 17	mottagande	mottagande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	conj		PhraseCat=NP|SpaceAfter=No
@@ -60360,7 +60360,7 @@
 
 # sent_id = Arbt_Vansterpartiets.43
 # text = Vad som skulle kunna fälla Bildt är att Reinfeldt eller någon annan högt uppsatt högerpolitiker går ut och tar avstånd från honom.
-1	Vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	5	det		PhraseCat=SuP
+1	Vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	5	PH		PhraseCat=SuP
 2	som	som	SCONJ	_	_	5	mark		NewHead=3|PhraseCat=SuP
 3	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	5	aux		NewHead=4|PhraseCat=S
 4	kunna	kunna	AUX	_	VerbForm=Inf|Voice=Act	5	aux		NewHead=5|PhraseCat=VP
@@ -60604,7 +60604,7 @@
 26	dialog	dialog	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obl:agent		PhraseCat=KoP
 27	och	och	CCONJ	_	_	28	cc		PhraseCat=KoP
 28	delaktighet	delaktighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	conj		PhraseCat=KoP
-29	samt	samt	CCONJ	_	_	9	det		PhraseCat=KoP
+29	samt	samt	CCONJ	_	_	30	cc		PhraseCat=KoP
 30	bidra	bidra	VERB	_	VerbForm=Inf|Voice=Act	9	conj		PhraseCat=VP
 31	till	till	ADP	_	_	34	case		NewHead=34|PhraseCat=PP
 32	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	34	det		PhraseCat=NP
@@ -61788,7 +61788,7 @@
 7	av	av	ADP	_	_	8	case		NewHead=8|PhraseCat=PP
 8	konferensen	konferens	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	MD		PhraseCat=PP
 9	och	och	CCONJ	_	_	12	cc		PhraseCat=KoP
-10	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	12	det		PhraseCat=SuP
+10	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	12	PH		PhraseCat=SuP
 11	som	som	SCONJ	_	_	12	mark		NewHead=12|PhraseCat=SuP
 12	sker	ske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj		PhraseCat=S
 13	på	på	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
@@ -61895,7 +61895,7 @@
 15	Nationalmuseum	Nationalmuseum	PROPN	_	Case=Nom	13	obl:agent		PhraseCat=KoP
 16	och	och	CCONJ	_	_	17	cc		PhraseCat=KoP
 17	Livrustkammaren	Livrustkammaren	PROPN	_	Case=Nom	15	conj		PhraseCat=KoP
-18	och	och	CCONJ	_	_	15	det		PhraseCat=KoP
+18	och	och	CCONJ	_	_	20	cc		PhraseCat=KoP
 19	Skoklosters	Skokloster	PROPN	_	Case=Gen	20	det		PhraseCat=NP
 20	slott	slott	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	conj		PhraseCat=NP
 21	med	med	ADP	_	_	22	case		NewHead=22|PhraseCat=PP
@@ -63016,7 +63016,7 @@
 34	tre	tre	NUM	_	NumType=Card	35	det		PhraseCat=NP
 35	år	år	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	32	MD		PhraseCat=NP|SpaceAfter=No
 36	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-37	samt	samt	CCONJ	_	_	15	det		PhraseCat=KoP
+37	samt	samt	CCONJ	_	_	45	cc		PhraseCat=KoP
 38	att	att	SCONJ	_	_	45	mark		NewHead=45|PhraseCat=SuP
 39	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	41	det		PhraseCat=NP
 40	giltigt	giltig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	41	MD		PhraseCat=NP
@@ -64074,7 +64074,7 @@
 17	bli	bli	VERB	_	VerbForm=Inf|Voice=Act	14	advcl		PhraseCat=VP
 18	tydligare	tydlig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	xcomp		PhraseCat=VP|SpaceAfter=No
 19	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-20	men	men	CCONJ	_	_	4	det		PhraseCat=KoP
+20	men	men	CCONJ	_	_	26	cc		PhraseCat=KoP
 21	många	mången	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	nsubj		PhraseCat=S
 22	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	26	aux		NewHead=26|PhraseCat=S
 23	naturligtvis	naturligtvis	ADV	_	_	26	MD		PhraseCat=S
@@ -65309,7 +65309,7 @@
 12	och	och	CCONJ	_	_	14	cc		PhraseCat=KoP
 13	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	14	cop		NewHead=14|PhraseCat=S
 14	etablerade	etablerad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	8	conj		PhraseCat=S
-15	och	och	CCONJ	_	_	8	det		PhraseCat=KoP
+15	och	och	CCONJ	_	_	16	cc		PhraseCat=KoP
 16	sköter	sköta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj		PhraseCat=S
 17	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	16	obj		PhraseCat=S|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct		PhraseCat=Top
@@ -66701,7 +66701,7 @@
 10	sin	sig	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	det		PhraseCat=NP
 11	webbplats	webbplats	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	advmod		PhraseCat=NP
 12	vilken	vilken	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Int,Rel	13	det		PhraseCat=NP
-13	information	information	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	det	14:PH|16:|15:	PhraseCat=NP
+13	information	information	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	PH	14:PH|16:|15:	PhraseCat=NP
 14	som	som	SCONJ	_	_	16	mark		NewHead=15|PhraseCat=SuP
 15	kan	kunna	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	16	aux		NewHead=16|PhraseCat=S
 16	nyttjas	nyttja	VERB	_	VerbForm=Inf|Voice=Pass	8	obj		PhraseCat=VP
@@ -67048,7 +67048,7 @@
 9	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
 10	gränsöverskridande	gränsöverskridande	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part	11	MD		PhraseCat=NP
 11	vattenfrågor	vattenfråga	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	conj		PhraseCat=NP
-12	samt	samt	CCONJ	_	_	6	det		PhraseCat=KoP
+12	samt	samt	CCONJ	_	_	16	cc		PhraseCat=KoP
 13	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	16	det		PhraseCat=NP
 14	ökad	ökad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	16	MD		PhraseCat=NP
 15	ekonomisk	ekonomisk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	MD		PhraseCat=NP
@@ -68461,7 +68461,7 @@
 4	klart	klar	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	DF		PhraseCat=S|SpaceAfter=No
 5	,	,	PUNCT	_	_	23	punct		PhraseCat=Top
 6	ju	ju	CCONJ	_	_	7	MD		PhraseCat=AjP
-7	fler	mången	ADJ	_	Case=Nom|Degree=Cmp	9	det	8:PH|15:|9:	PhraseCat=AjP
+7	fler	mången	ADJ	_	Case=Nom|Degree=Cmp	9	PH	8:PH|15:|9:	PhraseCat=AjP
 8	som	som	SCONJ	_	_	9	mark		NewHead=9|PhraseCat=SuP
 9	är	vara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	DF		PhraseCat=S
 10	inne	inne	ADV	_	_	9	advmod		PhraseCat=AbP
@@ -69316,7 +69316,7 @@
 27	som	som	SCONJ	_	_	29	mark	25:MD|22:	NewHead=29|PhraseCat=SuP
 28	sin	sig	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	29	det		PhraseCat=NP
 29	hustru	hustru	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	MD		PhraseCat=NP
-30	och	och	CCONJ	_	_	16	det		PhraseCat=KoP
+30	och	och	CCONJ	_	_	16	cc		PhraseCat=KoP
 31	inte	inte	PART	_	Polarity=Neg	16	conj		PhraseCat=VP|PromotedHead=Yes
 32	som	som	SCONJ	_	_	35	mark		NewHead=35|PhraseCat=SuP
 33	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	35	det		PhraseCat=NP
@@ -70061,7 +70061,7 @@
 28	stod	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	23	conj		PhraseCat=S
 29	och	och	CCONJ	_	_	30	cc		PhraseCat=KoP
 30	strök	stryka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	28	conj		PhraseCat=S
-31	och	och	CCONJ	_	_	28	det		PhraseCat=KoP
+31	och	och	CCONJ	_	_	32	cc		PhraseCat=KoP
 32	klappade	klappa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	28	conj		PhraseCat=S
 33	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	32	obj		PhraseCat=S
 34	på	på	ADP	_	_	38	case	32:OA|30:	NewHead=38|PhraseCat=PP
@@ -71530,7 +71530,7 @@
 22	bordet	bord	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	advmod		PhraseCat=PP
 23	igen	igen	ADV	_	_	16	MD		PhraseCat=S|SpaceAfter=No
 24	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-25	men	men	CCONJ	_	_	2	det		PhraseCat=KoP
+25	men	men	CCONJ	_	_	26	cc		PhraseCat=KoP
 26	behåller	behålla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 27	greppet	grepp	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	26	obj		PhraseCat=NP
 28	om	om	ADP	_	_	29	case		NewHead=29|PhraseCat=PP
@@ -72080,7 +72080,7 @@
 13	för	för	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
 14	några	någon	DET	_	Definite=Ind|Number=Plur|PronType=Ind	15	det		PhraseCat=NP
 15	frestelser	frestelse	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	advcl		PhraseCat=NP
-16	men	men	CCONJ	_	_	4	det		PhraseCat=KoP
+16	men	men	CCONJ	_	_	19	cc		PhraseCat=KoP
 17	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	19	nsubj		PhraseCat=S
 18	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	19	aux		NewHead=19|PhraseCat=S
 19	hört	höra	VERB	_	VerbForm=Sup|Voice=Act	4	conj		PhraseCat=VP
@@ -72855,7 +72855,7 @@
 21	öl	öl	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	MD		PhraseCat=KoP
 22	och	och	CCONJ	_	_	23	cc		PhraseCat=KoP
 23	genever	genever	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	conj		PhraseCat=KoP
-24	och	och	CCONJ	_	_	21	det		PhraseCat=KoP
+24	och	och	CCONJ	_	_	25	cc		PhraseCat=KoP
 25	mängder	mängd	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	21	conj		PhraseCat=NP
 26	av	av	ADP	_	_	28	case		NewHead=28|PhraseCat=PP
 27	läcker	läcker	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	28	MD		PhraseCat=NP
@@ -73181,7 +73181,7 @@
 5	ler	le	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 6	mot	mot	ADP	_	_	7	case		NewHead=7|PhraseCat=PP
 7	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	MD		PhraseCat=PP
-8	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+8	och	och	CCONJ	_	_	13	cc		PhraseCat=KoP
 9	alla	all	DET	_	Definite=Def|Number=Plur|PronType=Tot	12	det		PhraseCat=NP
 10	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det		PhraseCat=NP
 11	vita	vit	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	MD		PhraseCat=NP
@@ -73487,7 +73487,7 @@
 2	sitter	sitta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 3	och	och	CCONJ	_	_	4	cc		PhraseCat=KoP
 4	stirrar	stirra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
-5	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+5	och	och	CCONJ	_	_	6	cc		PhraseCat=KoP
 6	mumlar	mumla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 7	ibland	ibland	ADV	_	_	6	MD		PhraseCat=S|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
@@ -75378,7 +75378,7 @@
 11	aldrig	aldrig	ADV	_	_	10	MD		PhraseCat=S
 12	pengar	pengar	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	obj		PhraseCat=S|SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-14	men	men	CCONJ	_	_	2	det		PhraseCat=KoP
+14	men	men	CCONJ	_	_	15	cc		PhraseCat=KoP
 15	varor	vara	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	conj		PhraseCat=NP
 16	som	som	SCONJ	_	_	18	mark		NewHead=18|PhraseCat=SuP
 17	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	18	nsubj		PhraseCat=S
@@ -75515,7 +75515,7 @@
 # text = Alla vet vad som händer, alla kommenterar vant händelsen, ingen har invändningar, ingen vanlig människa och ingen myndighetsperson.
 1	Alla	all	PRON	_	Definite=Def|Number=Plur|PronType=Tot	2	nsubj		PhraseCat=S
 2	vet	veta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
-3	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	5	det		PhraseCat=SuP
+3	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	5	PH		PhraseCat=SuP
 4	som	som	SCONJ	_	_	5	mark		NewHead=5|PhraseCat=SuP
 5	händer	hända	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	obj		PhraseCat=S|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
@@ -76759,7 +76759,7 @@
 13	i	i	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
 14	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	det		PhraseCat=NP
 15	närhet	närhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	MD		PhraseCat=NP
-16	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	20	det		PhraseCat=SuP
+16	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	20	PH		PhraseCat=SuP
 17	som	som	SCONJ	_	_	20	mark		NewHead=18|PhraseCat=SuP
 18	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	20	cop		NewHead=19|PhraseCat=S
 19	på	på	ADP	_	_	20	case		NewHead=20|PhraseCat=PP
@@ -77849,7 +77849,7 @@
 17	mormor	mormor	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	MD		PhraseCat=KoP
 18	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 19	morfar	morfar	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	conj		PhraseCat=KoP
-20	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	23	det		PhraseCat=SuP
+20	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	23	PH		PhraseCat=SuP
 21	som	som	SCONJ	_	_	23	mark		NewHead=22|PhraseCat=SuP
 22	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	23	aux		NewHead=23|PhraseCat=S
 23	hänt	hända	VERB	_	VerbForm=Sup|Voice=Act	13	obj		PhraseCat=VP
@@ -78872,7 +78872,7 @@
 6	till	till	ADP	_	_	5	compound:prt		PhraseCat=VP
 7	och	och	CCONJ	_	_	8	cc		PhraseCat=KoP
 8	bestämma	bestämma	VERB	_	VerbForm=Inf|Voice=Act	5	conj		PhraseCat=VP
-9	vilka	vilken	PRON	_	Definite=Ind|Number=Plur|PronType=Int,Rel	12	det		PhraseCat=SuP
+9	vilka	vilken	PRON	_	Definite=Ind|Number=Plur|PronType=Int,Rel	12	PH		PhraseCat=SuP
 10	som	som	SCONJ	_	_	12	mark	8:OO|5:	NewHead=11|PhraseCat=SuP
 11	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	12	aux		NewHead=12|PhraseCat=S
 12	vara	vara	VERB	_	VerbForm=Inf|Voice=Act	8	obj		PhraseCat=VP
@@ -78910,7 +78910,7 @@
 24	så	så	ADV	_	_	25	MD		PhraseCat=AjP
 25	benämnda	benämnd	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	26	MD		PhraseCat=AjP
 26	onormala	onormal	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	21	MD		PhraseCat=NP
-27	och	och	CCONJ	_	_	15	det		PhraseCat=KoP
+27	och	och	CCONJ	_	_	30	cc		PhraseCat=KoP
 28	med	med	ADP	_	_	29	case		NewHead=29|PhraseCat=PP
 29	oro	oro	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	MD		PhraseCat=PP
 30	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj		PhraseCat=S
@@ -79156,7 +79156,7 @@
 20	väl	väl	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	MD		PhraseCat=AjP
 21	orienterad	orienterad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	conj		PhraseCat=AjP
 22	om	om	ADP	_	_	25	mark		NewHead=25|PhraseCat=PP
-23	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	25	det		PhraseCat=SuP
+23	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	25	PH		PhraseCat=SuP
 24	som	som	SCONJ	_	_	25	mark		NewHead=25|PhraseCat=SuP
 25	händer	hända	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl		PhraseCat=S
 26	omkring	omkring	ADP	_	_	27	case		NewHead=27|PhraseCat=PP
@@ -79176,7 +79176,7 @@
 9	särskilt	särskild	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	11	MD		PhraseCat=NP
 10	klassisk	klassisk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	MD		PhraseCat=NP
 11	musik	musik	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	appos		PhraseCat=NP
-12	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+12	och	och	CCONJ	_	_	14	cc		PhraseCat=KoP
 13	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nsubj		PhraseCat=S
 14	känner	känna	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 15	ingen	ingen	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	17	det		PhraseCat=NP
@@ -79447,7 +79447,7 @@
 25	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	15	conj		PhraseCat=NP
 26	hos	hos	ADP	_	_	27	case		NewHead=27|PhraseCat=PP
 27	läkarna	läkare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	25	MD		PhraseCat=PP
-28	och	och	CCONJ	_	_	15	det		PhraseCat=KoP
+28	och	och	CCONJ	_	_	29	cc		PhraseCat=KoP
 29	även	även	ADV	_	_	15	conj		PhraseCat=NP|PromotedHead=Yes
 30	hos	hos	ADP	_	_	31	case		NewHead=31|PhraseCat=PP
 31	dem	de	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	29	MD		PhraseCat=NP
@@ -79562,7 +79562,7 @@
 16	kasta	kasta	VERB	_	VerbForm=Inf|Voice=Act	9	conj		PhraseCat=VP
 17	alla	all	DET	_	Definite=Ind|Number=Plur|PronType=Tot	18	det		PhraseCat=NP
 18	sövdroger	sövdrog	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	obj		PhraseCat=NP
-19	och	och	CCONJ	_	_	9	det		PhraseCat=KoP
+19	och	och	CCONJ	_	_	20	cc		PhraseCat=KoP
 20	vara	vara	VERB	_	VerbForm=Inf|Voice=Act	9	conj		PhraseCat=VP
 21	bland	bland	ADP	_	_	23	case		NewHead=23|PhraseCat=PP
 22	goda	god	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	MD		PhraseCat=NP
@@ -79724,7 +79724,7 @@
 25	tillit	tillit	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	MD		PhraseCat=KoP
 26	och	och	CCONJ	_	_	27	cc		PhraseCat=KoP
 27	vänskap	vänskap	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	conj		PhraseCat=KoP
-28	och	och	CCONJ	_	_	25	det		PhraseCat=KoP
+28	och	och	CCONJ	_	_	31	cc		PhraseCat=KoP
 29	att	att	SCONJ	_	_	31	mark		NewHead=31|PhraseCat=SuP
 30	två	två	NUM	_	NumType=Card	31	nsubj		PhraseCat=S
 31	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj		PhraseCat=S
@@ -86498,7 +86498,7 @@
 13	från	från	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
 14	långt	lång	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	MD		PhraseCat=NP
 15	håll	håll	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	advmod		PhraseCat=NP
-16	och	och	CCONJ	_	_	7	det		PhraseCat=KoP
+16	och	och	CCONJ	_	_	17	cc		PhraseCat=KoP
 17	gjorde	göra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	conj		PhraseCat=S
 18	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	17	obj		PhraseCat=S
 19	till	till	ADP	_	_	17	compound:prt		PhraseCat=S
@@ -86559,7 +86559,7 @@
 9	med	med	ADP	_	_	11	case		NewHead=11|PhraseCat=PP
 10	alla	all	DET	_	Definite=Def|Number=Plur|PronType=Tot	11	det		PhraseCat=NP
 11	man-folken	manfolk	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	6	MD		PhraseCat=NP
-12	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+12	och	och	CCONJ	_	_	14	cc		PhraseCat=KoP
 13	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	advcl		PhraseCat=PP
 14	brydde	bry	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 15	hon	hon	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nsubj		PhraseCat=S
@@ -88289,7 +88289,7 @@
 2	man	man	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Ind	4	nsubj		PhraseCat=S
 3	inte	inte	PART	_	Polarity=Neg	4	MD		PhraseCat=S
 4	visste	veta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	MD		PhraseCat=S
-5	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	8	det		PhraseCat=SuP
+5	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	8	PH		PhraseCat=SuP
 6	som	som	SCONJ	_	_	8	mark		NewHead=7|PhraseCat=SuP
 7	kunde	kunna	AUX	_	Mood=Ind|Tense=Past|Voice=Act	8	aux		NewHead=8|PhraseCat=S
 8	tänkas	tänka	VERB	_	VerbForm=Inf|Voice=Pass	4	obj		PhraseCat=VP
@@ -90421,7 +90421,7 @@
 7	klura	klura	VERB	_	VerbForm=Inf|Voice=Act	0	root		PhraseCat=VP
 8	ut	ut	ADV	_	_	7	compound:prt		PhraseCat=VP|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct		PhraseCat=Top
-10	vem	vem	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	14	det		PhraseCat=SuP
+10	vem	vem	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	14	PH		PhraseCat=SuP
 11	som	som	SCONJ	_	_	14	mark		NewHead=13|PhraseCat=SuP
 12	egentligen	egentligen	ADV	_	_	14	MD		PhraseCat=S
 13	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	14	aux		NewHead=14|PhraseCat=S
@@ -90817,7 +90817,7 @@
 24	barfota	barfota	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	MD		PhraseCat=VP
 25	vid	vid	ADP	_	_	26	case		NewHead=26|PhraseCat=PP
 26	midnatt	midnatt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	MD		PhraseCat=PP
-27	och	och	CCONJ	_	_	9	det		PhraseCat=KoP
+27	och	och	CCONJ	_	_	28	cc		PhraseCat=KoP
 28	vandra	vandra	VERB	_	VerbForm=Inf|Voice=Act	9	conj		PhraseCat=VP
 29	runt	runt	ADP	_	_	31	case		NewHead=31|PhraseCat=PP
 30	närmaste	nära	ADJ	_	Case=Nom|Definite=Def|Degree=Sup	31	MD		PhraseCat=NP
@@ -90911,7 +90911,7 @@
 6	bad	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 7	pågarna	påg	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	6	obj		PhraseCat=S
 8	flyga	flyga	VERB	_	VerbForm=Inf|Voice=Act	6	IV		PhraseCat=VP
-9	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+9	och	och	CCONJ	_	_	10	cc		PhraseCat=KoP
 10	fara	fara	VERB	_	VerbForm=Inf|Voice=Act	2	conj		PhraseCat=VP|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
 
@@ -91929,7 +91929,7 @@
 10	hade	ha	AUX	_	Mood=Ind|Tense=Past|Voice=Act	11	aux		NewHead=11|PhraseCat=S
 11	lärt	lära	VERB	_	VerbForm=Sup|Voice=Act	4	conj		PhraseCat=VP
 12	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	11	iobj		PhraseCat=VP
-13	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	15	det		PhraseCat=SuP
+13	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	15	PH		PhraseCat=SuP
 14	som	som	SCONJ	_	_	15	mark		NewHead=15|PhraseCat=SuP
 15	vankades	vankas	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	obj		PhraseCat=S
 16	på	på	ADP	_	_	19	case		NewHead=19|PhraseCat=PP
@@ -92579,7 +92579,7 @@
 11	och	och	CCONJ	_	_	12	cc		PhraseCat=KoP
 12	The	The	PROPN	_	Case=Nom	8	conj		ExtXpos=ENM|PhraseCat=KoP
 13	Beatles	Beatles	PROPN	_	Case=Nom	12	fixed		ExtXpos=ENM|PhraseCat=KoP
-14	samt	samt	CCONJ	_	_	8	det		PhraseCat=KoP
+14	samt	samt	CCONJ	_	_	17	cc		PhraseCat=KoP
 15	otaliga	otalig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	MD		PhraseCat=NP
 16	franska	fransk	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	MD		PhraseCat=NP
 17	politiker	politiker	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	conj		PhraseCat=NP
@@ -92962,7 +92962,7 @@
 13	hur	hur	ADV	_	_	14	MD		PhraseCat=AjP
 14	många	mången	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	det		PhraseCat=AjP
 15	traumatiska	traumatisk	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	MD		PhraseCat=NP
-16	hjärnskador	hjärnskada	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	det	17:PH|18:|18:	PhraseCat=NP
+16	hjärnskador	hjärnskada	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	PH	17:PH|18:|18:	PhraseCat=NP
 17	som	som	SCONJ	_	_	18	mark		NewHead=18|PhraseCat=SuP
 18	avbildats	avbilda	VERB	_	VerbForm=Sup|Voice=Pass	12	obj		PhraseCat=VP
 19	där	där	ADV	_	_	18	advmod		PhraseCat=VP
@@ -93306,7 +93306,7 @@
 7	bär	bära	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 8	röda	röd	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	MD		PhraseCat=NP
 9	byxor	byxa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obj		PhraseCat=NP
-10	och	och	CCONJ	_	_	4	det		PhraseCat=KoP
+10	och	och	CCONJ	_	_	12	cc		PhraseCat=KoP
 11	i	i	ADP	_	_	12	case		NewHead=12|PhraseCat=PP
 12	bältet	bälte	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	conj		PhraseCat=PP
 13	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det		PhraseCat=NP
@@ -93418,7 +93418,7 @@
 10	sin	sig	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	det		PhraseCat=NP
 11	intelligens	intelligens	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	MD		PhraseCat=NP|SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-13	men	men	CCONJ	_	_	2	det		PhraseCat=KoP
+13	men	men	CCONJ	_	_	16	cc		PhraseCat=KoP
 14	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	16	cop		NewHead=16|PhraseCat=S
 15	ändå	ändå	ADV	_	_	16	MD		PhraseCat=S
 16	välmenande	välmenande	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Pres|VerbForm=Part	2	conj		PhraseCat=S|SpaceAfter=No
@@ -94946,7 +94946,7 @@
 3	dock	dock	ADV	_	_	5	MD		PhraseCat=S
 4	inte	inte	PART	_	Polarity=Neg	5	MD		PhraseCat=S
 5	känt	känd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	0	root		PhraseCat=S
-6	vem	vem	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	11	det		PhraseCat=SuP
+6	vem	vem	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	11	PH		PhraseCat=SuP
 7	som	som	SCONJ	_	_	11	mark		NewHead=8|PhraseCat=SuP
 8	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	11	cop		NewHead=11|PhraseCat=S
 9	Lilla	liten	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	MD		PhraseCat=NP
@@ -96850,7 +96850,7 @@
 16	större	stor	ADJ	_	Case=Nom|Degree=Cmp	17	MD		PhraseCat=AjP
 17	spekulationer	spekulation	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	advcl		PhraseCat=NP
 18	om	om	ADP	_	_	22	mark		NewHead=22|PhraseCat=PP
-19	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	22	det		PhraseCat=SuP
+19	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	22	PH		PhraseCat=SuP
 20	som	som	SCONJ	_	_	22	mark		NewHead=21|PhraseCat=SuP
 21	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	22	aux		NewHead=22|PhraseCat=S
 22	hända	hända	VERB	_	VerbForm=Inf|Voice=Act	17	MD		PhraseCat=VP|SpaceAfter=No
@@ -97432,7 +97432,7 @@
 11	visste	veta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	MD		PhraseCat=S
 12	mest	mycken	PRON	_	Definite=Ind|Degree=Sup|PronType=Ind	11	obj		PhraseCat=NP
 13	om	om	ADP	_	_	17	mark		NewHead=17|PhraseCat=PP
-14	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	17	det		PhraseCat=SuP
+14	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	17	PH		PhraseCat=SuP
 15	som	som	SCONJ	_	_	17	mark		NewHead=16|PhraseCat=SuP
 16	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	17	aux		NewHead=17|PhraseCat=S
 17	hända	hända	VERB	_	VerbForm=Inf|Voice=Act	12	MD		PhraseCat=VP
@@ -98008,7 +98008,7 @@
 16	intelligenta	intelligent	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	MD		PhraseCat=NP
 17	läsare	läsare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	nsubj		PhraseCat=NP
 18	gissar	gissa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	obj		PhraseCat=S
-19	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	24	det		PhraseCat=SuP
+19	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	24	PH		PhraseCat=SuP
 20	som	som	SCONJ	_	_	24	mark		NewHead=21|PhraseCat=SuP
 21	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	24	aux		NewHead=22|PhraseCat=S
 22	komma	komma	AUX	_	VerbForm=Inf|Voice=Act	24	aux		NewHead=23|PhraseCat=VP
@@ -99459,7 +99459,7 @@
 4	Aragon	Aragon	PROPN	_	Case=Nom	2	advcl		PhraseCat=PP
 5	sin	sig	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	det		PhraseCat=NP
 6	rädsla	rädsla	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj		PhraseCat=NP
-7	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	10	det		PhraseCat=SuP
+7	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	10	PH		PhraseCat=SuP
 8	som	som	SCONJ	_	_	10	mark		NewHead=9|PhraseCat=SuP
 9	skall	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	10	aux		NewHead=10|PhraseCat=S
 10	hända	hända	VERB	_	VerbForm=Inf|Voice=Act	6	MD		PhraseCat=VP
@@ -99508,7 +99508,7 @@
 6	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
 7	som	som	SCONJ	_	_	8	mark		NewHead=8|PhraseCat=SuP
 8	visar	visa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	MD		PhraseCat=S
-9	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	11	det		PhraseCat=SuP
+9	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	11	PH		PhraseCat=SuP
 10	som	som	SCONJ	_	_	11	mark		NewHead=11|PhraseCat=SuP
 11	händer	hända	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	obj		PhraseCat=S
 12	om	om	SCONJ	_	_	14	mark		NewHead=14|PhraseCat=SuP
@@ -100014,7 +100014,7 @@
 2	beskriver	beskriva	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 3	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	4	MD		PhraseCat=AjP
 4	väl	väl	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	MD		PhraseCat=AjP
-5	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	7	det		PhraseCat=SuP
+5	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	7	PH		PhraseCat=SuP
 6	som	som	SCONJ	_	_	7	mark		NewHead=7|PhraseCat=SuP
 7	händer	hända	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	obj		PhraseCat=S
 8	och	och	CCONJ	_	_	9	cc		PhraseCat=KoP
@@ -100460,7 +100460,7 @@
 21	ibland	ibland	ADV	_	_	22	MD		PhraseCat=AjP
 22	åldersberoende	åldersberoende	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part	19	MD		PhraseCat=AjP|SpaceAfter=No
 23	)	)	PUNCT	_	_	8	punct		PhraseCat=Top
-24	eller	eller	CCONJ	_	_	16	det		PhraseCat=KoP
+24	eller	eller	CCONJ	_	_	26	cc		PhraseCat=KoP
 25	i	i	ADP	_	_	26	case		NewHead=26|PhraseCat=PP
 26	form	form	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Typo=Yes	16	conj		CorrectForm=form av|PhraseCat=NP
 27	någon	någon	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	28	det		PhraseCat=NP
@@ -101749,7 +101749,7 @@
 12	iväg	iväg	ADV	_	_	11	compound:prt		PhraseCat=S
 13	från	från	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
 14	hamnen	hamn	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	advmod		PhraseCat=PP
-15	och	och	CCONJ	_	_	3	det		PhraseCat=KoP
+15	och	och	CCONJ	_	_	16	cc		PhraseCat=KoP
 16	avlossade	avlossa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 17	sin	sig	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	18	det		PhraseCat=NP
 18	kanon	kanon	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obj		PhraseCat=NP
@@ -101806,7 +101806,7 @@
 15	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det		PhraseCat=NP
 16	fientligt	fientlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	MD		PhraseCat=NP
 17	bemötande	bemötande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	obj		PhraseCat=NP
-18	och	och	CCONJ	_	_	2	det		PhraseCat=KoP
+18	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 19	åkte	åka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 20	snart	snart	ADV	_	_	19	MD		PhraseCat=S
 21	därifrån	därifrån	ADV	_	_	19	advmod		PhraseCat=S|SpaceAfter=No
@@ -102167,7 +102167,7 @@
 33	för	för	ADP	_	_	34	case		NewHead=34|PhraseCat=PP
 34	reparationer	reparation	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	32	MD		PhraseCat=PP|SpaceAfter=No
 35	,	,	PUNCT	_	_	5	punct		PhraseCat=Top
-36	och	och	CCONJ	_	_	28	det		PhraseCat=KoP
+36	och	och	CCONJ	_	_	37	cc		PhraseCat=KoP
 37	möjligheten	möjlighet	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	conj		PhraseCat=NP
 38	att	att	PART	_	_	39	mark		NewHead=39|PhraseCat=SuP
 39	vänta	vänta	VERB	_	VerbForm=Inf|Voice=Act	37	MD		PhraseCat=VP
@@ -102398,7 +102398,7 @@
 39	tjugonio	tjugonio	NUM	_	NumType=Card	40	det		PhraseCat=NP
 40	skepp	skepp	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	31	MD		PhraseCat=NP|SpaceAfter=No
 41	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
-42	och	och	CCONJ	_	_	27	det		PhraseCat=KoP
+42	och	och	CCONJ	_	_	43	cc		PhraseCat=KoP
 43	erövrade	erövra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	conj		PhraseCat=S
 44	i	i	ADP	_	_	46	fixed		ExtXpos=ABM|PhraseCat=S
 45	stort	stor	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	46	fixed		ExtXpos=ABM|PhraseCat=S
@@ -106219,7 +106219,7 @@
 17	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det		PhraseCat=NP
 18	lägre	låg	ADJ	_	Case=Nom|Degree=Cmp	19	MD		PhraseCat=NP
 19	trycket	tryck	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	advmod		PhraseCat=NP
-20	och	och	CCONJ	_	_	9	det		PhraseCat=KoP
+20	och	och	CCONJ	_	_	23	cc		PhraseCat=KoP
 21	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	22	det		PhraseCat=NP
 22	vind	vind	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	nsubj		PhraseCat=NP
 23	uppstår	uppstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj		PhraseCat=S|SpaceAfter=No
@@ -110234,7 +110234,7 @@
 18	salar	sal	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	advmod		PhraseCat=NP
 19	och	och	CCONJ	_	_	20	cc		PhraseCat=KoP
 20	trappor	trappa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	conj		PhraseCat=NP
-21	och	och	CCONJ	_	_	18	det		PhraseCat=KoP
+21	och	och	CCONJ	_	_	22	cc		PhraseCat=KoP
 22	korridorer	korridor	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	conj		PhraseCat=NP
 23	mellan	mellan	ADP	_	_	24	case	22:MD|20:|18:	NewHead=24|PhraseCat=PP
 24	tornet	torn	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	22	MD		PhraseCat=KoP
@@ -113321,7 +113321,7 @@
 10	Alain	Alain	PROPN	_	Case=Nom	8	obl:agent		ExtXpos=ENM|PhraseCat=PP
 11	Darborg	Darborg	PROPN	_	Case=Nom	10	fixed		ExtXpos=ENM|PhraseCat=PP|SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-13	samt	samt	CCONJ	_	_	2	det		PhraseCat=KoP
+13	samt	samt	CCONJ	_	_	14	cc		PhraseCat=KoP
 14	producerades	producera	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj		PhraseCat=S
 15	av	av	ADP	_	_	16	case		NewHead=16|PhraseCat=PP
 16	Snabba Cash-producenten	Snabba_Cashproducenten	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	obl:agent		PhraseCat=NP

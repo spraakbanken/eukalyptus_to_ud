@@ -23,7 +23,7 @@ elsif mode == "list_pos"
 end
 
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
-@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
+@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
 
 @functionwords = ["ADP","SCONJ","PART","DET","AUX"] #, #CCONJ,SYM,X,INTJ,PUNCT. NO: ,NUM,PRON,
 
@@ -38,6 +38,7 @@ Lista 3:
 AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA (advcl+advmod?), OP+SP (xcomp?), DF (discourse?), IV (aux?), MD (different kinds of mods?), "HD"=>"dep
 =end
 
+#TODO: deal with fake-coords manually
 
 #Major: Heads and dependents, clauses vs non-clauses, previous conversion (MWE), coordination. Go from UD relations
 #Do a split?
@@ -283,7 +284,7 @@ def convert_syntax(sentence2, sent_id)
                     if sentence[daughter]["deprel"] == "KL" 
                         chain_conjuncts[head] << daughter
                     elsif sentence[daughter]["pos"] == "KO"
-                        if deprel == "PH"
+                        if sentence[daughter]["deprel"] == "PH"
                             chain_other_conjunctions[head] << daughter
                         else
                             chain_other_daughters[head] << daughter
@@ -296,7 +297,11 @@ def convert_syntax(sentence2, sent_id)
                 break
             end
         end
-
+		#STDERR.puts 
+        #STDERR.puts "conjuncts: #{chain_conjuncts}"
+		#STDERR.puts "other conjunctions: #{chain_other_conjunctions}"
+		#STDERR.puts "other daughters: #{chain_other_daughters}"
+		
         if nokl
             break
         else
@@ -376,12 +381,15 @@ def convert_syntax(sentence2, sent_id)
         end
     end
     
-	#topdown = buildtopdowntree(sentence)
-	#STDERR.puts topdown
-	#findfunchead_topdown(sent_id,topdown,sentence,0,true,[])
-#=begin	
     heads_to_ignore = []
 	daughters_to_ignore = []
+#=begin		
+	#sentence.each_pair do |id,senthash|
+	#    STDERR.puts "#{id}\t#{senthash}"
+	#end
+    #STDERR.puts ""
+		
+
     loop do #swapping function-content
 	    no_functional_heads = true
 		functional_head = nil
@@ -399,7 +407,6 @@ def convert_syntax(sentence2, sent_id)
 			#end
 			
 		end
-		
 		if !functional_head.nil?
 		    #STDERR.puts "functional_head=#{functional_head}"
 		    headpos = sentence[functional_head]["upos"]

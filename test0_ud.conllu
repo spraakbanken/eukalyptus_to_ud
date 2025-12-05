@@ -1,11 +1,14 @@
-# sent_id = Blog_13263-1010926.5
-# text = Hon verkar ha varit så jäkla cool.
-1	Hon	hon	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj		PhraseCat=S
-2	verkar	verka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
-3	ha	ha	AUX	_	VerbForm=Inf|Voice=Act	7	aux		NewHead=4|PhraseCat=VP
-4	varit	vara	AUX	_	VerbForm=Sup|Voice=Act	7	cop		NewHead=7|PhraseCat=VP
-5	så	så	ADV	_	_	6	MD		PhraseCat=AjP
-6	jäkla	jäkla	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	MD		PhraseCat=AjP
-7	cool	cool	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	xcomp		PhraseCat=AjP|SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
+# sent_id = Blog_160886-12595823.14
+# text = Vissa stunder är såklart ljuvliga och helt underbara och supermysiga...
+1	Vissa	viss	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	2	det		PhraseCat=NP
+2	stunder	stund	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	nsubj		PhraseCat=NP
+3	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	5	cop		NewHead=5|PhraseCat=S
+4	såklart	såklart	ADV	_	_	5	MD		PhraseCat=S
+5	ljuvliga	ljuvlig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root		PhraseCat=KoP
+6	och	och	CCONJ	_	_	8	cc		PhraseCat=KoP
+7	helt	helt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	MD		PhraseCat=AjP
+8	underbara	underbar	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	conj		PhraseCat=AjP
+9	och	och	CCONJ	_	_	10	cc		PhraseCat=KoP
+10	supermysiga	supermysig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	conj		PhraseCat=AjP|SpaceAfter=No
+11	...	...	PUNCT	_	_	5	punct		PhraseCat=Top
 

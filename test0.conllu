@@ -1,11 +1,14 @@
-# sent_id = Blog_13263-1010926.5
-# text = Hon verkar ha varit så jäkla cool.
-1	Hon	hon	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	2	SB		PhraseCat=S
-2	verkar	verka	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseCat=S
-3	ha	ha	VB	-.-.-	VB.INF.AKT.-	2	IV		PhraseCat=VP
-4	varit	vara	VB	-.-.-	VB.SPM.AKT.-	3	IV		PhraseCat=VP
-5	så	så	AB	-.-.-	AB.-.-	6	MD		PhraseCat=AjP
-6	jäkla	jäkla	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	7	MD		PhraseCat=AjP
-7	cool	cool	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	4	SP		PhraseCat=AjP|SpaceAfter=No
-8	.	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top
+# sent_id = Blog_160886-12595823.14
+# text = Vissa stunder är såklart ljuvliga och helt underbara och supermysiga...
+1	Vissa	en viss	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	2	DT		PhraseCat=NP
+2	stunder	stund	NN	-.-.-	NN.UTR.PLU.IND	3	SB		PhraseCat=NP
+3	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseCat=S
+4	såklart	såklart	AB	-.-.-	AB.-.-	3	MD		PhraseCat=S
+5	ljuvliga	ljuvlig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	6	KL		PhraseCat=KoP
+6	och	och	KO	-.-.-	KO.-	3	SP		PhraseCat=KoP
+7	helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	8	MD		PhraseCat=AjP
+8	underbara	underbar	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	6	KL		PhraseCat=AjP
+9	och	och	KO	-.-.-	KO.-	6	PH		PhraseCat=KoP
+10	supermysiga	super|mysig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	6	KL		PhraseCat=AjP|SpaceAfter=No
+11	...	_	SY	-.-.-	SY.DEL	3	--		PhraseCat=Top
 
