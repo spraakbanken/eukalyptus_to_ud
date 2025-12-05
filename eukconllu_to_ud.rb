@@ -25,7 +25,7 @@ end
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
 @matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PH"=>"det","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
 
-@functionwords = ["ADP","SCONJ","PART","DET"]#,"AUX"] #, #CCONJ,SYM,X,INTJ,PUNCT. NO: ,NUM,PRON,
+@functionwords = ["ADP","SCONJ","PART","DET","AUX"] #, #CCONJ,SYM,X,INTJ,PUNCT. NO: ,NUM,PRON,
 
 =begin
 Lista 1:
@@ -49,6 +49,7 @@ AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA 
 
 @ordnums = ["första", "fjortonde", "andra", "25:e", "tredje", "fjärde", "femte", "sjätte", "sjunde", "nionde", "elfte", "tolfte", "trettonde", "femtonde", "sextonde", "sjuttonde", "artonde", "nittonde", "700:e", "tionde", "åttonde", "III"] #"annan"
 
+#TODO-DIM: All fixed expressions must have the first word as root. But then, we'd have to deal with many fixed expressions manually in any case, since they are not actually fixed in UD...
 #TODO1: more ordnum lemmas (generate? or split and analyze?)
 #TODO2: WAITING determiners
 #TODO2: WAITING Add verbal features for participles? Or exclude them from the participle function?
@@ -380,6 +381,7 @@ def convert_syntax(sentence2, sent_id)
 	#findfunchead_topdown(sent_id,topdown,sentence,0,true,[])
 #=begin	
     heads_to_ignore = []
+	daughters_to_ignore = []
     loop do #swapping function-content
 	    no_functional_heads = true
 		functional_head = nil
@@ -399,9 +401,10 @@ def convert_syntax(sentence2, sent_id)
 		end
 		
 		if !functional_head.nil?
-		    #STDERR.puts functional_head
+		    #STDERR.puts "functional_head=#{functional_head}"
 		    headpos = sentence[functional_head]["upos"]
 		    daughters = finddaughters(sentence,functional_head)
+			functionalheads_head = sentence[functional_head]["head"]
 			contenthead = nil
 			if headpos == "SCONJ" or headpos == "ADP" or (headpos == "PART" and sentence[functional_head]["lemma"] == "att")
 			    funcheadtype = "adp"
@@ -421,34 +424,73 @@ def convert_syntax(sentence2, sent_id)
 					end
 				end
 				if contenthead.nil?
-				    #if headpos == "SCONJ" or headpos == "ADP"
 					daughters.each do |daughter|
 				        if sentence[daughter]["deprel"] == "MD"
 					        contenthead = daughter.clone
 					     break
 					    end
 					end
-					#end
 				end
+		    elsif funcheadtype == "inte"
+			    reassigned_without_fullswap = true
+			    if functionalheads_head != 0
+				    daughters.each do |daughter|
+					    sentence[daughter]["head"] = functionalheads_head
+					end
+				end
+			elsif funcheadtype == "det"
+			    reassigned_without_fullswap = true
+			    if daughters.length == 1 
+				    if (sentence[daughters[0]]["lemma"] == "här" or sentence[daughters[0]]["lemma"] == "där")
+				        sentence[daughters[0]]["head"] = functionalheads_head
+					    sentence[daughters[0]]["deprel"] = "advmod"
+					elsif sentence[daughters[0]]["lemma"] == "viss"
+					    sentence[daughters[0]]["head"] = functionalheads_head
+						sentence[daughters[0]]["deprel"] = "amod"
+					end
+				end
+			elsif funcheadtype == "aux"
+			    daughters.each do |daughter|
+				    if sentence[daughter]["deprel"] == "IV" and !daughters_to_ignore.include?(daughter)
+					    contenthead = daughter.clone
+						#heads_to_ignore << functional_head
+                        daughters_to_ignore << functional_head
+						break
+					end
+				end
+				if contenthead.nil?
+					daughters.each do |daughter|
+				        if sentence[daughter]["deprel"] == "SP"
+					        contenthead = daughter.clone
+					        break
+					    end
+					end
+				end
+				#STDERR.puts "contenthead=#{contenthead}"
 			end
 			
-			if contenthead.nil?
-			    if funcheadtype == "det" or (findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes" and !findinset("ExtXpos",sentence[functional_head]["misc"]).to_s.match?(/[A-Z][A-Z]M/))
-				    functionalheads_head = sentence[functional_head]["head"]
-					if functionalheads_head == 0
-					    headheadform = "root"
-				    else
-					    headheadform = sentence[functionalheads_head]["form"]
-					end
-			        STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}\t#{sentence[functional_head]["form"]}\t#{daughters.length}\t#{sentence[daughters[0]]["form"]}\t#{headheadform}"  
-				
-		        end
+			if contenthead.nil? 
+			    if reassigned_without_fullswap != true
+			        if funcheadtype == "det" or (findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes" and !findinset("ExtXpos",sentence[functional_head]["misc"]).to_s.match?(/[A-Z][A-Z]M/))
+				        
+				    	if functionalheads_head == 0
+				    	    headheadform = "root"
+				        else
+				    	    headheadform = sentence[functionalheads_head]["form"]
+				    	end
+			            STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}\t#{sentence[functional_head]["form"]}\t#{daughters.length}\t#{sentence[daughters[0]]["form"]}\t#{headheadform}\t#{sentence[daughters[0]]["deprel"]}"  
+				    
+		            end
+				end
 				heads_to_ignore << functional_head
 				#TODO: part of ME
 				#misannotations
 			else
 			    sentence[contenthead]["head"] = sentence[functional_head]["head"].clone
-				sentence[contenthead]["deprel"] = sentence[functional_head]["deprel"].clone
+				
+				if !(funcheadtype == "aux" and sentence[contenthead]["deprel"]=="SP")
+				    sentence[contenthead]["deprel"] = sentence[functional_head]["deprel"].clone
+				end
 				sentence[functional_head]["head"] = contenthead.clone
 				if sentence[functional_head]["misc"]==""
 				    umisc[functional_head] = "NewHead=#{contenthead}"
@@ -468,15 +510,22 @@ def convert_syntax(sentence2, sent_id)
 			        else
 				        sentence[functional_head]["deprel"] = "case"
 				    end	
+				elsif funcheadtype == "aux"
+					    if sentence[functional_head]["lemma"] == "vara"
+						    sentence[functional_head]["deprel"] = "cop"
+						else
+					        sentence[functional_head]["deprel"] = "aux"
+					    end
+					
 				end
 				
 				daughters.each do |daughter|
 				    if daughter != contenthead
 					    sentence[daughter]["head"] = contenthead.clone
-				        
 					end
+					
 				end
-				
+			    #STDERR.puts sentence	
 			end
 			
 			
@@ -942,7 +991,7 @@ inputfile.each_line do |line|
                     end
                 end
             end
-            #STDERR.puts sent_id
+            STDERR.puts sent_id
             uheads, udeprels, umisc = convert_syntax(sentence_pos_converted, sent_id)
             #STDERR.puts "#{uheads}"
             #STDERR.puts "#{udeprels}"
