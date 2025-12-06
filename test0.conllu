@@ -1,14 +1,57 @@
-# sent_id = Blog_160886-12595823.14
-# text = Vissa stunder är såklart ljuvliga och helt underbara och supermysiga...
-1	Vissa	en viss	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	2	DT		PhraseCat=NP
-2	stunder	stund	NN	-.-.-	NN.UTR.PLU.IND	3	SB		PhraseCat=NP
-3	är	vara	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseCat=S
-4	såklart	såklart	AB	-.-.-	AB.-.-	3	MD		PhraseCat=S
-5	ljuvliga	ljuvlig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	6	KL		PhraseCat=KoP
-6	och	och	KO	-.-.-	KO.-	3	SP		PhraseCat=KoP
-7	helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	8	MD		PhraseCat=AjP
-8	underbara	underbar	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	6	KL		PhraseCat=AjP
-9	och	och	KO	-.-.-	KO.-	6	PH		PhraseCat=KoP
-10	supermysiga	super|mysig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	6	KL		PhraseCat=AjP|SpaceAfter=No
-11	...	_	SY	-.-.-	SY.DEL	3	--		PhraseCat=Top
+# sent_id = Blog_188519-10179826.19
+# text = Jag frågade honom om han var ny på jobbet o de var han så jag sa till honom att när jag jobbade med patient"transport - kontakt" så måste man kunna sina "rutter" inom sjukhuset o är de så man inte kan de ska man ha den lilla latmasken ..
+1	Jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	2	SB		PhraseCat=S
+2	frågade	fråga	VB	-.-.-	VB.IND.AKT.PRT	10	KL		PhraseCat=S
+3	honom	han	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	2	IO		PhraseCat=S
+4	om	om	SU	-.-.-	SU.-	2	OO		PhraseCat=SuP
+5	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	6	SB		PhraseCat=S
+6	var	vara	VB	-.-.-	VB.IND.AKT.PRT	4	OO		PhraseCat=S
+7	ny	ny	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	6	SP		PhraseCat=AjP
+8	på	på	PE	-.-.-	PE.-	7	OA		PhraseCat=PP
+9	jobbet	jobb	NN	-.-.-	NN.NEU.SIN.DEF	8	OO		PhraseCat=PP
+10	o	och	KO	-.-.-	KO.-	0	--		PhraseCat=KoP
+11	de	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	12	SP		PhraseCat=S
+12	var	vara	VB	-.-.-	VB.IND.AKT.PRT	10	KL		PhraseCat=S
+13	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	12	SB		PhraseCat=S
+14	så	så	KO	-.-.-	KO.-	10	PH		PhraseCat=KoP
+15	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	16	SB		PhraseCat=S
+16	sa	säga	VB	-.-.-	VB.IND.AKT.PRT	10	KL		PhraseCat=S
+17	till	till	PE	-.-.-	PE.-	16	OA		PhraseCat=PP
+18	honom	han	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	17	OO		PhraseCat=PP
+19	att	att	SU	-.-.-	SU.-	16	OO		PhraseCat=SuP
+20	när	när	AB	-.-.-	AB.-.FRL	31	MD		PhraseCat=AbP
+21	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	22	SB		PhraseCat=S
+22	jobbade	jobba	VB	-.-.-	VB.IND.AKT.PRT	20	MD		PhraseCat=S
+23	med	med	PE	-.-.-	PE.-	22	MD		PhraseCat=PP
+24	patient	patient	NN	-.-.-	NN.UTR.SIN.IND	27	KL		ExtXpos=NNM|PhraseCat=KoP|SpaceAfter=No
+25	"	_	SY	-.-.-	SY.DEL	10	--		PhraseCat=Top|SpaceAfter=No
+26	transport	transport	NN	-.-.-	NN.UTR.SIN.IND	24	ME		ExtXpos=NNM|PhraseCat=KoP
+27	-	_	SY	-.-.-	SY.DEL	23	OO		PhraseCat=KoP
+28	kontakt	kontakt	NN	-.-.-	NN.UTR.SIN.IND	27	KL		PhraseCat=KoP|SpaceAfter=No
+29	"	_	SY	-.-.-	SY.DEL	10	--		PhraseCat=Top
+30	så	så	AB	-.-.-	AB.-.-	31	MD		PhraseCat=S
+31	måste	måste	VB	-.-.-	VB.IND.AKT.PRS	40	KL		PhraseCat=S
+32	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	31	SB		PhraseCat=S
+33	kunna	kunna	VB	-.-.-	VB.INF.AKT.-	31	IV		PhraseCat=VP
+34	sina	sig	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	36	DT		PhraseCat=NP
+35	"	_	SY	-.-.-	SY.DEL	10	--		PhraseCat=Top|SpaceAfter=No
+36	rutter	rutt	NN	-.-.-	NN.UTR.PLU.IND	33	OO		PhraseCat=NP|SpaceAfter=No
+37	"	_	SY	-.-.-	SY.DEL	10	--		PhraseCat=Top
+38	inom	inom	PE	-.-.-	PE.-	36	MD		PhraseCat=PP
+39	sjukhuset	sjukhus	NN	-.-.-	NN.NEU.SIN.DEF	38	OO		PhraseCat=PP
+40	o	och	KO	-.-.-	KO.-	19	OO		PhraseCat=KoP
+41	är	vara	VB	-.-.-	VB.IND.AKT.PRS	48	MD		PhraseCat=S
+42	de	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	41	SB		PhraseCat=S
+43	så	så	AB	-.-.-	AB.-.-	41	OA		PhraseCat=SuP
+44	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	46	SB		PhraseCat=S
+45	inte	inte	AB	-.-.-	AB.-.-	46	MD		PhraseCat=S
+46	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	43	OO		PhraseCat=S
+47	de	de	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	46	OO		PhraseCat=S
+48	ska	skola	VB	-.-.-	VB.IND.AKT.PRS	40	KL		PhraseCat=S
+49	man	man	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	48	SB		PhraseCat=S
+50	ha	ha	VB	-.-.-	VB.INF.AKT.-	48	IV		PhraseCat=VP
+51	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	53	DT		PhraseCat=NP
+52	lilla	liten	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	53	MD		PhraseCat=NP
+53	latmasken	latmask	NN	-.-.-	NN.UTR.SIN.DEF	50	OO		PhraseCat=NP
+54	..	_	SY	-.-.-	SY.DEL	10	--		PhraseCat=Top
 

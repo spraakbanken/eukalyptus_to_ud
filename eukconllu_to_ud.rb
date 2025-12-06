@@ -299,10 +299,11 @@ def convert_syntax(sentence2, sent_id)
                 break
             end
         end
+		STDERR.puts 
+        STDERR.puts "conjuncts: #{chain_conjuncts}"
+		STDERR.puts "other conjunctions: #{chain_other_conjunctions}"
+		STDERR.puts "other daughters: #{chain_other_daughters}"
 		#STDERR.puts 
-        #STDERR.puts "conjuncts: #{chain_conjuncts}"
-		#STDERR.puts "other conjunctions: #{chain_other_conjunctions}"
-		#STDERR.puts "other daughters: #{chain_other_daughters}"
 		
         if nokl
             break
@@ -320,7 +321,7 @@ def convert_syntax(sentence2, sent_id)
                 else
                     status = "other"
                 end
-                #STDERR.puts status
+                STDERR.puts status
 	        
                 chain_conjuncts[coordination_head].sort!
                 if status == "conjunction" or status == "punctuation" or status == "other"
