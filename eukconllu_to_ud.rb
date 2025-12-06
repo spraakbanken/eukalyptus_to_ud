@@ -25,7 +25,7 @@ end
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
 @matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
 
-@functionwords = ["ADP","SCONJ","PART","DET","AUX"] #, #CCONJ,SYM,X,INTJ,PUNCT. NO: ,NUM,PRON,
+@functionwords = ["ADP","SCONJ","PART","DET","AUX","CCONJ","SYM","PUNCT"] #, #CCONJ,SYM,X,INTJ,PUNCT. NO: ,NUM,PRON,
 
 =begin
 Lista 1:
@@ -91,6 +91,8 @@ AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA 
 # Int,Rel
 # ranges (1986-87, 2000-2006, 08.15-09.30) seem to be inconsinsently tokenized. UD policy unknown to me.
 # Eupa_00-01-17.301, 44: särskilt should be ADV
+# UO->X: manually make them analyzable
+# Fixed expressions: make them analyzable
 
 @auxlist = ["böra", "få", "komma", "kunna", "lär", "må", "måste", "skola", "torde",  "vilja", "bli", "ha", "vara"]   #from https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_auxiliary.pl?lcode=sv with changes discussed in https://github.com/UniversalDependencies/docs/issues/1082
 @adverbial_heads = ["AJ","VB"] 
@@ -485,7 +487,10 @@ def convert_syntax(sentence2, sent_id)
 				        else
 				    	    headheadform = sentence[functionalheads_head]["form"]
 				    	end
-			            STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}\t#{sentence[functional_head]["form"]}\t#{daughters.length}\t#{sentence[daughters[0]]["form"]}\t#{headheadform}\t#{sentence[daughters[0]]["deprel"]}"  
+						
+						if headheadform != "root"
+			                STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}\t#{sentence[functional_head]["form"]}\t#{daughters.length}\t#{sentence[daughters[0]]["form"]}\t#{headheadform}\t#{sentence[daughters[0]]["deprel"]}"  
+						end
 				    
 		            end
 				end
