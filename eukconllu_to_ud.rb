@@ -261,8 +261,7 @@ def convert_syntax(sentence2, sent_id)
 
     sentence.each_pair do |id,senthash|
         if senthash["head"] == 0
-            root = id.clone
-            
+            root = id.clone            
         end
     end
     
@@ -299,10 +298,10 @@ def convert_syntax(sentence2, sent_id)
                 break
             end
         end
-		STDERR.puts 
-        STDERR.puts "conjuncts: #{chain_conjuncts}"
-		STDERR.puts "other conjunctions: #{chain_other_conjunctions}"
-		STDERR.puts "other daughters: #{chain_other_daughters}"
+		#STDERR.puts 
+        #STDERR.puts "conjuncts: #{chain_conjuncts}"
+		#STDERR.puts "other conjunctions: #{chain_other_conjunctions}"
+		#STDERR.puts "other daughters: #{chain_other_daughters}"
 		#STDERR.puts 
 		
         if nokl
@@ -321,7 +320,7 @@ def convert_syntax(sentence2, sent_id)
                 else
                     status = "other"
                 end
-                STDERR.puts status
+                #STDERR.puts status
 	        
                 chain_conjuncts[coordination_head].sort!
                 if status == "conjunction" or status == "punctuation" or status == "other"
@@ -382,6 +381,12 @@ def convert_syntax(sentence2, sent_id)
                 
             end
         end
+		sentence.each_pair do |id,senthash|
+        if senthash["head"] == 0
+            root = id.clone            
+        end
+    end
+    
     end
     
     heads_to_ignore = []
@@ -555,6 +560,7 @@ def convert_syntax(sentence2, sent_id)
 		end
 	end
 #=end
+
     sentence.each_pair do |id,senthash|
         deprel = senthash["deprel"]
         head = senthash["head"]

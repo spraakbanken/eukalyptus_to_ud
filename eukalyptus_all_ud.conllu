@@ -2520,7 +2520,7 @@
 24	patient	patient	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	MD		ExtXpos=NNM|PhraseCat=KoP|SpaceAfter=No
 25	"	"	PUNCT	_	_	2	punct		PhraseCat=Top|SpaceAfter=No
 26	transport	transport	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	fixed		ExtXpos=NNM|PhraseCat=KoP
-27	-	-	PUNCT	_	_	10	punct		PhraseCat=KoP
+27	-	-	PUNCT	_	_	2	punct		PhraseCat=KoP
 28	kontakt	kontakt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	conj		PhraseCat=KoP|SpaceAfter=No
 29	"	"	PUNCT	_	_	2	punct		PhraseCat=Top
 30	så	så	ADV	_	_	33	MD		PhraseCat=S
@@ -7063,7 +7063,7 @@
 18	town	town	X	_	Foreign=Yes	15	advmod		ExtXpos=ENM|PhraseCat=PP
 19	för	för	ADP	_	_	23	case		ExtXpos=PEM|NewHead=23|PhraseCat=PP
 20	två	två	NUM	_	NumType=Card	23	det		PhraseCat=KoP|SpaceAfter=No
-21	-	-	PUNCT	_	_	11	punct		PhraseCat=KoP|SpaceAfter=No
+21	-	-	PUNCT	_	_	2	punct		PhraseCat=KoP|SpaceAfter=No
 22	tre	tre	NUM	_	NumType=Card	20	conj		PhraseCat=KoP
 23	år	år	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	15	MD		PhraseCat=NP
 24	sen	sen	ADV	_	_	23	fixed		ExtXpos=PEM|PhraseCat=PP
@@ -11130,7 +11130,7 @@
 4	-	-	PUNCT	_	_	5	punct		PhraseCat=Top
 5	jobbade	jobba	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 6	16	16	NUM	_	NumType=Card	5	MD		PhraseCat=KoP|SpaceAfter=No
-7	-	-	PUNCT	_	_	9	punct		PhraseCat=KoP|SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct		PhraseCat=KoP|SpaceAfter=No
 8	21	21	NUM	_	NumType=Card	6	conj		PhraseCat=KoP
 9	och	och	CCONJ	_	_	13	cc		PhraseCat=KoP
 10	sen	sen	ADV	_	_	13	MD		PhraseCat=S
@@ -11688,7 +11688,7 @@
 7	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
 8	typ	typ	ADV	_	_	9	MD		PhraseCat=NP
 9	bacon	bacon	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	appos		PhraseCat=NP
-10	&	&	SYM	_	_	13	punct		PhraseCat=KoP
+10	&	&	SYM	_	_	2	punct		PhraseCat=KoP
 11	ägg	ägg	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	conj		PhraseCat=NP|SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
 13	men	men	CCONJ	_	_	18	cc		PhraseCat=KoP
@@ -13656,7 +13656,7 @@
 25	för	för	ADP	_	_	27	case		NewHead=27|PhraseCat=PP
 26	enbart	enbart	ADV	_	_	27	MD		PhraseCat=NP
 27	läsplatta	läsplatta	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	MD		PhraseCat=NP|SpaceAfter=No
-28	/	/	PUNCT	_	_	15	punct		PhraseCat=KoP|SpaceAfter=No
+28	/	/	PUNCT	_	_	5	punct		PhraseCat=KoP|SpaceAfter=No
 29	e-boksläsare	eboksläsare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	conj		PhraseCat=NP|SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct		PhraseCat=Top
 
@@ -20972,7 +20972,7 @@
 11	grannen	granne	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	advmod		PhraseCat=NP|SpaceAfter=No
 12	,	,	PUNCT	_	_	7	punct		PhraseCat=Top
 13	H	H	PROPN	_	Case=Nom	11	appos		PhraseCat=KoP|SpaceAfter=No
-14	&	&	SYM	_	_	19	punct		PhraseCat=KoP|SpaceAfter=No
+14	&	&	SYM	_	_	7	punct		PhraseCat=KoP|SpaceAfter=No
 15	p	p	PROPN	_	Case=Nom	13	conj		PhraseCat=KoP
 16	och	och	CCONJ	_	_	18	cc		PhraseCat=KoP
 17	deras	de	DET	_	Definite=Def|Poss=Yes|PronType=Art	18	det		PhraseCat=NP
@@ -44488,7 +44488,7 @@
 36	för	för	ADP	_	_	37	case		NewHead=37|PhraseCat=PP
 37	åren	år	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	35	MD		PhraseCat=NP
 38	2000	2000	NUM	_	NumType=Card	37	appos		PhraseCat=NP|SpaceAfter=No
-39	-	-	PUNCT	_	_	16	punct		PhraseCat=NP|SpaceAfter=No
+39	-	-	PUNCT	_	_	8	punct		PhraseCat=NP|SpaceAfter=No
 40	2006	2006	NUM	_	NumType=Card	38	conj		PhraseCat=NP|SpaceAfter=No
 41	.	.	PUNCT	_	_	8	punct		PhraseCat=Top
 
@@ -44958,7 +44958,7 @@
 32	väg-	väg-	X	_	Foreign=Yes	29	MD		PhraseCat=NP
 33	och	och	CCONJ	_	_	34	cc		PhraseCat=KoP
 34	baninvest	baninvest	X	_	Foreign=Yes	32	conj		PhraseCat=NP|SpaceAfter=No
-35	/	/	PUNCT	_	_	7	punct		PhraseCat=KoP|SpaceAfter=No
+35	/	/	PUNCT	_	_	2	punct		PhraseCat=KoP|SpaceAfter=No
 36	Botniabanan	Botniabanan	PROPN	_	Case=Nom	32	conj		PhraseCat=NP
 37	AB	aktiebolag	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	36	appos		PhraseCat=NP|SpaceAfter=No
 38	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
@@ -62130,7 +62130,7 @@
 7	ges	ge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj		PhraseCat=S
 8	i	i	ADP	_	_	9	case		NewHead=9|PhraseCat=PP
 9	svenska	svenska	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	MD		PhraseCat=KoP|SpaceAfter=No
-10	/	/	PUNCT	_	_	6	punct		PhraseCat=KoP|SpaceAfter=No
+10	/	/	PUNCT	_	_	3	punct		PhraseCat=KoP|SpaceAfter=No
 11	svenska	svenska	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj		PhraseCat=NP
 12	som	som	SCONJ	_	_	14	mark		NewHead=14|PhraseCat=SuP
 13	andra	andra	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing	14	MD		PhraseCat=NP
@@ -93993,12 +93993,12 @@
 6	Ragnarsson	Ragnarsson	PROPN	_	Case=Nom	5	fixed		ExtXpos=ENM|PhraseCat=PP
 7	åren	år	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	2	MD		PhraseCat=NP
 8	1970	1970	NUM	_	NumType=Card	7	appos		PhraseCat=KoP|SpaceAfter=No
-9	–	–	PUNCT	_	_	11	punct		PhraseCat=KoP|SpaceAfter=No
+9	–	–	PUNCT	_	_	2	punct		PhraseCat=KoP|SpaceAfter=No
 10	72	72	NUM	_	NumType=Card	8	conj		PhraseCat=KoP
 11	och	och	CCONJ	_	_	12	cc		PhraseCat=KoP
 12	nyöversattes	nyöversatta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj		PhraseCat=S
 13	1979	1979	NUM	_	NumType=Card	12	MD		PhraseCat=KoP|SpaceAfter=No
-14	–	–	PUNCT	_	_	11	punct		PhraseCat=KoP|SpaceAfter=No
+14	–	–	PUNCT	_	_	2	punct		PhraseCat=KoP|SpaceAfter=No
 15	80	80	NUM	_	NumType=Card	13	conj		PhraseCat=KoP
 16	av	av	ADP	_	_	19	case		NewHead=19|PhraseCat=PP
 17	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	19	det		PhraseCat=NP
@@ -112826,7 +112826,7 @@
 20	introduceras	introducera	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	18	obj		PhraseCat=S
 21	i	i	ADP	_	_	22	case		NewHead=22|PhraseCat=PP
 22	Jönssonligan	Jönssonligan	PROPN	_	Case=Nom	20	MD		PhraseCat=KoP
-23	&	&	SYM	_	_	17	punct		PhraseCat=KoP
+23	&	&	SYM	_	_	11	punct		PhraseCat=KoP
 24	Dynamit-Harry	Dynamit-Harry	PROPN	_	Case=Nom	22	conj		PhraseCat=KoP
 25	och	och	CCONJ	_	_	26	cc		PhraseCat=KoP
 26	Doris	Doris	PROPN	_	Case=Nom	20	conj		PhraseCat=S|PromotedHead=Yes
@@ -114708,7 +114708,7 @@
 16	,	,	PUNCT	_	_	17	punct		PhraseCat=Top
 17	berodde	bero	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 18	1867	1867	NUM	_	NumType=Card	17	MD		PhraseCat=KoP|SpaceAfter=No
-19	–	–	PUNCT	_	_	25	punct		PhraseCat=KoP|SpaceAfter=No
+19	–	–	PUNCT	_	_	17	punct		PhraseCat=KoP|SpaceAfter=No
 20	1911	1911	NUM	_	NumType=Card	18	conj		PhraseCat=KoP
 21	på	på	ADP	_	_	22	case		NewHead=22|PhraseCat=PP
 22	förmögenhet	förmögenhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	advcl		PhraseCat=KoP
@@ -114757,7 +114757,7 @@
 17	ju	ju	CCONJ	_	_	18	MD		PhraseCat=AjP
 18	större	stor	ADJ	_	Case=Nom|Degree=Cmp	19	MD	19:MD|21:	PhraseCat=AjP
 19	förmögenhet	förmögenhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	DF		PhraseCat=NP|SpaceAfter=No
-20	/	/	PUNCT	_	_	11	punct		PhraseCat=KoP|SpaceAfter=No
+20	/	/	PUNCT	_	_	7	punct		PhraseCat=KoP|SpaceAfter=No
 21	inkomst	inkomst	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	conj		PhraseCat=NP
 22	desto	desto	ADV	_	_	23	MD		PhraseCat=AbP
 23	fler	mången	ADJ	_	Case=Nom|Degree=Cmp	24	det		PhraseCat=AjP
