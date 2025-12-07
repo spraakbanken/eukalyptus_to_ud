@@ -25,7 +25,7 @@ end
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
 @matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
 
-@functionwords = ["ADP","SCONJ","PART","DET","AUX","CCONJ","SYM","PUNCT"] #, #CCONJ,SYM,X,INTJ,PUNCT. NO: ,NUM,PRON,
+@functionwords = ["ADP","SCONJ","PART","DET","AUX","CCONJ","SYM","PUNCT"] #NO: ,NUM,PRON,X,INTJ.
 
 =begin
 Lista 1:
@@ -429,6 +429,10 @@ def convert_syntax(sentence2, sent_id)
 			    funcheadtype = "aux"
 			elsif headpos == "DET"
 			    funcheadtype = "det"
+			elsif headpos == "PUNCT"
+			    funcheadtype = "punct"
+			elsif headpos == "SYM"
+			    funcheadtype = "sym"
 			end
 			
 			if funcheadtype == "adp"
@@ -481,7 +485,25 @@ def convert_syntax(sentence2, sent_id)
 					    end
 					end
 				end
+			elsif funcheadtype == "punct"
+			    reassigned_without_fullswap = true
+				sentence[daughters[0]]["head"] = functionalheads_head.clone
+				sentence[functional_head]["head"] = daughters[0].clone
+				sentence[functional_head]["upos"] = "SYM"
+				#if sent_id == "Blog_12325-2172538.4"
+				#    sentence[daughters[0]]["deprel"] = "nummod"			
+				#    sentence[functional_head]["deprel"] = "case"
+				#else			    
+				sentence[daughters[0]]["deprel"] = "nmod"			
+				sentence[functional_head]["deprel"] = "case"
+				#end
 				#STDERR.puts "contenthead=#{contenthead}"
+			elsif funcheadtype == "sym"
+			    reassigned_without_fullswap = true
+                symlemma = {"%" => "procent", "º" => "grader", "#" => "nummer", "µm" => "mikrometer", "°C" => "grader"}			
+				sympos = {"%" => "NOUN", "º" => "NOUN", "#" => "NOUN", "µm" => "NOUN", "°C" => "NOUN"}
+                sentence[functional_head]["upos"] = sympos[sentence[functional_head]["form"]]
+				sentence[functional_head]["lemma"] = symlemma[sentence[functional_head]["form"]]				
 			end
 			
 			if contenthead.nil? 
@@ -1024,7 +1046,7 @@ inputfile.each_line do |line|
                     outputline2 = outputline1.split("\t")
                     id = outputline2[0].to_i
 					misc = umisc[id].to_s.split("|").sort.join("|")
-                    outputline_synt = [id, outputline2[1], outputline2[2], outputline2[3], outputline2[4], outputline2[5], uheads[id],udeprels[id],outputline2[8],misc].join("\t")
+                    outputline_synt = [id, outputline2[1], sentence[id]["lemma"], sentence[id]["upos"], outputline2[4], outputline2[5], uheads[id],udeprels[id],outputline2[8],misc].join("\t")
                     output_synt << outputline_synt
                 end
             end

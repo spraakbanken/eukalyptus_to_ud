@@ -307,8 +307,8 @@
 28	ca	cirka	ADV	_	Abbr=Yes	29	MD		PhraseCat=NuP
 29	8,5	8,5	NUM	_	NumType=Card	30	det		PhraseCat=NuP
 30	timmar	timme	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	24	appos		PhraseCat=NP|SpaceAfter=No
-31	/	/	PUNCT	_	_	30	punct		PhraseCat=PP|SpaceAfter=No
-32	dag	dag	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	31	obj		PhraseCat=PP|SpaceAfter=No
+31	/	/	SYM	_	_	32	case		PhraseCat=PP|SpaceAfter=No
+32	dag	dag	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	nmod		PhraseCat=PP|SpaceAfter=No
 33	)	)	PUNCT	_	_	2	punct		PhraseCat=Top|SpaceAfter=No
 34	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
 35	vilket	vilken	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	18	DF		PhraseCat=SuP
@@ -5405,8 +5405,8 @@
 
 # sent_id = Blog_13263-702563.5
 # text = [...
-1	[	[	PUNCT	_	_	0	punct		PhraseCat=Top|SpaceAfter=No
-2	...	...	PUNCT	_	_	1	punct		PhraseCat=Top|SpaceAfter=No
+1	[	[	SYM	_	_	0	root		PhraseCat=Top|SpaceAfter=No
+2	...	...	SYM	_	_	1	case		PhraseCat=Top|SpaceAfter=No
 
 # sent_id = Blog_13263-702563.6
 # text = ]
@@ -5486,8 +5486,8 @@
 
 # sent_id = Blog_13263-120430.4
 # text = ).
-1	)	)	PUNCT	_	_	0	punct		PhraseCat=Top|SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct		PhraseCat=Top
+1	)	)	SYM	_	_	0	root		PhraseCat=Top|SpaceAfter=No
+2	.	.	SYM	_	_	1	case		PhraseCat=Top
 
 # sent_id = Blog_13263-120430.5
 # text = Idag städade jag ett skåp och hittade en mobilkartong från 1999.
@@ -6808,8 +6808,8 @@
 
 # sent_id = Blog_13263-791534.4
 # text = [...
-1	[	[	PUNCT	_	_	0	punct		PhraseCat=Top|SpaceAfter=No
-2	...	...	PUNCT	_	_	1	punct		PhraseCat=Top|SpaceAfter=No
+1	[	[	SYM	_	_	0	root		PhraseCat=Top|SpaceAfter=No
+2	...	...	SYM	_	_	1	case		PhraseCat=Top|SpaceAfter=No
 
 # sent_id = Blog_13263-791534.5
 # text = ]
@@ -7686,8 +7686,8 @@
 2	släpps	släppa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root		PhraseCat=S
 3	den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	MD		PhraseCat=AjP
 4	25	tjugofemte	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	advcl		PhraseCat=AjP|SpaceAfter=No
-5	/	/	PUNCT	_	_	4	punct		PhraseCat=PP|SpaceAfter=No
-6	2	annan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	obj		PhraseCat=PP|SpaceAfter=No
+5	/	/	SYM	_	_	6	case		PhraseCat=PP|SpaceAfter=No
+6	2	annan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	nmod		PhraseCat=PP|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
 
 # sent_id = Blog_12325-2172538.5
@@ -11830,7 +11830,7 @@
 1	Ord.	ordinariepris	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj		PhraseCat=S
 2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	4	cop		NewHead=4|PhraseCat=S
 3	995	995	NUM	_	NumType=Card	4	det		PhraseCat=NP|SpaceAfter=No
-4	:-	:-	SYM	_	_	0	root		PhraseCat=NP
+4	:-			_	_	0	root		PhraseCat=NP
 5	men	men	CCONJ	_	_	7	cc		PhraseCat=KoP
 6	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	nsubj		PhraseCat=S
 7	hade	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
@@ -11838,7 +11838,7 @@
 9	rabatt	rabatt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj		PhraseCat=NP
 10	på	på	ADP	_	_	12	case		NewHead=12|PhraseCat=PP
 11	20	20	NUM	_	NumType=Card	12	det		PhraseCat=NP|SpaceAfter=No
-12	%	%	SYM	_	_	9	MD		PhraseCat=NP|SpaceAfter=No
+12	%	procent	NOUN	_	_	9	MD		PhraseCat=NP|SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
 14	så	så	CCONJ	_	_	16	cc		PhraseCat=KoP
 15	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	16	nsubj		PhraseCat=S
@@ -12663,7 +12663,7 @@
 5	påse	påse	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	advcl		PhraseCat=PP
 6	nu	nu	ADV	_	_	2	MD		PhraseCat=S|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
-8	------->	------->	SYM	_	_	2	DF		PhraseCat=PP
+8	------->			_	_	2	DF		PhraseCat=PP
 9	www.pacemakers.blogg.se	www.pacemakers.blogg.se	PROPN	_	Case=Nom	8	obj		PhraseCat=PP
 
 # newdoc id = Blog_265827-14455131
@@ -12932,7 +12932,7 @@
 4	,	,	PUNCT	_	_	7	punct		PhraseCat=Top
 5	Yves-Rocher.se	Yves-Rocher	PROPN	_	Case=Nom	3	appos		PhraseCat=NP
 6	99	99	NUM	_	NumType=Card	7	det		PhraseCat=NP|SpaceAfter=No
-7	:-	:-	SYM	_	_	0	root		PhraseCat=NP
+7	:-			_	_	0	root		PhraseCat=NP
 
 # sent_id = Blog_265827-15106306.14
 # text = Clinique Even Better, Kicks.se 485:-
@@ -12942,7 +12942,7 @@
 4	,	,	PUNCT	_	_	7	punct		PhraseCat=Top
 5	Kicks.se	Kicks.se	PROPN	_	Case=Nom	1	appos		PhraseCat=NP
 6	485	485	NUM	_	NumType=Card	7	det		PhraseCat=NP|SpaceAfter=No
-7	:-	:-	SYM	_	_	0	root		PhraseCat=NP
+7	:-			_	_	0	root		PhraseCat=NP
 
 # newdoc id = Blog_265827-14749673
 # sent_id = Blog_265827-14749673.1
@@ -30196,7 +30196,7 @@
 23	under	under	ADP	_	_	26	case		NewHead=26|PhraseCat=PP
 24	minus	minus	ADV	_	_	25	MD		PhraseCat=NuP
 25	20	20	NUM	_	NumType=Card	26	det		PhraseCat=NuP
-26	º	º	SYM	_	_	21	MD		PhraseCat=NP
+26	º	grader	NOUN	_	_	21	MD		PhraseCat=NP
 27	C	C	PROPN	_	Case=Nom	26	appos		PhraseCat=NP|SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct		PhraseCat=Top
 
@@ -95296,8 +95296,8 @@
 8	graderade	graderad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	0	root		PhraseCat=AjP
 9	i	i	ADP	_	_	10	case		NewHead=10|PhraseCat=PP
 10	km	kilometer	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	advcl		PhraseCat=NP|SpaceAfter=No
-11	/	/	PUNCT	_	_	10	punct		PhraseCat=PP|SpaceAfter=No
-12	h	h	X	_	Abbr=Yes|Foreign=Yes	11	obj		PhraseCat=PP|SpaceAfter=No
+11	/	/	SYM	_	_	12	case		PhraseCat=PP|SpaceAfter=No
+12	h	h	X	_	Abbr=Yes|Foreign=Yes	10	nmod		PhraseCat=PP|SpaceAfter=No
 13	.	.	PUNCT	_	_	8	punct		PhraseCat=Top
 
 # sent_id = Wiki_Hastighetsmatare.22
@@ -102822,7 +102822,7 @@
 2	Gama	Gama	PROPN	_	Case=Nom	1	fixed		ExtXpos=ENM|PhraseCat=S
 3	rankades	ranka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root		PhraseCat=S
 4	som	som	SCONJ	_	_	5	mark		NewHead=5|PhraseCat=SuP
-5	#	#	SYM	_	_	3	MD		PhraseCat=NP|SpaceAfter=No
+5	#	nummer	NOUN	_	_	3	MD		PhraseCat=NP|SpaceAfter=No
 6	86	86	NUM	_	NumType=Card	5	appos		PhraseCat=NP
 7	på	på	ADP	_	_	11	case		NewHead=11|PhraseCat=PP
 8	Michael	Michael	PROPN	_	Case=Nom	11	det		ExtXpos=ENM|PhraseCat=NP
@@ -103165,8 +103165,8 @@
 6	anledning	anledning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	MD		PhraseCat=NP
 7	sin	sig	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	det		PhraseCat=NP
 8	film	film	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj		PhraseCat=NP
-9	Help	Help	X	_	Foreign=Yes	10	fixed		ExtXpos=ENM|PhraseCat=NP|SpaceAfter=No
-10	!	!	PUNCT	_	_	8	punct		ExtXpos=ENM|PhraseCat=NP
+9	Help	Help	X	_	Foreign=Yes	8	nmod		ExtXpos=ENM|PhraseCat=NP|SpaceAfter=No
+10	!	!	SYM	_	_	9	case		ExtXpos=ENM|PhraseCat=NP
 11	till	till	ADP	_	_	12	case		NewHead=12|PhraseCat=PP
 12	Elias	Elias	PROPN	_	Case=Nom	3	advcl		ExtXpos=ENM|PhraseCat=PP
 13	Howe	Howe	PROPN	_	Case=Nom	12	fixed		ExtXpos=ENM|PhraseCat=PP
@@ -104105,8 +104105,8 @@
 8	till	till	ADP	_	_	10	case		NewHead=10|PhraseCat=PP
 9	300	300	NUM	_	NumType=Card	10	det		PhraseCat=NP
 10	stygn	stygn	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	MD		PhraseCat=NP|SpaceAfter=No
-11	/	/	PUNCT	_	_	10	punct		PhraseCat=PP|SpaceAfter=No
-12	minut	minut	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj		PhraseCat=PP|SpaceAfter=No
+11	/	/	SYM	_	_	12	case		PhraseCat=PP|SpaceAfter=No
+12	minut	minut	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	nmod		PhraseCat=PP|SpaceAfter=No
 13	,	,	PUNCT	_	_	6	punct		PhraseCat=Top
 14	då	då	ADV	_	_	17	MD		PhraseCat=NP
 15	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	17	det		PhraseCat=NP
@@ -104118,8 +104118,8 @@
 21	ca	cirka	ADV	_	Abbr=Yes	22	MD		PhraseCat=NuP
 22	50	50	NUM	_	NumType=Card	23	det		PhraseCat=NuP
 23	stygn	stygn	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	18	advcl		PhraseCat=NP|SpaceAfter=No
-24	/	/	PUNCT	_	_	23	punct		PhraseCat=PP|SpaceAfter=No
-25	minut	minut	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obj		PhraseCat=PP
+24	/	/	SYM	_	_	25	case		PhraseCat=PP|SpaceAfter=No
+25	minut	minut	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	nmod		PhraseCat=PP
 26	som	som	SCONJ	_	_	28	mark		NewHead=27|PhraseCat=SuP
 27	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	28	cop		NewHead=28|PhraseCat=S
 28	max	max	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	23	MD		PhraseCat=NP
@@ -104179,8 +104179,8 @@
 10	1	1	NUM	_	NumType=Card	12	det		ExtXpos=NUM|PhraseCat=NuP
 11	000	000	NUM	_	NumType=Card	10	fixed		ExtXpos=NUM|PhraseCat=NuP
 12	stygn	stygn	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	MD		PhraseCat=NP|SpaceAfter=No
-13	/	/	PUNCT	_	_	12	punct		PhraseCat=PP|SpaceAfter=No
-14	minut	minut	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	obj		PhraseCat=PP|SpaceAfter=No
+13	/	/	SYM	_	_	14	case		PhraseCat=PP|SpaceAfter=No
+14	minut	minut	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod		PhraseCat=PP|SpaceAfter=No
 15	,	,	PUNCT	_	_	5	punct		PhraseCat=Top
 16	men	men	CCONJ	_	_	26	cc		PhraseCat=KoP
 17	för	för	ADP	_	_	20	case		NewHead=20|PhraseCat=PP
@@ -104257,8 +104257,8 @@
 8	9	9	NUM	_	NumType=Card	5	conj		ExtXpos=NUM|PhraseCat=KoP
 9	000	000	NUM	_	NumType=Card	8	fixed		ExtXpos=NUM|PhraseCat=KoP
 10	stygn	stygn	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	MD		PhraseCat=NP|SpaceAfter=No
-11	/	/	PUNCT	_	_	10	punct		PhraseCat=PP|SpaceAfter=No
-12	minut	minut	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj		PhraseCat=PP|SpaceAfter=No
+11	/	/	SYM	_	_	12	case		PhraseCat=PP|SpaceAfter=No
+12	minut	minut	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	nmod		PhraseCat=PP|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct		PhraseCat=Top
 
 # sent_id = Wiki_Symaskin.65
@@ -104617,7 +104617,7 @@
 21	i	i	ADP	_	_	22	case		NewHead=22|PhraseCat=PP
 22	intervallet	intervall	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	MD		PhraseCat=NP
 23	0,29-3	0,29-3	NUM	_	NumType=Card	24	det		PhraseCat=NP
-24	µm	µm	SYM	_	_	22	appos		PhraseCat=NP|SpaceAfter=No
+24	µm	mikrometer	NOUN	_	_	22	appos		PhraseCat=NP|SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct		PhraseCat=Top
 
 # sent_id = Wiki_Vader.21
@@ -104697,7 +104697,7 @@
 19	i	i	ADP	_	_	20	case		NewHead=20|PhraseCat=PP
 20	intervallet	intervall	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	MD		PhraseCat=NP
 21	3-100	3-100	NUM	_	NumType=Card	22	det		PhraseCat=NP
-22	µm	µm	SYM	_	_	20	appos		PhraseCat=NP|SpaceAfter=No
+22	µm	mikrometer	NOUN	_	_	20	appos		PhraseCat=NP|SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct		PhraseCat=Top
 
 # sent_id = Wiki_Vader.24
@@ -105206,8 +105206,8 @@
 12	sekund	sekund	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	MD		PhraseCat=PP
 13	(	(	PUNCT	_	_	2	punct		PhraseCat=Top|SpaceAfter=No
 14	m	meter	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	appos		PhraseCat=NP|SpaceAfter=No
-15	/	/	PUNCT	_	_	14	punct		PhraseCat=PP|SpaceAfter=No
-16	s	sekund	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	obj		PhraseCat=PP|SpaceAfter=No
+15	/	/	SYM	_	_	16	case		PhraseCat=PP|SpaceAfter=No
+16	s	sekund	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nmod		PhraseCat=PP|SpaceAfter=No
 17	)	)	PUNCT	_	_	2	punct		PhraseCat=Top|SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
 
@@ -105361,8 +105361,8 @@
 12	i	i	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
 13	exempelvis	exempelvis	ADV	_	_	14	MD		PhraseCat=NP
 14	g	gram	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	MD		PhraseCat=NP|SpaceAfter=No
-15	/	/	PUNCT	_	_	14	punct		PhraseCat=PP|SpaceAfter=No
-16	m³	kubikmeter	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	obj		PhraseCat=PP|SpaceAfter=No
+15	/	/	SYM	_	_	16	case		PhraseCat=PP|SpaceAfter=No
+16	m³	kubikmeter	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nmod		PhraseCat=PP|SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct		PhraseCat=Top
 
 # sent_id = Wiki_Vader.63
@@ -105399,7 +105399,7 @@
 8	innehålla	innehålla	VERB	_	VerbForm=Inf|Voice=Act	3	MD		PhraseCat=VP
 9	(	(	PUNCT	_	_	15	punct		PhraseCat=Top|SpaceAfter=No
 10	100	100	NUM	_	NumType=Card	11	det		PhraseCat=NP|SpaceAfter=No
-11	%	%	SYM	_	_	13	det		PhraseCat=NP
+11	%	procent	NOUN	_	_	13	det		PhraseCat=NP
 12	relativ	relativ	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	MD		PhraseCat=NP
 13	luftfuktighet	luftfuktighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	appos		PhraseCat=NP|SpaceAfter=No
 14	)	)	PUNCT	_	_	15	punct		PhraseCat=Top
@@ -105419,8 +105419,8 @@
 7	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	9	nsubj		PhraseCat=S
 8	12	12	NUM	_	NumType=Card	9	det		PhraseCat=NP
 9	g	gram	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root		PhraseCat=NP|SpaceAfter=No
-10	/	/	PUNCT	_	_	9	punct		PhraseCat=PP|SpaceAfter=No
-11	m³	kubikmeter	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obj		PhraseCat=PP
+10	/	/	SYM	_	_	11	case		PhraseCat=PP|SpaceAfter=No
+11	m³	kubikmeter	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod		PhraseCat=PP
 12	men	men	CCONJ	_	_	19	cc		PhraseCat=KoP
 13	vid	vid	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
 14	+24	+24	NUM	_	NumType=Card	15	det		PhraseCat=NP
@@ -105429,8 +105429,8 @@
 17	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	19	nsubj		PhraseCat=S
 18	22	22	NUM	_	NumType=Card	19	det		PhraseCat=NP
 19	g	gram	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	conj		PhraseCat=NP|SpaceAfter=No
-20	/	/	PUNCT	_	_	19	punct		PhraseCat=PP|SpaceAfter=No
-21	m³	kubikmeter	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	obj		PhraseCat=PP|SpaceAfter=No
+20	/	/	SYM	_	_	21	case		PhraseCat=PP|SpaceAfter=No
+21	m³	kubikmeter	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nmod		PhraseCat=PP|SpaceAfter=No
 22	.	.	PUNCT	_	_	9	punct		PhraseCat=Top
 
 # sent_id = Wiki_Vader.66
@@ -105740,8 +105740,8 @@
 7	som	som	SCONJ	_	_	9	mark		NewHead=9|PhraseCat=SuP
 8	1	1	NUM	_	NumType=Card	9	det		PhraseCat=NP
 9	liter	liter	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	JF		PhraseCat=NP|SpaceAfter=No
-10	/	/	PUNCT	_	_	9	punct		PhraseCat=PP|SpaceAfter=No
-11	m²	m²	SYM	_	_	10	obj		PhraseCat=PP|SpaceAfter=No
+10	/	/	SYM	_	_	11	case		PhraseCat=PP|SpaceAfter=No
+11	m²			_	_	9	nmod		PhraseCat=PP|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct		PhraseCat=Top
 
 # sent_id = Wiki_Vader.86
@@ -107473,7 +107473,7 @@
 5	vanligen	vanligen	ADV	_	_	3	MD		PhraseCat=S
 6	mellan	mellan	ADP	_	_	8	case		NewHead=8|PhraseCat=PP
 7	±40	±40	NUM	_	NumType=Card	8	det		PhraseCat=NP
-8	°C	°C	SYM	_	_	3	MD		PhraseCat=NP|SpaceAfter=No
+8	°C	grader	NOUN	_	_	3	MD		PhraseCat=NP|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct		PhraseCat=Top
 
 # sent_id = Wiki_Vader.182
@@ -107506,7 +107506,7 @@
 5	skuggan	skugga	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	MD		PhraseCat=PP
 6	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	8	cop		NewHead=8|PhraseCat=S
 7	56,7	56,7	NUM	_	NumType=Card	8	det		PhraseCat=NP
-8	°C	°C	SYM	_	_	0	root		PhraseCat=NP
+8	°C	grader	NOUN	_	_	0	root		PhraseCat=NP
 9	i	i	ADP	_	_	11	case		NewHead=11|PhraseCat=PP
 10	Death	Death	X	_	Foreign=Yes	11	fixed		ExtXpos=ENM|PhraseCat=NP
 11	Valley	Valley	X	_	Foreign=Yes	8	advmod		ExtXpos=ENM|PhraseCat=NP|SpaceAfter=No
@@ -107523,7 +107523,7 @@
 2	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	3	aux		NewHead=3|PhraseCat=S
 3	uppmätts	uppmäta	VERB	_	VerbForm=Sup|Voice=Pass	0	root		PhraseCat=VP
 4	57,8	57,8	NUM	_	NumType=Card	5	det		PhraseCat=NP
-5	°C	°C	SYM	_	_	3	nsubj		PhraseCat=NP
+5	°C	grader	NOUN	_	_	3	nsubj		PhraseCat=NP
 6	i	i	ADP	_	_	8	case		NewHead=8|PhraseCat=PP
 7	El	El	X	_	Foreign=Yes	8	fixed		ExtXpos=ENM|PhraseCat=NP
 8	Azizia	Azizia	PROPN	_	Case=Nom	3	advmod		ExtXpos=ENM|PhraseCat=NP|SpaceAfter=No
@@ -107550,7 +107550,7 @@
 3	temperatur	temperatur	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj		PhraseCat=NP
 4	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	6	cop		NewHead=6|PhraseCat=S
 5	-89,2	-89,2	NUM	_	NumType=Card	6	det		PhraseCat=NP
-6	°C	°C	SYM	_	_	0	root		PhraseCat=NP
+6	°C	grader	NOUN	_	_	0	root		PhraseCat=NP
 7	vid	vid	ADP	_	_	8	case		NewHead=8|PhraseCat=PP
 8	forskningsstationen	forskningsstation	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	advmod		PhraseCat=NP
 9	Vostok	Vostok	PROPN	_	Case=Nom	8	appos		PhraseCat=NP|SpaceAfter=No
@@ -107621,13 +107621,13 @@
 6	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	8	cop		NewHead=8|PhraseCat=S
 7	480	480	NUM	_	NumType=Card	8	det		PhraseCat=NP
 8	km	kilometer	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root		PhraseCat=NP|SpaceAfter=No
-9	/	/	PUNCT	_	_	8	punct		PhraseCat=PP|SpaceAfter=No
-10	h	h	X	_	Abbr=Yes|Foreign=Yes	9	obj		PhraseCat=PP
+9	/	/	SYM	_	_	10	case		PhraseCat=PP|SpaceAfter=No
+10	h	h	X	_	Abbr=Yes|Foreign=Yes	8	nmod		PhraseCat=PP
 11	±	±	SYM	_	_	12	MD		PhraseCat=NuP
 12	32	32	NUM	_	NumType=Card	13	det		PhraseCat=NuP
 13	km	kilometer	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	appos		PhraseCat=NP|SpaceAfter=No
-14	/	/	PUNCT	_	_	13	punct		PhraseCat=PP|SpaceAfter=No
-15	h	h	X	_	Abbr=Yes|Foreign=Yes	14	obj		PhraseCat=PP
+14	/	/	SYM	_	_	15	case		PhraseCat=PP|SpaceAfter=No
+15	h	h	X	_	Abbr=Yes|Foreign=Yes	13	nmod		PhraseCat=PP
 16	i	i	ADP	_	_	18	case		NewHead=18|PhraseCat=PP
 17	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	18	det		PhraseCat=NP
 18	F5-tornado	F5tornado	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	advmod		PhraseCat=NP
@@ -107878,8 +107878,8 @@
 4	emot	emot	ADP	_	_	5	case		NewHead=5|PhraseCat=PP
 5	400	400	NUM	_	NumType=Card	6	det		PhraseCat=PP
 6	m	meter	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	MD		PhraseCat=NP|SpaceAfter=No
-7	/	/	PUNCT	_	_	6	punct		PhraseCat=PP|SpaceAfter=No
-8	s	sekund	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj		PhraseCat=PP
+7	/	/	SYM	_	_	8	case		PhraseCat=PP|SpaceAfter=No
+8	s	sekund	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod		PhraseCat=PP
 9	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	10	aux		NewHead=10|PhraseCat=S
 10	uppmätts	uppmäta	VERB	_	VerbForm=Sup|Voice=Pass	0	root		PhraseCat=VP
 11	på	på	ADP	_	_	12	case		NewHead=12|PhraseCat=PP
@@ -107909,8 +107909,8 @@
 14	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	16	cop		NewHead=16|PhraseCat=S
 15	bara	bara	ADV	_	_	16	MD		PhraseCat=S
 16	1	1	NUM	_	NumType=Card	3	conj		PhraseCat=NuP|SpaceAfter=No
-17	/	/	PUNCT	_	_	16	punct		PhraseCat=PP|SpaceAfter=No
-18	900	900	NUM	_	NumType=Card	17	obj		PhraseCat=PP
+17	/	/	SYM	_	_	18	case		PhraseCat=PP|SpaceAfter=No
+18	900	900	NUM	_	NumType=Card	16	nmod		PhraseCat=PP
 19	av	av	ADP	_	_	20	case		NewHead=20|PhraseCat=PP
 20	den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	MD		PhraseCat=NP
 21	som	som	SCONJ	_	_	23	mark		NewHead=23|PhraseCat=SuP
@@ -107969,8 +107969,8 @@
 11	än	än	SCONJ	_	_	12	mark		NewHead=12|PhraseCat=SuP
 12	2.500	2.500	NUM	_	NumType=Card	10	JF		PhraseCat=SuP
 13	m	meter	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	MD		PhraseCat=NP|SpaceAfter=No
-14	/	/	PUNCT	_	_	13	punct		PhraseCat=PP|SpaceAfter=No
-15	s	sekund	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obj		PhraseCat=PP|SpaceAfter=No
+14	/	/	SYM	_	_	15	case		PhraseCat=PP|SpaceAfter=No
+15	s	sekund	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod		PhraseCat=PP|SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
 
 # newdoc id = Wiki_AlexanderFleming
