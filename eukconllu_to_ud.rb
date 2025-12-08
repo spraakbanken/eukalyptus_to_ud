@@ -24,19 +24,24 @@ elsif mode == "list_pos"
 end
 
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
-@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "DT"=>"det", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","KL"=>"conj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
+
+#handling elsewhere: KL, HD, DF
+@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
 
 @functionwords = ["ADP","SCONJ","PART","DET","AUX","CCONJ","SYM","PUNCT"] #NO: ,NUM,PRON,X,INTJ.
+
+#TODO: DF -- better distinction between parataxis and discourse
 
 =begin
 Lista 1:
 {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent", "DT"=>"det", "IO"=>"iobj", "PL"=>"compound:prt"}
 
 Lista 2:
-KL, ME, PH, JF, --
+DONE: KL, ME, 
+PH, JF, --
 
 Lista 3:
-AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA (advcl+advmod?), OP+SP (xcomp?), DF (discourse?), IV (aux?), MD (different kinds of mods?), "HD"=>"dep
+AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA (advcl+advmod?), OP+SP (xcomp?), DF (discourse?), IV (aux?), MD (different kinds of mods?), 
 =end
 
 #TODO: deal with fake-coords manually
@@ -616,7 +621,10 @@ def convert_syntax(sentence2, sent_id)
         deprel = senthash["deprel"]
         head = senthash["head"]
         upos = senthash["upos"]
+		feats = senthash["feats"]
 		misc = senthash["misc"]
+		form = senthash["form"]
+		phrasecat = findinset("PhraseCat",	misc)
         if head.nil?
             head = 0
         end
@@ -626,6 +634,39 @@ def convert_syntax(sentence2, sent_id)
         if head == 0
             udeprels[id] = "root"
         end
+
+        if deprel == "DF"
+		    if upos == "CCONJ"
+			    udeprels[id] = "cc"
+			elsif form == "osv" or form == "etc"
+			    udeprels[id] = "conj"
+			elsif @markcats.include?(phrasecat) or upos == "VERB"
+			    udeprels[id] = "parataxis"
+			else
+			    udeprels[id] = "discourse"
+			end
+		
+		end
+
+        if deprel == "DT"
+		    #STDERR.puts "DT! #{id}"
+		    if feats.include?("Poss=Yes") or feats.include?("Case=Gen") or upos == "NOUN"
+			    udeprels[id] = "nmod:poss"
+			elsif upos == "ADJ"
+			    udeprels[id] = "amod"
+			elsif upos == "ADV"
+			    udeprels[id] = "advmod"
+			elsif upos == "NUM"
+			    udeprels[id] = "nummod"
+			elsif upos == "DET"
+			    udeprels[id] = "det"				
+			else
+			    STDOUT.puts "#{sent_id}, #{id}"
+			end
+		    #STDERR.puts "Result=#{udeprels[id]}"
+		end
+
+
 
         if upos == "PUNCT"
             udeprels[id] = "punct"
