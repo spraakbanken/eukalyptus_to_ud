@@ -25,14 +25,15 @@ end
 
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
 
-#handling elsewhere: KL, HD, DF
-@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp"} #"HD"=>"dep",
+#handling elsewhere: KL, HD, DF, DT
+@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp","IV"=>"xcomp"} #"HD"=>"dep",
 
 @functionwords = ["ADP","SCONJ","PART","DET","AUX","CCONJ","SYM","PUNCT"] #NO: ,NUM,PRON,X,INTJ.
 
 #TODO: DF -- better distinction between parataxis and discourse
 
 =begin
+#TODONOW: MD, OA, RA (parent and child), check all E*, check all *P, check AN (clauses?), JF, PH (deal with som first)
 Lista 1:
 {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent", "DT"=>"det", "IO"=>"iobj", "PL"=>"compound:prt"}
 
@@ -666,7 +667,21 @@ def convert_syntax(sentence2, sent_id)
 		    #STDERR.puts "Result=#{udeprels[id]}"
 		end
 
-
+        
+        #TODONOW: lostmds, PPs...
+        if deprel == "MD"
+		    if upos == "ADJ"
+			    udeprels[id] = "amod"
+			elsif upos == "NOUN" or upos == "PROPN" or upos == "PRON"
+			    udeprels[id] = "nmod"
+			elsif upos == "NUM"
+			    udeprels[id] = "nummod"
+			elsif upos == "ADV" or upos == "PART"
+		        udeprels[id] = "advmod"
+			else
+			    STDOUT.puts "#{sent_id}, #{id}"
+			end
+		end
 
         if upos == "PUNCT"
             udeprels[id] = "punct"
