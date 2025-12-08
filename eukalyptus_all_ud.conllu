@@ -114673,7 +114673,7 @@
 15	kvinnor	kvinna	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	MD		PhraseCat=PP|SpaceAfter=No
 16	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
 17	och	och	CCONJ	_	_	21	cc		PhraseCat=KoP
-18	inte	inte	PART	_	Polarity=Neg	20	MD		PhraseCat=PP
+18	inte	inte	PART	_	Polarity=Neg	19	MD		PhraseCat=PP
 19	förrän	förrän	ADP	_	_	20	case		NewHead=20|PhraseCat=PP
 20	då	då	ADV	_	_	21	MD		PhraseCat=PP
 21	blev	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S

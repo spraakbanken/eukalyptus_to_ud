@@ -5,6 +5,7 @@ lemma_per_pos2 = Hash.new{|hash, key| hash[key] = Array.new}
 
 filename = ARGV[0]
 inputfile = File.open("#{filename}.conllu","r:utf-8")
+@verbose = false
 
 if mode == "convert"
     
@@ -415,10 +416,22 @@ def convert_syntax(sentence2, sent_id)
 			#end
 			
 		end
+		
 		if !functional_head.nil?
-		    #STDERR.puts "functional_head=#{functional_head}"
 		    headpos = sentence[functional_head]["upos"]
 		    daughters = finddaughters(sentence,functional_head)
+			
+			if @verbose
+			    #STDOUT cases when a functional head has a dependent negation word
+			    negationwords = ["inte","icke","ej","inget","varken","aldrig"]
+			    daughters.each do |daughter|
+			        if negationwords.include?(sentence[daughter]["form"])
+			    	    STDOUT.puts "Negation daughter on a functional word\t#{sent_id}\t#{functional_head}\t#{sentence[functional_head]["form"]}\t#{daughter}\t#{sentence[daughter]["form"]}"
+			    	end
+			    	
+			    end
+			end
+			
 			functionalheads_head = sentence[functional_head]["head"]
 			contenthead = nil
 			if headpos == "SCONJ" or headpos == "ADP" or (headpos == "PART" and sentence[functional_head]["lemma"] == "att")
@@ -434,6 +447,9 @@ def convert_syntax(sentence2, sent_id)
 			elsif headpos == "SYM"
 			    funcheadtype = "sym"
 			end
+			#STDERR.puts functional_head
+			#STDERR.puts funcheadtype
+			#STDERR.puts "daughters: #{daughters.join(" ")}"
 			
 			if funcheadtype == "adp"
 			    daughters.each do |daughter|
@@ -442,11 +458,13 @@ def convert_syntax(sentence2, sent_id)
 						break
 					end
 				end
-				if contenthead.nil?
+				if contenthead.nil? 
 					daughters.each do |daughter|
 				        if sentence[daughter]["deprel"] == "MD"
-					        contenthead = daughter.clone
-					     break
+						    if !(sent_id == "Wiki_Sverigesriksdag.73" and daughter == 18)
+						        contenthead = daughter.clone 							
+					            break
+							end
 					    end
 					end
 				end
@@ -507,25 +525,30 @@ def convert_syntax(sentence2, sent_id)
 			end
 			
 			if contenthead.nil? 
-			    if reassigned_without_fullswap != true
-			        if funcheadtype == "det" or (findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes" and !findinset("ExtXpos",sentence[functional_head]["misc"]).to_s.match?(/[A-Z][A-Z]M/))
+			    #STDERR.puts "No content head!"
+			    if @verbose 
+				    #STDOUT cases when a lexical head cannot be found
+			        if reassigned_without_fullswap != true
+			            if funcheadtype == "det" or (findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes" and !findinset("ExtXpos",sentence[functional_head]["misc"]).to_s.match?(/[A-Z][A-Z]M/))
+				            
+				        	if functionalheads_head == 0
+				        	    headheadform = "root"
+				            else
+				        	    headheadform = sentence[functionalheads_head]["form"]
+				        	end
+				    		
+				    		if headheadform != "root"
+			                    STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}\t#{sentence[functional_head]["form"]}\t#{daughters.length}\t#{sentence[daughters[0]]["form"]}\t#{headheadform}\t#{sentence[daughters[0]]["deprel"]}"  
+				    		end
 				        
-				    	if functionalheads_head == 0
-				    	    headheadform = "root"
-				        else
-				    	    headheadform = sentence[functionalheads_head]["form"]
-				    	end
-						
-						if headheadform != "root"
-			                STDOUT.puts "No lexical head found!\t#{sent_id}\t#{functional_head}\t#{headpos}\t#{sentence[functional_head]["form"]}\t#{daughters.length}\t#{sentence[daughters[0]]["form"]}\t#{headheadform}\t#{sentence[daughters[0]]["deprel"]}"  
-						end
-				    
-		            end
+		                end
+				    end
 				end
 				heads_to_ignore << functional_head
 				#TODO: part of ME
 				#misannotations
 			else
+			    #STDERR.puts "Contenthead #{contenthead}"
 			    sentence[contenthead]["head"] = sentence[functional_head]["head"].clone
 				
 				if !(funcheadtype == "aux" and sentence[functional_head]["deprel"]=="IV")
@@ -541,6 +564,7 @@ def convert_syntax(sentence2, sent_id)
 				if funcheadtype == "adp"
 				    #TODO: look at rels or PhraseCat instead?
 				    phrasecat = findinset("PhraseCat",	sentence[functional_head]["misc"])
+					
 					if phrasecat == "PP"
 					    phrasecat = findinset("PhraseCat",	sentence[sentence[functional_head]["head"]]["misc"])
 					end
@@ -551,17 +575,21 @@ def convert_syntax(sentence2, sent_id)
 				        sentence[functional_head]["deprel"] = "case"
 				    end	
 				elsif funcheadtype == "aux"
-					    if sentence[functional_head]["lemma"] == "vara"
-						    sentence[functional_head]["deprel"] = "cop"
-						else
-					        sentence[functional_head]["deprel"] = "aux"
-					    end
+				    if sentence[functional_head]["lemma"] == "vara"
+					    sentence[functional_head]["deprel"] = "cop"
+					else
+				        sentence[functional_head]["deprel"] = "aux"
+				    end
 					
 				end
 				
 				daughters.each do |daughter|
-				    if daughter != contenthead
-					    sentence[daughter]["head"] = contenthead.clone
+				   
+				    if daughter != contenthead 
+					    if !(sent_id == "Wiki_Sverigesriksdag.73" and daughter == 18)
+				            #STDERR.puts "reassigning #{daughter} to #{contenthead}"
+    					    sentence[daughter]["head"] = contenthead.clone
+						end
 					end
 					
 				end
@@ -576,6 +604,7 @@ def convert_syntax(sentence2, sent_id)
             #swap: old to new, new to old with all direct descendants
             #exceptions: own modifiers #check how it is in existing!
 		end
+		#STDERR.puts "inte daughter of #{sentence[sentence[18]["head"]]["form"]}"
 		
 	    if no_functional_heads
 		    break
