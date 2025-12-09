@@ -1,34 +1,32 @@
-# sent_id = Blog_12325-1189192.3
-# text = Den här veckan kikar vi på en skiva som av många hålls som en av världens bästa liveskivor, legendaren Ozzy Osbournes hyllning till sin tragiskt avlidne gitarrist Randy Rhoads.
-1	Den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	3	DT		ExtXpos=POM|PhraseCat=NP
-2	här	här	AB	-.-.-	AB.-.-	1	ME		ExtXpos=POM|PhraseCat=NP
-3	veckan	vecka	NN	-.-.-	NN.UTR.SIN.DEF	4	MD		PhraseCat=NP
-4	kikar	kika	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseCat=S
-5	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	4	SB		PhraseCat=S
-6	på	på	PE	-.-.-	PE.-	4	MD		PhraseCat=PP
-7	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	8	DT		PhraseCat=NP
-8	skiva	skiva	NN	-.-.-	NN.UTR.SIN.IND	6	OO		PhraseCat=NP
-9	som	som	SU	-.-.-	SU.-	8	MD		PhraseCat=SuP
-10	av	av	PE	-.-.-	PE.-	12	AG		PhraseCat=PP
-11	många	mången	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	10	OO		PhraseCat=PP
-12	hålls	hålla	VB	-.-.-	VB.IND.SFO.PRS	9	OO		PhraseCat=S
-13	som	som	SU	-.-.-	SU.-	12	OA		PhraseCat=SuP
-14	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	13	OO		PhraseCat=NP|PromotedHead=Yes
-15	av	av	PE	-.-.-	PE.-	14	MD		PhraseCat=PP
-16	världens	värld	NN	-.GEN.-	NN.UTR.SIN.DEF	18	DT		PhraseCat=NP
-17	bästa	bra	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	18	MD		PhraseCat=NP
-18	liveskivor	live|skiva	NN	-.-.-	NN.UTR.PLU.IND	15	OO		PhraseCat=NP|SpaceAfter=No
-19	,	_	SY	-.-.-	SY.DEL	4	--		PhraseCat=Top
-20	legendaren	legendar	NN	-.-.-	NN.UTR.SIN.DEF	23	DT		PhraseCat=NP
-21	Ozzy	Ozzy	EN	-.-.-	EN.-	20	AN		ExtXpos=ENM|PhraseCat=NP
-22	Osbournes	Osbourne	EN	-.GEN.-	EN.-	21	ME		ExtXpos=ENM|PhraseCat=NP
-23	hyllning	hyllning	NN	-.-.-	NN.UTR.SIN.IND	8	AN		PhraseCat=NP
-24	till	till	PE	-.-.-	PE.-	23	MD		PhraseCat=PP
-25	sin	sin	PO	-.-.-	PO.DEF.SIN.UTR.PSS.-	28	DT		PhraseCat=NP
-26	tragiskt	tragisk	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	27	MD		PhraseCat=AjP
-27	avlidne	avliden	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	28	MD		PhraseCat=AjP
-28	gitarrist	gitarrist	NN	-.-.-	NN.UTR.SIN.IND	24	OO		PhraseCat=NP
-29	Randy	Randy	EN	-.-.-	EN.-	28	AN		ExtXpos=ENM|PhraseCat=NP
-30	Rhoads	Rhoads	EN	-.-.-	EN.-	29	ME		ExtXpos=ENM|PhraseCat=NP|SpaceAfter=No
-31	.	_	SY	-.-.-	SY.DEL	4	--		PhraseCat=Top
+# sent_id = Blog_188519-10179826.1
+# text = Marcus (sonen) o hans vän Fredrik "brottades" o hade roligt när Marcus skriker till o ropar på mig att hans hand har gått av.
+1	Marcus	Marcus	EN	-.-.-	EN.-	5	KL		PhraseCat=NP
+2	(	_	SY	-.-.-	SY.DEL	12	--		PhraseCat=Top|SpaceAfter=No
+3	sonen	son	NN	-.-.-	NN.UTR.SIN.DEF	1	AN		PhraseCat=NP|SpaceAfter=No
+4	)	_	SY	-.-.-	SY.DEL	12	--		PhraseCat=Top
+5	o	och	KO	-.-.-	KO.-	10	SB	10:SB|13:	PhraseCat=KoP
+6	hans	han	PO	-.GEN.-	PO.DEF.SIN.UTR.OBJ.-	7	DT		PhraseCat=NP
+7	vän	vän	NN	-.-.-	NN.UTR.SIN.IND	5	KL		PhraseCat=NP
+8	Fredrik	Fredrik	EN	-.-.-	EN.-	7	AN		PhraseCat=NP
+9	"	_	SY	-.-.-	SY.DEL	12	--		PhraseCat=Top|SpaceAfter=No
+10	brottades	brottas	VB	-.-.-	VB.IND.SFO.PRT	12	KL		PhraseCat=S|SpaceAfter=No
+11	"	_	SY	-.-.-	SY.DEL	12	--		PhraseCat=Top
+12	o	och	KO	-.-.-	KO.-	0	--		PhraseCat=KoP
+13	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	12	KL		PhraseCat=S
+14	roligt	rolig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	13	OO		PhraseCat=S
+15	när	när	AB	-.-.-	AB.-.FRL	13	MD	13:MD|10:	PhraseCat=AbP
+16	Marcus	Marcus	EN	-.-.-	EN.-	17	SB		PhraseCat=S
+17	skriker	skrika	VB	-.-.-	VB.IND.AKT.PRS	19	KL		PhraseCat=S
+18	till	till	PE	-.-.-	PE.-	17	PL		PhraseCat=S
+19	o	och	KO	-.-.-	KO.-	15	MD		PhraseCat=KoP
+20	ropar	ropa	VB	-.-.-	VB.IND.AKT.PRS	19	KL		PhraseCat=S
+21	på	på	PE	-.-.-	PE.-	20	MD		PhraseCat=PP
+22	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	21	OO		PhraseCat=PP
+23	att	att	SU	-.-.-	SU.-	20	OO		PhraseCat=SuP
+24	hans	han	PO	-.GEN.-	PO.DEF.SIN.UTR.OBJ.-	25	DT		PhraseCat=NP
+25	hand	hand	NN	-.-.-	NN.UTR.SIN.IND	26	SB	26:SB|27:	PhraseCat=NP
+26	har	ha	VB	-.-.-	VB.IND.AKT.PRS	23	OO		PhraseCat=S
+27	gått	gå	VB	-.-.-	VB.SPM.AKT.-	26	IV		PhraseCat=VP
+28	av	av	PE	-.-.-	PE.-	27	PL		PhraseCat=VP|SpaceAfter=No
+29	.	_	SY	-.-.-	SY.DEL	12	--		PhraseCat=Top
 

@@ -258,7 +258,7 @@
 8	(	(	PUNCT	_	_	16	--		PhraseCat=Top|SpaceAfter=No
 9	visserligen	visserligen	ADV	_	_	12	MD		PhraseCat=S
 10	inte	inte	PART	_	Polarity=Neg	12	MD		PhraseCat=S
-11	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	MD		PhraseCat=NP
+11	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	MD		PhraseCat=NP
 12	fel	fel	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	DF		PhraseCat=NP|SpaceAfter=No
 13	)	)	PUNCT	_	_	16	--		PhraseCat=Top|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	--		PhraseCat=Top
@@ -1399,7 +1399,7 @@
 24	om	om	ADP	_	_	23	PL		PhraseCat=VP
 25	och	och	CCONJ	_	_	22	OO		PhraseCat=KoP
 26	storstäda	storstäda	VERB	_	VerbForm=Inf|Voice=Act	25	KL		PhraseCat=VP
-27	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	28	DT		PhraseCat=NP
+27	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	28	DT		PhraseCat=NP
 28	rum	rum	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	26	OO	26:OO|23:	PhraseCat=NP|SpaceAfter=No
 29	.	.	PUNCT	_	_	9	--		PhraseCat=Top
 
@@ -1514,7 +1514,7 @@
 9	som	som	SCONJ	_	_	5	EF		PhraseCat=SuP
 10	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	9	OO		PhraseCat=S
 11	få	få	VERB	_	VerbForm=Inf|Voice=Act	10	IV		PhraseCat=VP
-12	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	DT		PhraseCat=NP
+12	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	14	DT		PhraseCat=NP
 13	gamla	gammal	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	MD		PhraseCat=NP
 14	leksaker	leksak	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	OO		PhraseCat=NP|SpaceAfter=No
 15	...	...	PUNCT	_	_	2	--		PhraseCat=Top
@@ -1639,7 +1639,7 @@
 27	ljusstake	ljusstake	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	SB	23:SB|28:	PhraseCat=NP
 28	lysa	lysa	VERB	_	VerbForm=Inf|Voice=Act	23	IV		PhraseCat=VP
 29	upp	upp	ADV	_	_	28	PL		PhraseCat=VP
-30	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	31	DT		PhraseCat=NP
+30	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	31	DT		PhraseCat=NP
 31	fönster	fönster	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	28	OO		PhraseCat=NP|SpaceAfter=No
 32	...	...	PUNCT	_	_	11	--		PhraseCat=Top
 
@@ -2077,7 +2077,7 @@
 3	sonen	son	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	AN		PhraseCat=NP|SpaceAfter=No
 4	)	)	PUNCT	_	_	12	--		PhraseCat=Top
 5	o	och	CCONJ	_	_	10	SB	10:SB|13:	PhraseCat=KoP
-6	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	DT		PhraseCat=NP
+6	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	DT		PhraseCat=NP
 7	vän	vän	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	KL		PhraseCat=NP
 8	Fredrik	Fredrik	PROPN	_	Case=Nom	7	AN		PhraseCat=NP
 9	"	"	PUNCT	_	_	12	--		PhraseCat=Top|SpaceAfter=No
@@ -2095,7 +2095,7 @@
 21	på	på	ADP	_	_	20	MD		PhraseCat=PP
 22	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	OO		PhraseCat=PP
 23	att	att	SCONJ	_	_	20	OO		PhraseCat=SuP
-24	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	25	DT		PhraseCat=NP
+24	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	25	DT		PhraseCat=NP
 25	hand	hand	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	SB	26:SB|27:	PhraseCat=NP
 26	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	23	OO		PhraseCat=S
 27	gått	gå	VERB	_	VerbForm=Sup|Voice=Act	26	IV		PhraseCat=VP
@@ -2143,7 +2143,7 @@
 4	blodet	blod	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	SB		PhraseCat=S
 5	rinner	rinna	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	KL		PhraseCat=S
 6	från	från	ADP	_	_	5	RA		PhraseCat=PP
-7	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	DT		PhraseCat=NP
+7	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	9	DT		PhraseCat=NP
 8	högra	höger	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	MD		PhraseCat=NP
 9	hand	hand	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	OO		PhraseCat=NP
 10	o	och	CCONJ	_	_	3	OO		PhraseCat=KoP
@@ -2271,7 +2271,7 @@
 31	måste	måste	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	7	KL		PhraseCat=S
 32	stanna	stanna	VERB	_	VerbForm=Inf|Voice=Act	31	IV		PhraseCat=VP
 33	vid	vid	ADP	_	_	32	RA		PhraseCat=PP
-34	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	35	DT		PhraseCat=NP
+34	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	35	DT		PhraseCat=NP
 35	sida	sida	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	OO		PhraseCat=NP|SpaceAfter=No
 36	.	.	PUNCT	_	_	7	--		PhraseCat=Top
 
@@ -3258,7 +3258,7 @@
 4	med	med	ADP	_	_	2	PL		PhraseCat=S
 5	upp	upp	ADV	_	_	6	MD		PhraseCat=PP
 6	till	till	ADP	_	_	2	RA		PhraseCat=PP
-7	hans	han	PRON	_	Case=Acc|Case=Gen|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	DT		PhraseCat=NP
+7	hans	han	PRON	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 8	rum	rum	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	OO		PhraseCat=NP
 9	o	och	CCONJ	_	_	0	--		PhraseCat=KoP
 10	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	SB		PhraseCat=S
@@ -3268,7 +3268,7 @@
 14	över	över	ADP	_	_	12	MD		PhraseCat=PP
 15	natten	natt	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	OO		PhraseCat=PP
 16	o	och	CCONJ	_	_	9	PH		PhraseCat=KoP
-17	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	DT		PhraseCat=NP
+17	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	18	DT		PhraseCat=NP
 18	pappa	pappa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	SB		PhraseCat=NP
 19	åkte	åka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	KL		PhraseCat=S
 20	hem	hem	ADV	_	_	19	PL		PhraseCat=S
@@ -4049,7 +4049,7 @@
 
 # sent_id = Blog_188519-10542620.29
 # text = Hans huvud nickade till o han somnade in.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	huvud	huvud	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	SB		PhraseCat=NP
 3	nickade	nicka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	KL		PhraseCat=S
 4	till	till	ADP	_	_	3	PL		PhraseCat=S
@@ -4206,7 +4206,7 @@
 9	av	av	ADP	_	_	8	PL		PhraseCat=VP
 10	lite	litet	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	OO		PhraseCat=NP
 11	av	av	ADP	_	_	10	MD		PhraseCat=PP
-12	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	DT		PhraseCat=NP
+12	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	DT		PhraseCat=NP
 13	päls	päls	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	OO		PhraseCat=NP
 14	så	så	SCONJ	_	_	10	MD		PhraseCat=SuP
 15	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	SB		PhraseCat=S
@@ -4813,7 +4813,7 @@
 13	små	liten	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	MD		PhraseCat=NP
 14	klappar	klapp	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	OO		PhraseCat=NP
 15	till	till	ADP	_	_	10	MD		PhraseCat=PP
-16	hans	han	PRON	_	Case=Acc|Case=Gen|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	DT		PhraseCat=NP
+16	hans	han	PRON	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	17	DT		PhraseCat=NP
 17	prinsar	prins	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	KL		PhraseCat=NP
 18	och	och	CCONJ	_	_	15	OO		PhraseCat=KoP
 19	prinsessa	prinsessa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	KL		PhraseCat=NP|SpaceAfter=No
@@ -7859,7 +7859,7 @@
 # sent_id = Blog_12325-1621221.1b
 # text = I båda fallen så stod det tidigt klart att detta var band där jag kände mig mer eller mindr etvingad att söka mig bakåt i deras historia och diskografi.
 1	I	i	ADP	_	_	5	MD		PhraseCat=PP
-2	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	3	DT		PhraseCat=NP
+2	båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	3	DT		PhraseCat=NP
 3	fallen	fall	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	1	OO		PhraseCat=NP
 4	så	så	ADV	_	_	5	MD		PhraseCat=S
 5	stod	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
@@ -17566,7 +17566,7 @@
 4	innehöll	innehålla	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 5	byxor	byxa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	KL		PhraseCat=NP
 6	till	till	ADP	_	_	5	MD		PhraseCat=PP
-7	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	8	DT		PhraseCat=NP
+7	båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	8	DT		PhraseCat=NP
 8	grabbarna	grabb	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	6	OO		PhraseCat=NP
 9	å	och	CCONJ	_	_	4	OO		PhraseCat=KoP
 10	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	DT		PhraseCat=NP
@@ -17944,7 +17944,7 @@
 46	med	med	ADP	_	_	45	OA		PhraseCat=PP
 47	Leo	Leo	PROPN	_	Case=Nom	46	OO		PhraseCat=PP
 48	på	på	ADP	_	_	44	RA		PhraseCat=PP
-49	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	48	OO		PhraseCat=PP|SpaceAfter=No
+49	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	48	OO		PhraseCat=PP|SpaceAfter=No
 50	.	.	PUNCT	_	_	8	--		PhraseCat=Top
 
 # sent_id = Blog_5089-9240616.23
@@ -19123,7 +19123,7 @@
 # text = Sade och hans kollegor lockar mig föga, utan istället läser jag dagens Dn som ännu inte hunnits med.
 1	Sade	Sade	PROPN	_	Case=Nom	2	KL		PhraseCat=KoP
 2	och	och	CCONJ	_	_	5	SB		PhraseCat=KoP
-3	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	DT		PhraseCat=NP
+3	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	4	DT		PhraseCat=NP
 4	kollegor	kollega	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	KL		PhraseCat=NP
 5	lockar	locka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	KL		PhraseCat=S
 6	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	OO		PhraseCat=S
@@ -21837,7 +21837,7 @@
 12	med	med	ADP	_	_	11	MD		PhraseCat=PP
 13	L	L	PROPN	_	Case=Nom	14	KL		PhraseCat=KoP
 14	och	och	CCONJ	_	_	12	OO		PhraseCat=KoP
-15	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	DT		PhraseCat=NP
+15	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	16	DT		PhraseCat=NP
 16	fröken	fröken	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	KL		PhraseCat=NP|SpaceAfter=No
 17	.	.	PUNCT	_	_	3	--		PhraseCat=Top
 
@@ -22047,7 +22047,7 @@
 16	att	att	PART	_	_	15	OO		PhraseCat=SuP
 17	titta	titta	VERB	_	VerbForm=Inf|Voice=Act	16	OO		PhraseCat=VP
 18	på	på	ADP	_	_	17	MD		PhraseCat=PP
-19	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	DT		PhraseCat=NP
+19	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	20	DT		PhraseCat=NP
 20	köksbord	köksbord	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	KL		PhraseCat=NP
 21	och	och	CCONJ	_	_	18	OO		PhraseCat=KoP
 22	stolar	stol	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	21	KL		PhraseCat=NP
@@ -22204,7 +22204,7 @@
 # text = Maken och hans bror körde skräp och killarna var så snälla och hjälpte till med alla pinnar så jag ska belöna de med mjukglass idag innan de andra kusinerna kommer.
 1	Maken	make	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	KL		PhraseCat=KoP
 2	och	och	CCONJ	_	_	5	SB		PhraseCat=KoP
-3	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	DT		PhraseCat=NP
+3	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	4	DT		PhraseCat=NP
 4	bror	bror	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	KL		PhraseCat=NP
 5	körde	köra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	KL		PhraseCat=S
 6	skräp	skräp	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	OO		PhraseCat=S
@@ -22725,7 +22725,7 @@
 10	till	till	ADP	_	_	9	RA		PhraseCat=PP
 11	sjukan	sjuka	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	OO		PhraseCat=PP|SpaceAfter=No
 12	,	,	PUNCT	_	_	3	--		PhraseCat=Top
-13	båda	båda	PRON	_	Number=Plur|PronType=Tot	14	DT		PhraseCat=NP
+13	båda	båda	DET	_	Number=Plur|PronType=Tot	14	DT		PhraseCat=NP
 14	dagarna	dag	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	15	SB	15:SB|16:	PhraseCat=NP
 15	måstes	måste	AUX	_	Mood=Ind|Tense=Pres|Typo=Yes|Voice=Act	3	parataxis		CorrectForm=måste|PhraseCat=S
 16	avbokas	avboka	VERB	_	VerbForm=Inf|Voice=Pass	15	IV		PhraseCat=VP
@@ -23126,7 +23126,7 @@
 22	beklagande	beklagande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	23	SB		PhraseCat=NP
 23	uttrycks	uttrycka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	19	OO		PhraseCat=S
 24	över	över	ADP	_	_	23	MD		PhraseCat=PP
-25	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	26	KL		PhraseCat=NP|PromotedHead=Yes
+25	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	26	KL		PhraseCat=NP|PromotedHead=Yes
 26	och	och	CCONJ	_	_	24	OO		PhraseCat=KoP
 27	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	30	DT		PhraseCat=NP
 28	övriga	övrig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	MD		PhraseCat=NP
@@ -23144,7 +23144,7 @@
 40	som	som	SCONJ	_	_	39	MD		PhraseCat=SuP
 41	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	40	OO		PhraseCat=S
 42	i	i	ADP	_	_	41	OA		PhraseCat=PP
-43	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	44	DT		PhraseCat=NP
+43	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	44	DT		PhraseCat=NP
 44	makt	makt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	42	OO		PhraseCat=NP
 45	för	för	ADP	_	_	35	MD		PhraseCat=PP
 46	att	att	PART	_	_	45	OO		PhraseCat=SuP
@@ -25486,9 +25486,9 @@
 6	många	mången	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	DT		PhraseCat=AjP
 7	röster	röst	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	OO		PhraseCat=NP
 8	som	som	SCONJ	_	_	5	JF		PhraseCat=SuP
-9	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	KL		PhraseCat=KoP
+9	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	KL		PhraseCat=KoP
 10	eller	eller	CCONJ	_	_	12	DT		PhraseCat=KoP
-11	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	KL		PhraseCat=KoP
+11	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	KL		PhraseCat=KoP
 12	grupp	grupp	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	SB		PhraseCat=NP
 13	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	OO		PhraseCat=S
 14	medlemmar	medlem	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	OO		PhraseCat=S|SpaceAfter=No
@@ -25948,7 +25948,7 @@
 11	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	12	SB		PhraseCat=S
 12	bör	böra	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	10	OO		PhraseCat=S
 13	debattera	debattera	VERB	_	VerbForm=Inf|Voice=Act	12	IV		PhraseCat=VP
-14	bägge	bägge	PRON	_	Definite=Def|Number=Plur|PronType=Tot	15	DT		PhraseCat=NP
+14	bägge	bägge	DET	_	Definite=Def|Number=Plur|PronType=Tot	15	DT		PhraseCat=NP
 15	programmen	program	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	13	OO		PhraseCat=NP
 16	samtidigt	samtidigt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	MD		PhraseCat=VP|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	--		PhraseCat=Top
@@ -28264,7 +28264,7 @@
 6	tacka	tacka	VERB	_	VerbForm=Inf|Voice=Act	1	IV		PhraseCat=VP
 7	Koch	Koch	PROPN	_	Case=Nom	6	OO		PhraseCat=VP
 8	för	för	ADP	_	_	6	MD		PhraseCat=PP
-9	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	DT		PhraseCat=NP
+9	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	DT		PhraseCat=NP
 10	betänkande	betänkande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	OO		PhraseCat=NP|SpaceAfter=No
 11	,	,	PUNCT	_	_	1	--		PhraseCat=Top
 12	i	i	ADP	_	_	10	MD	10:MD|20:	PhraseCat=PP
@@ -28312,7 +28312,7 @@
 2	gratulerar	gratulera	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	OO		PhraseCat=S
 4	till	till	ADP	_	_	2	MD		PhraseCat=PP
-5	hans	han	PRON	_	Case=Acc|Case=Gen|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	DT		PhraseCat=NP
+5	hans	han	PRON	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	DT		PhraseCat=NP
 6	utmärkta	utmärkt	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	7	MD		PhraseCat=NP
 7	betänkande	betänkande	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	OO		PhraseCat=NP|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	--		PhraseCat=Top
@@ -28719,7 +28719,7 @@
 6	kollega	kollega	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	OO		PhraseCat=NP
 7	Koch	Koch	PROPN	_	Case=Nom	6	AN		PhraseCat=NP
 8	till	till	ADP	_	_	4	MD		PhraseCat=PP
-9	hans	han	PRON	_	Case=Acc|Case=Gen|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	DT		PhraseCat=NP
+9	hans	han	PRON	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	DT		PhraseCat=NP
 10	betänkanden	betänkande	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	8	OO		PhraseCat=NP|SpaceAfter=No
 11	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 12	som	som	SCONJ	_	_	18	KL		PhraseCat=SuP
@@ -29090,11 +29090,11 @@
 7	föredragande	föredragande	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	MD		PhraseCat=NP
 8	Koch	Koch	PROPN	_	Case=Nom	6	OO		PhraseCat=NP
 9	till	till	ADP	_	_	6	MD		PhraseCat=PP
-10	hans	han	PRON	_	Case=Acc|Case=Gen|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	DT		PhraseCat=NP
+10	hans	han	PRON	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	DT		PhraseCat=NP
 11	utmärkta	utmärkt	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	12	MD		PhraseCat=NP
 12	arbete	arbete	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	KL		PhraseCat=NP
 13	och	och	CCONJ	_	_	9	OO		PhraseCat=KoP
-14	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	DT		PhraseCat=NP
+14	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	16	DT		PhraseCat=NP
 15	konstruktiva	konstruktiv	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	MD		PhraseCat=NP
 16	samarbete	samarbete	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	KL		PhraseCat=NP
 17	med	med	ADP	_	_	16	MD		PhraseCat=PP
@@ -29152,7 +29152,7 @@
 12	insatserna	insats	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	22	KL		PhraseCat=NP
 13	från	från	ADP	_	_	12	MD		PhraseCat=PP
 14	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	16	DT		PhraseCat=NP
-15	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	16	DT		PhraseCat=NP
+15	båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	16	DT		PhraseCat=NP
 16	institutionerna	institution	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	13	OO		PhraseCat=NP
 17	-	-	PUNCT	_	_	2	--		PhraseCat=Top
 18	parlamentet	parlament	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	19	KL		PhraseCat=KoP
@@ -29755,7 +29755,7 @@
 25	del	del	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	OO		PhraseCat=NP
 26	övergångsbestämmelser	övergångsbestämmelse	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	25	MD		PhraseCat=NP|SpaceAfter=No
 27	,	,	PUNCT	_	_	23	--		PhraseCat=Top
-28	vars	vars	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Rel	29	DT		PhraseCat=NP
+28	vars	vars	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Rel	29	DT		PhraseCat=NP
 29	giltighet	giltighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	SB		PhraseCat=NP
 30	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	25	MD		PhraseCat=S
 31	temporär	temporär	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	32	KL		PhraseCat=KoP
@@ -30807,7 +30807,7 @@
 7	herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	OO		PhraseCat=NP
 8	Koch	Koch	PROPN	_	Case=Nom	7	AN		PhraseCat=NP
 9	för	för	ADP	_	_	6	MD		PhraseCat=PP
-10	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	DT		PhraseCat=NP
+10	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	DT		PhraseCat=NP
 11	betänkande	betänkande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	OO		PhraseCat=NP|SpaceAfter=No
 12	,	,	PUNCT	_	_	17	--		PhraseCat=Top
 13	som	som	SCONJ	_	_	11	MD		PhraseCat=SuP
@@ -31450,7 +31450,7 @@
 13	i	i	ADP	_	_	12	MD		PhraseCat=PP
 14	kommissionen	kommission	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	OO		PhraseCat=PP
 15	för	för	ADP	_	_	12	MD		PhraseCat=PP
-16	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	DT		PhraseCat=NP
+16	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	20	DT		PhraseCat=NP
 17	klara	klar	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	18	KL		PhraseCat=KoP
 18	och	och	CCONJ	_	_	20	MD		PhraseCat=KoP
 19	entydiga	entydig	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	18	KL		PhraseCat=KoP
@@ -31647,7 +31647,7 @@
 6	herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	OO		PhraseCat=NP
 7	Koch	Koch	PROPN	_	Case=Nom	6	AN		PhraseCat=NP
 8	för	för	ADP	_	_	4	MD		PhraseCat=PP
-9	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	DT		PhraseCat=NP
+9	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	DT		PhraseCat=NP
 10	arbete	arbete	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	OO		PhraseCat=NP
 11	med	med	ADP	_	_	10	MD		PhraseCat=PP
 12	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	DT		ExtXpos=POM|PhraseCat=NP
@@ -34716,7 +34716,7 @@
 9	föredragande	föredragande	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	MD		PhraseCat=NP
 10	Schroedter	Schroedter	PROPN	_	Case=Nom	8	OO		PhraseCat=NP
 11	för	för	ADP	_	_	8	OA		PhraseCat=PP
-12	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	DT		PhraseCat=NP
+12	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	DT		PhraseCat=NP
 13	insats	insats	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	OO		PhraseCat=NP|SpaceAfter=No
 14	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -34741,7 +34741,7 @@
 4	tacka	tacka	VERB	_	VerbForm=Inf|Voice=Act	2	IV		PhraseCat=VP
 5	henne	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	OO		PhraseCat=VP
 6	för	för	ADP	_	_	4	OA		PhraseCat=PP
-7	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	DT		PhraseCat=NP
+7	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 8	vilja	vilja	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	OO		PhraseCat=NP
 9	till	till	ADP	_	_	8	MD		PhraseCat=PP
 10	dialog	dialog	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	OO		PhraseCat=NP
@@ -35220,7 +35220,7 @@
 5	skamliga	skamlig	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	MD		PhraseCat=NP
 6	politik	politik	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	OO		PhraseCat=NP
 7	som	som	SCONJ	_	_	6	MD		PhraseCat=SuP
-8	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	DT		PhraseCat=NP
+8	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	DT		PhraseCat=NP
 9	eget	egen	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	MD		PhraseCat=NP
 10	parti	parti	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	SB		PhraseCat=NP|SpaceAfter=No
 11	,	,	PUNCT	_	_	2	--		PhraseCat=Top
@@ -35240,7 +35240,7 @@
 6	om	om	ADP	_	_	4	OA		PhraseCat=PP
 7	att	att	SCONJ	_	_	6	OO		PhraseCat=SuP
 8	när	när	ADV	_	_	18	MD		PhraseCat=SuP
-9	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	DT		PhraseCat=NP
+9	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	DT		PhraseCat=NP
 10	partiledare	partiledare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	SB		PhraseCat=NP|SpaceAfter=No
 11	,	,	PUNCT	_	_	1	--		PhraseCat=Top
 12	Hague	Hague	PROPN	_	Case=Nom	10	AN		PhraseCat=NP|SpaceAfter=No
@@ -35315,7 +35315,7 @@
 6	omfattande	omfattande	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part	7	MD		PhraseCat=NP
 7	ändringsförslag	ändringsförslag	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	OO		PhraseCat=NP
 8	till	till	ADP	_	_	4	MD		PhraseCat=PP
-9	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	11	DT		PhraseCat=NP
+9	båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	11	DT		PhraseCat=NP
 10	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	11	DT		PhraseCat=NP
 11	betänkanden	betänkande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	OO		PhraseCat=NP
 12	som	som	SCONJ	_	_	11	MD		PhraseCat=SuP
@@ -37223,7 +37223,7 @@
 19	gång	gång	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	MD		PhraseCat=NP
 20	delar	dela	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	KL		PhraseCat=S
 21	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	SB		PhraseCat=S
-22	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	DT		PhraseCat=NP
+22	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	23	DT		PhraseCat=NP
 23	uppfattning	uppfattning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	OO		PhraseCat=NP|SpaceAfter=No
 24	.	.	PUNCT	_	_	17	--		PhraseCat=Top
 
@@ -37694,7 +37694,7 @@
 32	är	vara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	30	OO		PhraseCat=S
 33	tack	tack	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	34	ME		ExtXpos=PEM|PhraseCat=PP
 34	vare	vara	VERB	_	Mood=Sub|Tense=Pres|VerbForm=Fin|Voice=Act	32	MD		ExtXpos=PEM|PhraseCat=PP
-35	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	36	DT		PhraseCat=NP
+35	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	36	DT		PhraseCat=NP
 36	tillgänglighet	tillgänglighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	OO		PhraseCat=NP
 37	som	som	SCONJ	_	_	32	OA		PhraseCat=SuP
 38	betänkandet	betänkande	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	39	SB		PhraseCat=S
@@ -37708,7 +37708,7 @@
 1	Jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	instämmer	instämma	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	i	i	ADP	_	_	2	OA		PhraseCat=PP
-4	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	DT		PhraseCat=NP
+4	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	5	DT		PhraseCat=NP
 5	beklagande	beklagande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	OO		PhraseCat=NP
 6	över	över	ADP	_	_	5	MD		PhraseCat=PP
 7	att	att	SCONJ	_	_	6	OO		PhraseCat=SuP
@@ -38935,7 +38935,7 @@
 10	används	använda	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	OO		PhraseCat=S
 11	inom	inom	ADP	_	_	10	MD		PhraseCat=PP
 12	projekt	projekt	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	OO		PhraseCat=NP
-13	vars	vars	PRON	_	Definite=Ind|Number=Plur|PronType=Rel	14	DT		PhraseCat=NP
+13	vars	vars	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Rel	14	DT		PhraseCat=NP
 14	resultat	resultat	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	MD	12:MD|19:|17:	PhraseCat=NP
 15	man	man	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Ind	16	SB		PhraseCat=S
 16	vet	veta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	OO		PhraseCat=S
@@ -39307,7 +39307,7 @@
 8	tacka	tacka	VERB	_	VerbForm=Inf|Voice=Act	7	KL		PhraseCat=VP
 9	henne	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	OO		PhraseCat=VP
 10	för	för	ADP	_	_	8	MD		PhraseCat=PP
-11	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	DT		PhraseCat=NP
+11	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	DT		PhraseCat=NP
 12	stora	stor	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	KL		PhraseCat=KoP
 13	och	och	CCONJ	_	_	15	MD		PhraseCat=KoP
 14	seriösa	seriös	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	KL		PhraseCat=KoP
@@ -40036,7 +40036,7 @@
 6	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 7	också	också	ADV	_	_	8	MD		PhraseCat=PP
 8	för	för	ADP	_	_	4	MD		PhraseCat=PP
-9	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	DT		PhraseCat=NP
+9	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	DT		PhraseCat=NP
 10	beredvillighet	beredvillighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	OO		PhraseCat=NP
 11	att	att	PART	_	_	10	MD		PhraseCat=SuP
 12	ta	ta	VERB	_	VerbForm=Inf|Voice=Act	11	OO		PhraseCat=VP
@@ -41030,7 +41030,7 @@
 31	tillfälle	tillfälle	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	29	OO		PhraseCat=NP
 32	utnyttja	utnyttja	VERB	_	VerbForm=Inf|Voice=Act	28	OO		PhraseCat=VP
 33	prestandareserven	prestandareserv	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	32	OO		PhraseCat=NP
-34	vars	vars	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Rel	35	DT		PhraseCat=NP
+34	vars	vars	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Rel	35	DT		PhraseCat=NP
 35	mål	mål	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	33	MD	33:MD|37:	PhraseCat=NP
 36	bl.a.	bland_annat	ADV	_	Abbr=Yes	37	MD		PhraseCat=S
 37	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	35	OO		PhraseCat=S
@@ -42679,7 +42679,7 @@
 32	garantisektionen	garantisektion	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	AN		PhraseCat=NP|SpaceAfter=No
 33	,	,	PUNCT	_	_	9	--		PhraseCat=Top
 34	och	och	CCONJ	_	_	37	DF		PhraseCat=S
-35	vars	vars	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Rel	36	DT		PhraseCat=NP
+35	vars	vars	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Rel	36	DT		PhraseCat=NP
 36	roll	roll	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	MD	26:MD|37:|24:	PhraseCat=NP
 37	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	36	OO		PhraseCat=S
 38	att	att	PART	_	_	37	SP		PhraseCat=SuP
@@ -43084,7 +43084,7 @@
 7	samarbetet	samarbete	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	OO		PhraseCat=NP
 8	mellan	mellan	ADP	_	_	7	MD		PhraseCat=PP
 9	våra	vi	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	11	DT		PhraseCat=NP
-10	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	11	DT		PhraseCat=NP
+10	båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	11	DT		PhraseCat=NP
 11	institutioner	institution	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	OO		PhraseCat=NP
 12	när	när	ADV	_	_	4	MD		PhraseCat=SuP
 13	nu	nu	ADV	_	_	17	MD		PhraseCat=S
@@ -44191,12 +44191,12 @@
 23	,	,	PUNCT	_	_	19	--		PhraseCat=Top
 24	både	både	CCONJ	_	_	21	MD		ExtXpos=KOM|PhraseCat=KoP
 25	till	till	ADP	_	_	24	KL		PhraseCat=PP
-26	hans	han	PRON	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	28	DT		PhraseCat=NP
+26	hans	han	PRON	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	28	DT		PhraseCat=NP
 27	fina	fin	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	MD		PhraseCat=NP
 28	slutsatser	slutsats	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	25	OO		PhraseCat=NP
 29	och	och	CCONJ	_	_	24	ME		ExtXpos=KOM|PhraseCat=KoP
 30	till	till	ADP	_	_	24	KL		PhraseCat=PP
-31	hans	han	PRON	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	32	DT		PhraseCat=NP
+31	hans	han	PRON	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	32	DT		PhraseCat=NP
 32	flexibilitet	flexibilitet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	OO		PhraseCat=NP
 33	som	som	SCONJ	_	_	32	MD		PhraseCat=SuP
 34	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	33	OO		PhraseCat=S
@@ -47217,7 +47217,7 @@
 9	enligt	enligt	ADP	_	_	3	MD		PhraseCat=PP
 10	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	11	DT		PhraseCat=NP
 11	gripna	gripen	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	9	OO		PhraseCat=NP
-12	vars	vars	PRON	_	Definite=Ind|Number=Plur|PronType=Rel	13	DT		PhraseCat=NP
+12	vars	vars	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Rel	13	DT		PhraseCat=NP
 13	förhör	förhör	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	MD	11:MD|15:	PhraseCat=NP
 14	delvis	delvis	ADV	_	_	15	MD		PhraseCat=S
 15	offentliggjordes	offentliggöra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	13	OO		PhraseCat=S
@@ -49735,7 +49735,7 @@
 6	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	DT		PhraseCat=NP
 7	mördare	mördare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	OO		PhraseCat=NP
 8	med	med	ADP	_	_	7	MD		PhraseCat=PP
-9	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	10	DT		PhraseCat=NP
+9	båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	10	DT		PhraseCat=NP
 10	händerna	hand	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	8	OO		PhraseCat=NP
 11	täckta	täckt	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	8	OP		PhraseCat=AjP
 12	av	av	ADP	_	_	11	OA		PhraseCat=PP
@@ -49836,7 +49836,7 @@
 # sent_id = Arbt_Ariel.6
 # text = Men hans första minne av namnet Ariel Sharon var berättelserna om massakern i byn Qibya på Västbanken 1953, som vid tidpunkten var jordanskt territorium.
 1	Men	men	CCONJ	_	_	9	DF		PhraseCat=S
-2	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	DT		PhraseCat=NP
+2	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	4	DT		PhraseCat=NP
 3	första	första	ADJ	_	Case=Nom|Definite=Def|Degree=Sup|NumType=Ord	4	MD		PhraseCat=NP
 4	minne	minne	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	SB		PhraseCat=NP
 5	av	av	ADP	_	_	4	MD		PhraseCat=PP
@@ -49876,7 +49876,7 @@
 10	specialförbandet	specialförband	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	OO		PhraseCat=NP
 11	Enhet	enhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	AN		PhraseCat=NP
 12	101	101	NUM	_	NumType=Card	11	MD		PhraseCat=NP
-13	vars	vars	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	14	DT		PhraseCat=NP
+13	vars	vars	PRON	_	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Rel	14	DT		PhraseCat=NP
 14	uppdrag	uppdrag	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	MD	10:MD|15:	PhraseCat=NP
 15	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	14	OO		PhraseCat=S
 16	att	att	PART	_	_	15	SP		PhraseCat=SuP
@@ -49903,7 +49903,7 @@
 12	judisk	judisk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	MD		PhraseCat=NP
 13	kvinnas	kvinna	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	14	KL		PhraseCat=NP
 14	och	och	CCONJ	_	_	18	MD		PhraseCat=KoP
-15	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	DT		PhraseCat=NP
+15	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	17	DT		PhraseCat=NP
 16	två	två	NUM	_	NumType=Card	17	DT		PhraseCat=NP
 17	barns	barn	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	14	KL		PhraseCat=NP
 18	liv	liv	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	OO		PhraseCat=NP|PromotedHead=Yes|SpaceAfter=No
@@ -49970,7 +49970,7 @@
 # text = Även om hans militära framgångar i kriget hyllades blev han, också här, hårt kritiserad av både överordnade och israeliska politiker sedan han i trots mot sina order tog Mitla-passet vilket resulterade i 260 döda egyptiska och 38 israeliska soldater.
 1	Även	även	ADV	_	_	2	MD		PhraseCat=SuP
 2	om	om	SCONJ	_	_	9	MD		PhraseCat=SuP
-3	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	DT		PhraseCat=NP
+3	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	5	DT		PhraseCat=NP
 4	militära	militär	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	MD		PhraseCat=NP
 5	framgångar	framgång	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	SB		PhraseCat=NP
 6	i	i	ADP	_	_	5	MD		PhraseCat=PP
@@ -50429,7 +50429,7 @@
 3	kommissionen	kommission	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	KL		PhraseCat=KoP|SpaceAfter=No
 4	,	,	PUNCT	_	_	11	--		PhraseCat=Top
 5	eller	eller	CCONJ	_	_	2	ME		ExtXpos=KOM|PhraseCat=KoP
-6	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	DT		PhraseCat=NP
+6	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	DT		PhraseCat=NP
 7	avsättande	avsättande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	KL		PhraseCat=NP
 8	följande	följande	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Pres|VerbForm=Part	9	MD		PhraseCat=NP
 9	år	år	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	MD		PhraseCat=NP|SpaceAfter=No
@@ -50663,7 +50663,7 @@
 20	ifrån	ifrån	ADV	_	_	19	ME		ExtXpos=ABM|PhraseCat=S
 21	kallar	kalla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	OO		PhraseCat=S
 22	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	21	OO		PhraseCat=S
-23	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	24	DT		PhraseCat=NP
+23	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	24	DT		PhraseCat=NP
 24	vän	vän	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	OP		PhraseCat=NP|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	--		PhraseCat=Top
 26	tyckte	tycka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
@@ -50932,7 +50932,7 @@
 8	Sharons	Sharon	PROPN	_	Case=Gen	9	DT		PhraseCat=NP
 9	politik	politik	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	OO		PhraseCat=NP
 10	från	från	ADP	_	_	9	MD		PhraseCat=PP
-11	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	DT		PhraseCat=NP
+11	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	DT		PhraseCat=NP
 12	tid	tid	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	OO		PhraseCat=NP
 13	som	som	SCONJ	_	_	12	MD		PhraseCat=SuP
 14	ledare	ledare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	OO		PhraseCat=NP
@@ -51718,7 +51718,7 @@
 
 # sent_id = Arbt_Kraftigaprotester.4
 # text = Båda dagarna besköt 150 kravallutrustade poliser demonstranterna med tårgas och så kallade ”bönpåsar” i försök att skingra folksamlingen.
-1	Båda	båda	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Tot	2	DT		PhraseCat=NP
+1	Båda	båda	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Tot	2	DT		PhraseCat=NP
 2	dagarna	dag	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	MD		PhraseCat=NP
 3	besköt	beskjuta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 4	150	150	NUM	_	NumType=Card	6	DT		PhraseCat=NP
@@ -53368,7 +53368,7 @@
 # text = För att båda dessa förutsättningar ska uppfyllas är vuxenutbildningen ofta avgörande.
 1	För	för	ADP	_	_	11	OA		PhraseCat=PP
 2	att	att	SCONJ	_	_	1	OO		PhraseCat=SuP
-3	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	5	DT		PhraseCat=NP
+3	båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	5	DT		PhraseCat=NP
 4	dessa	denna	DET	_	Definite=Def|Number=Plur|PronType=Dem	5	DT		PhraseCat=NP
 5	förutsättningar	förutsättning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	SB	6:SB|7:	PhraseCat=NP
 6	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	2	OO		PhraseCat=S
@@ -57820,7 +57820,7 @@
 
 # sent_id = Arbt_Rwanda.15
 # text = Båda forskarna är förhoppningsfulla inför framtiden, men de stora sår som finns i landet tar enligt dem betydligt längre tid än 20 år att läka.
-1	Båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	2	DT		PhraseCat=NP
+1	Båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	2	DT		PhraseCat=NP
 2	forskarna	forskare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	SB		PhraseCat=NP
 3	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	8	KL		PhraseCat=S
 4	förhoppningsfulla	förhoppningsfull	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	SP		PhraseCat=AjP
@@ -59773,7 +59773,7 @@
 13	politiskt	politisk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	MD		PhraseCat=NP
 14	arbete	arbete	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	SB	17:SB|18:	PhraseCat=NP
 15	likt	lik	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	MD		PhraseCat=AjP
-16	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	OO		PhraseCat=AjP
+16	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	OO		PhraseCat=AjP
 17	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	12	OO		PhraseCat=S
 18	vara	vara	AUX	_	VerbForm=Inf|Voice=Act	17	IV		PhraseCat=VP
 19	möjligt	möjlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	SP		PhraseCat=VP|SpaceAfter=No
@@ -61255,7 +61255,7 @@
 4	inte	inte	PART	_	Polarity=Neg	2	MD		PhraseCat=AbP
 5	gälla	gälla	VERB	_	VerbForm=Inf|Voice=Act	2	IV		PhraseCat=VP
 6	fastighetsägare	fastighetsägare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	KL		PhraseCat=NP
-7	vars	vars	PRON	_	Definite=Ind|Number=Plur|PronType=Rel	8	DT		PhraseCat=NP
+7	vars	vars	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Rel	8	DT		PhraseCat=NP
 8	fastigheter	fastighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	MD	6:MD|9:	PhraseCat=NP
 9	påverkas	påverka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	OO		PhraseCat=S
 10	eller	eller	CCONJ	_	_	5	OO		PhraseCat=KoP
@@ -69466,7 +69466,7 @@
 9	och	och	CCONJ	_	_	7	OO		PhraseCat=KoP
 10	prat	prat	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	KL		PhraseCat=NP
 11	angående	angående	ADP	_	_	10	MD	10:MD|8:	PhraseCat=PP
-12	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	DT		PhraseCat=NP
+12	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	DT		PhraseCat=NP
 13	förhållande	förhållande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	OO		PhraseCat=NP
 14	till	till	ADP	_	_	13	MD		PhraseCat=PP
 15	Mona	Mona	PROPN	_	Case=Nom	14	OO		PhraseCat=PP|SpaceAfter=No
@@ -69691,7 +69691,7 @@
 7	och	och	CCONJ	_	_	0	--		PhraseCat=KoP
 8	där	där	ADV	_	_	9	RA		PhraseCat=S
 9	bor	bo	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	KL		PhraseCat=S
-10	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	DT		PhraseCat=NP
+10	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	DT		PhraseCat=NP
 11	tjugo	tjugo	NUM	_	NumType=Card	13	DT		PhraseCat=NP
 12	javanska	javansk	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	MD		PhraseCat=NP
 13	soldater	soldat	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	SB		PhraseCat=NP|SpaceAfter=No
@@ -69745,7 +69745,7 @@
 1	Först	Först	ADV	_	Definite=Ind|Degree=Sup|Tense=Past|VerbForm=Part	2	MD		PhraseCat=PP
 2	för	för	ADP	_	_	7	KL		PhraseCat=PP
 3	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	6	DT		PhraseCat=NP
-4	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	6	DT		PhraseCat=NP
+4	båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	6	DT		PhraseCat=NP
 5	svarta	svart	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	MD		PhraseCat=NP
 6	tulltjänstemännen	tulltjänsteman	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	OO		PhraseCat=NP
 7	och	och	CCONJ	_	_	0	--		PhraseCat=KoP
@@ -70035,7 +70035,7 @@
 2	kom	komma	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	KL		PhraseCat=S
 3	ombord	ombord	ADV	_	_	4	MD		PhraseCat=PP
 4	på	på	ADP	_	_	2	RA		PhraseCat=PP
-5	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	DT		PhraseCat=NP
+5	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	DT		PhraseCat=NP
 6	motorbåt	motorbåt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	OO		PhraseCat=NP
 7	så	så	ADV	_	_	8	MD		PhraseCat=AbP
 8	många	mången	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	DF		PhraseCat=NP
@@ -70065,7 +70065,7 @@
 32	klappade	klappa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	29	KL		PhraseCat=S
 33	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	32	OO		PhraseCat=S
 34	på	på	ADP	_	_	32	OA	32:OA|30:	PhraseCat=PP
-35	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	38	DT		PhraseCat=NP
+35	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	38	DT		PhraseCat=NP
 36	lilla	liten	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	38	MD		PhraseCat=NP
 37	feta	fet	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	38	MD		PhraseCat=NP
 38	lekamen	lekamen	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	OO		PhraseCat=NP
@@ -70146,7 +70146,7 @@
 
 # sent_id = Romn_Lundqvist-Ingentobak.105
 # text = Hans chef residenten gillade att han drev in skatter som en dammsugare, den katolske missionären tyckte om honom som omvändelseobjekt, papuas tyckte han var bra som hindrade kineserna att lura dem alltför mycket och kineshandlarna tyckte om honom för att han lät dem få ta så stora vinster på sina affärer med papuas.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	chef	chef	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	SB		PhraseCat=NP
 3	residenten	resident	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	AN		PhraseCat=NP
 4	gillade	gilla	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	36	KL		PhraseCat=S
@@ -70327,7 +70327,7 @@
 10	och	och	CCONJ	_	_	8	OO		PhraseCat=KoP
 11	vänskap	vänskap	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	KL		PhraseCat=KoP
 12	i	i	ADP	_	_	8	RA		PhraseCat=PP
-13	varandras	varandra	PRON	_	Definite=Def|Number=Plur|PronType=Rcp	14	DT		PhraseCat=NP
+13	varandras	varandra	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Rcp	14	DT		PhraseCat=NP
 14	ögon	öga	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	OO		PhraseCat=NP|SpaceAfter=No
 15	,	,	PUNCT	_	_	25	--		PhraseCat=Top
 16	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	17	SB		PhraseCat=S
@@ -70360,7 +70360,7 @@
 43	dumma	dum	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	44	MD		PhraseCat=NP
 44	regeringspolitiken	regeringspolitik	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	48	KL		PhraseCat=NP|SpaceAfter=No
 45	,	,	PUNCT	_	_	25	--		PhraseCat=Top
-46	varandras	varandra	PRON	_	Definite=Def|Number=Plur|PronType=Rcp	47	DT		PhraseCat=NP
+46	varandras	varandra	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Rcp	47	DT		PhraseCat=NP
 47	duktighet	duktighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	48	KL		PhraseCat=NP
 48	och	och	CCONJ	_	_	29	AN		PhraseCat=KoP
 49	när	när	ADV	_	_	54	MD		PhraseCat=SuP
@@ -70544,7 +70544,7 @@
 16	Barthel	Barthel	PROPN	_	Case=Nom	15	SB		PhraseCat=S
 17	åt	åt	ADP	_	_	15	OA		PhraseCat=PP
 18	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	20	DT		PhraseCat=NP
-19	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	20	DT		PhraseCat=NP
+19	båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	20	DT		PhraseCat=NP
 20	poliserna	polis	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	17	OO		PhraseCat=NP
 21	som	som	SCONJ	_	_	20	MD		PhraseCat=SuP
 22	genast	genast	ADV	_	_	23	MD		PhraseCat=S
@@ -70647,7 +70647,7 @@
 10	Svenson	Svenson	PROPN	_	Case=Nom	9	IO		PhraseCat=S
 11	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	DT		PhraseCat=NP
 12	blick	blick	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	OO		PhraseCat=NP
-13	vars	vars	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	15	DT		PhraseCat=NP
+13	vars	vars	PRON	_	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Rel	15	DT		PhraseCat=NP
 14	roade	road	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	15	MD		PhraseCat=NP
 15	förakt	förakt	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	MD	12:MD|19:	PhraseCat=NP
 16	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	SB		PhraseCat=S
@@ -70691,7 +70691,7 @@
 # text = Dessutom är hans tropikhjälm minst två nummer för stor.
 1	Dessutom	dessutom	ADV	_	_	2	MD		PhraseCat=S
 2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
-3	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	DT		PhraseCat=NP
+3	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	4	DT		PhraseCat=NP
 4	tropikhjälm	tropikhjälm	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	SB		PhraseCat=NP
 5	minst	liten	ADJ	_	Case=Nom|Definite=Ind|Degree=Sup	6	MD		PhraseCat=NuP
 6	två	två	NUM	_	NumType=Card	7	DT		PhraseCat=NuP
@@ -71486,7 +71486,7 @@
 28	sett	se	VERB	_	VerbForm=Sup|Voice=Act	26	OO		PhraseCat=VP
 29	blicken	blick	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	OO		PhraseCat=NP
 30	i	i	ADP	_	_	29	MD		PhraseCat=PP
-31	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	36	DT		PhraseCat=NP
+31	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	36	DT		PhraseCat=NP
 32	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	33	MD		PhraseCat=AjP
 33	ljusa	ljus	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	36	MD		PhraseCat=AjP|SpaceAfter=No
 34	,	,	PUNCT	_	_	19	--		PhraseCat=Top
@@ -71519,7 +71519,7 @@
 11	riktar	rikta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	OO		PhraseCat=S
 12	blicken	blick	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	OO		PhraseCat=S
 13	på	på	ADP	_	_	11	RA		PhraseCat=PP
-14	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	DT		PhraseCat=NP
+14	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	DT		PhraseCat=NP
 15	ölglas	ölglas	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	OO		PhraseCat=NP
 16	sätter	sätta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	KL		PhraseCat=S
 17	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	SB		PhraseCat=S
@@ -71591,7 +71591,7 @@
 17	herr	herr	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	OO		PhraseCat=NP
 18	Svenson	Svenson	PROPN	_	Case=Nom	17	AN		PhraseCat=NP
 19	i	i	ADP	_	_	16	MD		PhraseCat=PP
-20	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	22	DT		PhraseCat=NP
+20	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	22	DT		PhraseCat=NP
 21	välsignade	välsignad	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	22	MD		PhraseCat=NP
 22	arbete	arbete	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	OO		PhraseCat=NP
 23	...	...	PUNCT	_	_	2	--		PhraseCat=Top
@@ -71832,14 +71832,14 @@
 4	träffas	träffa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	--		PhraseCat=S
 5	åter	åter	ADV	_	_	4	MD		PhraseCat=S
 6	av	av	ADP	_	_	4	AG		PhraseCat=PP
-7	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	DT		PhraseCat=NP
+7	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 8	blickar	blick	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	OO		PhraseCat=NP
 9	som	som	SCONJ	_	_	8	MD		PhraseCat=SuP
 10	säjer	säga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	OO		PhraseCat=VP
 11	långt	långt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	MD		PhraseCat=AjP
 12	mer	mycken	PRON	_	Degree=Cmp|PronType=Ind	10	OO		PhraseCat=AjP
 13	än	än	SCONJ	_	_	12	JF		PhraseCat=SuP
-14	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	DT		PhraseCat=NP
+14	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	16	DT		PhraseCat=NP
 15	föraktfulla	föraktfull	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	MD		PhraseCat=NP
 16	ord	ord	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	OO		PhraseCat=NP|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	--		PhraseCat=Top
@@ -71874,7 +71874,7 @@
 2	ag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs|Typo=Yes	3	SB		CorrectForm=Jag|PhraseCat=S
 3	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	7	KL		PhraseCat=S
 4	förstås	förstås	ADV	_	_	3	MD		PhraseCat=S
-5	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	DT		PhraseCat=NP
+5	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	DT		PhraseCat=NP
 6	lärarinna	lärarinna	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SP		PhraseCat=NP
 7	och	och	CCONJ	_	_	21	parataxis		PhraseCat=KoP
 8	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	SB		PhraseCat=S
@@ -71954,7 +71954,7 @@
 17	att	att	PART	_	_	14	ES		PhraseCat=SuP
 18	ge	ge	VERB	_	VerbForm=Inf|Voice=Act	17	OO		PhraseCat=VP
 19	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	IO		PhraseCat=VP
-20	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	22	DT		PhraseCat=NP
+20	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	22	DT		PhraseCat=NP
 21	första	första	ADJ	_	Case=Nom|Definite=Def|Degree=Sup|NumType=Ord	22	MD		PhraseCat=NP
 22	post	post	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	OO		PhraseCat=NP
 23	i	i	ADP	_	_	22	MD		PhraseCat=PP
@@ -72842,7 +72842,7 @@
 8	fröken	fröken	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	KL		PhraseCat=NP
 9	Smith	Smith	PROPN	_	Case=Nom	8	AN		PhraseCat=NP
 10	och	och	CCONJ	_	_	7	OO		PhraseCat=KoP
-11	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	DT		PhraseCat=NP
+11	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	DT		PhraseCat=NP
 12	Svenson	Svenson	PROPN	_	Case=Nom	10	KL		PhraseCat=NP|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	--		PhraseCat=Top
 14	men	men	CCONJ	_	_	0	--		PhraseCat=KoP
@@ -72957,7 +72957,7 @@
 
 # sent_id = Romn_Lundqvist-Ingentobak.299
 # text = Hans mage är tung av öl, ögonen dimmiga men huvudet fullt av lätta tankar.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	mage	mage	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB		PhraseCat=NP
 3	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	10	KL		PhraseCat=S
 4	tung	tung	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	SP		PhraseCat=AjP
@@ -73043,7 +73043,7 @@
 1	Svetten	svett	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	SB		PhraseCat=S
 2	pärlar	pärla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	KL		PhraseCat=S
 3	i	i	ADP	_	_	2	RA		PhraseCat=PP
-4	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	DT		PhraseCat=NP
+4	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	DT		PhraseCat=NP
 5	skinande	skinande	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part	7	MD		PhraseCat=NP
 6	röda	röd	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	MD		PhraseCat=NP
 7	ansikte	ansikte	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	OO		PhraseCat=NP|SpaceAfter=No
@@ -73134,7 +73134,7 @@
 9	palmer	palm	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	OO		PhraseCat=NP
 10	upp	upp	ADV	_	_	11	MD		PhraseCat=PP
 11	mot	mot	ADP	_	_	5	RA		PhraseCat=PP
-12	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	DT		PhraseCat=NP
+12	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	14	DT		PhraseCat=NP
 13	lilla	liten	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	MD		PhraseCat=NP
 14	träslott	träslott	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	OO		PhraseCat=NP
 15	med	med	ADP	_	_	14	MD		PhraseCat=PP
@@ -73199,7 +73199,7 @@
 2	stöder	stödja	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	2	OO		PhraseCat=S
 4	mot	mot	ADP	_	_	2	RA		PhraseCat=PP
-5	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	DT		PhraseCat=NP
+5	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	DT		PhraseCat=NP
 6	axel	axel	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	OO		PhraseCat=NP
 7	medan	medan	SCONJ	_	_	2	MD		PhraseCat=SuP
 8	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	9	SB		PhraseCat=S
@@ -73216,7 +73216,7 @@
 4	och	och	CCONJ	_	_	2	SP		PhraseCat=KoP
 5	rund	rund	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	KL		PhraseCat=KoP|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	--		PhraseCat=Top
-7	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	DT		PhraseCat=NP
+7	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	9	DT		PhraseCat=NP
 8	pladdrande	pladdrande	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part	9	MD		PhraseCat=NP
 9	läppar	läpp	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	SB		PhraseCat=NP
 10	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	2	KL		PhraseCat=S
@@ -73464,7 +73464,7 @@
 3	lät	låta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 4	sätta	sätta	VERB	_	VerbForm=Inf|Voice=Act	3	IV		PhraseCat=VP
 5	in	in	ADV	_	_	4	PL		PhraseCat=VP
-6	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	DT		PhraseCat=NP
+6	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	DT		PhraseCat=NP
 7	koffertar	koffert	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	OO		PhraseCat=NP
 8	i	i	ADP	_	_	4	RA		PhraseCat=PP
 9	gästrummet	gästrum	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	OO		PhraseCat=PP|SpaceAfter=No
@@ -73911,7 +73911,7 @@
 
 # sent_id = Romn_Lundqvist-Ingentobak.369
 # text = Hans rädsla för syndafloden har försvunnit.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	rädsla	rädsla	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	SB	5:SB|6:	PhraseCat=NP
 3	för	för	ADP	_	_	2	MD		PhraseCat=PP
 4	syndafloden	syndaflod	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	OO		PhraseCat=PP
@@ -73934,7 +73934,7 @@
 2	som	som	SCONJ	_	_	1	MD		PhraseCat=SuP
 3	rasar	rasa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	OO		PhraseCat=S
 4	i	i	ADP	_	_	3	RA		PhraseCat=PP
-5	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	DT		PhraseCat=NP
+5	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	DT		PhraseCat=NP
 6	darrande	darrande	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part	7	MD		PhraseCat=NP
 7	kött	kött	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	OO		PhraseCat=NP|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	--		PhraseCat=Top
@@ -74071,7 +74071,7 @@
 8	slött	slött	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	7	MD		PhraseCat=S
 9	ner	ner	ADV	_	_	7	PL		PhraseCat=S
 10	på	på	ADP	_	_	7	RA		PhraseCat=PP
-11	var	var	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Tot	12	DT		PhraseCat=NP
+11	var	var	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Tot	12	DT		PhraseCat=NP
 12	sida	sida	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	OO		PhraseCat=NP
 13	om	om	ADP	_	_	12	MD		PhraseCat=PP
 14	stolens	stol	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	16	DT		PhraseCat=NP
@@ -74130,7 +74130,7 @@
 3	igen	igen	ADV	_	_	2	PL		PhraseCat=S
 4	rocken	rock	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	OO		PhraseCat=S
 5	om	om	ADP	_	_	2	RA		PhraseCat=PP
-6	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	DT		PhraseCat=NP
+6	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 7	lurviga	lurvig	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	MD		PhraseCat=NP
 8	bröst	bröst	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	OO		PhraseCat=NP|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	--		PhraseCat=Top
@@ -74525,7 +74525,7 @@
 
 # sent_id = Romn_Lundqvist-Ingentobak.426
 # text = Hennes blommiga sarong försvinner i mörkret som härskar i Svensons rum.
-1	Hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	DT		PhraseCat=NP
+1	Hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	3	DT		PhraseCat=NP
 2	blommiga	blommig	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	MD		PhraseCat=NP
 3	sarong	sarong	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	SB		PhraseCat=NP
 4	försvinner	försvinna	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
@@ -75019,7 +75019,7 @@
 6	aningen	aning	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	MD		PhraseCat=AjP
 7	brunfärgad	brunfärgad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	4	SP		PhraseCat=AjP|SpaceAfter=No
 8	,	,	PUNCT	_	_	4	--		PhraseCat=Top
-9	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	DT		PhraseCat=NP
+9	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	DT		PhraseCat=NP
 10	ögon	öga	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	SB		PhraseCat=NP
 11	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	4	KL		PhraseCat=S
 12	brungnistrande	brungnistrande	ADJ	_	Case=Nom|Degree=Cmp|Tense=Pres|VerbForm=Part	11	SP		PhraseCat=S|SpaceAfter=No
@@ -75053,7 +75053,7 @@
 
 # sent_id = Romn_Bjelvehammar-TageBengtsson.31
 # text = Hans bostad, uthus och åkermarker är som ett auktionslandskap, en stapelmarknad eller ett välsorterat storförråd.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	bostad	bostad	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	KL		PhraseCat=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	7	--		PhraseCat=Top
 4	uthus	uthus	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	KL		PhraseCat=NP
@@ -75430,7 +75430,7 @@
 18	komma	komma	VERB	_	VerbForm=Inf|Voice=Act	17	OO		PhraseCat=VP
 19	alltför	alltför	ADV	_	_	20	MD		PhraseCat=AjP
 20	nära	nära	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	RA		PhraseCat=AjP
-21	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	22	DT		PhraseCat=NP
+21	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	22	DT		PhraseCat=NP
 22	lekamen	lekamen	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	OO		PhraseCat=NP|SpaceAfter=No
 23	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -75890,7 +75890,7 @@
 5	skumranden	skumrand	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	OO		PhraseCat=PP|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	--		PhraseCat=Top
 7	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
-8	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	DT		PhraseCat=NP
+8	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	DT		PhraseCat=NP
 9	ettrigt	ettrigt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	MD		PhraseCat=AjP
 10	röda	röd	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	MD		PhraseCat=AjP
 11	ansikte	ansikte	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	KL		PhraseCat=NP|SpaceAfter=No
@@ -76289,7 +76289,7 @@
 11	till	till	ADP	_	_	10	MD		PhraseCat=PP
 12	skållbadet	skållbad	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	OO		PhraseCat=PP
 13	och	och	CCONJ	_	_	0	--		PhraseCat=KoP
-14	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	DT		PhraseCat=NP
+14	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	DT		PhraseCat=NP
 15	skrik	skrik	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	SB		PhraseCat=NP
 16	hörs	höra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	13	KL		PhraseCat=S
 17	bort	bort	ADV	_	_	18	MD		PhraseCat=PP
@@ -76505,7 +76505,7 @@
 5	två	två	NUM	_	NumType=Card	6	DT		PhraseCat=NP
 6	ädelstenar	ädelsten	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	SP		PhraseCat=NP
 7	i	i	ADP	_	_	6	MD		PhraseCat=PP
-8	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	DT		PhraseCat=NP
+8	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	9	DT		PhraseCat=NP
 9	liv	liv	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	OO		PhraseCat=NP
 10	som	som	SCONJ	_	_	6	MD		PhraseCat=SuP
 11	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	SB		PhraseCat=S
@@ -76523,7 +76523,7 @@
 3	vattnet	vatten	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	SB		PhraseCat=S
 4	rinner	rinna	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	OO		PhraseCat=S
 5	genom	genom	ADP	_	_	4	RA		PhraseCat=PP
-6	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	DT		PhraseCat=NP
+6	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	DT		PhraseCat=NP
 7	strupe	strupe	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	OO		PhraseCat=NP|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	--		PhraseCat=Top
 9	då	då	ADV	_	_	10	MD		PhraseCat=S
@@ -76690,7 +76690,7 @@
 7	svarta	svart	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	MD		PhraseCat=NP
 8	locket	lock	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	OO		PhraseCat=NP
 9	tillhör	tillhöra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
-10	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	DT		PhraseCat=NP
+10	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	DT		PhraseCat=NP
 11	käraste	kär	ADJ	_	Case=Nom|Definite=Def|Degree=Sup	12	MD		PhraseCat=NP
 12	ägodelar	ägodel	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	OO		PhraseCat=NP|SpaceAfter=No
 13	.	.	PUNCT	_	_	9	--		PhraseCat=Top
@@ -76757,7 +76757,7 @@
 11	vet	veta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	KL		PhraseCat=S
 12	alla	all	PRON	_	Definite=Def|Number=Plur|PronType=Tot	11	SB		PhraseCat=NP
 13	i	i	ADP	_	_	12	MD		PhraseCat=PP
-14	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	DT		PhraseCat=NP
+14	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	DT		PhraseCat=NP
 15	närhet	närhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	OO		PhraseCat=NP
 16	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	17	PH		PhraseCat=SuP
 17	som	som	SCONJ	_	_	11	OO		PhraseCat=SuP
@@ -76785,7 +76785,7 @@
 3	inte	inte	PART	_	Polarity=Neg	2	MD		PhraseCat=S
 4	höra	höra	VERB	_	VerbForm=Inf|Voice=Act	2	IV		PhraseCat=VP
 5	på	på	ADP	_	_	4	OA		PhraseCat=PP
-6	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	DT		PhraseCat=NP
+6	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 7	yviga	yvig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	MD		PhraseCat=NP
 8	berättelser	berättelse	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	OO		PhraseCat=NP
 9	före	före	ADP	_	_	4	MD		PhraseCat=PP
@@ -77095,10 +77095,10 @@
 12	,	,	PUNCT	_	_	14	--		PhraseCat=Top
 13	då	då	ADV	_	_	14	MD		PhraseCat=S
 14	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
-15	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	DT		PhraseCat=NP
+15	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	16	DT		PhraseCat=NP
 16	hjärta	hjärta	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	KL		PhraseCat=NP
 17	och	och	CCONJ	_	_	14	SB		PhraseCat=KoP
-18	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	19	DT		PhraseCat=NP
+18	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	19	DT		PhraseCat=NP
 19	huvud	huvud	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	KL		PhraseCat=NP
 20	fullt	full	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	SP		PhraseCat=AjP
 21	av	av	ADP	_	_	20	OA		PhraseCat=PP
@@ -77894,7 +77894,7 @@
 6	förekommer	förekomma	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	OO		PhraseCat=S
 7	oftast	ofta	ADV	_	Degree=Sup	6	MD		PhraseCat=S
 8	i	i	ADP	_	_	6	MD		PhraseCat=PP
-9	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	DT		PhraseCat=NP
+9	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	DT		PhraseCat=NP
 10	drömmar	dröm	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	OO		PhraseCat=NP|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -78106,7 +78106,7 @@
 4	som	som	SCONJ	_	_	3	MD		PhraseCat=SuP
 5	hör	höra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	OO		PhraseCat=S
 6	till	till	ADP	_	_	5	PL		PhraseCat=S
-7	hans	han	PRON	_	Case=Acc|Case=Gen|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	DT		PhraseCat=NP
+7	hans	han	PRON	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 8	liv	liv	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	OO		PhraseCat=NP
 9	och	och	CCONJ	_	_	0	--		PhraseCat=KoP
 10	när	när	ADV	_	_	19	DF		PhraseCat=SuP
@@ -78119,7 +78119,7 @@
 17	,	,	PUNCT	_	_	9	--		PhraseCat=Top
 18	då	då	ADV	_	_	19	MD		PhraseCat=S
 19	kommer	komma	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	9	KL		PhraseCat=S
-20	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	DT		PhraseCat=NP
+20	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	21	DT		PhraseCat=NP
 21	liv	liv	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	SB	19:SB|23:	PhraseCat=NP
 22	att	att	PART	_	_	19	IV		PhraseCat=SuP
 23	bli	bli	VERB	_	VerbForm=Inf|Voice=Act	22	OO		PhraseCat=VP
@@ -78379,7 +78379,7 @@
 4	Bengtsson	Bengtsson	PROPN	_	Case=Nom	3	ME		ExtXpos=ENM|PhraseCat=S|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 6	även	även	ADV	_	_	8	MD		PhraseCat=NP
-7	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	DT		PhraseCat=NP
+7	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 8	söner	son	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	AN		PhraseCat=NP|SpaceAfter=No
 9	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 10	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	11	SB		PhraseCat=S
@@ -78444,7 +78444,7 @@
 
 # sent_id = Romn_Bjelvehammar-TageBengtsson.195
 # text = Hans far var ingen god människa, gården fick skötas av barnen och mor.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	far	far	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB		PhraseCat=NP
 3	var	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 4	ingen	ingen	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	6	DT		PhraseCat=NP
@@ -79289,7 +79289,7 @@
 3	sätt	sätt	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	OO		PhraseCat=NP
 4	uppskattar	uppskatta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	KL		PhraseCat=S
 5	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	7	DT		PhraseCat=NP
-6	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	7	DT		PhraseCat=NP
+6	båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	7	DT		PhraseCat=NP
 7	herrarna	herre	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	4	SB		PhraseCat=NP
 8	dessa	denna	DET	_	Definite=Def|Number=Plur|PronType=Dem	10	DT		PhraseCat=NP
 9	årliga	årlig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	MD		PhraseCat=NP
@@ -79852,7 +79852,7 @@
 22	med	med	ADP	_	_	21	OA		PhraseCat=PP
 23	Ernst	Ernst	PROPN	_	Case=Nom	22	OO		PhraseCat=PP
 24	om	om	ADP	_	_	21	MD		PhraseCat=PP
-25	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	27	DT		PhraseCat=NP
+25	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	27	DT		PhraseCat=NP
 26	tidigare	tidig	ADJ	_	Case=Nom|Degree=Cmp	27	MD		PhraseCat=NP
 27	liv	liv	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	24	OO		PhraseCat=NP|SpaceAfter=No
 28	.	.	PUNCT	_	_	6	--		PhraseCat=Top
@@ -81105,7 +81105,7 @@
 7	sätter	sätta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	KL		PhraseCat=S
 8	hatten	hatt	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	OO		PhraseCat=S
 9	på	på	ADP	_	_	7	RA		PhraseCat=PP
-10	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	DT		PhraseCat=NP
+10	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	DT		PhraseCat=NP
 11	huvud	huvud	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	OO		PhraseCat=NP|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	--		PhraseCat=Top
 
@@ -81197,7 +81197,7 @@
 5	trottoaren	trottoar	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	OO		PhraseCat=PP|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	--		PhraseCat=Top
 7	och	och	CCONJ	_	_	0	--		PhraseCat=KoP
-8	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	DT		PhraseCat=NP
+8	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	9	DT		PhraseCat=NP
 9	näsa	näsa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	SB		PhraseCat=NP
 10	sticker	sticka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	KL		PhraseCat=S
 11	vädrande	vädrande	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Pres|VerbForm=Part	10	SP		PhraseCat=S
@@ -81705,7 +81705,7 @@
 
 # sent_id = Romn_Holmsen-Polynesiskpassad.112
 # text = Hans ansikte var det allvarligaste jag sett, och genast satte han igång med det mest ingående korsförhör.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	ansikte	ansikte	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	SB		PhraseCat=NP
 3	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	9	KL		PhraseCat=S
 4	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	DT		PhraseCat=NP
@@ -81754,7 +81754,7 @@
 25	på	på	ADP	_	_	24	MD		PhraseCat=PP|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	--		PhraseCat=Top
 27	och	och	CCONJ	_	_	0	--		PhraseCat=KoP
-28	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	29	DT		PhraseCat=NP
+28	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	29	DT		PhraseCat=NP
 29	misstänksamhet	misstänksamhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Typo=Yes	30	SB	30:SB|31:	CorrectForm=misstänksamhet|PhraseCat=NP
 30	tycktes	tyckas	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	27	KL		PhraseCat=S
 31	växa	växa	VERB	_	VerbForm=Inf|Voice=Act	30	IV		PhraseCat=VP
@@ -81937,7 +81937,7 @@
 13	att	att	SCONJ	_	_	9	OO		PhraseCat=SuP
 14	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	SB		PhraseCat=S
 15	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	13	OO		PhraseCat=S
-16	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	DT		PhraseCat=NP
+16	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	17	DT		PhraseCat=NP
 17	landsman	landsman	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	SP		PhraseCat=NP|SpaceAfter=No
 18	.	.	PUNCT	_	_	3	--		PhraseCat=Top
 
@@ -82044,7 +82044,7 @@
 1	Jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	7	KL		PhraseCat=S
 3	följt	följa	VERB	_	VerbForm=Sup|Voice=Act	2	IV		PhraseCat=VP
-4	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	DT		PhraseCat=NP
+4	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	5	DT		PhraseCat=NP
 5	råd	råd	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	OO		PhraseCat=NP|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	--		PhraseCat=Top
 7	men	men	CCONJ	_	_	0	--		PhraseCat=KoP
@@ -82813,7 +82813,7 @@
 3	sympatisk	sympatisk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	SP		PhraseCat=S|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	--		PhraseCat=Top
 5	och	och	CCONJ	_	_	0	--		PhraseCat=KoP
-6	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	DT		PhraseCat=NP
+6	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	DT		PhraseCat=NP
 7	dockbugsentusiasm	dockbugsentusiasm	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	SB		PhraseCat=NP
 8	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	5	KL		PhraseCat=S
 9	nästan	nästan	ADV	_	_	10	MD		PhraseCat=AjP
@@ -83089,7 +83089,7 @@
 33	få	få	VERB	_	VerbForm=Inf|Voice=Act	31	IV		PhraseCat=VP
 34	syn	syn	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	OO		PhraseCat=VP
 35	på	på	ADP	_	_	33	OA		PhraseCat=PP
-36	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	38	DT		PhraseCat=NP
+36	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	38	DT		PhraseCat=NP
 37	saltstänkta	saltstänkt	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	38	MD		PhraseCat=NP
 38	dagbok	dagbok	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	35	OO		PhraseCat=NP|SpaceAfter=No
 39	.	.	PUNCT	_	_	31	--		PhraseCat=Top
@@ -83097,7 +83097,7 @@
 # sent_id = Romn_Holmsen-Polynesiskpassad.207
 # text = Med hans tillåtelse började jag bläddra i den, och allt eftersom jag läste gick det upp för mig, att alla dockbugs stor-mogul var Bruce Fahnestock, denne leende unge yankee som satt mitt emot mig med sin sköldpadda i knäet.
 1	Med	med	ADP	_	_	4	MD		PhraseCat=PP
-2	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	DT		PhraseCat=NP
+2	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	3	DT		PhraseCat=NP
 3	tillåtelse	tillåtelse	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	OO		PhraseCat=NP
 4	började	börja	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	KL		PhraseCat=S
 5	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	SB		PhraseCat=S
@@ -83753,7 +83753,7 @@
 20	—	—	PUNCT	_	_	2	--		PhraseCat=Top
 21	Hinu	Hinu	PROPN	_	Case=Nom	30	KL		PhraseCat=NP|SpaceAfter=No
 22	,	,	PUNCT	_	_	2	--		PhraseCat=Top
-23	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	24	DT		PhraseCat=NP
+23	hans	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	24	DT		PhraseCat=NP
 24	broder	bror	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	AN		PhraseCat=NP|SpaceAfter=No
 25	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 26	snabbare	snabb	ADJ	_	Case=Nom|Degree=Cmp	27	MD		PhraseCat=AjP
@@ -83791,7 +83791,7 @@
 4	Roy	Roy	PROPN	_	Case=Nom	3	AN		ExtXpos=ENM|PhraseCat=NP
 5	Dunn	Dunn	PROPN	_	Case=Nom	4	ME		ExtXpos=ENM|PhraseCat=NP
 6	och	och	CCONJ	_	_	2	SB		PhraseCat=KoP
-7	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	DT		PhraseCat=NP
+7	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 8	partner	partner	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	KL		PhraseCat=NP|SpaceAfter=No
 9	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 10	norsk-amerikanen	norskamerikan	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	KL		PhraseCat=NP
@@ -84083,7 +84083,7 @@
 7	urgammal	urgammal	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	MD		PhraseCat=NP
 8	kraterdal	kraterdal	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	OO		PhraseCat=NP|SpaceAfter=No
 9	,	,	PUNCT	_	_	2	--		PhraseCat=Top
-10	vars	vars	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Rel	12	DT		PhraseCat=NP
+10	vars	vars	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Rel	12	DT		PhraseCat=NP
 11	gröna	grön	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	MD		PhraseCat=NP
 12	väggar	vägg	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	MD	8:MD|13:	PhraseCat=NP
 13	reser	resa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	OO		PhraseCat=S
@@ -84361,7 +84361,7 @@
 16	kommit	komma	VERB	_	VerbForm=Sup|Voice=Act	14	OO		PhraseCat=VP
 17	och	och	CCONJ	_	_	23	OO		PhraseCat=KoP
 18	vilka	vilken	PRON	_	Definite=Ind|Number=Plur|PronType=Int,Rel	17	KL		PhraseCat=SuP
-19	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	DT		PhraseCat=NP
+19	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	20	DT		PhraseCat=NP
 20	föräldrar	förälder	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	21	SB		PhraseCat=NP
 21	var	vara	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	OO		PhraseCat=S|SpaceAfter=No
 22	,	,	PUNCT	_	_	13	--		PhraseCat=Top
@@ -84457,14 +84457,14 @@
 
 # sent_id = Romn_Holmsen-Polynesiskpassad.295
 # text = Hennes våla ljusgröna pareu smet åt kring hennes fasta, runda kropp, när hon kom fram i solen för att torka sig.
-1	Hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	DT		PhraseCat=NP
+1	Hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	4	DT		PhraseCat=NP
 2	våla	våt	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Typo=Yes	4	MD		CorrectForm=våta|PhraseCat=NP
 3	ljusgröna	ljusgrön	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	MD		PhraseCat=NP
 4	pareu	pareu	X	_	Foreign=Yes	5	SB		PhraseCat=NP
 5	smet	smita	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 6	åt	åt	ADP	_	_	5	PL		PhraseCat=S
 7	kring	kring	ADP	_	_	5	RA		PhraseCat=PP
-8	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	DT		PhraseCat=NP
+8	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	DT		PhraseCat=NP
 9	fasta	fast	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	MD		PhraseCat=NP|SpaceAfter=No
 10	,	,	PUNCT	_	_	5	--		PhraseCat=Top
 11	runda	rund	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	MD		PhraseCat=NP
@@ -84508,7 +84508,7 @@
 6	lägga	lägga	VERB	_	VerbForm=Inf|Voice=Act	5	OO		PhraseCat=VP
 7	märke	märke	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	OO		PhraseCat=VP
 8	till	till	ADP	_	_	6	OA		PhraseCat=PP
-9	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	DT		PhraseCat=NP
+9	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	DT		PhraseCat=NP
 10	drömmande	drömmande	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part	13	MD		PhraseCat=NP|SpaceAfter=No
 11	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 12	barnsliga	barnslig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	MD		PhraseCat=NP
@@ -84517,7 +84517,7 @@
 
 # sent_id = Romn_Holmsen-Polynesiskpassad.299
 # text = Hennes blick var underlig — det tyckte vi alla — och hennes mörka mandelformade ögon kunde plötsligt och vid de mest oväntade tillfällen skifta uttryck från det ljusaste glitter till det mörkaste vemod.
-1	Hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	blick	blick	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB		PhraseCat=NP
 3	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	11	KL		PhraseCat=S
 4	underlig	underlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	SP		PhraseCat=S
@@ -84528,7 +84528,7 @@
 9	alla	all	PRON	_	Definite=Def|Number=Plur|PronType=Tot	7	SP		PhraseCat=S
 10	—	—	PUNCT	_	_	11	--		PhraseCat=Top
 11	och	och	CCONJ	_	_	0	--		PhraseCat=KoP
-12	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	DT		PhraseCat=NP
+12	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	DT		PhraseCat=NP
 13	mörka	mörk	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	MD		PhraseCat=NP
 14	mandelformade	mandelformad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	15	MD		PhraseCat=NP
 15	ögon	öga	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	SB	16:SB|24:	PhraseCat=NP
@@ -84554,7 +84554,7 @@
 
 # sent_id = Romn_Holmsen-Polynesiskpassad.300
 # text = Hennes sånger och danser var likadana -- outgrundliga och fängslande.
-1	Hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	sånger	sång	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	KL		PhraseCat=NP
 3	och	och	CCONJ	_	_	5	SB		PhraseCat=KoP
 4	danser	dans	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	KL		PhraseCat=NP
@@ -84638,11 +84638,11 @@
 1	Vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	2	SB		PhraseCat=S
 2	kände	känna	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	att	att	SCONJ	_	_	2	OO		PhraseCat=SuP
-4	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	DT		PhraseCat=NP
+4	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	DT		PhraseCat=NP
 5	besynnerliga	besynnerlig	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	MD		PhraseCat=NP
 6	himene	himene	X	_	Foreign=Yes	7	KL		PhraseCat=NP
 7	och	och	CCONJ	_	_	10	SB		PhraseCat=KoP
-8	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	DT		PhraseCat=NP
+8	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	9	DT		PhraseCat=NP
 9	personlighet	personlighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	KL		PhraseCat=NP
 10	gav	ge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	OO		PhraseCat=S
 11	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	DT		PhraseCat=NP
@@ -84968,7 +84968,7 @@
 7	bamburör	bamburör	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	OO		PhraseCat=NP|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	--		PhraseCat=Top
 9	och	och	CCONJ	_	_	0	--		PhraseCat=KoP
-10	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	DT		PhraseCat=NP
+10	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	DT		PhraseCat=NP
 11	sneda	sned	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	MD		PhraseCat=NP|SpaceAfter=No
 12	,	,	PUNCT	_	_	9	--		PhraseCat=Top
 13	litet	litet	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	14	MD		PhraseCat=AjP
@@ -85783,7 +85783,7 @@
 
 # sent_id = Romn_Holmsen-Polynesiskpassad.396
 # text = Hans spegelbild avtecknade sig tydligt i det klara vattnet.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	spegelbild	spegelbild	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB		PhraseCat=NP
 3	avtecknade	avteckna	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 4	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	3	OO		PhraseCat=S
@@ -85869,7 +85869,7 @@
 12	att	att	SCONJ	_	_	10	OO		PhraseCat=SuP
 13	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	SB		PhraseCat=S
 14	upptäckt	upptäcka	VERB	_	VerbForm=Sup|Voice=Act	12	OO		PhraseCat=VP
-15	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	DT		PhraseCat=NP
+15	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	16	DT		PhraseCat=NP
 16	spegelbild	spegelbild	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	OO		PhraseCat=NP|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	--		PhraseCat=Top
 18	ty	ty	CCONJ	_	_	0	--		PhraseCat=KoP
@@ -86058,7 +86058,7 @@
 4	vit	vit	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	SP		PhraseCat=VP|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	--		PhraseCat=Top
 6	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
-7	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	DT		PhraseCat=NP
+7	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 8	tillbakadragenhet	tillbakadragenhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	SB	6:SB|10:	PhraseCat=NP
 9	inte	inte	PART	_	Polarity=Neg	6	MD		PhraseCat=S
 10	förefallit	förefalla	VERB	_	VerbForm=Sup|Voice=Act	6	IV		PhraseCat=VP
@@ -86988,7 +86988,7 @@
 11	önska	önska	VERB	_	VerbForm=Inf|Voice=Act	10	KL		PhraseCat=VP
 12	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	KL		PhraseCat=KoP
 13	och	och	CCONJ	_	_	17	OO		PhraseCat=KoP
-14	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	DT		PhraseCat=NP
+14	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	DT		PhraseCat=NP
 15	fru	fru	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	KL		PhraseCat=NP
 16	lycka	lycka	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	OO		PhraseCat=NP
 17	till	till	ADP	_	_	16	MD		PhraseCat=PP|SpaceAfter=No
@@ -88845,7 +88845,7 @@
 7	veta	veta	VERB	_	VerbForm=Inf|Voice=Act	6	IV		PhraseCat=VP|SpaceAfter=No
 8	,	,	PUNCT	_	_	14	--		PhraseCat=Top
 9	att	att	SCONJ	_	_	7	OO		PhraseCat=SuP
-10	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	DT		PhraseCat=NP
+10	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	DT		PhraseCat=NP
 11	tillkommande	tillkommande	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part	12	SB		PhraseCat=NP|PromotedHead=Yes
 12	hette	heta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	OO		PhraseCat=S
 13	Helge	Helge	PROPN	_	Case=Nom	12	SP		PhraseCat=S
@@ -88859,7 +88859,7 @@
 21	fick	få	AUX	_	Mood=Ind|Tense=Past|Voice=Act	19	MD		PhraseCat=S
 22	veta	veta	VERB	_	VerbForm=Inf|Voice=Act	21	IV		PhraseCat=VP
 23	att	att	SCONJ	_	_	22	OO		PhraseCat=SuP
-24	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	25	DT		PhraseCat=NP
+24	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	25	DT		PhraseCat=NP
 25	tillkommande	tillkommande	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part	26	SB		PhraseCat=NP|PromotedHead=Yes
 26	hette	heta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	23	OO		PhraseCat=S
 27	Klara	Klara	PROPN	_	Case=Nom	26	SP		PhraseCat=S|SpaceAfter=No
@@ -89059,7 +89059,7 @@
 12	få	få	AUX	_	VerbForm=Inf|Voice=Act	11	OO		PhraseCat=VP
 13	titta	titta	VERB	_	VerbForm=Inf|Voice=Act	12	IV		PhraseCat=VP
 14	på	på	ADP	_	_	13	OA		PhraseCat=PP
-15	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	DT		PhraseCat=NP
+15	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	16	DT		PhraseCat=NP
 16	lyckopendel	lyckopendel	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	OO		PhraseCat=NP|SpaceAfter=No
 17	.	.	PUNCT	_	_	9	--		PhraseCat=Top
 
@@ -91494,7 +91494,7 @@
 17	förklarade	förklara	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	KL		PhraseCat=S
 18	getinggad-darna	getinggadd	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur|Typo=Yes	17	OO		CorrectForm=getinggaddarna|PhraseCat=NP
 19	i	i	ADP	_	_	18	MD		PhraseCat=PP
-20	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	DT		PhraseCat=NP
+20	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	21	DT		PhraseCat=NP
 21	fot	fot	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	OO		PhraseCat=NP|SpaceAfter=No
 22	.	.	PUNCT	_	_	3	--		PhraseCat=Top
 
@@ -91781,7 +91781,7 @@
 8	också	också	ADV	_	_	6	MD		PhraseCat=S
 9	pulvret	pulver	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	OO		PhraseCat=S
 10	i	i	ADP	_	_	6	MD		PhraseCat=PP
-11	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	DT		PhraseCat=NP
+11	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	DT		PhraseCat=NP
 12	tevatten	tevatten	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	OO		PhraseCat=NP|SpaceAfter=No
 13	.	.	PUNCT	_	_	6	--		PhraseCat=Top
 
@@ -92616,7 +92616,7 @@
 21	där	där	SCONJ	_	_	17	MD		PhraseCat=SuP
 22	Asterix	Asterix	PROPN	_	Case=Nom	23	KL		PhraseCat=KoP
 23	och	och	CCONJ	_	_	26	SB		PhraseCat=KoP
-24	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	25	DT		PhraseCat=NP
+24	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	25	DT		PhraseCat=NP
 25	vänner	vän	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	KL		PhraseCat=NP
 26	bor	bo	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	OO		PhraseCat=S|SpaceAfter=No
 27	.	.	PUNCT	_	_	9	--		PhraseCat=Top
@@ -92811,7 +92811,7 @@
 72	krigaren	krigare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	74	KL		PhraseCat=NP
 73	Asterix	Asterix	PROPN	_	Case=Nom	72	AN		PhraseCat=NP
 74	och	och	CCONJ	_	_	69	OO		PhraseCat=KoP
-75	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	76	DT		PhraseCat=NP
+75	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	76	DT		PhraseCat=NP
 76	vän	vän	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	74	KL		PhraseCat=NP
 77	Obelix	Obelix	PROPN	_	Case=Nom	76	AN		PhraseCat=NP
 78	som	som	SCONJ	_	_	76	MD		PhraseCat=SuP
@@ -93297,7 +93297,7 @@
 
 # sent_id = Wiki_Asterix.40
 # text = Hans tröja är svart och han bär röda byxor och i bältet ett mindre svärd (som han dock sällan behöver använda).
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	tröja	tröja	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB		PhraseCat=NP
 3	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	5	KL		PhraseCat=S
 4	svart	svart	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	SP		PhraseCat=S
@@ -93331,7 +93331,7 @@
 5	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 6	vilket	vilken	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	2	DF		PhraseCat=SuP
 7	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	6	OO		PhraseCat=S
-8	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	DT		PhraseCat=NP
+8	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	DT		PhraseCat=NP
 9	största	stor	ADJ	_	Case=Nom|Definite=Def|Degree=Sup	10	MD		PhraseCat=NP
 10	tillgång	tillgång	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	SP		PhraseCat=NP
 11	då	då	SCONJ	_	_	7	MD		PhraseCat=SuP
@@ -93456,7 +93456,7 @@
 28	trolldryck	trolldryck	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	OO		PhraseCat=NP|SpaceAfter=No
 29	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 30	till	till	ADP	_	_	20	MD		PhraseCat=PP
-31	hans	han	PRON	_	Case=Acc|Case=Gen|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	32	DT		PhraseCat=NP
+31	hans	han	PRON	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	32	DT		PhraseCat=NP
 32	förtret	förtret	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	OO		PhraseCat=NP
 33	eftersom	eftersom	SCONJ	_	_	20	MD		PhraseCat=SuP
 34	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	35	SB		PhraseCat=S
@@ -93472,7 +93472,7 @@
 
 # sent_id = Wiki_Asterix.48
 # text = Hans favoriträtt är grillade, nyfångade vildsvin, som han kan äta många av och gärna fångar själv.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	favoriträtt	favoriträtt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB		PhraseCat=NP
 3	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 4	grillade	grillad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	7	MD		PhraseCat=NP|SpaceAfter=No
@@ -93649,7 +93649,7 @@
 
 # sent_id = Wiki_Asterix.57
 # text = Hans viktigaste redskap är guldskäran som han samlar mistlar med (mistlar är en av de viktigaste ingredienserna i trolldrycken).
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	3	DT		PhraseCat=NP
 2	viktigaste	viktig	ADJ	_	Case=Nom|Definite=Def|Degree=Sup	3	MD		PhraseCat=NP
 3	redskap	redskap	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	SB		PhraseCat=NP
 4	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
@@ -94387,7 +94387,7 @@
 6	tillägnad	tillägnad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	5	MD		PhraseCat=AjP
 7	Asterix	Asterix	PROPN	_	Case=Nom	8	KL		PhraseCat=KoP
 8	och	och	CCONJ	_	_	6	OA		PhraseCat=KoP
-9	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	DT		PhraseCat=NP
+9	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	DT		PhraseCat=NP
 10	galler	galler	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	KL		PhraseCat=NP
 11	i	i	ADP	_	_	3	RA		PhraseCat=PP
 12	Plailly	Plailly	PROPN	_	Case=Nom	11	OO		PhraseCat=PP|SpaceAfter=No
@@ -94494,7 +94494,7 @@
 2	av	av	ADP	_	_	1	MD		PhraseCat=PP
 3	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	4	DT		PhraseCat=NP
 4	kvadrat	kvadrat	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	OO		PhraseCat=NP
-5	vars	vars	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Rel	6	DT		PhraseCat=NP
+5	vars	vars	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Rel	6	DT		PhraseCat=NP
 6	sida	sida	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	MD	4:MD|7:	PhraseCat=NP
 7	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	6	OO		PhraseCat=S
 8	a	a	X	_	Foreign=Yes	7	SP		PhraseCat=S
@@ -95352,7 +95352,7 @@
 27	Nalle	Nalle	PROPN	_	Case=Nom	29	KL		ExtXpos=ENM|PhraseCat=KoP
 28	Puh	Puh	PROPN	_	Case=Nom	27	ME		ExtXpos=ENM|PhraseCat=KoP
 29	och	och	CCONJ	_	_	26	OO		PhraseCat=KoP
-30	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	31	DT		PhraseCat=NP
+30	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	31	DT		PhraseCat=NP
 31	vänner	vän	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	29	KL		PhraseCat=NP
 32	i	i	ADP	_	_	31	MD		PhraseCat=PP
 33	Sjumilaskogen	Sjumilaskogen	PROPN	_	Case=Nom	32	OO		PhraseCat=PP|SpaceAfter=No
@@ -95723,7 +95723,7 @@
 40	Hogwarts	Hogwarts	PROPN	_	Case=Nom	39	AN		PhraseCat=NP
 41	(	(	PUNCT	_	_	4	--		PhraseCat=Top|SpaceAfter=No
 42	där	där	SCONJ	_	_	39	MD		PhraseCat=SuP
-43	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	44	DT		PhraseCat=NP
+43	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	44	DT		PhraseCat=NP
 44	föräldrar	förälder	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	46	SB	46:SB|47:	PhraseCat=NP
 45	också	också	ADV	_	_	46	MD		PhraseCat=S
 46	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	42	OO		PhraseCat=S
@@ -95874,7 +95874,7 @@
 1	Det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
 3	bara	bara	ADV	_	_	2	MD		PhraseCat=S
-4	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	DT		PhraseCat=NP
+4	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	5	DT		PhraseCat=NP
 5	mors	mor	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	6	DT		PhraseCat=NP
 6	kärlek	kärlek	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	SP		PhraseCat=NP
 7	som	som	SCONJ	_	_	2	EF		PhraseCat=SuP
@@ -95919,7 +95919,7 @@
 20	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	21	DT		PhraseCat=NP
 21	del	del	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	SB		PhraseCat=NP
 22	av	av	ADP	_	_	21	MD		PhraseCat=PP
-23	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	24	DT		PhraseCat=NP
+23	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	24	DT		PhraseCat=NP
 24	anhängare	anhängare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	22	OO		PhraseCat=NP
 25	trodde	tro	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	OO		PhraseCat=S
 26	att	att	SCONJ	_	_	25	OO		PhraseCat=SuP
@@ -95961,7 +95961,7 @@
 30	mot	mot	ADP	_	_	29	MD		PhraseCat=PP
 31	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	32	KL		PhraseCat=KoP
 32	och	och	CCONJ	_	_	30	OO		PhraseCat=KoP
-33	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	34	DT		PhraseCat=NP
+33	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	34	DT		PhraseCat=NP
 34	anhängare	anhängare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	32	KL		PhraseCat=NP
 35	dödsätarna	dödsätare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	34	AN		PhraseCat=NP|SpaceAfter=No
 36	.	.	PUNCT	_	_	7	--		PhraseCat=Top
@@ -96052,7 +96052,7 @@
 13	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	11	OO		PhraseCat=S
 14	blivit	bli	VERB	_	VerbForm=Sup|Voice=Act	13	IV		PhraseCat=VP
 15	och	och	CCONJ	_	_	30	KL		PhraseCat=KoP
-16	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	DT		PhraseCat=NP
+16	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	17	DT		PhraseCat=NP
 17	förmågor	förmåga	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	SB	18:SB|19:	PhraseCat=NP
 18	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	15	KL		PhraseCat=S
 19	utvecklats	utveckla	VERB	_	VerbForm=Sup|Voice=Pass	18	IV		PhraseCat=VP
@@ -96196,7 +96196,7 @@
 5	som	som	SCONJ	_	_	4	MD		PhraseCat=SuP
 6	författare	författare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	OO		PhraseCat=SuP
 7	finns	finnas	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	--		PhraseCat=S
-8	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	DT		PhraseCat=NP
+8	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	9	DT		PhraseCat=NP
 9	förmåga	förmåga	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	KL		PhraseCat=NP
 10	att	att	PART	_	_	9	MD		PhraseCat=SuP
 11	återge	återge	VERB	_	VerbForm=Inf|Voice=Act	10	OO		PhraseCat=VP
@@ -96358,7 +96358,7 @@
 16	för	för	ADP	_	_	15	MD		PhraseCat=PP
 17	Voldemort	Voldemort	PROPN	_	Case=Nom	18	KL		PhraseCat=KoP
 18	och	och	CCONJ	_	_	16	OO		PhraseCat=KoP
-19	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	DT		PhraseCat=NP
+19	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	20	DT		PhraseCat=NP
 20	anhängare	anhängare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	KL		PhraseCat=NP
 21	men	men	CCONJ	_	_	5	parataxis		PhraseCat=KoP
 22	förekommer	förekomma	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	KL		PhraseCat=S
@@ -96450,7 +96450,7 @@
 20	som	som	SCONJ	_	_	19	MD		PhraseCat=SuP
 21	ljuger	ljuga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	OO		PhraseCat=S
 22	om	om	ADP	_	_	21	OA		PhraseCat=PP
-23	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	24	DT		PhraseCat=NP
+23	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	24	DT		PhraseCat=NP
 24	föräldrars	förälder	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Plur	26	DT		PhraseCat=NP
 25	verkliga	verklig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	MD		PhraseCat=NP
 26	öden	öde	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	22	OO		PhraseCat=NP|SpaceAfter=No
@@ -96540,7 +96540,7 @@
 36	hur	hur	ADV	_	_	35	OO		PhraseCat=SuP
 37	man	man	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Ind	38	SB		PhraseCat=S
 38	uttalade	uttala	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	36	OO		PhraseCat=S
-39	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	40	DT		PhraseCat=NP
+39	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	40	DT		PhraseCat=NP
 40	namn	namn	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	38	OO		PhraseCat=NP|SpaceAfter=No
 41	)	)	PUNCT	_	_	42	--		PhraseCat=Top
 42	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
@@ -96607,7 +96607,7 @@
 37	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	38	DT		PhraseCat=NP
 38	kafé	kafé	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	36	OO		PhraseCat=NP
 39	medan	medan	SCONJ	_	_	17	MD		PhraseCat=SuP
-40	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	42	DT		PhraseCat=NP
+40	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	42	DT		PhraseCat=NP
 41	nyfödda	nyfödd	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	42	MD		PhraseCat=NP
 42	dotter	dotter	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	43	SB	43:SB|45:	PhraseCat=NP
 43	låg	ligga	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	44	KL		PhraseCat=S
@@ -96631,7 +96631,7 @@
 10	kaféet	kafé	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	OO		PhraseCat=PP
 11	för	för	ADP	_	_	8	MD		PhraseCat=PP
 12	att	att	SCONJ	_	_	11	OO		PhraseCat=SuP
-13	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	DT		PhraseCat=NP
+13	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	14	DT		PhraseCat=NP
 14	lägenhet	lägenhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	SB		PhraseCat=NP
 15	inte	inte	PART	_	Polarity=Neg	16	MD		PhraseCat=S
 16	hade	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	OO		PhraseCat=S
@@ -96676,7 +96676,7 @@
 # text = Dessutom var hennes målgrupp unga pojkar, och många förlag, inklusive det lilla independentförlaget Bloomsbury som till slut antog hennes manus, trodde att pojkar inte skulle vilja läsa en bok av en kvinnlig författare.
 1	Dessutom	dessutom	ADV	_	_	2	MD		PhraseCat=S
 2	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	8	KL		PhraseCat=S
-3	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	DT		PhraseCat=NP
+3	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	4	DT		PhraseCat=NP
 4	målgrupp	målgrupp	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	SB		PhraseCat=NP
 5	unga	ung	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	MD		PhraseCat=NP
 6	pojkar	pojke	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	SP		PhraseCat=NP|SpaceAfter=No
@@ -96694,7 +96694,7 @@
 18	till	till	ADP	_	_	20	MD		PhraseCat=PP
 19	slut	slut	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	OO		PhraseCat=PP
 20	antog	anta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	OO		PhraseCat=S
-21	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	22	DT		PhraseCat=NP
+21	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	22	DT		PhraseCat=NP
 22	manus	manus	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	OO		PhraseCat=NP|SpaceAfter=No
 23	,	,	PUNCT	_	_	8	--		PhraseCat=Top
 24	trodde	tro	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	KL		PhraseCat=S
@@ -97656,7 +97656,7 @@
 11	Harry	Harry	PROPN	_	Case=Nom	13	KL		ExtXpos=ENM|PhraseCat=KoP
 12	Potter	Potter	PROPN	_	Case=Nom	11	ME		ExtXpos=ENM|PhraseCat=KoP
 13	och	och	CCONJ	_	_	10	OO		PhraseCat=KoP
-14	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	DT		PhraseCat=NP
+14	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	DT		PhraseCat=NP
 15	universum	universum	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	KL		PhraseCat=NP|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	--		PhraseCat=Top
 
@@ -97817,7 +97817,7 @@
 34	personligen	personligen	ADV	_	_	33	MD		PhraseCat=NP|SpaceAfter=No
 35	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 36	då	då	SCONJ	_	_	28	MD		PhraseCat=SuP
-37	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	38	DT		PhraseCat=NP
+37	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	38	DT		PhraseCat=NP
 38	föräldrar	förälder	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	39	SB	39:SB|41:|40:	PhraseCat=NP
 39	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	36	OO		PhraseCat=S
 40	ha	ha	AUX	_	VerbForm=Inf|Voice=Act	39	IV		PhraseCat=VP
@@ -98171,7 +98171,7 @@
 47	förekom	förekomma	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	45	OO		PhraseCat=S
 48	i	i	ADP	_	_	47	MD		PhraseCat=PP
 49	både	både	CCONJ	_	_	48	OO		ExtXpos=KOM|PhraseCat=KoP
-50	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	49	KL		PhraseCat=NP|PromotedHead=Yes
+50	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	49	KL		PhraseCat=NP|PromotedHead=Yes
 51	och	och	CCONJ	_	_	49	ME		ExtXpos=KOM|PhraseCat=KoP
 52	Rowlings	Rowling	PROPN	_	Case=Gen	53	DT		PhraseCat=NP
 53	böcker	bok	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	49	KL		PhraseCat=NP
@@ -98334,7 +98334,7 @@
 33	lagts	lägga	VERB	_	VerbForm=Sup|Voice=Pass	32	IV		PhraseCat=VP
 34	till	till	ADP	_	_	33	PL		PhraseCat=VP
 35	i	i	ADP	_	_	33	RA		PhraseCat=PP
-36	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	37	DT		PhraseCat=NP
+36	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	37	DT		PhraseCat=NP
 37	bok	bok	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	35	OO		PhraseCat=NP
 38	långt	lång	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	39	MD		PhraseCat=PP
 39	efter	efter	ADP	_	_	33	MD		PhraseCat=PP
@@ -98637,7 +98637,7 @@
 # sent_id = Wiki_HarryPotter.132
 # text = De båda musikalerna har blivit en stor succé på Youtube.
 1	De	den	DET	_	Definite=Def|Number=Plur|PronType=Art	3	DT		PhraseCat=NP
-2	båda	båda	PRON	_	Definite=Def|Number=Plur|PronType=Tot	3	DT		PhraseCat=NP
+2	båda	båda	DET	_	Definite=Def|Number=Plur|PronType=Tot	3	DT		PhraseCat=NP
 3	musikalerna	musikal	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	4	SB	4:SB|5:	PhraseCat=NP
 4	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 5	blivit	bli	VERB	_	VerbForm=Sup|Voice=Act	4	IV		PhraseCat=VP
@@ -98994,7 +98994,7 @@
 22	i	i	ADP	_	_	19	MD		PhraseCat=PP
 23	sällskap	sällskap	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	OO		PhraseCat=NP
 24	med	med	ADP	_	_	23	MD		PhraseCat=PP
-25	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	26	DT		PhraseCat=NP
+25	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	26	DT		PhraseCat=NP
 26	trädgårdsmästare	trädgårdsmästare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	OO		PhraseCat=NP
 27	Sam	Sam	PROPN	_	Case=Nom	26	AN		ExtXpos=ENM|PhraseCat=NP
 28	Gamgi	Gamgi	PROPN	_	Case=Nom	27	ME		ExtXpos=ENM|PhraseCat=NP
@@ -99083,7 +99083,7 @@
 15	och	och	CCONJ	_	_	10	OO		PhraseCat=KoP
 16	nu	nu	ADV	_	_	17	MD		PhraseCat=S
 17	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	15	KL		PhraseCat=S
-18	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	DT		PhraseCat=NP
+18	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	20	DT		PhraseCat=NP
 19	odödliga	odödlig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	MD		PhraseCat=NP
 20	slavar	slav	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	SP		PhraseCat=NP|SpaceAfter=No
 21	.	.	PUNCT	_	_	2	--		PhraseCat=Top
@@ -99181,7 +99181,7 @@
 1	Gandalf	Gandalf	PROPN	_	Case=Nom	2	SB		PhraseCat=S
 2	berättar	berätta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	att	att	SCONJ	_	_	2	OO		PhraseCat=SuP
-4	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	DT		PhraseCat=NP
+4	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	5	DT		PhraseCat=NP
 5	orders	order	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	6	DT		PhraseCat=NP
 6	överhuvud	överhuvud	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	SB	11:SB|24:|12:	PhraseCat=NP|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	--		PhraseCat=Top
@@ -99464,7 +99464,7 @@
 9	skall	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	8	OO		PhraseCat=S
 10	hända	hända	VERB	_	VerbForm=Inf|Voice=Act	9	IV		PhraseCat=VP
 11	med	med	ADP	_	_	10	OA		PhraseCat=PP
-12	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	DT		PhraseCat=NP
+12	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	DT		PhraseCat=NP
 13	folk	folk	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	OO		PhraseCat=NP|SpaceAfter=No
 14	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -99985,7 +99985,7 @@
 12	ringen	ring	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	OO		PhraseCat=PP|SpaceAfter=No
 13	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 14	kanske	kanske	ADV	_	_	17	MD		PhraseCat=NP
-15	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	DT		PhraseCat=NP
+15	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	17	DT		PhraseCat=NP
 16	största	stor	ADJ	_	Case=Nom|Definite=Def|Degree=Sup	17	MD		PhraseCat=NP
 17	projekt	projekt	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	AN		PhraseCat=NP
 18	dittills	dittills	ADV	_	_	17	MD		PhraseCat=NP|SpaceAfter=No
@@ -100982,7 +100982,7 @@
 
 # sent_id = Wiki_VascodaGama.9
 # text = Hans kropp begravdes i Indien, och fördes 1539 tillbaka till Portugal, där den begravdes i en praktfull grav.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	kropp	kropp	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB	3:SB|8:	PhraseCat=NP
 3	begravdes	begrava	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	7	KL		PhraseCat=S
 4	i	i	ADP	_	_	3	RA		PhraseCat=PP
@@ -101022,7 +101022,7 @@
 
 # sent_id = Wiki_VascodaGama.12
 # text = Hans far, Estevão da Gama, Alcaide (guvernör) i Sines, var medlem av hushållet hos furst Dom Fernando, en mästare av Santiagoorden.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	far	far	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	SB		PhraseCat=NP|SpaceAfter=No
 3	,	,	PUNCT	_	_	15	--		PhraseCat=Top
 4	Estevão	Estevão	PROPN	_	Case=Nom	2	AN		ExtXpos=ENM|PhraseCat=NP
@@ -101131,7 +101131,7 @@
 3	började	börja	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 4	efter	efter	ADP	_	_	3	MD		PhraseCat=PP
 5	att	att	SCONJ	_	_	4	OO		PhraseCat=SuP
-6	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	DT		PhraseCat=NP
+6	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	DT		PhraseCat=NP
 7	far	far	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	SB	8:SB|8:	PhraseCat=NP
 8	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	5	OO		PhraseCat=VP
 9	utvald	utvald	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	SP		PhraseCat=AjP
@@ -101168,7 +101168,7 @@
 
 # sent_id = Wiki_VascodaGama.17
 # text = Hans far dog i juli 1497, och befälet för skeppet gavs till Vasco.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	far	far	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB		PhraseCat=NP
 3	dog	dö	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	KL		PhraseCat=S
 4	i	i	ADP	_	_	3	MD		PhraseCat=PP
@@ -101728,7 +101728,7 @@
 25	da	da	PROPN	_	Case=Nom	27	KL		ExtXpos=ENM|PhraseCat=NP|PromotedHead=Yes
 26	Gamas	Gama	PROPN	_	Case=Gen	25	ME		ExtXpos=ENM|PhraseCat=NP
 27	och	och	CCONJ	_	_	30	DT		PhraseCat=KoP
-28	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	29	DT		PhraseCat=NP
+28	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	29	DT		PhraseCat=NP
 29	besättnings	besättning	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	27	KL		PhraseCat=NP
 30	list	list	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	OO		PhraseCat=NP|SpaceAfter=No
 31	.	.	PUNCT	_	_	20	--		PhraseCat=Top
@@ -101833,7 +101833,7 @@
 13	hamnen	hamn	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	OO		PhraseCat=NP
 14	Malindi	Malindi	PROPN	_	Case=Nom	13	AN		PhraseCat=NP|SpaceAfter=No
 15	,	,	PUNCT	_	_	5	--		PhraseCat=Top
-16	vars	vars	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Rel	17	DT		PhraseCat=NP
+16	vars	vars	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Rel	17	DT		PhraseCat=NP
 17	ledare	ledare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	MD	13:MD|18:	PhraseCat=NP
 18	var	vara	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	OO		PhraseCat=S
 19	i	i	ADP	_	_	18	OA		PhraseCat=PP
@@ -101874,7 +101874,7 @@
 12	lots	lots	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	AN		PhraseCat=NP
 13	från	från	ADP	_	_	12	MD		PhraseCat=PP
 14	Gujarat	Gujarat	PROPN	_	Case=Nom	13	OO		PhraseCat=PP
-15	vars	vars	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Rel	16	DT		PhraseCat=NP
+15	vars	vars	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Rel	16	DT		PhraseCat=NP
 16	kunskap	kunskap	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	MD	8:MD|19:	PhraseCat=NP
 17	om	om	ADP	_	_	16	MD		PhraseCat=PP
 18	monsunvindarna	monsunvind	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	17	OO		PhraseCat=PP
@@ -102544,7 +102544,7 @@
 
 # sent_id = Wiki_VascodaGama.75
 # text = Hans kropp begravdes först i Sankt Franciskus kyrka i Fort Kochi i Kochi i Indien, men senare återfördes hans kvarlevor till Portugal 1539 och jordfästes åter i Vidigueira i en ståtlig grav.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	kropp	kropp	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB		PhraseCat=NP
 3	begravdes	begrava	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	17	KL		PhraseCat=S
 4	först	först	ADV	_	Definite=Ind|Degree=Sup	3	MD		PhraseCat=S
@@ -102563,7 +102563,7 @@
 17	men	men	CCONJ	_	_	0	--		PhraseCat=KoP
 18	senare	sen	ADJ	_	Case=Nom|Degree=Cmp	19	MD		PhraseCat=S
 19	återfördes	återföra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	25	KL		PhraseCat=S
-20	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	DT		PhraseCat=NP
+20	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	21	DT		PhraseCat=NP
 21	kvarlevor	kvarleva	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	SB	19:SB|26:	PhraseCat=NP
 22	till	till	ADP	_	_	19	RA		PhraseCat=PP
 23	Portugal	Portugal	PROPN	_	Case=Nom	22	OO		PhraseCat=PP
@@ -102589,7 +102589,7 @@
 6	för	för	ADP	_	_	5	MD		PhraseCat=PP
 7	att	att	PART	_	_	6	OO		PhraseCat=SuP
 8	hedra	hedra	VERB	_	VerbForm=Inf|Voice=Act	7	OO		PhraseCat=VP
-9	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	DT		PhraseCat=NP
+9	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	DT		PhraseCat=NP
 10	resa	resa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	OO		PhraseCat=NP
 11	till	till	ADP	_	_	10	MD		PhraseCat=PP
 12	Indien	Indien	PROPN	_	Case=Nom	11	OO		PhraseCat=PP|SpaceAfter=No
@@ -102604,7 +102604,7 @@
 1	Da	Da	PROPN	_	Case=Nom	3	KL		ExtXpos=ENM|PhraseCat=KoP
 2	Gama	Gama	PROPN	_	Case=Nom	1	ME		ExtXpos=ENM|PhraseCat=KoP
 3	och	och	CCONJ	_	_	11	SB		PhraseCat=KoP
-4	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	DT		PhraseCat=NP
+4	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	5	DT		PhraseCat=NP
 5	fru	fru	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	KL		PhraseCat=NP|SpaceAfter=No
 6	,	,	PUNCT	_	_	11	--		PhraseCat=Top
 7	Caterina	Caterina	PROPN	_	Case=Nom	5	AN		ExtXpos=ENM|PhraseCat=NP
@@ -102688,7 +102688,7 @@
 7	själv	själv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	MD		PhraseCat=NP
 8	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
 9	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	8	SB		PhraseCat=S
-10	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	DT		PhraseCat=NP
+10	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	DT		PhraseCat=NP
 11	listiga	listig	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	MD		PhraseCat=NP
 12	blandning	blandning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	SP		PhraseCat=NP
 13	av	av	ADP	_	_	12	MD		PhraseCat=PP
@@ -103187,7 +103187,7 @@
 2	NE	NE	PROPN	_	Case=Nom	1	OO		PhraseCat=PP
 3	framgår	framgå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	KL		PhraseCat=S
 4	att	att	SCONJ	_	_	3	SB		PhraseCat=SuP
-5	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	DT		PhraseCat=NP
+5	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	DT		PhraseCat=NP
 6	maskin	maskin	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	SB		PhraseCat=NP
 7	arbetade	arbeta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	OO		PhraseCat=S
 8	med	med	ADP	_	_	7	OA		PhraseCat=PP
@@ -107762,7 +107762,7 @@
 17	eller	eller	CCONJ	_	_	15	OO		PhraseCat=KoP
 18	etan	etan	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	KL		PhraseCat=KoP
 19	och	och	CCONJ	_	_	12	MD		PhraseCat=KoP
-20	vars	vars	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Rel	21	DT		PhraseCat=NP
+20	vars	vars	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Rel	21	DT		PhraseCat=NP
 21	nederbörd	nederbörd	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	KL	19:KL|22:	PhraseCat=NP
 22	består	bestå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	OO		PhraseCat=S
 23	av	av	ADP	_	_	22	OA		PhraseCat=PP
@@ -108510,7 +108510,7 @@
 5	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	4	SB		PhraseCat=S
 6	veta	veta	VERB	_	VerbForm=Inf|Voice=Act	4	IV		PhraseCat=VP
 7	att	att	SCONJ	_	_	6	OO		PhraseCat=SuP
-8	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	DT		PhraseCat=NP
+8	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	9	DT		PhraseCat=NP
 9	fosterföräldrar	fosterförälder	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	SB		PhraseCat=NP
 10	mest	mycken	ADV	_	Definite=Ind|Degree=Sup	11	MD		PhraseCat=S
 11	tycker	tycka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	OO		PhraseCat=S
@@ -108556,7 +108556,7 @@
 7	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	5	OO		PhraseCat=S
 8	nyfödd	nyfödd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	7	SP		PhraseCat=S
 9	och	och	CCONJ	_	_	0	--		PhraseCat=KoP
-10	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	DT		PhraseCat=NP
+10	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	DT		PhraseCat=NP
 11	far	far	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	SB		PhraseCat=NP|SpaceAfter=No
 12	,	,	PUNCT	_	_	9	--		PhraseCat=Top
 13	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	DF		PhraseCat=S
@@ -108870,7 +108870,7 @@
 12	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	13	SB		PhraseCat=S
 13	är	vara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	OO		PhraseCat=S|SpaceAfter=No
 14	,	,	PUNCT	_	_	4	--		PhraseCat=Top
-15	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	DT		PhraseCat=NP
+15	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	16	DT		PhraseCat=NP
 16	pappa	pappa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	AN		PhraseCat=NP|SpaceAfter=No
 17	,	,	PUNCT	_	_	4	--		PhraseCat=Top
 18	som	som	SCONJ	_	_	16	MD		PhraseCat=SuP
@@ -108882,7 +108882,7 @@
 
 # sent_id = Wiki_MiominMio.25
 # text = Hans pappa hade letat efter honom i nio år och nu kan de äntligen återförenas.
-1	Hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	DT		PhraseCat=NP
+1	Hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	DT		PhraseCat=NP
 2	pappa	pappa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB	3:SB|4:	PhraseCat=NP
 3	hade	ha	AUX	_	Mood=Ind|Tense=Past|Voice=Act	10	KL		PhraseCat=S
 4	letat	leta	VERB	_	VerbForm=Sup|Voice=Act	3	IV		PhraseCat=VP
@@ -109228,7 +109228,7 @@
 12	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	11	SB		PhraseCat=S
 13	Jiri	Jiri	PROPN	_	Case=Nom	14	KL		PhraseCat=KoP
 14	och	och	CCONJ	_	_	11	OO		PhraseCat=KoP
-15	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	DT		PhraseCat=NP
+15	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	16	DT		PhraseCat=NP
 16	syskon	syskon	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	KL		PhraseCat=NP|SpaceAfter=No
 17	.	.	PUNCT	_	_	7	--		PhraseCat=Top
 
@@ -109258,7 +109258,7 @@
 11	att	att	SCONJ	_	_	9	OO		PhraseCat=SuP
 12	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	13	SB		PhraseCat=S
 13	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	11	OO		PhraseCat=S
-14	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	DT		PhraseCat=NP
+14	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	DT		PhraseCat=NP
 15	systers	syster	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	16	DT		PhraseCat=NP
 16	sked	sked	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	SP		PhraseCat=NP|SpaceAfter=No
 17	.	.	PUNCT	_	_	9	--		PhraseCat=Top
@@ -109518,7 +109518,7 @@
 1	Gumman	gumma	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	SB		PhraseCat=S
 2	berättar	berätta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	att	att	SCONJ	_	_	2	OO		PhraseCat=SuP
-4	hennes	hon	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	DT		PhraseCat=NP
+4	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	DT		PhraseCat=NP
 5	lilla	liten	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	MD		PhraseCat=NP
 6	dotter	dotter	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	SB	8:SB|9:	PhraseCat=NP
 7	Milimani	Milimani	PROPN	_	Case=Nom	6	AN		PhraseCat=NP
@@ -109903,7 +109903,7 @@
 10	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	DT		PhraseCat=NP
 11	hugg	hugg	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	SP		PhraseCat=NP
 12	mot	mot	ADP	_	_	11	MD		PhraseCat=PP
-13	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	DT		PhraseCat=NP
+13	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	14	DT		PhraseCat=NP
 14	hjärta	hjärta	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	OO		PhraseCat=NP
 15	av	av	ADP	_	_	14	MD		PhraseCat=PP
 16	sten	sten	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	OO		PhraseCat=PP|SpaceAfter=No
@@ -109941,7 +109941,7 @@
 4	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	3	OO		PhraseCat=S
 5	vara	vara	VERB	_	VerbForm=Inf|Voice=Act	4	IV		PhraseCat=VP
 6	i	i	ADP	_	_	5	RA		PhraseCat=PP
-7	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	DT		PhraseCat=NP
+7	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 8	närhet	närhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	OO		PhraseCat=NP
 9	måste	måste	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 10	ha	ha	VERB	_	VerbForm=Inf|Voice=Act	9	IV		PhraseCat=VP
@@ -110330,7 +110330,7 @@
 8	Mio	Mio	PROPN	_	Case=Nom	9	SB		PhraseCat=S
 9	märker	märka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	OO		PhraseCat=S
 10	att	att	SCONJ	_	_	9	OO		PhraseCat=SuP
-11	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	DT		PhraseCat=NP
+11	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	DT		PhraseCat=NP
 12	mantel	mantel	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	SB	13:SB|14:	PhraseCat=NP
 13	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	10	OO		PhraseCat=S
 14	gjort	göra	VERB	_	VerbForm=Sup|Voice=Act	13	IV		PhraseCat=VP
@@ -110627,7 +110627,7 @@
 9	kastar	kasta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	KL		PhraseCat=S
 10	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	9	OO		PhraseCat=S
 11	i	i	ADP	_	_	9	RA		PhraseCat=PP
-12	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	DT		PhraseCat=NP
+12	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	DT		PhraseCat=NP
 13	famn	famn	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	OO		PhraseCat=NP|SpaceAfter=No
 14	:	:	PUNCT	_	_	7	--		PhraseCat=Top
 15	"	"	PUNCT	_	_	7	--		PhraseCat=Top|SpaceAfter=No
@@ -112461,7 +112461,7 @@
 29	begår	begå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	OO		PhraseCat=S
 30	brott	brott	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	29	OO		PhraseCat=NP
 31	som	som	SCONJ	_	_	30	MD		PhraseCat=SuP
-32	hans	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	33	DT		PhraseCat=NP
+32	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	33	DT		PhraseCat=NP
 33	patient	patient	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	SB	38:SB|38:	PhraseCat=NP
 34	(	(	PUNCT	_	_	2	--		PhraseCat=Top|SpaceAfter=No
 35	Dr.	doktor	NOUN	_	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	AN		PhraseCat=NP
@@ -113446,7 +113446,7 @@
 2	i	i	ADP	_	_	1	MD		PhraseCat=PP
 3	Sverige	Sverige	PROPN	_	Case=Nom	2	OO		PhraseCat=PP
 4	sker	ske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
-5	vart	var	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	7	DT		PhraseCat=NP
+5	vart	var	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	7	DT		PhraseCat=NP
 6	fjärde	fjärde	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing	7	MD		PhraseCat=NP
 7	år	år	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	MD		PhraseCat=NP
 8	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	10	DT		PhraseCat=NP
@@ -114080,7 +114080,7 @@
 2	karolinska	karolinsk	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	MD		PhraseCat=NP
 3	enväldet	envälde	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	SB		PhraseCat=NP|SpaceAfter=No
 4	,	,	PUNCT	_	_	13	--		PhraseCat=Top
-5	vars	vars	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Rel	3	MD		PhraseCat=SuP
+5	vars	vars	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Rel	3	MD		PhraseCat=SuP
 6	införande	införande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	SB		PhraseCat=NP
 7	skedde	ske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	OO		PhraseCat=S
 8	i	i	ADP	_	_	7	MD		PhraseCat=PP

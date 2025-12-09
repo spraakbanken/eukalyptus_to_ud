@@ -103,7 +103,7 @@ AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA 
 
 @auxlist = ["böra", "få", "komma", "kunna", "lär", "må", "måste", "skola", "torde",  "vilja", "bli", "ha", "vara"]   #from https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_auxiliary.pl?lcode=sv with changes discussed in https://github.com/UniversalDependencies/docs/issues/1082
 @adverbial_heads = ["AJ","VB"] 
-@determiners = ["den", "en", "all", "någon", "denna", "vilken", "ingen", "varannan", "varenda","de","varje"]
+@determiners = ["den", "en", "all", "någon", "denna", "vilken", "ingen", "varannan", "varenda","de","varje","båda","bägge","var"]
 @posslemmas = {"min" => "jag", "din" => "du", "vår" => "vi", "er" => "ni", "sin" => "sig"}
 @lemmacorrections = {"en viss" => "viss"}
 @uposcorrections = {"viss" => "ADJ"}
@@ -618,10 +618,14 @@ def convert_syntax(sentence2, sent_id)
 	end
 #=end
 
+#convert general
     sentence.each_pair do |id,senthash|
+	    #STDERR.puts "#{id} #{senthash}"
         deprel = senthash["deprel"]
+		#STDERR.puts deprel
         head = senthash["head"]
         upos = senthash["upos"]
+		#STDERR.puts upos
 		feats = senthash["feats"]
 		misc = senthash["misc"]
 		form = senthash["form"]
@@ -651,7 +655,7 @@ def convert_syntax(sentence2, sent_id)
 
         if deprel == "DT"
 		    #STDERR.puts "DT! #{id}"
-		    if feats.include?("Poss=Yes") or feats.include?("Case=Gen") or upos == "NOUN"
+		    if feats.include?("Poss=Yes") or feats.include?("Case=Gen") or upos == "NOUN" or upos == "PROPN" or upos == "X"#and form[-1]=="s") #because GEN is sometimes not marked on PROPNs, or because of constrs like Gustav Vasas or Gustav och Carls
 			    udeprels[id] = "nmod:poss"
 			elsif upos == "ADJ"
 			    udeprels[id] = "amod"
@@ -662,24 +666,27 @@ def convert_syntax(sentence2, sent_id)
 			elsif upos == "DET"
 			    udeprels[id] = "det"				
 			else
-			    STDOUT.puts "#{sent_id}, #{id}"
+			    STDOUT.puts "DT, #{sent_id}, #{id}, #{upos}, #{form}"
 			end
 		    #STDERR.puts "Result=#{udeprels[id]}"
 		end
 
         
         #TODONOW: lostmds, PPs...
+		#STDERR.puts upos
         if deprel == "MD"
 		    if upos == "ADJ"
 			    udeprels[id] = "amod"
-			elsif upos == "NOUN" or upos == "PROPN" or upos == "PRON"
+			elsif upos == "NOUN" or upos == "PROPN" or upos == "PRON" or upos == "X"
 			    udeprels[id] = "nmod"
 			elsif upos == "NUM"
 			    udeprels[id] = "nummod"
 			elsif upos == "ADV" or upos == "PART"
 		        udeprels[id] = "advmod"
+			elsif upos == "VERB"
+			    udeprels[id] = "advcl"
 			else
-			    STDOUT.puts "#{sent_id}, #{id}"
+			    STDOUT.puts "MD, #{sent_id}, #{id}, #{upos}, #{form}"
 			end
 		end
 
@@ -907,6 +914,19 @@ def convert(id, sentence, sent_id)
             feats << "Case=Nom"
         end
     end
+	
+	if upos == "PRON"
+	   if msd2[1] == "GEN"
+	       feats.delete("Case=Acc")
+		   feats << "Poss=Yes"
+	   end
+	   if lemma == "vars"
+	       feats.delete("Definite=Ind")
+		   feats << "Definite=Def"
+		   feats << "Poss=Yes"
+	   end
+	
+	end
 
     if upos == "PRON" or upos == "DET"
         if !@posslemmas[lemma].nil?
@@ -1099,8 +1119,12 @@ inputfile.each_line do |line|
             #STDERR.puts "#{sentence}"
 =end
             sentence_pos_converted = sentence.clone
+			#STDERR.puts sentence
+			#STDERR.puts ""
+			
             sentence.each_pair do |id,senthash|
                 upos, feats, lemma = convert(id, sentence, sent_id)
+				#STDERR.puts "#{id} #{upos}"
                 line3 = [id, senthash["form"], lemma, upos, "_", feats, senthash["head"], senthash["deprel"], senthash["enhdep"], senthash["misc"]].join("\t")
                 output << line3
 

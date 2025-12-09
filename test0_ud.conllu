@@ -1,34 +1,32 @@
-# sent_id = Blog_12325-1189192.3
-# text = Den här veckan kikar vi på en skiva som av många hålls som en av världens bästa liveskivor, legendaren Ozzy Osbournes hyllning till sin tragiskt avlidne gitarrist Randy Rhoads.
-1	Den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	3	det		ExtXpos=POM|PhraseCat=NP
-2	här	här	ADV	_	_	3	advmod		ExtXpos=POM|PhraseCat=NP
-3	veckan	vecka	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	MD		PhraseCat=NP
-4	kikar	kika	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
-5	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	4	nsubj		PhraseCat=S
-6	på	på	ADP	_	_	8	case		NewHead=8|PhraseCat=PP
-7	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	8	det		PhraseCat=NP
-8	skiva	skiva	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	MD		PhraseCat=NP
-9	som	som	SCONJ	_	_	12	mark		NewHead=12|PhraseCat=SuP
-10	av	av	ADP	_	_	11	case		NewHead=11|PhraseCat=PP
-11	många	mången	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	obl:agent		PhraseCat=PP
-12	hålls	hålla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	MD		PhraseCat=S
-13	som	som	SCONJ	_	_	14	mark		NewHead=14|PhraseCat=SuP
-14	en	en	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	advcl		PhraseCat=NP|PromotedHead=Yes
-15	av	av	ADP	_	_	18	case		NewHead=18|PhraseCat=PP
-16	världens	värld	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	18	nmod:poss		PhraseCat=NP
-17	bästa	bra	ADJ	_	Case=Nom|Definite=Def|Degree=Sup	18	MD		PhraseCat=NP
-18	liveskivor	liveskiva	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	MD		PhraseCat=NP|SpaceAfter=No
-19	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
-20	legendaren	legendar	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	DT		PhraseCat=NP
-21	Ozzy	Ozzy	PROPN	_	Case=Nom	20	appos		ExtXpos=ENM|PhraseCat=NP
-22	Osbournes	Osbourne	PROPN	_	Case=Gen	21	fixed		ExtXpos=ENM|PhraseCat=NP
-23	hyllning	hyllning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	appos		PhraseCat=NP
-24	till	till	ADP	_	_	28	case		NewHead=28|PhraseCat=PP
-25	sin	sig	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	28	nmod:poss		PhraseCat=NP
-26	tragiskt	tragiskt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	27	MD		PhraseCat=AjP
-27	avlidne	avliden	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	28	MD		PhraseCat=AjP
-28	gitarrist	gitarrist	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	MD		PhraseCat=NP
-29	Randy	Randy	PROPN	_	Case=Nom	28	appos		ExtXpos=ENM|PhraseCat=NP
-30	Rhoads	Rhoads	PROPN	_	Case=Nom	29	fixed		ExtXpos=ENM|PhraseCat=NP|SpaceAfter=No
-31	.	.	PUNCT	_	_	4	punct		PhraseCat=Top
+# sent_id = Blog_188519-10179826.1
+# text = Marcus (sonen) o hans vän Fredrik "brottades" o hade roligt när Marcus skriker till o ropar på mig att hans hand har gått av.
+1	Marcus	Marcus	PROPN	_	Case=Nom	10	nsubj		PhraseCat=NP
+2	(	(	PUNCT	_	_	10	punct		PhraseCat=Top|SpaceAfter=No
+3	sonen	son	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	appos		PhraseCat=NP|SpaceAfter=No
+4	)	)	PUNCT	_	_	10	punct		PhraseCat=Top
+5	o	och	CCONJ	_	_	7	cc	10:SB|13:	PhraseCat=KoP
+6	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	nmod:poss		PhraseCat=NP
+7	vän	vän	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseCat=NP
+8	Fredrik	Fredrik	PROPN	_	Case=Nom	7	appos		PhraseCat=NP
+9	"	"	PUNCT	_	_	10	punct		PhraseCat=Top|SpaceAfter=No
+10	brottades	brottas	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root		PhraseCat=S|SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct		PhraseCat=Top
+12	o	och	CCONJ	_	_	13	cc		PhraseCat=KoP
+13	hade	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	conj		PhraseCat=S
+14	roligt	rolig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	obj		PhraseCat=S
+15	när	när	ADV	_	_	13	advmod	13:MD|10:	PhraseCat=AbP
+16	Marcus	Marcus	PROPN	_	Case=Nom	17	nsubj		PhraseCat=S
+17	skriker	skrika	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl		PhraseCat=S
+18	till	till	ADP	_	_	17	compound:prt		PhraseCat=S
+19	o	och	CCONJ	_	_	20	cc		PhraseCat=KoP
+20	ropar	ropa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj		PhraseCat=S
+21	på	på	ADP	_	_	22	case		NewHead=22|PhraseCat=PP
+22	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	nmod		PhraseCat=PP
+23	att	att	SCONJ	_	_	27	mark		NewHead=27|PhraseCat=SuP
+24	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	25	nmod:poss		PhraseCat=NP
+25	hand	hand	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	nsubj	26:SB|27:	PhraseCat=NP
+26	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	27	aux		NewHead=27|PhraseCat=S
+27	gått	gå	VERB	_	VerbForm=Sup|Voice=Act	20	obj		PhraseCat=VP
+28	av	av	ADP	_	_	27	compound:prt		PhraseCat=VP|SpaceAfter=No
+29	.	.	PUNCT	_	_	10	punct		PhraseCat=Top
 
