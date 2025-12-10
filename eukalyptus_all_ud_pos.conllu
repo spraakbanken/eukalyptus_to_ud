@@ -22734,7 +22734,7 @@
 
 # sent_id = Blog_54523-14269154.11
 # text = ena besöket är i morgon, och det är till psykologen, och jag har den känslan att hon inte kommer bli glad, men just nu orkar jag inte bry mig, kommer att föreslå att vi ska vänta till smärtskolan är slut innan vi kör på med denna behandling, för jag orkar inte helt enkelt och om jag måste välja så blir det smärtskolan.
-1	ena	ena	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	DT		PhraseCat=NP
+1	ena	ena	DET	_	Definite=Def|Degree=Pos|Number=Sing	2	DT		PhraseCat=NP
 2	besöket	besök	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	SB		PhraseCat=NP
 3	är	vara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	KL		PhraseCat=S
 4	i	i	ADP	_	_	3	OA		PhraseCat=PP
@@ -27785,7 +27785,7 @@
 4	samtycke	samtycke	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	OO		PhraseCat=NP
 5	till	till	ADP	_	_	4	MD		PhraseCat=PP
 6	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	DT		PhraseCat=NP
-7	ena	ena	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	DT		PhraseCat=NP
+7	ena	ena	DET	_	Definite=Def|Degree=Pos|Number=Sing	10	DT		PhraseCat=NP
 8	enhälligt	enhälligt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	MD		PhraseCat=AjP
 9	godkända	godkänd	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	10	MD		PhraseCat=AjP
 10	ändringsförslaget	ändringsförslag	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	OO		PhraseCat=NP
@@ -75300,7 +75300,7 @@
 # sent_id = Romn_Bjelvehammar-TageBengtsson.43
 # text = Men allting annat kostar och Tage Bengtsson har bara en affärsidé.
 1	Men	men	CCONJ	_	_	4	DF		PhraseCat=S
-2	allting	allting	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	3	DT		PhraseCat=NP
+2	allting	allting	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	3	DT		PhraseCat=NP
 3	annat	annan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	SB		PhraseCat=NP
 4	kostar	kosta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	KL		PhraseCat=S
 5	och	och	CCONJ	_	_	0	--		PhraseCat=KoP
@@ -82388,7 +82388,7 @@
 4	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	SB		PhraseCat=S
 5	knäppt	knäppa	VERB	_	VerbForm=Sup|Voice=Act	3	IV		PhraseCat=VP
 6	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	8	DT		PhraseCat=NP
-7	ena	ena	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	DT		PhraseCat=NP
+7	ena	ena	DET	_	Definite=Def|Degree=Pos|Number=Sing	8	DT		PhraseCat=NP
 8	karavanen	karavan	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	OO		PhraseCat=NP
 9	av	av	ADP	_	_	8	MD		PhraseCat=PP
 10	lastpråmar	lastpråm	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	KL		PhraseCat=KoP

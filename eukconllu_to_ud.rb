@@ -103,13 +103,13 @@ AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA 
 
 @auxlist = ["böra", "få", "komma", "kunna", "lär", "må", "måste", "skola", "torde",  "vilja", "bli", "ha", "vara"]   #from https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_auxiliary.pl?lcode=sv with changes discussed in https://github.com/UniversalDependencies/docs/issues/1082
 @adverbial_heads = ["AJ","VB"] 
-@determiners = ["den", "en", "all", "någon", "denna", "vilken", "ingen", "varannan", "varenda","de","varje","båda","bägge","var"]
+@determiners = ["den", "en", "all", "någon", "denna", "vilken", "ingen", "varannan", "varenda","de","varje","båda","bägge","var","varannan","varenda","ena","allting"]
 @posslemmas = {"min" => "jag", "din" => "du", "vår" => "vi", "er" => "ni", "sin" => "sig"}
 @lemmacorrections = {"en viss" => "viss"}
 @uposcorrections = {"viss" => "ADJ"}
 @adpnotadv = ["från", "av", "i", "mot", "på", "mellan", "å", "hos", "bland", "inom", "utom", "per", "trots", "förutom","utöver"]
 
-@prontypes = {"all" => "Tot", "annan" => "Ind", "denna" => "Dem", "densamma" => "Dem", "en" => "Art", "hon" => "Prs", "ingen" => "Neg", "ingenting" => "Neg", "man" => "Ind", "någon" => "Ind", "sig" => "Prs", "som" => "Rel", "var" => "Tot", "varandra" => "Rcp", "vardera" => "Tot", "varje" => "Tot", "vem" => "Int", "the" => "Art", "vars" => "Rel", "vilka" => "Rel", "du" => "Prs", "vi" => "Prs", "han" => "Prs", "jag" => "Prs", "ni" => "Prs", "vår" => "Prs", "mitt" => "Prs", "mycken" => "Ind", "någonting" => "Ind", "mången" => "Ind", "mycket" => "Ind", "sån" => "Ind", "somlig" => "Ind", "många" => "Ind", "varannan" => "Ind", "nånting" => "Ind", "flera" => "Ind", "fler" => "Ind", "få" => "Ind", "två" => "Ind", "vissa" => "Ind", "båda" => "Tot", "vilket" => "Tot", "bådadera" => "Tot", "allting" => "Tot", "envar" => "Tot", "bägge" => "Tot", "samtlig" => "Tot", "alltihop" => "Tot", "ingendera" => "Neg", "varann" => "Rcp", "vad" => "Int,Rel", "vilken" => "Int,Rel", "litet" => "Ind", "allihopa" => "Tot", "alltihopa" => "Tot", "varsin" => "Tot", "varenda" => "Tot", "allesammans" => "Tot"} #Based on Talbanken + corrections from https://github.com/UniversalDependencies/docs/issues/1083#issuecomment-2677651632
+@prontypes = {"all" => "Tot", "annan" => "Ind", "denna" => "Dem", "densamma" => "Dem", "en" => "Art", "hon" => "Prs", "ingen" => "Neg", "ingenting" => "Neg", "man" => "Ind", "någon" => "Ind", "sig" => "Prs", "som" => "Rel", "var" => "Tot", "varandra" => "Rcp", "vardera" => "Tot", "varje" => "Tot", "vem" => "Int", "the" => "Art", "vars" => "Rel", "vilka" => "Rel", "du" => "Prs", "vi" => "Prs", "han" => "Prs", "jag" => "Prs", "ni" => "Prs", "vår" => "Prs", "mitt" => "Prs", "mycken" => "Ind", "någonting" => "Ind", "mången" => "Ind", "mycket" => "Ind", "sån" => "Ind", "somlig" => "Ind", "många" => "Ind", "varannan" => "Ind", "nånting" => "Ind", "flera" => "Ind", "fler" => "Ind", "få" => "Ind", "två" => "Ind", "vissa" => "Ind", "båda" => "Tot", "vilket" => "Tot", "bådadera" => "Tot", "allting" => "Tot", "envar" => "Tot", "bägge" => "Tot", "samtlig" => "Tot", "alltihop" => "Tot", "ingendera" => "Neg", "varann" => "Rcp", "vad" => "Int,Rel", "vilken" => "Int,Rel", "litet" => "Ind", "allihopa" => "Tot", "alltihopa" => "Tot", "varsin" => "Tot", "varenda" => "Tot", "allesammans" => "Tot", "ena"=>"Tot"} #Based on Talbanken + corrections from https://github.com/UniversalDependencies/docs/issues/1083#issuecomment-2677651632
 
 
 @nonsfolemmas = ["tycka", "möta", "fordra", "känna", "tränga"] #both from Talbanken and LinES with manual filtering
@@ -665,6 +665,7 @@ def convert_syntax(sentence2, sent_id)
 			    udeprels[id] = "nummod"
 			elsif upos == "DET"
 			    udeprels[id] = "det"				
+			
 			else
 			    STDOUT.puts "DT, #{sent_id}, #{id}, #{upos}, #{form}"
 			end
@@ -686,7 +687,7 @@ def convert_syntax(sentence2, sent_id)
 			elsif upos == "VERB"
 			    udeprels[id] = "advcl"
 			else
-			    STDOUT.puts "MD, #{sent_id}, #{id}, #{upos}, #{form}"
+			    #STDOUT.puts "MD, #{sent_id}, #{id}, #{upos}, #{form}"
 			end
 		end
 
@@ -819,7 +820,13 @@ def convert(id, sentence, sent_id)
     if deprel == "DT" #TODO: overproduction of DET
         if @determiners.include?(lemma)
             upos = "DET"
-        end
+        elsif lemma == "samtliga"
+		    upos = "ADJ"
+			lemma = "samtlig"
+		elsif lemma == "varsin"
+		    upos = "ADJ"
+		
+		end
     end
     
     if lemma == "mycket" or lemma == "mycken" or lemma == "litet"

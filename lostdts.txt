@@ -1,0 +1,14 @@
+Unknown prontype! ena Blog_54523-14269154.11
+Unknown prontype! ena Eupa_00-01-17.224
+DT, Eupa_00-01-17.743, 10, PRON, samtliga
+DT, Digi_2014-08.21, 5, PRON, ett
+DT, Arbt_Folkomrostningen.3, 8, PRON, samtliga
+DT, Regr_255284.15, 6, PRON, samtliga
+Unknown prontype! ena Romn_Holmsen-Polynesiskpassad.160
+DT, Romn_Strand-Pagarna.124, 14, PRON, er
+DT, Romn_Strand-Pagarna.214, 1, PRON, mina
+DT, Romn_Strand-Pagarna.387, 2, CCONJ, och
+DT, Wiki_Asterix.33, 8, PRON, sig
+DT, Wiki_Vader.158, 18, PRON, samtliga
+DT, Wiki_MiominMio.38, 3, PRON, varsin
+DT, Wiki_MiominMio.123, 25, PRON, vi
