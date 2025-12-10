@@ -617,7 +617,7 @@ def check_reversed_tree(reversed_tree)
 end
 
 
-PATH = "D:\\D\\DGU\\Repos\\Eukalyptus-dev\\Annotations\\"
+PATH = "C:\\D\\Repos\\Eukalyptus-dev\\Annotations\\"
 #PATH = "C:\\Sasha\\D\\DGU\\SBX_resources\\Eukalyptus-1.0.0\\Annotations\\"
 #PATH = "D:\\DGU\\SBX_resources\\Eukalyptus\\Eukalyptus-1.0.0\\Annotations\\"
 

@@ -1195,7 +1195,7 @@
 15	och	och	KO	-.-.-	KO.-	10	parataxis		PhraseCat=KoP
 16	Anna	Anna	EN	-.-.-	EN.-	15	KL		PhraseCat=NP
 17	på	på	PE	-.-.-	PE.-	16	MD	16:MD|14:	PhraseCat=PP
-18	Emelies	Emelies	EN	-.-.-	EN.-	19	DT		PhraseCat=NP
+18	Emelies	Emelies	EN	-.GEN.-	EN.-	19	DT		PhraseCat=NP
 19	köksgolv	köks|golv	NN	-.-.-	NN.NEU.SIN.IND	17	OO		PhraseCat=NP|SpaceAfter=No
 20	.	_	SY	-.-.-	SY.DEL	10	--		PhraseCat=Top
 
@@ -68742,7 +68742,7 @@
 12	.	_	SY	-.-.-	SY.DEL	3	--		PhraseCat=Top
 
 # sent_id = Romn_Lundqvist-Ingentobak.22
-# text = I Kaimana fulländade han denna konst i sådan grad att han ofta njöt av att ha en så vettig människa som sig själv att umgås med, en människa som överallt fann sig tillrätta och gjorde det bästa av varje situation både för sig själv och för andra.
+# text = I Kaimana fulländade han denna konst i sådan grad att han ofta njöt av att ha en så vettig människa som sig själv att umgås med, en människa som överallt fann sig tillrätta och gjorde det bästa av varje situation både för sig sjRomn_Strand-Pagarna.387älv och för andra.
 1	I	i	PE	-.-.-	PE.-	3	RA		PhraseCat=PP
 2	Kaimana	Kaimana	EN	-.-.-	EN.-	1	OO		PhraseCat=PP
 3	fulländade	fullända	VB	-.-.-	VB.IND.AKT.PRT	0	--		PhraseCat=S
@@ -68764,8 +68764,8 @@
 19	vettig	vettig	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	20	MD		PhraseCat=AjP
 20	människa	människa	NN	-.-.-	NN.UTR.SIN.IND	16	OO		PhraseCat=NP
 21	som	som	SU	-.-.-	SU.-	18	JF		PhraseCat=SuP
-22	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	23	MD		PhraseCat=NP
-23	själv	själv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	21	OO		PhraseCat=NP|PromotedHead=Yes
+22	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	21	OO		PhraseCat=NP
+23	själv	själv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	22	MD		PhraseCat=NP
 24	att	att	SU	-.-.-	SU.-	20	MD		PhraseCat=SuP
 25	umgås	umgås	VB	-.-.-	VB.INF.SFO.-	24	OO		PhraseCat=VP
 26	med	med	PE	-.-.-	PE.-	25	MD		PhraseCat=VP|SpaceAfter=No
@@ -68787,7 +68787,7 @@
 42	både	både	KO	-.-.-	KO.-	36	MD		ExtXpos=KOM|PhraseCat=KoP
 43	för	för	PE	-.-.-	PE.-	42	KL		PhraseCat=PP
 44	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	43	OO		PhraseCat=NP
-45	själv	själv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	44	MD		PhraseCat=NP
+45	sjRomn_Strand-Pagarna.387älv	själv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	44	MD		PhraseCat=NP
 46	och	och	KO	-.-.-	KO.-	42	ME		ExtXpos=KOM|PhraseCat=KoP
 47	för	för	PE	-.-.-	PE.-	42	KL		PhraseCat=PP
 48	andra	andra	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	47	OO		PhraseCat=PP|SpaceAfter=No
@@ -87117,7 +87117,7 @@
 11	Perssons	Persson	EN	-.GEN.-	EN.-	10	AN		PhraseCat=NP
 12	nattmössa	nattmössa	NN	-.-.-	NN.UTR.SIN.IND	9	OO		PhraseCat=NP
 13	med	med	PE	-.-.-	PE.-	12	MD		PhraseCat=PP
-14	er	er	PO	-.-.-	PO.DEF.PLU.UTR/NEU.OBJ.-	15	DT		PhraseCat=NP
+14	er	er	PO	-.-.-	PO.DEF.PLU.UTR/NEU.PSS.-	15	DT		PhraseCat=NP
 15	hårsmörja	hår|smörja	NN	-.-.-	NN.UTR.SIN.IND	13	OO		PhraseCat=NP
 16	i	i	PE	-.-.-	PE.-	15	MD		PhraseCat=NP|SpaceAfter=No
 17	.	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top
@@ -88450,7 +88450,7 @@
 
 # sent_id = Romn_Strand-Pagarna.214
 # text = mina blivande barns vackra och kloka mor.
-1	mina	min	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	3	DT		PhraseCat=NP
+1	mina	min	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.PSS.-	3	DT		PhraseCat=NP
 2	blivande	blivande	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	3	MD		PhraseCat=NP
 3	barns	barn	NN	-.GEN.-	NN.NEU.PLU.IND	4	DT	4:DT|7:	PhraseCat=NP
 4	vackra	vacker	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	5	KL		PhraseCat=NP|PromotedHead=Yes
@@ -90965,9 +90965,9 @@
 
 # sent_id = Romn_Strand-Pagarna.387
 # text = Ett och annat moln täckte emellanåt fullmånen.
-1	Ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	2	ME		ExtXpos=KOM|PhraseCat=NP
-2	och	och	KO	-.-.-	KO.-	4	DT		ExtXpos=KOM|PhraseCat=NP
-3	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	2	ME		ExtXpos=KOM|PhraseCat=NP
+1	Ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	4	DT		ExtXpos=POM|PhraseCat=NP
+2	och	och	KO	-.-.-	KO.-	1	ME		ExtXpos=POM|PhraseCat=NP
+3	annat	annan	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	1	ME		ExtXpos=POM|PhraseCat=NP
 4	moln	moln	NN	-.-.-	NN.NEU.SIN.IND	5	SB		PhraseCat=NP
 5	täckte	täcka	VB	-.-.-	VB.IND.AKT.PRT	0	--		PhraseCat=S
 6	emellanåt	emellanåt	AB	-.-.-	AB.-.-	5	MD		PhraseCat=S
@@ -93164,11 +93164,11 @@
 5	tecknaren	tecknare	NN	-.-.-	NN.UTR.SIN.DEF	3	SB		PhraseCat=S
 6	ritat	rita	VB	-.-.-	VB.SPM.AKT.-	3	IV		PhraseCat=VP
 7	in	in	AB	-.-.-	AB.-.-	6	PL		PhraseCat=VP
-8	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	9	DT		PhraseCat=NP
-9	själv	själv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	10	KL		PhraseCat=NP|PromotedHead=Yes
+8	sig	sig	PO	-.-.-	PO.DEF.SIN/PLU.UTR/NEU.OBJ.-	10	KL		PhraseCat=NP
+9	själv	själv	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	8	MD		PhraseCat=NP
 10	och	och	KO	-.-.-	KO.-	6	OO		PhraseCat=KoP
 11	manusförfattaren	manusförfattare	NN	-.-.-	NN.UTR.SIN.DEF	10	KL		PhraseCat=NP
-12	som	som	SU	-.-.-	SU.-	11	MD	11:MD|9:	PhraseCat=SuP
+12	som	som	SU	-.-.-	SU.-	11	MD	11:MD|8:	PhraseCat=SuP
 13	statister	statist	NN	-.-.-	NN.UTR.PLU.IND	14	KL		PhraseCat=KoP
 14	eller	eller	KO	-.-.-	KO.-	12	OO		PhraseCat=KoP
 15	bifigurer	bifigur	NN	-.-.-	NN.UTR.PLU.IND	14	KL		PhraseCat=KoP

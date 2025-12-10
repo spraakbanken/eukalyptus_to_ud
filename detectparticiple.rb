@@ -10,7 +10,7 @@ def detectparticiple(pos,upos,lemma,head,deprel,sentence,sent_id,fromwhere)
             if fromwhere == "toud"
                 if !sentence[head].nil?
                     if sentence[head]["lemma"] == "bli" and deprel == "SP"
-                        upos = "VB"
+                        upos = "VERB"
                         feats << "Voice=Pass"
                     elsif deprel == "KL"
                         headhead = sentence[head]["head"]
@@ -19,7 +19,7 @@ def detectparticiple(pos,upos,lemma,head,deprel,sentence,sent_id,fromwhere)
                         if !sentence[headhead].nil?
                             if sentence[headhead]["lemma"] == "bli" and headdeprel == "SP"
                                 #STDERR.puts "Found the headhead! #{sent_id}"
-                                upos = "VB"
+                                upos = "VERB"
                                 feats << "Voice=Pass"
                             end
                         end

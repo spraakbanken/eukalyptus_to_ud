@@ -44,7 +44,7 @@
 12	,	,	PUNCT	_	_	15	punct		PhraseCat=Top
 13	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	15	aux		NewHead=15|PhraseCat=S
 14	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	nsubj		PhraseCat=S
-15	besviken	besviken	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S|SpaceAfter=No
+15	besviken	besviken	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S|SpaceAfter=No
 16	...	...	PUNCT	_	_	15	punct		PhraseCat=Top
 
 # sent_id = Blog_160886-12595823.2
@@ -1195,7 +1195,7 @@
 15	och	och	CCONJ	_	_	16	cc		PhraseCat=KoP
 16	Anna	Anna	PROPN	_	Case=Nom	14	conj		PhraseCat=NP
 17	på	på	ADP	_	_	19	case	16:MD|14:	NewHead=19|PhraseCat=PP
-18	Emelies	Emelies	PROPN	_	Case=Nom	19	nmod:poss		PhraseCat=NP
+18	Emelies	Emelies	PROPN	_	Case=Gen	19	nmod:poss		PhraseCat=NP
 19	köksgolv	köksgolv	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	nmod		PhraseCat=NP|SpaceAfter=No
 20	.	.	PUNCT	_	_	10	punct		PhraseCat=Top
 
@@ -1603,7 +1603,7 @@
 1	Även	även	ADV	_	_	4	advmod		PhraseCat=S
 2	Neo	Neo	PROPN	_	Case=Nom	4	nsubj		PhraseCat=S
 3	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	4	aux		NewHead=4|PhraseCat=S
-4	nöjd	nöjd	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S
+4	nöjd	nöjd	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S
 5	tillslut	tillslut	ADV	_	_	4	advmod		PhraseCat=S|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct		PhraseCat=Top
 7	^^	^^	SYM	_	_	4	--		PhraseCat=Top
@@ -2449,7 +2449,7 @@
 6	o	och	CCONJ	_	_	9	cc		PhraseCat=KoP
 7	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj		PhraseCat=S
 8	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	9	aux		NewHead=9|PhraseCat=S
-9	förbannad	förbannad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=S
+9	förbannad	förbannad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=S
 10	o	och	CCONJ	_	_	11	cc		PhraseCat=KoP
 11	sa	säga	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 12	till	till	ADP	_	_	11	compound:prt		PhraseCat=S
@@ -2836,7 +2836,7 @@
 1	Läkaren	läkare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj		PhraseCat=S
 2	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	4	aux		NewHead=4|PhraseCat=S
 3	helt	helt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod		PhraseCat=AjP
-4	ställd	ställd	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+4	ställd	ställd	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 5	o	och	CCONJ	_	_	6	cc		PhraseCat=KoP
 6	frågade	fråga	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
 7	om	om	SCONJ	_	_	9	mark		NewHead=9|PhraseCat=SuP
@@ -3138,7 +3138,7 @@
 17	dom	den	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	20	nsubj		PhraseCat=S
 18	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	20	aux		NewHead=19|PhraseCat=S
 19	bli	bli	AUX	_	VerbForm=Inf|Voice=Act	20	aux		NewHead=20|PhraseCat=VP
-20	tvungna	tvungen	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	conj		PhraseCat=AjP
+20	tvungna	tvungen	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	conj		PhraseCat=AjP
 21	att	att	PART	_	_	22	mark		NewHead=22|PhraseCat=SuP
 22	operera	operera	VERB	_	VerbForm=Inf|Voice=Act	20	obj		PhraseCat=VP
 23	direkt	direkt	ADV	_	_	22	advmod		PhraseCat=VP|SpaceAfter=No
@@ -3188,7 +3188,7 @@
 4	o	och	CCONJ	_	_	7	cc		PhraseCat=S
 5	Marcus	Marcus	PROPN	_	Case=Nom	7	nsubj		PhraseCat=S
 6	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	7	aux		NewHead=7|PhraseCat=S
-7	jättelessen	jätteledsen	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis		PhraseCat=S
+7	jättelessen	jätteledsen	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis		PhraseCat=S
 8	o	och	CCONJ	_	_	9	cc		PhraseCat=KoP
 9	ville	vilja	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	conj		PhraseCat=S
 10	att	att	SCONJ	_	_	13	mark		NewHead=13|PhraseCat=SuP
@@ -3711,7 +3711,7 @@
 21	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	24	aux		NewHead=24|PhraseCat=S
 22	Snobben	Snobben	PROPN	_	Case=Nom	24	nsubj		PhraseCat=S
 23	"	"	PUNCT	_	_	2	punct		PhraseCat=Top|SpaceAfter=No
-24	nerkyld	nerkyld	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=S|SpaceAfter=No
+24	nerkyld	nerkyld	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=S|SpaceAfter=No
 25	"	"	PUNCT	_	_	2	punct		PhraseCat=Top
 26	o	och	CCONJ	_	_	29	cc		PhraseCat=KoP
 27	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	29	nsubj		PhraseCat=S
@@ -3757,7 +3757,7 @@
 6	o	och	CCONJ	_	_	9	cc		PhraseCat=KoP
 7	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	9	aux		NewHead=9|PhraseCat=S
 8	självklart	självklart	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod		PhraseCat=S
-9	jättelessen	jätteledsen	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=S|SpaceAfter=No
+9	jättelessen	jätteledsen	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=S|SpaceAfter=No
 10	....	....	PUNCT	_	_	2	punct		PhraseCat=Top
 
 # sent_id = Blog_188519-10542620.15
@@ -4165,7 +4165,7 @@
 5	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	8	aux		NewHead=8|PhraseCat=S
 6	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj		PhraseCat=S
 7	helt	helt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod		PhraseCat=AjP
-8	förstörd	förstörd	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP|SpaceAfter=No
+8	förstörd	förstörd	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct		PhraseCat=Top
 10	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj		PhraseCat=S
 11	skrek	skrika	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis		PhraseCat=S
@@ -5588,7 +5588,7 @@
 4	visst	visst	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	7	advmod		PhraseCat=S
 5	lite	litet	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	advmod		PhraseCat=AjP
 6	lätt	lätt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	7	advmod		PhraseCat=AjP
-7	utmattad	utmattad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+7	utmattad	utmattad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 8	av	av	ADP	_	_	10	mark		NewHead=9|PhraseCat=PP
 9	att	att	PART	_	_	10	mark		NewHead=10|PhraseCat=SuP
 10	behöva	behöva	VERB	_	VerbForm=Inf|Voice=Act	7	advcl		PhraseCat=VP
@@ -6899,7 +6899,7 @@
 12	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	15	aux		NewHead=14|PhraseCat=S
 13	nu	nu	ADV	_	_	15	advmod		PhraseCat=S
 14	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	15	aux		NewHead=15|PhraseCat=VP
-15	fylld	fylld	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+15	fylld	fylld	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 16	med	med	ADP	_	_	17	case		NewHead=17|PhraseCat=PP
 17	klotter	klotter	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	advcl		PhraseCat=KoP
 18	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
@@ -7402,7 +7402,7 @@
 9	och	och	CCONJ	_	_	12	cc		PhraseCat=KoP
 10	sen	sen	ADV	_	_	12	advmod		PhraseCat=VP
 11	bli	bli	AUX	_	VerbForm=Inf|Voice=Act	12	aux		NewHead=12|PhraseCat=VP
-12	lurad	lurad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP
+12	lurad	lurad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP
 13	med	med	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
 14	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	15	det		PhraseCat=NP
 15	spelning	spelning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod		PhraseCat=NP
@@ -15811,7 +15811,7 @@
 4	ärende	ärende	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obj		PhraseCat=NP
 5	å	och	CCONJ	_	_	7	cc		PhraseCat=KoP
 6	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	7	aux		NewHead=7|PhraseCat=S
-7	bortkopplade	bortkopplad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	2	conj		CorrectForm=bortkopplad|PhraseCat=S
+7	bortkopplade	bortkopplad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	2	conj		CorrectForm=bortkopplad|PhraseCat=S
 8	precis	precis	ADV	_	_	9	advmod		PhraseCat=SuP
 9	när	när	ADV	_	_	7	advmod		PhraseCat=SuP
 10	Leo	Leo	PROPN	_	Case=Nom	11	nsubj		PhraseCat=S
@@ -16633,7 +16633,7 @@
 14	gårdagen	gårdag	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nmod		PhraseCat=PP
 15	destor	desto	ADV	_	Typo=Yes	17	advmod		CorrectForm=desto|PhraseCat=AjP
 16	mer	mycken	ADV	_	Degree=Cmp	17	advmod		PhraseCat=AjP
-17	upprymd	upprymd	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	xcomp		PhraseCat=AjP
+17	upprymd	upprymd	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	xcomp		PhraseCat=AjP
 18	å	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 19	lycklig	lycklig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	conj		PhraseCat=AjP
 20	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj		PhraseCat=S
@@ -17170,7 +17170,7 @@
 1	Jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj		PhraseCat=S
 2	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	4	aux		NewHead=4|PhraseCat=S
 3	duktigt	duktigt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod		PhraseCat=AjP
-4	förvånad	förvånad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP|SpaceAfter=No
+4	förvånad	förvånad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
 6	då	då	SCONJ	_	_	10	mark		NewHead=10|PhraseCat=SuP
 7	detta	denna	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj		PhraseCat=S
@@ -17570,7 +17570,7 @@
 8	grabbarna	grabb	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	nmod		PhraseCat=NP
 9	å	och	CCONJ	_	_	12	cc		PhraseCat=KoP
 10	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	det		PhraseCat=NP
-11	varsin	varsin	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Tot	12	nmod:poss		PhraseCat=NP
+11	varsin	varsin	ADJ	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes	12	nmod:poss		PhraseCat=NP
 12	tröja	tröja	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	conj		PhraseCat=NP
 13	till	till	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
 14	dem	de	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	12	nmod		PhraseCat=PP
@@ -17697,7 +17697,7 @@
 27	inte	inte	PART	_	Polarity=Neg	28	advmod		PhraseCat=AbP
 28	heller	heller	ADV	_	_	30	advmod		PhraseCat=AbP
 29	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	30	aux		NewHead=30|PhraseCat=VP
-30	handlade	handlad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	MD		PhraseCat=VP|SpaceAfter=No
+30	handlade	handlad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	advcl		PhraseCat=VP|SpaceAfter=No
 31	.	.	PUNCT	_	_	3	punct		PhraseCat=Top
 
 # sent_id = Blog_5089-9240616.12
@@ -18522,7 +18522,7 @@
 # text = Middagen blev försenad pga. detta, men den var såååå god. :D
 1	Middagen	middag	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj		PhraseCat=S
 2	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	3	aux		NewHead=3|PhraseCat=S
-3	försenad	försenad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S
+3	försenad	försenad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S
 4	pga.	på_grund_av	ADP	_	Abbr=Yes	5	case		NewHead=5|PhraseCat=PP
 5	detta	denna	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	3	nmod		PhraseCat=PP|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct		PhraseCat=Top
@@ -18629,7 +18629,7 @@
 # text = Barnen blev överösta med kul grejer å lite praktiska med, gardiner till sina rum som mamma sytt. :D
 1	Barnen	barn	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj		PhraseCat=S
 2	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	3	aux		NewHead=3|PhraseCat=S
-3	överösta	överöst	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+3	överösta	överöst	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 4	med	med	ADP	_	_	6	case		NewHead=6|PhraseCat=PP
 5	kul	kul	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod		PhraseCat=NP
 6	grejer	grej	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	advcl		PhraseCat=NP
@@ -20826,7 +20826,7 @@
 12	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	nsubj		PhraseCat=S
 13	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	15	aux		NewHead=14|PhraseCat=S
 14	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	15	aux		NewHead=15|PhraseCat=VP
-15	tillsagd	tillsagd	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	MD		PhraseCat=VP
+15	tillsagd	tillsagd	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	advcl		PhraseCat=VP
 16	och	och	CCONJ	_	_	18	cc		PhraseCat=KoP
 17	får	få	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	18	aux		NewHead=18|PhraseCat=S
 18	vänta	vänta	VERB	_	VerbForm=Inf|Voice=Act	7	conj		PhraseCat=VP
@@ -22693,7 +22693,7 @@
 4	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	nsubj		PhraseCat=S
 5	inte	inte	PART	_	Polarity=Neg	7	advmod		PhraseCat=S
 6	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	7	aux		NewHead=7|PhraseCat=S
-7	smittad	smittad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	obj		PhraseCat=S|SpaceAfter=No
+7	smittad	smittad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	obj		PhraseCat=S|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
 9	men	men	CCONJ	_	_	16	cc		PhraseCat=KoP
 10	med	med	ADP	_	_	12	case		NewHead=12|PhraseCat=PP
@@ -22734,7 +22734,7 @@
 
 # sent_id = Blog_54523-14269154.11
 # text = ena besöket är i morgon, och det är till psykologen, och jag har den känslan att hon inte kommer bli glad, men just nu orkar jag inte bry mig, kommer att föreslå att vi ska vänta till smärtskolan är slut innan vi kör på med denna behandling, för jag orkar inte helt enkelt och om jag måste välja så blir det smärtskolan.
-1	ena	ena	DET	_	Definite=Def|Degree=Pos|Number=Sing	2	det		PhraseCat=NP
+1	ena	ena	DET	_	Definite=Def|Degree=Pos|Number=Sing|PronType=Tot	2	det		PhraseCat=NP
 2	besöket	besök	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj		PhraseCat=NP
 3	är	vara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 4	i	i	ADP	_	_	5	case		NewHead=5|PhraseCat=PP
@@ -23929,7 +23929,7 @@
 20	då	då	SCONJ	_	_	23	mark		NewHead=23|PhraseCat=SuP
 21	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	23	nsubj		PhraseCat=S
 22	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	23	aux		NewHead=23|PhraseCat=S
-23	förvisade	förvisad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	MD		PhraseCat=AjP
+23	förvisade	förvisad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	advcl		PhraseCat=AjP
 24	till	till	ADP	_	_	27	case		NewHead=27|PhraseCat=PP
 25	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	27	det		ExtXpos=POM|PhraseCat=NP
 26	här	här	ADV	_	_	27	advmod		ExtXpos=POM|PhraseCat=NP
@@ -27785,7 +27785,7 @@
 4	samtycke	samtycke	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	advcl		PhraseCat=NP
 5	till	till	ADP	_	_	10	case		NewHead=10|PhraseCat=PP
 6	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det		PhraseCat=NP
-7	ena	ena	DET	_	Definite=Def|Degree=Pos|Number=Sing	10	det		PhraseCat=NP
+7	ena	ena	DET	_	Definite=Def|Degree=Pos|Number=Sing|PronType=Tot	10	det		PhraseCat=NP
 8	enhälligt	enhälligt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod		PhraseCat=AjP
 9	godkända	godkänd	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	10	amod		PhraseCat=AjP
 10	ändringsförslaget	ändringsförslag	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nmod		PhraseCat=NP
@@ -32229,7 +32229,7 @@
 2	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	5	aux		NewHead=5|PhraseCat=S
 3	naturligtvis	naturligtvis	ADV	_	_	5	advmod		PhraseCat=S
 4	ingen	ingen	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	5	nsubj		PhraseCat=S
-5	förvånad	förvånad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+5	förvånad	förvånad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 6	över	över	ADP	_	_	16	mark		NewHead=7|PhraseCat=PP
 7	att	att	SCONJ	_	_	16	mark		NewHead=16|PhraseCat=SuP
 8	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	16	nsubj		PhraseCat=S
@@ -32450,7 +32450,7 @@
 10	nivå	nivå	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod		PhraseCat=NP
 11	vill	vilja	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	13	aux		NewHead=12|PhraseCat=S
 12	bli	bli	AUX	_	VerbForm=Inf|Voice=Act	13	aux		NewHead=13|PhraseCat=VP
-13	tagen	tagen	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	MD		PhraseCat=AjP
+13	tagen	tagen	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	advcl		PhraseCat=AjP
 14	på	på	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
 15	allvar	allvar	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	advcl		PhraseCat=PP|SpaceAfter=No
 16	!	!	PUNCT	_	_	5	punct		PhraseCat=Top
@@ -33034,7 +33034,7 @@
 11	hur	hur	ADV	_	_	14	advmod		ExtXpos=ABM|PhraseCat=S
 12	som	som	SCONJ	_	_	11	fixed		ExtXpos=ABM|PhraseCat=S
 13	helst	gärna	ADV	_	Degree=Sup	11	fixed		ExtXpos=ABM|PhraseCat=S
-14	tvungna	tvungen	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP
+14	tvungna	tvungen	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP
 15	att	att	PART	_	_	16	mark		NewHead=16|PhraseCat=SuP
 16	skapa	skapa	VERB	_	VerbForm=Inf|Voice=Act	14	obj		PhraseCat=VP
 17	bättre	bra	ADJ	_	Case=Nom|Degree=Cmp	23	amod		PhraseCat=KoP|SpaceAfter=No
@@ -42552,7 +42552,7 @@
 7	säga	säga	VERB	_	VerbForm=Inf|Voice=Act	5	advcl		PhraseCat=VP
 8	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	obj		PhraseCat=VP
 9	till	till	ADP	_	_	11	case		NewHead=11|PhraseCat=PP
-10	samtliga	samtlig	PRON	_	Definite=Ind|Number=Plur|PronType=Tot	11	DT		PhraseCat=NP
+10	samtliga	samtlig	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	11	amod		PhraseCat=NP
 11	ministrar	minister	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	nmod		PhraseCat=NP
 12	med	med	ADP	_	_	13	case		NewHead=13|PhraseCat=PP
 13	ansvar	ansvar	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	nmod		PhraseCat=NP
@@ -46485,7 +46485,7 @@
 11	att	att	PART	_	_	14	mark		NewHead=12|PhraseCat=SuP
 12	ha	ha	AUX	_	VerbForm=Inf|Voice=Act	14	aux		NewHead=13|PhraseCat=VP
 13	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	14	aux		NewHead=14|PhraseCat=VP
-14	slagen	slagen	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	MD		PhraseCat=AjP
+14	slagen	slagen	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	advcl		PhraseCat=AjP
 15	med	med	ADP	_	_	17	case		NewHead=17|PhraseCat=PP
 16	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	17	det		PhraseCat=NP
 17	batong	batong	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nmod		PhraseCat=NP
@@ -46796,7 +46796,7 @@
 9	demonstrationen	demonstration	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj		PhraseCat=S
 10	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	12	aux		NewHead=12|PhraseCat=S
 11	stundtals	stundtals	ADV	_	_	12	advmod		PhraseCat=S
-12	tumultartad	tumultartad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	conj		PhraseCat=S|SpaceAfter=No
+12	tumultartad	tumultartad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	conj		PhraseCat=S|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct		PhraseCat=Top
 
 # sent_id = Arbt_Hardkritik.18
@@ -48958,7 +48958,7 @@
 5	meddelade	meddela	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 6	också	också	ADV	_	_	5	advmod		PhraseCat=S
 7	att	att	SCONJ	_	_	14	mark		NewHead=14|PhraseCat=SuP
-8	samtliga	samtlig	PRON	_	Definite=Ind|Number=Plur|PronType=Tot	10	DT		PhraseCat=NP
+8	samtliga	samtlig	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	10	amod		PhraseCat=NP
 9	ukrainska	ukrainsk	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod		PhraseCat=NP
 10	militärförband	militärförband	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	nsubj	13:SB|14:	PhraseCat=NP
 11	i	i	ADP	_	_	12	case		NewHead=12|PhraseCat=PP
@@ -49954,7 +49954,7 @@
 13	major	major	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubj	11:SB|18:|15:	PhraseCat=NP
 14	Sharon	Sharon	PROPN	_	Case=Nom	13	appos		PhraseCat=NP
 15	bli	bli	AUX	_	VerbForm=Inf|Voice=Act	16	aux		NewHead=16|PhraseCat=VP
-16	befordrad	befordrad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp		PhraseCat=VP
+16	befordrad	befordrad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp		PhraseCat=VP
 17	och	och	CCONJ	_	_	18	cc		PhraseCat=KoP
 18	tjänade	tjäna	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	conj		PhraseCat=S
 19	som	som	SCONJ	_	_	20	mark		NewHead=20|PhraseCat=SuP
@@ -56768,7 +56768,7 @@
 3	att	att	PART	_	_	4	mark		NewHead=4|PhraseCat=SuP
 4	bjuda	bjuda	VERB	_	VerbForm=Inf|Voice=Act	0	root		PhraseCat=VP
 5	in	in	ADV	_	_	4	compound:prt		PhraseCat=VP
-6	samtliga	samtlig	PRON	_	Definite=Def|Number=Plur|PronType=Tot	7	DT		PhraseCat=NP
+6	samtliga	samtlig	ADJ	_	Case=Nom|Definite=Def|Number=Plur	7	amod		PhraseCat=NP
 7	riksdagspartier	riksdagsparti	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obj	4:OO|9:	PhraseCat=NP
 8	att	att	PART	_	_	9	mark		NewHead=9|PhraseCat=SuP
 9	nominera	nominera	VERB	_	VerbForm=Inf|Voice=Act	4	xcomp		PhraseCat=VP
@@ -58681,7 +58681,7 @@
 5	eftersom	eftersom	SCONJ	_	_	8	mark		NewHead=8|PhraseCat=SuP
 6	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj		PhraseCat=S
 7	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	8	aux		NewHead=8|PhraseCat=S
-8	tvungen	tvungen	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	MD		PhraseCat=AjP
+8	tvungen	tvungen	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	advcl		PhraseCat=AjP
 9	att	att	PART	_	_	10	mark		NewHead=10|PhraseCat=SuP
 10	ta	ta	VERB	_	VerbForm=Inf|Voice=Act	8	obj		PhraseCat=VP
 11	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det		PhraseCat=NP
@@ -59192,7 +59192,7 @@
 13	människor	människa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	nsubj		PhraseCat=S
 14	inte	inte	PART	_	Polarity=Neg	16	advmod		PhraseCat=S
 15	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	16	aux		NewHead=16|PhraseCat=S
-16	lurade	lurad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	MD		PhraseCat=AjP
+16	lurade	lurad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	advcl		PhraseCat=AjP
 17	av	av	ADP	_	_	18	case		NewHead=18|PhraseCat=PP
 18	människosmugglarna	människosmugglare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	obl:agent		PhraseCat=PP|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct		PhraseCat=Top
@@ -60507,7 +60507,7 @@
 1	Men	men	CCONJ	_	_	4	cc		PhraseCat=S
 2	effekten	effekt	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj		PhraseCat=S
 3	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	4	aux		NewHead=4|PhraseCat=S
-4	motsatt	motsatt	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+4	motsatt	motsatt	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 5	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	7	det		PhraseCat=NP
 6	ursprungliga	ursprunglig	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod		PhraseCat=NP
 7	avsikten	avsikt	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obj		PhraseCat=NP|SpaceAfter=No
@@ -66027,7 +66027,7 @@
 3	man	man	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj		PhraseCat=NP
 4	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	6	aux		NewHead=6|PhraseCat=S
 5	nästan	nästan	ADV	_	_	6	advmod		PhraseCat=S
-6	mördad	mördad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S
+6	mördad	mördad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S
 7	på	på	ADP	_	_	9	case		NewHead=9|PhraseCat=PP
 8	vårt	vi	PRON	_	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod:poss		PhraseCat=NP
 9	torg	torg	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	advmod		PhraseCat=NP
@@ -68742,7 +68742,7 @@
 12	.	.	PUNCT	_	_	5	punct		PhraseCat=Top
 
 # sent_id = Romn_Lundqvist-Ingentobak.22
-# text = I Kaimana fulländade han denna konst i sådan grad att han ofta njöt av att ha en så vettig människa som sig själv att umgås med, en människa som överallt fann sig tillrätta och gjorde det bästa av varje situation både för sig själv och för andra.
+# text = I Kaimana fulländade han denna konst i sådan grad att han ofta njöt av att ha en så vettig människa som sig själv att umgås med, en människa som överallt fann sig tillrätta och gjorde det bästa av varje situation både för sig sjRomn_Strand-Pagarna.387älv och för andra.
 1	I	i	ADP	_	_	2	case		NewHead=2|PhraseCat=PP
 2	Kaimana	Kaimana	PROPN	_	Case=Nom	3	advmod		PhraseCat=PP
 3	fulländade	fullända	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
@@ -68763,9 +68763,9 @@
 18	så	så	ADV	_	_	19	advmod		PhraseCat=AbP
 19	vettig	vettig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	amod		PhraseCat=AjP
 20	människa	människa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obj		PhraseCat=NP
-21	som	som	SCONJ	_	_	23	mark		NewHead=23|PhraseCat=SuP
-22	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	23	nmod		PhraseCat=NP
-23	själv	själv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	JF		PhraseCat=NP|PromotedHead=Yes
+21	som	som	SCONJ	_	_	22	mark		NewHead=22|PhraseCat=SuP
+22	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	18	JF		PhraseCat=NP
+23	själv	själv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	22	amod		PhraseCat=NP
 24	att	att	PART	_	_	25	mark		NewHead=25|PhraseCat=SuP
 25	umgås	umgås	VERB	_	VerbForm=Inf	20	advcl		PhraseCat=VP
 26	med	med	ADV	_	_	25	advmod		PhraseCat=VP|SpaceAfter=No
@@ -68787,7 +68787,7 @@
 42	både	både	CCONJ	_	_	44	cc		ExtXpos=KOM|PhraseCat=KoP
 43	för	för	ADP	_	_	44	case		NewHead=44|PhraseCat=PP
 44	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	36	nmod		PhraseCat=NP
-45	själv	själv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	44	amod		PhraseCat=NP
+45	sjRomn_Strand-Pagarna.387älv	själv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	44	amod		PhraseCat=NP
 46	och	och	CCONJ	_	_	44	fixed		ExtXpos=KOM|PhraseCat=KoP
 47	för	för	ADP	_	_	48	case		NewHead=48|PhraseCat=PP
 48	andra	andra	ADJ	_	Case=Nom|Degree=Pos|NumType=Ord|Number=Plur	44	conj		PhraseCat=PP|SpaceAfter=No
@@ -69145,7 +69145,7 @@
 6	blev	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 7	inte	inte	PART	_	Polarity=Neg	6	advmod		PhraseCat=S
 8	Mona	Mona	PROPN	_	Case=Nom	6	nsubj		PhraseCat=S
-9	betraktad	betraktad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp		PhraseCat=AjP
+9	betraktad	betraktad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp		PhraseCat=AjP
 10	som	som	SCONJ	_	_	11	mark		NewHead=11|PhraseCat=SuP
 11	Eva	Eva	PROPN	_	Case=Nom	9	nmod		PhraseCat=SuP
 12	av	av	ADP	_	_	13	case		NewHead=13|PhraseCat=PP
@@ -71128,7 +71128,7 @@
 2	du	du	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj		PhraseCat=S
 3	inte	inte	PART	_	Polarity=Neg	5	advmod		PhraseCat=S
 4	blitt	bli	AUX	_	VerbForm=Sup|Voice=Act	5	aux		NewHead=5|PhraseCat=VP
-5	oppäten	uppäten	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	obj		PhraseCat=VP|SpaceAfter=No
+5	oppäten	uppäten	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	obj		PhraseCat=VP|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct		PhraseCat=Top
 7	skriker	skrika	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 8	kapten	kapten	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nsubj		PhraseCat=S
@@ -71271,7 +71271,7 @@
 13	förrän	förrän	SCONJ	_	_	16	mark		NewHead=16|PhraseCat=SuP
 14	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj		PhraseCat=S
 15	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	16	aux		NewHead=16|PhraseCat=S
-16	avbruten	avbruten	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	MD		PhraseCat=S|SpaceAfter=No
+16	avbruten	avbruten	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl		PhraseCat=S|SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct		PhraseCat=Top
 
 # sent_id = Romn_Lundqvist-Ingentobak.188
@@ -72909,7 +72909,7 @@
 30	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
 31	bli	bli	AUX	_	VerbForm=Inf|Voice=Act	33	aux		NewHead=33|PhraseCat=VP
 32	civiliserat	civiliserat	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	33	advmod		PhraseCat=AjP
-33	berusad	berusad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	conj		PhraseCat=AjP
+33	berusad	berusad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	conj		PhraseCat=AjP
 34	av	av	ADP	_	_	35	case		NewHead=35|PhraseCat=PP
 35	genever	genever	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	obl:agent		PhraseCat=KoP|SpaceAfter=No
 36	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
@@ -74912,7 +74912,7 @@
 10	gånger	gång	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nmod		PhraseCat=NP
 11	ha	ha	AUX	_	VerbForm=Inf|Voice=Act	13	aux		NewHead=12|PhraseCat=VP
 12	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	13	aux		NewHead=13|PhraseCat=VP
-13	grundlurad	grundlurad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	MD		PhraseCat=AjP
+13	grundlurad	grundlurad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl		PhraseCat=AjP
 14	av	av	ADP	_	_	17	case		NewHead=17|PhraseCat=PP
 15	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	17	det		PhraseCat=NP
 16	fingerfärdige	fingerfärdig	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod		PhraseCat=NP
@@ -74981,7 +74981,7 @@
 8	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	11	aux		NewHead=11|PhraseCat=S
 9	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	11	nsubj		PhraseCat=S
 10	gruvligt	gruvligt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod		PhraseCat=AjP
-11	misshandlade	misshandlad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP|SpaceAfter=No
+11	misshandlade	misshandlad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
 
 # sent_id = Romn_Bjelvehammar-TageBengtsson.25
@@ -75004,7 +75004,7 @@
 # text = De blev tvingade till sängläge.
 1	De	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	3	nsubj		PhraseCat=S
 2	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	3	aux		NewHead=3|PhraseCat=S
-3	tvingade	tvingad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+3	tvingade	tvingad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 4	till	till	ADP	_	_	5	case		NewHead=5|PhraseCat=PP
 5	sängläge	sängläge	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	advcl		PhraseCat=PP|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct		PhraseCat=Top
@@ -78986,7 +78986,7 @@
 10	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det		PhraseCat=NP
 11	nya	ny	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	nsubj		PhraseCat=NP
 12	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	13	aux		NewHead=13|PhraseCat=S
-13	betraktat	betraktad	VB	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	conj		PhraseCat=AjP
+13	betraktat	betraktad	VERB	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	conj		PhraseCat=AjP
 14	med	med	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
 15	misstro	misstro	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	advcl		PhraseCat=KoP
 16	och	och	CCONJ	_	_	17	cc		PhraseCat=KoP
@@ -79366,7 +79366,7 @@
 6	hjärna	hjärna	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod		PhraseCat=NP
 7	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	9	aux		NewHead=8|PhraseCat=S
 8	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	9	aux		NewHead=9|PhraseCat=VP
-9	störd	störd	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=VP
+9	störd	störd	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=VP
 10	och	och	CCONJ	_	_	11	cc		PhraseCat=KoP
 11	taget	ta	VERB	_	Typo=Yes|VerbForm=Sup|Voice=Act	9	conj		CorrectForm=tagit|PhraseCat=VP
 12	över	över	ADP	_	_	11	compound:prt		PhraseCat=VP
@@ -81012,7 +81012,7 @@
 1	Jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj		PhraseCat=S
 2	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	4	aux		NewHead=4|PhraseCat=S
 3	ytterligare	ytterligare	ADJ	_	Case=Nom|Degree=Cmp	4	amod		PhraseCat=AjP
-4	förbryllad	förbryllad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP|SpaceAfter=No
+4	förbryllad	förbryllad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct		PhraseCat=Top
 6	då	då	SCONJ	_	_	8	mark		NewHead=8|PhraseCat=SuP
 7	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj		PhraseCat=S
@@ -82388,7 +82388,7 @@
 4	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj		PhraseCat=S
 5	knäppt	knäppa	VERB	_	VerbForm=Sup|Voice=Act	17	obj		PhraseCat=VP
 6	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	8	det		PhraseCat=NP
-7	ena	ena	DET	_	Definite=Def|Degree=Pos|Number=Sing	8	det		PhraseCat=NP
+7	ena	ena	DET	_	Definite=Def|Degree=Pos|Number=Sing|PronType=Tot	8	det		PhraseCat=NP
 8	karavanen	karavan	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	obj		PhraseCat=NP
 9	av	av	ADP	_	_	10	case		NewHead=10|PhraseCat=PP
 10	lastpråmar	lastpråm	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	nmod		PhraseCat=KoP
@@ -87117,7 +87117,7 @@
 11	Perssons	Persson	PROPN	_	Case=Gen	10	appos		PhraseCat=NP
 12	nattmössa	nattmössa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod		PhraseCat=NP
 13	med	med	ADP	_	_	15	case		NewHead=15|PhraseCat=PP
-14	er	ni	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	15	DT		PhraseCat=NP
+14	er	ni	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	15	nmod:poss		PhraseCat=NP
 15	hårsmörja	hårsmörja	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod		PhraseCat=NP
 16	i	i	ADP	_	_	15	MD		PhraseCat=NP|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
@@ -88450,7 +88450,7 @@
 
 # sent_id = Romn_Strand-Pagarna.214
 # text = mina blivande barns vackra och kloka mor.
-1	mina	jag	PRON	_	Case=Acc|Definite=Def|PronType=Prs	3	DT		PhraseCat=NP
+1	mina	jag	PRON	_	Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss		PhraseCat=NP
 2	blivande	blivande	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part	3	amod		PhraseCat=NP
 3	barns	barn	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	4	nmod:poss	4:DT|7:	PhraseCat=NP
 4	vackra	vacker	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	0	root		PhraseCat=NP|PromotedHead=Yes
@@ -89716,7 +89716,7 @@
 4	så	så	ADV	_	_	5	advmod		PhraseCat=NP
 5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	advmod		PhraseCat=NP
 6	mer	mycken	PRON	_	Degree=Cmp|PronType=Ind	7	nsubj		PhraseCat=NP
-7	sagt	sagd	VB	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+7	sagt	sagd	VERB	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 8	om	om	ADP	_	_	9	case		NewHead=9|PhraseCat=PP
 9	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	advcl		PhraseCat=PP
 10	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	11	det		PhraseCat=NP
@@ -89935,7 +89935,7 @@
 5	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	8	aux		NewHead=8|PhraseCat=S
 6	kvällen	kväll	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj		PhraseCat=S
 7	ändå	ändå	ADV	_	_	8	advmod		PhraseCat=S
-8	lyckad	lyckad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S|SpaceAfter=No
+8	lyckad	lyckad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct		PhraseCat=Top
 
 # sent_id = Romn_Strand-Pagarna.322
@@ -90965,9 +90965,9 @@
 
 # sent_id = Romn_Strand-Pagarna.387
 # text = Ett och annat moln täckte emellanåt fullmånen.
-1	Ett	en	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	fixed		ExtXpos=KOM|PhraseCat=NP
-2	och	och	CCONJ	_	_	4	DT		ExtXpos=KOM|PhraseCat=NP
-3	annat	annan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	fixed		ExtXpos=KOM|PhraseCat=NP
+1	Ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det		ExtXpos=POM|PhraseCat=NP
+2	och	och	CCONJ	_	_	1	fixed		ExtXpos=POM|PhraseCat=NP
+3	annat	annan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	fixed		ExtXpos=POM|PhraseCat=NP
 4	moln	moln	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj		PhraseCat=NP
 5	täckte	täcka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 6	emellanåt	emellanåt	ADV	_	_	5	advmod		PhraseCat=S
@@ -92559,7 +92559,7 @@
 17	försöka	försöka	VERB	_	VerbForm=Inf|Voice=Act	10	nsubj		PhraseCat=VP
 18	få	få	AUX	_	VerbForm=Inf|Voice=Act	20	aux		NewHead=19|PhraseCat=VP
 19	bli	bli	AUX	_	VerbForm=Inf|Voice=Act	20	aux		NewHead=20|PhraseCat=VP
-20	intecknad	intecknad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	xcomp		PhraseCat=AjP
+20	intecknad	intecknad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	xcomp		PhraseCat=AjP
 21	i	i	ADP	_	_	22	case		NewHead=22|PhraseCat=PP
 22	serien	serie	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	advcl		PhraseCat=PP|SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct		PhraseCat=Top
@@ -92650,7 +92650,7 @@
 25	än	än	SCONJ	_	_	26	mark		NewHead=26|PhraseCat=SuP
 26	tillfälligt	tillfällig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	JF		PhraseCat=SuP|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct		PhraseCat=Top
-28	intagen	intagen	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+28	intagen	intagen	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 29	av	av	ADP	_	_	30	case		NewHead=30|PhraseCat=PP
 30	romarna	romare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	28	obl:agent		PhraseCat=PP|SpaceAfter=No
 31	.	.	PUNCT	_	_	28	punct		PhraseCat=Top
@@ -93029,7 +93029,7 @@
 5	98,8	98,8	NUM	_	NumType=Card	6	nummod		PhraseCat=NuP
 6	procent	procent	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	nsubj	3:SB|7:	PhraseCat=NP
 7	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	8	aux		NewHead=8|PhraseCat=VP
-8	skadade	skadad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	parataxis		PhraseCat=AjP
+8	skadade	skadad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	parataxis		PhraseCat=AjP
 9	genom	genom	ADP	_	_	11	case		NewHead=11|PhraseCat=PP
 10	trubbigt	trubbig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod		PhraseCat=NP
 11	våld	våld	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	advcl		PhraseCat=NP
@@ -93164,11 +93164,11 @@
 5	tecknaren	tecknare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nsubj		PhraseCat=S
 6	ritat	rita	VERB	_	VerbForm=Sup|Voice=Act	0	root		PhraseCat=VP
 7	in	in	ADV	_	_	6	compound:prt		PhraseCat=VP
-8	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	9	DT		PhraseCat=NP
-9	själv	själv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	obj		PhraseCat=NP|PromotedHead=Yes
+8	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	6	obj		PhraseCat=NP
+9	själv	själv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod		PhraseCat=NP
 10	och	och	CCONJ	_	_	11	cc		PhraseCat=KoP
-11	manusförfattaren	manusförfattare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	conj		PhraseCat=NP
-12	som	som	SCONJ	_	_	13	mark	11:MD|9:	NewHead=13|PhraseCat=SuP
+11	manusförfattaren	manusförfattare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	conj		PhraseCat=NP
+12	som	som	SCONJ	_	_	13	mark	11:MD|8:	NewHead=13|PhraseCat=SuP
 13	statister	statist	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	nmod		PhraseCat=KoP
 14	eller	eller	CCONJ	_	_	15	cc		PhraseCat=KoP
 15	bifigurer	bifigur	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	conj		PhraseCat=KoP
@@ -93536,7 +93536,7 @@
 4	och	och	CCONJ	_	_	7	cc		PhraseCat=KoP
 5	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	7	aux		NewHead=7|PhraseCat=S
 6	lika	lika	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod		PhraseCat=AjP
-7	upprörd	upprörd	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP
+7	upprörd	upprörd	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP
 8	varje	varje	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Tot	9	det		PhraseCat=NP
 9	gång	gång	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod		PhraseCat=NP
 10	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det		PhraseCat=NP
@@ -93544,7 +93544,7 @@
 12	fälls	fälla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	9	advcl		PhraseCat=S
 13	eller	eller	CCONJ	_	_	15	cc		PhraseCat=KoP
 14	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	15	aux		NewHead=15|PhraseCat=S
-15	skadat	skadad	VB	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	conj		PhraseCat=S|SpaceAfter=No
+15	skadat	skadad	VERB	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	conj		PhraseCat=S|SpaceAfter=No
 16	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
 17	vilket	vilken	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	12	parataxis		PhraseCat=SuP
 18	Obelix	Obelix	PROPN	_	Case=Nom	20	nsubj		PhraseCat=S
@@ -93726,7 +93726,7 @@
 9	Laudanum	Laudanum	PROPN	_	Case=Nom	8	appos		PhraseCat=NP
 10	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	12	aux		NewHead=12|PhraseCat=VP
 11	kraftigt	kraftigt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod		PhraseCat=AjP
-12	diskriminerat	diskriminerad	VB	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+12	diskriminerat	diskriminerad	VERB	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 13	i	i	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
 14	handlingarna	handling	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	12	nmod		PhraseCat=PP
 15	och	och	CCONJ	_	_	16	cc		PhraseCat=KoP
@@ -96091,7 +96091,7 @@
 10	Ron	Ron	PROPN	_	Case=Nom	6	conj		PhraseCat=KoP
 11	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	13	aux		NewHead=13|PhraseCat=S
 12	alltmer	alltmer	ADV	_	_	13	advmod		PhraseCat=AjP
-13	komplicerade	komplicerad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+13	komplicerade	komplicerad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 14	när	när	ADV	_	_	13	advmod		PhraseCat=SuP
 15	kärlek	kärlek	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nsubj		PhraseCat=KoP
 16	och	och	CCONJ	_	_	18	cc		PhraseCat=KoP
@@ -96464,7 +96464,7 @@
 4	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	7	aux		NewHead=7|PhraseCat=S
 5	Harry	Harry	PROPN	_	Case=Nom	7	nsubj		ExtXpos=ENM|PhraseCat=S
 6	Potter	Potter	PROPN	_	Case=Nom	5	fixed		ExtXpos=ENM|PhraseCat=S
-7	placerad	placerad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+7	placerad	placerad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 8	hos	hos	ADP	_	_	10	case		NewHead=10|PhraseCat=PP
 9	sina	sig	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	10	nmod:poss		PhraseCat=NP
 10	släktingar	släkting	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	advmod		PhraseCat=NP
@@ -97797,7 +97797,7 @@
 14	att	att	SCONJ	_	_	17	mark		NewHead=17|PhraseCat=SuP
 15	hon	hon	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	nsubj		PhraseCat=S
 16	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	17	aux		NewHead=17|PhraseCat=S
-17	inspirerad	inspirerad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	obj		PhraseCat=AjP
+17	inspirerad	inspirerad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	obj		PhraseCat=AjP
 18	att	att	PART	_	_	19	mark		NewHead=19|PhraseCat=SuP
 19	använda	använda	VERB	_	VerbForm=Inf|Voice=Act	17	obj		PhraseCat=VP
 20	Kings	Kings	X	_	Foreign=Yes	22	fixed		ExtXpos=ENM|PhraseCat=VP
@@ -98056,7 +98056,7 @@
 1	Rowling	Rowling	PROPN	_	Case=Nom	4	nsubj		PhraseCat=S
 2	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	4	aux		NewHead=3|PhraseCat=S
 3	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	4	aux		NewHead=4|PhraseCat=VP
-4	dragen	dragen	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+4	dragen	dragen	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 5	inför	inför	ADP	_	_	6	case		NewHead=6|PhraseCat=PP
 6	rätta	rätta	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	advcl		PhraseCat=PP
 7	för	för	ADP	_	_	10	mark		NewHead=8|PhraseCat=PP
@@ -98226,7 +98226,7 @@
 3	målet	mål	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obj		PhraseCat=S|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
 5	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	6	aux		NewHead=6|PhraseCat=S
-6	dömd	dömd	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP
+6	dömd	dömd	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP
 7	för	för	ADP	_	_	10	mark		NewHead=8|PhraseCat=PP
 8	att	att	PART	_	_	10	mark		NewHead=9|PhraseCat=SuP
 9	ha	ha	AUX	_	VerbForm=Inf|Voice=Act	10	aux		NewHead=10|PhraseCat=VP
@@ -99023,7 +99023,7 @@
 # text = De blir jagade av de mystiska Svarta ryttarna: Nazgûlerna, och lyckas nätt och jämnt klara sig fram till Bri.
 1	De	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	3	nsubj		PhraseCat=S
 2	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	3	aux		NewHead=3|PhraseCat=S
-3	jagade	jagad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+3	jagade	jagad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 4	av	av	ADP	_	_	8	case		NewHead=8|PhraseCat=PP
 5	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det		PhraseCat=NP
 6	mystiska	mystisk	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod		PhraseCat=NP
@@ -99380,7 +99380,7 @@
 8	Khazad-Dûm	Khazad-Dûm	PROPN	_	Case=Nom	6	nmod		PhraseCat=PP
 9	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	11	aux		NewHead=11|PhraseCat=S
 10	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	11	nsubj		PhraseCat=S
-11	attackerade	attackerad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+11	attackerade	attackerad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 12	av	av	ADP	_	_	13	case		NewHead=13|PhraseCat=PP
 13	orcherna	ork	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	11	obl:agent		PhraseCat=PP
 14	och	och	CCONJ	_	_	18	cc		PhraseCat=KoP
@@ -99528,7 +99528,7 @@
 4	Lothlórien	Lothlórien	PROPN	_	Case=Nom	3	obj		PhraseCat=S
 5	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 6	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	5	nsubj		PhraseCat=S
-7	varsin	varsin	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Tot	8	nmod:poss		PhraseCat=NP
+7	varsin	varsin	ADJ	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|Poss=Yes	8	nmod:poss		PhraseCat=NP
 8	gåva	gåva	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj		PhraseCat=NP
 9	av	av	ADP	_	_	10	case		NewHead=10|PhraseCat=PP
 10	Galadriel	Galadriel	PROPN	_	Case=Nom	5	advcl		PhraseCat=PP|SpaceAfter=No
@@ -99591,7 +99591,7 @@
 10	efteråt	efteråt	ADV	_	_	13	advmod		PhraseCat=AbP
 11	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	13	aux		NewHead=13|PhraseCat=S
 12	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	13	nsubj		PhraseCat=S
-13	attackerade	attackerad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP
+13	attackerade	attackerad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP
 14	av	av	ADP	_	_	17	case		NewHead=17|PhraseCat=PP
 15	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	17	det		PhraseCat=NP
 16	stor	stor	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod		PhraseCat=NP
@@ -99649,7 +99649,7 @@
 8	Frodo	Frodo	PROPN	_	Case=Nom	4	advmod		PhraseCat=PP
 9	men	men	CCONJ	_	_	11	cc		PhraseCat=KoP
 10	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	11	aux		NewHead=11|PhraseCat=S
-11	inringade	inringad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	conj		PhraseCat=AjP
+11	inringade	inringad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	conj		PhraseCat=AjP
 12	av	av	ADP	_	_	13	case		NewHead=13|PhraseCat=PP
 13	dem	de	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	11	obl:agent		PhraseCat=PP|SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct		PhraseCat=Top
@@ -99702,7 +99702,7 @@
 5	men	men	CCONJ	_	_	8	cc		PhraseCat=KoP
 6	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	8	aux		NewHead=8|PhraseCat=S
 7	illa	illa	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod		PhraseCat=AjP
-8	skadad	skadad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP|SpaceAfter=No
+8	skadad	skadad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj		PhraseCat=AjP|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
 
 # sent_id = Wiki_Saganomringenfilm.53
@@ -99722,7 +99722,7 @@
 13	till	tills	SCONJ	_	Typo=Yes	16	mark		CorrectForm=tills|NewHead=16|PhraseCat=SuP
 14	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj		PhraseCat=S
 15	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	16	aux		NewHead=16|PhraseCat=VP
-16	skjuten	skjuten	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	MD		PhraseCat=AjP
+16	skjuten	skjuten	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl		PhraseCat=AjP
 17	flera	mången	ADJ	_	Case=Nom|Degree=Cmp	18	amod		PhraseCat=NP
 18	gånger	gång	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	nmod		PhraseCat=NP|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct		PhraseCat=Top
@@ -100156,7 +100156,7 @@
 1	Alla	all	DET	_	Definite=Def|Number=Plur|PronType=Tot	2	det		PhraseCat=NP
 2	Sagan om ringen-filmerna	Sagan_om_ringenfilm	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	4	nsubj		PhraseCat=NP
 3	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	4	aux		NewHead=4|PhraseCat=S
-4	nominerad	nominerad	VB	_	Degree=Pos|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	0	root		CorrectForm=nominerade|PhraseCat=AjP
+4	nominerad	nominerad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	0	root		CorrectForm=nominerade|PhraseCat=AjP
 5	för	för	ADP	_	_	7	case		NewHead=7|PhraseCat=PP
 6	bästa	bra	ADJ	_	Case=Nom|Definite=Def|Degree=Sup	7	amod		PhraseCat=NP
 7	film	film	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	advcl		PhraseCat=NP
@@ -101094,7 +101094,7 @@
 3	Vasco	Vasco	PROPN	_	Case=Nom	2	nsubj		PhraseCat=S
 4	ha	ha	AUX	_	VerbForm=Inf|Voice=Act	6	aux		NewHead=5|PhraseCat=VP
 5	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	6	aux		NewHead=6|PhraseCat=VP
-6	invigd	invigd	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp		PhraseCat=AjP
+6	invigd	invigd	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp		PhraseCat=AjP
 7	i	i	ADP	_	_	8	case		NewHead=8|PhraseCat=PP
 8	Santiagoorden	Santiagoorden	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nmod		PhraseCat=PP
 9	tillsammans	tillsammans	ADV	_	_	11	advmod		PhraseCat=PP
@@ -101134,7 +101134,7 @@
 6	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	nmod:poss		PhraseCat=NP
 7	far	far	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nsubj	8:SB|8:	PhraseCat=NP
 8	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	9	aux		NewHead=9|PhraseCat=VP
-9	utvald	utvald	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	MD		PhraseCat=AjP
+9	utvald	utvald	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl		PhraseCat=AjP
 10	att	att	PART	_	_	11	mark		NewHead=11|PhraseCat=SuP
 11	leda	leda	VERB	_	VerbForm=Inf|Voice=Act	9	obj		PhraseCat=VP
 12	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	13	det		PhraseCat=NP
@@ -101992,7 +101992,7 @@
 16	men	men	CCONJ	_	_	19	cc		PhraseCat=KoP
 17	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	19	nsubj		PhraseCat=S
 18	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	19	aux		NewHead=19|PhraseCat=S
-19	tvungen	tvungen	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	conj		PhraseCat=AjP
+19	tvungen	tvungen	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	conj		PhraseCat=AjP
 20	att	att	PART	_	_	21	mark		NewHead=21|PhraseCat=SuP
 21	segla	segla	VERB	_	VerbForm=Inf|Voice=Act	19	obj		PhraseCat=VP
 22	iväg	iväg	ADV	_	_	21	compound:prt		PhraseCat=VP
@@ -102080,7 +102080,7 @@
 21	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	24	aux		NewHead=24|PhraseCat=S
 22	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	24	nsubj		PhraseCat=S
 23	rikligt	rikligt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	advmod		PhraseCat=AjP
-24	belönad	belönad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj		PhraseCat=AjP
+24	belönad	belönad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj		PhraseCat=AjP
 25	som	som	SCONJ	_	_	26	mark		NewHead=26|PhraseCat=SuP
 26	mannen	man	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	24	nmod		PhraseCat=NP
 27	som	som	SCONJ	_	_	29	mark		NewHead=28|PhraseCat=SuP
@@ -102228,7 +102228,7 @@
 3	Cabral	Cabral	PROPN	_	Case=Nom	1	fixed		ExtXpos=ENM|PhraseCat=S
 4	hade	ha	AUX	_	Mood=Ind|Tense=Past|Voice=Act	6	aux		NewHead=5|PhraseCat=S
 5	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	6	aux		NewHead=6|PhraseCat=VP
-6	skickad	skickad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+6	skickad	skickad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 7	till	till	ADP	_	_	8	case		NewHead=8|PhraseCat=PP
 8	Indien	Indien	PROPN	_	Case=Nom	6	advmod		PhraseCat=PP
 9	två	två	NUM	_	NumType=Card	10	nummod		PhraseCat=NP
@@ -102261,7 +102261,7 @@
 36	handelsstationen	handelsstation	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	34	nmod		PhraseCat=PP
 37	hade	ha	AUX	_	Mood=Ind|Tense=Past|Voice=Act	39	aux		NewHead=38|PhraseCat=S
 38	blivit	bli	AUX	_	VerbForm=Sup|Voice=Act	39	aux		NewHead=39|PhraseCat=VP
-39	mördade	mördad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	32	obj		PhraseCat=VP|SpaceAfter=No
+39	mördade	mördad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	32	obj		PhraseCat=VP|SpaceAfter=No
 40	,	,	PUNCT	_	_	6	punct		PhraseCat=Top
 41	och	och	CCONJ	_	_	44	cc		PhraseCat=KoP
 42	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	44	nsubj		PhraseCat=S
@@ -106508,7 +106508,7 @@
 9	även	även	ADV	_	_	12	advmod		PhraseCat=S
 10	vattnet	vatten	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	nsubj		PhraseCat=S
 11	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	12	aux		NewHead=12|PhraseCat=S
-12	uppvärmt	uppvärmd	VB	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	MD		PhraseCat=S|SpaceAfter=No
+12	uppvärmt	uppvärmd	VERB	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	advcl		PhraseCat=S|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct		PhraseCat=Top
 14	börjar	börja	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
 15	vattnet	vatten	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	nsubj		PhraseCat=S
@@ -106537,7 +106537,7 @@
 1	Molnen	moln	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	4	nsubj		PhraseCat=S
 2	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	4	aux		NewHead=4|PhraseCat=S
 3	alltmer	alltmer	ADV	_	_	4	advmod		PhraseCat=AjP
-4	mättade	mättad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+4	mättade	mättad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 5	med	med	ADP	_	_	6	case		NewHead=6|PhraseCat=PP
 6	ånga	ånga	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	advcl		PhraseCat=PP|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct		PhraseCat=Top
@@ -106997,7 +106997,7 @@
 15	vatten	vatten	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	advcl		PhraseCat=PP
 16	och	och	CCONJ	_	_	17	cc		PhraseCat=KoP
 17	tvingade	tvinga	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	conj		PhraseCat=S
-18	samtliga	samtlig	PRON	_	Definite=Ind|Number=Plur|PronType=Tot	19	DT		PhraseCat=NP
+18	samtliga	samtlig	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	19	amod		PhraseCat=NP
 19	invånare	invånare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	obj	17:OO|22:	PhraseCat=NP
 20	att	att	SCONJ	_	_	22	mark		NewHead=22|PhraseCat=SuP
 21	tillfälligt	tillfälligt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	advmod		PhraseCat=VP
@@ -108578,7 +108578,7 @@
 5	eftermiddag	eftermiddag	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod		PhraseCat=NP
 6	i	i	ADP	_	_	7	case		NewHead=7|PhraseCat=PP
 7	oktober	oktober	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod		PhraseCat=PP
-8	ivägskickad	ivägskickad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+8	ivägskickad	ivägskickad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 9	av	av	ADP	_	_	11	case		NewHead=11|PhraseCat=PP
 10	sin	sig	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	nmod:poss		PhraseCat=NP
 11	fostermor	fostermor	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obl:agent		PhraseCat=NP
@@ -109136,7 +109136,7 @@
 # text = Hon ger varsin mantel till Mio och Jum-Jum så att de kan sova ute under stjärnorna tillsammans med Nonno.
 1	Hon	hon	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj		PhraseCat=S
 2	ger	ge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
-3	varsin	varsin	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Tot	4	DT		PhraseCat=NP
+3	varsin	varsin	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	amod		PhraseCat=NP
 4	mantel	mantel	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj		PhraseCat=NP
 5	till	till	ADP	_	_	6	case		NewHead=6|PhraseCat=PP
 6	Mio	Mio	PROPN	_	Case=Nom	2	advcl		PhraseCat=KoP
@@ -110264,7 +110264,7 @@
 1	De	den	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det		PhraseCat=NP
 2	två	två	NUM	_	NumType=Card	4	nsubj		PhraseCat=NP|PromotedHead=Yes
 3	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	4	aux		NewHead=4|PhraseCat=S
-4	inlåsta	inlåst	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S
+4	inlåsta	inlåst	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=S
 5	och	och	CCONJ	_	_	8	cc		PhraseCat=KoP
 6	allt	all	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	7	det		PhraseCat=NP
 7	hopp	hopp	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	nsubj	8:SB|9:	PhraseCat=NP
@@ -110803,7 +110803,7 @@
 9	dag	dag	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod		PhraseCat=NP
 10	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	12	aux		NewHead=12|PhraseCat=S
 11	prinsen	prins	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj		PhraseCat=S
-12	upplockad	upplockad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis		PhraseCat=AjP
+12	upplockad	upplockad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis		PhraseCat=AjP
 13	i	i	ADP	_	_	14	case		NewHead=14|PhraseCat=PP
 14	trädgården	trädgård	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	advmod		PhraseCat=PP
 15	av	av	ADP	_	_	18	case		NewHead=18|PhraseCat=PP
@@ -110842,7 +110842,7 @@
 13	blir	bli	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	16	aux		NewHead=16|PhraseCat=S
 14	så	så	ADV	_	_	15	advmod		PhraseCat=AbP
 15	småningom	småningom	ADV	_	_	16	advmod		PhraseCat=AbP
-16	befriad	befriad	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	conj		PhraseCat=AjP
+16	befriad	befriad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	conj		PhraseCat=AjP
 17	av	av	ADP	_	_	18	case		NewHead=18|PhraseCat=PP
 18	Toto	Toto	PROPN	_	Case=Nom	16	obl:agent		PhraseCat=KoP
 19	och	och	CCONJ	_	_	20	cc		PhraseCat=KoP
@@ -111007,7 +111007,7 @@
 22	Långstrump	Långstrump	PROPN	_	Case=Nom	21	fixed		ExtXpos=ENM|PhraseCat=KoP|SpaceAfter=No
 23	,	,	PUNCT	_	_	2	punct		PhraseCat=Top
 24	Alla	all	DET	_	Definite=Ind|Number=Plur|PronType=Tot	26	det		PhraseCat=NP
-25	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	26	DT		PhraseCat=NP
+25	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	26	appos		PhraseCat=NP
 26	barn	barn	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	21	conj		PhraseCat=NP
 27	i	i	ADP	_	_	28	case		NewHead=28|PhraseCat=PP
 28	Bullerbyn	Bullerbyn	PROPN	_	Case=Nom	26	nmod		PhraseCat=PP
@@ -111616,7 +111616,7 @@
 6	publicerades	publicera	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	1	obj		PhraseCat=S
 7	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	9	aux		NewHead=9|PhraseCat=S
 8	Lindgren	Lindgren	PROPN	_	Case=Nom	9	nsubj		PhraseCat=S
-9	jämförd	jämförd	VB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
+9	jämförd	jämförd	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root		PhraseCat=AjP
 10	med	med	ADP	_	_	13	case		NewHead=13|PhraseCat=PP
 11	litteraturens	litteratur	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	13	nmod:poss		PhraseCat=NP
 12	största	stor	ADJ	_	Case=Nom|Definite=Def|Degree=Sup	13	amod		PhraseCat=NP
@@ -114438,7 +114438,7 @@
 16	samhällsklasserna	samhällsklass	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	19	nsubj	17:SB|18:	PhraseCat=NP
 17	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	19	aux		NewHead=18|PhraseCat=S
 18	bli	bli	AUX	_	VerbForm=Inf|Voice=Act	19	aux		NewHead=19|PhraseCat=VP
-19	representerade	representerad	VB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	MD		PhraseCat=VP|SpaceAfter=No
+19	representerade	representerad	VERB	_	Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	advcl		PhraseCat=VP|SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct		PhraseCat=Top
 
 # sent_id = Wiki_Sverigesriksdag.62
