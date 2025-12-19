@@ -35,7 +35,7 @@ end
 #TODO: DF -- better distinction between parataxis and discourse
 
 =begin
-#TODONOW: OA, RA (parent and child), check all E*, check all *P, check AN (clauses?), JF, PH (deal with som first)
+#TODONOW: Gerlof, JF with comparatives as heads, SCONJ incl. mark vs. case and obl vs. advcl for JF (check also PhraseCat assignment), PH (deal with som first), OA, RA (parent and child), check all E*, check all *P, check AN (clauses?), udeprel validation, from UD side, go through existing issues, go through TODOs, metadata, evaluation...
 Lista 1:
 {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent", "DT"=>"det", "IO"=>"iobj", "PL"=>"compound:prt"}
 
@@ -773,12 +773,21 @@ def convert_syntax(sentence2, sent_id)
         end
         
         
+        if deprel == "JF"
+            if @markcats.include?(findinset("PhraseCat",misc))
+                udeprels[id] = "advcl"
+            else
+                udeprels[id] = "obl"
+            end
+        
+        end
+        
         if upos == "PUNCT"
             udeprels[id] = "punct"
         #elsif deprel.downcase == deprel
         #    udeprels[id] = deprel
         else                       
-            if !@matchdeprels[deprel].nil?
+            if !@matchdeprels[deprel].nil? and udeprels[id].nil?
                 udeprels[id] = @matchdeprels[deprel]
             else
                 if udeprels[id].nil?
