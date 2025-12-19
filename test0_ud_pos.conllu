@@ -1,32 +1,22 @@
-# sent_id = Blog_188519-10179826.1
-# text = Marcus (sonen) o hans vän Fredrik "brottades" o hade roligt när Marcus skriker till o ropar på mig att hans hand har gått av.
-1	Marcus	Marcus	PROPN	_	Case=Nom	5	KL		PhraseCat=NP
-2	(	(	PUNCT	_	_	12	--		PhraseCat=Top|SpaceAfter=No
-3	sonen	son	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	AN		PhraseCat=NP|SpaceAfter=No
-4	)	)	PUNCT	_	_	12	--		PhraseCat=Top
-5	o	och	CCONJ	_	_	10	SB	10:SB|13:	PhraseCat=KoP
-6	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	DT		PhraseCat=NP
-7	vän	vän	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	KL		PhraseCat=NP
-8	Fredrik	Fredrik	PROPN	_	Case=Nom	7	AN		PhraseCat=NP
-9	"	"	PUNCT	_	_	12	--		PhraseCat=Top|SpaceAfter=No
-10	brottades	brottas	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	KL		PhraseCat=S|SpaceAfter=No
-11	"	"	PUNCT	_	_	12	--		PhraseCat=Top
-12	o	och	CCONJ	_	_	0	--		PhraseCat=KoP
-13	hade	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	KL		PhraseCat=S
-14	roligt	rolig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	OO		PhraseCat=S
-15	när	när	ADV	_	_	13	MD	13:MD|10:	PhraseCat=AbP
-16	Marcus	Marcus	PROPN	_	Case=Nom	17	SB		PhraseCat=S
-17	skriker	skrika	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	KL		PhraseCat=S
-18	till	till	ADP	_	_	17	PL		PhraseCat=S
-19	o	och	CCONJ	_	_	15	MD		PhraseCat=KoP
-20	ropar	ropa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	KL		PhraseCat=S
-21	på	på	ADP	_	_	20	MD		PhraseCat=PP
-22	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	OO		PhraseCat=PP
-23	att	att	SCONJ	_	_	20	OO		PhraseCat=SuP
-24	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	25	DT		PhraseCat=NP
-25	hand	hand	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	SB	26:SB|27:	PhraseCat=NP
-26	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	23	OO		PhraseCat=S
-27	gått	gå	VERB	_	VerbForm=Sup|Voice=Act	26	IV		PhraseCat=VP
-28	av	av	ADP	_	_	27	PL		PhraseCat=VP|SpaceAfter=No
-29	.	.	PUNCT	_	_	12	--		PhraseCat=Top
+# sent_id = Regr_255175.12
+# text = Ekonomiskt stöd enligt förordningen får dock lämnas för åtgärder som vidtagits från och med den 1 augusti 2014.
+1	Ekonomiskt	ekonomisk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	MD		PhraseCat=NP
+2	stöd	stöd	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	SB		PhraseCat=NP
+3	enligt	enligt	ADP	_	_	2	MD		PhraseCat=PP
+4	förordningen	förordning	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	OO		PhraseCat=PP
+5	får	få	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
+6	dock	dock	ADV	_	_	5	MD		PhraseCat=S
+7	lämnas	lämna	VERB	_	VerbForm=Inf|Voice=Pass	5	IV		PhraseCat=VP
+8	för	för	ADP	_	_	7	MD		PhraseCat=PP
+9	åtgärder	åtgärd	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	OO		PhraseCat=NP
+10	som	som	SCONJ	_	_	9	MD		PhraseCat=SuP
+11	vidtagits	vidta	VERB	_	VerbForm=Sup|Voice=Pass	10	OO		PhraseCat=VP
+12	från	från	ADP	_	_	11	MD		PhraseCat=PP
+13	och	och	CCONJ	_	_	14	cc		PhraseCat=KoP
+14	med	med	ADP	_	_	12	conj		PhraseCat=PP
+15	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	17	DT		PhraseCat=NP
+16	1	1	ADV	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	MD		PhraseCat=NP
+17	augusti	augusti	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	OO	14:OO|12:	PhraseCat=NP
+18	2014	2014	NUM	_	NumType=Card	17	MD		PhraseCat=NP|SpaceAfter=No
+19	.	.	PUNCT	_	_	5	--		PhraseCat=Top
 

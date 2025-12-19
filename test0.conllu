@@ -1,32 +1,22 @@
-# sent_id = Blog_188519-10179826.1
-# text = Marcus (sonen) o hans vän Fredrik "brottades" o hade roligt när Marcus skriker till o ropar på mig att hans hand har gått av.
-1	Marcus	Marcus	EN	-.-.-	EN.-	5	KL		PhraseCat=NP
-2	(	_	SY	-.-.-	SY.DEL	12	--		PhraseCat=Top|SpaceAfter=No
-3	sonen	son	NN	-.-.-	NN.UTR.SIN.DEF	1	AN		PhraseCat=NP|SpaceAfter=No
-4	)	_	SY	-.-.-	SY.DEL	12	--		PhraseCat=Top
-5	o	och	KO	-.-.-	KO.-	10	SB	10:SB|13:	PhraseCat=KoP
-6	hans	han	PO	-.GEN.-	PO.DEF.SIN.UTR.OBJ.-	7	DT		PhraseCat=NP
-7	vän	vän	NN	-.-.-	NN.UTR.SIN.IND	5	KL		PhraseCat=NP
-8	Fredrik	Fredrik	EN	-.-.-	EN.-	7	AN		PhraseCat=NP
-9	"	_	SY	-.-.-	SY.DEL	12	--		PhraseCat=Top|SpaceAfter=No
-10	brottades	brottas	VB	-.-.-	VB.IND.SFO.PRT	12	KL		PhraseCat=S|SpaceAfter=No
-11	"	_	SY	-.-.-	SY.DEL	12	--		PhraseCat=Top
-12	o	och	KO	-.-.-	KO.-	0	--		PhraseCat=KoP
-13	hade	ha	VB	-.-.-	VB.IND.AKT.PRT	12	KL		PhraseCat=S
-14	roligt	rolig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	13	OO		PhraseCat=S
-15	när	när	AB	-.-.-	AB.-.FRL	13	MD	13:MD|10:	PhraseCat=AbP
-16	Marcus	Marcus	EN	-.-.-	EN.-	17	SB		PhraseCat=S
-17	skriker	skrika	VB	-.-.-	VB.IND.AKT.PRS	19	KL		PhraseCat=S
-18	till	till	PE	-.-.-	PE.-	17	PL		PhraseCat=S
-19	o	och	KO	-.-.-	KO.-	15	MD		PhraseCat=KoP
-20	ropar	ropa	VB	-.-.-	VB.IND.AKT.PRS	19	KL		PhraseCat=S
-21	på	på	PE	-.-.-	PE.-	20	MD		PhraseCat=PP
-22	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	21	OO		PhraseCat=PP
-23	att	att	SU	-.-.-	SU.-	20	OO		PhraseCat=SuP
-24	hans	han	PO	-.GEN.-	PO.DEF.SIN.UTR.OBJ.-	25	DT		PhraseCat=NP
-25	hand	hand	NN	-.-.-	NN.UTR.SIN.IND	26	SB	26:SB|27:	PhraseCat=NP
-26	har	ha	VB	-.-.-	VB.IND.AKT.PRS	23	OO		PhraseCat=S
-27	gått	gå	VB	-.-.-	VB.SPM.AKT.-	26	IV		PhraseCat=VP
-28	av	av	PE	-.-.-	PE.-	27	PL		PhraseCat=VP|SpaceAfter=No
-29	.	_	SY	-.-.-	SY.DEL	12	--		PhraseCat=Top
+# sent_id = Regr_255175.12
+# text = Ekonomiskt stöd enligt förordningen får dock lämnas för åtgärder som vidtagits från och med den 1 augusti 2014.
+1	Ekonomiskt	ekonomisk	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	2	MD		PhraseCat=NP
+2	stöd	stöd	NN	-.-.-	NN.NEU.SIN.IND	5	SB		PhraseCat=NP
+3	enligt	enligt	PE	-.-.-	PE.-	2	MD		PhraseCat=PP
+4	förordningen	förordning	NN	-.-.-	NN.UTR.SIN.DEF	3	OO		PhraseCat=PP
+5	får	få	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseCat=S
+6	dock	dock	AB	-.-.-	AB.-.-	5	MD		PhraseCat=S
+7	lämnas	lämna	VB	-.-.-	VB.INF.SFO.-	5	IV		PhraseCat=VP
+8	för	för	PE	-.-.-	PE.-	7	MD		PhraseCat=PP
+9	åtgärder	åtgärd	NN	-.-.-	NN.UTR.PLU.IND	8	OO		PhraseCat=NP
+10	som	som	SU	-.-.-	SU.-	9	MD		PhraseCat=SuP
+11	vidtagits	vidta	VB	-.-.-	VB.SPM.SFO.-	10	OO		PhraseCat=VP
+12	från	från	PE	-.-.-	PE.-	13	KL		PhraseCat=PP
+13	och	och	KO	-.-.-	KO.-	11	MD		PhraseCat=KoP
+14	med	med	PE	-.-.-	PE.-	13	KL		PhraseCat=PP
+15	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	17	DT		PhraseCat=NP
+16	1	först	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	17	MD		PhraseCat=NP
+17	augusti	augusti	NN	-.-.-	NN.UTR.SIN.IND	14	OO	14:OO|12:	PhraseCat=NP
+18	2014	tvåtusenfjorton	NU	-.-.-	NU.-	17	MD		PhraseCat=NP|SpaceAfter=No
+19	.	_	SY	-.-.-	SY.DEL	5	--		PhraseCat=Top
 
