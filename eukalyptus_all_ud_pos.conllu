@@ -516,7 +516,7 @@
 4	andra	andra	ADJ	_	Case=Nom|Degree=Pos|NumType=Ord|Number=Plur	5	MD		PhraseCat=NP
 5	ord	ord	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	OO		PhraseCat=NP
 6	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	9	DT		PhraseCat=NP
-7	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	8	MD		PhraseCat=AjP
+7	mycket	mycket	ADV	_	Degree=Pos	8	MD		PhraseCat=AjP
 8	nöjd	nöjd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	9	MD		PhraseCat=AjP
 9	kille	kille	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	SP	2:SP|11:	PhraseCat=NP
 10	som	som	SCONJ	_	_	2	EF		PhraseCat=SuP
@@ -923,7 +923,7 @@
 22	fått	få	VERB	_	VerbForm=Sup|Voice=Act	21	IV		PhraseCat=VP
 23	sällskap	sällskap	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	OO		PhraseCat=NP
 24	av	av	ADP	_	_	23	MD		PhraseCat=PP
-25	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	26	DT		PhraseCat=NP
+25	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	DT		PhraseCat=NP
 26	tomtar	tomte	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	24	OO		PhraseCat=NP
 27	och	och	CCONJ	_	_	29	cc		PhraseCat=KoP
 28	annat	annan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	29	MD		PhraseCat=NP
@@ -944,7 +944,7 @@
 
 # sent_id = Blog_160886-11338557.15
 # text = Lite snö hade dock inte suttit fel! :D
-1	Lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	DT		PhraseCat=NP
+1	Lite	lite	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	2	DT		PhraseCat=NP
 2	snö	snö	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB	3:SB|6:	PhraseCat=NP
 3	hade	ha	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
 4	dock	dock	ADV	_	_	5	MD		PhraseCat=AbP
@@ -1489,7 +1489,7 @@
 18	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	17	SB		PhraseCat=S
 19	rensa	rensa	VERB	_	VerbForm=Inf|Voice=Act	17	IV		PhraseCat=VP
 20	ut	ut	ADV	_	_	19	PL		PhraseCat=VP
-21	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing	19	OO		PhraseCat=NP
+21	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	OO		PhraseCat=NP
 22	av	av	ADP	_	_	21	MD		PhraseCat=PP
 23	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	DT		PhraseCat=NP
 24	gamla	gammal	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	22	OO		PhraseCat=NP
@@ -1760,7 +1760,7 @@
 2	för visso	förvisso	ADV	_	_	1	MD		PhraseCat=S|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	--		PhraseCat=Top
 4	men	men	CCONJ	_	_	7	cc		PhraseCat=KoP
-5	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	DT		PhraseCat=NP
+5	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	6	DT		PhraseCat=NP
 6	kuckelimuckmedicin	kuckelimuckmedicin	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	SB	7:SB|9:	PhraseCat=NP
 7	hade	ha	AUX	_	Mood=Ind|Tense=Past|Voice=Act	1	conj		PhraseCat=S
 8	nog	nog	ADV	_	_	7	MD		PhraseCat=S
@@ -1884,7 +1884,7 @@
 # sent_id = Blog_188519-17383062.4
 # text = Är lite tung i huvet,,, oj måste köpa treo när jag handlar i fall de skulle behövas + lite annat.
 1	Är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
-2	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	3	MD		PhraseCat=AjP
+2	lite	lite	ADV	_	Degree=Pos	3	MD		PhraseCat=AjP
 3	tung	tung	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	1	SP		PhraseCat=AjP
 4	i	i	ADP	_	_	3	OA		PhraseCat=PP
 5	huvet	huve	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	OO		PhraseCat=PP|SpaceAfter=No
@@ -1902,7 +1902,7 @@
 17	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	15	OO		PhraseCat=S
 18	behövas	behöva	VERB	_	VerbForm=Inf|Voice=Pass	17	IV		PhraseCat=VP
 19	+	+	SYM	_	_	1	punct		PhraseCat=KoP
-20	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	DT		PhraseCat=NP
+20	lite	lite	ADJ	_	Case=Nom|Degree=Pos	21	DT		PhraseCat=NP
 21	annat	annan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	conj		PhraseCat=NP|SpaceAfter=No
 22	.	.	PUNCT	_	_	1	--		PhraseCat=Top
 
@@ -3055,7 +3055,7 @@
 1	Så	så	ADV	_	_	3	DF		PhraseCat=S
 2	de	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	SB		PhraseCat=S
 3	va	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
-4	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=AjP
+4	lite	lite	ADV	_	Degree=Pos	5	MD		PhraseCat=AjP
 5	komiskt	komisk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	SP		PhraseCat=AjP
 6	men	men	CCONJ	_	_	8	cc		PhraseCat=KoP
 7	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	SB		PhraseCat=S
@@ -3972,7 +3972,7 @@
 1	Jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	började	börja	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	sjunga	sjunga	VERB	_	VerbForm=Inf|Voice=Act	2	IV		PhraseCat=VP
-4	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	3	MD		PhraseCat=VP
+4	lite	lite	ADV	_	Degree=Pos	3	MD		PhraseCat=VP
 5	sen	sen	ADV	_	_	6	MD		PhraseCat=S
 6	pratade	prata	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis		PhraseCat=S
 7	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	SB		PhraseCat=S
@@ -4204,7 +4204,7 @@
 7	glömde	glömma	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	OO		PhraseCat=S
 8	klippa	klippa	VERB	_	VerbForm=Inf|Voice=Act	7	IV		PhraseCat=VP
 9	av	av	ADP	_	_	8	PL		PhraseCat=VP
-10	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing	8	OO		PhraseCat=NP
+10	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	OO		PhraseCat=NP
 11	av	av	ADP	_	_	10	MD		PhraseCat=PP
 12	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	DT		PhraseCat=NP
 13	päls	päls	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	OO		PhraseCat=NP
@@ -4330,7 +4330,7 @@
 2	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 3	klippa	klippa	VERB	_	VerbForm=Inf|Voice=Act	2	IV		PhraseCat=VP
 4	av	av	ADP	_	_	3	PL		PhraseCat=VP
-5	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	DT		PhraseCat=NP
+5	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	6	DT		PhraseCat=NP
 6	päls	päls	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	OO		PhraseCat=NP
 7	från	från	ADP	_	_	6	MD		PhraseCat=PP
 8	Teddy	Teddy	PROPN	_	Case=Nom	7	OO		PhraseCat=PP|SpaceAfter=No
@@ -4569,7 +4569,7 @@
 # sent_id = Blog_13263-1168055.3
 # text = Bland mycket annat.
 1	Bland	bland	ADP	_	_	0	--		PhraseCat=PP
-2	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	DT		PhraseCat=NP
+2	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos	3	DT		PhraseCat=NP
 3	annat	annan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	OO		PhraseCat=NP|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	--		PhraseCat=Top
 
@@ -4995,7 +4995,7 @@
 12	sitter	sitta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 13	och	och	CCONJ	_	_	14	cc		PhraseCat=KoP
 14	babblar	babbla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
-15	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	16	MD		PhraseCat=PP
+15	lite	lite	ADV	_	Degree=Pos	16	MD		PhraseCat=PP
 16	om	om	ADP	_	_	14	OO		PhraseCat=PP
 17	allt	all	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	16	OO		PhraseCat=KoP
 18	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
@@ -5021,7 +5021,7 @@
 15	powernap	powernap	X	_	Foreign=Yes	9	conj		PhraseCat=NP
 16	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 17	kanske	kanske	ADV	_	_	19	MD		PhraseCat=S
-18	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	DT		PhraseCat=NP
+18	lite	lite	ADJ	_	Case=Nom|Degree=Pos	19	DT		PhraseCat=NP
 19	godis	godis	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	conj		PhraseCat=NP|SpaceAfter=No
 20	.	.	PUNCT	_	_	9	--		PhraseCat=Top
 
@@ -5071,7 +5071,7 @@
 12	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	SB		PhraseCat=S
 13	äntligen	äntligen	ADV	_	_	14	MD		PhraseCat=S
 14	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	11	OO		PhraseCat=S
-15	lite	lite	ADV	_	Definite=Ind|Gender=Com|Number=Sing	16	MD		PhraseCat=AjP
+15	lite	lite	ADV	_	Degree=Pos|Gender=Com	16	MD		PhraseCat=AjP
 16	långledig	långledig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	SP		PhraseCat=AjP|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -5103,7 +5103,7 @@
 4	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	5	SB		PhraseCat=S
 5	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
 6	visst	viss	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	MD		PhraseCat=S
-7	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	8	MD		PhraseCat=AjP
+7	lite	lite	ADV	_	Degree=Pos	8	MD		PhraseCat=AjP
 8	segt	seg	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	SP		PhraseCat=AjP
 9	att	att	PART	_	_	5	ES		PhraseCat=SuP
 10	ta	ta	VERB	_	VerbForm=Inf|Voice=Act	9	OO		PhraseCat=VP
@@ -5586,7 +5586,7 @@
 2	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
 3	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 4	visst	visst	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	2	MD		PhraseCat=S
-5	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP
+5	lite	lite	ADV	_	Degree=Pos	6	MD		PhraseCat=AjP
 6	lätt	lätt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	7	MD		PhraseCat=AjP
 7	utmattad	utmattad	VERB	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	SP		PhraseCat=AjP
 8	av	av	ADP	_	_	7	OA		PhraseCat=PP
@@ -5879,7 +5879,7 @@
 8	att	att	PART	_	_	4	ES		PhraseCat=SuP
 9	hänga	hänga	VERB	_	VerbForm=Inf|Voice=Act	8	OO		PhraseCat=VP
 10	med	med	ADP	_	_	9	MD		PhraseCat=PP
-11	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	12	DT		PhraseCat=NP
+11	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	DT		PhraseCat=NP
 12	kompisar	kompis	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	OO		PhraseCat=NP
 13	och	och	CCONJ	_	_	14	cc		PhraseCat=KoP
 14	ta	ta	VERB	_	VerbForm=Inf|Voice=Act	9	conj		PhraseCat=VP
@@ -5978,7 +5978,7 @@
 13	till	till	ADV	_	_	15	ME		ExtXpos=ABM|PhraseCat=S
 14	och	och	CCONJ	_	_	15	ME		ExtXpos=ABM|PhraseCat=S
 15	med	med	ADP	_	_	11	MD		ExtXpos=ABM|PhraseCat=S
-16	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing	11	OO		PhraseCat=NP
+16	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	OO		PhraseCat=NP
 17	av	av	ADP	_	_	16	MD		PhraseCat=PP
 18	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	19	DT		PhraseCat=NP
 19	gräsmatta	gräsmatta	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	OO		PhraseCat=NP
@@ -6051,7 +6051,7 @@
 2	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 3	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 4	ätas	äta	VERB	_	VerbForm=Inf|Voice=Pass	2	IV		PhraseCat=VP
-5	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	4	MD		PhraseCat=VP
+5	lite	lite	ADV	_	Degree=Pos	4	MD		PhraseCat=VP
 6	också	också	ADV	_	_	2	MD		PhraseCat=S|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 8	Och	och	CCONJ	_	_	9	cc		PhraseCat=KoP
@@ -6141,7 +6141,7 @@
 # sent_id = Blog_13263-236413.2
 # text = Fortfarande lite kul, men inte ens i närheten av att vara lika bra som förra eller förrförra årets ihopmixningar.
 1	Fortfarande	fortfarande	ADV	_	_	3	MD		PhraseCat=S
-2	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	3	MD		PhraseCat=AjP
+2	lite	lite	ADV	_	Degree=Pos	3	MD		PhraseCat=AjP
 3	kul	kul	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	--		PhraseCat=AjP|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	--		PhraseCat=Top
 5	men	men	CCONJ	_	_	8	cc		PhraseCat=KoP
@@ -6185,7 +6185,7 @@
 3	feber	feber	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj		PhraseCat=KoP
 4	och	och	CCONJ	_	_	5	cc		PhraseCat=KoP
 5	mått	må	VERB	_	VerbForm=Sup|Voice=Act	1	conj		PhraseCat=VP
-6	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	7	MD		PhraseCat=AjP
+6	lite	lite	ADV	_	Degree=Pos	7	MD		PhraseCat=AjP
 7	allmänt	allmän	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	OA		PhraseCat=AjP
 8	som	som	SCONJ	_	_	7	OA		PhraseCat=SuP
 9	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	10	DT		PhraseCat=NP
@@ -6199,7 +6199,7 @@
 2	idag	idag	ADV	_	_	3	MD		PhraseCat=S
 3	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 4	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	SB		PhraseCat=S
-5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP
+5	mycket	mycket	ADV	_	Degree=Pos	6	MD		PhraseCat=AjP
 6	bättre	bra	ADJ	_	Case=Nom|Degree=Cmp	3	SP		PhraseCat=AjP|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	--		PhraseCat=Top
 
@@ -6457,7 +6457,7 @@
 
 # sent_id = Blog_13263-1065775.4
 # text = Mest är det nog mörkret jag inte klarar av, för det är skitjobbigt.
-1	Mest	mycket	ADV	_	Definite=Ind|Degree=Sup	2	MD		PhraseCat=S
+1	Mest	mycket	ADV	_	Degree=Sup	2	MD		PhraseCat=S
 2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 3	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 4	nog	nog	ADV	_	_	2	MD		PhraseCat=S
@@ -6634,7 +6634,7 @@
 2	kanske	kanske	ADV	_	_	3	MD		PhraseCat=S
 3	ropade	ropa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 4	hej	hej	INTJ	_	_	3	OO		PhraseCat=S
-5	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=AbP
+5	lite	lite	ADV	_	Degree=Pos	6	MD		PhraseCat=AbP
 6	för	för	ADV	_	_	7	MD		PhraseCat=AbP
 7	tidigt	tidigt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	MD		PhraseCat=AjP
 8	igår	igår	ADV	_	_	3	MD		PhraseCat=S
@@ -6960,7 +6960,7 @@
 5	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	SB		PhraseCat=S
 6	kunde	kunna	AUX	_	Mood=Ind|Tense=Past|Voice=Act	4	OO		PhraseCat=S
 7	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	6	IV		PhraseCat=VP
-8	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=AjP
+8	lite	lite	ADV	_	Degree=Pos	9	MD		PhraseCat=AjP
 9	fortare	fortare	ADJ	_	Case=Nom|Degree=Cmp	7	MD		PhraseCat=AjP|SpaceAfter=No
 10	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -7001,7 +7001,7 @@
 7	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	SB		PhraseCat=S
 8	känner	känna	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	OO		PhraseCat=S
 9	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	OO		PhraseCat=S
-10	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	12	MD		PhraseCat=AjP
+10	lite	lite	ADV	_	Degree=Pos	12	MD		PhraseCat=AjP
 11	sådär	sådär	ADV	_	_	12	MD		PhraseCat=AjP
 12	småseg	småseg	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	SP		PhraseCat=AjP
 13	idag	idag	ADV	_	_	8	MD		PhraseCat=S
@@ -7203,7 +7203,7 @@
 
 # sent_id = Blog_12325-1398819.12
 # text = Lite mer eget sound, och sticker i alla fall ut en del, men totalt sett så var de prick lite meningslösa som Pradamänniskorna innan.
-1	Lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	2	MD		PhraseCat=AjP
+1	Lite	lite	ADV	_	Degree=Pos	2	MD		PhraseCat=AjP
 2	mer	mycket	ADV	_	Degree=Cmp	3	MD		PhraseCat=AjP
 3	eget	egen	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	MD		PhraseCat=AjP
 4	sound	sound	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	DF		PhraseCat=NP|SpaceAfter=No
@@ -7310,7 +7310,7 @@
 7	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 8	publiken	publik	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	SB		PhraseCat=S
 9	röjde	röja	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis		PhraseCat=S
-10	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	11	MD		PhraseCat=AjP
+10	lite	lite	ADV	_	Degree=Pos	11	MD		PhraseCat=AjP
 11	pliktskyldigt	pliktskyldigt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	MD		PhraseCat=AjP
 12	men	men	CCONJ	_	_	13	cc		PhraseCat=KoP
 13	ställde	ställa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	conj		PhraseCat=S
@@ -7370,7 +7370,7 @@
 34	referensramar	referensram	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	35	SB		PhraseCat=NP
 35	skiljer	skilja	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 36	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	35	OO		PhraseCat=S
-37	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing	35	OA		PhraseCat=S|SpaceAfter=No
+37	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	35	OA		PhraseCat=S|SpaceAfter=No
 38	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
 # sent_id = Blog_12325-1398819.19
@@ -7485,7 +7485,7 @@
 6	och	och	CCONJ	_	_	8	cc		PhraseCat=KoP
 7	istället	istället	ADV	_	_	8	MD		PhraseCat=VP
 8	servera	servera	VERB	_	VerbForm=Inf|Voice=Act	1	conj		PhraseCat=VP
-9	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	10	DT		PhraseCat=NP
+9	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	DT		PhraseCat=NP
 10	bilder	bild	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	OO		PhraseCat=NP|SpaceAfter=No
 11	.	.	PUNCT	_	_	1	--		PhraseCat=Top
 
@@ -8156,7 +8156,7 @@
 
 # sent_id = Blog_12325-1621221.7
 # text = Mycket nöje!
-1	Mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	DT		PhraseCat=NP
+1	Mycket	mycket	ADJ	_	Case=Nom|Degree=Pos	2	DT		PhraseCat=NP
 2	nöje	nöje	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	--		PhraseCat=NP|SpaceAfter=No
 3	!	!	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -8318,7 +8318,7 @@
 1	Startar	starta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 2	om	om	ADP	_	_	1	PL		PhraseCat=S
 3	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	1	OO		PhraseCat=S
-4	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=AbP
+4	lite	lite	ADV	_	Degree=Pos	5	MD		PhraseCat=AbP
 5	sådär	sådär	ADV	_	_	1	MD		PhraseCat=AbP
 6	efter	efter	ADP	_	_	1	MD		PhraseCat=PP
 7	egen	egen	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	MD		PhraseCat=NP
@@ -8356,7 +8356,7 @@
 1	Som	som	SCONJ	_	_	0	--		PhraseCat=S|PromotedHead=Yes
 2	att	att	PART	_	_	1	OO		PhraseCat=SuP
 3	kolla	kolla	VERB	_	VerbForm=Inf|Voice=Act	2	OO		PhraseCat=VP
-4	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing	3	OO		PhraseCat=NP
+4	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	OO		PhraseCat=NP
 5	i	i	ADP	_	_	4	MD		PhraseCat=PP
 6	mejlen	mejl	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	OO		PhraseCat=PP
 7	till	till	ADP	_	_	1	MD		PhraseCat=PP
@@ -8459,7 +8459,7 @@
 7	du	du	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	SB		PhraseCat=S
 8	kan	kunna	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	6	OO		PhraseCat=S
 9	hålla	hålla	VERB	_	VerbForm=Inf|Voice=Act	8	IV		PhraseCat=VP
-10	lite	lite	ADV	_	Definite=Ind|Gender=Com|Number=Sing	11	MD		PhraseCat=NP
+10	lite	lite	ADV	_	Degree=Pos|Gender=Com	11	MD		PhraseCat=NP
 11	kolla	koll	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Typo=Yes	9	OO		CorrectForm=koll|PhraseCat=NP
 12	på	på	ADP	_	_	11	MD		PhraseCat=PP
 13	slutspurten	slutspurt	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	OO		PhraseCat=NP
@@ -8622,7 +8622,7 @@
 13	,	,	PUNCT	_	_	3	--		PhraseCat=Top
 14	likväl	likväl	CCONJ	_	_	17	cc		ExtXpos=KOM|PhraseCat=KoP
 15	som	som	CCONJ	_	_	11	ME		ExtXpos=KOM|PhraseCat=KoP
-16	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	17	DT		PhraseCat=NP
+16	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	DT		PhraseCat=NP
 17	bilder	bild	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	conj		PhraseCat=NP
 18	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 19	info	info	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	conj		PhraseCat=NP
@@ -8667,7 +8667,7 @@
 9	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 10	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	9	SB		PhraseCat=S
 11	väl	väl	ADV	_	_	9	MD		PhraseCat=S
-12	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	DT		PhraseCat=NP
+12	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	13	DT		PhraseCat=NP
 13	laddning	laddning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	OO		PhraseCat=NP|SpaceAfter=No
 14	?	?	PUNCT	_	_	9	--		PhraseCat=Top
 
@@ -8698,7 +8698,7 @@
 23	ju	ju	ADV	_	_	22	MD		PhraseCat=S
 24	spelad	spelad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	22	SP		PhraseCat=AjP
 25	rätt	rätt	ADV	_	_	26	MD		PhraseCat=NP
-26	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	24	MD		PhraseCat=NP|SpaceAfter=No
+26	mycket	mycket	ADV	_	Degree=Pos	24	MD		PhraseCat=NP|SpaceAfter=No
 27	.	.	PUNCT	_	_	5	--		PhraseCat=Top
 
 # sent_id = Blog_12325-1884438.10
@@ -8708,7 +8708,7 @@
 3	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	8	DT		PhraseCat=NP
 4	annan	annan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	MD		PhraseCat=NP|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	--		PhraseCat=Top
-6	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	7	MD		PhraseCat=AjP
+6	lite	lite	ADV	_	Degree=Pos	7	MD		PhraseCat=AjP
 7	äldre	gammal	ADJ	_	Case=Nom|Degree=Cmp	8	MD		PhraseCat=AjP
 8	dänga	dänga	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	OO		PhraseCat=NP|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	--		PhraseCat=Top
@@ -8717,7 +8717,7 @@
 # text = Från bandets lite mjukare period... Bandet är dessutom på väg att skriva nytt material, enligt senaste Close-Up har de ca 2 låtar klara och hoppas på att kunna släppa nästa giv i slutet av året eller början av nästa.
 1	Från	från	ADP	_	_	0	--		PhraseCat=PP
 2	bandets	band	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	DT		PhraseCat=NP
-3	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	4	MD		PhraseCat=AjP
+3	lite	lite	ADV	_	Degree=Pos	4	MD		PhraseCat=AjP
 4	mjukare	mjuk	ADJ	_	Case=Nom|Degree=Cmp	5	MD		PhraseCat=AjP
 5	period	period	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	OO		PhraseCat=NP|SpaceAfter=No
 6	...	...	PUNCT	_	_	1	--		PhraseCat=Top
@@ -8775,7 +8775,7 @@
 5	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	6	SB		PhraseCat=S
 6	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 7	väl	väl	ADV	_	_	6	MD		PhraseCat=S
-8	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	DT		PhraseCat=NP
+8	lite	lite	ADJ	_	Case=Nom|Degree=Pos	9	DT		PhraseCat=NP
 9	Napalm	Napalm	X	_	Foreign=Yes	6	OO		ExtXpos=UOM|PhraseCat=NP
 10	Death	Death	X	_	Foreign=Yes	9	ME		ExtXpos=UOM|PhraseCat=NP
 11	också	också	ADV	_	_	6	MD		PhraseCat=S|SpaceAfter=No
@@ -9018,7 +9018,7 @@
 2	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	SB		PhraseCat=S
 3	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 4	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	DT		PhraseCat=NP
-5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP
+5	mycket	mycket	ADV	_	Degree=Pos	6	MD		PhraseCat=AjP
 6	fint	fint	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	MD		PhraseCat=AjP
 7	sådant	sådan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	SP		PhraseCat=NP|PromotedHead=Yes|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	--		PhraseCat=Top
@@ -9253,7 +9253,7 @@
 12	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	13	SB		PhraseCat=S
 13	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	2	conj		PhraseCat=S
 14	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	DT		PhraseCat=NP
-15	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	16	MD		PhraseCat=AjP
+15	mycket	mycket	ADV	_	Degree=Pos	16	MD		PhraseCat=AjP
 16	fint	fin	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	MD		PhraseCat=AjP
 17	sätt	sätt	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	SP		PhraseCat=NP
 18	att	att	PART	_	_	17	MD		PhraseCat=SuP
@@ -9666,7 +9666,7 @@
 10	dagis	dagis	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	OO		PhraseCat=PP|SpaceAfter=No
 11	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 12	skakade	skaka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
-13	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	12	MD		PhraseCat=S
+13	lite	lite	ADV	_	Degree=Pos	12	MD		PhraseCat=S
 14	på	på	ADP	_	_	12	OA		PhraseCat=PP
 15	handen	hand	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	OO		PhraseCat=PP
 16	och	och	CCONJ	_	_	17	cc		PhraseCat=KoP
@@ -9708,7 +9708,7 @@
 2	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 3	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 4	fått	få	VERB	_	VerbForm=Sup|Voice=Act	2	IV		PhraseCat=VP
-5	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	6	DT		PhraseCat=NP
+5	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	DT		PhraseCat=NP
 6	frågor	fråga	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	OO		PhraseCat=NP
 7	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	SB		PhraseCat=S
 8	tänkte	tänka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	MD		PhraseCat=S
@@ -9873,7 +9873,7 @@
 
 # sent_id = Blog_265827-14454547.13
 # text = Mest för att jag är lat eller inte tillräckligt intresserad.
-1	Mest	mycket	ADV	_	Definite=Ind|Degree=Sup	2	MD		PhraseCat=PP
+1	Mest	mycket	ADV	_	Degree=Sup	2	MD		PhraseCat=PP
 2	för	för	ADP	_	_	0	--		PhraseCat=PP
 3	att	att	SCONJ	_	_	2	OO		PhraseCat=SuP
 4	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	SB		PhraseCat=S
@@ -10069,7 +10069,7 @@
 1	Även	även	ADV	_	_	2	MD		PhraseCat=VP
 2	kollat	kolla	VERB	_	VerbForm=Sup|Voice=Act	0	--		PhraseCat=VP
 3	upp	upp	ADV	_	_	2	PL		PhraseCat=VP
-4	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	5	DT		PhraseCat=NP
+4	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	DT		PhraseCat=NP
 5	tågresor	tågresa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	OO		PhraseCat=NP
 6	till	till	ADP	_	_	5	MD		PhraseCat=PP
 7	Borlänge	Borlänge	PROPN	_	Case=Nom	6	OO		PhraseCat=PP
@@ -10347,7 +10347,7 @@
 1	Sen	sen	ADV	_	_	2	MD		PhraseCat=S
 2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 3	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
-4	lite	lite	ADV	_	Definite=Ind|Gender=Com|Number=Sing	5	MD		PhraseCat=AjP
+4	lite	lite	ADV	_	Degree=Pos|Gender=Com	5	MD		PhraseCat=AjP
 5	rödprickig	rödprickig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	SP		PhraseCat=AjP
 6	också	också	ADV	_	_	2	MD		PhraseCat=S|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	--		PhraseCat=Top
@@ -10804,7 +10804,7 @@
 8	så	så	ADV	_	_	7	MD		PhraseCat=AjP|SpaceAfter=No
 9	,	,	PUNCT	_	_	1	--		PhraseCat=Top
 10	åt	äta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis		PhraseCat=S
-11	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	DT		PhraseCat=NP
+11	lite	lite	ADJ	_	Case=Nom|Degree=Pos	12	DT		PhraseCat=NP
 12	godis	godis	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	OO		PhraseCat=NP
 13	osv	och_så_vidare	ADV	_	Abbr=Yes	10	MD		PhraseCat=S|SpaceAfter=No
 14	.	.	PUNCT	_	_	1	--		PhraseCat=Top
@@ -10950,7 +10950,7 @@
 6	kojs	koj	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	5	OO		PhraseCat=PP
 7	och	och	CCONJ	_	_	8	cc		PhraseCat=KoP
 8	läsa	läsa	VERB	_	VerbForm=Inf|Voice=Act	2	conj		PhraseCat=VP
-9	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	DT		PhraseCat=NP
+9	lite	lite	ADJ	_	Case=Nom|Degree=Pos	10	DT		PhraseCat=NP
 10	Lapidus	Lapidus	PROPN	_	Case=Nom	8	OO		PhraseCat=NP|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	--		PhraseCat=Top
 12	imorgon	imorgon	ADV	_	_	13	OA		PhraseCat=S
@@ -11181,7 +11181,7 @@
 8	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 9	vilket	vilken	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	2	DF		PhraseCat=SuP
 10	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	9	OO		PhraseCat=S
-11	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	12	MD		PhraseCat=AjP
+11	mycket	mycket	ADV	_	Degree=Pos	12	MD		PhraseCat=AjP
 12	trevligt	trevlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	SP		PhraseCat=AjP|SpaceAfter=No
 13	!	!	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -11577,7 +11577,7 @@
 1	Vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	2	SB		PhraseCat=S
 2	hade	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	så	så	ADV	_	_	4	MD		PhraseCat=NP
-4	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	DT	5:DT|7:	PhraseCat=NP
+4	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos	5	DT	5:DT|7:	PhraseCat=NP
 5	godis	godis	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	OO		PhraseCat=NP
 6	och	och	CCONJ	_	_	7	cc		PhraseCat=KoP
 7	chips	chips	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	conj		PhraseCat=NP|SpaceAfter=No
@@ -11624,7 +11624,7 @@
 4	några	någon	DET	_	Definite=Ind|Number=Plur|PronType=Ind	5	DT		PhraseCat=NP
 5	timmar	timme	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	OO		PhraseCat=NP|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	--		PhraseCat=Top
-7	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	8	MD		PhraseCat=AjP
+7	lite	lite	ADV	_	Degree=Pos	8	MD		PhraseCat=AjP
 8	nervös	nervös	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	1	conj		PhraseCat=AjP
 9	haha	haha	INTJ	_	_	8	DF		PhraseCat=S|SpaceAfter=No
 10	!	!	PUNCT	_	_	1	--		PhraseCat=Top
@@ -11660,11 +11660,11 @@
 1	Man	man	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Ind	2	SB		PhraseCat=S
 2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	så	så	ADV	_	_	4	MD		PhraseCat=NP
-4	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=NP
+4	mycket	mycket	ADV	_	Degree=Pos	5	MD		PhraseCat=NP
 5	piggare	pigg	ADJ	_	Case=Nom|Degree=Cmp	2	SP		PhraseCat=AjP|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 7	orkar	orka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
-8	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	DT		PhraseCat=NP
+8	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos	9	DT		PhraseCat=NP
 9	mer	mycket	PRON	_	Degree=Cmp|PronType=Ind	7	OO		PhraseCat=NP|SpaceAfter=No
 10	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 11	gladare	glad	ADJ	_	Case=Nom|Degree=Cmp	2	conj		PhraseCat=S|PromotedHead=Yes
@@ -11732,7 +11732,7 @@
 5	massa	massa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis		PhraseCat=NP
 6	vitaminer	vitamin	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	MD		PhraseCat=NP
 7	och	och	CCONJ	_	_	9	cc		PhraseCat=KoP
-8	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	DT		PhraseCat=NP
+8	lite	lite	ADJ	_	Case=Nom|Degree=Pos	9	DT		PhraseCat=NP
 9	koffein	koffein	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	conj		PhraseCat=NP|SpaceAfter=No
 10	!	!	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -11759,7 +11759,7 @@
 # sent_id = Blog_265827-14889090.2
 # text = Blandade lite ekologisk naturell yoghurt med frysta bär och honung, och lite supermüsli på!
 1	Blandade	blanda	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
-2	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	DT		PhraseCat=NP
+2	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	5	DT		PhraseCat=NP
 3	ekologisk	ekologisk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	MD		PhraseCat=NP
 4	naturell	naturell	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	MD		PhraseCat=NP
 5	yoghurt	yoghurt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	OO		PhraseCat=NP
@@ -11770,7 +11770,7 @@
 10	honung	honung	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	conj		PhraseCat=KoP|SpaceAfter=No
 11	,	,	PUNCT	_	_	1	--		PhraseCat=Top
 12	och	och	CCONJ	_	_	1	DF		PhraseCat=S
-13	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	DT		PhraseCat=NP
+13	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	14	DT		PhraseCat=NP
 14	supermüsli	supermüsli	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	DF		PhraseCat=NP
 15	på	på	ADP	_	_	14	MD		PhraseCat=NP|SpaceAfter=No
 16	!	!	PUNCT	_	_	1	--		PhraseCat=Top
@@ -11782,7 +11782,7 @@
 3	macka	macka	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	--		PhraseCat=NP
 4	med	med	ADP	_	_	3	MD		PhraseCat=PP
 5	extra	extra	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	MD		PhraseCat=NP
-6	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	DT		PhraseCat=NP
+6	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos	7	DT		PhraseCat=NP
 7	smör	smör	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	OO		PhraseCat=NP
 8	på	på	ADP	_	_	7	MD		PhraseCat=NP|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	--		PhraseCat=Top
@@ -11931,7 +11931,7 @@
 6	house	house	X	_	Foreign=Yes	4	OO		ExtXpos=ENM|PhraseCat=PP
 7	(	(	PUNCT	_	_	1	--		PhraseCat=Top|SpaceAfter=No
 8	typ	typ	ADV	_	_	10	MD		PhraseCat=AjP
-9	lite	lite	ADV	_	Definite=Ind|Number=Plur	10	MD		PhraseCat=AjP
+9	lite	lite	ADV	_	Degree=Pos|Number=Plur	10	MD		PhraseCat=AjP
 10	söta	söt	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	DF		PhraseCat=AjP|SpaceAfter=No
 11	,	,	PUNCT	_	_	1	--		PhraseCat=Top
 12	sjukt	sjukt	ADV	_	Degree=Pos	13	MD		PhraseCat=AjP
@@ -12023,7 +12023,7 @@
 2	och	och	CCONJ	_	_	3	cc		PhraseCat=KoP
 3	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	1	conj		PhraseCat=KoP
 4	lagar	laga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
-5	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	DT		PhraseCat=NP
+5	lite	lite	ADJ	_	Case=Nom|Degree=Pos	6	DT		PhraseCat=NP
 6	TOM	TOM	X	_	Foreign=Yes	4	OO		ExtXpos=UOM|PhraseCat=NP
 7	KAH	KAH	X	_	Foreign=Yes	6	ME		ExtXpos=UOM|PhraseCat=NP
 8	SOUP	SOUP	X	_	Foreign=Yes	6	ME		ExtXpos=UOM|PhraseCat=NP|SpaceAfter=No
@@ -12038,7 +12038,7 @@
 # text = Ska plugga lite också...
 1	Ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 2	plugga	plugga	VERB	_	VerbForm=Inf|Voice=Act	1	IV		PhraseCat=VP
-3	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	2	MD		PhraseCat=VP
+3	lite	lite	ADV	_	Degree=Pos	2	MD		PhraseCat=VP
 4	också	också	ADV	_	_	2	MD		PhraseCat=VP|SpaceAfter=No
 5	...	...	PUNCT	_	_	1	--		PhraseCat=Top
 
@@ -12638,7 +12638,7 @@
 11	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	3	conj		PhraseCat=S
 12	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	SB		PhraseCat=S
 13	plugga	plugga	VERB	_	VerbForm=Inf|Voice=Act	11	IV		PhraseCat=VP
-14	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	13	MD		PhraseCat=VP|SpaceAfter=No
+14	lite	lite	ADV	_	Degree=Pos	13	MD		PhraseCat=VP|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	--		PhraseCat=Top
 
 # sent_id = Blog_265827-14454655.7
@@ -12738,7 +12738,7 @@
 2	hy	hy	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	SB	3:SB|4:	PhraseCat=NP
 3	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 4	blivit	bli	VERB	_	VerbForm=Sup|Voice=Act	3	IV		PhraseCat=VP
-5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP
+5	mycket	mycket	ADV	_	Degree=Pos	6	MD		PhraseCat=AjP
 6	jämnare	jämn	ADJ	_	Case=Nom|Degree=Cmp	4	SP		PhraseCat=AjP
 7	och	och	CCONJ	_	_	8	cc		PhraseCat=KoP
 8	finare	fin	ADJ	_	Case=Nom|Degree=Cmp	6	conj		PhraseCat=AjP|SpaceAfter=No
@@ -12789,7 +12789,7 @@
 2	blev	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	inte	inte	PART	_	Polarity=Neg	2	MD		PhraseCat=S
 4	så	så	ADV	_	_	5	MD		PhraseCat=NP
-5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=NP
+5	mycket	mycket	ADV	_	Degree=Pos	6	MD		PhraseCat=NP
 6	bättre	bra	ADJ	_	Case=Nom|Degree=Cmp	2	SP		PhraseCat=AjP|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -13050,7 +13050,7 @@
 4	mycket	mycket	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	OO		PhraseCat=NP|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 6	sprida	sprida	VERB	_	VerbForm=Inf|Voice=Act	2	parataxis		PhraseCat=VP
-7	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	DT		PhraseCat=NP
+7	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	8	DT		PhraseCat=NP
 8	lycka	lycka	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	OO		PhraseCat=NP|SpaceAfter=No
 9	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 10	liksom	liksom	ADV	_	_	6	MD		PhraseCat=VP|SpaceAfter=No
@@ -13614,7 +13614,7 @@
 2	tycker	tycka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	SB		PhraseCat=S
 4	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	2	OO		PhraseCat=S
-5	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP
+5	lite	lite	ADV	_	Degree=Pos	6	MD		PhraseCat=AjP
 6	spännande	spännande	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part	4	SP		PhraseCat=AjP
 7	att	att	SCONJ	_	_	4	ES		PhraseCat=SuP
 8	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	9	SB		PhraseCat=S
@@ -13871,7 +13871,7 @@
 14	att	att	SCONJ	_	_	12	OO		PhraseCat=SuP
 15	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	16	SB		PhraseCat=S
 16	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	14	OO		PhraseCat=S
-17	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	19	MD		PhraseCat=AjP
+17	lite	lite	ADV	_	Degree=Pos	19	MD		PhraseCat=AjP
 18	extra	extra	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	MD		PhraseCat=AjP
 19	obehagligt	obehaglig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	SP		PhraseCat=AjP
 20	att	att	SCONJ	_	_	16	ES		PhraseCat=SuP
@@ -14094,7 +14094,7 @@
 5	men	men	CCONJ	_	_	6	cc		PhraseCat=KoP
 6	finner	finna	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 7	inte	inte	PART	_	Polarity=Neg	6	MD		PhraseCat=S
-8	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=AjP
+8	mycket	mycket	ADV	_	Degree=Pos	9	MD		PhraseCat=AjP
 9	mer	mycket	PRON	_	Degree=Cmp|PronType=Ind	6	OO		PhraseCat=AjP
 10	än	än	SCONJ	_	_	9	JF		PhraseCat=SuP
 11	sina	sig	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	12	DT		PhraseCat=NP
@@ -14110,7 +14110,7 @@
 5	faktiskt	faktiskt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	4	MD		PhraseCat=S
 6	inte	inte	PART	_	Polarity=Neg	4	MD		PhraseCat=S
 7	så	så	ADV	_	_	8	MD		PhraseCat=NP
-8	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=NP
+8	mycket	mycket	ADV	_	Degree=Pos	9	MD		PhraseCat=NP
 9	mer	mycket	PRON	_	Degree=Cmp|PronType=Ind	4	ES		PhraseCat=AjP
 10	att	att	PART	_	_	9	MD		PhraseCat=SuP
 11	säga	säga	VERB	_	VerbForm=Inf|Voice=Act	10	OO		PhraseCat=SuP|SpaceAfter=No
@@ -14124,7 +14124,7 @@
 4	korrekta	korrekt	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	conj		PhraseCat=KoP
 5	språk	språk	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	SB		PhraseCat=NP
 6	och	och	CCONJ	_	_	9	cc		PhraseCat=KoP
-7	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	8	MD		PhraseCat=AjP
+7	lite	lite	ADV	_	Degree=Pos	8	MD		PhraseCat=AjP
 8	mystiska	mystisk	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	MD		PhraseCat=AjP
 9	fantasivärldselement	fantasivärldselement	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	conj		PhraseCat=NP
 10	dyker	dyka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
@@ -14136,7 +14136,7 @@
 16	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	15	SB		PhraseCat=S
 17	inte	inte	PART	_	Polarity=Neg	15	MD		PhraseCat=S
 18	så	så	ADV	_	_	19	MD		PhraseCat=NP
-19	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	20	MD		PhraseCat=NP
+19	mycket	mycket	ADV	_	Degree=Pos	20	MD		PhraseCat=NP
 20	mer	mycket	PRON	_	Degree=Cmp|PronType=Ind	15	ES		PhraseCat=AjP|SpaceAfter=No
 21	.	.	PUNCT	_	_	10	--		PhraseCat=Top
 
@@ -14150,7 +14150,7 @@
 6	av	av	ADP	_	_	5	AG		PhraseCat=PP
 7	vår	vi	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 8	tids	tid	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	11	DT		PhraseCat=NP
-9	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	10	MD		PhraseCat=AjP
+9	mest	mycket	ADV	_	Degree=Sup	10	MD		PhraseCat=AjP
 10	hypade	hypad	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	11	MD		PhraseCat=AjP
 11	författare	författare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	OO		PhraseCat=NP
 12	hade	ha	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
@@ -14231,7 +14231,7 @@
 11	faktiskt	faktisk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	MD		PhraseCat=S
 12	bland	bland	ADP	_	_	10	OA		PhraseCat=PP
 13	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	DT		PhraseCat=NP
-14	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	15	MD		PhraseCat=AjP
+14	mest	mycket	ADV	_	Degree=Sup	15	MD		PhraseCat=AjP
 15	betagande	betagande	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part	12	OO		PhraseCat=AjP|SpaceAfter=No
 16	,	,	PUNCT	_	_	4	--		PhraseCat=Top
 17	ömsinta	ömsint	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	conj		PhraseCat=AjP
@@ -14241,7 +14241,7 @@
 21	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	15	conj	18:KL|15:|17:	PhraseCat=S
 22	läst	läsa	VERB	_	VerbForm=Sup|Voice=Act	21	IV		PhraseCat=VP
 23	på	på	ADP	_	_	22	MD		PhraseCat=PP
-24	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	25	MD		PhraseCat=AbP
+24	mycket	mycket	ADV	_	Degree=Pos	25	MD		PhraseCat=AbP
 25	länge	länge	ADV	_	Degree=Pos	23	OO		PhraseCat=AbP|SpaceAfter=No
 26	.	.	PUNCT	_	_	4	--		PhraseCat=Top
 
@@ -14561,7 +14561,7 @@
 4	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 5	upp	upp	ADV	_	_	4	PL		PhraseCat=S
 6	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	DT		PhraseCat=NP
-7	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	8	MD		PhraseCat=AjP
+7	mest	mycket	ADV	_	Degree=Sup	8	MD		PhraseCat=AjP
 8	centrala	central	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	OO		PhraseCat=AjP
 9	i	i	ADP	_	_	8	MD		PhraseCat=PP
 10	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	11	DT		PhraseCat=NP
@@ -14607,7 +14607,7 @@
 2	hemliga	hemlig	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	MD		PhraseCat=NP
 3	historien	historia	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	SB		PhraseCat=NP
 4	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
-5	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing	4	SP		PhraseCat=NP
+5	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	SP		PhraseCat=NP
 6	av	av	ADP	_	_	5	MD		PhraseCat=PP
 7	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	9	DT		PhraseCat=NP
 8	moden	modern	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Typo=Yes	9	MD		CorrectForm=modern|PhraseCat=NP
@@ -14691,7 +14691,7 @@
 20	händelse	händelse	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	OO		PhraseCat=NP
 21	samt	samt	CCONJ	_	_	24	cc		PhraseCat=KoP
 22	ganska	ganska	ADV	_	_	23	MD		PhraseCat=NP
-23	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	DT	24:DT|26:	PhraseCat=NP
+23	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	24	DT	24:DT|26:	PhraseCat=NP
 24	sprit	sprit	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	conj		PhraseCat=NP
 25	och	och	CCONJ	_	_	26	cc		PhraseCat=KoP
 26	droger	drog	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	24	conj		PhraseCat=NP
@@ -14811,7 +14811,7 @@
 41	intressant	intressant	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	39	SP		PhraseCat=AjP
 42	och	och	CCONJ	_	_	43	cc		PhraseCat=KoP
 43	väcker	väcka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	39	conj		PhraseCat=S
-44	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	45	DT		PhraseCat=NP
+44	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	45	DT		PhraseCat=NP
 45	tankar	tanke	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	43	OO		PhraseCat=NP
 46	för	för	ADP	_	_	43	MD		PhraseCat=PP
 47	den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	46	OO		PhraseCat=NP
@@ -14885,7 +14885,7 @@
 1	Boken	bok	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	SB		PhraseCat=S
 2	tappade	tappa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	nog	nog	ADV	_	_	2	MD		PhraseCat=S
-4	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	DT		PhraseCat=NP
+4	lite	lite	ADJ	_	Case=Nom|Degree=Pos	5	DT		PhraseCat=NP
 5	fart	fart	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	OO		PhraseCat=NP
 6	ungefär	ungefär	ADV	_	_	7	MD		PhraseCat=AbP
 7	halvvägs	halvvägs	ADV	_	_	2	RA		PhraseCat=AbP|SpaceAfter=No
@@ -15049,7 +15049,7 @@
 3	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	SB		PhraseCat=S
 4	gillar	gilla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	OO		PhraseCat=S
 5	extra	extra	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	MD		PhraseCat=NP
-6	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	4	MD		PhraseCat=NP
+6	mycket	mycket	ADV	_	Degree=Pos	4	MD		PhraseCat=NP
 7	med	med	ADP	_	_	4	OO		PhraseCat=PP
 8	Harry Potter-böckerna	Harry_Potterbok	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	7	OO		PhraseCat=PP
 9	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
@@ -15076,7 +15076,7 @@
 30	och	och	CCONJ	_	_	32	cc		PhraseCat=KoP
 31	faktiskt	faktiskt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	32	MD		PhraseCat=S
 32	handlar	handla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj		PhraseCat=S
-33	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	32	MD		PhraseCat=S
+33	mycket	mycket	ADV	_	Degree=Pos	32	MD		PhraseCat=S
 34	om	om	ADP	_	_	32	OA		PhraseCat=PP
 35	rasism	rasism	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	OO		PhraseCat=PP|SpaceAfter=No
 36	.	.	PUNCT	_	_	9	--		PhraseCat=Top
@@ -15217,7 +15217,7 @@
 1	Jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	tycker	tycka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	väldigt	väldig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	MD		PhraseCat=NP
-4	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	2	MD		PhraseCat=NP
+4	mycket	mycket	ADV	_	Degree=Pos	2	MD		PhraseCat=NP
 5	om	om	ADP	_	_	2	PL		PhraseCat=S
 6	ljudböcker	ljudbok	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	OO		PhraseCat=S|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	--		PhraseCat=Top
@@ -15657,7 +15657,7 @@
 1	Tänkte	tänka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 2	inte	inte	PART	_	Polarity=Neg	1	MD		PhraseCat=S
 3	så	så	ADV	_	_	4	MD		PhraseCat=NP
-4	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=NP
+4	mycket	mycket	ADV	_	Degree=Pos	5	MD		PhraseCat=NP
 5	mer	mycket	ADV	_	Degree=Cmp	1	MD		PhraseCat=AjP
 6	än	än	SCONJ	_	_	5	JF		PhraseCat=SuP
 7	den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	SB		PhraseCat=S
@@ -15692,7 +15692,7 @@
 # sent_id = Blog_5089-9048317.7
 # text = Å mycket riktigt, jag skulle få mina pengar på många, alla tolvhundra kronorna...!?
 1	Å	och	CCONJ	_	_	6	DF		PhraseCat=S
-2	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	3	MD		PhraseCat=AjP
+2	mycket	mycket	ADV	_	Degree=Pos	3	MD		PhraseCat=AjP
 3	riktigt	riktigt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	--		PhraseCat=Top
 5	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	SB		PhraseCat=S
@@ -15889,7 +15889,7 @@
 6	handläggaren	handläggare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	SB	12:SB|32:|30:|16:	PhraseCat=NP
 7	som	som	SCONJ	_	_	6	MD		PhraseCat=SuP
 8	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	7	OO		PhraseCat=S
-9	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	10	MD		PhraseCat=AjP
+9	mycket	mycket	ADV	_	Degree=Pos	10	MD		PhraseCat=AjP
 10	trevlig	trevlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	SP		PhraseCat=AjP|SpaceAfter=No
 11	,	,	PUNCT	_	_	3	--		PhraseCat=Top
 12	bad	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis		PhraseCat=S
@@ -16054,7 +16054,7 @@
 9	Lindex	Lindex	PROPN	_	Case=Nom	8	OO		PhraseCat=NP
 10	där	där	SCONJ	_	_	9	MD		PhraseCat=SuP
 11	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	SB		PhraseCat=S
-12	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	13	MD		PhraseCat=S
+12	mest	mycket	ADV	_	Degree=Sup	13	MD		PhraseCat=S
 13	konstaterade	konstatera	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	OO		PhraseCat=S
 14	att	att	SCONJ	_	_	13	OO		PhraseCat=SuP
 15	inget	ingen	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	16	SB		PhraseCat=S
@@ -16167,7 +16167,7 @@
 9	å	och	CCONJ	_	_	10	cc		PhraseCat=KoP
 10	spana	spana	VERB	_	VerbForm=Inf|Voice=Act	7	conj		PhraseCat=VP
 11	så	så	ADV	_	_	12	MD		PhraseCat=NP
-12	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	10	MD		PhraseCat=NP|SpaceAfter=No
+12	mycket	mycket	ADV	_	Degree=Pos	10	MD		PhraseCat=NP|SpaceAfter=No
 13	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 14	men	men	CCONJ	_	_	22	cc		PhraseCat=KoP
 15	på	på	ADP	_	_	22	MD		PhraseCat=PP
@@ -16399,7 +16399,7 @@
 1	(	(	PUNCT	_	_	2	--		PhraseCat=Top|SpaceAfter=No
 2	kommentera	kommentera	VERB	_	Mood=Imp|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	gärna	gärna	ADV	_	_	2	MD		PhraseCat=S
-4	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	2	MD		PhraseCat=S|SpaceAfter=No
+4	lite	lite	ADV	_	Degree=Pos	2	MD		PhraseCat=S|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 6	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	7	SB		PhraseCat=S
 7	händer	hända	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis		PhraseCat=S
@@ -16700,7 +16700,7 @@
 14	wiiet	Wii	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	ME		ExtXpos=ENM|PhraseCat=NP
 15	som	som	SCONJ	_	_	13	MD		PhraseCat=SuP
 16	annars	annars	ADV	_	_	18	MD		PhraseCat=S
-17	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	18	MD		PhraseCat=S
+17	mest	mycket	ADV	_	Degree=Sup	18	MD		PhraseCat=S
 18	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	OO		PhraseCat=S
 19	här	här	ADV	_	_	18	RA		PhraseCat=S
 20	å	och	CCONJ	_	_	21	cc		PhraseCat=KoP
@@ -16710,7 +16710,7 @@
 # sent_id = Blog_5089-12282516.18
 # text = Tycker mest han önskar sej å får en massa nyttogrejer så utöver tandborsten slog jag till på ett spel å en True Blood-sox med tre säsonger till honom. :D
 1	Tycker	tycka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
-2	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	1	MD		PhraseCat=S
+2	mest	mycket	ADV	_	Degree=Sup	1	MD		PhraseCat=S
 3	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	SB		PhraseCat=S
 4	önskar	önska	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	OO		PhraseCat=S
 5	sej	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	4	IO		PhraseCat=S
@@ -17222,7 +17222,7 @@
 24	del	del	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	OO		PhraseCat=NP|SpaceAfter=No
 25	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 26	men	men	CCONJ	_	_	29	cc		PhraseCat=KoP
-27	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	DT		PhraseCat=NP
+27	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	28	DT		PhraseCat=NP
 28	vila	vila	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	32	OO		PhraseCat=NP
 29	ska	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	2	conj		PhraseCat=S
 30	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	29	SB		PhraseCat=S
@@ -17326,7 +17326,7 @@
 4	affären	affär	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	OO		PhraseCat=PP
 5	å	och	CCONJ	_	_	6	cc		PhraseCat=KoP
 6	handla	handla	VERB	_	VerbForm=Inf|Voice=Act	2	conj		PhraseCat=VP
-7	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	DT		PhraseCat=NP
+7	lite	lite	ADJ	_	Case=Nom|Degree=Pos	8	DT		PhraseCat=NP
 8	bröd	bröd	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	OO		PhraseCat=NP
 9	å	och	CCONJ	_	_	10	cc		PhraseCat=KoP
 10	blöjor	blöja	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	conj		PhraseCat=KoP
@@ -17344,7 +17344,7 @@
 22	å	och	CCONJ	_	_	23	cc		PhraseCat=KoP
 23	vädra	vädra	VERB	_	VerbForm=Inf|Voice=Act	19	conj		PhraseCat=VP
 24	oss	vi	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	23	OO		PhraseCat=VP
-25	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	23	MD		PhraseCat=VP
+25	lite	lite	ADV	_	Degree=Pos	23	MD		PhraseCat=VP
 26	på	på	ADP	_	_	23	RA		PhraseCat=PP
 27	tomten	tomt	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	OO		PhraseCat=PP
 28	i	i	ADP	_	_	23	MD		PhraseCat=PP
@@ -17618,7 +17618,7 @@
 14	i	i	ADP	_	_	17	MD		PhraseCat=PP
 15	alla	all	DET	_	Definite=Ind|Number=Plur|PronType=Tot	16	DT		PhraseCat=NP|SpaceAfter=No
 16	fall	fall	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	OO		PhraseCat=NP
-17	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	DT		PhraseCat=NP
+17	lite	lite	ADJ	_	Case=Nom|Degree=Pos	18	DT		PhraseCat=NP
 18	kaos	kaos	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	OO		PhraseCat=NP|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -18483,7 +18483,7 @@
 12	å	och	CCONJ	_	_	17	cc		PhraseCat=KoP
 13	efter	efter	ADP	_	_	17	MD		PhraseCat=PP
 14	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	16	DT		PhraseCat=NP
-15	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	16	MD		PhraseCat=NP
+15	mycket	mycket	ADV	_	Degree=Pos	16	MD		PhraseCat=NP
 16	kämpande	kämpande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	OO		PhraseCat=NP
 17	visade	visa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 18	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	17	SB		PhraseCat=S
@@ -18634,7 +18634,7 @@
 5	kul	kul	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	MD		PhraseCat=NP
 6	grejer	grej	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	OO		PhraseCat=NP
 7	å	och	CCONJ	_	_	9	cc		PhraseCat=KoP
-8	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	DT		PhraseCat=NP
+8	lite	lite	ADJ	_	Case=Nom|Degree=Pos	9	DT		PhraseCat=NP
 9	praktiska	praktisk	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	conj		PhraseCat=NP|PromotedHead=Yes
 10	med	med	ADV	_	_	9	MD		PhraseCat=S|SpaceAfter=No
 11	,	,	PUNCT	_	_	2	--		PhraseCat=Top
@@ -18883,7 +18883,7 @@
 1	Allt	all	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	2	SB		PhraseCat=S
 2	känns	kännas	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	--		PhraseCat=S
 3	så	så	ADV	_	_	4	MD		PhraseCat=NP
-4	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=NP
+4	mycket	mycket	ADV	_	Degree=Pos	5	MD		PhraseCat=NP
 5	värre	ond	ADJ	_	Case=Nom|Degree=Cmp	2	MD		PhraseCat=AjP
 6	när	när	ADV	_	_	2	MD		PhraseCat=SuP
 7	man	man	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Ind	8	SB		PhraseCat=S
@@ -19159,7 +19159,7 @@
 13	en	en	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	OO		PhraseCat=NP|PromotedHead=Yes
 14	av	av	ADP	_	_	13	MD		PhraseCat=PP
 15	mellanösterns	Mellanöstern	PROPN	_	Case=Gen	18	DT		PhraseCat=NP
-16	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	17	MD		PhraseCat=AjP
+16	mest	mycket	ADV	_	Degree=Sup	17	MD		PhraseCat=AjP
 17	förtryckande	förtryckande	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part	18	MD		PhraseCat=AjP
 18	regimer	regim	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	MD		PhraseCat=NP|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	--		PhraseCat=Top
@@ -19351,7 +19351,7 @@
 3	antagligen	antagligen	ADV	_	_	2	MD		PhraseCat=S
 4	inte	inte	PART	_	Polarity=Neg	2	MD		PhraseCat=S
 5	så	så	ADV	_	_	6	MD		PhraseCat=NP
-6	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	DT		PhraseCat=NP
+6	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos	7	DT		PhraseCat=NP
 7	demokratitänkande	demokratitänkande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	ES		PhraseCat=NP
 8	på	på	ADP	_	_	2	MD	2:MD|13:	PhraseCat=PP
 9	Vasas	Vasa	PROPN	_	Case=Gen	10	DT		PhraseCat=NP
@@ -19637,7 +19637,7 @@
 3	få	få	AUX	_	VerbForm=Inf|Voice=Act	2	OO		PhraseCat=VP
 4	andas	andas	VERB	_	VerbForm=Inf	3	IV		PhraseCat=VP
 5	in	in	ADV	_	_	4	PL		PhraseCat=VP
-6	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	DT		PhraseCat=NP
+6	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	7	DT		PhraseCat=NP
 7	atmosfär	atmosfär	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	OO		PhraseCat=NP
 8	så	så	ADV	_	_	10	MD		ExtXpos=ABM|PhraseCat=PP
 9	här	här	ADV	_	_	8	ME		ExtXpos=ABM|PhraseCat=PP
@@ -19806,7 +19806,7 @@
 5	verkar	verka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 6	för	för	ADP	_	_	5	MD		PhraseCat=PP
 7	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	OO		PhraseCat=PP
-8	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=AjP
+8	mycket	mycket	ADV	_	Degree=Pos	9	MD		PhraseCat=AjP
 9	besynnerligt	besynnerlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	OA		PhraseCat=AjP|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	--		PhraseCat=Top
 
@@ -19969,7 +19969,7 @@
 
 # sent_id = Blog_9154-4554171.3
 # text = Mycket skönt att höra!
-1	Mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	2	MD		PhraseCat=AjP
+1	Mycket	mycket	ADV	_	Degree=Pos	2	MD		PhraseCat=AjP
 2	skönt	skön	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	--		PhraseCat=AjP
 3	att	att	PART	_	_	2	OO		PhraseCat=SuP
 4	höra	höra	VERB	_	VerbForm=Inf|Voice=Act	3	OO		PhraseCat=SuP|SpaceAfter=No
@@ -20104,7 +20104,7 @@
 3	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 4	lyssna	lyssna	VERB	_	VerbForm=Inf|Voice=Act	2	IV		PhraseCat=VP
 5	på	på	ADP	_	_	4	MD		PhraseCat=PP
-6	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	DT		PhraseCat=NP
+6	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	7	DT		PhraseCat=NP
 7	musik	musik	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	OO		PhraseCat=NP
 8	innan	innan	SCONJ	_	_	4	MD		PhraseCat=SuP
 9	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	SB		PhraseCat=S
@@ -20463,7 +20463,7 @@
 1	Själva	själv	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	MD		PhraseCat=NP
 2	filmen	film	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	SB		PhraseCat=NP
 3	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
-4	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=AjP
+4	mycket	mycket	ADV	_	Degree=Pos	5	MD		PhraseCat=AjP
 5	bättre	bra	ADJ	_	Case=Nom|Degree=Cmp	3	SP		PhraseCat=AjP
 6	än	än	SCONJ	_	_	5	JF		PhraseCat=SuP
 7	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	SB		PhraseCat=S
@@ -20979,7 +20979,7 @@
 18	mammas	mamma	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	11	conj		PhraseCat=NP
 19	och	och	CCONJ	_	_	20	cc		PhraseCat=KoP
 20	snackas	snacka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj		PhraseCat=S
-21	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	20	MD		PhraseCat=S
+21	lite	lite	ADV	_	Degree=Pos	20	MD		PhraseCat=S
 
 # sent_id = Blog_54523-8202951.12b
 # text = efter en stund kände jag att det var dax att gå hem och vila, smärtan var på gång, så hem och ta lite piller, har morfin och citadon och det hjälpte inte nått,
@@ -21007,7 +21007,7 @@
 22	hem	hem	ADV	_	_	17	conj		PhraseCat=KoP
 23	och	och	CCONJ	_	_	24	cc		PhraseCat=KoP
 24	ta	ta	VERB	_	VerbForm=Inf|Voice=Act	22	conj		PhraseCat=VP
-25	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	26	DT		PhraseCat=NP
+25	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	DT		PhraseCat=NP
 26	piller	piller	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	24	OO		PhraseCat=NP|SpaceAfter=No
 27	,	,	PUNCT	_	_	4	--		PhraseCat=Top
 28	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis		PhraseCat=S
@@ -21935,7 +21935,7 @@
 13	men	men	CCONJ	_	_	15	cc		PhraseCat=KoP
 14	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	15	SB		PhraseCat=S
 15	blev	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
-16	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	DT		PhraseCat=NP
+16	lite	lite	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	17	DT		PhraseCat=NP
 17	cola	cola	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	ES		PhraseCat=NP
 18	innan	innan	ADV	_	_	15	MD		PhraseCat=PP
 19	och	och	CCONJ	_	_	20	cc		PhraseCat=KoP
@@ -23080,7 +23080,7 @@
 3	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	4	DT		PhraseCat=NP
 4	personer	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	OO		PhraseCat=NP
 5	som	som	SCONJ	_	_	4	MD		PhraseCat=SuP
-6	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	7	MD		PhraseCat=AbP
+6	mycket	mycket	ADV	_	Degree=Pos	7	MD		PhraseCat=AbP
 7	nyligen	nyligen	ADV	_	_	8	MD		PhraseCat=AbP
 8	mördades	mörda	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	5	OO		PhraseCat=S
 9	i	i	ADP	_	_	8	RA		PhraseCat=PP
@@ -23154,7 +23154,7 @@
 50	lösning	lösning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	47	OO		PhraseCat=NP
 51	på	på	ADP	_	_	50	MD		PhraseCat=PP
 52	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	55	DT		PhraseCat=NP
-53	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	54	MD		PhraseCat=AjP
+53	mycket	mycket	ADV	_	Degree=Pos	54	MD		PhraseCat=AjP
 54	komplicerad	komplicerad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	55	MD		PhraseCat=AjP
 55	situation	situation	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	51	OO		PhraseCat=NP|SpaceAfter=No
 56	?	?	PUNCT	_	_	1	--		PhraseCat=Top
@@ -23179,7 +23179,7 @@
 16	föreslagit	föreslå	VERB	_	VerbForm=Sup|Voice=Act	13	MD		PhraseCat=VP
 17	skulle	skola	AUX	_	Mood=Ind|Tense=Past|Voice=Act	8	OO		PhraseCat=S
 18	vara	vara	AUX	_	VerbForm=Inf|Voice=Act	17	IV		PhraseCat=VP
-19	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	20	MD		PhraseCat=AjP
+19	mycket	mycket	ADV	_	Degree=Pos	20	MD		PhraseCat=AjP
 20	lämpligt	lämplig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	SP		PhraseCat=AjP|SpaceAfter=No
 21	.	.	PUNCT	_	_	7	--		PhraseCat=Top
 
@@ -23802,7 +23802,7 @@
 5	,	,	PUNCT	_	_	7	--		PhraseCat=Top
 6	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	SB		PhraseCat=S
 7	skall	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
-8	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=AbP
+8	mycket	mycket	ADV	_	Degree=Pos	9	MD		PhraseCat=AbP
 9	gärna	gärna	ADV	_	Degree=Pos	7	MD		PhraseCat=AbP
 10	granska	granska	VERB	_	VerbForm=Inf|Voice=Act	7	IV		PhraseCat=VP
 11	fakta	fakta	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	OO		PhraseCat=NP
@@ -24338,7 +24338,7 @@
 7	saker	sak	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	SB		PhraseCat=KoP
 8	och	och	CCONJ	_	_	9	cc		PhraseCat=KoP
 9	ting	ting	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	7	conj		PhraseCat=KoP
-10	litet	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	11	MD		PhraseCat=AjP
+10	litet	lite	ADV	_	Degree=Pos	11	MD		PhraseCat=AjP
 11	oklara	oklar	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	SP		PhraseCat=AjP|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -24350,7 +24350,7 @@
 4	se	se	VERB	_	VerbForm=Inf|Voice=Act	2	IV		PhraseCat=VP
 5	över	över	ADP	_	_	4	PL		PhraseCat=VP
 6	detta	denna	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	OO		PhraseCat=VP
-7	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	8	MD		PhraseCat=AjP
+7	mycket	mycket	ADV	_	Degree=Pos	8	MD		PhraseCat=AjP
 8	noga	noga	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	MD		PhraseCat=AjP
 9	så	så	CCONJ	_	_	11	cc		PhraseCat=KoP
 10	allt	all	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	11	SB		PhraseCat=S
@@ -25615,7 +25615,7 @@
 10	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 11	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 12	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	15	DT		PhraseCat=NP
-13	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	14	MD		PhraseCat=AjP
+13	mycket	mycket	ADV	_	Degree=Pos	14	MD		PhraseCat=AjP
 14	stor	stor	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	MD		PhraseCat=AjP
 15	majoritet	majoritet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	SB		PhraseCat=NP
 16	av	av	ADP	_	_	15	MD		PhraseCat=PP
@@ -26526,7 +26526,7 @@
 19	som	som	SCONJ	_	_	18	MD		PhraseCat=SuP
 20	fattats	fatta	VERB	_	VerbForm=Sup|Voice=Pass	19	OO		PhraseCat=VP
 21	med	med	ADP	_	_	20	MD		PhraseCat=PP
-22	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	23	MD		PhraseCat=AjP
+22	mycket	mycket	ADV	_	Degree=Pos	23	MD		PhraseCat=AjP
 23	liten	liten	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	24	MD		PhraseCat=AjP
 24	marginal	marginal	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	OO		PhraseCat=NP
 25	i	i	ADP	_	_	20	MD		PhraseCat=PP
@@ -26603,7 +26603,7 @@
 2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 3	inte	inte	PART	_	Polarity=Neg	2	MD		PhraseCat=S
 4	för	för	ADV	_	_	5	MD		PhraseCat=NP
-5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=NP
+5	mycket	mycket	ADV	_	Degree=Pos	6	MD		PhraseCat=NP
 6	begärt	begärd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	2	SP		PhraseCat=AjP|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -27301,7 +27301,7 @@
 13	kommer	komma	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	12	OO		PhraseCat=S
 14	att	att	PART	_	_	13	IV		PhraseCat=SuP
 15	leda	leda	VERB	_	VerbForm=Inf|Voice=Act	14	OO		PhraseCat=VP
-16	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	17	MD		PhraseCat=AjP
+16	mycket	mycket	ADV	_	Degree=Pos	17	MD		PhraseCat=AjP
 17	långt	lång	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	OA		PhraseCat=AjP|SpaceAfter=No
 18	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -27379,7 +27379,7 @@
 2	skall	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 3	alltså	alltså	ADV	_	_	2	MD		PhraseCat=S
 4	vara	vara	AUX	_	VerbForm=Inf|Voice=Act	2	IV		PhraseCat=VP
-5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP
+5	mycket	mycket	ADV	_	Degree=Pos	6	MD		PhraseCat=AjP
 6	noggranna	noggrann	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	SP		PhraseCat=AjP
 7	vid	vid	ADP	_	_	2	MD		PhraseCat=PP
 8	upprättandet	upprättande	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	OO		PhraseCat=NP
@@ -27642,7 +27642,7 @@
 31	följd	följd	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	OO		PhraseCat=NP
 32	av	av	ADP	_	_	31	MD		PhraseCat=PP
 33	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	37	DT		PhraseCat=NP
-34	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	35	MD		PhraseCat=AjP
+34	mest	mycket	ADV	_	Degree=Sup	35	MD		PhraseCat=AjP
 35	skilda	skild	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	37	MD	37:MD|39:	PhraseCat=AjP
 36	nationella	nationell	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	37	MD		PhraseCat=NP
 37	utbildningsstrukturer	utbildningsstruktur	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	32	OO		PhraseCat=NP
@@ -28195,7 +28195,7 @@
 27	att	att	SCONJ	_	_	26	OO		PhraseCat=SuP
 28	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	29	SB		PhraseCat=S
 29	återstår	återstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	OO		PhraseCat=S
-30	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	31	DT		PhraseCat=NP
+30	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos	31	DT		PhraseCat=NP
 31	mer	mycket	PRON	_	Degree=Cmp|PronType=Ind	29	ES		PhraseCat=NP
 32	att	att	PART	_	_	31	MD		PhraseCat=SuP
 33	göra	göra	VERB	_	VerbForm=Inf|Voice=Act	32	OO		PhraseCat=VP
@@ -28272,7 +28272,7 @@
 14	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	SB		PhraseCat=S
 15	på	på	ADP	_	_	20	MD		PhraseCat=PP
 16	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	19	DT		PhraseCat=NP
-17	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	18	MD		PhraseCat=AjP
+17	mycket	mycket	ADV	_	Degree=Pos	18	MD		PhraseCat=AjP
 18	seriöst	seriös	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	MD		PhraseCat=AjP
 19	sätt	sätt	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	OO		PhraseCat=NP
 20	behandlat	behandla	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	OO		PhraseCat=VP
@@ -28385,10 +28385,10 @@
 64	allmänheten	allmänhet	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	63	OO		PhraseCat=VP
 65	måste	måste	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	47	conj		PhraseCat=S
 66	vara	vara	AUX	_	VerbForm=Inf|Voice=Act	65	IV		PhraseCat=VP
-67	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	68	MD		PhraseCat=AjP
+67	mycket	mycket	ADV	_	Degree=Pos	68	MD		PhraseCat=AjP
 68	motiverade	motiverad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	66	SP		PhraseCat=AjP
 69	och	och	CCONJ	_	_	71	cc		PhraseCat=KoP
-70	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	71	MD		PhraseCat=AjP
+70	mycket	mycket	ADV	_	Degree=Pos	71	MD		PhraseCat=AjP
 71	kvalificerade	kvalificerad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	68	conj		PhraseCat=AjP|SpaceAfter=No
 72	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -28505,7 +28505,7 @@
 9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 10	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	9	SB		PhraseCat=S
 11	fortfarande	fortfarande	ADV	_	_	9	MD		PhraseCat=S
-12	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	DT		PhraseCat=NP
+12	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos	13	DT		PhraseCat=NP
 13	arbete	arbete	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	OO		PhraseCat=NP
 14	kvar	kvar	ADV	_	_	15	MD		PhraseCat=PP
 15	på	på	ADP	_	_	9	MD		PhraseCat=PP
@@ -28731,7 +28731,7 @@
 18	men	men	CCONJ	_	_	19	cc		PhraseCat=KoP
 19	som	som	SCONJ	_	_	12	conj		PhraseCat=SuP
 20	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	OO		PhraseCat=S
-21	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	22	MD		PhraseCat=AjP
+21	mycket	mycket	ADV	_	Degree=Pos	22	MD		PhraseCat=AjP
 22	stor	stor	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	23	MD		PhraseCat=AjP
 23	betydelse	betydelse	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	OO		PhraseCat=NP
 24	för	för	ADP	_	_	23	MD		PhraseCat=PP
@@ -29355,7 +29355,7 @@
 24	tvekan	tvekan	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	MD		ExtXpos=ABM|PhraseCat=S
 25	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	22	OO		PhraseCat=S
 26	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	29	DT		PhraseCat=NP
-27	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	28	MD		PhraseCat=AjP
+27	mycket	mycket	ADV	_	Degree=Pos	28	MD		PhraseCat=AjP
 28	känslig	känslig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	29	MD		PhraseCat=AjP
 29	fråga	fråga	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	SP		PhraseCat=NP
 30	för	för	ADP	_	_	29	MD		PhraseCat=PP
@@ -29977,7 +29977,7 @@
 46	gäller	gälla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	42	MD		ExtXpos=PEM|PhraseCat=PP
 47	transport	transport	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	46	OO		PhraseCat=NP
 48	av	av	ADP	_	_	47	MD		PhraseCat=PP
-49	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	50	MD		PhraseCat=AjP
+49	mycket	mycket	ADV	_	Degree=Pos	50	MD		PhraseCat=AjP
 50	ringa	ringa	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	51	MD		PhraseCat=AjP
 51	mängder	mängd	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	48	OO		PhraseCat=NP
 52	farligt	farlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	53	MD		PhraseCat=NP
@@ -29985,7 +29985,7 @@
 54	på	på	ADP	_	_	47	MD		PhraseCat=PP
 55	geografiskt	geografiskt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	56	MD		PhraseCat=AjP
 56	sett	sett	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	59	MD		PhraseCat=AjP
-57	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	58	MD		PhraseCat=AjP
+57	mycket	mycket	ADV	_	Degree=Pos	58	MD		PhraseCat=AjP
 58	strängt	strängt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	59	MD		PhraseCat=AjP
 59	avgränsade	avgränsad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	60	MD		PhraseCat=AjP
 60	områden	område	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	54	OO		PhraseCat=NP|SpaceAfter=No
@@ -30381,7 +30381,7 @@
 20	bestämmelser	bestämmelse	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	OO		PhraseCat=NP
 21	för	för	ADP	_	_	17	MD		PhraseCat=PP
 22	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	25	DT		PhraseCat=NP
-23	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	24	MD		PhraseCat=AjP
+23	mycket	mycket	ADV	_	Degree=Pos	24	MD		PhraseCat=AjP
 24	kort	kort	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	25	MD		PhraseCat=AjP
 25	tid	tid	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	OO		PhraseCat=NP|SpaceAfter=No
 26	,	,	PUNCT	_	_	2	--		PhraseCat=Top
@@ -30724,7 +30724,7 @@
 34	,	,	PUNCT	_	_	14	--		PhraseCat=Top
 35	som	som	SCONJ	_	_	33	MD		PhraseCat=SuP
 36	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	35	OO		PhraseCat=S
-37	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	38	MD		PhraseCat=AjP
+37	mycket	mycket	ADV	_	Degree=Pos	38	MD		PhraseCat=AjP
 38	senfärdig	senfärdig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	36	SP		PhraseCat=AjP
 39	med	med	ADP	_	_	38	OA		PhraseCat=PP
 40	att	att	PART	_	_	39	OO		PhraseCat=SuP
@@ -31019,7 +31019,7 @@
 5	måste	måste	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 6	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	5	SB		PhraseCat=S
 7	föra	föra	VERB	_	VerbForm=Inf|Voice=Act	5	IV		PhraseCat=VP
-8	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=AjP
+8	mycket	mycket	ADV	_	Degree=Pos	9	MD		PhraseCat=AjP
 9	mer	mycket	ADV	_	Degree=Cmp	10	MD		PhraseCat=AjP
 10	intensiva	intensiv	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	MD		PhraseCat=AjP
 11	och	och	CCONJ	_	_	12	cc		PhraseCat=KoP
@@ -31172,7 +31172,7 @@
 3	runtom	runtom	ADV	_	_	4	MD		PhraseCat=PP
 4	i	i	ADP	_	_	2	RA		PhraseCat=PP
 5	EU	EU	PROPN	_	Case=Nom	4	OO		PhraseCat=PP
-6	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	7	MD		PhraseCat=AjP
+6	mycket	mycket	ADV	_	Degree=Pos	7	MD		PhraseCat=AjP
 7	stora	stor	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	MD		PhraseCat=AjP
 8	mängder	mängd	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	ES		PhraseCat=NP
 9	farligt	farlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	MD		PhraseCat=NP
@@ -31366,7 +31366,7 @@
 18	unionen	union	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	OO		PhraseCat=PP
 19	kan	kunna	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	11	OO		PhraseCat=S
 20	vara	vara	AUX	_	VerbForm=Inf|Voice=Act	19	IV		PhraseCat=VP
-21	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	22	MD		PhraseCat=AjP
+21	mycket	mycket	ADV	_	Degree=Pos	22	MD		PhraseCat=AjP
 22	kallt	kall	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	SP		PhraseCat=AjP|SpaceAfter=No
 23	.	.	PUNCT	_	_	7	--		PhraseCat=Top
 
@@ -31844,7 +31844,7 @@
 19	påskynda	påskynda	VERB	_	VerbForm=Inf|Voice=Act	18	OO		PhraseCat=VP
 20	arbetet	arbete	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	19	OO		PhraseCat=VP
 21	så	så	ADV	_	_	22	MD		PhraseCat=AbP
-22	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	19	MD		PhraseCat=NP
+22	mycket	mycket	ADV	_	Degree=Pos	19	MD		PhraseCat=NP
 23	som	som	SCONJ	_	_	21	JF		PhraseCat=SuP
 24	möjligt	möjlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	OO		PhraseCat=SuP|SpaceAfter=No
 25	,	,	PUNCT	_	_	9	--		PhraseCat=Top
@@ -33308,7 +33308,7 @@
 7	erkännande	erkännande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	SP		PhraseCat=NP
 8	av	av	ADP	_	_	7	MD		PhraseCat=PP
 9	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	12	DT		PhraseCat=NP
-10	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	11	MD		PhraseCat=AjP
+10	mycket	mycket	ADV	_	Degree=Pos	11	MD		PhraseCat=AjP
 11	stora	stor	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	MD		PhraseCat=AjP
 12	svårigheter	svårighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	OO		PhraseCat=NP
 13	som	som	SCONJ	_	_	12	MD		PhraseCat=SuP
@@ -33541,7 +33541,7 @@
 # text = Vi ser mycket positivt på att föredraganden i sina egna slutsatser inkluderat vårt utskotts förslag om att man borde utvidga forskningsinfrastrukturen i sammanhållningsländerna genom att placera ut högskolor och läroanstalter så att de bättre tjänar invånarna i mindre utvecklade regioner och gör det lättare för utbildade personer att stanna kvar i sin hembygd.
 1	Vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	2	SB		PhraseCat=S
 2	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
-3	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	4	MD		PhraseCat=AjP
+3	mycket	mycket	ADV	_	Degree=Pos	4	MD		PhraseCat=AjP
 4	positivt	positivt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	MD		PhraseCat=AjP
 5	på	på	ADP	_	_	2	OA		PhraseCat=PP
 6	att	att	SCONJ	_	_	5	OO		PhraseCat=SuP
@@ -34009,7 +34009,7 @@
 9	dessa	denna	DET	_	Definite=Def|Number=Plur|PronType=Dem	10	DT		PhraseCat=NP
 10	ändringsförslag	ändringsförslag	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	OO		PhraseCat=NP
 11	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	OO		PhraseCat=S
-12	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	13	MD		PhraseCat=AjP
+12	mycket	mycket	ADV	_	Degree=Pos	13	MD		PhraseCat=AjP
 13	kraftfulla	kraftfull	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	MD		PhraseCat=AjP
 14	skäl	skäl	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	OO		PhraseCat=NP
 15	att	att	PART	_	_	14	MD		PhraseCat=SuP
@@ -34919,7 +34919,7 @@
 32	,	,	PUNCT	_	_	4	--		PhraseCat=Top
 33	på	på	ADP	_	_	29	AN		PhraseCat=PP
 34	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	37	DT		PhraseCat=NP
-35	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	36	MD		PhraseCat=AjP
+35	mest	mycket	ADV	_	Degree=Sup	36	MD		PhraseCat=AjP
 36	lönsamma	lönsam	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	37	MD		PhraseCat=AjP
 37	sättet	sätt	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	33	OO		PhraseCat=NP
 38	speglar	spegla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	OO		PhraseCat=S
@@ -35368,7 +35368,7 @@
 27	resurserna	resurs	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	26	OO		PhraseCat=VP
 28	i	i	ADP	_	_	26	MD		PhraseCat=PP
 29	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	32	DT		PhraseCat=NP
-30	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	31	MD		PhraseCat=AjP
+30	mest	mycket	ADV	_	Degree=Sup	31	MD		PhraseCat=AjP
 31	långtgående	långtgående	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part	32	MD		PhraseCat=AjP
 32	partnerskapen	partnerskap	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	28	OO		PhraseCat=NP
 33	och	och	CCONJ	_	_	34	cc		PhraseCat=KoP
@@ -35797,7 +35797,7 @@
 1	Nu	nu	ADV	_	_	2	MD		PhraseCat=S
 2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 3	man	man	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Ind	2	SB		PhraseCat=S
-4	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=AjP
+4	mycket	mycket	ADV	_	Degree=Pos	5	MD		PhraseCat=AjP
 5	försenad	försenad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	SP		PhraseCat=AjP
 6	i	i	ADP	_	_	5	OA		PhraseCat=PP
 7	frågan	fråga	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	OO		PhraseCat=PP|SpaceAfter=No
@@ -36108,7 +36108,7 @@
 10	detta	denna	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	11	SB		PhraseCat=S
 11	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	2	conj		PhraseCat=S
 12	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	15	DT		PhraseCat=NP
-13	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	14	MD		PhraseCat=AjP
+13	mycket	mycket	ADV	_	Degree=Pos	14	MD		PhraseCat=AjP
 14	intressant	intressant	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	MD		PhraseCat=AjP
 15	process	process	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	SP		PhraseCat=NP|SpaceAfter=No
 16	.	.	PUNCT	_	_	2	--		PhraseCat=Top
@@ -36480,7 +36480,7 @@
 18	i	i	ADP	_	_	17	MD		PhraseCat=PP
 19	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	24	DT		PhraseCat=NP
 20	25	25	NUM	_	NumType=Card	24	MD		PhraseCat=NP
-21	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	22	MD		PhraseCat=AjP
+21	mest	mycket	ADV	_	Degree=Sup	22	MD		PhraseCat=AjP
 22	framgångsrika	framgångsrik	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	MD		PhraseCat=AjP
 23	europeiska	europeisk	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	MD		PhraseCat=NP
 24	regionerna	region	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	18	OO		PhraseCat=NP
@@ -36872,7 +36872,7 @@
 5	våra	vi	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	6	DT		PhraseCat=NP
 6	stadsområden	stadsområde	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	OO		PhraseCat=NP
 7	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	2	OO		PhraseCat=S
-8	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=AjP
+8	mycket	mycket	ADV	_	Degree=Pos	9	MD		PhraseCat=AjP
 9	viktig	viktig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	SP		PhraseCat=AjP
 10	måste	måste	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 11	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	10	SB		PhraseCat=S
@@ -37124,7 +37124,7 @@
 22	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	19	OO		PhraseCat=S
 23	spelat	spela	VERB	_	VerbForm=Sup|Voice=Act	22	IV		PhraseCat=VP
 24	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	27	DT		PhraseCat=NP
-25	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	26	MD		PhraseCat=AjP
+25	mycket	mycket	ADV	_	Degree=Pos	26	MD		PhraseCat=AjP
 26	viktig	viktig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	27	MD		PhraseCat=AjP
 27	roll	roll	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	OO		PhraseCat=NP
 28	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	26	MD		PhraseCat=SuP
@@ -37678,7 +37678,7 @@
 16	eftersom	eftersom	SCONJ	_	_	14	MD		PhraseCat=SuP
 17	hon	hon	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	SB		PhraseCat=S
 18	varit	vara	AUX	_	VerbForm=Sup|Voice=Act	16	OO		PhraseCat=VP
-19	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	20	MD		PhraseCat=AjP
+19	mycket	mycket	ADV	_	Degree=Pos	20	MD		PhraseCat=AjP
 20	öppen	öppen	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	SP		PhraseCat=AjP
 21	och	och	CCONJ	_	_	22	cc		PhraseCat=KoP
 22	lyhörd	lyhörd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	conj		PhraseCat=AjP
@@ -38117,7 +38117,7 @@
 6	exempelvis	exempelvis	ADV	_	_	5	MD		PhraseCat=NP
 7	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 8	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	DT		PhraseCat=NP
-9	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	10	MD		PhraseCat=AjP
+9	mest	mycket	ADV	_	Degree=Sup	10	MD		PhraseCat=AjP
 10	troliga	trolig	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	MD		PhraseCat=AjP
 11	scenariot	scenario	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	SB		PhraseCat=NP
 12	i dag	idag	ADV	_	_	11	MD		PhraseCat=NP
@@ -38654,7 +38654,7 @@
 27	kammare	kammare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	OO		PhraseCat=NP
 28	om	om	ADP	_	_	21	MD		PhraseCat=PP
 29	denna	denna	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	32	DT		PhraseCat=NP
-30	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	31	MD		PhraseCat=AjP
+30	mycket	mycket	ADV	_	Degree=Pos	31	MD		PhraseCat=AjP
 31	viktiga	viktig	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	32	MD		PhraseCat=AjP
 32	fråga	fråga	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	OO		PhraseCat=NP|SpaceAfter=No
 33	,	,	PUNCT	_	_	8	--		PhraseCat=Top
@@ -38716,7 +38716,7 @@
 25	kan	kunna	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	23	OO		PhraseCat=S
 26	lägga	lägga	VERB	_	VerbForm=Inf|Voice=Act	25	IV		PhraseCat=VP
 27	fram	fram	ADV	_	_	26	PL		PhraseCat=VP
-28	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	29	MD		PhraseCat=AjP
+28	mycket	mycket	ADV	_	Degree=Pos	29	MD		PhraseCat=AjP
 29	storslagna	storslagen	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	30	MD		PhraseCat=AjP
 30	idéer	idé	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	26	OO		PhraseCat=NP
 31	som	som	SCONJ	_	_	30	MD		PhraseCat=SuP
@@ -39370,7 +39370,7 @@
 16	arbetslösheten	arbetslöshet	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	ES		PhraseCat=S
 17	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	6	conj		PhraseCat=S
 18	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	17	SB		PhraseCat=S
-19	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	20	MD		PhraseCat=AjP
+19	mycket	mycket	ADV	_	Degree=Pos	20	MD		PhraseCat=AjP
 20	större	stor	ADJ	_	Case=Nom|Degree=Cmp	17	SP		PhraseCat=AjP
 21	än	än	SCONJ	_	_	20	JF		PhraseCat=SuP
 22	man	man	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Ind	23	SB		PhraseCat=S
@@ -40379,7 +40379,7 @@
 50	dem	de	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	49	OO		PhraseCat=S
 51	från	från	ADP	_	_	49	OA		PhraseCat=PP
 52	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	55	DT		PhraseCat=NP
-53	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	54	MD		PhraseCat=AjP
+53	mest	mycket	ADV	_	Degree=Sup	54	MD		PhraseCat=AjP
 54	välutvecklade	välutvecklad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	55	MD		PhraseCat=AjP
 55	regionerna	region	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	51	OO		PhraseCat=NP
 56	i	i	ADP	_	_	55	MD		PhraseCat=PP
@@ -40668,7 +40668,7 @@
 # text = Det var mycket intressant att noga lyssna till kommentarerna, som ibland var kritiska, och förslagen nyss i era inlägg med utgångspunkt från Schroedters betänkande.
 1	Det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
-3	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	4	MD		PhraseCat=AjP
+3	mycket	mycket	ADV	_	Degree=Pos	4	MD		PhraseCat=AjP
 4	intressant	intressant	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	SP		PhraseCat=AjP
 5	att	att	SCONJ	_	_	2	ES		PhraseCat=SuP
 6	noga	noga	ADV	_	_	7	MD		PhraseCat=VP
@@ -41131,11 +41131,11 @@
 22	som	som	SCONJ	_	_	21	MD		PhraseCat=SuP
 23	er	ni	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	24	DT		PhraseCat=NP
 24	föredragande	föredragande	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	SB	38:SB|38:	PhraseCat=NP
-25	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	26	MD		PhraseCat=AjP
+25	mycket	mycket	ADV	_	Degree=Pos	26	MD		PhraseCat=AjP
 26	tydligt	tydligt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	38	MD		PhraseCat=AjP
 27	och	och	CCONJ	_	_	30	cc		PhraseCat=KoP
 28	samtidigt	samtidigt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	MD		PhraseCat=AjP
-29	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	30	MD		PhraseCat=AjP
+29	mycket	mycket	ADV	_	Degree=Pos	30	MD		PhraseCat=AjP
 30	ivrigt	ivrig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	conj		PhraseCat=AjP|SpaceAfter=No
 31	,	,	PUNCT	_	_	5	--		PhraseCat=Top
 32	förstod	förstå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	38	DF		PhraseCat=S
@@ -41313,7 +41313,7 @@
 34	kommissionen	kommission	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	33	SB		PhraseCat=S
 35	begärt	begära	VERB	_	VerbForm=Sup|Voice=Act	33	IV		PhraseCat=VP
 36	ytterligare	ytterligare	ADJ	_	Case=Nom|Degree=Cmp	38	MD		PhraseCat=NP
-37	litet	lite	ADV	_	Definite=Ind|Gender=Com|Number=Sing	38	MD		PhraseCat=NP
+37	litet	lite	ADV	_	Degree=Pos|Gender=Com	38	MD		PhraseCat=NP
 38	tid	tid	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	35	OO		PhraseCat=NP
 39	för	för	ADP	_	_	38	MD		PhraseCat=PP
 40	att	att	PART	_	_	39	OO		PhraseCat=SuP
@@ -41368,7 +41368,7 @@
 7	och	och	CCONJ	_	_	8	cc		PhraseCat=KoP
 8	utföra	utföra	VERB	_	VerbForm=Inf|Voice=Act	4	conj		PhraseCat=VP
 9	detta	denna	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	12	DT		PhraseCat=NP
-10	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	11	MD		PhraseCat=AjP
+10	mycket	mycket	ADV	_	Degree=Pos	11	MD		PhraseCat=AjP
 11	viktiga	viktig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	MD		PhraseCat=AjP
 12	arbete	arbete	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	OO		PhraseCat=NP|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	--		PhraseCat=Top
@@ -41412,7 +41412,7 @@
 35	nivå	nivå	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	ME		ExtXpos=PEM|PhraseCat=PP
 36	med	med	ADV	_	_	34	ME		ExtXpos=PEM|PhraseCat=PP
 37	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	42	DT		PhraseCat=NP
-38	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	39	MD		PhraseCat=AjP
+38	mycket	mycket	ADV	_	Degree=Pos	39	MD		PhraseCat=AjP
 39	seriösa	seriös	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	42	MD		PhraseCat=AjP
 40	och	och	CCONJ	_	_	41	cc		PhraseCat=KoP
 41	allvarliga	allvarlig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	39	conj		PhraseCat=AjP
@@ -42277,7 +42277,7 @@
 34	som	som	SCONJ	_	_	30	MD		PhraseCat=SuP
 35	ofta	ofta	ADV	_	Degree=Pos	36	MD		PhraseCat=VP
 36	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	34	OO		PhraseCat=VP
-37	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	38	MD		PhraseCat=AjP
+37	mycket	mycket	ADV	_	Degree=Pos	38	MD		PhraseCat=AjP
 38	precisa	precis	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	36	SP		PhraseCat=AjP|SpaceAfter=No
 39	.	.	PUNCT	_	_	13	--		PhraseCat=Top
 
@@ -42991,7 +42991,7 @@
 35	att	att	SCONJ	_	_	34	OO		PhraseCat=SuP
 36	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	37	SB		PhraseCat=S
 37	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	35	OO		PhraseCat=S
-38	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	39	MD		PhraseCat=AjP
+38	mycket	mycket	ADV	_	Degree=Pos	39	MD		PhraseCat=AjP
 39	glad	glad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	37	SP		PhraseCat=AjP|SpaceAfter=No
 40	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 41	bortsett	bortse	VERB	_	VerbForm=Sup|Voice=Act	42	ME		ExtXpos=PEM|PhraseCat=PP
@@ -43020,7 +43020,7 @@
 64	-	-	PUNCT	_	_	2	--		PhraseCat=Top
 65	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	66	SB		PhraseCat=S
 66	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	2	parataxis		PhraseCat=S
-67	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	68	MD		PhraseCat=AjP
+67	mycket	mycket	ADV	_	Degree=Pos	68	MD		PhraseCat=AjP
 68	glad	glad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	66	SP		PhraseCat=AjP
 69	över	över	ADP	_	_	68	OA		PhraseCat=PP
 70	kammarens	kammare	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	71	DT		PhraseCat=NP
@@ -43108,7 +43108,7 @@
 31	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	36	OO		PhraseCat=PP
 32	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	38	DF		PhraseCat=S
 33	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	32	SB		PhraseCat=S
-34	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	35	MD		PhraseCat=AjP
+34	mycket	mycket	ADV	_	Degree=Pos	35	MD		PhraseCat=AjP
 35	medveten	medveten	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	32	SP		PhraseCat=AjP
 36	om	om	ADP	_	_	35	OA		PhraseCat=PP|SpaceAfter=No
 37	,	,	PUNCT	_	_	2	--		PhraseCat=Top
@@ -43729,7 +43729,7 @@
 # sent_id = Eupa_00-01-17.789
 # text = En mycket viktig punkt, enligt min åsikt.
 1	En	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	4	DT		PhraseCat=NP
-2	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	3	MD		PhraseCat=AjP
+2	mycket	mycket	ADV	_	Degree=Pos	3	MD		PhraseCat=AjP
 3	viktig	viktig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	MD		PhraseCat=AjP
 4	punkt	punkt	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	--		PhraseCat=NP|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	--		PhraseCat=Top
@@ -45206,7 +45206,7 @@
 2	vill	vilja	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	13	OO		PhraseCat=S
 3	göra	göra	VERB	_	VerbForm=Inf|Voice=Act	2	IV		PhraseCat=VP
 4	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	OO		PhraseCat=VP
-5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP
+5	mycket	mycket	ADV	_	Degree=Pos	6	MD		PhraseCat=AjP
 6	tydligt	tydlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	OP		PhraseCat=AjP
 7	att	att	SCONJ	_	_	3	EO		PhraseCat=SuP
 8	detta	denna	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	9	SB		PhraseCat=S
@@ -45831,7 +45831,7 @@
 1	Här	här	ADV	_	_	2	MD		PhraseCat=S
 2	presenteras	presentera	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	--		PhraseCat=S
 3	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	6	DT		PhraseCat=NP
-4	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	5	MD		PhraseCat=AjP
+4	mest	mycket	ADV	_	Degree=Sup	5	MD		PhraseCat=AjP
 5	aktuella	aktuell	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	MD		PhraseCat=AjP
 6	delarna	del	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	SB		PhraseCat=NP
 7	av	av	ADP	_	_	6	MD		PhraseCat=PP
@@ -50957,7 +50957,7 @@
 1	Här	här	ADV	_	_	2	RA		PhraseCat=S
 2	presenteras	presentera	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	--		PhraseCat=S
 3	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	6	DT		PhraseCat=NP
-4	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	5	MD		PhraseCat=AjP
+4	mest	mycket	ADV	_	Degree=Sup	5	MD		PhraseCat=AjP
 5	aktuella	aktuell	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	MD		PhraseCat=AjP
 6	delarna	del	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	SB		PhraseCat=NP
 7	av	av	ADP	_	_	6	MD		PhraseCat=PP
@@ -53333,7 +53333,7 @@
 # sent_id = Regr_255926.6
 # text = Två mycket viktiga förutsättningar till att etableras i det svenska samhället är dels att behärska det svenska språket och att ha en utbildning som är gångbar på den svenska arbetsmarknaden.
 1	Två	Två	NUM	_	NumType=Card	4	DT		PhraseCat=NP
-2	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	3	MD		PhraseCat=AjP
+2	mycket	mycket	ADV	_	Degree=Pos	3	MD		PhraseCat=AjP
 3	viktiga	viktig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	MD		PhraseCat=AjP
 4	förutsättningar	förutsättning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	SB		PhraseCat=NP
 5	till	till	ADP	_	_	4	MD		PhraseCat=PP
@@ -54392,7 +54392,7 @@
 5	nyhetsbrev	nyhetsbrev	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	conj		PhraseCat=NP
 6	lyfts	lyfta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	--		PhraseCat=S
 7	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	10	DT		PhraseCat=NP
-8	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	9	MD		PhraseCat=AjP
+8	mest	mycket	ADV	_	Degree=Sup	9	MD		PhraseCat=AjP
 9	aktuella	aktuell	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	MD		PhraseCat=AjP
 10	delarna	del	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	6	SB		PhraseCat=NP
 11	av	av	ADP	_	_	10	MD		PhraseCat=PP
@@ -55783,7 +55783,7 @@
 5	på	på	ADP	_	_	3	OA		PhraseCat=PP
 6	dem	de	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	5	OO		PhraseCat=PP|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	--		PhraseCat=Top
-8	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=AjP
+8	mycket	mycket	ADV	_	Degree=Pos	9	MD		PhraseCat=AjP
 9	allvarligt	allvarlig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	AN		PhraseCat=AjP|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	--		PhraseCat=Top
 
@@ -57996,7 +57996,7 @@
 2	gjordes	göra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	7	OO		PhraseCat=S
 3	alldeles	alldeles	ADV	_	_	4	MD		PhraseCat=AbP
 4	för	för	ADV	_	_	5	MD		PhraseCat=AbP
-5	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	2	MD		PhraseCat=NP|SpaceAfter=No
+5	lite	lite	ADV	_	Degree=Pos	2	MD		PhraseCat=NP|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	--		PhraseCat=Top
 7	säger	säga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 8	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	SB		PhraseCat=S|SpaceAfter=No
@@ -58304,7 +58304,7 @@
 3	Skogstyrelsens	Skogstyrelsen	PROPN	_	Case=Gen	4	DT		PhraseCat=NP
 4	arbete	arbete	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	SB		PhraseCat=NP
 5	av	av	ADP	_	_	2	SP		PhraseCat=PP
-6	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	7	MD		PhraseCat=AjP
+6	mycket	mycket	ADV	_	Degree=Pos	7	MD		PhraseCat=AjP
 7	stor	stor	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	MD		PhraseCat=AjP
 8	betydelse	betydelse	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	OO		PhraseCat=NP|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	--		PhraseCat=Top
@@ -58970,7 +58970,7 @@
 2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 3	ansvaret	ansvar	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	SB		PhraseCat=S
 4	idag	idag	ADV	_	_	2	MD		PhraseCat=S
-5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP
+5	mycket	mycket	ADV	_	Degree=Pos	6	MD		PhraseCat=AjP
 6	ojämnt	ojämnt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	MD		PhraseCat=AjP
 7	fördelat	fördelad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	2	SP		PhraseCat=AjP|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	--		PhraseCat=Top
@@ -60030,7 +60030,7 @@
 6	nyheten	nyhet	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	SB		PhraseCat=NP
 7	görs	göra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	OO		PhraseCat=S
 8	väldigt	väldig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	MD		PhraseCat=NP
-9	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	10	MD		PhraseCat=NP
+9	mycket	mycket	ADV	_	Degree=Pos	10	MD		PhraseCat=NP
 10	större	stor	ADJ	_	Case=Nom|Degree=Cmp	7	SP		PhraseCat=AjP|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	--		PhraseCat=Top
 
@@ -60147,7 +60147,7 @@
 10	helt	helt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	MD		PhraseCat=AjP
 11	ny	ny	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	MD		PhraseCat=AjP
 12	och	och	CCONJ	_	_	14	cc		PhraseCat=KoP
-13	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	14	MD		PhraseCat=AjP
+13	mycket	mycket	ADV	_	Degree=Pos	14	MD		PhraseCat=AjP
 14	intressantare	intressant	ADJ	_	Case=Nom|Degree=Cmp	11	conj		PhraseCat=AjP
 15	vinkel	vinkel	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	SP		PhraseCat=NP|SpaceAfter=No
 16	.	.	PUNCT	_	_	8	--		PhraseCat=Top
@@ -61328,7 +61328,7 @@
 1	Här	här	ADV	_	_	2	MD		PhraseCat=S
 2	presenteras	presentera	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	--		PhraseCat=S
 3	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	6	DT		PhraseCat=NP
-4	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	5	MD		PhraseCat=AjP
+4	mest	mycket	ADV	_	Degree=Sup	5	MD		PhraseCat=AjP
 5	aktuella	aktuell	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	MD		PhraseCat=AjP
 6	delarna	del	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	SB		PhraseCat=NP
 7	av	av	ADP	_	_	6	MD		PhraseCat=PP
@@ -62158,7 +62158,7 @@
 5	ägna	ägna	VERB	_	VerbForm=Inf|Voice=Act	3	IV		PhraseCat=VP
 6	alldeles	alldeles	ADV	_	_	7	MD		PhraseCat=AbP
 7	för	för	ADV	_	_	8	MD		PhraseCat=AbP
-8	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	DT		PhraseCat=NP
+8	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	9	DT		PhraseCat=NP
 9	tid	tid	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	OO		PhraseCat=NP
 10	åt	åt	ADP	_	_	5	OA		PhraseCat=PP
 11	att	att	PART	_	_	10	OO		PhraseCat=SuP
@@ -62575,7 +62575,7 @@
 3	endast	endast	ADV	_	_	2	MD		PhraseCat=S
 4	för	för	ADP	_	_	2	MD		PhraseCat=PP
 5	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	8	DT		PhraseCat=NP
-6	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	7	MD		PhraseCat=AjP
+6	mycket	mycket	ADV	_	Degree=Pos	7	MD		PhraseCat=AjP
 7	små	liten	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	MD		PhraseCat=AjP
 8	fartyg	fartyg	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	OO		PhraseCat=NP
 9	som	som	SCONJ	_	_	8	MD		PhraseCat=SuP
@@ -62707,7 +62707,7 @@
 1	Det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	25	OO		PhraseCat=S
 3	också	också	ADV	_	_	2	MD		PhraseCat=S
-4	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=AjP
+4	mycket	mycket	ADV	_	Degree=Pos	5	MD		PhraseCat=AjP
 5	positivt	positiv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	SP		PhraseCat=AjP
 6	att	att	SCONJ	_	_	2	ES		PhraseCat=SuP
 7	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	9	DT		PhraseCat=NP
@@ -64010,7 +64010,7 @@
 3	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 4	ju	ju	ADV	_	_	3	MD		PhraseCat=S
 5	fått	få	VERB	_	VerbForm=Sup|Voice=Act	3	IV		PhraseCat=VP
-6	mycket	mycket	ADV	_	Definite=Ind|Gender=Com|Number=Sing	7	MD		PhraseCat=NP
+6	mycket	mycket	ADV	_	Degree=Pos|Gender=Com	7	MD		PhraseCat=NP
 7	kritik	kritik	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	OO		PhraseCat=NP
 8	för	för	ADP	_	_	5	MD		PhraseCat=PP
 9	att	att	SCONJ	_	_	8	OO		PhraseCat=SuP
@@ -65289,7 +65289,7 @@
 15	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	16	SB		PhraseCat=S
 16	är	vara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	OO		PhraseCat=S
 17	så	så	ADV	_	_	18	MD		PhraseCat=NP
-18	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	DT		PhraseCat=NP
+18	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	19	DT		PhraseCat=NP
 19	andrahandsuthyrning	andrahandsuthyrning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	ES		PhraseCat=NP|SpaceAfter=No
 20	.	.	PUNCT	_	_	7	--		PhraseCat=Top
 
@@ -65537,7 +65537,7 @@
 9	man	man	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Ind	10	SB		PhraseCat=S
 10	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	OO		PhraseCat=S
 11	tillräckligt	tillräcklig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	MD		PhraseCat=AjP
-12	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	13	DT		PhraseCat=NP
+12	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	DT		PhraseCat=NP
 13	pengar	pengar	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	OO		PhraseCat=NP
 14	för	för	ADP	_	_	11	JF		PhraseCat=PP
 15	att	att	PART	_	_	14	OO		PhraseCat=SuP
@@ -68625,7 +68625,7 @@
 1	Det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	OO		PhraseCat=S
 2	konstaterade	konstatera	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	Barthel	Barthel	PROPN	_	Case=Nom	2	SB		PhraseCat=S
-4	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=AjP
+4	mycket	mycket	ADV	_	Degree=Pos	5	MD		PhraseCat=AjP
 5	energiskt	energiskt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	2	MD		PhraseCat=AjP
 6	första	första	ADJ	_	Case=Nom|Definite=Def|Degree=Sup|NumType=Ord	7	MD		PhraseCat=NP
 7	dagen	dag	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	MD		PhraseCat=NP
@@ -68715,7 +68715,7 @@
 1	Barthel	Barthel	PROPN	_	Case=Nom	2	SB		PhraseCat=S
 2	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
 3	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	DT		PhraseCat=NP
-4	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=AjP
+4	mycket	mycket	ADV	_	Degree=Pos	5	MD		PhraseCat=AjP
 5	klok	klok	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	MD		PhraseCat=AjP
 6	man	man	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	SP		PhraseCat=NP
 7	både	både	CCONJ	_	_	9	cc		ExtXpos=KOM|PhraseCat=KoP
@@ -68806,7 +68806,7 @@
 9	ganska	ganska	ADV	_	_	10	MD		PhraseCat=AjP
 10	korpulent	korpulent	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	MD		PhraseCat=AjP|SpaceAfter=No
 11	,	,	PUNCT	_	_	4	--		PhraseCat=Top
-12	litet	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	14	MD		PhraseCat=AjP
+12	litet	lite	ADV	_	Degree=Pos	14	MD		PhraseCat=AjP
 13	alldagligt	alldagligt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	MD		PhraseCat=AjP
 14	rödlätt	rödlätt	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	conj		PhraseCat=AjP|SpaceAfter=No
 15	,	,	PUNCT	_	_	4	--		PhraseCat=Top
@@ -70025,7 +70025,7 @@
 6	tog	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 7	emot	emot	ADP	_	_	6	PL		PhraseCat=S
 8	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	OO		PhraseCat=S
-9	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	10	MD		PhraseCat=AjP
+9	mycket	mycket	ADV	_	Degree=Pos	10	MD		PhraseCat=AjP
 10	vänligt	vänligt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP|SpaceAfter=No
 11	.	.	PUNCT	_	_	6	--		PhraseCat=Top
 
@@ -70180,7 +70180,7 @@
 32	lura	lura	VERB	_	VerbForm=Inf|Voice=Act	31	OO		PhraseCat=VP
 33	dem	de	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	32	OO		PhraseCat=VP
 34	alltför	alltför	ADV	_	_	35	MD		PhraseCat=NP
-35	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	32	MD		PhraseCat=NP
+35	mycket	mycket	ADV	_	Degree=Pos	32	MD		PhraseCat=NP
 36	och	och	CCONJ	_	_	38	cc		PhraseCat=KoP
 37	kineshandlarna	kineshandlare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	38	SB		PhraseCat=S
 38	tyckte	tycka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
@@ -70228,7 +70228,7 @@
 3	som	som	SCONJ	_	_	2	MD		PhraseCat=SuP
 4	beundrade	beundra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	OO		PhraseCat=S
 5	Barthel	Barthel	PROPN	_	Case=Nom	4	OO		PhraseCat=S
-6	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	4	MD		PhraseCat=S
+6	mest	mycket	ADV	_	Degree=Sup	4	MD		PhraseCat=S
 7	för	för	ADP	_	_	4	MD		PhraseCat=PP
 8	närvarande	närvarande	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part	7	OO		PhraseCat=PP
 9	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
@@ -70288,7 +70288,7 @@
 5	var	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 6	frieser	fris	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	SP		PhraseCat=NP|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	--		PhraseCat=Top
-8	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=AjP
+8	lite	lite	ADV	_	Degree=Pos	9	MD		PhraseCat=AjP
 9	förmer	förmer	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	AN		PhraseCat=AjP
 10	än	än	SCONJ	_	_	9	JF		PhraseCat=SuP
 11	vanliga	vanlig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	MD		PhraseCat=NP
@@ -70722,7 +70722,7 @@
 18	,	,	PUNCT	_	_	19	--		PhraseCat=Top
 19	säjer	säga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 20	Barthel	Barthel	PROPN	_	Case=Nom	19	SB		PhraseCat=S
-21	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	22	MD		PhraseCat=AjP
+21	lite	lite	ADV	_	Degree=Pos	22	MD		PhraseCat=AjP
 22	överlägset	överlägset	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	MD		PhraseCat=AjP
 23	långsamt	långsamt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	MD		PhraseCat=AjP
 24	för	för	ADP	_	_	19	MD		PhraseCat=PP
@@ -71181,7 +71181,7 @@
 2	sänker	sänka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 4	rösten	röst	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	OO		PhraseCat=S
-5	lite	lite	ADV	_	Definite=Ind|Gender=Com|Number=Sing	2	MD		PhraseCat=S|SpaceAfter=No
+5	lite	lite	ADV	_	Degree=Pos|Gender=Com	2	MD		PhraseCat=S|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 7	sparkar	sparka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 8	fram	fram	ADV	_	_	7	PL		PhraseCat=S
@@ -71487,7 +71487,7 @@
 29	blicken	blick	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	OO		PhraseCat=NP
 30	i	i	ADP	_	_	29	MD		PhraseCat=PP
 31	hennes	hon	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	36	DT		PhraseCat=NP
-32	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	33	MD		PhraseCat=AjP
+32	mycket	mycket	ADV	_	Degree=Pos	33	MD		PhraseCat=AjP
 33	ljusa	ljus	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	36	MD		PhraseCat=AjP|SpaceAfter=No
 34	,	,	PUNCT	_	_	19	--		PhraseCat=Top
 35	grå	grå	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	36	MD		PhraseCat=NP
@@ -72175,7 +72175,7 @@
 1	Barthel	Barthel	PROPN	_	Case=Nom	2	SB		PhraseCat=S
 2	skruvar	skruva	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	2	OO		PhraseCat=S
-4	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	2	MD		PhraseCat=S
+4	lite	lite	ADV	_	Degree=Pos	2	MD		PhraseCat=S
 5	på	på	ADP	_	_	2	RA		PhraseCat=PP
 6	stolen	stol	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	OO		PhraseCat=PP|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	--		PhraseCat=Top
@@ -75134,7 +75134,7 @@
 # text = Det är mest män som vallfärdar till denna pilgrimsort.
 1	Det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
-3	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	2	MD		PhraseCat=S
+3	mest	mycket	ADV	_	Degree=Sup	2	MD		PhraseCat=S
 4	män	man	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	SP		PhraseCat=S
 5	som	som	SCONJ	_	_	2	EF		PhraseCat=SuP
 6	vallfärdar	vallfärda	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	OO		PhraseCat=S
@@ -79219,7 +79219,7 @@
 # text = Han lyssnar mest på Ernsts utläggningar utan slut.
 1	Han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	lyssnar	lyssna	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
-3	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	2	MD		PhraseCat=S
+3	mest	mycket	ADV	_	Degree=Sup	2	MD		PhraseCat=S
 4	på	på	ADP	_	_	2	MD		PhraseCat=PP
 5	Ernsts	Ernst	PROPN	_	Case=Gen	6	DT		PhraseCat=NP
 6	utläggningar	utläggning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	OO		PhraseCat=NP
@@ -79346,7 +79346,7 @@
 6	en	en	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	5	OO		PhraseCat=NP|PromotedHead=Yes
 7	av	av	ADP	_	_	6	MD		PhraseCat=PP
 8	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	11	DT		PhraseCat=NP
-9	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	10	MD		PhraseCat=AjP
+9	mest	mycket	ADV	_	Degree=Sup	10	MD		PhraseCat=AjP
 10	briljanta	briljant	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	MD		PhraseCat=AjP
 11	hjärnor	hjärna	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	OO		PhraseCat=NP
 12	som	som	SCONJ	_	_	11	MD		PhraseCat=SuP
@@ -80175,7 +80175,7 @@
 8	bygden	bygd	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	OO		PhraseCat=PP
 9	är	vara	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 10	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	9	SB		PhraseCat=S
-11	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	DT		PhraseCat=NP
+11	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos	12	DT		PhraseCat=NP
 12	prat	prat	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	ES		PhraseCat=NP
 13	om	om	ADP	_	_	12	MD		PhraseCat=PP
 14	pengar	pengar	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	OO		PhraseCat=PP
@@ -80209,7 +80209,7 @@
 16	att	att	SCONJ	_	_	14	OO		PhraseCat=SuP
 17	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	SB		PhraseCat=S
 18	ger	ge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	OO		PhraseCat=S
-19	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	20	DT		PhraseCat=NP
+19	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	DT		PhraseCat=NP
 20	pengar	pengar	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	OO		PhraseCat=NP
 21	till	till	ADP	_	_	18	OA		PhraseCat=PP
 22	enskilda	enskild	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	MD		PhraseCat=NP
@@ -80251,7 +80251,7 @@
 13	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	3	parataxis		PhraseCat=S
 14	även	även	ADV	_	_	13	MD		PhraseCat=S
 15	gett	ge	VERB	_	VerbForm=Sup|Voice=Act	13	IV		PhraseCat=VP
-16	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	17	DT		PhraseCat=NP
+16	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	DT		PhraseCat=NP
 17	pengar	pengar	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	OO		PhraseCat=NP
 18	till	till	ADP	_	_	15	OA		PhraseCat=PP
 19	sina	sig	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	20	DT		PhraseCat=NP
@@ -80493,7 +80493,7 @@
 12	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	SB		PhraseCat=S
 13	ännu	ännu	ADV	_	_	11	MD		PhraseCat=S
 14	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	24	DT		PhraseCat=NP
-15	litet	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	16	MD		PhraseCat=AjP
+15	litet	lite	ADV	_	Degree=Pos	16	MD		PhraseCat=AjP
 16	söta	söt	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	24	MD		PhraseCat=AjP|SpaceAfter=No
 17	,	,	PUNCT	_	_	11	--		PhraseCat=Top
 18	härskna	härsken	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	conj		PhraseCat=KoP|SpaceAfter=No
@@ -80660,7 +80660,7 @@
 # text = Som folk mest är vi fattiga, men jordens rikedomar, vilka flyter i trä- och järnskrov från land till land, intresserar oss oerhört.
 1	Som	som	SCONJ	_	_	4	JF		PhraseCat=SuP
 2	folk	folk	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	OO		PhraseCat=NP
-3	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	2	MD		PhraseCat=NP
+3	mest	mycket	ADV	_	Degree=Sup	2	MD		PhraseCat=NP
 4	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 5	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	4	SB		PhraseCat=S
 6	fattiga	fattig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	SP		PhraseCat=S|SpaceAfter=No
@@ -81720,7 +81720,7 @@
 13	igång	igång	ADV	_	_	11	PL		PhraseCat=S
 14	med	med	ADP	_	_	11	MD		PhraseCat=PP
 15	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	DT		PhraseCat=NP
-16	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	17	MD		PhraseCat=AjP
+16	mest	mycket	ADV	_	Degree=Sup	17	MD		PhraseCat=AjP
 17	ingående	ingående	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part	18	MD		PhraseCat=AjP
 18	korsförhör	korsförhör	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	OO		PhraseCat=NP|SpaceAfter=No
 19	.	.	PUNCT	_	_	3	--		PhraseCat=Top
@@ -81806,7 +81806,7 @@
 15	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	1	conj		PhraseCat=S
 16	varit	vara	VERB	_	VerbForm=Sup|Voice=Act	15	IV		PhraseCat=VP
 17	utomlands	utomlands	ADV	_	_	16	RA		PhraseCat=VP
-18	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	19	MD		PhraseCat=AjP
+18	mest	mycket	ADV	_	Degree=Sup	19	MD		PhraseCat=AjP
 19	hela	hel	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	20	DT		PhraseCat=AjP
 20	sitt	sig	PRON	_	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	21	DT		PhraseCat=NP
 21	liv	liv	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	MD		PhraseCat=NP|SpaceAfter=No
@@ -82697,7 +82697,7 @@
 11	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	12	SB		PhraseCat=S
 12	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	2	conj		PhraseCat=S
 13	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	DT		PhraseCat=NP
-14	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	15	MD		PhraseCat=AjP
+14	mest	mycket	ADV	_	Degree=Sup	15	MD		PhraseCat=AjP
 15	underbara	underbar	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	SP	12:SP|17:	PhraseCat=AjP
 16	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	SB		PhraseCat=S
 17	smakat	smaka	VERB	_	VerbForm=Sup|Voice=Act	12	EF		PhraseCat=VP|SpaceAfter=No
@@ -82840,7 +82840,7 @@
 7	klotets	klot	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	12	DT		PhraseCat=NP
 8	ivrigaste	ivrig	ADJ	_	Case=Nom|Definite=Def|Degree=Sup	12	MD		PhraseCat=KoP
 9	och	och	CCONJ	_	_	11	cc		PhraseCat=KoP
-10	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	11	MD		PhraseCat=AjP
+10	mest	mycket	ADV	_	Degree=Sup	11	MD		PhraseCat=AjP
 11	framgångsrika	framgångsrik	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	conj		PhraseCat=AjP
 12	dockbugs	dockbugs	X	_	Foreign=Yes	6	OO		PhraseCat=NP|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	--		PhraseCat=Top
@@ -82871,7 +82871,7 @@
 5	längs	längs	ADP	_	_	4	MD		PhraseCat=PP
 6	vilda	vild	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	OO		PhraseCat=NP|PromotedHead=Yes
 7	och	och	CCONJ	_	_	10	cc		PhraseCat=KoP
-8	litet	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=AjP
+8	litet	lite	ADV	_	Degree=Pos	9	MD		PhraseCat=AjP
 9	kända	känd	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	10	MD		PhraseCat=AjP
 10	kuster	kust	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	conj		PhraseCat=NP
 11	ledde	leda	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
@@ -84537,7 +84537,7 @@
 18	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 19	vid	vid	ADP	_	_	17	conj		PhraseCat=PP
 20	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	23	DT		PhraseCat=NP
-21	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	22	MD		PhraseCat=AjP
+21	mest	mycket	ADV	_	Degree=Sup	22	MD		PhraseCat=AjP
 22	oväntade	oväntad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	23	MD		PhraseCat=AjP
 23	tillfällen	tillfälle	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	19	OO		PhraseCat=NP
 24	skifta	skifta	VERB	_	VerbForm=Inf|Voice=Act	16	IV		PhraseCat=VP
@@ -84646,7 +84646,7 @@
 9	personlighet	personlighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj		PhraseCat=NP
 10	gav	ge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	OO		PhraseCat=S
 11	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	DT		PhraseCat=NP
-12	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	13	MD		PhraseCat=AjP
+12	mest	mycket	ADV	_	Degree=Sup	13	MD		PhraseCat=AjP
 13	upphöjda	upphöjd	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	14	MD		PhraseCat=AjP
 14	uttrycket	uttryck	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	OO		PhraseCat=NP
 15	för	för	ADP	_	_	14	MD		PhraseCat=PP
@@ -84660,7 +84660,7 @@
 # text = Hon var mycket ung men ändå vis på något sätt.
 1	Hon	hon	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	var	vara	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
-3	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	4	MD		PhraseCat=AjP
+3	mycket	mycket	ADV	_	Degree=Pos	4	MD		PhraseCat=AjP
 4	ung	ung	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	SP		PhraseCat=AjP
 5	men	men	CCONJ	_	_	7	cc		PhraseCat=KoP
 6	ändå	ändå	ADV	_	_	7	MD		PhraseCat=S
@@ -84971,7 +84971,7 @@
 10	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	DT		PhraseCat=NP
 11	sneda	sned	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	MD		PhraseCat=NP|SpaceAfter=No
 12	,	,	PUNCT	_	_	4	--		PhraseCat=Top
-13	litet	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	14	MD		PhraseCat=AjP
+13	litet	lite	ADV	_	Degree=Pos	14	MD		PhraseCat=AjP
 14	kisande	kisande	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part	15	MD		PhraseCat=AjP
 15	ögon	öga	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	SB		PhraseCat=NP
 16	såg	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj		PhraseCat=S
@@ -85985,7 +85985,7 @@
 # text = Det lät mycket förståndigt, detta som Lolo sade, men jag var i alla fall besatt av den nyfikenhet som är så vanlig hos raireva.
 1	Det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	lät	låta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
-3	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	4	MD		PhraseCat=AjP
+3	mycket	mycket	ADV	_	Degree=Pos	4	MD		PhraseCat=AjP
 4	förståndigt	förståndig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	OA		PhraseCat=AjP|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 6	detta	denna	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	2	DF		PhraseCat=NP
@@ -87412,7 +87412,7 @@
 7	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	SB		PhraseCat=S
 8	hänt	hända	VERB	_	VerbForm=Sup|Voice=Act	6	IV		PhraseCat=VP
 9	Helge	Helge	PROPN	_	Case=Nom	8	OO		PhraseCat=VP
-10	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	DT		PhraseCat=NP
+10	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos	11	DT		PhraseCat=NP
 11	positivt	positiv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	ES		PhraseCat=NP
 12	och	och	CCONJ	_	_	13	cc		PhraseCat=KoP
 13	spännande	spännande	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part	11	conj		PhraseCat=NP|SpaceAfter=No
@@ -88069,7 +88069,7 @@
 7	,	,	PUNCT	_	_	6	--		PhraseCat=Top
 8	att	att	SCONJ	_	_	6	OO		PhraseCat=SuP
 9	hon	hon	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	SB		PhraseCat=S
-10	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	11	MD		PhraseCat=S
+10	mest	mycket	ADV	_	Degree=Sup	11	MD		PhraseCat=S
 11	talar	tala	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	OO		PhraseCat=S
 12	om	om	ADP	_	_	11	OA		PhraseCat=PP
 13	Viktor	Viktor	PROPN	_	Case=Nom	12	OO		PhraseCat=PP|SpaceAfter=No
@@ -88186,7 +88186,7 @@
 # text = ”Lika lite som det går att förvandla Ines till en Vivien Leigh-kopia”, byggde Everett på.
 1	”	”	PUNCT	_	_	15	--		PhraseCat=Top|SpaceAfter=No
 2	Lika	lik	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	MD		PhraseCat=AjP
-3	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing	15	DF		PhraseCat=NP
+3	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	DF		PhraseCat=NP
 4	som	som	SCONJ	_	_	2	JF		PhraseCat=SuP
 5	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	SB		PhraseCat=S
 6	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	OO		PhraseCat=S
@@ -88240,7 +88240,7 @@
 2	kan	kunna	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 3	ju	ju	ADV	_	_	2	MD		PhraseCat=S
 4	blanda	blanda	VERB	_	VerbForm=Inf|Voice=Act	2	IV		PhraseCat=VP
-5	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing	4	OO		PhraseCat=NP|PromotedHead=Yes
+5	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	OO		PhraseCat=NP|PromotedHead=Yes
 6	av	av	ADP	_	_	5	MD		PhraseCat=PP
 7	våra	vi	PRON	_	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	8	DT		PhraseCat=NP
 8	rester	rest	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	OO		PhraseCat=NP
@@ -89081,7 +89081,7 @@
 # sent_id = Romn_Strand-Pagarna.265
 # text = Efter lite kallprat plockade Klara fram ASTRAL och vecklade ut manualen.
 1	Efter	efter	ADP	_	_	4	MD	4:MD|9:	PhraseCat=PP
-2	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	DT		PhraseCat=NP
+2	lite	lite	ADJ	_	Case=Nom|Degree=Pos	3	DT		PhraseCat=NP
 3	kallprat	kallprat	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	OO		PhraseCat=NP
 4	plockade	plocka	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 5	Klara	Klara	PROPN	_	Case=Nom	4	SB		PhraseCat=S
@@ -89408,7 +89408,7 @@
 1	”	”	PUNCT	_	_	13	--		PhraseCat=Top|SpaceAfter=No
 2	Vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	3	SB		PhraseCat=S
 3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	OO		PhraseCat=S
-4	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	DT		PhraseCat=NP
+4	lite	lite	ADJ	_	Case=Nom|Degree=Pos	6	DT		PhraseCat=NP
 5	nya	ny	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	MD		PhraseCat=NP
 6	förutsättningar	förutsättning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	OO		PhraseCat=NP
 7	nu	nu	ADV	_	_	3	MD		PhraseCat=S
@@ -89714,7 +89714,7 @@
 2	blev	bli	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
 3	inte	inte	PART	_	Polarity=Neg	2	MD		PhraseCat=S
 4	så	så	ADV	_	_	5	MD		PhraseCat=NP
-5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=NP
+5	mycket	mycket	ADV	_	Degree=Pos	6	MD		PhraseCat=NP
 6	mer	mycket	PRON	_	Degree=Cmp|PronType=Ind	2	ES		PhraseCat=NP
 7	sagt	sagd	VERB	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	SP		PhraseCat=AjP
 8	om	om	ADP	_	_	7	OA		PhraseCat=PP
@@ -90586,7 +90586,7 @@
 38	eftersom	eftersom	SCONJ	_	_	33	MD		PhraseCat=SuP
 39	de	den	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs|Typo=Yes	40	SB		CorrectForm=det|PhraseCat=S
 40	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	38	OO		PhraseCat=S
-41	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	42	DT		PhraseCat=NP
+41	lite	lite	ADJ	_	Case=Nom|Degree=Pos	42	DT		PhraseCat=NP
 42	kladd	kladd	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	40	SP		PhraseCat=NP
 43	av	av	ADP	_	_	42	MD		PhraseCat=PP
 44	arraken,	arrak,	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	43	OO		PhraseCat=PP|SpaceAfter=No
@@ -91897,7 +91897,7 @@
 5	nästan	nästan	ADV	_	_	6	MD		PhraseCat=PP
 6	utan	utan	ADP	_	_	4	MD		PhraseCat=PP
 7	undantag	undantag	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	OO		PhraseCat=PP
-8	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	9	MD		PhraseCat=AjP
+8	mycket	mycket	ADV	_	Degree=Pos	9	MD		PhraseCat=AjP
 9	gästfria	gästfri	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	SP		PhraseCat=AjP
 10	och	och	CCONJ	_	_	12	cc		PhraseCat=KoP
 11	ingen	ingen	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	12	SB		PhraseCat=S
@@ -92031,7 +92031,7 @@
 2	hade	ha	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
 3	ätit	äta	VERB	_	VerbForm=Sup|Voice=Act	2	IV		PhraseCat=VP
 4	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	DT		PhraseCat=NP
-5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP
+5	mycket	mycket	ADV	_	Degree=Pos	6	MD		PhraseCat=AjP
 6	lätt	lätt	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	7	MD		PhraseCat=AjP
 7	frukost	frukost	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	OO		PhraseCat=NP
 8	och	och	CCONJ	_	_	10	cc		PhraseCat=KoP
@@ -92090,7 +92090,7 @@
 18	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 19	spetsad	spetsad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	10	conj		PhraseCat=AjP
 20	med	med	ADP	_	_	19	OA		PhraseCat=PP
-21	lite	lite	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	23	DT		PhraseCat=NP
+21	lite	lite	ADJ	_	Case=Nom|Degree=Pos	23	DT		PhraseCat=NP
 22	olika	olik	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	MD		PhraseCat=NP
 23	vätskor	vätska	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	20	OO		PhraseCat=NP
 24	och	och	CCONJ	_	_	25	cc		PhraseCat=KoP
@@ -92493,7 +92493,7 @@
 3	bakgrunden	bakgrund	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	OO		PhraseCat=PP
 4	finns	finnas	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	--		PhraseCat=S
 5	otroligt	otrolig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	MD		PhraseCat=NP
-6	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	7	DT		PhraseCat=NP
+6	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	DT		PhraseCat=NP
 7	detaljer	detalj	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	SB		PhraseCat=NP
 8	om	om	ADP	_	_	7	MD		PhraseCat=PP
 9	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	DT		PhraseCat=NP
@@ -93523,7 +93523,7 @@
 8	som	som	SCONJ	_	_	6	MD		PhraseCat=SuP
 9	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	8	OO		PhraseCat=S
 10	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	13	DT		PhraseCat=NP
-11	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	12	MD		PhraseCat=AjP
+11	mycket	mycket	ADV	_	Degree=Pos	12	MD		PhraseCat=AjP
 12	trogen	trogen	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	MD		PhraseCat=AjP
 13	följeslagare	följeslagare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	SP		PhraseCat=NP|SpaceAfter=No
 14	.	.	PUNCT	_	_	2	--		PhraseCat=Top
@@ -94407,7 +94407,7 @@
 4	en	en	PRON	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	3	SP		PhraseCat=NP|PromotedHead=Yes
 5	av	av	ADP	_	_	4	MD		PhraseCat=PP
 6	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	8	DT		PhraseCat=NP
-7	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	8	MD		PhraseCat=AjP
+7	mest	mycket	ADV	_	Degree=Sup	8	MD		PhraseCat=AjP
 8	välbesökta	välbesökt	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	5	OO		PhraseCat=AjP
 9	i	i	ADP	_	_	8	MD		PhraseCat=PP
 10	sitt	sig	PRON	_	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	11	DT		PhraseCat=NP
@@ -94737,7 +94737,7 @@
 3	även	även	ADV	_	_	2	MD		PhraseCat=S
 4	beskrivas	beskriva	VERB	_	VerbForm=Inf|Voice=Pass	2	IV		PhraseCat=VP
 5	som	som	SCONJ	_	_	4	OA		PhraseCat=SuP
-6	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing	5	OO		PhraseCat=NP
+6	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	OO		PhraseCat=NP
 7	av	av	ADP	_	_	6	MD		PhraseCat=PP
 8	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	10	DT		PhraseCat=NP
 9	"	"	PUNCT	_	_	2	--		PhraseCat=Top|SpaceAfter=No
@@ -97350,7 +97350,7 @@
 13	plats	plats	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	OO		PhraseCat=NP
 14	bland	bland	ADP	_	_	13	MD		PhraseCat=PP
 15	världens	värld	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	18	DT		PhraseCat=NP
-16	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	17	MD		PhraseCat=AjP
+16	mest	mycket	ADV	_	Degree=Sup	17	MD		PhraseCat=AjP
 17	inkomstbringande	inkomstbringande	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part	18	MD		PhraseCat=AjP
 18	filmer	film	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	OO		PhraseCat=NP
 19	för	för	ADP	_	_	5	MD		PhraseCat=PP
@@ -97741,7 +97741,7 @@
 3	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 4	även	även	ADV	_	_	3	MD		PhraseCat=S
 5	tagit	ta	VERB	_	VerbForm=Sup|Voice=Act	3	IV		PhraseCat=VP
-6	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	7	MD		PhraseCat=AjP
+6	mycket	mycket	ADV	_	Degree=Pos	7	MD		PhraseCat=AjP
 7	stor	stor	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	MD		PhraseCat=AjP
 8	inspiration	inspiration	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	OO		PhraseCat=NP
 9	från	från	ADP	_	_	5	OA		PhraseCat=PP
@@ -97772,7 +97772,7 @@
 14	som	som	SCONJ	_	_	9	MD	9:MD|7:	PhraseCat=SuP
 15	kom	komma	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	OO		PhraseCat=S
 16	ut	ut	ADV	_	_	15	PL		PhraseCat=S
-17	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	18	MD		PhraseCat=AjP
+17	mycket	mycket	ADV	_	Degree=Pos	18	MD		PhraseCat=AjP
 18	tidigare	tidig	ADJ	_	Case=Nom|Degree=Cmp	15	MD		PhraseCat=AjP
 19	än	än	SCONJ	_	_	18	JF		PhraseCat=SuP
 20	Rowlings	Rowling	PROPN	_	Case=Gen	21	DT		PhraseCat=NP
@@ -98590,7 +98590,7 @@
 10	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 11	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	14	DT		PhraseCat=NP
 12	två	två	NUM	_	NumType=Card	14	DT		PhraseCat=NP
-13	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	14	MD		PhraseCat=AjP
+13	mest	mycket	ADV	_	Degree=Sup	14	MD		PhraseCat=AjP
 14	kända	känd	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	15	SB		PhraseCat=AjP
 15	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	2	parataxis		PhraseCat=S
 16	A	A	X	_	Foreign=Yes	18	ME		ExtXpos=ENM|PhraseCat=NP
@@ -99928,7 +99928,7 @@
 # sent_id = Wiki_Saganomringenfilm.68
 # text = Också mycket möda har lagts ned på vapnen, smycken, masker till orcher osv.
 1	Också	också	ADV	_	_	4	MD		PhraseCat=S
-2	mycket	mycket	ADV	_	Definite=Ind|Gender=Com|Number=Sing	3	MD		PhraseCat=NP
+2	mycket	mycket	ADV	_	Degree=Pos|Gender=Com	3	MD		PhraseCat=NP
 3	möda	möda	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	SB	4:SB|5:	PhraseCat=NP
 4	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 5	lagts	lägga	VERB	_	VerbForm=Sup|Voice=Pass	4	IV		PhraseCat=VP
@@ -100012,7 +100012,7 @@
 # text = Den beskriver mycket väl vad som händer och hur omgivningarna ser ut, och Howard Shore sade att han ibland skrev musiken direkt ur Tolkiens böcker.
 1	Den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	beskriver	beskriva	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
-3	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	4	MD		PhraseCat=AjP
+3	mycket	mycket	ADV	_	Degree=Pos	4	MD		PhraseCat=AjP
 4	väl	väl	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	MD		PhraseCat=AjP
 5	vad	vad	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	6	PH		PhraseCat=SuP
 6	som	som	SCONJ	_	_	2	OO		PhraseCat=SuP
@@ -100829,7 +100829,7 @@
 # text = Han är mest känd för att ha upptäckt sjövägen till Indien.
 1	Han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	SB		PhraseCat=S
 2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
-3	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	4	MD		PhraseCat=AjP
+3	mest	mycket	ADV	_	Degree=Sup	4	MD		PhraseCat=AjP
 4	känd	känd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	SP		PhraseCat=AjP
 5	för	för	ADP	_	_	4	OA		PhraseCat=PP
 6	att	att	PART	_	_	5	OO		PhraseCat=SuP
@@ -102419,14 +102419,14 @@
 8	handelsvillkor	handelsvillkor	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	OO		PhraseCat=NP
 9	och	och	CCONJ	_	_	13	cc		PhraseCat=KoP
 10	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	DT		PhraseCat=NP
-11	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	12	MD		PhraseCat=AjP
+11	mycket	mycket	ADV	_	Degree=Pos	12	MD		PhraseCat=AjP
 12	stort	stor	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	MD		PhraseCat=AjP
 13	byte	byte	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	conj		PhraseCat=NP|SpaceAfter=No
 14	,	,	PUNCT	_	_	5	--		PhraseCat=Top
 15	vilket	vilken	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	5	DF		PhraseCat=SuP
 16	gjorde	göra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	OO		PhraseCat=S
 17	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	OO		PhraseCat=S
-18	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	19	MD		PhraseCat=AjP
+18	mycket	mycket	ADV	_	Degree=Pos	19	MD		PhraseCat=AjP
 19	väl	väl	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	MD		PhraseCat=AjP
 20	sedd	sedd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	16	OP		PhraseCat=AjP
 21	vid	vid	ADP	_	_	20	MD		PhraseCat=PP
@@ -102658,7 +102658,7 @@
 # sent_id = Wiki_VascodaGama.79
 # text = Lika mycket som någon annan efter Henrik sjöfararen var da Gama ansvarig för Portugals framgång som tidig kolonialmakt.
 1	Lika	lik	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	MD		PhraseCat=AjP
-2	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	12	MD		PhraseCat=NP
+2	mycket	mycket	ADV	_	Degree=Pos	12	MD		PhraseCat=NP
 3	som	som	SCONJ	_	_	1	JF		PhraseCat=SuP
 4	någon	någon	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	5	DT		PhraseCat=NP
 5	annan	annan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	OO		PhraseCat=NP
@@ -102831,7 +102831,7 @@
 11	lista	lista	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	OO		PhraseCat=NP
 12	över	över	ADP	_	_	11	MD		PhraseCat=PP
 13	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	16	DT		PhraseCat=NP
-14	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	15	MD		PhraseCat=AjP
+14	mest	mycket	ADV	_	Degree=Sup	15	MD		PhraseCat=AjP
 15	inflytelserika	inflytelserik	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	MD		PhraseCat=AjP
 16	personerna	person	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	12	OO		PhraseCat=NP
 17	i	i	ADP	_	_	16	MD		PhraseCat=PP
@@ -103280,7 +103280,7 @@
 24	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	29	DT		PhraseCat=NP
 25	dåtida	dåtida	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	MD		PhraseCat=NP
 26	överlägset	överlägset	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	27	MD		PhraseCat=AjP
-27	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	28	MD		PhraseCat=AjP
+27	mest	mycket	ADV	_	Degree=Sup	28	MD		PhraseCat=AjP
 28	sålda	såld	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	29	MD		PhraseCat=AjP
 29	symaskinen	symaskin	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	--		PhraseCat=NP|SpaceAfter=No
 30	.	.	PUNCT	_	_	29	--		PhraseCat=Top
@@ -103552,7 +103552,7 @@
 17	maskiner	maskin	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	OO		PhraseCat=NP
 18	höll	hålla	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	OO		PhraseCat=S
 19	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	22	DT		PhraseCat=NP
-20	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	21	MD		PhraseCat=AjP
+20	mycket	mycket	ADV	_	Degree=Pos	21	MD		PhraseCat=AjP
 21	hög	hög	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	22	MD		PhraseCat=AjP
 22	kvalitet	kvalitet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	OO		PhraseCat=NP
 23	och	och	CCONJ	_	_	24	cc		PhraseCat=KoP
@@ -103745,7 +103745,7 @@
 16	elegant	elegant	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	MD		PhraseCat=AjP
 17	formgivna	formgiven	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	21	MD		PhraseCat=AjP|SpaceAfter=No
 18	,	,	PUNCT	_	_	5	--		PhraseCat=Top
-19	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	20	MD		PhraseCat=AjP
+19	mest	mycket	ADV	_	Degree=Sup	20	MD		PhraseCat=AjP
 20	vita	vit	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	AN		PhraseCat=AjP
 21	maskiner	maskin	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	OO		PhraseCat=NP|SpaceAfter=No
 22	.	.	PUNCT	_	_	5	--		PhraseCat=Top
@@ -104836,7 +104836,7 @@
 10	ett	en	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	SP		PhraseCat=NP|PromotedHead=Yes
 11	av	av	ADP	_	_	10	MD		PhraseCat=PP
 12	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	14	DT		PhraseCat=NP
-13	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	14	MD		PhraseCat=AjP
+13	mest	mycket	ADV	_	Degree=Sup	14	MD		PhraseCat=AjP
 14	studerade	studerad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	11	OO		PhraseCat=AjP
 15	och	och	CCONJ	_	_	17	cc		PhraseCat=KoP
 16	omtalade	omtalad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	17	MD		PhraseCat=AjP
@@ -105495,7 +105495,7 @@
 3	iakttagbara	iakttagbar	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	MD		PhraseCat=NP
 4	ansamlingar	ansamling	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	SP		PhraseCat=NP
 5	av	av	ADP	_	_	4	MD		PhraseCat=PP
-6	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	7	MD		PhraseCat=AjP
+6	mycket	mycket	ADV	_	Degree=Pos	7	MD		PhraseCat=AjP
 7	små	liten	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	MD	8:MD|10:	PhraseCat=AjP
 8	vattendroppar	vattendroppe	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	OO		PhraseCat=NP
 9	eller	eller	CCONJ	_	_	10	cc		PhraseCat=KoP
@@ -105861,7 +105861,7 @@
 10	vattentillgång	vattentillgång	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	OO		PhraseCat=VP
 11	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 12	blivit	bli	VERB	_	VerbForm=Sup|Voice=Act	11	IV		PhraseCat=VP
-13	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	14	MD		PhraseCat=AjP
+13	mycket	mycket	ADV	_	Degree=Pos	14	MD		PhraseCat=AjP
 14	viktigt	viktig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	SP		PhraseCat=AjP|SpaceAfter=No
 15	.	.	PUNCT	_	_	11	--		PhraseCat=Top
 
@@ -105890,7 +105890,7 @@
 2	elektriska	elektrisk	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	MD		PhraseCat=NP
 3	urladdningar	urladdning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	SB		PhraseCat=NP
 4	alstrar	alstra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
-5	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	6	MD		PhraseCat=AjP
+5	mycket	mycket	ADV	_	Degree=Pos	6	MD		PhraseCat=AjP
 6	stor	stor	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	MD		PhraseCat=AjP
 7	värme	värme	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	OO		PhraseCat=NP
 8	under	under	ADP	_	_	4	MD		PhraseCat=PP
@@ -106242,7 +106242,7 @@
 13	lufttrycket	lufttryck	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	SB		PhraseCat=S
 14	skiljer	skilja	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	OO	10:OO|6:	PhraseCat=S
 15	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	14	OO		PhraseCat=S
-16	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	14	MD		PhraseCat=S
+16	mest	mycket	ADV	_	Degree=Sup	14	MD		PhraseCat=S
 17	och	och	CCONJ	_	_	19	cc		PhraseCat=KoP
 18	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	19	SB		PhraseCat=S
 19	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	5	conj		PhraseCat=S
@@ -106335,7 +106335,7 @@
 31	fångar	fånga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj		PhraseCat=S
 32	in	in	ADV	_	_	31	PL		PhraseCat=S
 33	olika	olik	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	34	MD		PhraseCat=NP
-34	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	35	DT		PhraseCat=NP
+34	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos|Gender=Com	35	DT		PhraseCat=NP
 35	solenergi	solenergi	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	31	OO		PhraseCat=NP|SpaceAfter=No
 36	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -106379,7 +106379,7 @@
 3	latitud	latitud	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	OO		PhraseCat=NP
 4	10-70	10-70	NUM	_	NumType=Card	3	AN		PhraseCat=NP
 5	styrs	styra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	--		PhraseCat=S
-6	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=S
+6	mycket	mycket	ADV	_	Degree=Pos	5	MD		PhraseCat=S
 7	av	av	ADP	_	_	5	AG		PhraseCat=PP
 8	instabiliteten	instabilitet	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	OO		PhraseCat=NP
 9	hos	hos	ADP	_	_	8	MD		PhraseCat=PP
@@ -106713,7 +106713,7 @@
 16	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj		PhraseCat=S
 17	inte	inte	PART	_	Polarity=Neg	16	MD		PhraseCat=S
 18	så	så	ADV	_	_	19	MD		PhraseCat=NP
-19	mycket	mycket	ADJ	_	Case=Nom|Definite=Ind|Number=Plur	20	DT		PhraseCat=NP
+19	mycket	mycket	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	DT		PhraseCat=NP
 20	kunskaper	kunskap	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	OO		PhraseCat=NP
 21	om	om	ADP	_	_	20	MD		PhraseCat=PP
 22	dessa	denna	DET	_	Definite=Def|Number=Plur|PronType=Dem	23	DT		PhraseCat=NP
@@ -107232,7 +107232,7 @@
 34	)	)	PUNCT	_	_	11	--		PhraseCat=Top
 35	kan	kunna	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	24	OO		PhraseCat=S
 36	få	få	VERB	_	VerbForm=Inf|Voice=Act	35	IV		PhraseCat=VP
-37	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	38	MD		PhraseCat=AjP
+37	mycket	mycket	ADV	_	Degree=Pos	38	MD		PhraseCat=AjP
 38	stora	stor	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	39	MD		PhraseCat=AjP
 39	konsekvenser	konsekvens	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	36	OO		PhraseCat=NP
 40	(	(	PUNCT	_	_	11	--		PhraseCat=Top|SpaceAfter=No
@@ -107350,7 +107350,7 @@
 # sent_id = Wiki_Vader.175
 # text = Det mest lyckade försöket att påverka vädret har varit att sprida ämnen över moln för att frambringa regn.
 1	Det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	DT		PhraseCat=NP
-2	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	3	MD		PhraseCat=AjP
+2	mest	mycket	ADV	_	Degree=Sup	3	MD		PhraseCat=AjP
 3	lyckade	lyckad	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	4	MD		PhraseCat=AjP
 4	försöket	försök	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	SB	8:SB|9:	PhraseCat=NP
 5	att	att	PART	_	_	4	MD		PhraseCat=SuP
@@ -107927,7 +107927,7 @@
 4	av	av	ADP	_	_	3	MD		PhraseCat=PP
 5	detta	denna	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	DT		PhraseCat=NP
 6	väderfenomen	väderfenomen	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	OO		PhraseCat=NP
-7	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	8	MD		PhraseCat=AjP
+7	mycket	mycket	ADV	_	Degree=Pos	8	MD		PhraseCat=AjP
 8	större	stor	ADJ	_	Case=Nom|Degree=Cmp	2	SP		PhraseCat=AjP
 9	än	än	SCONJ	_	_	8	JF		PhraseCat=SuP
 10	på	på	ADP	_	_	9	OO		PhraseCat=PP
@@ -108326,7 +108326,7 @@
 1	Fleming	Fleming	PROPN	_	Case=Nom	2	SB		PhraseCat=S
 2	blev	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	8	DT		PhraseCat=NP
-4	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	5	MD		PhraseCat=AjP
+4	mycket	mycket	ADV	_	Degree=Pos	5	MD		PhraseCat=AjP
 5	hyllad	hyllad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	8	MD		PhraseCat=AjP
 6	och	och	CCONJ	_	_	7	cc		PhraseCat=KoP
 7	känd	känd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	5	conj		PhraseCat=AjP
@@ -108512,7 +108512,7 @@
 7	att	att	SCONJ	_	_	6	OO		PhraseCat=SuP
 8	hans	han	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	9	DT		PhraseCat=NP
 9	fosterföräldrar	fosterförälder	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	SB		PhraseCat=NP
-10	mest	mycket	ADV	_	Definite=Ind|Degree=Sup	11	MD		PhraseCat=S
+10	mest	mycket	ADV	_	Degree=Sup	11	MD		PhraseCat=S
 11	tycker	tycka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	OO		PhraseCat=S
 12	att	att	SCONJ	_	_	11	OO		PhraseCat=SuP
 13	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	SB		PhraseCat=S
@@ -109811,7 +109811,7 @@
 17	riddar	riddar	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	OO		PhraseCat=NP
 18	Kato	Kato	PROPN	_	Case=Nom	17	AN		PhraseCat=NP
 19	så	så	ADV	_	_	20	MD		PhraseCat=AbP
-20	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	16	MD		PhraseCat=NP
+20	mycket	mycket	ADV	_	Degree=Pos	16	MD		PhraseCat=NP
 21	att	att	SCONJ	_	_	19	JF		PhraseCat=SuP
 22	den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	SB		PhraseCat=S
 23	hjälper	hjälpa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	OO		PhraseCat=S
@@ -110637,7 +110637,7 @@
 19	konungen	konung	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	AN		PhraseCat=NP
 20	tycker	tycka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis		PhraseCat=S
 21	så	så	ADV	_	_	22	MD		PhraseCat=NP
-22	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	20	MD		PhraseCat=NP
+22	mycket	mycket	ADV	_	Degree=Pos	20	MD		PhraseCat=NP
 23	om	om	ADP	_	_	20	PL		PhraseCat=S
 24	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	OO		PhraseCat=S|SpaceAfter=No
 25	,	,	PUNCT	_	_	3	--		PhraseCat=Top
@@ -110645,7 +110645,7 @@
 27	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	28	SB		PhraseCat=S
 28	tycker	tycka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj		PhraseCat=S
 29	så	så	ADV	_	_	30	MD		PhraseCat=NP
-30	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	28	MD		PhraseCat=NP
+30	mycket	mycket	ADV	_	Degree=Pos	28	MD		PhraseCat=NP
 31	om	om	ADP	_	_	28	PL		PhraseCat=S
 32	min	jag	PRON	_	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	33	DT		PhraseCat=NP
 33	fader	far	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	OO		PhraseCat=NP
@@ -111070,7 +111070,7 @@
 26	pojke	pojke	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	OO		PhraseCat=NP|SpaceAfter=No
 27	,	,	PUNCT	_	_	6	--		PhraseCat=Top
 28	sittande	sittande	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Pres|VerbForm=Part	26	MD		PhraseCat=AjP
-29	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	30	MD		PhraseCat=AjP
+29	lite	lite	ADV	_	Degree=Pos	30	MD		PhraseCat=AjP
 30	sorgmodigt	sorgmodigt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	MD		PhraseCat=AjP
 31	på	på	ADP	_	_	28	RA		PhraseCat=PP
 32	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	33	DT		PhraseCat=NP
@@ -111835,7 +111835,7 @@
 10	denna	denna	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	11	DT		PhraseCat=NP
 11	filmatisering	filmatisering	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	SB		PhraseCat=NP
 12	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	DT		PhraseCat=NP
-13	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	14	MD		PhraseCat=AjP
+13	mycket	mycket	ADV	_	Degree=Pos	14	MD		PhraseCat=AjP
 14	dåligt	dålig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	MD		PhraseCat=AjP
 15	mottagande	mottagande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	OO		PhraseCat=NP|SpaceAfter=No
 16	.	.	PUNCT	_	_	9	--		PhraseCat=Top
@@ -112919,7 +112919,7 @@
 6	att	att	SCONJ	_	_	2	ES		PhraseCat=SuP
 7	brodern	bror	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	SB		PhraseCat=S
 8	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	6	OO		PhraseCat=S
-9	mycket	mycket	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	10	MD		PhraseCat=AjP
+9	mycket	mycket	ADV	_	Degree=Pos	10	MD		PhraseCat=AjP
 10	yngre	ung	ADJ	_	Case=Nom|Degree=Cmp	8	SP		PhraseCat=AjP
 11	än	än	SCONJ	_	_	10	JF		PhraseCat=SuP
 12	Vanheden	Vanheden	PROPN	_	Case=Nom	11	OO		PhraseCat=SuP
@@ -113192,7 +113192,7 @@
 12	där	där	SCONJ	_	_	11	MD		PhraseCat=SuP
 13	medlemmarna	medlem	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	14	SB		PhraseCat=S
 14	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	12	OO		PhraseCat=S
-15	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	16	MD		PhraseCat=AjP
+15	lite	lite	ADV	_	Degree=Pos	16	MD		PhraseCat=AjP
 16	äldre	gammal	ADJ	_	Case=Nom|Degree=Cmp	14	SP		PhraseCat=AjP
 17	(	(	PUNCT	_	_	2	--		PhraseCat=Top|SpaceAfter=No
 18	kanske	kanske	ADV	_	_	19	MD		PhraseCat=PP
@@ -113208,7 +113208,7 @@
 28	allt	all	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	29	SB		PhraseCat=S
 29	började	börja	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	OO		PhraseCat=S|SpaceAfter=No
 30	,	,	PUNCT	_	_	2	--		PhraseCat=Top
-31	lite	lite	ADV	_	Definite=Ind|Gender=Neut|Number=Sing	32	MD		PhraseCat=PP
+31	lite	lite	ADV	_	Degree=Pos	32	MD		PhraseCat=PP
 32	i	i	ADP	_	_	25	DF		PhraseCat=PP
 33	samma	samma	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	34	MD		PhraseCat=AjP
 34	stil	stil	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	32	OO		PhraseCat=NP
