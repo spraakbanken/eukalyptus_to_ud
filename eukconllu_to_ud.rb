@@ -27,15 +27,17 @@ end
 
 @all_upos = ["ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X"]
 
+@mycketlemmas = {"mycken" => "mycket", "litet" => "lite", "mången" => "många", "flera" => "många"}
 #handling elsewhere: KL, HD, DF, DT, MD
 @matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp","IV"=>"xcomp","--"=>"discourse"} #"HD"=>"dep",
 
 @functionwords = ["ADP","SCONJ","PART","DET","AUX","CCONJ","SYM","PUNCT"] #NO: ,NUM,PRON,X,INTJ.
 
 #TODO: DF -- better distinction between parataxis and discourse
+#TODO: rehang comparison in periphrastic constructions ("När det finns perifrastisk komparation hängs det på huvudordet i kvaliteten och inte på modifieraren: mera kompetent än X borde har än X som dependent till kompetent. I Eukalyptus hängs det nog på mera, så det får man rätta till i konverteringen. (Samma gäller lika bra som X etc.)")
 
 =begin
-#TODONOW: Gerlof, JF with comparatives as heads, SCONJ incl. mark vs. case and obl vs. advcl for JF (check also PhraseCat assignment), PH (deal with som first), OA, RA (parent and child), check all E*, check all *P, check AN (clauses?), udeprel validation, from UD side, go through existing issues, go through TODOs, metadata, evaluation...
+#TODONOW: Gerlof, SCONJ incl. mark vs. case and obl vs. advcl for JF (check also PhraseCat assignment), PH (deal with som first), OA, RA (parent and child), check all E*, check all *P, check AN (clauses?), udeprel validation, from UD side, go through existing issues, go through TODOs, metadata, evaluation...
 Lista 1:
 {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent", "DT"=>"det", "IO"=>"iobj", "PL"=>"compound:prt"}
 
@@ -638,34 +640,55 @@ def convert_syntax(sentence2, sent_id)
 
 #convert general
 #see https://github.com/UniversalDependencies/docs/issues/1126
+
     sentence.each_pair do |id,senthash|
-       lemma = senthash["lemma"]
-          
-       if lemma == "själv" 
-           head = senthash["head"]
+        lemma = senthash["lemma"]
+        deprel = senthash["deprel"]
+        head = senthash["head"]
+        
+        if lemma == "som" and sentence[id+1]["lemma"] == "gärna" 
+            if ((sentence[id+1]["head"] == id) or (sentence[id+1]["head"] == head)) #or (head == id+1)
+                sentence[id]["deprel"] = "advmod"
+                sentence[id+1]["deprel"] = "fixed"
+                sentence[id+1]["head"] = id.clone
+            elsif head = id+1
+                sentence[id]["deprel"] = "advmod"
+                sentence[id+1]["deprel"] = "fixed"
+                sentence[id]["head"] = sentence[id+1]["head"].clone
+                sentence[id+1]["head"] = id.clone
+            end
+        end
+    end
+
+    sentence.each_pair do |id,senthash|
+        lemma = senthash["lemma"]
+        
            
+        if lemma == "själv" 
+            head = senthash["head"]
+            
             if head == 0
                 STDOUT.puts "SJÄLV is root! #{sent_id}"
             else
                 headupos = sentence[head]["upos"]			
                
                 if headupos == "VERB" or headupos == "INTJ"
-                    udeprels[id] = "advcl"
+                    sentence[id]["deprel"] = "advcl"
                 elsif headupos == "NOUN" or headupos == "PROPN"
                         if id < head and senthash["feats"].include?("Definite=Def")
-                            udeprels[id] = "amod"
+                            sentence[id]["deprel"] = "amod"
                         else
-                            udeprels[id] = "acl"
+                            sentence[id]["deprel"] = "acl"
                         end
                 elsif headupos == "PRON"
-                    udeprels[id] = "acl"
+                    sentence[id]["deprel"] = "acl"
                 else
                     STDOUT.puts "Lost SJÄLV! #{sent_id} #{headupos}"
                 end
             end
-                   
-       
-       end
+                    
+        
+        end
     end
 
 
@@ -916,7 +939,7 @@ def convert(id, sentence, sent_id)
         end
     end
     
-    if lemma == "mycket" or lemma == "mycken" or lemma == "litet"
+    if lemma == "mycket" or lemma == "mycken" or lemma == "litet" or lemma == "mången" or lemma == "många" or lemma == "flera"
         if deprel == "DT"
             upos = "ADJ"
         elsif deprel == "MD"
@@ -924,8 +947,13 @@ def convert(id, sentence, sent_id)
         else
             upos = "PRON"
         end
+        if !@mycketlemmas[lemma].nil? 
+            lemma = @mycketlemmas[lemma]
+        end
+        
     end
-
+    
+    
     if upos.nil?
         upos = @matchingu[pos]
     end
