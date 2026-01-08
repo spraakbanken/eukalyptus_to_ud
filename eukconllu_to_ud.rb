@@ -6,6 +6,7 @@ lemma_per_pos2 = Hash.new{|hash, key| hash[key] = Array.new}
 filename = ARGV[0]
 inputfile = File.open("#{filename}.conllu","r:utf-8")
 @verbose = false
+#@jfuposs = []
 
 if mode == "convert"
     
@@ -37,7 +38,7 @@ end
 #TODO: rehang comparison in periphrastic constructions ("När det finns perifrastisk komparation hängs det på huvudordet i kvaliteten och inte på modifieraren: mera kompetent än X borde har än X som dependent till kompetent. I Eukalyptus hängs det nog på mera, så det får man rätta till i konverteringen. (Samma gäller lika bra som X etc.)")
 
 =begin
-#TODONOW: Gerlof, SCONJ incl. mark vs. case and obl vs. advcl for JF (check also PhraseCat assignment), PH (deal with som first), OA, RA (parent and child), check all E*, check all *P, check AN (clauses?), udeprel validation, from UD side, go through existing issues, go through TODOs, metadata, evaluation...
+#TODONOW: Gerlof, SCONJ incl. mark vs. case and obl vs. advcl for JF (check also PhraseCat assignment), PH (deal with som first), OA, RA (parent and child), check all E*, check all *P, check AN (clauses?), udeprel validation, from UD side, go through existing issues, go through TODOs, metadata, evaluation... Split, validation, documentation
 Lista 1:
 {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent", "DT"=>"det", "IO"=>"iobj", "PL"=>"compound:prt"}
 
@@ -121,6 +122,23 @@ AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA 
 
 
 @nonsfolemmas = ["tycka", "möta", "fordra", "känna", "tränga"] #both from Talbanken and LinES with manual filtering
+
+def verbal_or_not(sentence,id,verbalcats)
+    verbal = false
+    upos = sentence[id]["upos"]
+    if verbalcats.include?(upos)
+        verbal = true
+    else
+        daughters = finddaughters(sentence,id)
+        daughters.each do |daughter|
+            if sentence[daughter]["deprel"] == "cop" #and sentence[daughter]["upos"] == "AUX"
+                verbal = true
+                break
+            end
+        end
+    end
+    return verbal
+end
 
 def finddaughters(sentence,nodeofinterest)
     daughters = []
@@ -391,7 +409,7 @@ def convert_syntax(sentence2, sent_id)
     
     uheads = {}
     udeprels = {}
-    umisc = {}
+    umisc = Hash.new{|hash, key| hash[key] = Array.new}
 
     sentence.each_pair do |id,senthash|
         if senthash["head"] == 0
@@ -582,9 +600,9 @@ def convert_syntax(sentence2, sent_id)
                 end
                 sentence[functional_head]["head"] = contenthead.clone
                 if sentence[functional_head]["misc"]==""
-                    umisc[functional_head] = "NewHead=#{contenthead}"
+                    umisc[functional_head] << "NewHead=#{contenthead}"
                 else
-                    umisc[functional_head] = "#{sentence[functional_head]["misc"]}|NewHead=#{contenthead}"
+                    umisc[functional_head] << "#{sentence[functional_head]["misc"]}|NewHead=#{contenthead}"
                 end
                 
                 if funcheadtype == "adp"
@@ -595,7 +613,7 @@ def convert_syntax(sentence2, sent_id)
                         phrasecat = findinset("PhraseCat",	sentence[sentence[functional_head]["head"]]["misc"])
                     end
                     
-                    if @markcats.include?(phrasecat)
+                    if @markcats.include?(phrasecat) #will be corrected later by verbal_or_not
                         sentence[functional_head]["deprel"] = "mark"
                     else
                         sentence[functional_head]["deprel"] = "case"
@@ -720,7 +738,7 @@ def convert_syntax(sentence2, sent_id)
                 udeprels[id] = "cc"
             elsif form == "osv" or form == "etc"
                 udeprels[id] = "conj"
-            elsif @markcats.include?(phrasecat) or upos == "VERB"
+            elsif @markcats.include?(phrasecat) or upos == "VERB" #will NOT be corrected later by verbal_or_not
                 udeprels[id] = "parataxis"
             else
                 udeprels[id] = "discourse"
@@ -775,7 +793,7 @@ def convert_syntax(sentence2, sent_id)
                     #STDOUT.puts "MD, #{sent_id}, #{id}, #{upos}, #{form}"    
                 end
             elsif upos == "SCONJ" #fix SCONJs in general
-                if @markcats.include?(findinset("PhraseCat",misc))
+                if @markcats.include?(findinset("PhraseCat",misc)) #will be corrected later by verbal_or_not
                     udeprels[id] = "mark"
                 else
                     udeprels[id] = "case"
@@ -797,13 +815,40 @@ def convert_syntax(sentence2, sent_id)
         
         
         if deprel == "JF"
-            if @markcats.include?(findinset("PhraseCat",misc))
+            #umisc[id] << "JF=True"
+            
+            
+            #if @markcats.include?(findinset("PhraseCat",misc))
+            if verbal_or_not(sentence,id,["VERB","ADJ","ADV","AUX"])
                 udeprels[id] = "advcl"
-            else
+            else                
                 udeprels[id] = "obl"
+            end
+            #@jfuposs << upos
+            #if ["NUM","INTJ","PRON","X"].include?(upos)
+            #    STDOUT.puts "#{sent_id}\t#{upos}\t#{udeprels[id]}\tJF"
+            #end
+        
+        end
+        
+        if udeprels[id] == "mark" or udeprels[id] == "case" or deprel == "mark" or deprel == "case"
+            if udeprels[id] == "mark" or udeprels[id] == "case"
+                old = udeprels[id].clone
+            else
+                old = deprel.clone
+            end
+           
+            if verbal_or_not(sentence,head,["VERB","AUX"])
+                udeprels[id] = "mark"
+            else
+                udeprels[id] = "case"
+            end            
+            if udeprels[id] != old
+                STDOUT.puts "#{sent_id}\t#{id}\tchange #{old} to #{udeprels[id]}"
             end
         
         end
+        
         
         if upos == "PUNCT"
             udeprels[id] = "punct"
@@ -819,9 +864,10 @@ def convert_syntax(sentence2, sent_id)
             end
         end
         uheads[id] = head #move to a separate cycle?
-        if umisc[id].nil?
-            umisc[id] = misc
-        end
+        umisc[id] = [umisc[id],misc.split("|")].flatten.sort.join("|")
+        #if umisc[id].nil?
+        #    umisc[id] = misc
+        #end
 
 
         #START WITH HASH
@@ -1282,7 +1328,7 @@ inputfile.each_line do |line|
                 else
                     outputline2 = outputline1.split("\t")
                     id = outputline2[0].to_i
-                    misc = umisc[id].to_s.split("|").sort.join("|")
+                    misc = umisc[id]#.to_s.split("|").sort.join("|")
                     outputline_synt = [id, outputline2[1], sentence[id]["lemma"], sentence[id]["upos"], outputline2[4], outputline2[5], uheads[id],udeprels[id],outputline2[8],misc].join("\t")
                     output_synt << outputline_synt
                 end
@@ -1319,3 +1365,4 @@ if mode == "other"
 end
 
 #STDOUT.puts @chain_array.uniq
+#STDERR.puts @jfuposs.uniq
