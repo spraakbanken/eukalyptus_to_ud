@@ -3000,7 +3000,7 @@
 1	Medans	medans	SCONJ	_	_	12	MD		PhraseCat=SuP
 2	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	SB		PhraseCat=S
 3	försöker	försöka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	OO		PhraseCat=S
-4	få	få	AUX	_	VerbForm=Inf|Voice=Act	3	IV		PhraseCat=VP
+4	få	få	VERB	_	VerbForm=Inf|Voice=Act	3	IV		PhraseCat=VP
 5	läkaren	läkare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	OO		PhraseCat=VP
 6	att	att	PART	_	_	4	IV		PhraseCat=SuP
 7	skicka	skicka	VERB	_	VerbForm=Inf|Voice=Act	6	OO		PhraseCat=VP
@@ -14536,7 +14536,7 @@
 43	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	33	conj		PhraseCat=NP
 44	man	man	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Ind	45	SB		PhraseCat=S
 45	försöker	försöka	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	43	MD		PhraseCat=S
-46	få	få	AUX	_	VerbForm=Inf|Voice=Act	45	IV		PhraseCat=VP
+46	få	få	VERB	_	VerbForm=Inf|Voice=Act	45	IV		PhraseCat=VP
 47	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	46	OO		PhraseCat=VP
 48	att	att	PART	_	_	46	IV		PhraseCat=SuP
 49	bli	bli	VERB	_	VerbForm=Inf|Voice=Act	48	OO		PhraseCat=VP
@@ -31271,7 +31271,7 @@
 1	Om	om	SCONJ	_	_	12	MD		PhraseCat=SuP
 2	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	3	SB		PhraseCat=S
 3	skall	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	1	OO		PhraseCat=S
-4	få	få	AUX	_	VerbForm=Inf|Voice=Act	3	IV		PhraseCat=VP
+4	få	få	VERB	_	VerbForm=Inf|Voice=Act	3	IV		PhraseCat=VP
 5	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	DT		PhraseCat=NP
 6	gemensam	gemensam	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	MD		PhraseCat=NP
 7	transportmarknad	transportmarknad	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	OO	4:OO|10:	PhraseCat=NP
@@ -32970,7 +32970,7 @@
 3	skall	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 4	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	3	SB		PhraseCat=S
 5	annars	annars	ADV	_	_	3	MD		PhraseCat=S
-6	få	få	AUX	_	VerbForm=Inf|Voice=Act	3	IV		PhraseCat=VP
+6	få	få	VERB	_	VerbForm=Inf|Voice=Act	3	IV		PhraseCat=VP
 7	arbetslöshetssiffrorna	arbetslöshetssiffra	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	6	OO		PhraseCat=VP
 8	att	att	PART	_	_	6	IV		PhraseCat=SuP
 9	sjunka	sjunka	VERB	_	VerbForm=Inf|Voice=Act	8	OO		PhraseCat=SuP
@@ -52307,7 +52307,7 @@
 # text = För att få medborgarna att känna sig representerade måste polisen, enligt honom, både rekryteras lokalt och komma till rätta med den osunda kårandan.
 1	För	för	ADP	_	_	9	MD		PhraseCat=PP
 2	att	att	PART	_	_	1	OO		PhraseCat=SuP
-3	få	få	AUX	_	VerbForm=Inf|Voice=Act	2	OO		PhraseCat=VP
+3	få	få	VERB	_	VerbForm=Inf|Voice=Act	2	OO		PhraseCat=VP
 4	medborgarna	medborgare	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	OO		PhraseCat=VP
 5	att	att	PART	_	_	3	IV		PhraseCat=SuP
 6	känna	känna	VERB	_	VerbForm=Inf|Voice=Act	5	OO		PhraseCat=VP
@@ -55890,7 +55890,7 @@
 # sent_id = Arbt_Vardbolag.3
 # text = Uppgifterna fick Skatteverkets skatterevisor Börje Norling att reagera.
 1	Uppgifterna	uppgift	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	SB		PhraseCat=S
-2	fick	få	AUX	_	Mood=Ind|Tense=Past|Voice=Act	0	--		PhraseCat=S
+2	fick	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 3	Skatteverkets	Skatteverket	PROPN	_	Case=Gen	4	DT		PhraseCat=NP
 4	skatterevisor	skatterevisor	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	OO	2:OO|8:	PhraseCat=NP
 5	Börje	Börje	PROPN	_	Case=Nom	4	AN		ExtXpos=ENM|PhraseCat=NP
@@ -59556,7 +59556,7 @@
 1	Rädslan	rädsla	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	SB		PhraseCat=NP
 2	för	för	ADP	_	_	1	MD		PhraseCat=PP
 3	mediadrev	mediadrev	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	OO		PhraseCat=PP
-4	får	få	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
+4	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 5	alltid	alltid	ADV	_	_	4	MD		PhraseCat=S
 6	Vänsterpartiet	Vänsterpartiet	PROPN	_	Case=Nom	4	OO		PhraseCat=S
 7	att	att	PART	_	_	4	IV		PhraseCat=SuP
@@ -64395,7 +64395,7 @@
 9	maskerad	maskerad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	8	SP		PhraseCat=VP|SpaceAfter=No
 10	,	,	PUNCT	_	_	4	--		PhraseCat=Top
 11	vilket	vilken	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	4	DF		PhraseCat=SuP
-12	fick	få	AUX	_	Mood=Ind|Tense=Past|Voice=Act	11	OO		PhraseCat=S
+12	fick	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	OO		PhraseCat=S
 13	Stockholmspolisen	stockholmspolis	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	OO		PhraseCat=S
 14	att	att	PART	_	_	12	IV		PhraseCat=SuP
 15	rikta	rikta	VERB	_	VerbForm=Inf|Voice=Act	14	OO		PhraseCat=VP
@@ -70003,7 +70003,7 @@
 4	för	för	ADP	_	_	2	MD		PhraseCat=PP
 5	att	att	PART	_	_	4	OO		PhraseCat=SuP
 6	försöka	försöka	VERB	_	VerbForm=Inf|Voice=Act	5	OO		PhraseCat=VP
-7	få	få	AUX	_	VerbForm=Inf|Voice=Act	6	IV		PhraseCat=VP
+7	få	få	VERB	_	VerbForm=Inf|Voice=Act	6	IV		PhraseCat=VP
 8	dessa	denna	DET	_	Definite=Def|Number=Plur|PronType=Dem	9	DT		PhraseCat=NP
 9	vildar	vilde	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	IO		PhraseCat=NP
 10	att	att	PART	_	_	7	IV		PhraseCat=SuP
@@ -73502,7 +73502,7 @@
 6	in	in	ADV	_	_	5	PL		PhraseCat=VP
 7	och	och	CCONJ	_	_	8	cc		PhraseCat=KoP
 8	försökt	försöka	VERB	_	VerbForm=Sup|Voice=Act	5	conj		PhraseCat=VP
-9	få	få	AUX	_	VerbForm=Inf|Voice=Act	8	IV		PhraseCat=VP
+9	få	få	VERB	_	VerbForm=Inf|Voice=Act	8	IV		PhraseCat=VP
 10	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	OO		PhraseCat=VP
 11	att	att	PART	_	_	9	IV		PhraseCat=SuP
 12	förstå	förstå	VERB	_	VerbForm=Inf|Voice=Act	11	OO		PhraseCat=VP
@@ -74304,7 +74304,7 @@
 
 # sent_id = Romn_Lundqvist-Ingentobak.406
 # text = Få Svenson att med en gång förstå vem han, Barthel, egentligen är.
-1	Få	få	AUX	_	Mood=Imp|Voice=Act	0	--		PhraseCat=S
+1	Få	få	VERB	_	Mood=Imp|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 2	Svenson	Svenson	PROPN	_	Case=Nom	1	OO		PhraseCat=S
 3	att	att	SCONJ	_	_	1	IV		PhraseCat=SuP
 4	med	med	ADP	_	_	7	MD		PhraseCat=PP
@@ -78178,7 +78178,7 @@
 8	räcka	räcka	VERB	_	VerbForm=Inf|Voice=Act	7	IV		PhraseCat=VP
 9	för	för	ADP	_	_	8	MD		PhraseCat=PP
 10	att	att	PART	_	_	9	OO		PhraseCat=SuP
-11	få	få	AUX	_	VerbForm=Inf|Voice=Act	10	OO		PhraseCat=VP
+11	få	få	VERB	_	VerbForm=Inf|Voice=Act	10	OO		PhraseCat=VP
 12	honom	han	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	OO		PhraseCat=VP
 13	att	att	PART	_	_	11	IV		PhraseCat=SuP
 14	känna	känna	VERB	_	VerbForm=Inf|Voice=Act	13	OO		PhraseCat=VP
@@ -83917,7 +83917,7 @@
 7	,	,	PUNCT	_	_	2	--		PhraseCat=Top
 8	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	AN		PhraseCat=NP
 9	som	som	SCONJ	_	_	8	MD		PhraseCat=SuP
-10	fick	få	AUX	_	Mood=Ind|Tense=Past|Voice=Act	9	OO		PhraseCat=S
+10	fick	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	OO		PhraseCat=S
 11	alla	all	DET	_	Definite=Ind|Number=Plur|PronType=Tot	12	DT		PhraseCat=NP
 12	mänskor	mänska	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	OO	10:OO|14:	PhraseCat=NP
 13	att	att	PART	_	_	10	IV		PhraseCat=SuP
@@ -88756,7 +88756,7 @@
 22	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	24	SB		PhraseCat=S
 23	kanske	kanske	ADV	_	_	24	MD		PhraseCat=S
 24	kan	kunna	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	15	conj		PhraseCat=S
-25	få	få	AUX	_	VerbForm=Inf|Voice=Act	24	IV		PhraseCat=VP
+25	få	få	VERB	_	VerbForm=Inf|Voice=Act	24	IV		PhraseCat=VP
 26	dem	de	PRON	_	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	25	OO		PhraseCat=VP
 27	att	att	PART	_	_	25	IV		PhraseCat=SuP
 28	spela	spela	VERB	_	VerbForm=Inf|Voice=Act	27	OO		PhraseCat=VP
@@ -95580,7 +95580,7 @@
 9	att	att	SCONJ	_	_	8	OO		PhraseCat=SuP
 10	de	de	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	11	SB		PhraseCat=S
 11	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	9	OO		PhraseCat=S
-12	fått	få	AUX	_	VerbForm=Sup|Voice=Act	11	IV		PhraseCat=VP
+12	fått	få	VERB	_	VerbForm=Sup|Voice=Act	11	IV		PhraseCat=VP
 13	många	många	ADV	_	Degree=Pos|Number=Plur	14	MD		PhraseCat=NP
 14	barn	barn	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	OO	12:OO|16:	PhraseCat=NP
 15	att	att	PART	_	_	12	IV		PhraseCat=SuP

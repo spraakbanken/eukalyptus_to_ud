@@ -125,6 +125,7 @@ AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA 
 
 def verbal_or_not(sentence,id,verbalcats)
     verbal = false
+    @copula = false
     upos = sentence[id]["upos"]
     if verbalcats.include?(upos)
         verbal = true
@@ -133,6 +134,7 @@ def verbal_or_not(sentence,id,verbalcats)
         daughters.each do |daughter|
             if sentence[daughter]["deprel"] == "cop" #and sentence[daughter]["upos"] == "AUX"
                 verbal = true
+                @copula = true
                 break
             end
         end
@@ -819,11 +821,12 @@ def convert_syntax(sentence2, sent_id)
             
             
             #if @markcats.include?(findinset("PhraseCat",misc))
-            if verbal_or_not(sentence,id,["VERB","ADJ","ADV","AUX"])
+            if verbal_or_not(sentence,id,["VERB","ADJ","ADV","AUX"]) #note that verbal_or_not is used differently, not as in mark/case (re)assignment below
                 udeprels[id] = "advcl"
             else                
                 udeprels[id] = "obl"
             end
+            #STDOUT.puts "JF\t#{@copula}\t#{sent_id}\t#{upos}\t#{udeprels[id]}"
             #@jfuposs << upos
             #if ["NUM","INTJ","PRON","X"].include?(upos)
             #    STDOUT.puts "#{sent_id}\t#{upos}\t#{udeprels[id]}\tJF"
@@ -832,20 +835,26 @@ def convert_syntax(sentence2, sent_id)
         end
         
         if udeprels[id] == "mark" or udeprels[id] == "case" or deprel == "mark" or deprel == "case"
-            if udeprels[id] == "mark" or udeprels[id] == "case"
-                old = udeprels[id].clone
-            else
-                old = deprel.clone
-            end
+            #if udeprels[id] == "mark" or udeprels[id] == "case" #at this point, mark/case could have been specified either in deprel or in udeprel, hence the weird structure
+            #    old = udeprels[id].clone
+            #else
+            #    old = deprel.clone
+            #end
            
-            if verbal_or_not(sentence,head,["VERB","AUX"])
-                udeprels[id] = "mark"
+            if verbal_or_not(sentence,head,["VERB","AUX"]) #the @markcats approach overgenerates "mark", because Eukalyptus is much more generous with subordinate phrases/clauses than UD. Hence another rule: if the head is not verbal, ignore PhraseCat
+                if !@copula #exception: if the head is nominal and there is a copula as a daughter, it COULD be a clause, but too many examples aren't (additional problem: too many "vara" misclassified as copula. Best to ignore such cases
+                    udeprels[id] = "mark"
+                else
+                    if udeprels[id].nil? #that's just for debugging purposes, otherwise missing udeprels could be dealt with below              
+                        udeprels[id] = deprel.clone
+                    end
+                end
             else
-                udeprels[id] = "case"
+                udeprels[id] = "case" #works quite well
             end            
-            if udeprels[id] != old
-                STDOUT.puts "#{sent_id}\t#{id}\tchange #{old} to #{udeprels[id]}"
-            end
+            #if udeprels[id] != old #== "mark" and old == "case" #
+            #    STDOUT.puts "CHANGE\t#{@copula}\t#{sent_id}\t#{id}\tchange #{old} to #{udeprels[id]}"
+            #end
         
         end
         
@@ -1063,7 +1072,11 @@ def convert(id, sentence, sent_id)
                 daughters.each do |daughter|
                     #if ((sentence[daughter]["msd"].include?("INF") or sentence[daughter]["lemma"] == "att")) or (sentence[daughter]["msd"].include?("SPM")) and sentence[daughter]["deprel"] == "IV"
                     if sentence[daughter]["deprel"] == "IV"
-                        auxflag = true
+                        if lemma == "få" and sentence[daughter]["lemma"] == "att"
+                            auxflag = false
+                        else
+                            auxflag = true
+                        end
                         break
                     end
                 end
