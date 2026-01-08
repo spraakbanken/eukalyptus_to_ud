@@ -4377,10 +4377,10 @@
 # sent_id = Blog_13263-144355.2
 # text = Tydligen inte för många eftersom jag idag har skaffat mig tre till (och en enfärgad).
 1	Tydligen	tydligen	AB	-.-.-	AB.-.-	2	MD		PhraseCat=AbP
-2	inte	inte	AB	-.-.-	AB.-.-	0	--		PhraseCat=AbP
+2	inte	inte	AB	-.-.-	AB.-.-	4	MD		PhraseCat=AbP
 3	för	för	AB	-.-.-	AB.-.-	4	MD		PhraseCat=AjP
-4	många	mången	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	2	OO		PhraseCat=AjP
-5	eftersom	eftersom	SU	-.-.-	SU.-	2	MD		PhraseCat=SuP
+4	många	mången	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	0	--		PhraseCat=AjP
+5	eftersom	eftersom	SU	-.-.-	SU.-	4	MD		PhraseCat=SuP
 6	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	8	SB		PhraseCat=S
 7	idag	idag	AB	-.-.-	AB.-.-	8	MD		PhraseCat=S
 8	har	ha	VB	-.-.-	VB.IND.AKT.PRS	5	OO		PhraseCat=S
@@ -4388,12 +4388,12 @@
 10	mig	jag	PO	-.-.-	PO.DEF.SIN.UTR.OBJ.-	9	IO		PhraseCat=VP
 11	tre	tre	NU	-.-.-	NU.-	12	DT		PhraseCat=NP
 12	till	till	AB	-.-.-	AB.-.-	14	KL		PhraseCat=NP|PromotedHead=Yes
-13	(	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top|SpaceAfter=No
+13	(	_	SY	-.-.-	SY.DEL	4	--		PhraseCat=Top|SpaceAfter=No
 14	och	och	KO	-.-.-	KO.-	9	OO		PhraseCat=KoP
 15	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	16	DT		PhraseCat=NP
 16	enfärgad	enfärgad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	14	KL		PhraseCat=NP|PromotedHead=Yes|SpaceAfter=No
-17	)	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top|SpaceAfter=No
-18	.	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top
+17	)	_	SY	-.-.-	SY.DEL	4	--		PhraseCat=Top|SpaceAfter=No
+18	.	_	SY	-.-.-	SY.DEL	4	--		PhraseCat=Top
 
 # sent_id = Blog_13263-144355.3
 # text = Skjortor är en sån sak man aldrig kan ha för många av och istället för att köra med principen ”en in, en ut” så är nu min garderob smockfull.
@@ -8353,15 +8353,15 @@
 
 # sent_id = Blog_12325-2413172.12
 # text = Som att kolla lite i mejlen till exempel.
-1	Som	som	SU	-.-.-	SU.-	0	--		PhraseCat=S|PromotedHead=Yes
-2	att	att	SU	-.-.-	SU.-	1	OO		PhraseCat=SuP
+1	Som	som	SU	-.-.-	SU.-	2	MD		PhraseCat=S
+2	att	att	SU	-.-.-	SU.-	0	--		PhraseCat=SuP
 3	kolla	kolla	VB	-.-.-	VB.INF.AKT.-	2	OO		PhraseCat=VP
 4	lite	litet	PO	-.-.-	PO.IND.SIN.NEU.-.-	3	OO		PhraseCat=NP
 5	i	i	PE	-.-.-	PE.-	4	MD		PhraseCat=PP
 6	mejlen	mejl	NN	-.-.-	NN.UTR.SIN.DEF	5	OO		PhraseCat=PP
-7	till	till	PE	-.-.-	PE.-	1	MD		PhraseCat=PP
+7	till	till	PE	-.-.-	PE.-	2	MD		PhraseCat=PP
 8	exempel	exempel	NN	-.-.-	NN.NEU.SIN.IND	7	OO		PhraseCat=PP|SpaceAfter=No
-9	.	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
+9	.	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top
 
 # sent_id = Blog_12325-2413172.13
 # text = Och där fick jag ett just ett besked om att Record heaven skickat iväg en beställning jag väntat på ett tag, med bland annat Kylesa och mera Agalloch.
@@ -8469,11 +8469,11 @@
 
 # sent_id = Blog_12325-2413172.20
 # text = Eller den här, så du kan hitta något spännande inför helgen.
-1	Eller	eller	KO	-.-.-	KO.-	0	--		PhraseCat=S|PromotedHead=Yes
-2	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	1	OO		ExtXpos=POM|PhraseCat=S
+1	Eller	eller	KO	-.-.-	KO.-	2	DF		PhraseCat=S
+2	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	0	--		ExtXpos=POM|PhraseCat=S|PromotedHead=Yes
 3	här	här	AB	-.-.-	AB.-.FRL	2	ME		ExtXpos=POM|PhraseCat=S|SpaceAfter=No
-4	,	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
-5	så	så	SU	-.-.-	SU.-	1	MD		PhraseCat=SuP
+4	,	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top
+5	så	så	SU	-.-.-	SU.-	2	MD		PhraseCat=SuP
 6	du	du	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	7	SB		PhraseCat=S
 7	kan	kunna	VB	-.-.-	VB.IND.AKT.PRS	5	MD		PhraseCat=S
 8	hitta	hitta	VB	-.-.-	VB.INF.AKT.-	7	IV		PhraseCat=VP
@@ -8481,7 +8481,7 @@
 10	spännande	spännande	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	8	OO		PhraseCat=NP
 11	inför	inför	PE	-.-.-	PE.-	7	MD		PhraseCat=PP
 12	helgen	helg	NN	-.-.-	NN.UTR.SIN.DEF	11	OO		PhraseCat=PP|SpaceAfter=No
-13	.	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
+13	.	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top
 
 # sent_id = Blog_12325-2413172.21
 # text = Vi ses imorgon.
@@ -8499,15 +8499,15 @@
 
 # sent_id = Blog_12325-2413172.23
 # text = Jo, förresten - en helt annan sak.
-1	Jo	jo	IJ	-.-.-	IJ.-	0	--		PhraseCat=S|PromotedHead=Yes|SpaceAfter=No
-2	,	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
-3	förresten	förresten	AB	-.-.-	AB.-.-	1	DF		PhraseCat=S
-4	-	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
+1	Jo	jo	IJ	-.-.-	IJ.-	8	DF		PhraseCat=S|SpaceAfter=No
+2	,	_	SY	-.-.-	SY.DEL	8	--		PhraseCat=Top
+3	förresten	förresten	AB	-.-.-	AB.-.-	8	DF		PhraseCat=S
+4	-	_	SY	-.-.-	SY.DEL	8	--		PhraseCat=Top
 5	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	8	DT		PhraseCat=NP
 6	helt	hel	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	7	MD		PhraseCat=AjP
 7	annan	annan	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	8	MD		PhraseCat=AjP
-8	sak	sak	NN	-.-.-	NN.UTR.SIN.IND	1	OO		PhraseCat=NP|SpaceAfter=No
-9	.	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
+8	sak	sak	NN	-.-.-	NN.UTR.SIN.IND	0	--		PhraseCat=NP|SpaceAfter=No
+9	.	_	SY	-.-.-	SY.DEL	8	--		PhraseCat=Top
 
 # sent_id = Blog_12325-2413172.24
 # text = Nu har jag plåt till Sonisphere.
@@ -9617,8 +9617,8 @@
 5	nyttiga	nyttig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	6	MD		PhraseCat=NP
 6	muffins	muffins	NN	-.-.-	NN.UTR.PLU.IND	4	KL		PhraseCat=NP|SpaceAfter=No
 7	,	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
-8	Snart	snart	AB	-.-.-	AB.-.-	1	KL		PhraseCat=S|PromotedHead=Yes
-9	matbröd	matbröd	NN	-.-.-	NN.NEU.SIN.IND	8	OO		PhraseCat=S|SpaceAfter=No
+8	Snart	snart	AB	-.-.-	AB.-.-	9	MD		PhraseCat=S
+9	matbröd	matbröd	NN	-.-.-	NN.NEU.SIN.IND	1	KL		PhraseCat=S|PromotedHead=Yes|SpaceAfter=No
 10	.	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
 
 # sent_id = Blog_26224-1714803.2
@@ -11789,11 +11789,11 @@
 
 # sent_id = Blog_265827-14889090.4
 # text = Beach 2012 - pffft.
-1	Beach	_	UO	-.-.-	UO.-	0	--		PhraseCat=NP
+1	Beach	_	UO	-.-.-	UO.-	4	DF		PhraseCat=NP
 2	2012	tvåtusentolv	NU	-.-.-	NU.-	1	MD		PhraseCat=NP
-3	-	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
-4	pffft	pft	IJ	-.-.-	IJ.-	1	OO		PhraseCat=S|SpaceAfter=No
-5	.	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
+3	-	_	SY	-.-.-	SY.DEL	4	--		PhraseCat=Top
+4	pffft	pft	IJ	-.-.-	IJ.-	0	--		PhraseCat=S|PromotedHead=Yes|SpaceAfter=No
+5	.	_	SY	-.-.-	SY.DEL	4	--		PhraseCat=Top
 
 # newdoc id = Blog_265827-14455040
 # sent_id = Blog_265827-14455040.1
@@ -20033,16 +20033,16 @@
 
 # sent_id = Blog_9154-4949551.3
 # text = Samtidigt denna välust över att kunna köra ordentligt igen.
-1	Samtidigt	samtidig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	0	--		PhraseCat=S|PromotedHead=Yes
+1	Samtidigt	samtidig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	3	MD		PhraseCat=S
 2	denna	denna	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	3	DT		PhraseCat=NP
-3	välust	väl|lust	NN	-.-.-	NN.UTR.SIN.IND	1	OO		PhraseCat=NP
+3	välust	väl|lust	NN	-.-.-	NN.UTR.SIN.IND	0	--		PhraseCat=NP
 4	över	över	PE	-.-.-	PE.-	3	MD		PhraseCat=PP
 5	att	att	SU	-.-.-	SU.-	4	OO		PhraseCat=SuP
 6	kunna	kunna	VB	-.-.-	VB.INF.AKT.-	5	OO		PhraseCat=VP
 7	köra	köra	VB	-.-.-	VB.INF.AKT.-	6	IV		PhraseCat=VP
 8	ordentligt	ordentlig	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	7	MD		PhraseCat=VP
 9	igen	igen	AB	-.-.-	AB.-.-	6	MD		PhraseCat=VP|SpaceAfter=No
-10	.	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
+10	.	_	SY	-.-.-	SY.DEL	3	--		PhraseCat=Top
 
 # sent_id = Blog_9154-4949551.4
 # text = Dessa meningslösa månader som jag tränade fastän att jag inte kunde göra mig själv rättvisa, höll på att totalt ta död på min kärlek till idrotten.
@@ -22246,10 +22246,10 @@
 8	sommar	sommar	NN	-.-.-	NN.UTR.SIN.IND	7	OO		PhraseCat=SuP|SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	3	--		PhraseCat=Top
 10	och	och	KO	-.-.-	KO.-	3	parataxis		PhraseCat=KoP
-11	inte	inte	AB	-.-.-	AB.-.-	10	KL		PhraseCat=S|PromotedHead=Yes
+11	inte	inte	AB	-.-.-	AB.-.-	13	MD		PhraseCat=S
 12	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	13	DT		PhraseCat=NP
-13	moln	moln	NN	-.-.-	NN.NEU.SIN.IND	11	OO		PhraseCat=NP
-14	på	på	PE	-.-.-	PE.-	11	MD		PhraseCat=PP
+13	moln	moln	NN	-.-.-	NN.NEU.SIN.IND	10	KL		PhraseCat=NP
+14	på	på	PE	-.-.-	PE.-	13	MD		PhraseCat=PP
 15	himlen	himmel	NN	-.-.-	NN.UTR.SIN.DEF	14	OO		PhraseCat=PP|SpaceAfter=No
 16	,	_	SY	-.-.-	SY.DEL	3	--		PhraseCat=Top
 17	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	18	KL		PhraseCat=KoP
@@ -32796,9 +32796,9 @@
 16	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	18	DT		PhraseCat=NP
 17	horisontella	horisontell	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	18	MD		PhraseCat=NP
 18	gemenskapspolitiken	gemenskaps|politik	NN	-.-.-	NN.UTR.SIN.DEF	15	OO		PhraseCat=NP
-19	när	när	AB	-.-.-	AB.-.FRL	14	MD		PhraseCat=SuP|PromotedHead=Yes
+19	när	när	AB	-.-.-	AB.-.FRL	21	MD		PhraseCat=SuP
 20	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	21	SB		PhraseCat=S
-21	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	19	OO		PhraseCat=S
+21	gäller	gälla	VB	-.-.-	VB.IND.AKT.PRS	14	MD		PhraseCat=S
 22	miljöskydd	miljöskydd	NN	-.-.-	NN.NEU.SIN.IND	21	OO		PhraseCat=S
 23	och	och	KO	-.-.-	KO.-	10	OO		PhraseCat=KoP
 24	inte	inte	AB	-.-.-	AB.-.-	25	MD		PhraseCat=S
@@ -36752,9 +36752,9 @@
 32	sociala	social	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	31	KL		PhraseCat=KoP
 33	sammanhållningen	sammanhållning	NN	-.-.-	NN.UTR.SIN.DEF	28	OO		PhraseCat=NP
 34	och	och	KO	-.-.-	KO.-	18	OO		PhraseCat=KoP
-35	inte	inte	AB	-.-.-	AB.-.-	34	KL		PhraseCat=VP|PromotedHead=Yes
-36	bara	bara	AB	-.-.-	AB.-.-	35	MD		PhraseCat=VP
-37	för	för	PE	-.-.-	PE.-	35	OO		PhraseCat=PP
+35	inte	inte	AB	-.-.-	AB.-.-	37	MD		PhraseCat=VP
+36	bara	bara	AB	-.-.-	AB.-.-	37	MD		PhraseCat=VP
+37	för	för	PE	-.-.-	PE.-	34	KL		PhraseCat=PP
 38	produktiviteten	produktivitet	NN	-.-.-	NN.UTR.SIN.DEF	37	OO		PhraseCat=PP|SpaceAfter=No
 39	.	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top
 
@@ -38365,7 +38365,7 @@
 6	som	som	SU	-.-.-	SU.-	5	MD		PhraseCat=SuP
 7	helhet	helhet	NN	-.-.-	NN.UTR.SIN.IND	6	OO		PhraseCat=SuP|SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	4	--		PhraseCat=Top
-9	och	och	KO	-.-.-	KO.-	4	SB	4:SB|17:|25:	PhraseCat=KoP
+9	och	och	KO	-.-.-	KO.-	4	SB	4:SB|17:|28:	PhraseCat=KoP
 10	varje	varje	PO	-.-.-	PO.IND.SIN.UTR.-.-	12	DT		PhraseCat=NP
 11	enskild	enskild	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	12	MD		PhraseCat=NP
 12	medlemsstat	medlemsstat	NN	-.-.-	NN.UTR.SIN.IND	9	KL		PhraseCat=NP|SpaceAfter=No
@@ -38381,10 +38381,10 @@
 22	möjligheter	möjlighet	NN	-.-.-	NN.UTR.PLU.IND	21	KL		PhraseCat=NP|SpaceAfter=No
 23	,	_	SY	-.-.-	SY.DEL	4	--		PhraseCat=Top
 24	och	och	KO	-.-.-	KO.-	4	IV		PhraseCat=KoP
-25	därmed	därmed	AB	-.-.-	AB.-.-	24	KL		PhraseCat=VP|PromotedHead=Yes
-26	också	också	AB	-.-.-	AB.-.-	25	MD		PhraseCat=VP
+25	därmed	därmed	AB	-.-.-	AB.-.-	28	MD		PhraseCat=VP
+26	också	också	AB	-.-.-	AB.-.-	28	MD		PhraseCat=VP
 27	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	28	DT		PhraseCat=NP
-28	strukturfonder	strukturfond	NN	-.-.-	NN.UTR.PLU.IND	25	OO		PhraseCat=NP
+28	strukturfonder	strukturfond	NN	-.-.-	NN.UTR.PLU.IND	24	KL		PhraseCat=NP
 29	som	som	SU	-.-.-	SU.-	28	MD		PhraseCat=SuP
 30	är	vara	VB	-.-.-	VB.IND.AKT.PRS	29	OO		PhraseCat=S
 31	tillgängliga	tillgänglig	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	30	SP		PhraseCat=S|SpaceAfter=No
@@ -41234,10 +41234,10 @@
 13	bortglömt	bortglömd	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	12	SP		PhraseCat=VP
 14	skall	skola	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseCat=S
 15	jag	jag	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	14	SB		PhraseCat=S
-16	tillägga	tillägga	VB	-.-.-	VB.INF.AKT.-	14	IV		PhraseCat=VP|PromotedHead=Yes
+16	tillägga	tillägga	VB	-.-.-	VB.INF.AKT.-	19	MD		PhraseCat=VP
 17	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	19	DT		PhraseCat=NP
 18	regionala	regional	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	19	MD		PhraseCat=NP
-19	ekonomierna	ekonomi	NN	-.-.-	NN.UTR.PLU.DEF	16	OO		PhraseCat=NP
+19	ekonomierna	ekonomi	NN	-.-.-	NN.UTR.PLU.DEF	14	IV		PhraseCat=NP
 20	i	i	PE	-.-.-	PE.-	19	MD		PhraseCat=PP
 21	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	23	DT		PhraseCat=NP
 22	europeiska	europeisk	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	23	MD		PhraseCat=NP
@@ -41261,13 +41261,13 @@
 40	områden	område	NN	-.-.-	NN.NEU.PLU.IND	38	OO		PhraseCat=NP|SpaceAfter=No
 41	,	_	SY	-.-.-	SY.DEL	14	--		PhraseCat=Top
 42	öregionerna	ö|region	NN	-.-.-	NN.UTR.PLU.DEF	43	KL		PhraseCat=S|PromotedHead=Yes
-43	eller	eller	KO	-.-.-	KO.-	16	MD		PhraseCat=KoP|SpaceAfter=No
+43	eller	eller	KO	-.-.-	KO.-	19	MD		PhraseCat=KoP|SpaceAfter=No
 44	,	_	SY	-.-.-	SY.DEL	14	--		PhraseCat=Top
-45	naturligtvis	naturligtvis	AB	-.-.-	AB.-.-	43	KL		PhraseCat=S|PromotedHead=Yes|SpaceAfter=No
+45	naturligtvis	naturligtvis	AB	-.-.-	AB.-.-	49	MD		PhraseCat=S|SpaceAfter=No
 46	,	_	SY	-.-.-	SY.DEL	14	--		PhraseCat=Top
 47	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	49	DT		PhraseCat=NP
 48	yttersta	yttre	AJ	-.-.-	AJ.SUV.SIN/PLU.DEF.UTR/NEU.-	49	MD		PhraseCat=NP
-49	randområdena	rand|område	NN	-.-.-	NN.NEU.PLU.DEF	45	OO		PhraseCat=NP
+49	randområdena	rand|område	NN	-.-.-	NN.NEU.PLU.DEF	43	KL		PhraseCat=NP
 50	som	som	SU	-.-.-	SU.-	49	MD		PhraseCat=SuP
 51	ligger	ligga	VB	-.-.-	VB.IND.AKT.PRS	50	OO		PhraseCat=S
 52	allra	allra	AB	-.-.-	AB.-.-	53	MD		PhraseCat=AjP
@@ -46714,10 +46714,10 @@
 14	att	att	SU	-.-.-	SU.-	9	ES		PhraseCat=SuP
 15	föra	föra	VB	-.-.-	VB.INF.AKT.-	14	OO		PhraseCat=VP
 16	dialog	dialog	NN	-.-.-	NN.UTR.SIN.IND	15	OO		PhraseCat=VP
-17	då	då	SU	-.-.-	SU.-	9	MD		PhraseCat=SuP|PromotedHead=Yes
+17	då	då	SU	-.-.-	SU.-	20	MD		PhraseCat=SuP
 18	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	20	SB		PhraseCat=S
 19	inte	inte	AB	-.-.-	AB.-.-	20	MD		PhraseCat=S
-20	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	17	OO		PhraseCat=S
+20	finns	finnas	VB	-.-.-	VB.IND.SFO.PRS	9	MD		PhraseCat=S
 21	någon	någon	PO	-.-.-	PO.IND.SIN.UTR.-.-	22	DT		PhraseCat=NP
 22	ansvarig	ansvarig	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	20	ES		PhraseCat=NP
 23	att	att	SU	-.-.-	SU.-	22	MD		PhraseCat=SuP
@@ -57905,11 +57905,11 @@
 9	västvärlden	västvärld	NN	-.-.-	NN.UTR.SIN.DEF	8	OO		PhraseCat=PP|SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	3	--		PhraseCat=Top
 11	att	att	SU	-.-.-	SU.-	3	ES		PhraseCat=SuP
-12	inte	inte	AB	-.-.-	AB.-.-	11	OO		PhraseCat=VP|PromotedHead=Yes
-13	begå	begå	VB	-.-.-	VB.INF.AKT.-	12	MD		PhraseCat=VP
+12	inte	inte	AB	-.-.-	AB.-.-	15	MD		PhraseCat=VP
+13	begå	begå	VB	-.-.-	VB.INF.AKT.-	15	MD		PhraseCat=VP
 14	liknande	liknande	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	15	MD		PhraseCat=NP
-15	misstag	misstag	NN	-.-.-	NN.NEU.PLU.IND	12	OO		PhraseCat=NP
-16	igen	igen	AB	-.-.-	AB.-.-	12	MD		PhraseCat=VP|SpaceAfter=No
+15	misstag	misstag	NN	-.-.-	NN.NEU.PLU.IND	11	OO		PhraseCat=NP
+16	igen	igen	AB	-.-.-	AB.-.-	15	MD		PhraseCat=VP|SpaceAfter=No
 17	.	_	SY	-.-.-	SY.DEL	3	--		PhraseCat=Top
 
 # sent_id = Arbt_Rwanda.19
@@ -61659,14 +61659,14 @@
 
 # sent_id = Digi_2014-11.16
 # text = Läs mer om den nya bestämmelsen här.
-1	Läs	läsa	VB	-.-.-	VB.IMP.AKT.-	0	--		PhraseCat=S|PromotedHead=Yes
-2	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	1	OO		PhraseCat=NP
+1	Läs	läsa	VB	-.-.-	VB.IMP.AKT.-	2	SB		PhraseCat=S
+2	mer	mycken	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	0	--		PhraseCat=NP
 3	om	om	PE	-.-.-	PE.-	2	MD		PhraseCat=PP
 4	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	6	DT		PhraseCat=NP
 5	nya	ny	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	6	MD		PhraseCat=NP
 6	bestämmelsen	bestämmelse	NN	-.-.-	NN.UTR.SIN.DEF	3	OO		PhraseCat=NP
-7	här	här	AB	-.-.-	AB.-.-	1	MD		PhraseCat=S|SpaceAfter=No
-8	.	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
+7	här	här	AB	-.-.-	AB.-.-	2	MD		PhraseCat=S|SpaceAfter=No
+8	.	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top
 
 # sent_id = Digi_2014-11.17
 # text = Nordiskt samarbete kring länkade öppna data – Norge höll i stafettpinnen
@@ -69210,11 +69210,11 @@
 13	brun	brun	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	14	MD		PhraseCat=NP
 14	hudfärg	hudfärg	NN	-.-.-	NN.UTR.SIN.IND	12	OO		PhraseCat=NP
 15	och	och	KO	-.-.-	KO.-	10	OO		PhraseCat=KoP
-16	kung	kung	NN	-.-.-	NN.UTR.SIN.IND	15	KL		PhraseCat=NP
+16	kung	kung	NN	-.-.-	NN.UTR.SIN.IND	20	SB		PhraseCat=NP
 17	Barthel	Barthel	EN	-.-.-	EN.-	16	AN		PhraseCat=NP
 18	så	så	AB	-.-.-	AB.-.-	19	MD		PhraseCat=AjP
 19	kallad	kallad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	20	MD		PhraseCat=AjP
-20	vit	vit	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	16	OO		PhraseCat=AjP|SpaceAfter=No
+20	vit	vit	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	15	KL		PhraseCat=AjP|SpaceAfter=No
 21	.	_	SY	-.-.-	SY.DEL	3	--		PhraseCat=Top
 
 # sent_id = Romn_Lundqvist-Ingentobak.48
@@ -69455,12 +69455,12 @@
 
 # sent_id = Romn_Lundqvist-Ingentobak.60
 # text = Och kanske också en del obehag med förklaringar och prat angående hans förhållande till Mona.
-1	Och	och	KO	-.-.-	KO.-	0	--		PhraseCat=S|PromotedHead=Yes
-2	kanske	kanske	AB	-.-.-	AB.-.-	1	MD		PhraseCat=S
-3	också	också	AB	-.-.-	AB.-.-	1	MD		PhraseCat=S
+1	Och	och	KO	-.-.-	KO.-	6	DF		PhraseCat=S
+2	kanske	kanske	AB	-.-.-	AB.-.-	6	MD		PhraseCat=S
+3	också	också	AB	-.-.-	AB.-.-	6	MD		PhraseCat=S
 4	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	5	DT		PhraseCat=NP
 5	del	del	NN	-.-.-	NN.UTR.SIN.IND	6	DT		PhraseCat=NP
-6	obehag	obehag	NN	-.-.-	NN.NEU.SIN.IND	1	OO		PhraseCat=NP
+6	obehag	obehag	NN	-.-.-	NN.NEU.SIN.IND	0	--		PhraseCat=NP
 7	med	med	PE	-.-.-	PE.-	6	MD		PhraseCat=PP
 8	förklaringar	förklaring	NN	-.-.-	NN.UTR.PLU.IND	9	KL		PhraseCat=NP
 9	och	och	KO	-.-.-	KO.-	7	OO		PhraseCat=KoP
@@ -69470,7 +69470,7 @@
 13	förhållande	förhållande	NN	-.-.-	NN.NEU.SIN.IND	11	OO		PhraseCat=NP
 14	till	till	PE	-.-.-	PE.-	13	MD		PhraseCat=PP
 15	Mona	Mona	EN	-.-.-	EN.-	14	OO		PhraseCat=PP|SpaceAfter=No
-16	.	_	SY	-.-.-	SY.DEL	1	--		PhraseCat=Top
+16	.	_	SY	-.-.-	SY.DEL	6	--		PhraseCat=Top
 
 # sent_id = Romn_Lundqvist-Ingentobak.62
 # text = Att Barthel nu ger sig ut i den ångande middagshettan, till på köpet iförd högkragad, vitglänsande, guldgalonerad, av Mona nystruken uniform, beror på att i dag är dagen för Den Stora Händelsen.
@@ -77712,10 +77712,10 @@
 6	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	7	DT		PhraseCat=NP
 7	bäck	bäck	NN	-.-.-	NN.UTR.SIN.IND	2	OO		PhraseCat=NP|SpaceAfter=No
 8	,	_	SY	-.-.-	SY.DEL	2	--		PhraseCat=Top
-9	inte	inte	AB	-.-.-	AB.-.-	2	KL		PhraseCat=S|PromotedHead=Yes
-10	heller	heller	AB	-.-.-	AB.-.-	9	MD		PhraseCat=S
+9	inte	inte	AB	-.-.-	AB.-.-	12	MD		PhraseCat=S
+10	heller	heller	AB	-.-.-	AB.-.-	12	MD		PhraseCat=S
 11	blåklockor	blåklocka	NN	-.-.-	NN.UTR.PLU.IND	12	KL		PhraseCat=NP
-12	och	och	KO	-.-.-	KO.-	9	OO		PhraseCat=KoP
+12	och	och	KO	-.-.-	KO.-	2	KL		PhraseCat=KoP
 13	smultronrevor	smultron|reva	NN	-.-.-	NN.UTR.PLU.IND	12	KL		PhraseCat=NP
 14	i	i	PE	-.-.-	PE.-	13	MD	13:MD|11:	PhraseCat=PP
 15	dikeskanter	dikes<kant	NN	-.-.-	NN.UTR.PLU.IND	14	OO		PhraseCat=PP|SpaceAfter=No
@@ -78604,11 +78604,11 @@
 18	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	20	DT		PhraseCat=NP
 19	utsänd	utsänd	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	20	MD		PhraseCat=NP
 20	frälsare	frälsare	NN	-.-.-	NN.UTR.SIN.IND	17	OO		PhraseCat=NP
-21	eller	eller	KO	-.-.-	KO.-	17	AN		PhraseCat=SuP|PromotedHead=Yes
-22	snarare	snar	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	21	MD		PhraseCat=SuP
+21	eller	eller	KO	-.-.-	KO.-	25	DF		PhraseCat=SuP
+22	snarare	snar	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	25	MD		PhraseCat=SuP
 23	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	25	DT		PhraseCat=NP
 24	förtvinad	förtvinad	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	25	MD		PhraseCat=NP
-25	diktator	diktator	NN	-.-.-	NN.UTR.SIN.IND	21	OO		PhraseCat=NP|SpaceAfter=No
+25	diktator	diktator	NN	-.-.-	NN.UTR.SIN.IND	17	AN		PhraseCat=NP|SpaceAfter=No
 26	.	_	SY	-.-.-	SY.DEL	7	--		PhraseCat=Top
 
 # sent_id = Romn_Bjelvehammar-TageBengtsson.202
@@ -79117,9 +79117,9 @@
 7	läser	läsa	VB	-.-.-	VB.IND.AKT.PRS	3	parataxis		PhraseCat=S
 8	ingenting	ingenting	PO	-.-.-	PO.IND.SIN.NEU.-.-	7	OO		PhraseCat=S|SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	3	--		PhraseCat=Top
-10	möjligen	möjligen	AB	-.-.-	AB.-.-	7	KL		PhraseCat=S|PromotedHead=Yes
+10	möjligen	möjligen	AB	-.-.-	AB.-.-	12	MD		PhraseCat=S
 11	en	en	PO	-.-.-	PO.IND.SIN.UTR.-.-	12	DT		PhraseCat=NP
-12	tidning	tidning	NN	-.-.-	NN.UTR.SIN.IND	10	OO		PhraseCat=NP
+12	tidning	tidning	NN	-.-.-	NN.UTR.SIN.IND	7	KL		PhraseCat=NP
 13	från	från	PE	-.-.-	PE.-	12	MD		PhraseCat=PP
 14	gamla	gammal	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	15	MD		PhraseCat=NP
 15	tider	tid	NN	-.-.-	NN.UTR.PLU.IND	13	OO		PhraseCat=NP|SpaceAfter=No
@@ -88389,15 +88389,15 @@
 # text = ”Stures talanger omfattar varken bokstäver eller siffror och därför varken skriv- eller läskonsten.”
 1	”	_	SY	-.-.-	SY.DEL	9	--		PhraseCat=Top|SpaceAfter=No
 2	Stures	Sture	EN	-.GEN.-	EN.-	3	DT		PhraseCat=NP
-3	talanger	talang	NN	-.-.-	NN.UTR.PLU.IND	4	SB	4:SB|10:	PhraseCat=NP
+3	talanger	talang	NN	-.-.-	NN.UTR.PLU.IND	4	SB	4:SB|11:	PhraseCat=NP
 4	omfattar	omfatta	VB	-.-.-	VB.IND.AKT.PRS	9	KL		PhraseCat=S
 5	varken	varken	KO	-.-.-	KO.-	4	OO		ExtXpos=KOM|PhraseCat=KoP
 6	bokstäver	bokstav	NN	-.-.-	NN.UTR.PLU.IND	5	KL		PhraseCat=KoP
 7	eller	eller	KO	-.-.-	KO.-	5	ME		ExtXpos=KOM|PhraseCat=KoP
 8	siffror	siffra	NN	-.-.-	NN.UTR.PLU.IND	5	KL		PhraseCat=KoP
 9	och	och	KO	-.-.-	KO.-	0	--		PhraseCat=KoP
-10	därför	därför	AB	-.-.-	AB.-.-	9	KL		PhraseCat=S|PromotedHead=Yes
-11	varken	varken	KO	-.-.-	KO.-	10	OO		ExtXpos=KOM|PhraseCat=KoP
+10	därför	därför	AB	-.-.-	AB.-.-	11	MD		PhraseCat=S
+11	varken	varken	KO	-.-.-	KO.-	9	KL		ExtXpos=KOM|PhraseCat=KoP
 12	skriv-	skriv|konst	NN	-.-.ESM	NN.UTR.SIN.DEF	11	KL		PhraseCat=KoP
 13	eller	eller	KO	-.-.-	KO.-	11	ME		ExtXpos=KOM|PhraseCat=KoP
 14	läskonsten	läs|konst	NN	-.-.-	NN.UTR.SIN.DEF	11	KL		PhraseCat=KoP|SpaceAfter=No
@@ -91661,7 +91661,7 @@
 8	Sven	Sven	EN	-.-.-	EN.-	7	SB		PhraseCat=S|SpaceAfter=No
 9	,	_	SY	-.-.-	SY.DEL	7	--		PhraseCat=Top
 10	”	_	SY	-.-.-	SY.DEL	7	--		PhraseCat=Top|SpaceAfter=No
-11	trots	trots	PE	-.-.-	PE.-	24	MD	24:MD|28:	PhraseCat=PP
+11	trots	trots	PE	-.-.-	PE.-	24	MD	24:MD|32:	PhraseCat=PP
 12	att	att	SU	-.-.-	SU.-	11	OO		PhraseCat=SuP
 13	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	15	SB		PhraseCat=S
 14	inte	inte	AB	-.-.-	AB.-.-	15	MD		PhraseCat=S
@@ -91678,11 +91678,11 @@
 25	vi	vi	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB.-	24	SB		PhraseCat=S
 26	och	och	KO	-.-.-	KO.-	7	OO		PhraseCat=KoP
 27	kanske	kanske	AB	-.-.-	AB.-.-	28	MD		PhraseCat=PP
-28	i	i	PE	-.-.-	PE.-	26	KL		PhraseCat=PP
+28	i	i	PE	-.-.-	PE.-	32	MD		PhraseCat=PP
 29	synnerhet	synnerhet	NN	-.-.-	NN.UTR.SIN.IND	28	OO		PhraseCat=PP
-30	ESTRELLA	ESTRELLA	EN	-.-.-	EN.-	28	SB		PhraseCat=S
+30	ESTRELLA	ESTRELLA	EN	-.-.-	EN.-	32	SB		PhraseCat=S
 31	oanade	oanad	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	32	MD		PhraseCat=NP
-32	egenskaper	egenskap	NN	-.-.-	NN.UTR.PLU.IND	28	OO	28:OO|24:	PhraseCat=NP|SpaceAfter=No
+32	egenskaper	egenskap	NN	-.-.-	NN.UTR.PLU.IND	26	KL	26:KL|24:	PhraseCat=NP|SpaceAfter=No
 33	,	_	SY	-.-.-	SY.DEL	7	--		PhraseCat=Top
 34	som	som	SU	-.-.-	SU.-	32	MD		PhraseCat=SuP
 35	äkten-skapsmäklare	äktenskapsmäklare	NN	-.-.-	NN.UTR.SIN.IND	34	OO		CorrectForm=äktenskapsmäklare|PhraseCat=SuP|SpaceAfter=No
@@ -93307,11 +93307,11 @@
 8	röda	röd	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	9	MD		PhraseCat=NP
 9	byxor	byxa	NN	-.-.-	NN.UTR.PLU.IND	7	OO		PhraseCat=NP
 10	och	och	KO	-.-.-	KO.-	5	PH		PhraseCat=KoP
-11	i	i	PE	-.-.-	PE.-	5	KL		PhraseCat=PP
+11	i	i	PE	-.-.-	PE.-	15	MD		PhraseCat=PP
 12	bältet	bälte	NN	-.-.-	NN.NEU.SIN.DEF	11	OO		PhraseCat=PP
 13	ett	en	PO	-.-.-	PO.IND.SIN.NEU.-.-	15	DT		PhraseCat=NP
 14	mindre	liten	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	15	MD		PhraseCat=NP
-15	svärd	svärd	NN	-.-.-	NN.NEU.SIN.IND	11	OO		PhraseCat=NP
+15	svärd	svärd	NN	-.-.-	NN.NEU.SIN.IND	5	KL		PhraseCat=NP
 16	(	_	SY	-.-.-	SY.DEL	5	--		PhraseCat=Top|SpaceAfter=No
 17	som	som	SU	-.-.-	SU.-	15	MD		PhraseCat=SuP
 18	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	21	SB		PhraseCat=S

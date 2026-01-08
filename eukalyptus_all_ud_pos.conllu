@@ -4377,10 +4377,10 @@
 # sent_id = Blog_13263-144355.2
 # text = Tydligen inte för många eftersom jag idag har skaffat mig tre till (och en enfärgad).
 1	Tydligen	tydligen	ADV	_	_	2	MD		PhraseCat=AbP
-2	inte	inte	PART	_	Polarity=Neg	0	--		PhraseCat=AbP
+2	inte	inte	PART	_	Polarity=Neg	4	MD		PhraseCat=AbP
 3	för	för	ADV	_	_	4	MD		PhraseCat=AjP
-4	många	många	PRON	_	Degree=Pos|Number=Plur|PronType=Ind	2	OO		PhraseCat=AjP
-5	eftersom	eftersom	SCONJ	_	_	2	MD		PhraseCat=SuP
+4	många	många	PRON	_	Degree=Pos|Number=Plur|PronType=Ind	0	--		PhraseCat=AjP
+5	eftersom	eftersom	SCONJ	_	_	4	MD		PhraseCat=SuP
 6	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	SB		PhraseCat=S
 7	idag	idag	ADV	_	_	8	MD		PhraseCat=S
 8	har	ha	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	5	OO		PhraseCat=S
@@ -4388,12 +4388,12 @@
 10	mig	jag	PRON	_	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	IO		PhraseCat=VP
 11	tre	tre	NUM	_	NumType=Card	12	DT		PhraseCat=NP
 12	till	till	ADV	_	_	9	OO		PhraseCat=NP|PromotedHead=Yes
-13	(	(	PUNCT	_	_	2	--		PhraseCat=Top|SpaceAfter=No
+13	(	(	PUNCT	_	_	4	--		PhraseCat=Top|SpaceAfter=No
 14	och	och	CCONJ	_	_	16	cc		PhraseCat=KoP
 15	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	16	DT		PhraseCat=NP
 16	enfärgad	enfärgad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	12	conj		PhraseCat=NP|PromotedHead=Yes|SpaceAfter=No
-17	)	)	PUNCT	_	_	2	--		PhraseCat=Top|SpaceAfter=No
-18	.	.	PUNCT	_	_	2	--		PhraseCat=Top
+17	)	)	PUNCT	_	_	4	--		PhraseCat=Top|SpaceAfter=No
+18	.	.	PUNCT	_	_	4	--		PhraseCat=Top
 
 # sent_id = Blog_13263-144355.3
 # text = Skjortor är en sån sak man aldrig kan ha för många av och istället för att köra med principen ”en in, en ut” så är nu min garderob smockfull.
@@ -8353,15 +8353,15 @@
 
 # sent_id = Blog_12325-2413172.12
 # text = Som att kolla lite i mejlen till exempel.
-1	Som	som	SCONJ	_	_	0	--		PhraseCat=S|PromotedHead=Yes
-2	att	att	PART	_	_	1	OO		PhraseCat=SuP
+1	Som	som	SCONJ	_	_	2	MD		PhraseCat=S
+2	att	att	PART	_	_	0	--		PhraseCat=SuP
 3	kolla	kolla	VERB	_	VerbForm=Inf|Voice=Act	2	OO		PhraseCat=VP
 4	lite	lite	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	OO		PhraseCat=NP
 5	i	i	ADP	_	_	4	MD		PhraseCat=PP
 6	mejlen	mejl	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	OO		PhraseCat=PP
-7	till	till	ADP	_	_	1	MD		PhraseCat=PP
+7	till	till	ADP	_	_	2	MD		PhraseCat=PP
 8	exempel	exempel	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	OO		PhraseCat=PP|SpaceAfter=No
-9	.	.	PUNCT	_	_	1	--		PhraseCat=Top
+9	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
 # sent_id = Blog_12325-2413172.13
 # text = Och där fick jag ett just ett besked om att Record heaven skickat iväg en beställning jag väntat på ett tag, med bland annat Kylesa och mera Agalloch.
@@ -8469,11 +8469,11 @@
 
 # sent_id = Blog_12325-2413172.20
 # text = Eller den här, så du kan hitta något spännande inför helgen.
-1	Eller	eller	CCONJ	_	_	0	--		PhraseCat=S|PromotedHead=Yes
-2	den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	1	OO		ExtXpos=POM|PhraseCat=S
+1	Eller	eller	CCONJ	_	_	2	DF		PhraseCat=S
+2	den	den	PRON	_	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	0	--		ExtXpos=POM|PhraseCat=S|PromotedHead=Yes
 3	här	här	ADV	_	_	2	ME		ExtXpos=POM|PhraseCat=S|SpaceAfter=No
-4	,	,	PUNCT	_	_	1	--		PhraseCat=Top
-5	så	så	SCONJ	_	_	1	MD		PhraseCat=SuP
+4	,	,	PUNCT	_	_	2	--		PhraseCat=Top
+5	så	så	SCONJ	_	_	2	MD		PhraseCat=SuP
 6	du	du	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	SB		PhraseCat=S
 7	kan	kunna	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	5	MD		PhraseCat=S
 8	hitta	hitta	VERB	_	VerbForm=Inf|Voice=Act	7	IV		PhraseCat=VP
@@ -8481,7 +8481,7 @@
 10	spännande	spännande	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part	8	OO		PhraseCat=NP
 11	inför	inför	ADP	_	_	7	MD		PhraseCat=PP
 12	helgen	helg	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	OO		PhraseCat=PP|SpaceAfter=No
-13	.	.	PUNCT	_	_	1	--		PhraseCat=Top
+13	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
 # sent_id = Blog_12325-2413172.21
 # text = Vi ses imorgon.
@@ -8499,15 +8499,15 @@
 
 # sent_id = Blog_12325-2413172.23
 # text = Jo, förresten - en helt annan sak.
-1	Jo	jo	INTJ	_	_	0	--		PhraseCat=S|PromotedHead=Yes|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	--		PhraseCat=Top
-3	förresten	förresten	ADV	_	_	1	DF		PhraseCat=S
-4	-	-	PUNCT	_	_	1	--		PhraseCat=Top
+1	Jo	jo	INTJ	_	_	8	DF		PhraseCat=S|SpaceAfter=No
+2	,	,	PUNCT	_	_	8	--		PhraseCat=Top
+3	förresten	förresten	ADV	_	_	8	DF		PhraseCat=S
+4	-	-	PUNCT	_	_	8	--		PhraseCat=Top
 5	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	8	DT		PhraseCat=NP
 6	helt	helt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	MD		PhraseCat=AjP
 7	annan	annan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	MD		PhraseCat=AjP
-8	sak	sak	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	OO		PhraseCat=NP|SpaceAfter=No
-9	.	.	PUNCT	_	_	1	--		PhraseCat=Top
+8	sak	sak	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	--		PhraseCat=NP|SpaceAfter=No
+9	.	.	PUNCT	_	_	8	--		PhraseCat=Top
 
 # sent_id = Blog_12325-2413172.24
 # text = Nu har jag plåt till Sonisphere.
@@ -9617,8 +9617,8 @@
 5	nyttiga	nyttig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	MD		PhraseCat=NP
 6	muffins	muffins	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	conj		PhraseCat=NP|SpaceAfter=No
 7	,	,	PUNCT	_	_	1	--		PhraseCat=Top
-8	Snart	snart	ADV	_	_	1	conj		PhraseCat=S|PromotedHead=Yes
-9	matbröd	matbröd	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	OO		PhraseCat=S|SpaceAfter=No
+8	Snart	snart	ADV	_	_	9	MD		PhraseCat=S
+9	matbröd	matbröd	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	conj		PhraseCat=S|PromotedHead=Yes|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	--		PhraseCat=Top
 
 # sent_id = Blog_26224-1714803.2
@@ -11789,11 +11789,11 @@
 
 # sent_id = Blog_265827-14889090.4
 # text = Beach 2012 - pffft.
-1	Beach	Beach	X	_	Foreign=Yes	0	--		PhraseCat=NP
+1	Beach	Beach	X	_	Foreign=Yes	4	DF		PhraseCat=NP
 2	2012	2012	NUM	_	NumType=Card	1	MD		PhraseCat=NP
-3	-	-	PUNCT	_	_	1	--		PhraseCat=Top
-4	pffft	pft	INTJ	_	_	1	OO		PhraseCat=S|SpaceAfter=No
-5	.	.	PUNCT	_	_	1	--		PhraseCat=Top
+3	-	-	PUNCT	_	_	4	--		PhraseCat=Top
+4	pffft	pft	INTJ	_	_	0	--		PhraseCat=S|PromotedHead=Yes|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	--		PhraseCat=Top
 
 # newdoc id = Blog_265827-14455040
 # sent_id = Blog_265827-14455040.1
@@ -20033,16 +20033,16 @@
 
 # sent_id = Blog_9154-4949551.3
 # text = Samtidigt denna välust över att kunna köra ordentligt igen.
-1	Samtidigt	samtidig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	--		PhraseCat=S|PromotedHead=Yes
+1	Samtidigt	samtidig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	MD		PhraseCat=S
 2	denna	denna	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	3	DT		PhraseCat=NP
-3	välust	vällust	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	OO		PhraseCat=NP
+3	välust	vällust	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	--		PhraseCat=NP
 4	över	över	ADP	_	_	3	MD		PhraseCat=PP
 5	att	att	PART	_	_	4	OO		PhraseCat=SuP
 6	kunna	kunna	AUX	_	VerbForm=Inf|Voice=Act	5	OO		PhraseCat=VP
 7	köra	köra	VERB	_	VerbForm=Inf|Voice=Act	6	IV		PhraseCat=VP
 8	ordentligt	ordentligt	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	MD		PhraseCat=VP
 9	igen	igen	ADV	_	_	6	MD		PhraseCat=VP|SpaceAfter=No
-10	.	.	PUNCT	_	_	1	--		PhraseCat=Top
+10	.	.	PUNCT	_	_	3	--		PhraseCat=Top
 
 # sent_id = Blog_9154-4949551.4
 # text = Dessa meningslösa månader som jag tränade fastän att jag inte kunde göra mig själv rättvisa, höll på att totalt ta död på min kärlek till idrotten.
@@ -22245,11 +22245,11 @@
 7	som	som	SCONJ	_	_	6	JF		PhraseCat=SuP
 8	sommar	sommar	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	OO		PhraseCat=SuP|SpaceAfter=No
 9	,	,	PUNCT	_	_	3	--		PhraseCat=Top
-10	och	och	CCONJ	_	_	11	cc		PhraseCat=KoP
-11	inte	inte	PART	_	Polarity=Neg	6	conj		PhraseCat=S|PromotedHead=Yes
+10	och	och	CCONJ	_	_	13	cc		PhraseCat=KoP
+11	inte	inte	PART	_	Polarity=Neg	13	MD		PhraseCat=S
 12	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	DT		PhraseCat=NP
-13	moln	moln	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	OO		PhraseCat=NP
-14	på	på	ADP	_	_	11	MD		PhraseCat=PP
+13	moln	moln	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	conj		PhraseCat=NP
+14	på	på	ADP	_	_	13	MD		PhraseCat=PP
 15	himlen	himmel	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	OO		PhraseCat=PP|SpaceAfter=No
 16	,	,	PUNCT	_	_	3	--		PhraseCat=Top
 17	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	SB		PhraseCat=KoP
@@ -32796,9 +32796,9 @@
 16	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	18	DT		PhraseCat=NP
 17	horisontella	horisontell	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	18	MD		PhraseCat=NP
 18	gemenskapspolitiken	gemenskapspolitik	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	OO		PhraseCat=NP
-19	när	när	ADV	_	_	14	MD		PhraseCat=SuP|PromotedHead=Yes
+19	när	när	ADV	_	_	21	MD		PhraseCat=SuP
 20	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	21	SB		PhraseCat=S
-21	gäller	gälla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	OO		PhraseCat=S
+21	gäller	gälla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	MD		PhraseCat=S
 22	miljöskydd	miljöskydd	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	OO		PhraseCat=S
 23	och	och	CCONJ	_	_	25	cc		PhraseCat=KoP
 24	inte	inte	PART	_	Polarity=Neg	25	MD		PhraseCat=S
@@ -36751,10 +36751,10 @@
 31	och	och	CCONJ	_	_	32	cc		PhraseCat=KoP
 32	sociala	social	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	30	conj		PhraseCat=KoP
 33	sammanhållningen	sammanhållning	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	OO		PhraseCat=NP
-34	och	och	CCONJ	_	_	35	cc		PhraseCat=KoP
-35	inte	inte	PART	_	Polarity=Neg	19	conj		PhraseCat=VP|PromotedHead=Yes
-36	bara	bara	ADV	_	_	35	MD		PhraseCat=VP
-37	för	för	ADP	_	_	35	OO		PhraseCat=PP
+34	och	och	CCONJ	_	_	37	cc		PhraseCat=KoP
+35	inte	inte	PART	_	Polarity=Neg	37	MD		PhraseCat=VP
+36	bara	bara	ADV	_	_	37	MD		PhraseCat=VP
+37	för	för	ADP	_	_	19	conj		PhraseCat=PP
 38	produktiviteten	produktivitet	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	37	OO		PhraseCat=PP|SpaceAfter=No
 39	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
@@ -38365,7 +38365,7 @@
 6	som	som	SCONJ	_	_	5	MD		PhraseCat=SuP
 7	helhet	helhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	OO		PhraseCat=SuP|SpaceAfter=No
 8	,	,	PUNCT	_	_	4	--		PhraseCat=Top
-9	och	och	CCONJ	_	_	12	cc	4:SB|17:|25:	PhraseCat=KoP
+9	och	och	CCONJ	_	_	12	cc	4:SB|17:|28:	PhraseCat=KoP
 10	varje	varje	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Tot	12	DT		PhraseCat=NP
 11	enskild	enskild	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	MD		PhraseCat=NP
 12	medlemsstat	medlemsstat	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	conj		PhraseCat=NP|SpaceAfter=No
@@ -38380,11 +38380,11 @@
 21	och	och	CCONJ	_	_	22	cc		PhraseCat=KoP
 22	möjligheter	möjlighet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	20	conj		PhraseCat=NP|SpaceAfter=No
 23	,	,	PUNCT	_	_	4	--		PhraseCat=Top
-24	och	och	CCONJ	_	_	25	cc		PhraseCat=KoP
-25	därmed	därmed	ADV	_	_	17	conj		PhraseCat=VP|PromotedHead=Yes
-26	också	också	ADV	_	_	25	MD		PhraseCat=VP
+24	och	och	CCONJ	_	_	28	cc		PhraseCat=KoP
+25	därmed	därmed	ADV	_	_	28	MD		PhraseCat=VP
+26	också	också	ADV	_	_	28	MD		PhraseCat=VP
 27	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	28	DT		PhraseCat=NP
-28	strukturfonder	strukturfond	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	25	OO		PhraseCat=NP
+28	strukturfonder	strukturfond	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	conj		PhraseCat=NP
 29	som	som	SCONJ	_	_	28	MD		PhraseCat=SuP
 30	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	29	OO		PhraseCat=S
 31	tillgängliga	tillgänglig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	SP		PhraseCat=S|SpaceAfter=No
@@ -41234,10 +41234,10 @@
 13	bortglömt	bortglömd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	12	SP		PhraseCat=VP
 14	skall	skola	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	0	--		PhraseCat=S
 15	jag	jag	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	SB		PhraseCat=S
-16	tillägga	tillägga	VERB	_	VerbForm=Inf|Voice=Act	14	IV		PhraseCat=VP|PromotedHead=Yes
+16	tillägga	tillägga	VERB	_	VerbForm=Inf|Voice=Act	19	MD		PhraseCat=VP
 17	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	19	DT		PhraseCat=NP
 18	regionala	regional	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	MD		PhraseCat=NP
-19	ekonomierna	ekonomi	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	OO		PhraseCat=NP
+19	ekonomierna	ekonomi	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	14	IV		PhraseCat=NP
 20	i	i	ADP	_	_	19	MD		PhraseCat=PP
 21	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	23	DT		PhraseCat=NP
 22	europeiska	europeisk	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	MD		PhraseCat=NP
@@ -41256,18 +41256,18 @@
 35	vare	vare	CCONJ	_	_	36	ME		ExtXpos=ABM|PhraseCat=S
 36	sig	sig	PRON	_	Case=Acc|Definite=Def|PronType=Prs	38	MD		ExtXpos=ABM|PhraseCat=S
 37	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	38	SB		PhraseCat=S
-38	gäller	gälla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	MD		PhraseCat=S
+38	gäller	gälla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	MD		PhraseCat=S
 39	perifera	perifer	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	40	MD		PhraseCat=NP
 40	områden	område	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	38	OO		PhraseCat=NP|SpaceAfter=No
 41	,	,	PUNCT	_	_	14	--		PhraseCat=Top
 42	öregionerna	öregion	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Plur	38	conj		PhraseCat=S|PromotedHead=Yes
-43	eller	eller	CCONJ	_	_	45	cc		PhraseCat=KoP|SpaceAfter=No
+43	eller	eller	CCONJ	_	_	49	cc		PhraseCat=KoP|SpaceAfter=No
 44	,	,	PUNCT	_	_	14	--		PhraseCat=Top
-45	naturligtvis	naturligtvis	ADV	_	_	38	conj		PhraseCat=S|PromotedHead=Yes|SpaceAfter=No
+45	naturligtvis	naturligtvis	ADV	_	_	49	MD		PhraseCat=S|SpaceAfter=No
 46	,	,	PUNCT	_	_	14	--		PhraseCat=Top
 47	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	49	DT		PhraseCat=NP
 48	yttersta	yttre	ADJ	_	Case=Nom|Definite=Def|Degree=Sup	49	MD		PhraseCat=NP
-49	randområdena	randområde	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	45	OO		PhraseCat=NP
+49	randområdena	randområde	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	38	conj		PhraseCat=NP
 50	som	som	SCONJ	_	_	49	MD		PhraseCat=SuP
 51	ligger	ligga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	50	OO		PhraseCat=S
 52	allra	allra	ADV	_	_	53	MD		PhraseCat=AjP
@@ -46714,10 +46714,10 @@
 14	att	att	PART	_	_	9	ES		PhraseCat=SuP
 15	föra	föra	VERB	_	VerbForm=Inf|Voice=Act	14	OO		PhraseCat=VP
 16	dialog	dialog	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	OO		PhraseCat=VP
-17	då	då	SCONJ	_	_	9	MD		PhraseCat=SuP|PromotedHead=Yes
+17	då	då	SCONJ	_	_	20	MD		PhraseCat=SuP
 18	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	20	SB		PhraseCat=S
 19	inte	inte	PART	_	Polarity=Neg	20	MD		PhraseCat=S
-20	finns	finnas	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	OO		PhraseCat=S
+20	finns	finnas	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	MD		PhraseCat=S
 21	någon	någon	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	22	DT		PhraseCat=NP
 22	ansvarig	ansvarig	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	ES		PhraseCat=NP
 23	att	att	PART	_	_	22	MD		PhraseCat=SuP
@@ -57905,11 +57905,11 @@
 9	västvärlden	västvärld	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	OO		PhraseCat=PP|SpaceAfter=No
 10	,	,	PUNCT	_	_	3	--		PhraseCat=Top
 11	att	att	SCONJ	_	_	3	ES		PhraseCat=SuP
-12	inte	inte	PART	_	Polarity=Neg	11	OO		PhraseCat=VP|PromotedHead=Yes
-13	begå	begå	VERB	_	VerbForm=Inf|Voice=Act	12	MD		PhraseCat=VP
+12	inte	inte	PART	_	Polarity=Neg	15	MD		PhraseCat=VP
+13	begå	begå	VERB	_	VerbForm=Inf|Voice=Act	15	MD		PhraseCat=VP
 14	liknande	liknande	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part	15	MD		PhraseCat=NP
-15	misstag	misstag	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	OO		PhraseCat=NP
-16	igen	igen	ADV	_	_	12	MD		PhraseCat=VP|SpaceAfter=No
+15	misstag	misstag	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	OO		PhraseCat=NP
+16	igen	igen	ADV	_	_	15	MD		PhraseCat=VP|SpaceAfter=No
 17	.	.	PUNCT	_	_	3	--		PhraseCat=Top
 
 # sent_id = Arbt_Rwanda.19
@@ -61659,14 +61659,14 @@
 
 # sent_id = Digi_2014-11.16
 # text = Läs mer om den nya bestämmelsen här.
-1	Läs	läsa	VERB	_	Mood=Imp|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S|PromotedHead=Yes
-2	mer	mycket	PRON	_	Degree=Cmp|PronType=Ind	1	OO		PhraseCat=NP
+1	Läs	läsa	VERB	_	Mood=Imp|VerbForm=Fin|Voice=Act	2	SB		PhraseCat=S
+2	mer	mycket	PRON	_	Degree=Cmp|PronType=Ind	0	--		PhraseCat=NP
 3	om	om	ADP	_	_	2	MD		PhraseCat=PP
 4	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	6	DT		PhraseCat=NP
 5	nya	ny	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	MD		PhraseCat=NP
 6	bestämmelsen	bestämmelse	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	OO		PhraseCat=NP
-7	här	här	ADV	_	_	1	MD		PhraseCat=S|SpaceAfter=No
-8	.	.	PUNCT	_	_	1	--		PhraseCat=Top
+7	här	här	ADV	_	_	2	MD		PhraseCat=S|SpaceAfter=No
+8	.	.	PUNCT	_	_	2	--		PhraseCat=Top
 
 # sent_id = Digi_2014-11.17
 # text = Nordiskt samarbete kring länkade öppna data – Norge höll i stafettpinnen
@@ -69209,12 +69209,12 @@
 12	hade	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	OO		PhraseCat=S
 13	brun	brun	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	MD		PhraseCat=NP
 14	hudfärg	hudfärg	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	OO		PhraseCat=NP
-15	och	och	CCONJ	_	_	16	cc		PhraseCat=KoP
-16	kung	kung	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	conj		PhraseCat=NP
+15	och	och	CCONJ	_	_	20	cc		PhraseCat=KoP
+16	kung	kung	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	SB		PhraseCat=NP
 17	Barthel	Barthel	PROPN	_	Case=Nom	16	AN		PhraseCat=NP
 18	så	så	ADV	_	_	19	MD		PhraseCat=AjP
 19	kallad	kallad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	20	MD		PhraseCat=AjP
-20	vit	vit	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	OO		PhraseCat=AjP|SpaceAfter=No
+20	vit	vit	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	conj		PhraseCat=AjP|SpaceAfter=No
 21	.	.	PUNCT	_	_	3	--		PhraseCat=Top
 
 # sent_id = Romn_Lundqvist-Ingentobak.48
@@ -69455,12 +69455,12 @@
 
 # sent_id = Romn_Lundqvist-Ingentobak.60
 # text = Och kanske också en del obehag med förklaringar och prat angående hans förhållande till Mona.
-1	Och	och	CCONJ	_	_	0	--		PhraseCat=S|PromotedHead=Yes
-2	kanske	kanske	ADV	_	_	1	MD		PhraseCat=S
-3	också	också	ADV	_	_	1	MD		PhraseCat=S
+1	Och	och	CCONJ	_	_	6	DF		PhraseCat=S
+2	kanske	kanske	ADV	_	_	6	MD		PhraseCat=S
+3	också	också	ADV	_	_	6	MD		PhraseCat=S
 4	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	5	DT		PhraseCat=NP
 5	del	del	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	DT		PhraseCat=NP
-6	obehag	obehag	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	OO		PhraseCat=NP
+6	obehag	obehag	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	--		PhraseCat=NP
 7	med	med	ADP	_	_	6	MD		PhraseCat=PP
 8	förklaringar	förklaring	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	OO		PhraseCat=NP
 9	och	och	CCONJ	_	_	10	cc		PhraseCat=KoP
@@ -69470,7 +69470,7 @@
 13	förhållande	förhållande	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	OO		PhraseCat=NP
 14	till	till	ADP	_	_	13	MD		PhraseCat=PP
 15	Mona	Mona	PROPN	_	Case=Nom	14	OO		PhraseCat=PP|SpaceAfter=No
-16	.	.	PUNCT	_	_	1	--		PhraseCat=Top
+16	.	.	PUNCT	_	_	6	--		PhraseCat=Top
 
 # sent_id = Romn_Lundqvist-Ingentobak.62
 # text = Att Barthel nu ger sig ut i den ångande middagshettan, till på köpet iförd högkragad, vitglänsande, guldgalonerad, av Mona nystruken uniform, beror på att i dag är dagen för Den Stora Händelsen.
@@ -77712,9 +77712,9 @@
 6	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	DT		PhraseCat=NP
 7	bäck	bäck	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	OO		PhraseCat=NP|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	--		PhraseCat=Top
-9	inte	inte	PART	_	Polarity=Neg	2	conj		PhraseCat=S|PromotedHead=Yes
-10	heller	heller	ADV	_	_	9	MD		PhraseCat=S
-11	blåklockor	blåklocka	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	OO		PhraseCat=NP
+9	inte	inte	PART	_	Polarity=Neg	11	MD		PhraseCat=S
+10	heller	heller	ADV	_	_	11	MD		PhraseCat=S
+11	blåklockor	blåklocka	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	conj		PhraseCat=NP
 12	och	och	CCONJ	_	_	13	cc		PhraseCat=KoP
 13	smultronrevor	smultronreva	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	conj		PhraseCat=NP
 14	i	i	ADP	_	_	13	MD	13:MD|11:	PhraseCat=PP
@@ -78604,11 +78604,11 @@
 18	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	20	DT		PhraseCat=NP
 19	utsänd	utsänd	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	20	MD		PhraseCat=NP
 20	frälsare	frälsare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	OO		PhraseCat=NP
-21	eller	eller	CCONJ	_	_	17	AN		PhraseCat=SuP|PromotedHead=Yes
-22	snarare	snar	ADJ	_	Case=Nom|Degree=Cmp	21	MD		PhraseCat=SuP
+21	eller	eller	CCONJ	_	_	25	DF		PhraseCat=SuP
+22	snarare	snar	ADJ	_	Case=Nom|Degree=Cmp	25	MD		PhraseCat=SuP
 23	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	25	DT		PhraseCat=NP
 24	förtvinad	förtvinad	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	25	MD		PhraseCat=NP
-25	diktator	diktator	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	OO		PhraseCat=NP|SpaceAfter=No
+25	diktator	diktator	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	AN		PhraseCat=NP|SpaceAfter=No
 26	.	.	PUNCT	_	_	4	--		PhraseCat=Top
 
 # sent_id = Romn_Bjelvehammar-TageBengtsson.202
@@ -79117,9 +79117,9 @@
 7	läser	läsa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis		PhraseCat=S
 8	ingenting	ingenting	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	7	OO		PhraseCat=S|SpaceAfter=No
 9	,	,	PUNCT	_	_	3	--		PhraseCat=Top
-10	möjligen	möjligen	ADV	_	_	7	conj		PhraseCat=S|PromotedHead=Yes
+10	möjligen	möjligen	ADV	_	_	12	MD		PhraseCat=S
 11	en	en	DET	_	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	DT		PhraseCat=NP
-12	tidning	tidning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	OO		PhraseCat=NP
+12	tidning	tidning	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	conj		PhraseCat=NP
 13	från	från	ADP	_	_	12	MD		PhraseCat=PP
 14	gamla	gammal	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	MD		PhraseCat=NP
 15	tider	tid	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	OO		PhraseCat=NP|SpaceAfter=No
@@ -88389,16 +88389,16 @@
 # text = ”Stures talanger omfattar varken bokstäver eller siffror och därför varken skriv- eller läskonsten.”
 1	”	”	PUNCT	_	_	4	--		PhraseCat=Top|SpaceAfter=No
 2	Stures	Sture	PROPN	_	Case=Gen	3	DT		PhraseCat=NP
-3	talanger	talang	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	SB	4:SB|10:	PhraseCat=NP
+3	talanger	talang	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	SB	4:SB|11:	PhraseCat=NP
 4	omfattar	omfatta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	--		PhraseCat=S
 5	varken	varken	CCONJ	_	_	6	cc		ExtXpos=KOM|PhraseCat=KoP
 6	bokstäver	bokstav	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	OO		PhraseCat=KoP
 7	eller	eller	CCONJ	_	_	6	ME		ExtXpos=KOM|PhraseCat=KoP
 8	siffror	siffra	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	conj		PhraseCat=KoP
-9	och	och	CCONJ	_	_	10	cc		PhraseCat=KoP
-10	därför	därför	ADV	_	_	4	conj		PhraseCat=S|PromotedHead=Yes
+9	och	och	CCONJ	_	_	12	cc		PhraseCat=KoP
+10	därför	därför	ADV	_	_	12	MD		PhraseCat=S
 11	varken	varken	CCONJ	_	_	12	cc		ExtXpos=KOM|PhraseCat=KoP
-12	skriv-	skrivkonst	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	OO		PhraseCat=KoP
+12	skriv-	skrivkonst	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	conj		PhraseCat=KoP
 13	eller	eller	CCONJ	_	_	12	ME		ExtXpos=KOM|PhraseCat=KoP
 14	läskonsten	läskonst	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	conj		PhraseCat=KoP|SpaceAfter=No
 15	.	.	PUNCT	_	_	4	--		PhraseCat=Top|SpaceAfter=No
@@ -91661,7 +91661,7 @@
 8	Sven	Sven	PROPN	_	Case=Nom	7	SB		PhraseCat=S|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	--		PhraseCat=Top
 10	”	”	PUNCT	_	_	7	--		PhraseCat=Top|SpaceAfter=No
-11	trots	trots	ADP	_	_	24	MD	24:MD|28:	PhraseCat=PP
+11	trots	trots	ADP	_	_	24	MD	24:MD|32:	PhraseCat=PP
 12	att	att	SCONJ	_	_	11	OO		PhraseCat=SuP
 13	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	15	SB		PhraseCat=S
 14	inte	inte	PART	_	Polarity=Neg	15	MD		PhraseCat=S
@@ -91676,13 +91676,13 @@
 23	,	,	PUNCT	_	_	7	--		PhraseCat=Top
 24	tillskrivs	tillskriva	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	OO		PhraseCat=S
 25	vi	vi	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	24	SB		PhraseCat=S
-26	och	och	CCONJ	_	_	28	cc		PhraseCat=KoP
+26	och	och	CCONJ	_	_	32	cc		PhraseCat=KoP
 27	kanske	kanske	ADV	_	_	28	MD		PhraseCat=PP
-28	i	i	ADP	_	_	24	conj		PhraseCat=PP
+28	i	i	ADP	_	_	32	MD		PhraseCat=PP
 29	synnerhet	synnerhet	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	OO		PhraseCat=PP
-30	ESTRELLA	ESTRELLA	PROPN	_	Case=Nom	28	SB		PhraseCat=S
+30	ESTRELLA	ESTRELLA	PROPN	_	Case=Nom	32	SB		PhraseCat=S
 31	oanade	oanad	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	32	MD		PhraseCat=NP
-32	egenskaper	egenskap	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	28	OO	28:OO|24:	PhraseCat=NP|SpaceAfter=No
+32	egenskaper	egenskap	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	24	conj	26:KL|24:	PhraseCat=NP|SpaceAfter=No
 33	,	,	PUNCT	_	_	7	--		PhraseCat=Top
 34	som	som	SCONJ	_	_	32	MD		PhraseCat=SuP
 35	äkten-skapsmäklare	äktenskapsmäklare	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Typo=Yes	34	OO		CorrectForm=äktenskapsmäklare|PhraseCat=SuP|SpaceAfter=No
@@ -93306,12 +93306,12 @@
 7	bär	bära	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj		PhraseCat=S
 8	röda	röd	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	MD		PhraseCat=NP
 9	byxor	byxa	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	OO		PhraseCat=NP
-10	och	och	CCONJ	_	_	11	cc		PhraseCat=KoP
-11	i	i	ADP	_	_	3	conj		PhraseCat=PP
+10	och	och	CCONJ	_	_	15	cc		PhraseCat=KoP
+11	i	i	ADP	_	_	15	MD		PhraseCat=PP
 12	bältet	bälte	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	OO		PhraseCat=PP
 13	ett	en	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	DT		PhraseCat=NP
 14	mindre	liten	ADJ	_	Case=Nom|Degree=Cmp	15	MD		PhraseCat=NP
-15	svärd	svärd	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	OO		PhraseCat=NP
+15	svärd	svärd	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	conj		PhraseCat=NP
 16	(	(	PUNCT	_	_	3	--		PhraseCat=Top|SpaceAfter=No
 17	som	som	SCONJ	_	_	15	MD		PhraseCat=SuP
 18	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	SB		PhraseCat=S

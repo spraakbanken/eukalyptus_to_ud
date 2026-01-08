@@ -195,9 +195,16 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
                         if !candidates.empty?
                             @temptemphead = candidates[0]
                             if verbose then STDERR.puts "RA found" end
+                            
                         else
-                            @temptemphead = next_level[0]
-                            if verbose then STDERR.puts "Taking the leftmost node" end
+                            candidates = next_level.select{|n|labels[next_level.index(n)] == "OO"}
+                            if !candidates.empty?
+                                @temptemphead = candidates[0]
+                                if verbose then STDERR.puts "OO found" end                        
+                            else
+                                @temptemphead = next_level[0]
+                                if verbose then STDERR.puts "Taking the leftmost node" end
+                            end
                         end
                     end
                 end

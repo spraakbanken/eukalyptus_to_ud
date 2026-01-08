@@ -38,7 +38,7 @@ end
 #TODO: rehang comparison in periphrastic constructions ("När det finns perifrastisk komparation hängs det på huvudordet i kvaliteten och inte på modifieraren: mera kompetent än X borde har än X som dependent till kompetent. I Eukalyptus hängs det nog på mera, så det får man rätta till i konverteringen. (Samma gäller lika bra som X etc.)")
 
 =begin
-#TODONOW: Gerlof, SCONJ incl. mark vs. case and obl vs. advcl for JF (check also PhraseCat assignment), PH (deal with som first), OA, RA (parent and child), check all E*, check all *P, check AN (clauses?), udeprel validation, from UD side, go through existing issues, go through TODOs, metadata, evaluation... Split, validation, documentation
+#TODONOW: Gerlof, clausal relationships (OO etc.), SCONJ, PH (deal with som first), OA, RA (parent and child), check all E*, check all *P, check AN (clauses?), udeprel validation, from UD side, go through existing issues, go through TODOs, metadata, evaluation... Split, validation, documentation
 Lista 1:
 {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent", "DT"=>"det", "IO"=>"iobj", "PL"=>"compound:prt"}
 
@@ -658,9 +658,32 @@ def convert_syntax(sentence2, sent_id)
     end
 #=end
 
-#convert general
-#see https://github.com/UniversalDependencies/docs/issues/1126
+#convert more specific cases
+    sentence.each_pair do |id,senthash|
+        daughters = finddaughters(sentence, id)
+        if senthash["upos"] == "ADV"
+            #swapflag = false
+            daughters.each do |daughter|
+                if sentence[daughter]["deprel"] == "OO"
+                    STDOUT.puts "ADV governs OO\t#{sent_id}\t#{senthash["form"]}\t#{senthash["deprel"]}\t#{sentence[daughter]["upos"]}"
+                    advhead = id.clone
+                    newhead = daughter.clone
+                    sentence[newhead]["head"] = sentence[advhead]["head"].clone
+                    sentence[newhead]["deprel"] = sentence[advhead]["deprel"].clone
+                    sentence[advhead]["head"] = newhead.clone
+                    sentence[advhead]["deprel"] = "advmod"
+                    daughters.each do |daughter1|                
+                        if daughter1 != newhead
+                            sentence[daughter1]["head"] = newhead.clone                           
+                        end
+                    end
+                end            
+            end
+        end
+    end
+    
 
+#som helst
     sentence.each_pair do |id,senthash|
         lemma = senthash["lemma"]
         deprel = senthash["deprel"]
@@ -680,6 +703,8 @@ def convert_syntax(sentence2, sent_id)
         end
     end
 
+#själv
+#see https://github.com/UniversalDependencies/docs/issues/1126
     sentence.each_pair do |id,senthash|
         lemma = senthash["lemma"]
         
@@ -711,7 +736,7 @@ def convert_syntax(sentence2, sent_id)
         end
     end
 
-
+#remaining cases. No tree-structure changes should occur in the loop below
     sentence.each_pair do |id,senthash|
         #STDERR.puts "#{id} #{senthash}"
         deprel = senthash["deprel"]
@@ -770,8 +795,8 @@ def convert_syntax(sentence2, sent_id)
         end
 
         
-        #TODONOW: lostmds, PPs...
-        #STDERR.puts upos
+        
+        
         if deprel == "MD"
             if upos == "ADJ"
                 udeprels[id] = "amod"

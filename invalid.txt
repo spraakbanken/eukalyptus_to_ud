@@ -1,769 +1,346 @@
-CHANGE	false	Blog_160886-11338557.6	2	change mark to case
-JF	false	Blog_160886-11338557.11	VERB	advcl
-CHANGE	false	Blog_160886-11338497.3	18	change mark to case
-JF	false	Blog_160886-11338497.3	PRON	obl
-CHANGE	false	Blog_160886-11338497.18	6	change mark to case
-CHANGE	false	Blog_160886-11338497.20	11	change mark to case
-JF	false	Blog_188519-10179826.17	VERB	advcl
-JF	false	Blog_188519-10179826.17	VERB	advcl
-CHANGE	false	Blog_188519-10179826.43	21	change mark to case
-JF	false	Blog_188519-10542620.1	VERB	advcl
-CHANGE	false	Blog_188519-10542620.5	17	change mark to case
-CHANGE	false	Blog_188519-10542620.15	8	change mark to case
-JF	false	Blog_188519-10542620.19	VERB	advcl
-JF	false	Blog_188519-10542620.21	VERB	advcl
-JF	false	Blog_13263-48997.3	VERB	advcl
-JF	false	Blog_13263-48997.4	VERB	advcl
-CHANGE	false	Blog_13263-862913.1	13	change mark to case
-JF	false	Blog_13263-862913.1	ADV	advcl
-CHANGE	false	Blog_13263-702563.2	2	change mark to case
-JF	false	Blog_13263-702563.2	NOUN	obl
-CHANGE	false	Blog_13263-702563.3	35	change mark to case
-JF	false	Blog_13263-702563.3	PRON	obl
-CHANGE	false	Blog_13263-85629.2	1	change mark to case
-CHANGE	false	Blog_13263-1138688.2	4	change mark to case
-CHANGE	false	Blog_13263-236413.1	14	change mark to case
-CHANGE	false	Blog_13263-236413.2	15	change mark to case
-JF	false	Blog_13263-236413.2	NOUN	obl
-CHANGE	false	Blog_13263-475641.3	8	change mark to case
-CHANGE	false	Blog_13263-475641.6	8	change mark to case
-JF	false	Blog_13263-475641.6	NOUN	obl
-JF	false	Blog_13263-513530.1	VERB	advcl
-CHANGE	false	Blog_13263-791534.2	4	change mark to case
-JF	false	Blog_13263-791534.2	ADV	advcl
-CHANGE	false	Blog_12325-1398819.5	16	change mark to case
-JF	false	Blog_12325-1398819.5	ADJ	advcl
-JF	false	Blog_12325-1398819.6	VERB	advcl
-CHANGE	false	Blog_12325-1398819.12	24	change mark to case
-JF	false	Blog_12325-1398819.12	NOUN	obl
-CHANGE	false	Blog_12325-1398819.18	25	change mark to case
-JF	false	Blog_12325-1398819.18	PRON	obl
-CHANGE	false	Blog_12325-1398819.23	6	change mark to case
-CHANGE	false	Blog_12325-1621221.3	27	change mark to case
-JF	false	Blog_12325-1621221.3	NOUN	obl
-JF	false	Blog_12325-1621221.3a	VERB	advcl
-CHANGE	false	Blog_12325-1621221.4	39	change mark to case
-JF	false	Blog_12325-1621221.4	NOUN	obl
-CHANGE	false	Blog_12325-1621221.5	20	change mark to case
-CHANGE	false	Blog_12325-2413172.17	6	change mark to case
-JF	false	Blog_12325-2413172.17	ADV	advcl
-CHANGE	false	Blog_12325-1189192.3	13	change mark to case
-CHANGE	false	Blog_12325-1189192.5	2	change mark to case
-CHANGE	false	Blog_12325-1189192.5	33	change mark to case
-CHANGE	false	Blog_12325-1189192.11	12	change mark to case
-CHANGE	false	Blog_12325-1189192.14	22	change mark to case
-JF	false	Blog_12325-1189192.14	ADJ	advcl
-CHANGE	false	Blog_26224-3394076.2	5	change mark to case
-JF	false	Blog_26224-3394076.2	PROPN	obl
-CHANGE	false	Blog_26224-2222211.3	8	change mark to case
-JF	false	Blog_26224-2222211.4	VERB	advcl
-CHANGE	false	Blog_265827-14454547.15	8	change mark to case
-CHANGE	false	Blog_265827-14701533.7	5	change mark to case
-JF	false	Blog_265827-14701533.7	ADJ	advcl
-CHANGE	false	Blog_265827-14455644.7	6	change mark to case
-CHANGE	false	Blog_265827-14454566.1	12	change mark to case
-CHANGE	false	Blog_265827-8186120.3	2	change mark to case
-CHANGE	false	Blog_265827-14455160.4	6	change mark to case
-JF	false	Blog_265827-14455160.4	ADJ	advcl
-CHANGE	false	Blog_6843-4101497.1	6	change mark to case
-JF	false	Blog_6843-4868011.6	VERB	advcl
-CHANGE	false	Blog_6843-5164672.1	9	change mark to case
-CHANGE	false	Blog_6843-4328736.8	10	change mark to case
-JF	false	Blog_6843-4328736.8	NOUN	obl
-CHANGE	false	Blog_6843-3465275.6	52	change mark to case
-CHANGE	false	Blog_6843-4575758.4	9	change mark to case
-CHANGE	false	Blog_6843-2767923.2	36	change mark to case
-JF	false	Blog_6843-2767923.2	PRON	obl
-CHANGE	false	Blog_6843-2767923.3	7	change mark to case
-JF	false	Blog_6843-2767923.3	NOUN	obl
-CHANGE	false	Blog_6843-2767923.4	12	change mark to case
-JF	false	Blog_5089-9048317.5	VERB	advcl
-CHANGE	false	Blog_5089-9048317.8	6	change mark to case
-CHANGE	false	Blog_5089-9048317.18	15	change mark to case
-JF	false	Blog_5089-9048317.18	ADJ	advcl
-JF	true	Blog_5089-9048317.23	NOUN	advcl
-JF	false	Blog_5089-9048317.26	VERB	advcl
-CHANGE	false	Blog_5089-12282516.5	6	change mark to case
-JF	false	Blog_5089-12282516.12	VERB	advcl
-CHANGE	false	Blog_5089-12282516.20	4	change mark to case
-JF	false	Blog_5089-12282516.20	PROPN	obl
-CHANGE	false	Blog_5089-3694482.7	10	change mark to case
-JF	false	Blog_5089-3694482.7	ADJ	advcl
-CHANGE	false	Blog_5089-3694482.12	13	change mark to case
-JF	false	Blog_5089-3694482.14	VERB	advcl
-CHANGE	false	Blog_5089-9240616.5	10	change mark to case
-JF	false	Blog_5089-9240616.5	NOUN	obl
-JF	false	Blog_5089-9240616.10	VERB	advcl
-JF	false	Blog_5089-9240616.11	VERB	advcl
-CHANGE	false	Blog_5089-9240616.12	21	change mark to case
-JF	false	Blog_5089-9240616.12	NOUN	obl
-CHANGE	false	Blog_5089-9240616.23	38	change mark to case
-JF	false	Blog_5089-9240616.23	PRON	obl
-JF	false	Blog_5089-9240616.27	VERB	advcl
-CHANGE	false	Blog_5089-9240616.31	9	change mark to case
-JF	false	Blog_5089-9240616.31	ADJ	advcl
-CHANGE	false	Blog_5089-62681.9	9	change mark to case
-JF	false	Blog_5089-62681.11	VERB	advcl
-JF	false	Blog_5089-62681.23	VERB	advcl
-CHANGE	false	Blog_5089-62681.26	15	change mark to case
-JF	false	Blog_5089-62681.26	NOUN	obl
-JF	false	Blog_5089-62681.28	VERB	advcl
-CHANGE	false	Blog_9154-5334916.6	1	change mark to case
-CHANGE	false	Blog_9154-5334916.10	18	change mark to case
-JF	false	Blog_9154-5334916.10	NOUN	obl
-CHANGE	false	Blog_9154-6030495.6	5	change mark to case
-CHANGE	false	Blog_9154-6030495.12	11	change mark to case
-CHANGE	false	Blog_9154-6336623.11	8	change mark to case
-JF	false	Blog_9154-6336623.11	VERB	advcl
-CHANGE	false	Blog_9154-501423.3	15	change mark to case
-JF	false	Blog_9154-501423.3	NOUN	obl
-CHANGE	false	Blog_54523-7856343.2	6	change mark to case
-CHANGE	false	Blog_54523-7856343.5	7	change mark to case
-JF	false	Blog_54523-7856343.8	VERB	advcl
-JF	false	Blog_54523-7856343.12	VERB	advcl
-JF	false	Blog_54523-7856343.15	VERB	advcl
-CHANGE	false	Blog_54523-8202951.3	30	change mark to case
-CHANGE	false	Blog_54523-8202951.12c	94	change mark to case
-JF	false	Blog_54523-8202951.12c	NOUN	obl
-JF	false	Blog_54523-8202951.13	VERB	advcl
-JF	false	Blog_54523-9913239.3	VERB	advcl
-JF	false	Blog_54523-6490319.4	VERB	advcl
-JF	false	Blog_54523-9491151.9	VERB	advcl
-CHANGE	false	Blog_54523-4665614.5	7	change mark to case
-JF	false	Blog_54523-4665614.5	NOUN	obl
-CHANGE	false	Blog_54523-14269154.1	7	change mark to case
-JF	false	Blog_54523-14269154.1	PRON	obl
-CHANGE	false	Blog_54523-14269154.2	23	change mark to case
-JF	false	Blog_54523-14269154.2	NOUN	obl
-CHANGE	false	Blog_54523-14269154.7	18	change mark to case
-JF	false	Blog_54523-14269154.7	NOUN	obl
-CHANGE	false	Eupa_00-01-17.19	17	change mark to case
-CHANGE	false	Eupa_00-01-17.23	26	change mark to case
-CHANGE	false	Eupa_00-01-17.37	51	change mark to case
-CHANGE	false	Eupa_00-01-17.54	6	change mark to case
-JF	false	Eupa_00-01-17.89	VERB	advcl
-CHANGE	false	Eupa_00-01-17.95	22	change mark to case
-JF	false	Eupa_00-01-17.95	ADJ	advcl
-JF	false	Eupa_00-01-17.98	VERB	advcl
-JF	false	Eupa_00-01-17.98	VERB	advcl
-CHANGE	false	Eupa_00-01-17.99	14	change mark to case
-CHANGE	false	Eupa_00-01-17.101	8	change case to mark
-JF	false	Eupa_00-01-17.114	VERB	advcl
-JF	false	Eupa_00-01-17.128	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.129	5	change mark to case
-JF	false	Eupa_00-01-17.140	VERB	advcl
-JF	false	Eupa_00-01-17.142	VERB	advcl
-CHANGE	false	Eupa_00-01-17.143	74	change mark to case
-CHANGE	false	Eupa_00-01-17.194	10	change mark to case
-JF	false	Eupa_00-01-17.204	VERB	advcl
-CHANGE	false	Eupa_00-01-17.220	12	change mark to case
-CHANGE	false	Eupa_00-01-17.229	2	change mark to case
-CHANGE	false	Eupa_00-01-17.238	12	change mark to case
-JF	false	Eupa_00-01-17.238	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.243	38	change mark to case
-CHANGE	false	Eupa_00-01-17.245	37	change mark to case
-JF	false	Eupa_00-01-17.245	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.252	30	change mark to case
-CHANGE	false	Eupa_00-01-17.255	10	change mark to case
-JF	false	Eupa_00-01-17.255	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.268	6	change mark to case
-CHANGE	false	Eupa_00-01-17.269	15	change mark to case
-JF	false	Eupa_00-01-17.269	PROPN	obl
-CHANGE	false	Eupa_00-01-17.270	20	change mark to case
-JF	false	Eupa_00-01-17.270	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.270	25	change mark to case
-CHANGE	false	Eupa_00-01-17.274	37	change mark to case
-JF	false	Eupa_00-01-17.274	NOUN	obl
-CHANGE	false	Eupa_00-01-17.276	17	change mark to case
-CHANGE	false	Eupa_00-01-17.276	20	change mark to case
-CHANGE	false	Eupa_00-01-17.276	23	change mark to case
-CHANGE	false	Eupa_00-01-17.281	5	change mark to case
-CHANGE	false	Eupa_00-01-17.286	16	change mark to case
-JF	false	Eupa_00-01-17.286	NOUN	obl
-CHANGE	false	Eupa_00-01-17.315	29	change mark to case
-JF	false	Eupa_00-01-17.315	NOUN	obl
-CHANGE	false	Eupa_00-01-17.318	14	change mark to case
-CHANGE	true	Eupa_00-01-17.329	25	change mark to MD
-CHANGE	false	Eupa_00-01-17.329	34	change mark to case
-JF	false	Eupa_00-01-17.329	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.343	14	change mark to case
-CHANGE	false	Eupa_00-01-17.344	29	change mark to case
-CHANGE	false	Eupa_00-01-17.350	10	change mark to case
-CHANGE	false	Eupa_00-01-17.354	30	change mark to case
-JF	false	Eupa_00-01-17.354	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.358	11	change mark to case
-CHANGE	false	Eupa_00-01-17.367	22	change mark to case
-CHANGE	false	Eupa_00-01-17.374	23	change mark to case
-JF	false	Eupa_00-01-17.374	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.390	23	change mark to case
-JF	false	Eupa_00-01-17.390	NOUN	obl
-CHANGE	false	Eupa_00-01-17.418	13	change mark to case
-JF	false	Eupa_00-01-17.418	NOUN	obl
-CHANGE	false	Eupa_00-01-17.418	19	change mark to case
-CHANGE	false	Eupa_00-01-17.436	4	change mark to case
-JF	false	Eupa_00-01-17.452	VERB	advcl
-CHANGE	false	Eupa_00-01-17.458	10	change mark to case
-CHANGE	false	Eupa_00-01-17.467	23	change mark to case
-CHANGE	false	Eupa_00-01-17.468	45	change mark to case
-CHANGE	false	Eupa_00-01-17.475	9	change mark to case
-CHANGE	false	Eupa_00-01-17.476	33	change mark to case
-JF	false	Eupa_00-01-17.484	VERB	advcl
-CHANGE	false	Eupa_00-01-17.488	2	change mark to case
-CHANGE	false	Eupa_00-01-17.492	26	change mark to case
-CHANGE	false	Eupa_00-01-17.494	11	change mark to case
-JF	false	Eupa_00-01-17.508	VERB	advcl
-JF	false	Eupa_00-01-17.519	VERB	advcl
-CHANGE	false	Eupa_00-01-17.532	15	change mark to case
-CHANGE	false	Eupa_00-01-17.539	9	change mark to case
-CHANGE	false	Eupa_00-01-17.541	23	change mark to case
-JF	false	Eupa_00-01-17.541	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.542	29	change mark to case
-JF	false	Eupa_00-01-17.542	NOUN	obl
-CHANGE	false	Eupa_00-01-17.546	5	change mark to case
-CHANGE	false	Eupa_00-01-17.549	13	change case to mark
-CHANGE	false	Eupa_00-01-17.552	10	change mark to case
-CHANGE	false	Eupa_00-01-17.555	18	change mark to case
-JF	false	Eupa_00-01-17.558	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.571	10	change mark to case
-CHANGE	false	Eupa_00-01-17.579	5	change mark to case
-JF	false	Eupa_00-01-17.598	VERB	advcl
-CHANGE	false	Eupa_00-01-17.607	9	change mark to case
-CHANGE	false	Eupa_00-01-17.615	2	change mark to case
-JF	false	Eupa_00-01-17.615	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.616	6	change mark to case
-CHANGE	false	Eupa_00-01-17.619	27	change mark to case
-CHANGE	false	Eupa_00-01-17.625	14	change mark to case
-CHANGE	false	Eupa_00-01-17.626	11	change mark to case
-CHANGE	false	Eupa_00-01-17.627	4	change mark to case
-CHANGE	false	Eupa_00-01-17.631	16	change mark to case
-JF	false	Eupa_00-01-17.645	VERB	advcl
-CHANGE	false	Eupa_00-01-17.659	10	change mark to case
-CHANGE	false	Eupa_00-01-17.665	12	change mark to case
-CHANGE	false	Eupa_00-01-17.667	18	change mark to case
-CHANGE	false	Eupa_00-01-17.675	66	change mark to case
-JF	false	Eupa_00-01-17.675	NOUN	obl
-CHANGE	false	Eupa_00-01-17.680	31	change mark to case
-JF	false	Eupa_00-01-17.695	ADV	advcl
-JF	false	Eupa_00-01-17.695	VERB	advcl
-CHANGE	false	Eupa_00-01-17.698	48	change mark to case
-CHANGE	false	Eupa_00-01-17.699	20	change mark to case
-JF	false	Eupa_00-01-17.699	NOUN	obl
-CHANGE	false	Eupa_00-01-17.706	11	change mark to case
-CHANGE	false	Eupa_00-01-17.706	12	change mark to case
-CHANGE	false	Eupa_00-01-17.706	37	change mark to case
-JF	false	Eupa_00-01-17.706	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.714	42	change mark to case
-JF	false	Eupa_00-01-17.714	ADJ	advcl
-CHANGE	false	Eupa_00-01-17.719	42	change mark to case
-CHANGE	false	Eupa_00-01-17.721	10	change mark to case
-CHANGE	false	Eupa_00-01-17.732	19	change mark to case
-CHANGE	false	Eupa_00-01-17.748	28	change mark to case
-JF	false	Eupa_00-01-17.748	NOUN	obl
-CHANGE	false	Eupa_00-01-17.752	21	change mark to case
-CHANGE	false	Eupa_00-01-17.774	14	change mark to case
-CHANGE	false	Eupa_00-01-17.790	33	change mark to case
-CHANGE	false	Eupa_00-01-17.790	42	change mark to case
-JF	false	Eupa_00-01-17.790	NOUN	obl
-JF	false	Eupa_00-01-17.797	VERB	advcl
-CHANGE	false	Eupa_00-01-17.805	26	change mark to case
-JF	false	Eupa_00-01-17.805	NOUN	obl
-CHANGE	false	Regr_254764.5	15	change mark to case
-CHANGE	false	Regr_254764.12	28	change mark to case
-CHANGE	false	Regr_254764.13	8	change mark to case
-CHANGE	false	Regr_254764.14	7	change mark to case
-CHANGE	false	Regr_254764.18	3	change mark to case
-CHANGE	false	Arbt_Polisjakt.13	7	change mark to case
-CHANGE	false	Arbt_Polisjakt.28	2	change mark to case
-CHANGE	false	Digi_2014-08.10	11	change mark to case
-CHANGE	false	Digi_2014-08.13	10	change mark to case
-CHANGE	false	Arbt_Hardkritik.21	2	change mark to case
-CHANGE	false	Arbt_Hardkritik.23	14	change mark to case
-JF	false	Arbt_Hardkritik.23	ADJ	advcl
-CHANGE	false	Arbt_Hardkritik.28	18	change mark to case
-JF	false	Arbt_Hardkritik.28	NOUN	obl
-CHANGE	false	Arbt_Vrede.10	8	change mark to case
-CHANGE	false	Regr_255053.3	4	change mark to case
-CHANGE	false	Regr_255268.4	5	change mark to case
-CHANGE	false	Regr_255268.5	14	change mark to case
-CHANGE	false	Regr_255268.12	7	change mark to case
-CHANGE	false	Regr_255022.15	27	change mark to case
-JF	false	Regr_255022.15	NOUN	obl
-CHANGE	false	Arbt_Folkomrostningen.8	26	change mark to case
-CHANGE	false	Arbt_Folkomrostningen.17	3	change mark to case
-JF	false	Arbt_Folkomrostningen.17	NOUN	obl
-CHANGE	false	Arbt_Folkomrostningen.19	5	change mark to case
-CHANGE	false	Regr_255856.6	4	change mark to case
-CHANGE	false	Arbt_Ariel.2	5	change mark to case
-CHANGE	false	Arbt_Ariel.10	19	change mark to case
-JF	false	Arbt_Ariel.13	VERB	advcl
-CHANGE	false	Arbt_Ariel.13	17	change mark to case
-JF	false	Arbt_Ariel.13	NOUN	obl
-CHANGE	false	Arbt_Ariel.23	4	change mark to case
-CHANGE	false	Arbt_Ariel.36	1	change mark to case
+ADV governs OO	Blog_160886-12595823.19	när	MD	VERB
+ADV governs OO	Blog_160886-11338557.6	när	AN	VERB
+ADV governs OO	Blog_160886-12591771.3	när	OO	VERB
+ADV governs OO	Blog_160886-11338497.5	när	MD	VERB
+ADV governs OO	Blog_160886-11338497.14a	när	MD	VERB
+ADV governs OO	Blog_160886-11338497.14a	när	MD	VERB
+ADV governs OO	Blog_188519-10179826.4	hur	OO	VERB
+ADV governs OO	Blog_188519-10179826.19	så	OA	VERB
+ADV governs OO	Blog_188519-10179826.41	när	MD	VERB
+ADV governs OO	Blog_188519-10179826.43	hur	MD	VERB
+ADV governs OO	Blog_188519-10542620.1	vart	OO	VERB
+ADV governs OO	Blog_188519-10542620.3	varför	OO	VERB
+ADV governs OO	Blog_188519-10542620.4	dit	RA	VERB
+ADV governs OO	Blog_188519-10542620.9	vart	OO	VERB
+ADV governs OO	Blog_188519-10542620.15	när	MD	VERB
+ADV governs OO	Blog_188519-10542620.15	var	MD	VERB
+ADV governs OO	Blog_188519-10542620.23	när	OO	VERB
+ADV governs OO	Blog_188519-10542620.23	när	conj	VERB
+ADV governs OO	Blog_13263-1168055.5	var	AN	VERB
+ADV governs OO	Blog_13263-255637.3	När	MD	VERB
+ADV governs OO	Blog_13263-637462.1	när	MD	ADJ
+ADV governs OO	Blog_13263-840567.2	hur	conj	VERB
+ADV governs OO	Blog_13263-691527.1	när	MD	VERB
+ADV governs OO	Blog_13263-295210.2	varför	OO	VERB
+ADV governs OO	Blog_12325-1621221.3a	när	MD	VERB
+ADV governs OO	Blog_12325-1621221.4b	hur	OO	VERB
+ADV governs OO	Blog_12325-1189192.1	över	DT	NUM
+ADV governs OO	Blog_12325-1189192.5	varpå	MD	VERB
+ADV governs OO	Blog_12325-1189192.5	när	MD	VERB
+ADV governs OO	Blog_265827-14701533.5	när	AN	VERB
+ADV governs OO	Blog_265827-14955360.3	när	AN	VERB
+ADV governs OO	Blog_265827-14955360.5	När	MD	ADJ
+ADV governs OO	Blog_265827-14454798.4	hur	OO	VERB
+ADV governs OO	Blog_265827-14454798.6	över	DT	NUM
+ADV governs OO	Blog_265827-15165011.2	när	MD	VERB
+ADV governs OO	Blog_265827-14749673.12	När	MD	VERB
+ADV governs OO	Blog_6843-3465275.5	hur	OO	VERB
+ADV governs OO	Blog_6843-3465275.5	hur	conj	VERB
+ADV governs OO	Blog_6843-3465275.6	hur	conj	VERB
+ADV governs OO	Blog_6843-3465275.6	hur	conj	VERB
+ADV governs OO	Blog_6843-3465275.6	hur	OA	VERB
+ADV governs OO	Blog_5089-9048317.6	när	OO	VERB
+ADV governs OO	Blog_5089-9048317.14	när	MD	VERB
+ADV governs OO	Blog_5089-9048317.14	när	MD	VERB
+ADV governs OO	Blog_5089-9048317.35	När	MD	VERB
+ADV governs OO	Blog_5089-9048317.35	över	MD	NUM
+ADV governs OO	Blog_5089-3694482.2	över	MD	NUM
+ADV governs OO	Blog_5089-9240616.32	dit	MD	VERB
+ADV governs OO	Blog_5089-62681.4	när	MD	VERB
+ADV governs OO	Blog_5089-62681.23	när	MD	PRON
+ADV governs OO	Blog_5089-62681.24	när	MD	ADJ
+ADV governs OO	Blog_5089-62681.28	när	MD	ADJ
+ADV governs OO	Blog_9154-5334916.9	När	MD	VERB
+ADV governs OO	Blog_9154-6030495.4	när	MD	VERB
+ADV governs OO	Blog_9154-6336623.11	varför	OA	VERB
+ADV governs OO	Blog_54523-7856343.8	när	AN	VERB
+ADV governs OO	Blog_54523-7856343.14	hur	OO	VERB
+ADV governs OO	Blog_54523-8202951.12c	varför	OO	VERB
+ADV governs OO	Blog_54523-8202951.12c	när	MD	VERB
+ADV governs OO	Blog_54523-9913239.3	sen	MD	ADJ
+ADV governs OO	Blog_54523-6490319.3	när	MD	ADJ
+ADV governs OO	Blog_54523-9491151.4	när	AN	NUM
+ADV governs OO	Blog_54523-9491151.9	när	AN	VERB
+ADV governs OO	Blog_54523-14269154.1	när	MD	VERB
+ADV governs OO	Blog_54523-14269154.1	när	MD	VERB
+ADV governs OO	Blog_54523-14269154.1	när	MD	VERB
+ADV governs OO	Blog_54523-14269154.1	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.39	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.50	varför	OO	VERB
+ADV governs OO	Eupa_00-01-17.54	hur	MD	VERB
+ADV governs OO	Eupa_00-01-17.93	när	AN	VERB
+ADV governs OO	Eupa_00-01-17.106	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.142	än	MD	VERB
+ADV governs OO	Eupa_00-01-17.159	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.194	hur	OA	VERB
+ADV governs OO	Eupa_00-01-17.201	När	MD	VERB
+ADV governs OO	Eupa_00-01-17.207	hur	OO	VERB
+ADV governs OO	Eupa_00-01-17.246	När	MD	VERB
+ADV governs OO	Eupa_00-01-17.252	hur	MD	VERB
+ADV governs OO	Eupa_00-01-17.260	När	DF	VERB
+ADV governs OO	Eupa_00-01-17.264	När	MD	VERB
+ADV governs OO	Eupa_00-01-17.272	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.281	hur	OA	VERB
+ADV governs OO	Eupa_00-01-17.343	hur	MD	VERB
+ADV governs OO	Eupa_00-01-17.344	När	MD	VERB
+ADV governs OO	Eupa_00-01-17.344	hur	conj	VERB
+ADV governs OO	Eupa_00-01-17.350	hur	MD	VERB
+ADV governs OO	Eupa_00-01-17.353	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.358	hur	MD	VERB
+ADV governs OO	Eupa_00-01-17.364	hur	OO	VERB
+ADV governs OO	Eupa_00-01-17.364	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.367	hur	MD	VERB
+ADV governs OO	Eupa_00-01-17.367	hur	conj	VERB
+ADV governs OO	Eupa_00-01-17.373	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.399	när	MD	ADV
+ADV governs OO	Eupa_00-01-17.400	när	AN	ADJ
+ADV governs OO	Eupa_00-01-17.406	varför	AN	VERB
+ADV governs OO	Eupa_00-01-17.410	varför	OO	VERB
+ADV governs OO	Eupa_00-01-17.412	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.430	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.436	varför	MD	VERB
+ADV governs OO	Eupa_00-01-17.448	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.451	varför	MD	VERB
+ADV governs OO	Eupa_00-01-17.484	när	MD	NOUN
+ADV governs OO	Eupa_00-01-17.486	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.494	varför	OA	VERB
+ADV governs OO	Eupa_00-01-17.496	när	MD	NOUN
+ADV governs OO	Eupa_00-01-17.506	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.510	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.546	hur	OA	VERB
+ADV governs OO	Eupa_00-01-17.548	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.555	hur	MD	VERB
+ADV governs OO	Eupa_00-01-17.568	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.575	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.588	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.592	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.609	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.615	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.618	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.625	hur	MD	VERB
+ADV governs OO	Eupa_00-01-17.626	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.627	varför	MD	VERB
+ADV governs OO	Eupa_00-01-17.628	hur	OO	VERB
+ADV governs OO	Eupa_00-01-17.638	där	MD	VERB
+ADV governs OO	Eupa_00-01-17.645	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.647	när	MD	ADJ
+ADV governs OO	Eupa_00-01-17.649	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.652	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.675	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.680	hur	MD	VERB
+ADV governs OO	Eupa_00-01-17.695	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.698	När	MD	VERB
+ADV governs OO	Eupa_00-01-17.701	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.703	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.705	När	MD	VERB
+ADV governs OO	Eupa_00-01-17.710	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.719	när	DF	VERB
+ADV governs OO	Eupa_00-01-17.734	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.744	När	MD	VERB
+ADV governs OO	Eupa_00-01-17.747	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.759	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.774	hur	MD	VERB
+ADV governs OO	Eupa_00-01-17.795	när	MD	VERB
+ADV governs OO	Eupa_00-01-17.797	när	MD	VERB
+ADV governs OO	Arbt_Fackfientlig.6	när	MD	VERB
+ADV governs OO	Arbt_Polisjakt.6	när	MD	VERB
+ADV governs OO	Arbt_Polisjakt.9	När	MD	ADV
+ADV governs OO	Arbt_Polisjakt.15	När	MD	VERB
+ADV governs OO	Arbt_Polisjakt.26	när	MD	VERB
+ADV governs OO	Digi_2014-08.9	hur	OO	VERB
+ADV governs OO	Digi_2014-08.10	hur	MD	VERB
+ADV governs OO	Digi_2014-08.11	hur	conj	VERB
+ADV governs OO	Digi_2014-08.11	hur	conj	VERB
+ADV governs OO	Digi_2014-08.13	hur	MD	VERB
+ADV governs OO	Arbt_Hardkritik.2	där	MD	VERB
+ADV governs OO	Arbt_Hardkritik.4	När	MD	VERB
+ADV governs OO	Arbt_Hardkritik.9	när	MD	VERB
+ADV governs OO	Arbt_Vrede.11	så	MD	VERB
+ADV governs OO	Regr_255053.7	när	MD	VERB
+ADV governs OO	Regr_255053.10	hur	OO	VERB
+ADV governs OO	Regr_255268.4	hur	MD	VERB
+ADV governs OO	Regr_255022.5	När	MD	VERB
+ADV governs OO	Regr_255022.9	när	MD	VERB
+ADV governs OO	Regr_255022.11	när	MD	VERB
+ADV governs OO	Regr_255022.11	när	MD	VERB
+ADV governs OO	Arbt_Folkomrostningen.19	hur	MD	VERB
+ADV governs OO	Arbt_Folkomrostningen.20	när	OO	VERB
 Lost SJÄLV! Arbt_Ariel.38 NUM
-CHANGE	false	Arbt_Ariel.41	11	change mark to case
-CHANGE	false	Arbt_Ariel.51	1	change mark to case
-CHANGE	false	Arbt_Ariel.57	13	change mark to case
-CHANGE	false	Digi_2015-02.25	4	change mark to case
-CHANGE	false	Arbt_Kraftigaprotester.15	5	change mark to case
-CHANGE	false	Arbt_Kraftigaprotester.28	4	change mark to case
-JF	false	Arbt_Kraftigaprotester.28	PROPN	obl
-CHANGE	false	Arbt_Kraftigaprotester.28	33	change mark to case
-CHANGE	false	Regr_255096.2	1	change mark to case
-CHANGE	false	Regr_255096.9	7	change mark to case
-JF	false	Regr_255096.9	ADJ	advcl
-CHANGE	false	Regr_255096.15	1	change mark to case
-CHANGE	false	Regr_255216.7	3	change mark to case
-CHANGE	false	Regr_255926.5	18	change mark to case
-JF	false	Regr_255926.5	NOUN	obl
-CHANGE	false	Regr_255926.10	10	change mark to case
-CHANGE	false	Regr_255926.15	5	change mark to case
-CHANGE	false	Regr_255926.17	15	change mark to case
-JF	false	Regr_255926.17	NUM	obl
-CHANGE	false	Regr_255926.20	8	change mark to case
-JF	false	Regr_255926.20	NOUN	obl
-CHANGE	false	Regr_255926.20	23	change mark to case
-JF	false	Regr_255926.20	NOUN	obl
-CHANGE	false	Regr_255655.3	9	change mark to case
-JF	false	Regr_255655.3	NOUN	obl
-CHANGE	false	Regr_255655.4	17	change mark to case
-JF	false	Regr_255655.4	ADJ	advcl
-JF	false	Regr_255655.6	VERB	advcl
-CHANGE	false	Regr_255655.9	23	change mark to case
-JF	false	Regr_255655.9	NOUN	obl
-CHANGE	false	Digi_2014-05.9	16	change mark to case
-CHANGE	false	Digi_2014-05.14	12	change mark to case
-CHANGE	false	Digi_2014-05.19	10	change mark to case
-CHANGE	false	Digi_2014-05.21	26	change mark to case
-CHANGE	false	Digi_2014-05.25	16	change mark to case
-CHANGE	false	Digi_2014-05.25	17	change mark to case
-CHANGE	false	Digi_2014-05.27	9	change mark to case
-CHANGE	false	Digi_2014-05.38	21	change mark to case
-CHANGE	false	Digi_2014-05.40	20	change mark to case
-JF	false	Digi_2014-05.40	NUM	obl
-CHANGE	false	Digi_2014-05.51	4	change mark to case
-CHANGE	false	Arbt_Flervarsel.6	11	change mark to case
-CHANGE	false	Arbt_Vardbolag.7	18	change mark to case
-JF	false	Arbt_Vardbolag.7	NOUN	obl
-CHANGE	false	Arbt_Vardbolag.9	14	change mark to case
-CHANGE	false	Arbt_Vardbolag.19	20	change mark to case
-JF	false	Arbt_Vardbolag.19	ADV	advcl
-CHANGE	false	Arbt_Spekulationer.13	9	change mark to case
-CHANGE	false	Arbt_Spekulationer.14	2	change mark to case
-CHANGE	false	Arbt_Spekulationer.14	17	change mark to case
-JF	false	Arbt_Spekulationer.18	VERB	advcl
-CHANGE	false	Arbt_Spekulationer.18	24	change mark to case
-JF	false	Arbt_Rwanda.9	VERB	advcl
-JF	false	Arbt_Rwanda.12	VERB	advcl
-CHANGE	false	Arbt_Rwanda.15	22	change mark to case
-JF	false	Arbt_Rwanda.15	NOUN	obl
-CHANGE	false	Arbt_Rwanda.19	19	change mark to case
-CHANGE	false	Arbt_Rwanda.25	7	change mark to case
-JF	false	Arbt_Rwanda.25	NOUN	obl
-CHANGE	false	Regr_255175.4	16	change mark to case
-CHANGE	false	Regr_255670.4	10	change mark to case
-CHANGE	false	Regr_255670.17	31	change mark to case
-JF	false	Regr_255670.17	ADV	advcl
-CHANGE	false	Regr_255656.3	14	change mark to case
-CHANGE	false	Regr_255656.4	13	change mark to case
-CHANGE	false	Regr_255656.5	18	change mark to case
-JF	false	Regr_255656.5	NOUN	obl
-CHANGE	false	Arbt_Vansterpartiets.6	2	change mark to case
-CHANGE	false	Arbt_Vansterpartiets.8	1	change mark to case
-CHANGE	false	Arbt_Vansterpartiets.13	12	change mark to case
-JF	false	Arbt_Vansterpartiets.13	NOUN	obl
-CHANGE	false	Arbt_Vansterpartiets.16	22	change mark to case
-CHANGE	false	Arbt_Vansterpartiets.17	16	change mark to case
-CHANGE	false	Arbt_Vansterpartiets.18	11	change mark to case
-JF	false	Arbt_Vansterpartiets.19	VERB	advcl
-CHANGE	false	Arbt_Vansterpartiets.21	1	change mark to case
-JF	false	Arbt_Vansterpartiets.33	VERB	advcl
-CHANGE	false	Arbt_Vansterpartiets.36	13	change mark to case
-CHANGE	false	Arbt_Vansterpartiets.46	8	change mark to case
-CHANGE	false	Arbt_Vansterpartiets.47	12	change mark to case
-CHANGE	false	Arbt_Vansterpartiets.47	17	change mark to case
-JF	false	Arbt_Vansterpartiets.47	ADJ	advcl
-CHANGE	false	Regr_255193.3	13	change mark to case
-CHANGE	false	Regr_255193.12	11	change mark to case
-CHANGE	false	Regr_255706.8	5	change mark to case
-JF	false	Regr_255706.8	NUM	obl
-CHANGE	false	Regr_255706.21	10	change mark to case
-JF	false	Regr_255706.21	ADV	advcl
-CHANGE	false	Regr_255346.6	12	change mark to case
-CHANGE	false	Regr_255855.11	14	change mark to case
-JF	false	Regr_255855.11	NUM	obl
-CHANGE	false	Regr_254981.6	15	change mark to case
-JF	false	Regr_254981.6	NOUN	obl
-CHANGE	false	Regr_254981.11	7	change mark to case
-CHANGE	false	Regr_254842.10	8	change mark to case
-CHANGE	false	Regr_254842.20	14	change mark to case
-CHANGE	false	Regr_254842.22	20	change mark to case
-CHANGE	false	Arbt_Smutsigvalkampanj.6	16	change mark to case
-CHANGE	false	Arbt_Smutsigvalkampanj.10	13	change mark to case
-CHANGE	false	Arbt_Smutsigvalkampanj.15	2	change mark to case
-CHANGE	false	Arbt_Smutsigvalkampanj.15	16	change mark to case
-CHANGE	false	Arbt_Smutsigvalkampanj.21	23	change mark to case
-JF	false	Arbt_Smutsigvalkampanj.30	VERB	advcl
-CHANGE	false	Arbt_Olagligjakt.23	14	change mark to case
-JF	false	Arbt_Iandrahand.14	VERB	advcl
-JF	false	Arbt_Iandrahand.16	VERB	advcl
-JF	false	Arbt_Iandrahand.24	PRON	obl
-CHANGE	false	Arbt_Hokarangenbor.3	11	change mark to case
-CHANGE	false	Regr_254797.6	7	change mark to case
-CHANGE	false	Regr_254797.13	7	change mark to case
-CHANGE	false	Regr_254797.13	12	change mark to case
-CHANGE	false	Arbt_Barnen.2	3	change mark to case
-JF	false	Arbt_Barnen.2	NUM	obl
-CHANGE	false	Arbt_Barnen.6	7	change mark to case
-JF	false	Arbt_Barnen.6	NUM	obl
-CHANGE	false	Arbt_Barnen.16	15	change mark to case
-CHANGE	false	Arbt_Barnen.16	16	change mark to case
-CHANGE	false	Arbt_Riskerna.4	32	change mark to case
-JF	false	Arbt_Riskerna.4	NOUN	obl
-CHANGE	false	Arbt_Riskerna.10	12	change mark to case
-JF	false	Arbt_Riskerna.10	NOUN	obl
-JF	false	Arbt_Riskerna.11	VERB	advcl
-CHANGE	false	Arbt_Riskerna.18	12	change mark to case
-JF	false	Arbt_Riskerna.18	PRON	obl
-JF	false	Arbt_Riskerna.19	VERB	advcl
-CHANGE	false	Arbt_Riskerna.23	15	change mark to case
-JF	false	Arbt_Riskerna.23	PRON	obl
-CHANGE	false	Arbt_Riskerna.24	23	change mark to case
-JF	false	Arbt_Riskerna.24	NOUN	obl
-CHANGE	false	Romn_Lundqvist-Ingentobak.16	4	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.16	ADJ	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.18	13	change mark to case
-CHANGE	false	Romn_Lundqvist-Ingentobak.18	18	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.22	VERB	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.22	21	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.22	PRON	obl
-JF	false	Romn_Lundqvist-Ingentobak.31	VERB	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.31	11	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.31	NOUN	obl
-JF	false	Romn_Lundqvist-Ingentobak.34	VERB	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.44	17	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.44	PROPN	obl
-CHANGE	false	Romn_Lundqvist-Ingentobak.45	10	change mark to case
-CHANGE	false	Romn_Lundqvist-Ingentobak.45	15	change mark to case
-CHANGE	false	Romn_Lundqvist-Ingentobak.48	4	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.48	NOUN	obl
-CHANGE	false	Romn_Lundqvist-Ingentobak.52	10	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.52	PRON	obl
-CHANGE	false	Romn_Lundqvist-Ingentobak.53	27	change mark to case
-CHANGE	false	Romn_Lundqvist-Ingentobak.53	32	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.59	VERB	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.65	16	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.91	ADJ	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.92	5	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.92	ADJ	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.92	10	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.92	ADJ	advcl
-JF	false	Romn_Lundqvist-Ingentobak.99	VERB	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.99	21	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.99	PROPN	obl
-CHANGE	false	Romn_Lundqvist-Ingentobak.100	5	change mark to case
-CHANGE	false	Romn_Lundqvist-Ingentobak.105	10	change mark to case
-CHANGE	false	Romn_Lundqvist-Ingentobak.105	20	change mark to case
-CHANGE	false	Romn_Lundqvist-Ingentobak.110	10	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.110	NOUN	obl
-JF	false	Romn_Lundqvist-Ingentobak.115	VERB	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.121	18	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.121	INTJ	obl
-JF	false	Romn_Lundqvist-Ingentobak.198	VERB	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.201	5	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.201	NOUN	obl
-CHANGE	false	Romn_Lundqvist-Ingentobak.208	21	change mark to case
-CHANGE	false	Romn_Lundqvist-Ingentobak.215	10	change mark to case
-CHANGE	false	Romn_Lundqvist-Ingentobak.221	13	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.221	NOUN	obl
-CHANGE	false	Romn_Lundqvist-Ingentobak.227	35	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.227	PROPN	obl
-CHANGE	false	Romn_Lundqvist-Ingentobak.229	23	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.229	PROPN	obl
-CHANGE	false	Romn_Lundqvist-Ingentobak.231	36	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.235	VERB	advcl
-JF	false	Romn_Lundqvist-Ingentobak.250	VERB	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.256	29	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.256	NOUN	obl
-CHANGE	false	Romn_Lundqvist-Ingentobak.257	12	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.257	PRON	obl
+ADV governs OO	Digi_2015-02.7	när	MD	VERB
+ADV governs OO	Digi_2015-02.7	hur	conj	VERB
+ADV governs OO	Digi_2015-02.7	när	MD	VERB
+ADV governs OO	Digi_2015-02.9	När	SB	NOUN
+ADV governs OO	Digi_2015-02.9	när	conj	VERB
+ADV governs OO	Digi_2015-02.9	när	conj	VERB
+ADV governs OO	Digi_2015-02.16	hur	conj	VERB
+ADV governs OO	Digi_2015-02.16	hur	conj	VERB
+ADV governs OO	Arbt_Kraftigaprotester.17	när	MD	VERB
+ADV governs OO	Arbt_Kraftigaprotester.18	När	MD	VERB
+ADV governs OO	Digi_2014-05.14	hur	MD	VERB
+ADV governs OO	Digi_2014-05.15	hur	OO	VERB
+ADV governs OO	Digi_2014-05.15	hur	conj	VERB
+ADV governs OO	Digi_2014-05.19	hur	MD	VERB
+ADV governs OO	Digi_2014-05.25	hur	conj	VERB
+ADV governs OO	Digi_2014-05.38	hur	MD	VERB
+ADV governs OO	Arbt_Flervarsel.3	när	MD	VERB
+ADV governs OO	Arbt_Vardbolag.2	hur	OO	VERB
+ADV governs OO	Arbt_Vardbolag.6	hur	OO	VERB
+ADV governs OO	Arbt_Vardbolag.9	hur	MD	VERB
+ADV governs OO	Arbt_Vardbolag.10	när	MD	VERB
+ADV governs OO	Arbt_Vardbolag.19	när	JF	VERB
+ADV governs OO	Arbt_Spekulationer.10	länge	MD	VERB
+ADV governs OO	Arbt_Spekulationer.14	hur	MD	VERB
+ADV governs OO	Arbt_Spekulationer.21	Oavsett	MD	VERB
+ADV governs OO	Arbt_Rwanda.2	när	MD	VERB
+ADV governs OO	Arbt_Rwanda.12	när	MD	VERB
+ADV governs OO	Arbt_Rwanda.14	när	MD	VERB
+ADV governs OO	Arbt_Rwanda.14	när	MD	VERB
+ADV governs OO	Arbt_Sundsvallssyndikalister.13	när	MD	VERB
+ADV governs OO	Regr_255670.4	hur	MD	VERB
+ADV governs OO	Regr_255670.10	hur	OO	VERB
+ADV governs OO	Regr_255670.17	när	MD	VERB
+ADV governs OO	Regr_255670.17	när	JF	VERB
+ADV governs OO	Regr_255656.3	hur	MD	VERB
+ADV governs OO	Regr_255656.9	över	DT	NUM
+ADV governs OO	Regr_255656.9	över	DT	NUM
+ADV governs OO	Arbt_Vansterpartiets.21	när	MD	VERB
+ADV governs OO	Arbt_Vansterpartiets.45	länge	MD	VERB
+ADV governs OO	Arbt_Vansterpartiets.46	hur	MD	VERB
+ADV governs OO	Arbt_Vansterpartiets.48	När	MD	VERB
+ADV governs OO	Regr_255193.3	hur	MD	VERB
+ADV governs OO	Regr_255193.12	hur	MD	VERB
+ADV governs OO	Digi_2014-11.18	över	DT	NUM
+ADV governs OO	Regr_255346.9	hur	OO	VERB
+ADV governs OO	Regr_254842.12	över	DT	NUM
+ADV governs OO	Arbt_Smutsigvalkampanj.3	När	MD	VERB
+ADV governs OO	Arbt_Smutsigvalkampanj.16	När	MD	ADJ
+ADV governs OO	Arbt_Smutsigvalkampanj.32	När	MD	VERB
+ADV governs OO	Arbt_Olagligjakt.6	När	MD	VERB
+ADV governs OO	Arbt_Olagligjakt.18	varför	OO	VERB
+ADV governs OO	Arbt_Olagligjakt.21	när	MD	VERB
+ADV governs OO	Arbt_Olagligjakt.23	hur	MD	VERB
+ADV governs OO	Arbt_Olagligjakt.28	När	MD	VERB
+ADV governs OO	Arbt_Iandrahand.34	När	MD	VERB
+ADV governs OO	Regr_254797.6	hur	MD	VERB
+ADV governs OO	Regr_254797.6	hur	conj	VERB
+ADV governs OO	Arbt_Barnen.3	varav	MD	VERB
+ADV governs OO	Arbt_Barnen.6	över	DF	NUM
+ADV governs OO	Arbt_Barnen.18	när	MD	VERB
+ADV governs OO	Arbt_Riskerna.14	när	MD	VERB
+ADV governs OO	Romn_Lundqvist-Ingentobak.65	så	conj	NOUN
+ADV governs OO	Romn_Lundqvist-Ingentobak.100	hur	OA	VERB
+ADV governs OO	Romn_Lundqvist-Ingentobak.113	när	MD	VERB
+ADV governs OO	Romn_Lundqvist-Ingentobak.118	när	MD	VERB
+ADV governs OO	Romn_Lundqvist-Ingentobak.160	sen	MD	ADV
+ADV governs OO	Romn_Lundqvist-Ingentobak.167	länge	MD	VERB
+ADV governs OO	Romn_Lundqvist-Ingentobak.176	när	MD	NOUN
+ADV governs OO	Romn_Lundqvist-Ingentobak.182	snart	MD	VERB
+ADV governs OO	Romn_Lundqvist-Ingentobak.202	när	MD	VERB
+ADV governs OO	Romn_Lundqvist-Ingentobak.218	sen	MD	ADV
+ADV governs OO	Romn_Lundqvist-Ingentobak.234	snart	MD	VERB
+ADV governs OO	Romn_Lundqvist-Ingentobak.243	så	MD	VERB
 SJÄLV is root! Romn_Lundqvist-Ingentobak.264
-JF	false	Romn_Lundqvist-Ingentobak.266	ADJ	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.295	6	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.295	NOUN	obl
-CHANGE	false	Romn_Lundqvist-Ingentobak.298	6	change mark to case
-CHANGE	false	Romn_Lundqvist-Ingentobak.305	6	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.305	ADJ	advcl
-CHANGE	false	Romn_Lundqvist-Ingentobak.326	3	change mark to case
-JF	false	Romn_Lundqvist-Ingentobak.326	NOUN	obl
-JF	false	Romn_Lundqvist-Ingentobak.344	VERB	advcl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.10	22	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.18	13	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.33	7	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.44	15	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.44	ADJ	advcl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.71	11	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.71	NOUN	obl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.71	30	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.79	VERB	advcl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.84	10	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.84	NOUN	obl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.88	6	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.89	14	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.96	24	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.96	NOUN	obl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.101	10	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.103	11	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.103	17	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.103	NOUN	obl
-JF	false	Romn_Bjelvehammar-TageBengtsson.115	VERB	advcl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.119	25	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.133	10	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.133	NOUN	obl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.174	14	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.174	NOUN	obl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.175	15	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.187	4	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.187	NOUN	obl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.201	17	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.201	NOUN	obl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.209	13	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.209	NOUN	obl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.212	5	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.212	10	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.214	2	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.214	ADV	advcl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.226	18	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.226	PROPN	obl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.235	5	change mark to case
-JF	false	Romn_Bjelvehammar-TageBengtsson.240	ADJ	advcl
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.243	4	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.243	12	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.244	30	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.255	1	change mark to case
-CHANGE	false	Romn_Bjelvehammar-TageBengtsson.259	6	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.15	VERB	advcl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.38	1	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.38	NOUN	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.43	3	change mark to case
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.43	8	change mark to case
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.43	13	change mark to case
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.51	16	change mark to case
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.146	5	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.146	ADV	advcl
-JF	false	Romn_Holmsen-Polynesiskpassad.149	VERB	advcl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.184	13	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.184	NOUN	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.192	12	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.192	PRON	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.217	6	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.217	NOUN	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.217	16	change mark to case
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.244	14	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.244	NOUN	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.247	2	change mark to case
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.254	28	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.254	NOUN	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.262	13	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.262	NOUN	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.283	63	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.283	NOUN	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.287	14	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.287	ADJ	advcl
-JF	false	Romn_Holmsen-Polynesiskpassad.288	VERB	advcl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.305	7	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.305	NOUN	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.313b	6	change mark to case
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.318	2	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.318	X	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.325	8	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.325	NOUN	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.348	4	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.348	NOUN	obl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.349	12	change mark to case
-JF	false	Romn_Holmsen-Polynesiskpassad.372	ADV	advcl
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.372	3	change mark to case
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.389	3	change mark to case
-CHANGE	false	Romn_Holmsen-Polynesiskpassad.417	7	change mark to case
-JF	false	Romn_Strand-Pagarna.68	VERB	advcl
-CHANGE	false	Romn_Strand-Pagarna.73	10	change mark to case
-JF	false	Romn_Strand-Pagarna.73	NOUN	obl
-CHANGE	false	Romn_Strand-Pagarna.75	18	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.77	5	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.82	14	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.95	12	change mark to case
-JF	false	Romn_Strand-Pagarna.95	NOUN	obl
-JF	false	Romn_Strand-Pagarna.104	VERB	advcl
-JF	false	Romn_Strand-Pagarna.118	VERB	advcl
-CHANGE	false	Romn_Strand-Pagarna.160	11	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.185	5	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.188	10	change mark to case
-JF	false	Romn_Strand-Pagarna.189	VERB	advcl
-JF	false	Romn_Strand-Pagarna.195	VERB	advcl
-CHANGE	false	Romn_Strand-Pagarna.229	5	change mark to case
-JF	false	Romn_Strand-Pagarna.229	NOUN	obl
-CHANGE	false	Romn_Strand-Pagarna.236	4	change mark to case
-JF	false	Romn_Strand-Pagarna.236	NOUN	obl
-CHANGE	false	Romn_Strand-Pagarna.258	3	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.286	21	change mark to case
-JF	false	Romn_Strand-Pagarna.286	PROPN	obl
-CHANGE	false	Romn_Strand-Pagarna.295	21	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.301	8	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.332	18	change mark to case
-JF	false	Romn_Strand-Pagarna.332	NOUN	obl
-CHANGE	false	Romn_Strand-Pagarna.337	6	change mark to case
-JF	false	Romn_Strand-Pagarna.337	NOUN	obl
-CHANGE	false	Romn_Strand-Pagarna.356	6	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.377	17	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.392	20	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.395	10	change mark to case
-JF	false	Romn_Strand-Pagarna.395	PRON	obl
-CHANGE	false	Romn_Strand-Pagarna.425	5	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.427	34	change mark to case
-CHANGE	false	Romn_Strand-Pagarna.438	4	change mark to case
-JF	false	Romn_Strand-Pagarna.448	VERB	advcl
-CHANGE	false	Wiki_Asterix.17	25	change mark to case
-JF	false	Wiki_Asterix.17	ADJ	advcl
-CHANGE	false	Wiki_Asterix.24	18	change mark to case
-CHANGE	false	Wiki_Asterix.32	31	change mark to case
-CHANGE	false	Wiki_Asterix.33	12	change mark to case
-CHANGE	false	Wiki_Asterix.35	6	change mark to case
-CHANGE	false	Wiki_Asterix.39	6	change mark to case
-CHANGE	false	Wiki_Asterix.44	9	change mark to case
-JF	false	Wiki_Asterix.44	PROPN	obl
-CHANGE	false	Wiki_Asterix.44	21	change mark to case
-CHANGE	false	Wiki_Asterix.46	3	change mark to case
-CHANGE	false	Wiki_Asterix.47	12	change mark to case
-CHANGE	false	Wiki_Asterix.55	53	change mark to case
-CHANGE	false	Wiki_Asterix.89	13	change mark to case
-CHANGE	false	Wiki_Kvadrat.7	12	change mark to case
-CHANGE	false	Wiki_LillaMy.10	5	change mark to case
-CHANGE	false	Wiki_LillaMy.18	7	change mark to case
-CHANGE	false	Wiki_LillaMy.18	23	change mark to case
-CHANGE	false	Wiki_LillaMy.19	18	change mark to case
-CHANGE	false	Wiki_LillaMy.21	24	change mark to case
-CHANGE	false	Wiki_Ior.6	8	change mark to case
-JF	false	Wiki_Ior.6	NOUN	obl
-CHANGE	false	Wiki_HarryPotter.6	17	change mark to case
-CHANGE	false	Wiki_HarryPotter.22	20	change mark to case
-JF	false	Wiki_HarryPotter.23	VERB	advcl
-CHANGE	false	Wiki_HarryPotter.32	25	change mark to case
-CHANGE	false	Wiki_HarryPotter.34	5	change mark to case
-CHANGE	false	Wiki_HarryPotter.37	10	change mark to case
-CHANGE	false	Wiki_HarryPotter.44	2	change mark to case
-CHANGE	false	Wiki_HarryPotter.55	33	change mark to case
-JF	false	Wiki_HarryPotter.55	ADJ	advcl
-CHANGE	false	Wiki_HarryPotter.63	31	change mark to case
-JF	false	Wiki_HarryPotter.63	NOUN	obl
-CHANGE	false	Wiki_HarryPotter.71	3	change mark to case
-CHANGE	false	Wiki_HarryPotter.75	14	change mark to case
-CHANGE	false	Wiki_HarryPotter.94	19	change mark to case
-CHANGE	false	Wiki_HarryPotter.99	19	change mark to case
-JF	false	Wiki_HarryPotter.99	NOUN	obl
-CHANGE	false	Wiki_HarryPotter.104	10	change mark to case
-JF	false	Wiki_HarryPotter.104	NOUN	obl
-CHANGE	false	Wiki_HarryPotter.136	9	change mark to case
-JF	false	Wiki_HarryPotter.136	NOUN	obl
-CHANGE	false	Wiki_Saganomringenfilm.67	3	change mark to case
-CHANGE	false	Wiki_Saganomringenfilm.69	11	change mark to case
-JF	false	Wiki_Saganomringenfilm.69	PRON	obl
-CHANGE	false	Wiki_Saganomringenfilm.72	7	change mark to case
-CHANGE	false	Wiki_Saganomringenfilm.75	3	change mark to case
-CHANGE	false	Wiki_Saganomringenfilm.78	5	change mark to case
-JF	false	Wiki_Saganomringenfilm.78	PRON	obl
-CHANGE	false	Wiki_Semester.8	35	change mark to case
-CHANGE	false	Wiki_Semester.9	12	change mark to case
-JF	false	Wiki_Semester.9	NOUN	obl
-CHANGE	false	Wiki_VascodaGama.40	21	change mark to case
-CHANGE	false	Wiki_VascodaGama.52	37	change mark to case
-CHANGE	false	Wiki_VascodaGama.56	25	change mark to case
-CHANGE	false	Wiki_VascodaGama.73	9	change mark to case
-CHANGE	false	Wiki_VascodaGama.74	12	change mark to case
-CHANGE	false	Wiki_VascodaGama.79	3	change mark to case
-JF	false	Wiki_VascodaGama.79	ADJ	advcl
-CHANGE	false	Wiki_VascodaGama.79	16	change mark to case
-CHANGE	false	Wiki_VascodaGama.83	12	change mark to case
-JF	false	Wiki_VascodaGama.83	PROPN	obl
-CHANGE	false	Wiki_VascodaGama.85	4	change mark to case
-JF	false	Wiki_Symaskin.5	VERB	advcl
-CHANGE	false	Wiki_Symaskin.7	12	change mark to case
-JF	false	Wiki_Symaskin.7	NOUN	obl
-JF	false	Wiki_Symaskin.8	VERB	advcl
-CHANGE	false	Wiki_Symaskin.36	29	change mark to case
-JF	false	Wiki_Symaskin.36	NOUN	obl
-CHANGE	false	Wiki_Symaskin.44	5	change mark to case
-JF	false	Wiki_Symaskin.44	PROPN	obl
-JF	false	Wiki_Symaskin.48	VERB	advcl
-CHANGE	false	Wiki_Vader.15	7	change mark to case
-CHANGE	false	Wiki_Vader.25	6	change mark to case
-CHANGE	false	Wiki_Vader.29	10	change mark to case
-CHANGE	false	Wiki_Vader.50	20	change mark to case
-CHANGE	false	Wiki_Vader.52	6	change mark to case
-JF	false	Wiki_Vader.52	NOUN	obl
-CHANGE	false	Wiki_Vader.60	5	change mark to case
-JF	false	Wiki_Vader.60	ADJ	advcl
-CHANGE	false	Wiki_Vader.72	12	change mark to case
-JF	false	Wiki_Vader.72	NOUN	obl
-CHANGE	false	Wiki_Vader.85	7	change mark to case
-JF	false	Wiki_Vader.85	NOUN	obl
-CHANGE	false	Wiki_Vader.88	9	change mark to case
-JF	false	Wiki_Vader.88	NOUN	obl
-JF	false	Wiki_Vader.91	VERB	advcl
-CHANGE	false	Wiki_Vader.97	4	change mark to case
-CHANGE	false	Wiki_Vader.106	15	change mark to case
-JF	false	Wiki_Vader.106	ADJ	advcl
-CHANGE	false	Wiki_Vader.107	8	change mark to case
-CHANGE	false	Wiki_Vader.109	17	change mark to case
-JF	false	Wiki_Vader.109	ADJ	advcl
-CHANGE	false	Wiki_Vader.120	19	change mark to case
-CHANGE	false	Wiki_Vader.125	20	change mark to case
-JF	false	Wiki_Vader.125	NOUN	obl
-CHANGE	false	Wiki_Vader.129	17	change mark to case
-CHANGE	false	Wiki_Vader.138	11	change mark to case
-CHANGE	false	Wiki_Vader.141	5	change mark to case
-CHANGE	false	Wiki_Vader.142	6	change mark to case
-CHANGE	false	Wiki_Vader.145	26	change mark to case
-CHANGE	false	Wiki_Vader.147	17	change mark to case
-JF	false	Wiki_Vader.147	NOUN	obl
-CHANGE	false	Wiki_Vader.169	17	change mark to case
-JF	false	Wiki_Vader.169	ADV	advcl
-CHANGE	false	Wiki_Vader.193	9	change mark to case
-JF	false	Wiki_Vader.193	NOUN	obl
-CHANGE	false	Wiki_Vader.202	9	change mark to case
-JF	false	Wiki_Vader.202	NOUN	obl
-CHANGE	false	Wiki_Vader.204	11	change mark to case
-JF	false	Wiki_Vader.204	NUM	obl
-CHANGE	false	Wiki_AlexanderFleming.22	23	change mark to case
-CHANGE	false	Wiki_MiominMio.7	9	change mark to case
-JF	false	Wiki_MiominMio.7	NOUN	obl
-JF	false	Wiki_MiominMio.69	VERB	advcl
-CHANGE	false	Wiki_MiominMio.81	9	change mark to case
-CHANGE	false	Wiki_MiominMio.138	11	change mark to case
-CHANGE	false	Wiki_MiominMio.138	25	change mark to case
-CHANGE	false	Wiki_MiominMio.139	7	change mark to case
-JF	false	Wiki_MiominMio.139	NOUN	obl
-CHANGE	false	Wiki_MiominMio.143	10	change mark to case
-CHANGE	false	Wiki_MiominMio.147	2	change mark to case
-CHANGE	false	Wiki_MiominMio.158	7	change mark to case
-CHANGE	false	Wiki_Jonssonligan.10	19	change mark to case
-CHANGE	false	Wiki_Jonssonligan.11	13	change mark to case
-CHANGE	false	Wiki_Jonssonligan.19	17	change mark to case
-CHANGE	false	Wiki_Jonssonligan.19	25	change mark to case
-CHANGE	false	Wiki_Jonssonligan.20	8	change mark to case
-CHANGE	false	Wiki_Jonssonligan.21	11	change mark to case
-CHANGE	false	Wiki_Jonssonligan.25	11	change mark to case
-CHANGE	false	Wiki_Jonssonligan.41	11	change mark to case
-JF	false	Wiki_Jonssonligan.41	PROPN	obl
-CHANGE	false	Wiki_Jonssonligan.44	9	change mark to case
-CHANGE	false	Wiki_Jonssonligan.46	15	change mark to case
-CHANGE	false	Wiki_Jonssonligan.46	20	change mark to case
-CHANGE	false	Wiki_Jonssonligan.54	26	change mark to case
-CHANGE	false	Wiki_Jonssonligan.54	35	change mark to case
-JF	false	Wiki_Jonssonligan.54	NOUN	obl
-JF	false	Wiki_Sverigesriksdag.6	ADJ	advcl
-CHANGE	false	Wiki_Sverigesriksdag.6	25	change mark to case
-CHANGE	false	Wiki_Sverigesriksdag.34	13	change mark to case
-CHANGE	false	Wiki_Sverigesriksdag.65	21	change mark to case
-CHANGE	false	Wiki_Sverigesriksdag.68	9	change mark to case
-CHANGE	false	Wiki_Sverigesriksdag.76	2	change mark to case
-JF	false	Wiki_Sverigesriksdag.76	NOUN	obl
+ADV governs OO	Romn_Lundqvist-Ingentobak.358	hur	OO	VERB
+ADV governs OO	Romn_Lundqvist-Ingentobak.358	hur	conj	VERB
+ADV governs OO	Romn_Lundqvist-Ingentobak.359	hur	OO	VERB
+ADV governs OO	Romn_Lundqvist-Ingentobak.416	när	MD	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.33	där	MD	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.46	när	MD	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.58	när	MD	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.69	När	DF	ADJ
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.97	när	OO	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.99	när	DF	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.119	När	DF	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.122	när	MD	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.124	när	MD	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.128	När	DF	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.133	där	RA	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.141	när	MD	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.158	När	MD	ADJ
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.171	När	DF	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.176	när	DF	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.263	när	MD	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.267	när	MD	VERB
+ADV governs OO	Romn_Bjelvehammar-TageBengtsson.275	När	MD	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.22	vart	OO	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.28	När	MD	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.42	hur	OO	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.42	varifrån	conj	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.45	När	MD	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.90	hur	OO	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.93	när	MD	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.106	hur	conj	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.113	var	conj	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.139	När	MD	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.147	sen	MD	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.147	när	AN	ADJ
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.222	när	AN	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.231	var	OO	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.289	varifrån	OO	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.343	varför	OO	VERB
+ADV governs OO	Romn_Holmsen-Polynesiskpassad.405	När	MD	VERB
+ADV governs OO	Romn_Strand-Pagarna.99	hur	OO	VERB
+ADV governs OO	Romn_Strand-Pagarna.126	när	MD	VERB
+ADV governs OO	Romn_Strand-Pagarna.162	när	MD	VERB
+ADV governs OO	Romn_Strand-Pagarna.300	hur	OO	VERB
+ADV governs OO	Romn_Strand-Pagarna.305	hur	conj	VERB
+ADV governs OO	Romn_Strand-Pagarna.326	når	MD	VERB
+ADV governs OO	Romn_Strand-Pagarna.356	hur	MD	VERB
+ADV governs OO	Romn_Strand-Pagarna.368	varav	MD	ADJ
+ADV governs OO	Romn_Strand-Pagarna.377	hur	OA	VERB
+ADV governs OO	Wiki_Asterix.61	varav	MD	NUM
+ADV governs OO	Wiki_Asterix.93	När	MD	VERB
+ADV governs OO	Wiki_LillaMy.11	när	MD	VERB
+ADV governs OO	Wiki_LillaMy.12	När	MD	VERB
+ADV governs OO	Wiki_LillaMy.14	Likt	MD	NOUN
+ADV governs OO	Wiki_LillaMy.16	När	MD	ADJ
+ADV governs OO	Wiki_Hastighetsmatare.9	När	MD	VERB
+ADV governs OO	Wiki_HarryPotter.18	varför	MD	VERB
+ADV governs OO	Wiki_HarryPotter.24	när	MD	VERB
+ADV governs OO	Wiki_HarryPotter.29	när	MD	VERB
+ADV governs OO	Wiki_HarryPotter.46	när	MD	VERB
+ADV governs OO	Wiki_HarryPotter.46	hur	OO	VERB
+ADV governs OO	Wiki_HarryPotter.55	när	MD	VERB
+ADV governs OO	Wiki_HarryPotter.75	När	MD	VERB
+ADV governs OO	Wiki_HarryPotter.81	över	DT	NUM
+ADV governs OO	Wiki_Saganomringenfilm.7	sedan	MD	ADV
+ADV governs OO	Wiki_Saganomringenfilm.12	när	MD	VERB
+ADV governs OO	Wiki_Saganomringenfilm.73	hur	conj	VERB
+ADV governs OO	Wiki_VascodaGama.4	varav	MD	VERB
+ADV governs OO	Wiki_VascodaGama.70	När	MD	VERB
+ADV governs OO	Wiki_Symaskin.40	när	MD	VERB
+ADV governs OO	Wiki_Vader.5	när	AN	VERB
+ADV governs OO	Wiki_Vader.62	När	MD	VERB
+ADV governs OO	Wiki_Vader.115	varvid	MD	VERB
+ADV governs OO	Wiki_Vader.127	hur	OO	VERB
+ADV governs OO	Wiki_Vader.130	När	MD	VERB
+ADV governs OO	Wiki_Vader.167	hur	OO	VERB
+ADV governs OO	Wiki_Vader.192	När	MD	VERB
+ADV governs OO	Wiki_Vader.192	hur	OO	VERB
+ADV governs OO	Wiki_AlexanderFleming.14	när	MD	VERB
+ADV governs OO	Wiki_AlexanderFleming.16	när	MD	VERB
+ADV governs OO	Wiki_MiominMio.8	när	MD	ADJ
+ADV governs OO	Wiki_MiominMio.10	När	MD	VERB
+ADV governs OO	Wiki_MiominMio.15	när	MD	VERB
+ADV governs OO	Wiki_MiominMio.17	när	MD	VERB
+ADV governs OO	Wiki_MiominMio.21	när	MD	VERB
+ADV governs OO	Wiki_MiominMio.34	När	MD	VERB
+ADV governs OO	Wiki_MiominMio.43	När	MD	VERB
+ADV governs OO	Wiki_MiominMio.45	När	MD	VERB
+ADV governs OO	Wiki_MiominMio.46	När	MD	VERB
+ADV governs OO	Wiki_MiominMio.60	när	MD	VERB
+ADV governs OO	Wiki_MiominMio.92	när	MD	VERB
+ADV governs OO	Wiki_MiominMio.93	varpå	DF	VERB
+ADV governs OO	Wiki_MiominMio.95	när	MD	VERB
+ADV governs OO	Wiki_MiominMio.106	när	MD	VERB
+ADV governs OO	Wiki_MiominMio.111	hur	OO	VERB
+ADV governs OO	Wiki_MiominMio.123	när	MD	VERB
+ADV governs OO	Wiki_MiominMio.125	när	MD	VERB
+ADV governs OO	Wiki_MiominMio.152	När	MD	VERB
+ADV governs OO	Wiki_Jonssonligan.38	När	MD	VERB
+ADV governs OO	Wiki_Jonssonligan.38	när	MD	VERB
+ADV governs OO	Wiki_Jonssonligan.54	hur	OA	VERB
+ADV governs OO	Wiki_Jonssonligan.57	hur	OO	VERB
+ADV governs OO	Wiki_Sverigesriksdag.5	när	MD	VERB
+ADV governs OO	Wiki_Sverigesriksdag.44	hur	conj	VERB
+ADV governs OO	Wiki_Sverigesriksdag.52	när	MD	VERB
