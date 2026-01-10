@@ -30,7 +30,11 @@ end
 
 @mycketlemmas = {"mycken" => "mycket", "litet" => "lite", "mången" => "många", "flera" => "många"}
 #handling elsewhere: KL, HD, DF, DT, MD
-@matchdeprels = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp","IV"=>"xcomp","--"=>"discourse"} #"HD"=>"dep",
+
+@matchdeprels = {"ME"=>"fixed", "PL"=>"compound:prt","IV"=>"xcomp","--"=>"discourse","OP"=>"xcomp","SP"=>"xcomp"} #"HD"=>"dep",
+
+
+@matchdeprels_old = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp","IV"=>"xcomp","--"=>"discourse"} #"HD"=>"dep",
 
 @functionwords = ["ADP","SCONJ","PART","DET","AUX","CCONJ","SYM","PUNCT"] #NO: ,NUM,PRON,X,INTJ.
 
@@ -38,16 +42,26 @@ end
 #TODO: rehang comparison in periphrastic constructions ("När det finns perifrastisk komparation hängs det på huvudordet i kvaliteten och inte på modifieraren: mera kompetent än X borde har än X som dependent till kompetent. I Eukalyptus hängs det nog på mera, så det får man rätta till i konverteringen. (Samma gäller lika bra som X etc.)")
 
 =begin
-#TODONOW: Gerlof, clausal relationships (OO etc.), SCONJ, PH (deal with som first), OA, RA (parent and child), check all E*, check all *P, check AN (clauses?), udeprel validation, from UD side, go through existing issues, go through TODOs, metadata, evaluation... Split, validation, documentation
-Lista 1:
-{"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent", "DT"=>"det", "IO"=>"iobj", "PL"=>"compound:prt"}
+#TODONOW: Gerlof, clausal relationships (OO etc.), SCONJ, PH (deal with som first), OA, RA (parent and child), check all E*, udeprel validation, from UD side, go through existing issues, go through TODOs, metadata, evaluation... Split, validation, documentation
 
-Lista 2:
-DONE: KL, ME, 
-PH, JF, --
+Lista 0: clause or not 
+TODO: "SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent", "IO"=>"iobj", AN (appos), OA (+adverbial or not?), 
 
-Lista 3:
-AN (appos), EF (typ acl:cleft?), EO (obj?), ES (nsubj?), OA (advcl+advmod?), RA (advcl+advmod?), OP+SP (xcomp?), DF (discourse?), IV (aux?), MD (different kinds of mods?), 
+Lista 1: one-to-one mappings list
+DONE: PL, ME, OP, SP
+
+Lista 2: special functions
+DONE:  JF, MD, DF, DT
+TODO: RA (check for clauses?)
+
+Lista 3: covered by other rules
+DONE: KL, 
+DONE+1: --, IV
+TODO: PH,
+
+TOSORT: 
+EF (typ acl:cleft?), EO (obj?), ES (nsubj?)
+
 =end
 
 #TODO: deal with fake-coords manually
@@ -641,14 +655,6 @@ def convert_syntax(sentence2, sent_id)
                 end
                 #STDERR.puts sentence	
             end
-            
-            
-            #TODO
-            #think about sisters? Should not be a problem. Test e.g. Wiki_Asterix.87
-            #find the new head
-            #mark if not found
-            #swap: old to new, new to old with all direct descendants
-            #exceptions: own modifiers #check how it is in existing!
         end
         #STDERR.puts "inte daughter of #{sentence[sentence[18]["head"]]["form"]}"
         
@@ -659,6 +665,8 @@ def convert_syntax(sentence2, sent_id)
 #=end
 
 #convert more specific cases
+
+#swapping head-dependent for adverbs that govern smth (mostly verbs) via OO.
     sentence.each_pair do |id,senthash|
         daughters = finddaughters(sentence, id)
         if senthash["upos"] == "ADV"
@@ -736,7 +744,7 @@ def convert_syntax(sentence2, sent_id)
         end
     end
 
-#remaining cases. No tree-structure changes should occur in the loop below
+#remaining cases. No tree-structure changes should occur in the loop below, and the idea is that conversion rules are independent of one another
     sentence.each_pair do |id,senthash|
         #STDERR.puts "#{id} #{senthash}"
         deprel = senthash["deprel"]
@@ -759,7 +767,7 @@ def convert_syntax(sentence2, sent_id)
         end
 
         
-
+#converting DF
         if deprel == "DF"
             if upos == "CCONJ"
                 udeprels[id] = "cc"
@@ -773,6 +781,7 @@ def convert_syntax(sentence2, sent_id)
         
         end
 
+#converting DT
         if deprel == "DT"
             #STDERR.puts "DT! #{id}"
             if feats.include?("Poss=Yes") or feats.include?("Case=Gen") or upos == "NOUN" or upos == "PROPN" or upos == "X"#and form[-1]=="s") #because GEN is sometimes not marked on PROPNs, or because of constrs like Gustav Vasas or Gustav och Carls
@@ -795,8 +804,7 @@ def convert_syntax(sentence2, sent_id)
         end
 
         
-        
-        
+#converting MD        
         if deprel == "MD"
             if upos == "ADJ"
                 udeprels[id] = "amod"
@@ -840,7 +848,7 @@ def convert_syntax(sentence2, sent_id)
             end
         end
         
-        
+#converting JF
         if deprel == "JF"
             #umisc[id] << "JF=True"
             
@@ -859,6 +867,7 @@ def convert_syntax(sentence2, sent_id)
         
         end
         
+#double-checking mark and case
         if udeprels[id] == "mark" or udeprels[id] == "case" or deprel == "mark" or deprel == "case"
             #if udeprels[id] == "mark" or udeprels[id] == "case" #at this point, mark/case could have been specified either in deprel or in udeprel, hence the weird structure
             #    old = udeprels[id].clone
@@ -883,15 +892,17 @@ def convert_syntax(sentence2, sent_id)
         
         end
         
-        
+#converting -- to punct
         if upos == "PUNCT"
             udeprels[id] = "punct"
         #elsif deprel.downcase == deprel
         #    udeprels[id] = deprel
-        else                       
+        else           
+#converting everything else via the one-to-one list        
             if !@matchdeprels[deprel].nil? and udeprels[id].nil?
                 udeprels[id] = @matchdeprels[deprel]
             else
+#catching those that already were converted but did not make it to udeprels[id]
                 if udeprels[id].nil?
                     udeprels[id] = deprel
                 end
