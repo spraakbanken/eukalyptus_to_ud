@@ -965,6 +965,7 @@ filenames.each do |filename|
                         end
                     end
 
+                    misc = []
                     if @phrasecats[term_id].to_s != ""
                         misc = ["PhraseCat=#{@phrasecats[term_id]}"]
                     end    
