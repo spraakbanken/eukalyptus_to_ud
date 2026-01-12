@@ -158,7 +158,8 @@ def deal_with_mwes(primary_tree, current_id, phrases, term_ids, words, verbose, 
     end
 end
 
-def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phrasedeprel,phrases,words)
+def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phrasedeprel,phrases,words,initialcat)
+    
     @head_label_index = labels.index("HD") 
             
     if @head_label_index.nil?
@@ -268,6 +269,7 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
         temphead = next_level[@head_label_index].clone
         if term_ids.include?(temphead)
             @head = temphead.clone
+            @phrasecats[@head] = initialcat.clone ###assigning the topmost PhraseCat to head (and not other nodes)
             if root == 0 and @newroot.nil? # and cat != "KoP"
                 if verbose then STDERR.puts "    Current_id: #{current_id}. New root!" end
                 @newroot = @head.clone#.gsub("#{sent_id}.","").to_i
@@ -285,10 +287,10 @@ def find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,v
                 if verbose then STDERR.puts "IN RECURSION assignment blocked: #{@head} already has #{@reversed_tree[@head]} as head" end
             end
          
-
+            
             if verbose then STDERR.puts "Current_id: #{current_id} HD or PH confirmed as terminal: #{next_level[@head_label_index]}" end
         else            
-            find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids,root,phrasedeprel,phrases,words)
+            find_head(primary_labels[temphead],temphead,primary_tree[temphead],primary_tree,primary_labels,sent_id,verbose,term_ids,root,phrasedeprel,phrases,words, initialcat)
             #add condition for stopping
         end
     else
@@ -428,7 +430,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             @phrasedeprel = phrasedeprel.clone
             #STDERR.puts "Running find_head from #{current_id} with #{@phrasedeprel}"
             #find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,true,term_ids,root,phrasedeprel,phrases,words)
-            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phrasedeprel,phrases,words)
+            find_head(labels,current_id,next_level,primary_tree,primary_labels,sent_id,verbose,term_ids,root,phrasedeprel,phrases,words,cat)
             head = @head.clone
             head_label_index = @head_label_index.clone
 			#STDERR.puts "Reversed tree: #{@reversed_tree}"
@@ -500,7 +502,7 @@ def process_primary_tree(primary_tree, primary_labels, current_id, term_ids, phr
             if verbose then STDERR.puts "  Current_id: #{current_id}. Terminal run. Node: #{node}" end
             if term_ids.include?(node)
                 if verbose then STDERR.puts "    Current_id: #{current_id}. Node: #{node}. Terminal node" end
-                @phrasecats[node] = phrases[current_id].clone
+                ### @phrasecats[node] = phrases[current_id].clone #Will do PhraseCat assignment only for phrase heads
                 if cat == "Top" and onlyterminalsontop == false #and head == root #head.nil?#root == 0
                     if verbose then STDERR.puts "    Current_id: #{current_id}. Terminal under 0" end
                     #@reversed_tree[node] = root
@@ -963,7 +965,10 @@ filenames.each do |filename|
                         end
                     end
 
-                    misc = ["PhraseCat=#{@phrasecats[term_id]}"]
+                    if @phrasecats[term_id].to_s != ""
+                        misc = ["PhraseCat=#{@phrasecats[term_id]}"]
+                    end    
+                        
                     if info["read_as"] != ""
                         misc << "CorrectForm=#{info["read_as"]}"
                     end
