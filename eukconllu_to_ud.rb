@@ -633,7 +633,10 @@ def convert_syntax(sentence2, sent_id)
                         sentence[functional_head]["deprel"] = "mark"
                     else
                         sentence[functional_head]["deprel"] = "case"
-                    end	
+                    end
+                    if phrasecat.to_s == ""
+                        STDOUT.puts "No PhraseCat\tSWAP:ADP\t#{sent_id}\t#{functional_head}"
+                    end
                 elsif funcheadtype == "aux"
                     if sentence[functional_head]["lemma"] == "vara"
                         sentence[functional_head]["deprel"] = "cop"
@@ -673,7 +676,7 @@ def convert_syntax(sentence2, sent_id)
             #swapflag = false
             daughters.each do |daughter|
                 if sentence[daughter]["deprel"] == "OO"
-                    STDOUT.puts "ADV governs OO\t#{sent_id}\t#{senthash["form"]}\t#{senthash["deprel"]}\t#{sentence[daughter]["upos"]}"
+                    #STDOUT.puts "ADV governs OO\t#{sent_id}\t#{senthash["form"]}\t#{senthash["deprel"]}\t#{sentence[daughter]["upos"]}"
                     advhead = id.clone
                     newhead = daughter.clone
                     sentence[newhead]["head"] = sentence[advhead]["head"].clone
@@ -775,6 +778,9 @@ def convert_syntax(sentence2, sent_id)
                 udeprels[id] = "conj"
             elsif @markcats.include?(phrasecat) or upos == "VERB" #will NOT be corrected later by verbal_or_not
                 udeprels[id] = "parataxis"
+                if phrasecat.to_s == ""
+                    STDOUT.puts "No PhraseCat\tDF\t#{sent_id}\t#{id}"
+                end
             else
                 udeprels[id] = "discourse"
             end
@@ -832,6 +838,9 @@ def convert_syntax(sentence2, sent_id)
                     udeprels[id] = "mark"
                 else
                     udeprels[id] = "case"
+                end
+                if phrasecat.to_s == ""
+                    STDOUT.puts "No PhraseCat\tSCONJ\t#{sent_id}\t#{id}"
                 end
             elsif upos == "INTJ" #fix? Arguably not INTJs?
                 udeprels[id] = "advmod"
