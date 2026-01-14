@@ -283,6 +283,18 @@ def findfunchead_topdown(sent_id,topdown,sentence,id,firsthead,chain)
 end
 
 @markcats = ["S","SuP","VP","VBM"]
+
+#CHANGE to findinset("PhraseCat",	sentence[sentence[functional_head]["head"]]["misc"])
+def is_markcat(sentence,id)
+    if @markcats.include?(phrasecat)
+        markcat = true
+    elsif phrasecat == "KoP"
+        markcat = is_markcat(sentence,finddaughters(sentence,id)[0])
+    else
+        markcat = false
+    end
+    return markcat
+end
 #@casecats 
 
 def convert_coordination(sentence2, sent_id)
