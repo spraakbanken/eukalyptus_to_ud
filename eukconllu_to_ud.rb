@@ -64,6 +64,8 @@ EF (typ acl:cleft?), EO (obj?), ES (nsubj?)
 
 =end
 
+#TODO technical: uniform methods for swapping heads and reassigning PhraseCat
+#TODO at evaluation: clausal vs non-clausal? Should PhraseCat in eukxml be assigned from Top, as it is now? Will eventually become TODO-DIM
 #TODO: deal with fake-coords manually
 
 #Major: Heads and dependents, clauses vs non-clauses, previous conversion (MWE), coordination. Go from UD relations
