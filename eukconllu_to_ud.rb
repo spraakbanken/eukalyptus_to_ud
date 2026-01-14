@@ -609,7 +609,15 @@ def convert_syntax(sentence2, sent_id)
                     end
                 end
                 
+                
                 sentence[contenthead]["head"] = sentence[functional_head]["head"].clone
+                func_phrasecat = findinset("PhraseCat",	sentence[functional_head]["misc"])
+                cont_phrasecat = findinset("PhraseCat",	sentence[contenthead]["misc"])
+                if cont_phrasecat.to_s == ""
+                    umisc[contenthead].reject!{|s| s.include?("PhraseCat")}
+                    umisc[contenthead] << "PhraseCat=#{func_phrasecat}"
+                end
+                
                 
                 if !(funcheadtype == "aux" and sentence[functional_head]["deprel"]=="IV")
                     sentence[contenthead]["deprel"] = sentence[functional_head]["deprel"].clone
@@ -626,17 +634,20 @@ def convert_syntax(sentence2, sent_id)
                     phrasecat = findinset("PhraseCat",	sentence[functional_head]["misc"])
                     
                     if phrasecat == "PP"
+                        #STDOUT.puts "Phrasecat=PP\tSWAP:ADP\t#{sent_id}\t#{functional_head}"
                         phrasecat = findinset("PhraseCat",	sentence[sentence[functional_head]["head"]]["misc"])
                     end
                     
                     if @markcats.include?(phrasecat) #will be corrected later by verbal_or_not
                         sentence[functional_head]["deprel"] = "mark"
-                    else
+                        #STDOUT.puts "mark\tSWAP:ADP\t#{sent_id}\t#{functional_head}"
+                    else #In many cases PhraseCat will be empty, e.g. in a usual NP. These cases will correctly get "case"
                         sentence[functional_head]["deprel"] = "case"
+                        #STDOUT.puts "case\tSWAP:ADP\t#{sent_id}\t#{functional_head}"
                     end
-                    if phrasecat.to_s == ""
-                        STDOUT.puts "No PhraseCat\tSWAP:ADP\t#{sent_id}\t#{functional_head}"
-                    end
+                    #if phrasecat.to_s == ""
+                    #    STDOUT.puts "No PhraseCat\tSWAP:ADP\t#{sent_id}\t#{functional_head}"
+                    #end
                 elsif funcheadtype == "aux"
                     if sentence[functional_head]["lemma"] == "vara"
                         sentence[functional_head]["deprel"] = "cop"
@@ -679,6 +690,16 @@ def convert_syntax(sentence2, sent_id)
                     #STDOUT.puts "ADV governs OO\t#{sent_id}\t#{senthash["form"]}\t#{senthash["deprel"]}\t#{sentence[daughter]["upos"]}"
                     advhead = id.clone
                     newhead = daughter.clone
+                    adv_phrasecat = findinset("PhraseCat",	sentence[advhead]["misc"])
+                    new_phrasecat = findinset("PhraseCat",	sentence[newhead]["misc"])
+                    if new_phrasecat.to_s == ""
+                        umisc[newhead].reject!{|s| s.include?("PhraseCat")}
+                        umisc[newhead] << "PhraseCat=#{adv_phrasecat}"
+                        #STDOUT.puts "ADVPCSWAP:#{sent_id}\t#{newhead}"
+                    end
+                
+                    
+                    
                     sentence[newhead]["head"] = sentence[advhead]["head"].clone
                     sentence[newhead]["deprel"] = sentence[advhead]["deprel"].clone
                     sentence[advhead]["head"] = newhead.clone
@@ -778,9 +799,9 @@ def convert_syntax(sentence2, sent_id)
                 udeprels[id] = "conj"
             elsif @markcats.include?(phrasecat) or upos == "VERB" #will NOT be corrected later by verbal_or_not
                 udeprels[id] = "parataxis"
-                if phrasecat.to_s == ""
-                    STDOUT.puts "No PhraseCat\tDF\t#{sent_id}\t#{id}"
-                end
+                #if phrasecat.to_s == ""
+                #    STDOUT.puts "No PhraseCat\tDF\t#{sent_id}\t#{id}"
+                #end
             else
                 udeprels[id] = "discourse"
             end
@@ -839,9 +860,9 @@ def convert_syntax(sentence2, sent_id)
                 else
                     udeprels[id] = "case"
                 end
-                if phrasecat.to_s == ""
-                    STDOUT.puts "No PhraseCat\tSCONJ\t#{sent_id}\t#{id}"
-                end
+                #if phrasecat.to_s == ""
+                #    STDOUT.puts "No PhraseCat\tSCONJ\t#{sent_id}\t#{id}"
+                #end
             elsif upos == "INTJ" #fix? Arguably not INTJs?
                 udeprels[id] = "advmod"
             elsif upos == "SYM"
@@ -875,14 +896,37 @@ def convert_syntax(sentence2, sent_id)
             #end
         
         end
-        
+    end
+               
 #double-checking mark and case
+    sentence.each_pair do |id,senthash|
+        #STDERR.puts "#{id} #{senthash}"
+        deprel = senthash["deprel"]
+        #STDERR.puts deprel
+        head = senthash["head"]
+        upos = senthash["upos"]
+        lemma = senthash["lemma"]
+        #STDERR.puts upos
+        feats = senthash["feats"]
+        misc = senthash["misc"]
+        form = senthash["form"]
+        phrasecat = findinset("PhraseCat",	misc)
+        if head.nil?
+            head = 0
+        end
+     
+
+        if head == 0
+            udeprels[id] = "root"
+        end
+
+        
         if udeprels[id] == "mark" or udeprels[id] == "case" or deprel == "mark" or deprel == "case"
-            #if udeprels[id] == "mark" or udeprels[id] == "case" #at this point, mark/case could have been specified either in deprel or in udeprel, hence the weird structure
-            #    old = udeprels[id].clone
-            #else
-            #    old = deprel.clone
-            #end
+            if udeprels[id] == "mark" or udeprels[id] == "case" #at this point, mark/case could have been specified either in deprel or in udeprel, hence the weird structure
+                old = udeprels[id].clone
+            else
+                old = deprel.clone
+            end
            
             if verbal_or_not(sentence,head,["VERB","AUX"]) #the @markcats approach overgenerates "mark", because Eukalyptus is much more generous with subordinate phrases/clauses than UD. Hence another rule: if the head is not verbal, ignore PhraseCat
                 if !@copula #exception: if the head is nominal and there is a copula as a daughter, it COULD be a clause, but too many examples aren't (additional problem: too many "vara" misclassified as copula. Best to ignore such cases
@@ -893,11 +937,15 @@ def convert_syntax(sentence2, sent_id)
                     end
                 end
             else
-                udeprels[id] = "case" #works quite well
+                if udeprels[head] != "advcl"
+                    udeprels[id] = "case" #works quite well
+                else
+                    udeprels[id] = "mark"               
+                end
             end            
-            #if udeprels[id] != old #== "mark" and old == "case" #
-            #    STDOUT.puts "CHANGE\t#{@copula}\t#{sent_id}\t#{id}\tchange #{old} to #{udeprels[id]}"
-            #end
+            if udeprels[id] != old #== "mark" and old == "case" #
+                STDOUT.puts "CHANGE\tcopula=#{@copula}\t#{sent_id}\t#{id}\tchange #{old} to #{udeprels[id]}"
+            end
         
         end
         
@@ -918,7 +966,15 @@ def convert_syntax(sentence2, sent_id)
             end
         end
         uheads[id] = head #move to a separate cycle?
-        umisc[id] = [umisc[id],misc.split("|")].flatten.sort.join("|")
+        miscarray = misc.split("|")
+        
+        #to prevent tokens having two PhraseCat (can happen with former functional heads)
+        if miscarray.select{|s| s.include?("PhraseCat")}.length > 0 and umisc[id].select{|s| s.include?("PhraseCat")}.length > 0
+            miscarray.reject! {|s| s.include?("PhraseCat")}
+        end
+        
+        
+        umisc[id] = [umisc[id],miscarray].flatten.sort.join("|")
         #if umisc[id].nil?
         #    umisc[id] = misc
         #end
