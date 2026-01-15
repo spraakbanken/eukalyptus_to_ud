@@ -60,7 +60,7 @@ DONE+1: --, IV
 TODO: PH,
 
 TOSORT: 
-EF (typ acl:cleft?), EO (obj?), ES (nsubj?)
+EF (typ acl:cleft?), EO (asked), ES (nsubj,csubj? expl for det)
 
 =end
 
