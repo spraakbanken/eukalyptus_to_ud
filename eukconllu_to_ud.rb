@@ -64,6 +64,7 @@ EF (typ acl:cleft?), EO (obj?), ES (nsubj?)
 
 =end
 
+
 #TODO technical: uniform methods for swapping heads and reassigning PhraseCat
 #TODO at evaluation: clausal vs non-clausal? Should PhraseCat in eukxml be assigned from Top, as it is now? Will eventually become TODO-DIM
 #TODO: deal with fake-coords manually
@@ -284,18 +285,6 @@ end
 
 @markcats = ["S","SuP","VP","VBM"]
 
-#CHANGE to findinset("PhraseCat",	sentence[sentence[functional_head]["head"]]["misc"])
-def is_markcat(sentence,id)
-    if @markcats.include?(phrasecat)
-        markcat = true
-    elsif phrasecat == "KoP"
-        markcat = is_markcat(sentence,finddaughters(sentence,id)[0])
-    else
-        markcat = false
-    end
-    return markcat
-end
-#@casecats 
 
 def convert_coordination(sentence2, sent_id)
     sentence = sentence2.clone
@@ -587,7 +576,7 @@ def convert_syntax(sentence2, sent_id)
                 if @verbose 
                     #STDOUT cases when a lexical head cannot be found
                     if reassigned_without_fullswap != true
-                        if funcheadtype == "det" or (findinset("PromotedHead", sentence[functional_head]["misc"]) != "Yes" and !findinset("ExtXpos",sentence[functional_head]["misc"]).to_s.match?(/[A-Z][A-Z]M/))
+                        if funcheadtype == "det" or (findinset(sent_id,"PromotedHead", sentence[functional_head]["misc"],sentence,functional_head) != "Yes" and !findinset(sent_id,"ExtXpos",sentence[functional_head]["misc"],sentence,functional_head).to_s.match?(/[A-Z][A-Z]M/))
                             
                             if functionalheads_head == 0
                                 headheadform = "root"
@@ -625,8 +614,8 @@ def convert_syntax(sentence2, sent_id)
                 
                 
                 sentence[contenthead]["head"] = sentence[functional_head]["head"].clone
-                func_phrasecat = findinset("PhraseCat",	sentence[functional_head]["misc"])
-                cont_phrasecat = findinset("PhraseCat",	sentence[contenthead]["misc"])
+                func_phrasecat = findinset(sent_id,"PhraseCat",	sentence[functional_head]["misc"],sentence,functional_head)
+                cont_phrasecat = findinset(sent_id,"PhraseCat",	sentence[contenthead]["misc"],sentence,contenthead)
                 if cont_phrasecat.to_s == ""
                     umisc[contenthead].reject!{|s| s.include?("PhraseCat")}
                     umisc[contenthead] << "PhraseCat=#{func_phrasecat}"
@@ -645,12 +634,14 @@ def convert_syntax(sentence2, sent_id)
                 
                 if funcheadtype == "adp"
                     #TODO: look at rels or PhraseCat instead?
-                    phrasecat = findinset("PhraseCat",	sentence[functional_head]["misc"])
+                    phrasecat = findinset(sent_id,"PhraseCat",	sentence[functional_head]["misc"],sentence, functional_head)
+                    
                     
                     if phrasecat == "PP"
                         #STDOUT.puts "Phrasecat=PP\tSWAP:ADP\t#{sent_id}\t#{functional_head}"
-                        phrasecat = findinset("PhraseCat",	sentence[sentence[functional_head]["head"]]["misc"])
+                        phrasecat = findinset(sent_id,"PhraseCat",	sentence[sentence[functional_head]["head"]]["misc"],sentence,sentence[functional_head]["head"])
                     end
+                    
                     
                     if @markcats.include?(phrasecat) #will be corrected later by verbal_or_not
                         sentence[functional_head]["deprel"] = "mark"
@@ -704,8 +695,8 @@ def convert_syntax(sentence2, sent_id)
                     #STDOUT.puts "ADV governs OO\t#{sent_id}\t#{senthash["form"]}\t#{senthash["deprel"]}\t#{sentence[daughter]["upos"]}"
                     advhead = id.clone
                     newhead = daughter.clone
-                    adv_phrasecat = findinset("PhraseCat",	sentence[advhead]["misc"])
-                    new_phrasecat = findinset("PhraseCat",	sentence[newhead]["misc"])
+                    adv_phrasecat = findinset(sent_id,"PhraseCat",	sentence[advhead]["misc"], sentence, advhead)
+                    new_phrasecat = findinset(sent_id,"PhraseCat",	sentence[newhead]["misc"], sentence, newhead)
                     if new_phrasecat.to_s == ""
                         umisc[newhead].reject!{|s| s.include?("PhraseCat")}
                         umisc[newhead] << "PhraseCat=#{adv_phrasecat}"
@@ -794,7 +785,11 @@ def convert_syntax(sentence2, sent_id)
         feats = senthash["feats"]
         misc = senthash["misc"]
         form = senthash["form"]
-        phrasecat = findinset("PhraseCat",	misc)
+        phrasecat = findinset(sent_id,"PhraseCat",	misc, sentence, id)
+        #if phrasecat == "KoP"
+        #    @kopcounter += 1
+        #end
+    
         if head.nil?
             head = 0
         end
@@ -858,7 +853,7 @@ def convert_syntax(sentence2, sent_id)
             elsif upos == "VERB"
                 udeprels[id] = "advcl"
             elsif upos == "ADP"
-                if findinset("ExtXpos",misc)=="ABM"
+                if findinset(sent_id,"ExtXpos",misc,sentence, id)=="ABM"
                     udeprels[id] = "advmod"
                 else
                     if ["VERB","ADJ"].include?(sentence[head]["pos"])
@@ -869,7 +864,7 @@ def convert_syntax(sentence2, sent_id)
                     #STDOUT.puts "MD, #{sent_id}, #{id}, #{upos}, #{form}"    
                 end
             elsif upos == "SCONJ" #fix SCONJs in general
-                if @markcats.include?(findinset("PhraseCat",misc)) #will be corrected later by verbal_or_not
+                if @markcats.include?(phrasecat) #will be corrected later by verbal_or_not
                     udeprels[id] = "mark"
                 else
                     udeprels[id] = "case"
@@ -897,7 +892,7 @@ def convert_syntax(sentence2, sent_id)
             #umisc[id] << "JF=True"
             
             
-            #if @markcats.include?(findinset("PhraseCat",misc))
+            
             if verbal_or_not(sentence,id,["VERB","ADJ","ADV","AUX"]) #note that verbal_or_not is used differently, not as in mark/case (re)assignment below
                 udeprels[id] = "advcl"
             else                
@@ -924,7 +919,8 @@ def convert_syntax(sentence2, sent_id)
         feats = senthash["feats"]
         misc = senthash["misc"]
         form = senthash["form"]
-        phrasecat = findinset("PhraseCat",	misc)
+        phrasecat = findinset(sent_id,"PhraseCat",	misc, sentence, id)
+        
         if head.nil?
             head = 0
         end
@@ -1000,7 +996,7 @@ def convert_syntax(sentence2, sent_id)
     return uheads, udeprels, umisc
 end
 
-def findinset(target,misc)
+def findinset(sent_id,target,misc,sentence,id)
     miscs = misc.to_s.split("|")
     value = nil
     miscs.each do |miscs1|
@@ -1009,6 +1005,9 @@ def findinset(target,misc)
             break
         end
     end
+    #if target == "PhraseCat" and value == "KoP"
+    #    STDOUT.puts "#{sent_id},#{id}"
+    #end
     return value
 end
 
@@ -1491,6 +1490,7 @@ end
 if mode == "other"
     STDERR.puts dtlist
 end
+
 
 #STDOUT.puts @chain_array.uniq
 #STDERR.puts @jfuposs.uniq

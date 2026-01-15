@@ -6752,7 +6752,7 @@
 2	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	3	cop		PhraseCat=S|NewHead=3
 3	starkare	stark	ADJ	_	Case=Nom|Degree=Cmp	0	root		PhraseCat=AjP
 4	än	än	SCONJ	_	_	6	mark		PhraseCat=SuP|NewHead=5
-5	på	på	ADP	_	_	6	case		PhraseCat=PP|NewHead=6
+5	på	på	ADP	_	_	6	mark		PhraseCat=PP|NewHead=6
 6	länge	länge	ADV	_	_	3	advcl		PhraseCat=PP|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct		
 8	dollarn	dollar	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	SB		
@@ -36453,7 +36453,7 @@
 21	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	22	cop		PhraseCat=S|NewHead=22
 22	värre	ond	ADJ	_	Case=Nom|Degree=Cmp	18	amod		PhraseCat=AjP
 23	än	än	SCONJ	_	_	26	mark		PhraseCat=SuP|NewHead=24
-24	i	i	ADP	_	_	26	case		PhraseCat=PP|NewHead=26
+24	i	i	ADP	_	_	26	mark		PhraseCat=PP|NewHead=26
 25	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det		
 26	övriga	övrig	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	advcl		PhraseCat=NP|PromotedHead=Yes|SpaceAfter=No
 27	.	.	PUNCT	_	_	3	punct		
