@@ -7,6 +7,7 @@ filename = ARGV[0]
 inputfile = File.open("#{filename}.conllu","r:utf-8")
 @verbose = false
 #@jfuposs = []
+@clauses1 = Hash.new{|hash, key| hash[key] = Array.new}
 
 if mode == "convert"
     
@@ -45,7 +46,8 @@ end
 #TODONOW: Gerlof, clausal relationships (OO etc.), SCONJ, PH (deal with som first), OA, RA (parent and child), check all E*, udeprel validation, from UD side, go through existing issues, go through TODOs, metadata, evaluation... Split, validation, documentation
 
 Lista 0: clause or not 
-TODO: "SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent", "IO"=>"iobj", AN (appos), OA (+adverbial or not?), 
+TODO: "SB"=>"nsubj/csubj", "OO" => "obj/ccomp", "AG"=>"obl:agent/advcl, if any?", "IO"=>"iobj/advcl, if any?", AN (appos/??), OA (+adverbial or not?), 
+
 
 Lista 1: one-to-one mappings list
 DONE: PL, ME, OP, SP
@@ -61,6 +63,17 @@ TODO: PH,
 
 TOSORT: 
 EF (typ acl:cleft?), EO (asked), ES (nsubj,csubj? expl for det)
+
+From UD:
+https://universaldependencies.org/sv/dep/index.html
+acl
+:relcl
+:outer
+:pass
+:cleft
+flat, flat:name
+
+list, dislocated, orphan
 
 =end
 
@@ -252,6 +265,16 @@ def find_next_conjunct(target,conjuncts)
 end
 
 @chain_array = []
+
+def clause_or_not(phrasecat,upos,sent_id,id,wherefrom)
+    if @markcats.include?(phrasecat) and ["VERB","AUX"].include?(upos)
+        #@clauses1[wherefrom] << "SM\t#{sent_id}\t#{id}\t#{wherefrom}"
+    elsif  @markcats.include?(phrasecat) and !["VERB","AUX"].include?(upos)    
+        @clauses1[wherefrom] << "S\t#{sent_id}\t#{id}\t#{wherefrom}"
+    elsif !@markcats.include?(phrasecat) and ["VERB","AUX"].include?(upos)    
+        @clauses1[wherefrom] << "M\t#{sent_id}\t#{id}\t#{wherefrom}"
+    end
+end
 
 def findfunchead_topdown(sent_id,topdown,sentence,id,firsthead,chain)
     
@@ -683,7 +706,6 @@ def convert_syntax(sentence2, sent_id)
     end
 #=end
 
-#convert more specific cases
 
 #swapping head-dependent for adverbs that govern smth (mostly verbs) via OO.
     sentence.each_pair do |id,senthash|
@@ -774,6 +796,7 @@ def convert_syntax(sentence2, sent_id)
     end
 
 #remaining cases. No tree-structure changes should occur in the loop below, and the idea is that conversion rules are independent of one another
+    
     sentence.each_pair do |id,senthash|
         #STDERR.puts "#{id} #{senthash}"
         deprel = senthash["deprel"]
@@ -790,6 +813,7 @@ def convert_syntax(sentence2, sent_id)
         #    @kopcounter += 1
         #end
     
+       
         if head.nil?
             head = 0
         end
@@ -798,7 +822,22 @@ def convert_syntax(sentence2, sent_id)
         if head == 0
             udeprels[id] = "root"
         end
+        
+        if ["MD","SB","OO","AG","IO","AN","OA","RA","EF","EO","ES"].include?(deprel)
+            clause_or_not(phrasecat,upos,sent_id,id,deprel)
+        end
 
+=begin
+        if !["case","mark","advmod","cconj","fixed","ME"].include?(deprel)
+            if @markcats.include?(phrasecat) and ["VERB","AUX"].include?(upos)
+                @clauses1 << "SM\t#{sent_id}\t#{id}"
+            elsif  @markcats.include?(phrasecat) and !["VERB","AUX"].include?(upos)    
+                @clauses1 << "S\t#{sent_id}\t#{id}"
+            elsif !@markcats.include?(phrasecat) and ["VERB","AUX"].include?(upos)    
+                @clauses1 << "M\t#{sent_id}\t#{id}"
+            end
+        end
+=end
         
 #converting DF
         if deprel == "DF"
@@ -808,6 +847,8 @@ def convert_syntax(sentence2, sent_id)
                 udeprels[id] = "conj"
             elsif @markcats.include?(phrasecat) or upos == "VERB" #will NOT be corrected later by verbal_or_not
                 udeprels[id] = "parataxis"
+                clause_or_not(phrasecat,upos,sent_id,id,"DF")
+                
                 #if phrasecat.to_s == ""
                 #    STDOUT.puts "No PhraseCat\tDF\t#{sent_id}\t#{id}"
                 #end
@@ -891,7 +932,7 @@ def convert_syntax(sentence2, sent_id)
         if deprel == "JF"
             #umisc[id] << "JF=True"
             
-            
+            clause_or_not(phrasecat,upos,sent_id,id,"JF")
             
             if verbal_or_not(sentence,id,["VERB","ADJ","ADV","AUX"]) #note that verbal_or_not is used differently, not as in mark/case (re)assignment below
                 udeprels[id] = "advcl"
@@ -907,7 +948,8 @@ def convert_syntax(sentence2, sent_id)
         end
     end
                
-#double-checking mark and case
+#depends on the udeprels assigned in the previous cycle, hence the new cycle. 
+# double-checking mark and case and correcting everything else
     sentence.each_pair do |id,senthash|
         #STDERR.puts "#{id} #{senthash}"
         deprel = senthash["deprel"]
@@ -932,6 +974,7 @@ def convert_syntax(sentence2, sent_id)
 
         
         if udeprels[id] == "mark" or udeprels[id] == "case" or deprel == "mark" or deprel == "case"
+            clause_or_not(phrasecat,upos,sent_id,head,"markcase")
             if udeprels[id] == "mark" or udeprels[id] == "case" #at this point, mark/case could have been specified either in deprel or in udeprel, hence the weird structure
                 old = udeprels[id].clone
             else
@@ -953,9 +996,9 @@ def convert_syntax(sentence2, sent_id)
                     udeprels[id] = "mark"               
                 end
             end            
-            if udeprels[id] != old #== "mark" and old == "case" #
-                STDOUT.puts "CHANGE\tcopula=#{@copula}\t#{sent_id}\t#{id}\tchange #{old} to #{udeprels[id]}"
-            end
+            #if udeprels[id] != old #== "mark" and old == "case" #
+                #STDOUT.puts "CHANGE\tcopula=#{@copula}\t#{sent_id}\t#{id}\tchange #{old} to #{udeprels[id]}"
+            #end
         
         end
         
@@ -1491,6 +1534,10 @@ if mode == "other"
     STDERR.puts dtlist
 end
 
+STDOUT.puts ""
+@clauses1.each_pair do |deprel,examples|
+    STDOUT.puts examples.shuffle
+end
 
 #STDOUT.puts @chain_array.uniq
 #STDERR.puts @jfuposs.uniq
