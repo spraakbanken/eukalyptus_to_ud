@@ -1,22 +1,33 @@
-# sent_id = Regr_255175.12
-# text = Ekonomiskt stöd enligt förordningen får dock lämnas för åtgärder som vidtagits från och med den 1 augusti 2014.
-1	Ekonomiskt	ekonomisk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod		PhraseCat=NP
-2	stöd	stöd	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nsubj		PhraseCat=NP
-3	enligt	enligt	ADP	_	_	4	case		NewHead=4|PhraseCat=PP
-4	förordningen	förordning	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nmod		PhraseCat=PP
-5	får	få	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	7	aux		NewHead=7|PhraseCat=S
-6	dock	dock	ADV	_	_	7	advmod		PhraseCat=S
-7	lämnas	lämna	VERB	_	VerbForm=Inf|Voice=Pass	0	root		PhraseCat=VP
-8	för	för	ADP	_	_	9	case		NewHead=9|PhraseCat=PP
-9	åtgärder	åtgärd	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	nmod		PhraseCat=NP
-10	som	som	SCONJ	_	_	11	mark		NewHead=11|PhraseCat=SuP
-11	vidtagits	vidta	VERB	_	VerbForm=Sup|Voice=Pass	9	advcl		PhraseCat=VP
-12	från	från	ADP	_	_	17	case		NewHead=17|PhraseCat=PP
-13	och	och	CCONJ	_	_	14	cc		PhraseCat=KoP
-14	med	med	ADP	_	_	17	conj		PhraseCat=PP
-15	den	den	DET	_	Definite=Def|Gender=Com|Number=Sing|PronType=Art	17	det		PhraseCat=NP
-16	1	1	ADV	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	advmod		PhraseCat=NP
-17	augusti	augusti	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nmod	14:OO|12:	PhraseCat=NP
-18	2014	2014	NUM	_	NumType=Card	17	nummod		PhraseCat=NP|SpaceAfter=No
-19	.	.	PUNCT	_	_	7	punct		PhraseCat=Top
+# sent_id = Arbt_Ariel.13
+# text = – I militära aktioner gick han alltid ut så hårt det gick att gå, längre än de order han fick från det politiska ledarskapet, säger Dror Feiler.
+1	–	–	PUNCT	_	_	27	punct		
+2	I	i	ADP	_	_	4	case		NewHead=4|PhraseCat=PP
+3	militära	militär	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod		
+4	aktioner	aktion	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	nmod		PhraseCat=NP
+5	gick	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	OO		PhraseCat=S
+6	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	SB		
+7	alltid	alltid	ADV	_	_	5	advmod		
+8	ut	ut	ADV	_	_	5	compound:prt		
+9	så	så	ADV	_	_	10	advmod		PhraseCat=AbP
+10	hårt	hård	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	OA		PhraseCat=AjP
+11	det	den	PRON	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	12	SB		
+12	gick	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl		PhraseCat=S
+13	att	att	PART	_	_	14	mark		NewHead=14|PhraseCat=SuP
+14	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	12	ES		PhraseCat=SuP|SpaceAfter=No
+15	,	,	PUNCT	_	_	27	punct		
+16	längre	lång	ADJ	_	Case=Nom|Degree=Cmp	10	AN		PhraseCat=AjP
+17	än	än	SCONJ	_	_	19	case		NewHead=19|PhraseCat=SuP
+18	de	den	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det		
+19	order	order	NOUN	_	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	obl		PhraseCat=NP
+20	han	han	PRON	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	SB		
+21	fick	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl		PhraseCat=S
+22	från	från	ADP	_	_	25	case		NewHead=25|PhraseCat=PP
+23	det	den	DET	_	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det		
+24	politiska	politisk	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	25	amod		
+25	ledarskapet	ledarskap	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	21	OA		PhraseCat=NP|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct		
+27	säger	säga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root		PhraseCat=S
+28	Dror	Dror	PROPN	_	Case=Nom	27	SB		ExtXpos=ENM
+29	Feiler	Feiler	PROPN	_	Case=Nom	28	fixed		ExtXpos=ENM|SpaceAfter=No
+30	.	.	PUNCT	_	_	27	punct		
 

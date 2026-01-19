@@ -92,7 +92,8 @@ list, dislocated, orphan
 
 @ordnums = ["första", "fjortonde", "andra", "25:e", "tredje", "fjärde", "femte", "sjätte", "sjunde", "nionde", "elfte", "tolfte", "trettonde", "femtonde", "sextonde", "sjuttonde", "artonde", "nittonde", "700:e", "tionde", "åttonde", "III"] #"annan"
 
-#TODO-DIM: All fixed expressions must have the first word as root. But then, we'd have to deal with many fixed expressions manually in any case, since they are not actually fixed in UD...
+#TODO0: All fixed expressions must have the first word as root.
+#TODO-DIM:  But then, we'd have to deal with many fixed expressions manually in any case, since they are not actually fixed in UD...
 #TODO1: more ordnum lemmas (generate? or split and analyze?)
 #TODO2: WAITING determiners
 #TODO2: WAITING Add verbal features for participles? Or exclude them from the participle function?
@@ -642,6 +643,7 @@ def convert_syntax(sentence2, sent_id)
                 if cont_phrasecat.to_s == ""
                     umisc[contenthead].reject!{|s| s.include?("PhraseCat")}
                     umisc[contenthead] << "PhraseCat=#{func_phrasecat}"
+                    #STDERR.puts "CHS\t#{contenthead}\t#{umisc[contenthead].join(" ")}"
                 end
                 
                 
@@ -649,11 +651,11 @@ def convert_syntax(sentence2, sent_id)
                     sentence[contenthead]["deprel"] = sentence[functional_head]["deprel"].clone
                 end
                 sentence[functional_head]["head"] = contenthead.clone
-                if sentence[functional_head]["misc"]==""
+                #if sentence[functional_head]["misc"]==""
                     umisc[functional_head] << "NewHead=#{contenthead}"
-                else
-                    umisc[functional_head] << "#{sentence[functional_head]["misc"]}|NewHead=#{contenthead}"
-                end
+                #else
+                #    umisc[functional_head] << "#{sentence[functional_head]["misc"]}|NewHead=#{contenthead}"
+                #end
                 
                 if funcheadtype == "adp"
                     #TODO: look at rels or PhraseCat instead?
@@ -809,6 +811,14 @@ def convert_syntax(sentence2, sent_id)
         misc = senthash["misc"]
         form = senthash["form"]
         phrasecat = findinset(sent_id,"PhraseCat",	misc, sentence, id)
+        #STDERR.puts "#{id}\t#{umisc[id].join(" ")}"
+        udphrasecat = findinset(sent_id,"PhraseCat",umisc[id], sentence, id)
+        #STDERR.puts "#{id}\t#{phrasecat}\t#{udphrasecat}"
+        if udphrasecat.to_s != "" and udphrasecat != phrasecat
+            phrasecat = udphrasecat.clone
+        end
+        #STDERR.puts "#{id}\t#{phrasecat}\t#{udphrasecat}"
+        
         #if phrasecat == "KoP"
         #    @kopcounter += 1
         #end
@@ -841,13 +851,16 @@ def convert_syntax(sentence2, sent_id)
         
 #converting DF
         if deprel == "DF"
+            if lemma != "vilken"
+                clause_or_not(phrasecat,upos,sent_id,id,"DF")
+            end
             if upos == "CCONJ"
                 udeprels[id] = "cc"
             elsif form == "osv" or form == "etc"
                 udeprels[id] = "conj"
             elsif @markcats.include?(phrasecat) or upos == "VERB" #will NOT be corrected later by verbal_or_not
                 udeprels[id] = "parataxis"
-                clause_or_not(phrasecat,upos,sent_id,id,"DF")
+                
                 
                 #if phrasecat.to_s == ""
                 #    STDOUT.puts "No PhraseCat\tDF\t#{sent_id}\t#{id}"
@@ -962,6 +975,10 @@ def convert_syntax(sentence2, sent_id)
         misc = senthash["misc"]
         form = senthash["form"]
         phrasecat = findinset(sent_id,"PhraseCat",	misc, sentence, id)
+        udphrasecat = findinset(sent_id,"PhraseCat",umisc[id], sentence, id)
+        if udphrasecat.to_s != "" and udphrasecat !=phrasecat
+            phrasecat = udphrasecat
+        end
         
         if head.nil?
             head = 0
@@ -1040,7 +1057,11 @@ def convert_syntax(sentence2, sent_id)
 end
 
 def findinset(sent_id,target,misc,sentence,id)
-    miscs = misc.to_s.split("|")
+    if misc.kind_of?(Array)
+        miscs = misc.clone
+    else 
+        miscs = misc.to_s.split("|")
+    end
     value = nil
     miscs.each do |miscs1|
         if miscs1.include?(target)

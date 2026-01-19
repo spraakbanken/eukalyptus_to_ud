@@ -1,22 +1,33 @@
-# sent_id = Regr_255175.12
-# text = Ekonomiskt stöd enligt förordningen får dock lämnas för åtgärder som vidtagits från och med den 1 augusti 2014.
-1	Ekonomiskt	ekonomisk	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	2	MD		PhraseCat=NP
-2	stöd	stöd	NN	-.-.-	NN.NEU.SIN.IND	5	SB		PhraseCat=NP
-3	enligt	enligt	PE	-.-.-	PE.-	2	MD		PhraseCat=PP
-4	förordningen	förordning	NN	-.-.-	NN.UTR.SIN.DEF	3	OO		PhraseCat=PP
-5	får	få	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseCat=S
-6	dock	dock	AB	-.-.-	AB.-.-	5	MD		PhraseCat=S
-7	lämnas	lämna	VB	-.-.-	VB.INF.SFO.-	5	IV		PhraseCat=VP
-8	för	för	PE	-.-.-	PE.-	7	MD		PhraseCat=PP
-9	åtgärder	åtgärd	NN	-.-.-	NN.UTR.PLU.IND	8	OO		PhraseCat=NP
-10	som	som	SU	-.-.-	SU.-	9	MD		PhraseCat=SuP
-11	vidtagits	vidta	VB	-.-.-	VB.SPM.SFO.-	10	OO		PhraseCat=VP
-12	från	från	PE	-.-.-	PE.-	13	KL		PhraseCat=PP
-13	och	och	KO	-.-.-	KO.-	11	MD		PhraseCat=KoP
-14	med	med	PE	-.-.-	PE.-	13	KL		PhraseCat=PP
-15	den	den	PO	-.-.-	PO.DEF.SIN.UTR.SUB/OBJ.-	17	DT		PhraseCat=NP
-16	1	först	AJ	-.-.-	AJ.POS.SIN.IND.UTR.-	17	MD		PhraseCat=NP
-17	augusti	augusti	NN	-.-.-	NN.UTR.SIN.IND	14	OO	14:OO|12:	PhraseCat=NP
-18	2014	tvåtusenfjorton	NU	-.-.-	NU.-	17	MD		PhraseCat=NP|SpaceAfter=No
-19	.	_	SY	-.-.-	SY.DEL	5	--		PhraseCat=Top
+# sent_id = Arbt_Ariel.13
+# text = – I militära aktioner gick han alltid ut så hårt det gick att gå, längre än de order han fick från det politiska ledarskapet, säger Dror Feiler.
+1	–	_	SY	-.-.-	SY.DEL	27	--		
+2	I	i	PE	-.-.-	PE.-	5	MD		PhraseCat=PP
+3	militära	militär	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	4	MD		
+4	aktioner	aktion	NN	-.-.-	NN.UTR.PLU.IND	2	OO		PhraseCat=NP
+5	gick	gå	VB	-.-.-	VB.IND.AKT.PRT	27	OO		PhraseCat=S
+6	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	5	SB		
+7	alltid	alltid	AB	-.-.-	AB.-.-	5	MD		
+8	ut	ut	AB	-.-.-	AB.-.-	5	PL		
+9	så	så	AB	-.-.-	AB.-.-	10	MD		PhraseCat=AbP
+10	hårt	hård	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	5	OA		PhraseCat=AjP
+11	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	12	SB		
+12	gick	gå	VB	-.-.-	VB.IND.AKT.PRT	9	JF		PhraseCat=S
+13	att	att	SU	-.-.-	SU.-	12	ES		PhraseCat=SuP
+14	gå	gå	VB	-.-.-	VB.INF.AKT.-	13	OO		SpaceAfter=No
+15	,	_	SY	-.-.-	SY.DEL	27	--		
+16	längre	lång	AJ	-.-.-	AJ.KOM.SIN/PLU.IND/DEF.UTR/NEU.-	10	AN		PhraseCat=AjP
+17	än	än	SU	-.-.-	SU.-	16	JF		PhraseCat=SuP
+18	de	den	PO	-.-.-	PO.DEF.PLU.UTR/NEU.SUB/OBJ.-	19	DT		
+19	order	order	NN	-.-.-	NN.UTR.PLU.IND	17	OO		PhraseCat=NP
+20	han	han	PO	-.-.-	PO.DEF.SIN.UTR.SUB.-	21	SB		
+21	fick	få	VB	-.-.-	VB.IND.AKT.PRT	19	MD		PhraseCat=S
+22	från	från	PE	-.-.-	PE.-	21	OA		PhraseCat=PP
+23	det	den	PO	-.-.-	PO.DEF.SIN.NEU.SUB/OBJ.-	25	DT		
+24	politiska	politisk	AJ	-.-.-	AJ.POS.SIN.DEF.UTR/NEU.-	25	MD		
+25	ledarskapet	ledarskap	NN	-.-.-	NN.NEU.SIN.DEF	22	OO		PhraseCat=NP|SpaceAfter=No
+26	,	_	SY	-.-.-	SY.DEL	27	--		
+27	säger	säga	VB	-.-.-	VB.IND.AKT.PRS	0	--		PhraseCat=S
+28	Dror	Dror	EN	-.-.-	EN.-	27	SB		ExtXpos=ENM
+29	Feiler	Feiler	EN	-.-.-	EN.-	28	ME		ExtXpos=ENM|SpaceAfter=No
+30	.	_	SY	-.-.-	SY.DEL	27	--
 
