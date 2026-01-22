@@ -25,6 +25,7 @@ elsif mode == "list_pos"
     lemmas_per_pos = Hash.new(true)
 end
 
+@udclauses = ["csubj","ccomp","xcomp","advcl","acl","list","parataxis"]
 @matchingu = {"PE" => "ADP","AJ" => "ADJ","NN"=>"NOUN","EN"=>"PROPN", "SY"=>"PUNCT", "IJ"=>"INTJ", "KO" => "CCONJ", "AB" => "ADV", "NU" => "NUM", "PO" => "PRON", "SU" => "SCONJ", "UO" => "X", "VB" => "VERB"}
 
 @all_upos = ["ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X"]
@@ -32,7 +33,7 @@ end
 @mycketlemmas = {"mycken" => "mycket", "litet" => "lite", "mången" => "många", "flera" => "många"}
 #handling elsewhere: KL, HD, DF, DT, MD
 
-@matchdeprels = {"ME"=>"fixed", "PL"=>"compound:prt","IV"=>"xcomp","--"=>"discourse","OP"=>"xcomp","SP"=>"xcomp"} #"HD"=>"dep",
+@matchdeprels = {"ME"=>"fixed", "PL"=>"compound:prt","IV"=>"xcomp","--"=>"discourse","OP"=>"xcomp","SP"=>"xcomp","OA"=>"obl"} #"HD"=>"dep",
 
 
 @matchdeprels_old = {"SB"=>"nsubj", "OO" => "obj", "AG"=>"obl:agent","AN"=>"appos", "EF"=>"acl:cleft", "EO" => "obj", "ES" => "nsubj","IO"=>"iobj","ME"=>"fixed","OA"=>"advcl","OP"=>"xcomp","PL"=>"compound:prt","RA"=>"advmod","SP"=>"xcomp","IV"=>"xcomp","--"=>"discourse"} #"HD"=>"dep",
@@ -46,11 +47,11 @@ end
 #TODONOW: Gerlof, clausal relationships (OO etc.), SCONJ, PH (deal with som first), OA, RA (parent and child), check all E*, udeprel validation, from UD side, go through existing issues, go through TODOs, metadata, evaluation... Split, validation, documentation
 
 Lista 0: clause or not 
-TODO: "SB"=>"nsubj/csubj", "OO" => "obj/ccomp", "AG"=>"obl:agent/advcl, if any?", "IO"=>"iobj/advcl, if any?", AN (appos/??), OA (+adverbial or not?), 
+TODO: "SB"=>"nsubj/csubj", "OO" => "obj/ccomp", "AG"=>"obl:agent/advcl, if any?", "IO"=>"iobj/advcl, if any?", AN (appos/??)
 
 
 Lista 1: one-to-one mappings list
-DONE: PL, ME, OP, SP
+DONE: PL, ME, OP, SP, OA
 
 Lista 2: special functions
 DONE:  JF, MD, DF, DT
@@ -268,13 +269,19 @@ end
 @chain_array = []
 
 def clause_or_not(phrasecat,upos,sent_id,id,wherefrom)
-    if @markcats.include?(phrasecat) and ["VERB","AUX"].include?(upos)
+    if @markcats.include?(phrasecat) and ["VERB"].include?(upos)
+        status = "CSM"
         #@clauses1[wherefrom] << "SM\t#{sent_id}\t#{id}\t#{wherefrom}"
-    elsif  @markcats.include?(phrasecat) and !["VERB","AUX"].include?(upos)    
-        @clauses1[wherefrom] << "S\t#{sent_id}\t#{id}\t#{wherefrom}"
-    elsif !@markcats.include?(phrasecat) and ["VERB","AUX"].include?(upos)    
-        @clauses1[wherefrom] << "M\t#{sent_id}\t#{id}\t#{wherefrom}"
+    elsif  @markcats.include?(phrasecat) and !["VERB"].include?(upos)    
+        status = "CS" 
+        #@clauses1[wherefrom] << "S\t#{sent_id}\t#{id}\t#{wherefrom}"
+    elsif !@markcats.include?(phrasecat) and ["VERB"].include?(upos)    
+        status = "CM"
+    else
+        status = "N"
+        #@clauses1[wherefrom] << "M\t#{sent_id}\t#{id}\t#{wherefrom}"
     end
+    return status
 end
 
 def findfunchead_topdown(sent_id,topdown,sentence,id,firsthead,chain)
@@ -833,9 +840,10 @@ def convert_syntax(sentence2, sent_id)
             udeprels[id] = "root"
         end
         
-        if ["MD","SB","OO","AG","IO","AN","OA","RA","EF","EO","ES"].include?(deprel)
-            clause_or_not(phrasecat,upos,sent_id,id,deprel)
-        end
+        clause_status = clause_or_not(phrasecat,upos,sent_id,id,deprel)
+        #if ["MD","SB","OO","AG","IO","AN","OA","RA","EF","EO","ES"].include?(deprel)
+        #    clause_or_not(phrasecat,upos,sent_id,id,deprel)
+        #end
 
 =begin
         if !["case","mark","advmod","cconj","fixed","ME"].include?(deprel)
@@ -851,16 +859,46 @@ def convert_syntax(sentence2, sent_id)
         
 #converting DF
         if deprel == "DF"
-            if lemma != "vilken"
-                clause_or_not(phrasecat,upos,sent_id,id,"DF")
+            vilken = false
+            #clause_status = clause_or_not(phrasecat,upos,sent_id,id,"DF")
+            daughters = finddaughters(sentence,id)
+            daughters.each do |daughter|
+                if sentence[daughter][lemma]=="vilken" and sentence[daughter][deprel] == "SB"
+                    #why not for Blog_6843-2767923.17?!
+                    STDOUT.puts "DF-VERB-vilken:#{sent_id}\t#{id}"
+                    vilken = true
+                    break
+                end
             end
+            
             if upos == "CCONJ"
                 udeprels[id] = "cc"
             elsif form == "osv" or form == "etc"
                 udeprels[id] = "conj"
-            elsif @markcats.include?(phrasecat) or upos == "VERB" #will NOT be corrected later by verbal_or_not
-                udeprels[id] = "parataxis"
+            elsif vilken
+                udeprels[id] = "advcl:relcl"                  
+            elsif lemma=="vilken"
+                STDOUT.puts "DF-vilken:#{sent_id}\t#{id}"
+                udeprels[id] = "discourse"
                 
+=begin
+                newhead = nil
+                daughters.each do |daughter|
+                    if sentence[daughter][deprel]=="OO"
+                        newhead = daughter.clone
+                        break                    
+                    end
+                end
+                sentence[newhead]["head"] = head.clone
+                sentence[newhead]["deprel"] = "advcl:relcl"
+                udeprels[newhead] = "advcl:relcl"
+                udeprels[id] = "nsubj"
+                uheads[id] = newhead.clone
+                #TODO: merge with other pronominal changes?
+=end
+                
+            elsif clause_status.include?("C")
+                udeprels[id] = "parataxis"               
                 
                 #if phrasecat.to_s == ""
                 #    STDOUT.puts "No PhraseCat\tDF\t#{sent_id}\t#{id}"
@@ -896,7 +934,10 @@ def convert_syntax(sentence2, sent_id)
         
 #converting MD        
         if deprel == "MD"
-            if upos == "ADJ"
+            if clause_status.include?("C")
+                udeprels[id] = "advcl"
+                #STDOUT.puts "#{sent_id}\t#{id}\tMD=advcl"
+            elsif upos == "ADJ"
                 udeprels[id] = "amod"
             elsif upos == "NOUN" or upos == "PROPN" or upos == "PRON" or upos == "X"
                 udeprels[id] = "nmod"
@@ -904,8 +945,7 @@ def convert_syntax(sentence2, sent_id)
                 udeprels[id] = "nummod"
             elsif upos == "ADV" or upos == "PART"
                 udeprels[id] = "advmod"
-            elsif upos == "VERB"
-                udeprels[id] = "advcl"
+            #elsif upos == "VERB"                
             elsif upos == "ADP"
                 if findinset(sent_id,"ExtXpos",misc,sentence, id)=="ABM"
                     udeprels[id] = "advmod"
@@ -917,12 +957,12 @@ def convert_syntax(sentence2, sent_id)
                     end
                     #STDOUT.puts "MD, #{sent_id}, #{id}, #{upos}, #{form}"    
                 end
-            elsif upos == "SCONJ" #fix SCONJs in general
-                if @markcats.include?(phrasecat) #will be corrected later by verbal_or_not
-                    udeprels[id] = "mark"
-                else
-                    udeprels[id] = "case"
-                end
+            #elsif upos == "SCONJ" #fix SCONJs in general
+            #    if @markcats.include?(phrasecat) #will be corrected later by verbal_or_not
+            #        udeprels[id] = "mark"
+            #    else
+            #        udeprels[id] = "case"
+            #    end
                 #if phrasecat.to_s == ""
                 #    STDOUT.puts "No PhraseCat\tSCONJ\t#{sent_id}\t#{id}"
                 #end
@@ -945,9 +985,10 @@ def convert_syntax(sentence2, sent_id)
         if deprel == "JF"
             #umisc[id] << "JF=True"
             
-            clause_or_not(phrasecat,upos,sent_id,id,"JF")
+            #clause_status = clause_or_not(phrasecat,upos,sent_id,id,"JF")
             
-            if verbal_or_not(sentence,id,["VERB","ADJ","ADV","AUX"]) #note that verbal_or_not is used differently, not as in mark/case (re)assignment below
+            #if verbal_or_not(sentence,id,["VERB","ADJ","ADV","AUX"]) #note that verbal_or_not is used differently, not as in mark/case (re)assignment below
+            if clause_status.include?("M")
                 udeprels[id] = "advcl"
             else                
                 udeprels[id] = "obl"
@@ -962,7 +1003,7 @@ def convert_syntax(sentence2, sent_id)
     end
                
 #depends on the udeprels assigned in the previous cycle, hence the new cycle. 
-# double-checking mark and case and correcting everything else
+
     sentence.each_pair do |id,senthash|
         #STDERR.puts "#{id} #{senthash}"
         deprel = senthash["deprel"]
@@ -979,7 +1020,7 @@ def convert_syntax(sentence2, sent_id)
         if udphrasecat.to_s != "" and udphrasecat !=phrasecat
             phrasecat = udphrasecat
         end
-        
+        clause_status = clause_or_not(phrasecat,upos,sent_id,id,deprel)
         if head.nil?
             head = 0
         end
@@ -990,34 +1031,7 @@ def convert_syntax(sentence2, sent_id)
         end
 
         
-        if udeprels[id] == "mark" or udeprels[id] == "case" or deprel == "mark" or deprel == "case"
-            clause_or_not(phrasecat,upos,sent_id,head,"markcase")
-            if udeprels[id] == "mark" or udeprels[id] == "case" #at this point, mark/case could have been specified either in deprel or in udeprel, hence the weird structure
-                old = udeprels[id].clone
-            else
-                old = deprel.clone
-            end
-           
-            if verbal_or_not(sentence,head,["VERB","AUX"]) #the @markcats approach overgenerates "mark", because Eukalyptus is much more generous with subordinate phrases/clauses than UD. Hence another rule: if the head is not verbal, ignore PhraseCat
-                if !@copula #exception: if the head is nominal and there is a copula as a daughter, it COULD be a clause, but too many examples aren't (additional problem: too many "vara" misclassified as copula. Best to ignore such cases
-                    udeprels[id] = "mark"
-                else
-                    if udeprels[id].nil? #that's just for debugging purposes, otherwise missing udeprels could be dealt with below              
-                        udeprels[id] = deprel.clone
-                    end
-                end
-            else
-                if udeprels[head] != "advcl"
-                    udeprels[id] = "case" #works quite well
-                else
-                    udeprels[id] = "mark"               
-                end
-            end            
-            #if udeprels[id] != old #== "mark" and old == "case" #
-                #STDOUT.puts "CHANGE\tcopula=#{@copula}\t#{sent_id}\t#{id}\tchange #{old} to #{udeprels[id]}"
-            #end
         
-        end
         
 #converting -- to punct
         if upos == "PUNCT"
@@ -1035,7 +1049,109 @@ def convert_syntax(sentence2, sent_id)
                 end
             end
         end
-        uheads[id] = head #move to a separate cycle?
+    end
+
+# double-checking mark and case 
+    sentence.each_pair do |id,senthash|
+        #STDERR.puts "#{id} #{senthash}"
+        deprel = senthash["deprel"]
+        #STDERR.puts deprel
+        head = senthash["head"]
+        upos = senthash["upos"]
+        lemma = senthash["lemma"]
+        #STDERR.puts upos
+        feats = senthash["feats"]
+        misc = senthash["misc"]
+        form = senthash["form"]
+        phrasecat = findinset(sent_id,"PhraseCat",	misc, sentence, id)
+        udphrasecat = findinset(sent_id,"PhraseCat",umisc[id], sentence, id)
+        if udphrasecat.to_s != "" and udphrasecat !=phrasecat
+            phrasecat = udphrasecat
+        end
+        clause_status = clause_or_not(phrasecat,upos,sent_id,id,deprel)
+        if head.nil?
+            head = 0
+        end
+     
+
+        if head == 0
+            udeprels[id] = "root"
+        end
+
+        
+        if udeprels[id] == "mark" or udeprels[id] == "case" or deprel == "mark" or deprel == "case"
+            if head == 0
+                STDOUT.puts "#{sent_id}\t#{id}\tmarkcase under root!"
+            else 
+            
+                if @udclauses.include?(udeprels[head].split(":")[0])
+                    udeprels[id] = "mark"
+                else
+                    udeprels[id] = "case"
+                end
+            end            
+               
+            #clause_or_not(phrasecat,upos,sent_id,head,"markcase")
+            #if udeprels[id] == "mark" or udeprels[id] == "case" #at this point, mark/case could have been specified either in deprel or in udeprel, hence the weird structure
+            #    old = udeprels[id].clone
+            #else
+            #    old = deprel.clone
+            #end
+           
+            #if verbal_or_not(sentence,head,["VERB","AUX"]) #the @markcats approach overgenerates "mark", because Eukalyptus is much more generous with subordinate phrases/clauses than UD. Hence another rule: if the head is not verbal, ignore PhraseCat
+                #if !@copula #exception: if the head is nominal and there is a copula as a daughter, it COULD be a clause, but too many examples aren't (additional problem: too many "vara" misclassified as copula. Best to ignore such cases
+                #    udeprels[id] = "mark"
+                #else
+                    #if udeprels[id].nil? #that's just for debugging purposes, otherwise missing udeprels could be dealt with below              
+                    #    udeprels[id] = deprel.clone
+                    #end
+                #end
+            #else
+            #    if udeprels[head] != "advcl"
+            #        udeprels[id] = "case" #works quite well
+            #    else
+            #        udeprels[id] = "mark"               
+            #    end
+            #end            
+            #if udeprels[id] != old #== "mark" and old == "case" #
+                #STDOUT.puts "CHANGE\tcopula=#{@copula}\t#{sent_id}\t#{id}\tchange #{old} to #{udeprels[id]}"
+            #end
+        
+        end
+    
+    end
+    
+    #assigning heads and miscs
+    sentence.each_pair do |id,senthash|
+        #STDERR.puts "#{id} #{senthash}"
+        deprel = senthash["deprel"]
+        #STDERR.puts deprel
+        head = senthash["head"]
+        upos = senthash["upos"]
+        lemma = senthash["lemma"]
+        #STDERR.puts upos
+        feats = senthash["feats"]
+        misc = senthash["misc"]
+        form = senthash["form"]
+        phrasecat = findinset(sent_id,"PhraseCat",	misc, sentence, id)
+        udphrasecat = findinset(sent_id,"PhraseCat",umisc[id], sentence, id)
+        if udphrasecat.to_s != "" and udphrasecat !=phrasecat
+            phrasecat = udphrasecat
+        end
+        clause_status = clause_or_not(phrasecat,upos,sent_id,id,deprel)
+        if head.nil?
+            head = 0
+        end
+     
+
+        if head == 0
+            udeprels[id] = "root"
+        end
+  
+    
+        if uheads[id].nil?
+            uheads[id] = head #move to a separate cycle?
+        end
         miscarray = misc.split("|")
         
         #to prevent tokens having two PhraseCat (can happen with former functional heads)

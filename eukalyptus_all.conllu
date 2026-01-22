@@ -62,7 +62,7 @@
 11	ALLT	all	PO	-.-.-	PO.IND.SIN.NEU.-.-	14	SB		PhraseCat=NP
 12	i	i	PE	-.-.-	PE.-	11	MD		PhraseCat=PP
 13	filmen	film	NN	-.-.-	NN.UTR.SIN.DEF	12	OO		
-14	är	vara	VB	-.-.-	VB.IND.AKT.PRS	10	MD		PhraseCat=S
+14	är	vara	VB	-.-.-	VB.IND.AKT.PRS	10	OO		PhraseCat=S
 15	svenskt	svensk	AJ	-.-.-	AJ.POS.SIN.IND.NEU.-	14	SP		
 16	utan	utom	PE	-.-.-	PE.-	14	MD		CorrectForm=utom|PhraseCat=PP
 17	några	någon	PO	-.-.-	PO.IND.PLU.UTR/NEU.-.-	19	DT		
@@ -57905,11 +57905,11 @@
 9	västvärlden	västvärld	NN	-.-.-	NN.UTR.SIN.DEF	8	OO		SpaceAfter=No
 10	,	_	SY	-.-.-	SY.DEL	3	--		
 11	att	att	SU	-.-.-	SU.-	3	ES		PhraseCat=SuP
-12	inte	inte	AB	-.-.-	AB.-.-	15	MD		
-13	begå	begå	VB	-.-.-	VB.INF.AKT.-	15	MD		
+12	inte	inte	AB	-.-.-	AB.-.-	13	MD		
+13	begå	begå	VB	-.-.-	VB.INF.AKT.-	11	OO		PhraseCat=VP
 14	liknande	liknande	AJ	-.-.-	AJ.POS.PLU.IND/DEF.UTR/NEU.-	15	MD		
-15	misstag	misstag	NN	-.-.-	NN.NEU.PLU.IND	11	OO		PhraseCat=NP
-16	igen	igen	AB	-.-.-	AB.-.-	15	MD		SpaceAfter=No
+15	misstag	misstag	NN	-.-.-	NN.NEU.PLU.IND	13	OO		PhraseCat=NP
+16	igen	igen	AB	-.-.-	AB.-.-	13	MD		SpaceAfter=No
 17	.	_	SY	-.-.-	SY.DEL	3	--		
 
 # sent_id = Arbt_Rwanda.19

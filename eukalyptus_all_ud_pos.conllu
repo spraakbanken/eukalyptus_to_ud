@@ -62,7 +62,7 @@
 11	ALLT	all	PRON	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	14	SB		PhraseCat=NP
 12	i	i	ADP	_	_	11	MD		PhraseCat=PP
 13	filmen	film	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	OO		
-14	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	10	MD		PhraseCat=S
+14	är	vara	AUX	_	Mood=Ind|Tense=Pres|Voice=Act	10	OO		PhraseCat=S
 15	svenskt	svensk	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	SP		
 16	utan	utom	ADP	_	Typo=Yes	14	MD		CorrectForm=utom|PhraseCat=PP
 17	några	någon	DET	_	Definite=Ind|Number=Plur|PronType=Ind	19	DT		
@@ -57905,11 +57905,11 @@
 9	västvärlden	västvärld	NOUN	_	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	OO		SpaceAfter=No
 10	,	,	PUNCT	_	_	3	--		
 11	att	att	SCONJ	_	_	3	ES		PhraseCat=SuP
-12	inte	inte	PART	_	Polarity=Neg	15	MD		
-13	begå	begå	VERB	_	VerbForm=Inf|Voice=Act	15	MD		
+12	inte	inte	PART	_	Polarity=Neg	13	MD		
+13	begå	begå	VERB	_	VerbForm=Inf|Voice=Act	11	OO		PhraseCat=VP
 14	liknande	liknande	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part	15	MD		
-15	misstag	misstag	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	OO		PhraseCat=NP
-16	igen	igen	ADV	_	_	15	MD		SpaceAfter=No
+15	misstag	misstag	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	OO		PhraseCat=NP
+16	igen	igen	ADV	_	_	13	MD		SpaceAfter=No
 17	.	.	PUNCT	_	_	3	--		
 
 # sent_id = Arbt_Rwanda.19
